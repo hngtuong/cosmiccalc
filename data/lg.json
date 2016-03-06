@@ -100,7 +100,7 @@
 {id:91,name:"Airyad LG",cost:40,hp:25,tec:2,wlk:2,fly:1}
 {id:92,name:"Wanders LG",cost:30,hp:20,str:-1,tec:1,wlk:2,fly:1,tgh:1}
 {id:113,name:"Wanders LG2",cost:15,hp:15,str:1,tec:1,wlk:2,fly:-1}
-{id:94,name:"Amlim LG@",sub:{shl:7,rng:290,itv:1000},conversion:"BDAS67LG BDAS79LG",comment:"Attachable to 'Amlim LG' only",cost:10,type:"a",slot:0}
+{id:94,name:"Amlim LG@",sub:{shl:7,rng:290,itv:1000},conversion:"BDAS67LG BDAS79LG BDAS104LG",comment:"Attachable to 'Amlim LG/LG2/LG3' only",cost:10,type:"a",slot:0}
 {id:95,name:"Orphenous LG",cost:35,hp:20,str:1,tec:1,wlk:3}
 {id:96,name:"Swift LG",cost:40,hp:20,tec:1,wlk:2,fly:2}
 {id:1100,name:"Swift LG2",cost:40,hp:20,tec:1,wlk:2,fly:2}
@@ -111,6 +111,7 @@
 {id:103,name:"K Nana LG",type:"c",cost:35,hp:20,wlk:2,fly:2,tgh:1}
 {id:105,name:"Alestar LG",sub:{pwr:1,shl:20,rng:300,spd:100,itv:1000},type:"s",cost:115,hp:25,tec:1,wlk:2,tgh:2}
 {id:108,name:"F Ruhl LG",cost:35,hp:20,str:1,wlk:2,fly:1}
+{id:1097,name:"F Ruhl LG2",cost:35,hp:20,wlk:2,fly:2}
 {id:109,name:"Tristan LG",cost:35,hp:20,tec:2,wlk:1,fly:1,tgh:1}
 {id:111,name:"Recipro LG",cost:35,hp:20,tec:2,wlk:2,fly:2,tgh:-1}
 
@@ -246,12 +247,12 @@
 {id:1106,name:"Wizamel LG",cost:45,hp:25,tec:1,wlk:2,fly:1,tgh:1}
 {id:120,name:"Bloody Star LG",sub:{shl:15,rng:100,spd:200,itv:600},type:"lc",cost:65,hp:25,tec:2,wlk:2,fly:1}
 {id:122,name:"Sovlancer LG",cost:45,hp:25,str:2,wlk:2,fly:2,tgh:-1}
+{id:123,name:"Dark Revenant LG",type:"l",cost:45,hp:25,str:2,tec:-1,wlk:3,fly:1}
 
 
 {id:1103,name:"Oboromaru LG",cost:45,hp:25,str:2,tec:2,wlk:2,fly:-1}
 {id:1104,name:"Gotrun LG",sub:{shl:20,rng:120,spd:200,itv:1500},type:"l",cost:80,hp:20,tec:-1,wlk:3,fly:1,tgh:1}
 {id:1107,name:"Brink LG",type:"c",cost:30,hp:20,str:-1,tec:2,wlk:2,fly:1}
-{id:1108,name:"Dark Revenant LG",type:"l",cost:45,hp:25,str:2,tec:-1,wlk:3,fly:1}
 
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
@@ -370,6 +371,7 @@
 {id:115,name:"Gigant Arms LG",type:"l",joint:{wp:1},cost:55,hp:35,str:2,tec:-1,wlk:3,tgh:2}
 {id:116,name:"Cordyceps LG",cost:40,hp:25,tec:2,wlk:2,tgh:1}
 {id:110,name:"Flash Bomber LG",size:"L",cost:45,hp:25,str:1,tec:2,wlk:2,tgh:1}
+{id:112,name:"ギガントアームズLG",type:"l",size:"L",cost:55,hp:35,str:2,tec:-1,wlk:3,tgh:2,joint:{wp:1}}
 
 {id:109,name:"Falx LG",cost:45,hp:50,tec:-1,wlk:2,fly:1,tgh:3}
 {id:1000,name:"Crystas LG",sub:{tec:100,pwr:5,shl:360,rng:270,spd:290,itv:1500},type:"a",cost:60,hp:25,str:-1,tec:1,wlk:2,fly:2,tgh:1}
@@ -385,7 +387,7 @@
 {id:4,name:"Cyclotes LG",cost:45,hp:70,str:1,wlk:3,fly:-1,tgh:3}
 {id:15,name:"Cyclotes LG2",sub:{str:100,pwr:34,rng:80,spd:150,itv:500},tunable:{pwp:1},type:"l",cost:180,hp:70,str:2,wlk:2,fly:-1,tgh:3}
 {id:6,name:"Gaderoga LG",cost:65,hp:95,str:-1,tec:-1,wlk:5,fly:1,tgh:3,joint:{bs:1}}
-{id:11,name:"Gaderoga LG2",joint:{bs:1},cost:95,hp:95,str:1,tec:-1,wlk:5,fly:-1,tgh:3,sub:{pwr:15,rng:60,spd:90,itv:3000,str:100},tunable:{pwp:1},type:"lc",comment:"チューン不明"}
+{id:11,name:"Gaderoga LG2",joint:{bs:1},cost:95,hp:95,str:1,tec:-1,wlk:5,fly:-1,tgh:3,sub:{pwr:15,rng:60,spd:90,itv:3000,str:100},tunable:{pwp:1},type:"lc"}
 {id:7,name:"Ragna Barrett LG",cost:45,hp:55,wlk:4,tgh:1}
 {id:8,name:"Machintlet LG",cost:60,hp:75,str:2,wlk:1,fly:-1,tgh:3}
 {id:9,name:"Ilgryps LG",type:"a",joint:{bs:1},cost:45,hp:35,tec:1,wlk:1,fly:2,tgh:1}

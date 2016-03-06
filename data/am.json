@@ -192,10 +192,11 @@
 {id:174,name:"Manimo Girl AM2",joint:{wp:2},cost:35,hp:20,str:3,wlk:-1,fly:2,tgh:1,type:"a"}
 {id:175,name:"Pepen Girl AM",joint:{wp:2},type:"c",size:"S",cost:35,hp:20,tec:2,wlk:3,fly:-1,tgh:1}
 {id:176,name:"Seraph Crimrose AM7",type:"c",size:"S",cost:30,hp:15,str:-1,tec:2,wlk:1,tgh:1,fly:1,conversion:"BDCS73",comment:"Attachable to 'Seraph Crimrose BD14' only"}
-{id:177,name:"Alestar AM",cost:35,hp:20,str:2,tec:2,wlk:1,fly:2,tgh:-2}
-{id:1007,name:"Alestar AM2",type:"ls",joint:{wp:2},fixedParts:{wp:{name:"Alestar AM2@",main:{pwr:1,shl:90,rng:250,spd:570,itv:340},slot:0}},cost:75,hp:20,str:1,tec:1,wlk:2,fly:1}
+{id:193,name:"Alestar AM",cost:35,hp:20,str:2,tec:2,wlk:1,fly:2,tgh:-2}
+{id:177,name:"Alestar AM2",type:"ls",joint:{wp:2},fixedParts:{wp:{name:"Alestar AM2@",main:{pwr:1,shl:90,rng:250,spd:570,itv:340},slot:0}},cost:75,hp:20,str:1,tec:1,wlk:2,fly:1}
 {id:180,name:"F Ruhl AM",type:"a",cost:40,hp:20,tec:2,wlk:-1,fly:3,tgh:1}
-{id:192,name:"F Ruhl AM3",main:{tec:100,pwr:19,shl:240,rng:300,spd:370,itv:300},tunable:{mwp:1},type:"a",cost:140,hp:20,tec:3,fly:2}
+{id:1007,name:"F Ruhl AM2",type:"a",main:{pwr:18,shl:90,rng:300,spd:370,itv:700},tunable:{mwp:1},joint:{wp:0},cost:65,hp:10,fly:1,tgh:1}
+{id:192,name:"F Ruhl AM3",main:{tec:100,pwr:19,shl:240,rng:300,spd:370,itv:300},tunable:{mwp:1},joint:{wp:0},type:"a",cost:140,hp:20,tec:3,fly:2}
 {id:181,name:"Tristan AM",joint:{wp:2},cost:45,hp:25,tec:1,wlk:1,fly:1,tgh:2}
 {id:182,name:"Tristan AM2",joint:{wp:2},cost:45,hp:25,tec:1,wlk:1,fly:1,tgh:2}
 {id:183,name:"Fairys AM",cost:35,hp:20,str:1,tec:1,fly:2,tgh:1}
@@ -335,6 +336,7 @@
 {id:107,name:"Estes AM",main:{tec:100,pwr:16,shl:220,rng:230,spd:360,itv:440},type:"l",cost:135,hp:20,tec:3,fly:-1,tgh:3,tunable:{mwp:1}}
 {id:108,name:"Estes AM2",sub:{tec:100,pwr:15,shl:90,rng:230,spd:280,itv:2000},type:"l",cost:90,hp:20,str:-1,tec:3,wlk:2,fly:1}
 {id:183,name:"Estes AM3",main:{tec:100,pwr:8,shl:800,rng:230,spd:360,itv:200},tunable:{mwp:1},type:"l",cost:185,hp:20,str:-1,tec:3,wlk:2,fly:1}
+{id:184,name:"Estes RAM",sub:{tec:100,pwr:15,shl:10,rng:100,spd:150,itv:500},type:"l",cost:55,hp:20,str:1,tec:3,fly:-1,tgh:2,slot:0,conversion:"BDLM22 BDLM55",comment:"Attachable to 'Estes BD/BD2' only"}
 {id:109,name:"Theoreigne AM",type:"c",main:{pwr:8,shl:480,rng:320,spd:270,itv:700},joint:{wp:0},cost:70,hp:15,str:-1,tec:3,fly:1,tgh:1,tunable:{mwp:1}}
 {id:178,name:"Theoreigne AM2",main:{tec:100,pwr:15,shl:160,rng:300,spd:230,itv:800},tunable:{mwp:1},type:"c",cost:70,hp:10,tec:1,wlk:-1,tgh:2}
 {id:110,name:"Hoplites AM",cost:30,hp:15,tec:2,wlk:2}
@@ -568,6 +570,7 @@
 {id:137,name:"Armada AM",main:{tec:100,pwr:13,shl:210,rng:300,spd:220,itv:340},tunable:{mwp:1},joint:{wp:0},type:"a",cost:95,hp:20,tec:3,wlk:-1,fly:1,tgh:2}
 {id:143,name:"Armada AM2",main:{tec:100,pwr:15,shl:150,rng:320,spd:320,itv:340},tunable:{mwp:1},joint:{wp:0},type:"a",cost:95,hp:20,str:1,tec:3,wlk:-1,fly:1,tgh:1}
 {id:159,name:"Rampernel AM",type:"l",cost:60,hp:15,str:1,tec:1,fly:-1,tgh:1}
+{id:2105,name:"Falx AM",type:"l",sub:{pwr:25,rng:50,spd:70,itv:1500,str:100},tunable:{pwp:1},cost:130,hp:20,str:3,tec:1,fly:-1,tgh:2}
 {id:142,name:"Falx AM2",type:"l",sub:{pwr:25,rng:80,spd:80,itv:1000,str:100},tunable:{pwp:1},cost:130,hp:20,str:3,tec:1,wlk:1,fly:-1,tgh:1}
 {id:144,name:"Zarid AM2",main:{tec:100,pwr:6,shl:460,rng:320,spd:260,itv:1000},tunable:{mwp:1},type:"l",cost:70,hp:15,tec:2,wlk:1}
 {id:145,name:"Aeolius AM",joint:{am:1},fixedParts:{am:{name:"Aeolius AM@",sub:{str:100,pwr:25,rng:70,spd:80,itv:1000},tunable:{mwp:0,pwp:0},slot:0,size:"L",type:"a",joint:{wp:0}}},type:"a",cost:115,hp:20,str:3,wlk:-1,fly:1,tgh:2}
@@ -580,7 +583,6 @@
 {id:161,name:"Persecius AM3",main:{tec:100,pwr:35,shl:100,rng:330,spd:350,itv:1500},tunable:{mwp:1},joint:{wp:0},type:"a",cost:170,hp:15,tec:2,fly:2}
 {id:165,name:"Buff Devastator AM2",main:{pwr:12,shl:220,rng:260,spd:340,itv:540},tunable:{mwp:1},type:"s",cost:105,hp:20,tec:1,tgh:1}
 
-{id:2105,name:"Falx AM",type:"l",sub:{pwr:25,rng:50,spd:70,itv:1500,str:100},tunable:{pwp:1},cost:130,hp:20,str:3,tec:1,fly:-1,tgh:2}
 {id:2106,name:"Cordyceps AM",cost:45,hp:25,str:1,tec:1,fly:1,tgh:2}
 
 
@@ -665,3 +667,4 @@
 {id:140,name:"Agnizyne AMJ",size:"M",slot:1}
 {id:141,name:"Beam Cannon Canceler AMJ",size:"M",type:"lc",main:{tec:100,pwr:5,shl:5,rng:220,spd:430,itv:200},tunable:{mwp:1},cost:15,slot:1}
 {id:142,name:"Wild Shoulder AMJ",size:"M",slot:1}
+{id:48,name:"S.U. Barrier Shooter AMJ",main:{pwr:5,shl:150,rng:320,spd:260,itv:400},tunable:{mwp:1},type:"c",size:"M",cost:50,slot:1}

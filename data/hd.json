@@ -42,8 +42,9 @@
 {id:33,name:"Alestar HD",cost:40,hp:25,str:-2,tec:2,wlk:2,fly:2,tgh:1}
 {id:100,name:"Alestar HD2",cost:40,hp:25,str:1,tec:3,wlk:-1,tgh:2}
 {id:35,name:"F Ruhl HD",cost:40,hp:20,str:3,tec:1,wlk:-1,fly:1,tgh:1}
+{id:39,name:"F Ruhl HD2",type:"a",main:{pwr:4,shl:500,rng:200,spd:400,itv:220},tunable:{mwp:1},cost:65,hp:10,fly:2,tgh:1}
 {id:36,name:"Tristan HD",type:"lcs",cost:45,hp:25,tec:3,tgh:2}
-{id:39,name:"Dark Revenant HD",type:"l",cost:40,hp:25,tec:-1,wlk:1,fly:2,tgh:3}
+{id:101,name:"Dark Revenant HD",type:"l",cost:40,hp:25,tec:-1,wlk:1,fly:2,tgh:3}
 
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
@@ -239,6 +240,7 @@
 {id:208,name:"Gaderoga HD3",cost:25,hp:10,str:-1,tec:1,tgh:2,fly:1}
 {id:187,name:"Galsteel HD",cost:30,hp:15,str:2,wlk:-1,fly:2,tgh:1}
 {id:1205,name:"Falx HD",cost:35,hp:20,tec:2,wlk:2,tgh:1}
+{id:1276,name:"Falx HD2",main:{pwr:7,shl:30,rng:305,spd:325,itv:1000},tunable:{mwp:1},cost:65,hp:20,str:2,wlk:1,fly:1,tgh:1}
 {id:170,name:"Flapjack HD",main:{tec:100,pwr:8,shl:450,rng:180,spd:270,itv:300},tunable:{mwp:1},auraStat:{main:{tec:100,pwr:8,shl:450,rng:230,spd:270,itv:300}},type:"a",cost:75,hp:15,str:-1,tec:2,wlk:-1,fly:2,tgh:3}
 //{id:170,name:"Flapjack HD",						   rng:230??
 {id:282,name:"Flapjack HD2",type:"a",size:"M",cost:35,hp:15,str:2,tec:-1,wlk:-1,fly:2,tgh:3}
@@ -256,13 +258,14 @@
 {id:184,name:"Machintlet HD",cost:45,hp:25,tec:2,fly:2,tgh:1}
 {id:186,name:"Nuttz Bombrisu HD",cost:35,hp:15,str:1,tec:-1,wlk:2,tgh:2}
 {id:188,name:"Estes HD",cost:35,hp:20,str:1,tec:3,wlk:-1,fly:1,tgh:1}
+{id:322,name:"Estes HD2",cost:35,hp:20,str:1,tec:3,wlk:-1,tgh:2}
 {id:189,name:"Vishra HD",cost:35,hp:30,str:2,tec:1,fly:-1,tgh:3}
 {id:201,name:"Vishra HD2",cost:35,hp:30,str:1,tec:2,tgh:2}
 {id:191,name:"Ilgryps HD",cost:40,hp:25,str:1,tec:1,wlk:-1,fly:1,tgh:3}
 {id:243,name:"Ilgryps HD2",cost:40,hp:25,str:1,tec:1,wlk:-1,fly:1,tgh:3}
 {id:192,name:"Dismoke HD",cost:30,hp:15,str:1,tec:1,wlk:1,fly:2,tgh:-1}
 {id:195,name:"Theoreigne HD",cost:35,hp:20,str:1,tec:-1,wlk:1,fly:2,tgh:2}
-{id:322,name:"Theoreigne HD2",cost:35,hp:20,tec:2,wlk:1,tgh:2}
+{id:1275,name:"Theoreigne HD2",cost:35,hp:20,tec:2,wlk:1,tgh:2}
 {id:196,name:"Hoplites HD",cost:35,hp:20,str:2,tec:3,wlk:-1,fly:1}
 {id:197,name:"V. Unken HD",cost:30,hp:20,str:1,tec:1,fly:1,tgh:2}
 {id:199,name:"Giganberg HD",cost:35,hp:20,tec:2,wlk:1,fly:2}

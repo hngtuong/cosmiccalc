@@ -394,7 +394,7 @@
 {id:2102,name:"Shadow Wing BS",sub:{shl:20,rng:100,spd:200,itv:2000},cost:60,hp:25,tec:1,wlk:1,fly:3}
 {id:2103,name:"Iceraid BS Beta",joint:{wp:1},cost:35,hp:15,wlk:1,fly:3,tgh:1}
 {id:2104,name:"F Ruhl BS",type:"a",joint:{wp:1},sub:{pwr:15,shl:50,rng:250,spd:200,itv:100},fixedParts:{wp:{name:"F Ruhl BS@",main:{pwr:5,shl:250,rng:250,spd:300,itv:300},slot:0}},cost:135,hp:25,str:1,tec:2,wlk:-1,fly:2,tgh:1}
-{id:2113,name:"F Ruhl BS2",type:"a",joint:{wp:1},sub:{pwr:1,shl:5,rng:10,spd:180,itv:500},fixedParts:{hd:{name:"F Ruhl BS2@",sub:{pwr:1,shl:16,rng:250,spd:200,itv:100},slot:0}},cost:85,hp:15,wlk:1,fly:2,tgh:1}
+{id:2113,name:"F Ruhl BS2",type:"a",joint:{wp:1},sub:{pwr:1,shl:5,rng:10,spd:180,itv:500},fixedParts:{wp:{name:"F Ruhl BS2@",sub:{pwr:1,shl:16,rng:250,spd:200,itv:100},slot:0}},cost:85,hp:15,wlk:1,fly:2,tgh:1}
 {id:2105,name:"Windlynx BS",type:"a",cost:45,hp:30,str:1,tec:2,wlk:-1,fly:2,tgh:1}
 {id:2106,name:"Aqua Jet BS",sub:{shl:15,rng:150,spd:350,itv:1200},cost:60,hp:20,str:1,wlk:2,fly:2}
 {id:2108,name:"Quad Jet BS",comment:"Basically a clone of 'Aqua Jet BS'",sub:{shl:15,rng:150,spd:350,itv:1200},cost:60,hp:20,str:1,wlk:2,fly:2}
@@ -535,4 +535,4 @@
 // {id:15,name:"ティアの無人攻撃機BSJ",main:{pwr:1,shl:300,rng:270,spd:270,itv:400},tunable:{mwp:1},slot:1,cost:25,hp:10,comment:"「ティアミリス捜索作戦」報酬"}
 {id:16,name:"Summer Nobori Flag BSJ",slot:1,size:"M"}
 {id:17,name:"Starstreak BSJ",sub:{pwr:5,shl:15,rng:100,spd:260,itv:500,tec:100},type:"cs",size:"M",cost:30,slot:1}
-// {id:18,name:"ガーディアンルークRBSJ",joint:{wp:2,bs:1},fixedParts:{wp:[{name:"ルークBSJR@",main:{tec:100,pwr:1,shl:100,rng:300,spd:330,itv:300},slot:0},{main:{tec:100,pwr:1,shl:100,rng:300,spd:330,itv:300},name:"ルークBSJR@",slot:0}]},type:"lacs",cost:5,hp:5,slot:1,comment:"一斉射撃組み込み不可",size:"M"}
+{id:18,name:"Guardian Rook BSJ",joint:{wp:2,bs:1},fixedParts:{wp:[{name:"Rook BSJR@",main:{tec:100,pwr:1,shl:100,rng:300,spd:330,itv:300},slot:0},{name:"Rook BSJR@",main:{tec:100,pwr:1,shl:100,rng:300,spd:330,itv:300},slot:0}]},cost:5,hp:5,slot:1,size:"M"}

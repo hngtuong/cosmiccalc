@@ -354,9 +354,9 @@
 {id:334,name:"Edel Tiara",tec:1,fly:1}
 {id:335,name:"Criminal Horn",str:2}
 {id:337,name:"Hot Springs Cloth",str:1,wlk:1}
-// {id:338,name:"エンジェルフェザーP",fly:2,slot:0}
-// {id:339,name:"アムリムベール",fly:1,capa:5,slot:1,comment:"アムリムReligious付属AC"}
-// {id:340,name:"ミアリーキャットギアT",capa:5,tec:1,slot:1}
+{id:338,name:"Angel Feather P",fly:2}
+{id:339,name:"Amlim Veil",fly:1,capa:5}
+{id:340,name:"Mialy Cat Gear T",tec:1,capa:5}
 
 {id:261,name:"Mosquito Buster",hp:5,str:1}
 {id:1227,name:"Orange Layer Ribbon",str:1,fly:1}
@@ -372,7 +372,8 @@
 {id:1239,name:"Mikoto's Rabbit Band",tec:1,wlk:1}
 {id:1240,name:"Miruru Horn",wlk:1,fly:1}
 {id:1279,name:"Miruru Horn II",tec:1,wlk:1}
-{id:1241,name:"Mialy Cat Gear T",tec:1,capa:5}
+{id:1315,name:"Miruru Horn LB",tec:1,fly:1}
+
 {id:1242,name:"Rouche's Dog Ears",tec:1,capa:5}
 {id:1243,name:"Cougar Headgear",str:1,wlk:1}
 {id:1244,name:"Bucket Hat",hp:5,tec:1}
@@ -434,3 +435,5 @@
 {id:1309,name:"Valentine Hat B",tec:1,capa:5}
 {id:1310,name:"Valentine Hat W",fly:1,capa:5}
 {id:1311,name:"Valentine Hat C",wlk:1,capa:5}
+{id:1312,name:"Lebruck Ushanka",tec:1,tgh:1}
+{id:1313,name:"Lebruck Beret",tec:1,wlk:1}

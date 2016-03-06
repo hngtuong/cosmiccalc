@@ -280,7 +280,9 @@
 {id:93,name:"Grave Paddle",sub:{str:100,pwr:30,rng:70,spd:85,itv:500},tunable:{pwp:1},cost:90,type:"l",size:"S",conversion:"BDLS124AM",comment:"Attachable to 'Kaede AM' only"}
 {id:94,name:"Blue Tail",sub:{str:100,pwr:20,shl:15,rng:150,spd:350,itv:1000},joint:{wp:1},jointPart:1,cost:30,size:"S",type:"a",conversion:"BDAS60LG BDAS73LG BDAS90LG",comment:"Attachable to 'Litia LG/LG2/LG3' only"}
 {id:95,name:"Blue Sarissa",sub:{str:100,pwr:26,rng:80,spd:80,itv:500},tunable:{pwp:1},type:"a",size:"S",cost:100,conversion:"BDAS60AM BDAS72AM",comment:"Attachable to 'Litia AM2' only"}
-{id:97,name:"Labyrinthaxe",main:{pwr:17,shl:400,rng:280,spd:240,itv:340,tec:100},sub:{tec:100,pwr:20,shl:200,rng:340,spd:210,itv:1000},type:"c",size:"S",cost:225,conversion:"BDCS56AM BDCS69AM",comment:"Attachable to 'Miruru Miu AM/AM3' only",tunable:{mwp:1}}
+{id:97,name:"Labyrinthaxe",main:{pwr:17,shl:400,rng:280,spd:240,itv:340,tec:100},sub:{tec:100,pwr:20,shl:200,rng:340,spd:210,itv:1000},type:"c",size:"S",cost:225,conversion:"BDCS56AM BDCS69AM BDCS88AM",comment:"Attachable to 'Miruru Miu AM/AM3/AM4' only",tunable:{mwp:1}}
+{id:1015,name:"Labyrinthaxe LJ",main:{pwr:23,shl:100,rng:340,spd:210,itv:400,tec:100},sub:{tec:100,pwr:20,shl:200,rng:340,spd:210,itv:1000},joint:{wp:1},type:"c",size:"S",cost:180,conversion:"BDCS56AM BDCS69AM BDCS88AM",comment:"Attachable to 'Miruru Miu AM/AM3/AM4' only",slot:0}
+{id:1016,name:"Labyrinthaxe LJ@",main:{pwr:17,shl:400,rng:280,spd:240,itv:340,tec:100},type:"c",size:"S",cost:75,conversion:"WPSO1015",comment:"Attachable to 'Labyrinthaxe LJ' only",tunable:{mwp:1}}
 {id:98,name:"Wing Attachment ALPHA",size:"M",cost:40,slot:0,sub:{shl:7,rng:100,spd:150,itv:2000},conversion:"BSM132",comment:"Attachable to 'Multiwing BS' only"}
 {id:99,name:"Wing Attachment BETA",sub:{shl:12,spd:150,itv:1000},size:"M",slot:0,conversion:"BSM132",comment:"Attachable to 'Multiwing BS' only",cost:40}
 {id:100,name:"Krieger Shield",main:{shl:30,spd:10,itv:700},sub:{str:100,pwr:32,rng:70,spd:85,itv:500},joint:{wp:1},fixedParts:{wp:{name:"Krieger Shield@",sub:{pwr:30,rng:110,spd:200,itv:500},slot:0}},type:"l",size:"S",tunable:{pwp:1},cost:170,conversion:"BDLS130AM BDLS152AM",comment:"Attachable to 'Corona AM' only"}
@@ -295,10 +297,12 @@
 //{id:109,name:"ブレイブシールド",type:"l",size:"S",comment:"ライオスGBのAM4にのみ接続可能",joint:{wp:2},slot:0}
 //{id:110,name:"ブレイブシールド@2",sub:{str:200,pwr:30,shl:15,rng:100,spd:150,itv:1000},cost:30,comment:"ブレイブシールドにのみ接続可能",slot:0}
 {id:111,name:"Zwei Kanone",sub:{pwr:10,shl:20,rng:150,spd:150,itv:700},type:"l",size:"S",cost:30,slot:0,conversion:"BDLS132 BDLS167",comment:"Attachable to 'Hanna Fritz BD' only"}
-{id:112,name:"Chain Blade",main:{tec:100,shl:30,spd:10,itv:1000},sub:{str:100,pwr:32,rng:70,spd:85,itv:500},tunable:{pwp:1},conversion:"BDLS133AM",comment:"Attachable to 'Killica AM' only",cost:190}
-{id:114,name:"Chain Blade ALPHA",main:{tec:100,shl:20,spd:10,itv:1000},sub:{str:100,pwr:25,rng:70,spd:85,itv:500},tunable:{pwp:1},conversion:"BDLS133AM",comment:"Attachable to 'Killica AM' only",cost:190}
-{id:113,name:"Chain Blade Sheath",main:{tec:100,shl:-1,spd:150,itv:1000},sub:{str:100,pwr:22,shl:20,rng:120,spd:220,itv:500},conversion:"BDLS133",comment:"Attachable to 'Killica BD/BD2/BD3#1' only",slot:0}
-{id:115,name:"Chain Blade Sheath ALPHA",main:{tec:100,shl:-1,spd:150,itv:1000},sub:{str:100,pwr:22,shl:10,rng:120,spd:220,itv:500},conversion:"BDLS133",comment:"Attachable to 'Killica BD/BD2/BD3#1' only",slot:0}
+{id:112,name:"Chain Blade",main:{tec:100,shl:30,spd:10,itv:1000},sub:{str:100,pwr:32,rng:70,spd:85,itv:500},tunable:{pwp:1},conversion:"BDLS133AM BDLS173AM",comment:"Attachable to 'Killica AM/AM3' only",cost:190}
+{id:114,name:"Chain Blade ALPHA",main:{tec:100,shl:20,spd:10,itv:1000},sub:{str:100,pwr:25,rng:70,spd:85,itv:500},tunable:{pwp:1},conversion:"BDLS133AM BDLS173AM",comment:"Attachable to 'Killica AM/AM3' only",cost:190}
+{id:1013,name:"Chain Blade II",main:{tec:100,shl:30,spd:10,itv:1000},sub:{str:100,pwr:30,rng:70,spd:85,itv:500},tunable:{pwp:1},conversion:"BDLS133AM BDLS173AM",comment:"Attachable to 'Killica AM/AM3' only",cost:190}
+{id:113,name:"Chain Blade Sheath",main:{tec:100,shl:-1,spd:150,itv:1000},sub:{str:100,pwr:22,shl:20,rng:120,spd:220,itv:500},conversion:"BDLS133 BDLS173",comment:"Attachable to 'Killica BD/BD2/BD3#1/BD4/BD5' only",slot:0}
+{id:115,name:"Chain Blade Sheath ALPHA",main:{tec:100,shl:-1,spd:150,itv:1000},sub:{str:100,pwr:22,shl:10,rng:120,spd:220,itv:500},conversion:"BDLS133 BDLS173",comment:"Attachable to 'Killica BD/BD2/BD3#1/BD4/BD5' only",slot:0}
+{id:1014,name:"Chain Blade II Sheath",main:{tec:100,pwr:15,shl:30,rng:200,spd:570,itv:500},sub:{str:100,pwr:22,shl:20,rng:120,spd:220,itv:500},conversion:"BDLS133 BDLS173",comment:"Attachable to 'Killica BD/BD2/BD3#1/BD4/BD5' only",slot:0}
 {id:116,name:"Captain Anchor",main:{tec:100,pwr:20,shl:30,rng:200,spd:300,itv:1000},sub:{str:100,pwr:32,rng:80,spd:50,itv:500},joint:{wp:1},type:"l",size:"S",slot:0,cost:90,conversion:"BDLS134AM",comment:"Attachable to 'Sunny AM2' only"}
 {id:117,name:"Captain Anchor @",main:{tec:100,shl:30,spd:10,itv:1000},sub:{str:100,pwr:32,rng:70,spd:85,itv:500},tunable:{pwp:1},cost:110,type:"l",size:"S",conversion:"WPSO116",comment:"Attachable to 'Captain Anchor' only"}
 {id:120,name:"Captain Anchor ALPHA",main:{tec:100,pwr:20,shl:5,rng:200,spd:300,itv:1000},sub:{str:100,pwr:25,rng:80,spd:50,itv:500},joint:{wp:1},type:"l",size:"S",slot:0,cost:90,conversion:"BDLS134AM",comment:"Attachable to 'Sunny AM2' only"}
