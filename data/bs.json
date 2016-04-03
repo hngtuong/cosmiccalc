@@ -128,7 +128,8 @@
 {id:93,name:"A.L.E. Jikun Long BS",cost:35,hp:20,str:2,wlk:1,fly:2,type:"l"}
 {id:94,name:"Skullroid BS-G",type:"l",cost:20,hp:10,str:1,fly:2,tgh:-1,comment:"Totally Rocket Science"}
 {id:96,name:"Meteora BS",type:"a",cost:30,hp:15,str:1,tec:-2,wlk:1,fly:4}
-{id:1056,name:"Meteora BS2",joint:{wp:1},main:{pwr:7,shl:80,rng:320,spd:320,itv:400},type:"a",cost:45,hp:10,str:-1,fly:1,tgh:2}
+{id:189,name:"Meteora BS2",joint:{wp:1},main:{pwr:7,shl:80,rng:320,spd:320,itv:400},type:"a",cost:45,hp:10,str:-1,fly:1,tgh:2}
+// {id:190,name:"メトラBS2+BS2@",sub:{pwr:7,shl:80,rng:320,spd:320,itv:400},joint:{bs:1},fixedParts:{bs:{name:"メトラBS2@",sub:{shl:15,rng:100,spd:150,itv:2000},cost:35,slot:0}},cost:45,hp:10,str:-1,fly:1,tgh:2,comment:"コンバージョン装着状態 総コスト80",type:"a",size:"S"}
 {id:98,name:"Lepscepter BS",type:"l",cost:35,hp:15,str:1,tec:1,wlk:-1,fly:3,tgh:1}
 {id:99,name:"Fulcrum BS",type:"a",cost:35,hp:15,str:1,tec:2,fly:2,tgh:-1}
 {id:100,name:"Shana BS",type:"a",cost:40,hp:25,str:2,tec:-1,wlk:1,fly:2,tgh:1}
@@ -193,8 +194,13 @@
 {id:173,name:"Lafiel BS",type:"l",cost:35,hp:25,str:2,wlk:2,fly:2,tgh:-1}
 {id:174,name:"Philia BS",type:"c",size:"S",cost:35,hp:25,str:1,tec:1,wlk:2,fly:2,tgh:-1}
 {id:175,name:"Nebel BS",type:"a",cost:35,hp:25,str:1,wlk:1,fly:2,tgh:1}
+{id:185,name:"A. Miral BS",sub:{shl:30,rng:100,spd:150,itv:2000},joint:{bs:1},type:"lc",size:"S",cost:55,hp:25,tec:2,wlk:1,fly:2}
+{id:186,name:"A. Miral BS@",type:"lc",size:"S",tunable:{mwp:1},main:{tec:100,pwr:10,shl:500,rng:250,spd:320,itv:440},cost:100,conversion:"BSS185",comment:"Attachable to 'A. Miral BS' only"}
+{id:187,name:"Maisie BS",type:"l",size:"S",cost:40,hp:20,str:2,tec:-1,fly:2,tgh:2}
+{id:188,name:"Alice BS",sub:{pwr:5,shl:260,rng:360,spd:360,itv:400},type:"a",size:"S",cost:65,hp:20,str:-1,tec:1,fly:3,tgh:2,conversion:"BDAS107",comment:"Attachable to 'Alice BD/BD2' only"}
 
 {id:1051,name:"Oboromaru BS",type:"a",cost:40,hp:25,str:2,tec:2,wlk:-1,fly:2}
+{id:1054,name:"Oboromaru BS2",type:"a",cost:25,hp:20,str:2,tec:1,wlk:-1,fly:2}
 {id:1052,name:"Kaltos Wing",joint:{wp:1},type:"a",cost:40,hp:20,str:1,tec:1,wlk:2,fly:2,tgh:-1,conversion:"BDAS60 BDAS73 BDAS90",comment:["Attachable to 'Litia BD/BD2/BD3' only","Weapon slot for 'Kaltos Wing@'"]}
 {id:1053,name:"Aries Wing",joint:{wp:1},type:"a",cost:40,hp:20,str:1,tec:1,wlk:2,fly:2,tgh:-1,conversion:"BDAS60 BDAS73 BDAS90",comment:"Attachable to 'Litia BD/BD2/BD3' only"}
 {id:1055,name:"P. Mona BS",sub:{pwr:10,shl:30,rng:100,spd:570,itv:1000},type:"c",cost:55,hp:20,str:1,tec:1,wlk:-1,fly:2,tgh:2}
@@ -400,6 +406,7 @@
 {id:2108,name:"Quad Jet BS",comment:"Basically a clone of 'Aqua Jet BS'",sub:{shl:15,rng:150,spd:350,itv:1200},cost:60,hp:20,str:1,wlk:2,fly:2}
 {id:2109,name:"Brink BS",type:"c",cost:30,hp:15,str:1,tec:1,fly:2}
 {id:2111,name:"Star Strider BS",comment:"Basically a clone of 'Jet Accel BS'",sub:{pwr:10,shl:20,rng:100,spd:120,itv:2000},cost:60,hp:25,wlk:1,fly:3,tgh:1}
+{id:2114,name:"Wired Magnegun BS",main:{pwr:10,shl:300,rng:300,spd:220,itv:700},tunable:{mwp:1},type:"c",size:"M",cost:85,hp:10,tec:1,fly:2}
 
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
@@ -536,3 +543,4 @@
 {id:16,name:"Summer Nobori Flag BSJ",slot:1,size:"M"}
 {id:17,name:"Starstreak BSJ",sub:{pwr:5,shl:15,rng:100,spd:260,itv:500,tec:100},type:"cs",size:"M",cost:30,slot:1}
 {id:18,name:"Guardian Rook BSJ",joint:{wp:2,bs:1},fixedParts:{wp:[{name:"Rook BSJR@",main:{tec:100,pwr:1,shl:100,rng:300,spd:330,itv:300},slot:0},{name:"Rook BSJR@",main:{tec:100,pwr:1,shl:100,rng:300,spd:330,itv:300},slot:0}]},cost:5,hp:5,slot:1,size:"M"}
+// {id:19,name:"ワイヤードマグネガンBS",main:{pwr:10,shl:300,rng:300,spd:220,itv:700},tunable:{mwp:1},builtin:{bs:-1},type:"c",size:"M",cost:85,hp:10,tec:1,fly:2,joint:{bs:0}}

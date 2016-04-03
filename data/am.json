@@ -204,12 +204,14 @@
 {id:186,name:"Recipro AM",cost:25,hp:15,str:1,tec:1,wlk:1,fly:1,tgh:-1}
 {id:188,name:"Patty Lop AM6",type:"l",cost:40,hp:20,str:3,tec:2,wlk:-1,tgh:1}
 {id:189,name:"Patty Lop AM7",type:"l",comment:"Can only equip 'Gadget Box'",cost:50,hp:35,str:2,tec:3,wlk:-1,tgh:1}
+{id:194,name:"A. Miral AM",size:"S",cost:30,hp:15,tec:1,fly:1,wlk:1,tgh:2}
 
 {id:1003,name:"Lumiera AM3",cost:40,hp:25,str:1,tec:3,sub:{shl:3,itv:500},fly:1,type:"c"}
 //183
 {id:1004,name:"Lumiera AM4",tunable:{mwp:1},cost:40,hp:25,str:1,tec:3,fly:1,main:{spd:10,shl:50,itv:700},type:"c"}
 //111
 {id:1006,name:"Oboromaru AM",type:"a",joint:{am:1},fixedParts:{am:{name:"Oboromaru AM@",main:{pwr:14,shl:200,rng:220,spd:280,itv:500},joint:{wp:0},slot:0}},cost:75,hp:20,str:-1,tec:2,fly:2,tgh:2}
+{id:1009,name:"Oboromaru AM2",type:"a",joint:{am:1},fixedParts:{am:{name:"Oboromaru AM2@",sub:{pwr:13,shl:10,rng:220,spd:280,itv:440},joint:{wp:0},slot:0}},cost:75,hp:20,str:1,fly:2,tgh:1}
 {id:1008,name:"P. Mona AM",cost:35,hp:20,str:1,tec:-1,wlk:2,fly:2,tgh:1}
 
 

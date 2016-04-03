@@ -375,7 +375,7 @@
 {id:176,name:"Revenant Sword",sub:{str:100,pwr:32,rng:70,spd:70,itv:500},type:"l",size:"M",cost:100,conversion:"AMM173",comment:"Attachable to 'Dark Revenant AM' only"}
 // {id:178,name:"ハッキングユニット@(S.COSMOS)",main:{itv:100},sub:{str:100,pwr:30,rng:80,spd:115,itv:2000},tunable:{pwp:1},type:"a",size:"S",cost:30}
 {id:180,name:"Sacred Claymore R",sub:{pwr:1,rng:70,spd:80,itv:1000},tunable:{pwp:1},cost:10,str:1}
-{id:181,name:"Brave Arts",joint:{wp:3},type:"l",size:"M",conversion:"AMM177",comment:"Attachable to 'Sovlancer AM' only",slot:0}
+// {id:181,name:"トライクタックル",cost:30,sub:{pwr:30,rng:60,spd:75,itv:500},comment:"トライクレーサーのみ装備可能"}
 {id:182,name:"Blitz Eisen",sub:{str:100,pwr:25,shl:20,rng:120,spd:220,itv:500},type:"l",size:"S",cost:60,slot:0,conversion:"BDLS132 BDLS167",comment:"Attachable to 'Hanna Fritz BD/BD2' only"}
 
 {id:1006,name:"Gigant Arms AM@",type:"l",size:"L",sub:{str:100,pwr:30,rng:170,spd:80,itv:500},tunable:{pwp:1},cost:70,conversion:"AML160",comment:"Attachable to 'Gigant Arms AM' only"}
@@ -383,3 +383,4 @@
 {id:1007,name:"Milky Way BS@",size:"M",sub:{pwr:1,shl:10,spd:150,itv:1000},cost:25,slot:0,conversion:"BSM147",comment:"Attachable to 'Milky Way BS' only"}
 {id:1009,name:"Meteora BS2@",size:"S",type:"a",sub:{shl:15,rng:100,spd:150,itv:2000},cost:35,slot:0,conversion:"BSS1056",comment:"Attachable to 'Meteora BS2' only"}
 {id:1011,name:"Multi-missile Pack",sub:{tec:100,pwr:4,shl:320,rng:350,spd:320,itv:500},type:"c",size:"S",cost:60,conversion:"BDCM46WP",comment:"Attachable to 'Toybox Girl BD5@' only"}
+{id:1017,name:"Brave Arts",joint:{wp:3},type:"l",size:"M",conversion:"AMM177",comment:"Attachable to 'Sovlancer AM' only",slot:0}

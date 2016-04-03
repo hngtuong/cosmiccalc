@@ -437,3 +437,7 @@
 {id:1311,name:"Valentine Hat C",wlk:1,capa:5}
 {id:1312,name:"Lebruck Ushanka",tec:1,tgh:1}
 {id:1313,name:"Lebruck Beret",tec:1,wlk:1}
+{id:1314,name:"Maddest Hat",tec:1,fly:1}
+{id:1316,name:"Wolf Broach",str:1,wlk:1}
+{id:1317,name:"Crystal Clip",tec:1,tgh:1}
+{id:1318,name:"Kaguya Ribbon",tec:1,wlk:1}

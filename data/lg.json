@@ -114,6 +114,7 @@
 {id:1097,name:"F Ruhl LG2",cost:35,hp:20,wlk:2,fly:2}
 {id:109,name:"Tristan LG",cost:35,hp:20,tec:2,wlk:1,fly:1,tgh:1}
 {id:111,name:"Recipro LG",cost:35,hp:20,tec:2,wlk:2,fly:2,tgh:-1}
+{id:114,name:"A. Miral LG",size:"S",cost:25,hp:15,tec:2,wlk:2}
 
 {id:1096,name:"Magnell LG",cost:40,hp:25,str:-1,wlk:2,fly:1,tgh:3}
 {id:1098,name:"Medicarest LG",cost:45,hp:20,tec:1,wlk:2,fly:-1,tgh:3}
