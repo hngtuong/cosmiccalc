@@ -27,7 +27,7 @@
 var VERSION = "3.4.3",
 	LAST_MODIFIED = "2015.01.26",
 
-	CODEW_URL = "http://cosmiccalc.github.io/",
+	CODEW_URL = "http://cosmiccalc.appspot.com/",
 	
 	MAXLEVEL_DEF = 10;
 	ADDLEVEL_DEF = 0;
