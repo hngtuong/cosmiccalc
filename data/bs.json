@@ -198,9 +198,11 @@
 {id:186,name:"A. Miral BS@",type:"lc",size:"S",tunable:{mwp:1},main:{tec:100,pwr:10,shl:500,rng:250,spd:320,itv:440},cost:100,conversion:"BSS185",comment:"Attachable to 'A. Miral BS' only"}
 {id:187,name:"Maisie BS",type:"l",size:"S",cost:40,hp:20,str:2,tec:-1,fly:2,tgh:2}
 {id:188,name:"Alice BS",sub:{pwr:5,shl:260,rng:360,spd:360,itv:400},type:"a",size:"S",cost:65,hp:20,str:-1,tec:1,fly:3,tgh:2,conversion:"BDAS107",comment:"Attachable to 'Alice BD/BD2' only"}
-
+{id:191,name:"Baphogridr Girl BS",type:"l",cost:40,hp:20,str:2,tec:1,wlk:-1,fly:3}
+{id:192,name:"Magical C.S. BSR",size:"S",cost:40,hp:20,str:1,wlk:2,fly:3,tgh:-1}
 {id:1051,name:"Oboromaru BS",type:"a",cost:40,hp:25,str:2,tec:2,wlk:-1,fly:2}
-{id:1054,name:"Oboromaru BS2",type:"a",cost:25,hp:20,str:2,tec:1,wlk:-1,fly:2}
+{id:193,name:"Oboromaru BS2",type:"a",cost:25,hp:20,str:2,tec:1,wlk:-1,fly:2}
+
 {id:1052,name:"Kaltos Wing",joint:{wp:1},type:"a",cost:40,hp:20,str:1,tec:1,wlk:2,fly:2,tgh:-1,conversion:"BDAS60 BDAS73 BDAS90",comment:["Attachable to 'Litia BD/BD2/BD3' only","Weapon slot for 'Kaltos Wing@'"]}
 {id:1053,name:"Aries Wing",joint:{wp:1},type:"a",cost:40,hp:20,str:1,tec:1,wlk:2,fly:2,tgh:-1,conversion:"BDAS60 BDAS73 BDAS90",comment:"Attachable to 'Litia BD/BD2/BD3' only"}
 {id:1055,name:"P. Mona BS",sub:{pwr:10,shl:30,rng:100,spd:570,itv:1000},type:"c",cost:55,hp:20,str:1,tec:1,wlk:-1,fly:2,tgh:2}
@@ -393,6 +395,8 @@
 {id:180,name:"Sovlancer BS",type:"l",cost:40,hp:25,str:1,tec:1,wlk:1,fly:2}
 {id:181,name:"Chronos Machina Wing ALPHA",size:"M",cost:30,wlk:2,fly:2,hp:15}
 {id:182,name:"Dark Revenant BS",type:"l",cost:45,hp:25,str:2,tec:-1,fly:3,tgh:1}
+{id:183,name:"Hard Bomber BS",main:{pwr:10,shl:600,rng:330,spd:280,itv:1000},tunable:{mwp:1},type:"c",cost:110,hp:20,tec:2,wlk:1,fly:2}
+{id:184,name:"ワイヤードマグネガンBS",main:{pwr:10,shl:300,rng:300,spd:220,itv:700},tunable:{mwp:1},builtin:{bs:-1},type:"c",size:"M",cost:85,hp:10,tec:1,fly:2,joint:{bs:0}}
 
 //{id:299,name:"Sylvia BS",type:"l",cost:45,hp:25,str:2,tec:-1,wlk:2,fly:2}
 {id:2100,name:"Lucca Decho BS",type:"l",cost:35,hp:20,str:1,tec:1,wlk:1,fly:3,tgh:-1}

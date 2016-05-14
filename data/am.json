@@ -205,6 +205,7 @@
 {id:188,name:"Patty Lop AM6",type:"l",cost:40,hp:20,str:3,tec:2,wlk:-1,tgh:1}
 {id:189,name:"Patty Lop AM7",type:"l",comment:"Can only equip 'Gadget Box'",cost:50,hp:35,str:2,tec:3,wlk:-1,tgh:1}
 {id:194,name:"A. Miral AM",size:"S",cost:30,hp:15,tec:1,fly:1,wlk:1,tgh:2}
+// {id:195,name:"F・リュールAM",type:"lacs",size:"S",cost:40,hp:20,tec:2,fly:3,wlk:-1,tgh:1}
 
 {id:1003,name:"Lumiera AM3",cost:40,hp:25,str:1,tec:3,sub:{shl:3,itv:500},fly:1,type:"c"}
 //183
@@ -401,6 +402,8 @@
 {id:173,name:"Dark Revenant AM",joint:{wp:3},type:"l",size:"M",cost:40,hp:25,str:2,tec:-1,wlk:2,fly:2}
 {id:176,name:"Wizamel AM",type:"a",main:{pwr:8,shl:250,rng:300,spd:330,itv:300},tunable:{mwp:1},cost:90,hp:25,tec:1,fly:2,tgh:2}
 {id:177,name:"Sovlancer AM",cost:35,hp:20,str:2,wlk:2,tgh:1}
+{id:186,name:"Hard Bomber AM",main:{pwr:14,shl:180,rng:330,spd:380,itv:540},tunable:{mwp:1},type:"c",cost:90,hp:25,tec:1,fly:2,tgh:2}
+{id:185,name:"Hard Bomber AM2",sub:{rng:100,spd:50,itv:500},joint:{wp:0},type:"lc",cost:90,hp:25,wlk:1,fly:1,tgh:3}
 
 
 {id:1002,name:"Mediger AM3",size:"M",cost:35,hp:20,tec:1,wlk:2,tgh:1,fixedParts:{wp:{name:"Liber",sub:{shl:3,rng:45,spd:65,itv:15000},cost:70,slot:0}}}
@@ -584,6 +587,8 @@
 {id:160,name:"Gigant Arms AM",joint:{wp:2},cost:35,hp:20,wlk:3,fly:1,tgh:1}
 {id:161,name:"Persecius AM3",main:{tec:100,pwr:35,shl:100,rng:330,spd:350,itv:1500},tunable:{mwp:1},joint:{wp:0},type:"a",cost:170,hp:15,tec:2,fly:2}
 {id:165,name:"Buff Devastator AM2",main:{pwr:12,shl:220,rng:260,spd:340,itv:540},tunable:{mwp:1},type:"s",cost:105,hp:20,tec:1,tgh:1}
+{id:166,name:"Katto Baldo AM",type:"l",cost:40,hp:25,str:2,tec:1,fly:-1,tgh:3,conversion:"BDLL55",comment:"Attachable to 'Katto Baldo BD' only"}
+{id:167,name:"Katto Baldo AM2",joint:{wp:0},main:{shl:30,spd:10,itv:1000},tunable:{mwp:1},cost:90,hp:25,str:2,wlk:1,fly:-1,tgh:4,conversion:"BDLL55",comment:"Attachable to 'Katto Baldo BD' only"}
 
 {id:2106,name:"Cordyceps AM",cost:45,hp:25,str:1,tec:1,fly:1,tgh:2}
 

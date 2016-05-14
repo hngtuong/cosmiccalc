@@ -339,7 +339,7 @@
 {id:148,name:"Wheel Tackle",sub:{pwr:32,rng:70,spd:160,itv:1000,str:100},tunable:{pwp:1},type:"l",size:"S",cost:70,conversion:"BDLS149",comment:"Attachable to 'Kal Valentine BD' only"}
 {id:149,name:"Heart Balloon R",cost:10,wlk:1}
 {id:150,name:"Heart Balloon Y",cost:10,fly:1}
-
+// {id:185,name:"ECMライトニングバスターR",cost:10,tec:1}
 {id:1085,name:"Aries Tail",sub:{str:100,pwr:20,shl:15,rng:150,spd:350,itv:1000},joint:{wp:1},fixedParts:{wp:"Aries Tail@"},cost:30,size:"S",type:"a",conversion:"BDAS60LG BDAS73LG BDAS90LG",comment:"Attachable to 'Litia LG/LG2/LG3' only"}
 {id:1086,name:"Aries Scythe",sub:{str:100,pwr:26,rng:70,spd:70,itv:500},tunable:{pwp:1},type:"a",size:"S",cost:100}
 {id:151,name:"Diable Cacher",sub:{pwr:15,shl:300,rng:350,spd:280,itv:500},type:"c",size:"S",cost:50,slot:0,conversion:"BDCS74WP",comment:"Attachable to 'Bouclier Cannon' only"}
@@ -377,6 +377,9 @@
 {id:180,name:"Sacred Claymore R",sub:{pwr:1,rng:70,spd:80,itv:1000},tunable:{pwp:1},cost:10,str:1}
 {id:181,name:"Trike Tackle",cost:30,sub:{str:100,pwr:23,rng:60,spd:75,itv:500},type:"s",size:"S",conversion:"SS126LG SS127LG",comment:"Attachable to 'Tricyclaser/II/III/IV/V' only"}
 {id:182,name:"Blitz Eisen",sub:{str:100,pwr:25,shl:20,rng:120,spd:220,itv:500},type:"l",size:"S",cost:60,slot:0,conversion:"BDLS132 BDLS167",comment:"Attachable to 'Hanna Fritz BD/BD2' only"}
+{id:183,name:"Demon Fox Haku Soul",main:{shl:30,spd:10,itv:1000},sub:{str:100,pwr:32,rng:85,spd:70,itv:500},tunable:{pwp:1},joint:{wp:1},fixedParts:{wp:{name:"Demon Fox Haku Soul@",main:{pwr:15,shl:30,rng:200,spd:500,itv:500,str:100},sub:{str:100,pwr:20,shl:15,rng:150,spd:350,itv:1000},slot:0}},conversion:"BDSS126WP",comment:"Attachable to 'Magical Mic Rod' only"}
+{id:184,name:"Berzellius Soul",main:{pwr:22,shl:1200,rng:320,spd:320,itv:240},sub:{shl:5,spd:160,itv:100},tunable:{mwp:1},joint:{wp:1},fixedParts:{wp:{name:"Berzellius Soul@",main:{pwr:9,shl:15,rng:320,spd:250,itv:500},sub:{shl:7,rng:300,itv:1000},slot:0}},conversion:"BDSS126WP",comment:"Attachable to 'Magical Mic Rod' only"}
+{id:186,name:"Fractulus Soul",main:{pwr:30,shl:100,rng:320,spd:350,itv:300},sub:{shl:5,spd:160,itv:1000},tunable:{mwp:1},conversion:"BDSS126WP",comment:["Attachable to 'Magical Mic Rod' only","data incomplete"]}
 
 {id:1006,name:"Gigant Arms AM@",type:"l",size:"L",sub:{str:100,pwr:30,rng:170,spd:80,itv:500},tunable:{pwp:1},cost:70,conversion:"AML160",comment:"Attachable to 'Gigant Arms AM' only"}
 {id:162,name:"Gigant Arms LG@",type:"l",size:"L",sub:{pwr:20,shl:30,rng:230,spd:80,itv:500},cost:50,conversion:"LGL115",comment:"Attachable to 'Gigant Arms LG' only"}

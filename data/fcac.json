@@ -199,6 +199,7 @@
 {id:190,name:"Sacred Gear",str:1,tgh:1}
 {id:191,name:"Edel Gear",tec:1,fly:1}
 {id:192,name:"Mad Scientist Goggles",str:1,tgh:1}
+{id:193,name:"Baphogridr Horns",str:1,wlk:1}
 
 
 {id:255,name:"Crim's Witch Cape",fly:2}
