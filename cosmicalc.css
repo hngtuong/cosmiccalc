@@ -191,6 +191,7 @@ input{
 	padding:1px 5px;
 	border-bottom:3px solid black;
 }
+.prtlst.conversion{background-color: #133}
 .prtlst:hover{
 	background-color:#ea7b03;
 }
