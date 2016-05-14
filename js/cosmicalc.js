@@ -1977,6 +1977,7 @@ function setPartsData(target, data){
 	var class_str = "select_box" +
 		(target.ccd.part=="wb" ? " bltin_wb" : "") +
 		(d.ref.jointPart ? " joint" : "") +
+		// (d.ref.conversion ? " conversion" : "") +
 		msToClass(d.ref);
 
 	target.value = target.ccd.part=="wb" && d.ref.name=="-" ? Assembly.wb.def : d.ref.name;
