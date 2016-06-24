@@ -214,7 +214,7 @@
 {id:264,name:"Black Side Ribbon",hp:5,fly:1}
 {id:265,name:"Snow Wire",tec:2}
 {id:267,name:"Lovely Eyepatch",hp:5,wlk:1}
-
+{id:268,name:"Falcon Gear",hp:5,fly:1,capa:5}
 {id:269,name:"Sweet Glasses",tec:1,capa:5}
 //{id:270,name:"Rabbit Hood",wlk:1,tgh:1}
 {id:271,name:"La Vie Headset",str:1,wlk:1}

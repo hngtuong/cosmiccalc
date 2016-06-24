@@ -168,7 +168,7 @@
 {id:37,name:"Gun Arms LG",cost:50,hp:30,str:2,wlk:3,tgh:1}
 {id:38,name:"Accel Saber LG",cost:80,hp:55,wlk:4,tgh:2,sub:{str:100,pwr:15,rng:30,spd:75,itv:1200},tunable:{pwp:1}}
 {id:39,name:"Adone LG",type:"a",cost:95,hp:25,str:1,wlk:3,fly:1,sub:{pwr:19,rng:65,spd:85,itv:1200,tec:100},tunable:{pwp:1},joint:{bs:1}}
-{id:200,name:"Adone LG2",type:"a",cost:95,hp:25,str:1,tec:1,fly:3,sub:{pwr:19,rng:65,spd:85,itv:1200,tec:100},tunable:{pwp:1},joint:{bs:1}}
+{id:124,name:"Adone LG2",sub:{pwr:19,rng:65,spd:85,itv:1200,tec:100},tunable:{pwp:1},joint:{bs:1},type:"a",cost:95,hp:25,str:1,tec:1,fly:3}
 {id:40,name:"Victor LG",type:"a",cost:75,hp:25,str:1,tec:2,wlk:3,tgh:-1,sub:{str:100,pwr:14,rng:60,spd:90,itv:1200},tunable:{pwp:1}}
 {id:41,name:"Heavy Felchas LG",cost:30,hp:20,str:-1,wlk:2,fly:1,tgh:2}
 {id:42,name:"Date Max LG",cost:40,hp:20,str:1,tec:-1,wlk:3,fly:1,tgh:1}
@@ -249,11 +249,11 @@
 {id:120,name:"Bloody Star LG",sub:{shl:15,rng:100,spd:200,itv:600},type:"lc",cost:65,hp:25,tec:2,wlk:2,fly:1}
 {id:122,name:"Sovlancer LG",cost:45,hp:25,str:2,wlk:2,fly:2,tgh:-1}
 {id:123,name:"Dark Revenant LG",type:"l",cost:45,hp:25,str:2,tec:-1,wlk:3,fly:1}
-{id:124,name:"Hard Bomber LG",cost:45,hp:25,str:-1,wlk:3,fly:1,tgh:2}
 
 {id:1103,name:"Oboromaru LG",cost:45,hp:25,str:2,tec:2,wlk:2,fly:-1}
 {id:1104,name:"Gotrun LG",sub:{shl:20,rng:120,spd:200,itv:1500},type:"l",cost:80,hp:20,tec:-1,wlk:3,fly:1,tgh:1}
 {id:1107,name:"Brink LG",type:"c",cost:30,hp:20,str:-1,tec:2,wlk:2,fly:1}
+{id:1108,name:"Hard Bomber LG",cost:45,hp:25,str:-1,wlk:3,fly:1,tgh:2}
 
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
