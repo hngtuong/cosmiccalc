@@ -14,6 +14,7 @@
 {id:22,name:"Sword Wing AM",cost:25,hp:15,str:2,tec:1}
 {id:65,name:"Sword Wing AM2",cost:30,hp:15,str:1,tec:1,fly:2}
 {id:5,name:"Turtlebacker AM",cost:25,hp:15,wlk:1,tgh:2}
+{id:197,name:"Turtlebacker AM2",cost:110,hp:15,tgh:3,sub:{pwr:27,shl:15,rng:80,spd:200,itv:500},tunable:{pwp:1},str:2,type:"l"}
 {id:38,name:"Mechled AM",cost:25,hp:10,tec:1,tgh:2}
 {id:40,name:"Needle Mog AM",cost:25,hp:15,str:2,tec:1,fly:-1,tgh:1}
 {id:58,name:"Needle Mole AM",cost:35,hp:20,str:2,tec:2,fly:-1,tgh:2}
@@ -106,6 +107,7 @@
 {id:93,name:"Renny Lop AM2",type:"l",cost:35,hp:20,str:-1,tec:1,wlk:2,fly:1,tgh:1}
 {id:94,name:"Renny Lop AM3",type:"l",cost:85,hp:20,str:-1,tec:2,fly:1,tgh:2,main:{pwr:15,shl:210,rng:260,spd:340,itv:400},tunable:{mwp:1}}
 {id:131,name:"Renny lop AM6",joint:{wp:2},comment:["AM6 and AM7 have identical stats","Second weapon slot is for conversion parts"],cost:35,hp:20,tec:2,wlk:1,tgh:1}
+{id:198,name:"Renny Lop AM8",joint:{wp:2},cost:35,hp:20,str:1,tec:2,wlk:2,fly:1,tgh:-1}
 {id:54,name:"Adone AM",type:"a",cost:65,hp:20,str:2,tec:1,wlk:-1,fly:1,tgh:2,main:{pwr:11,shl:200,rng:260,spd:460,itv:520},tunable:{mwp:1}}
 {id:84,name:"Adone AM2",main:{tec:100,pwr:4,shl:240,rng:250,spd:320,itv:1200},tunable:{mwp:1},type:"a",cost:65,hp:20,str:2,tec:3,fly:1,tgh:-1}
 {id:2,name:"Winberrl AM",type:"s",cost:75,hp:20,str:1,tec:1,tgh:3,main:{pwr:2,shl:50,rng:340,spd:420,itv:600},tunable:{mwp:1}}
@@ -404,6 +406,7 @@
 {id:177,name:"Sovlancer AM",cost:35,hp:20,str:2,wlk:2,tgh:1}
 {id:186,name:"Hard Bomber AM",main:{pwr:14,shl:180,rng:330,spd:380,itv:540},tunable:{mwp:1},type:"c",cost:90,hp:25,tec:1,fly:2,tgh:2}
 {id:185,name:"Hard Bomber AM2",sub:{rng:100,spd:50,itv:500},joint:{wp:0},type:"lc",cost:90,hp:25,wlk:1,fly:1,tgh:3}
+{id:187,name:"Sea Turtlebacker AM",main:{pwr:20,shl:100,rng:280,spd:260,itv:800},type:"a",cost:100,hp:20,str:1,tec:2,wlk:-1,fly:2,tunable:{mwp:1}}
 
 
 {id:1002,name:"Mediger AM3",size:"M",cost:35,hp:20,tec:1,wlk:2,tgh:1,fixedParts:{wp:{name:"Liber",sub:{shl:3,rng:45,spd:65,itv:15000},cost:70,slot:0}}}
@@ -526,7 +529,7 @@
 {id:90,name:"Berylskid AM",type:"l",cost:40,hp:25,str:1,tec:2,wlk:1,tgh:1}
 {id:138,name:"Berylskid AM2",sub:{shl:1,rng:100,spd:50,itv:500},type:"l",cost:65,hp:25,tec:2,wlk:2,fly:-1,tgh:2}
 {id:91,name:"Gyallanbard AM2",type:"l",joint:{wp:0},sub:{str:100,pwr:43,shl:30,rng:60,spd:63,itv:1100},tunable:{pwp:1},cost:125,hp:25,str:4,tec:-1,wlk:2}
-{id:2107,name:"Gyallanbard AM3",type:"l",cost:45,hp:25,str:-1,tec:2,wlk:3,fly:1}
+{id:166,name:"Gyallanbard AM3",type:"l",cost:45,hp:25,str:-1,tec:2,wlk:3,fly:1}
 {id:148,name:"Gyallanbard AM4",main:{shl:30,spd:10,itv:1000},sub:{str:100,pwr:30,shl:30,rng:75,spd:90,itv:540},tunable:{pwp:1},type:"l",cost:175,hp:25,str:3,tec:-1,tgh:3,joint:{wp:0}}
 {id:92,name:"Wardus AM",cost:40,hp:20,str:2,tec:-1,wlk:1,fly:1,tgh:2}
 {id:111,name:"Wardus AM2",cost:40,hp:20,str:2,wlk:1,fly:2,tgh:1,tec:-1}
@@ -587,7 +590,7 @@
 {id:160,name:"Gigant Arms AM",joint:{wp:2},cost:35,hp:20,wlk:3,fly:1,tgh:1}
 {id:161,name:"Persecius AM3",main:{tec:100,pwr:35,shl:100,rng:330,spd:350,itv:1500},tunable:{mwp:1},joint:{wp:0},type:"a",cost:170,hp:15,tec:2,fly:2}
 {id:165,name:"Buff Devastator AM2",main:{pwr:12,shl:220,rng:260,spd:340,itv:540},tunable:{mwp:1},type:"s",cost:105,hp:20,tec:1,tgh:1}
-{id:166,name:"Katto Baldo AM",type:"l",cost:40,hp:25,str:2,tec:1,fly:-1,tgh:3,conversion:"BDLL55",comment:"Attachable to 'Katto Baldo BD' only"}
+{id:2109,name:"Katto Baldo AM",type:"l",cost:40,hp:25,str:2,tec:1,fly:-1,tgh:3,conversion:"BDLL55",comment:"Attachable to 'Katto Baldo BD' only"}
 {id:167,name:"Katto Baldo AM2",joint:{wp:0},main:{shl:30,spd:10,itv:1000},tunable:{mwp:1},cost:90,hp:25,str:2,wlk:1,fly:-1,tgh:4,conversion:"BDLL55",comment:"Attachable to 'Katto Baldo BD' only"}
 
 {id:2106,name:"Cordyceps AM",cost:45,hp:25,str:1,tec:1,fly:1,tgh:2}
@@ -670,8 +673,8 @@
 //{id:45,name:"ランパーニルAM",type:"l",size:"L",cost:60,hp:15,str:1,tec:1,fly:-1,tgh:1}
 {id:46,name:"Aeolius AMJ",joint:{am:1},size:"M",slot:1}
 {id:45,name:"Patty Lop AMJ",sub:{itv:100},joint:{am:1},size:"S",cost:60,slot:1}
+{id:48,name:"S.U. Barrier Shooter AMJ",main:{pwr:5,shl:150,rng:320,spd:260,itv:400},tunable:{mwp:1},type:"c",size:"M",cost:50,slot:1}
+{id:49,name:"Beam Cannon Canceler AMJ",size:"M",type:"lc",main:{tec:100,pwr:5,shl:5,rng:220,spd:430,itv:200},tunable:{mwp:1},cost:15,slot:1}
 
 {id:140,name:"Agnizyne AMJ",size:"M",slot:1}
-{id:141,name:"Beam Cannon Canceler AMJ",size:"M",type:"lc",main:{tec:100,pwr:5,shl:5,rng:220,spd:430,itv:200},tunable:{mwp:1},cost:15,slot:1}
 {id:142,name:"Wild Shoulder AMJ",size:"M",slot:1}
-{id:48,name:"S.U. Barrier Shooter AMJ",main:{pwr:5,shl:150,rng:320,spd:260,itv:400},tunable:{mwp:1},type:"c",size:"M",cost:50,slot:1}

@@ -362,6 +362,10 @@
 {id:343,name:"Baphogridr Wig",hp:5,capa:5,str:1}
 {id:344,name:"Floral Gear ALPHA",wlk:1,capa:5}
 {id:345,name:"Hawk Radar Gear",capa:5,hp:5,tec:1}
+{id:346,name:"Ena's Work Cap",capa:5,hp:5,tec:1}
+{id:347,name:"Circus Master Hat",hp:5,str:1,capa:5}
+{id:348,name:"Ripley's Cannon Gear",hp:5,fly:1,capa:5}
+{id:349,name:"Bunny Beats",tec:1,capa:5}
 
 {id:261,name:"Mosquito Buster",hp:5,str:1}
 {id:1227,name:"Orange Layer Ribbon",str:1,fly:1}
@@ -419,7 +423,7 @@
 {id:1286,name:"Cyclops Visor",tec:1,fly:1}
 {id:1287,name:"High Nurse Cap",hp:10}
 {id:1288,name:"Capitol Guard Headband",str:1,tgh:1}
-{id:1289,name:"Feathered Cachusha",str:1,wlk:1}
+{id:1289,name:"Feathered Cachusha",tec:1,wlk:1}
 {id:1291,name:"Dead Ogre Horn",tec:1,tgh:1}
 {id:1292,name:"Angel Ring T",fly:1,tgh:1}
 {id:1293,name:"Headset",fly:1,tgh:1}

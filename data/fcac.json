@@ -200,7 +200,11 @@
 {id:191,name:"Edel Gear",tec:1,fly:1}
 {id:192,name:"Mad Scientist Goggles",str:1,tgh:1}
 {id:193,name:"Baphogridr Horns",str:1,wlk:1}
-
+{id:194,name:"Falcon Gear",hp:5,fly:1,capa:5}
+{id:195,name:"デンデンカム",capa:5,slot:1,tgh:1,comment:"translation needed"}
+{id:196,name:"エナインカム",tec:1,wlk:1,comment:"translation needed"}
+{id:197,name:"Circus Master Glass",str:1,wlk:1}
+{id:348,name:"Ripley's Bunny Ears",tec:1,fly:1}
 
 {id:255,name:"Crim's Witch Cape",fly:2}
 {id:256,name:"Feng Mei's Glasses",hp:5,fly:1}
@@ -214,7 +218,7 @@
 {id:264,name:"Black Side Ribbon",hp:5,fly:1}
 {id:265,name:"Snow Wire",tec:2}
 {id:267,name:"Lovely Eyepatch",hp:5,wlk:1}
-{id:268,name:"Falcon Gear",hp:5,fly:1,capa:5}
+
 {id:269,name:"Sweet Glasses",tec:1,capa:5}
 //{id:270,name:"Rabbit Hood",wlk:1,tgh:1}
 {id:271,name:"La Vie Headset",str:1,wlk:1}

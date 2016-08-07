@@ -17,8 +17,8 @@
 {id:13,name:"Motorized Gun",type:"lc",size:"M",cost:160,wlk:1,fly:1,main:{pwr:14,shl:340,rng:150,spd:360,itv:140}}
 {id:66,name:"Pierce Gun",main:{pwr:16,shl:260,rng:260,spd:340,itv:340},type:"l",cost:120,str:1,tec:1,size:"M"}
 {id:75,name:"Pierce Gun Mod",main:{tec:100,pwr:18,shl:180,rng:260,spd:340,itv:340},type:"l",size:"M",cost:120,str:1,tec:1}
-{id:91,name:"Charge Pierce Gun",main:{tec:100,pwr:20,shl:140,rng:280,spd:360,itv:300},type:"l",size:"M",cost:140,tec:1,tgh:1}
-{id:103,name:"Assault Pierce Gun Mod",main:{tec:100,pwr:18,shl:180,rng:280,spd:360,itv:300},type:"l",size:"M",cost:140,tec:1,tgh:1}
+{id:91,name:"Charge Pierce Gun",main:{tec:100,pwr:20,shl:220,rng:280,spd:360,itv:300},type:"l",size:"M",cost:140,tec:1,tgh:1}
+{id:103,name:"Assault Pierce Gun Mod",main:{tec:100,pwr:18,shl:260,rng:280,spd:360,itv:300},type:"l",size:"M",cost:140,tec:1,tgh:1}
 {id:116,name:"High Pierce Gun",main:{tec:100,pwr:19,shl:300,spd:340,rng:260,itv:340},type:"l",size:"M",cost:170,str:1,tec:1}
 {id:119,name:"High Pierce Gun Mod",main:{tec:100,pwr:20,shl:270,rng:260,spd:340,itv:340},tunable:{mwp:1},type:"l",size:"M",cost:170,str:1,tec:1}
 {id:15,name:"Handy Magnum",size:"S",cost:15,main:{pwr:11,shl:340,rng:185,spd:310,itv:440}}
@@ -54,7 +54,7 @@
 {id:32,name:"Plasma Gun",type:"a",size:"M",cost:170,str:-1,wlk:-2,main:{pwr:20,shl:400,rng:220,spd:270,itv:440}}
 {id:82,name:"Plasma Gun Mod",type:"a",size:"M",cost:170,str:-1,wlk:-2,main:{pwr:22,shl:350,rng:220,spd:270,itv:440}}
 {id:65,name:"LL Plasma Gun",type:"a",size:"LL",cost:200,fly:2,main:{pwr:30,shl:450,rng:250,spd:270,itv:700}}
-{id:270,name:"LL Plasma Gun Mod",type:"a",size:"LL",cost:200,fly:2,main:{pwr:27,shl:450,rng:300,spd:270,itv:700}}
+{id:123,name:"LL Plasma Gun Mod",type:"a",size:"LL",cost:200,fly:2,main:{pwr:27,shl:450,rng:300,spd:270,itv:700}}
 {id:70,name:"Accel Beam Gun",main:{pwr:11,shl:250,rng:270,spd:470,itv:480},type:"a",size:"M",cost:85,tec:-1,wlk:-1}
 {id:80,name:"Accel Beam Gun Mod",main:{pwr:13,shl:160,rng:270,spd:470,itv:480},type:"a",size:"M",cost:85,tec:-1,wlk:-1}
 {id:84,name:"Curve Lightning Gun",main:{pwr:10,shl:640,rng:250,spd:290,itv:800},type:"a",size:"L",cost:140,fly:1,tgh:-1}
@@ -268,8 +268,8 @@
 {id:9,name:"Ancient Bazooka",type:"cs",size:"M",cost:110,str:1,fly:-1,main:{pwr:27,shl:180,rng:290,spd:260,itv:680}}
 {id:10,name:"Large Bazooka",type:"cs",size:"LL",cost:120,tgh:3,main:{pwr:36,shl:210,rng:280,spd:260,itv:1000}}
 {id:79,name:"Large Bazooka Mod",type:"cs",size:"LL",cost:120,tgh:3,main:{pwr:38,shl:180,rng:280,spd:260,itv:1000}}
-{id:36,name:"Spread Bazooka",type:"c",size:"LL",cost:150,wlk:-1,fly:-1,main:{pwr:10,shl:630,rng:290,spd:290,itv:1400}}
-{id:64,name:"Spread Bazooka Mod",type:"c",size:"LL",cost:150,wlk:-1,fly:-1,main:{pwr:7,shl:910,rng:290,spd:290,itv:1400}}
+{id:36,name:"Spread Bazooka",type:"c",size:"LL",cost:150,main:{pwr:20,shl:630,rng:290,spd:290,itv:800}}
+{id:64,name:"Spread Bazooka Mod",type:"c",size:"LL",cost:150,main:{pwr:17,shl:910,rng:290,spd:290,itv:800}}
 {id:11,name:"Titan Bazooka",type:"c",size:"LL",cost:200,tgh:7,main:{pwr:42,shl:250,rng:320,spd:250,itv:1100}}
 {id:12,name:"Titan Bazooka Mod",type:"c",size:"LL",cost:200,tgh:8,main:{pwr:40,shl:280,rng:300,spd:250,itv:1100}}
 {id:13,name:"Gatling Bazooka",type:"c",size:"L",cost:210,tgh:2,main:{pwr:16,shl:800,rng:270,spd:280,itv:200}}
@@ -311,8 +311,8 @@
 {id:67,name:"Plasma Beam Cannon Mod",main:{pwr:22,shl:420,rng:270,spd:360,itv:740},cost:180,tec:1,fly:1,size:"M",type:"a"}
 {id:35,name:"Steam Cannon",main:{tec:100,pwr:31,shl:60,rng:200,spd:260,itv:2500},tunable:{mwp:1},cost:140,wlk:-2,size:"L",type:"c",tgh:-1}
 {id:62,name:"Steam Cannon Mod",main:{tec:100,pwr:28,shl:110,rng:200,spd:260,itv:2500},tunable:{mwp:1},cost:140,wlk:-2,size:"L",type:"c",tgh:-1}
-{id:38,name:"Beam Launcher",main:{tec:100,pwr:16,shl:200,rng:280,spd:240,itv:1000},size:"L",type:"a",cost:100}
-{id:44,name:"Beam Launcher Mod",main:{tec:100,pwr:18,shl:140,rng:280,spd:240,itv:1000},size:"L",type:"a",cost:100}
+{id:38,name:"Beam Launcher",main:{tec:100,pwr:26,shl:200,rng:300,spd:270,itv:1000},size:"L",type:"a",cost:100}
+{id:44,name:"Beam Launcher Mod",main:{tec:100,pwr:28,shl:140,rng:300,spd:270,itv:1000},size:"L",type:"a",cost:100}
 {id:58,name:"Burst Missile Gun",main:{tec:100,pwr:13,shl:150,rng:320,spd:260,itv:1200},type:"lc",size:"M",cost:130}
 {id:66,name:"Burst Missile Gun Mod",main:{pwr:16,shl:100,rng:320,spd:260,itv:1200},type:"lc",size:"M",cost:130}
 //{id:47,name:"Squidol Bazooka",main:{tec:100,pwr:15,shl:150,rng:300,spd:270,itv:700},tunable:{mwp:1},size:"M",type:"s",cost:70}
@@ -320,7 +320,7 @@
 {id:52,name:"Scram Launcher Mod",main:{pwr:21,shl:150,rng:280,spd:230,itv:1000},type:"c",size:"L",cost:140,fly:-3,tgh:-1}
 {id:51,name:"Shock Bazooka",main:{pwr:16,shl:210,rng:170,spd:265,itv:800},tunable:{mwp:1},type:"s",size:"M",cost:60,wlk:-1,fly:-1,tgh:1}
 {id:54,name:"Shock Bazooka Mod",main:{pwr:18,shl:180,rng:170,spd:265,itv:800},tunable:{mwp:1},type:"s",size:"M",cost:60,wlk:-1,fly:-1,tgh:1}
-{id:63,name:"Explosive Bazooka",main:{pwr:28,shl:120,rng:245,spd:265,itv:1200},type:"c",size:"L",cost:160,wlk:-2,fly:-2}
+{id:63,name:"Explosive Bazooka",main:{pwr:28,shl:240,rng:335,spd:285,itv:600},type:"c",size:"L",cost:160,wlk:-2,fly:-2}
 {id:68,name:"Charge Beam Cannon",main:{pwr:34,shl:100,rng:300,spd:370,itv:1500},type:"a",size:"L",cost:140,str:-1,fly:1}
 {id:77,name:"Charge Beam Cannon Mod",main:{pwr:31,shl:140,rng:300,spd:370,itv:1500},type:"a",size:"L",cost:140,str:-1,fly:1}
 {id:71,name:"Jack-O-Launcher",main:{pwr:7,shl:400,rng:320,spd:240,itv:140},size:"L",type:"c",cost:100,str:-1,fly:-2,wlk:-2}
@@ -338,13 +338,16 @@
 {id:81,name:"Missile Cluster",main:{pwr:7,shl:250,rng:320,spd:260,itv:1000},type:"c",size:"M",cost:100}
 {id:89,name:"Missile Cluster Mod",main:{pwr:9,shl:150,rng:320,spd:260,itv:1000},type:"c",size:"M",cost:100}
 {id:82,name:"BT Bazooka",main:{pwr:16,shl:200,rng:290,spd:320,itv:500},type:"cs",size:"M",cost:100}
-{id:91,name:"BT Bazooka Mod",main:{pwr:19,shl:150,rng:290,spd:320,itv:500},type:"cs",size:"M",cost:100}
+{id:1088,name:"BT Bazooka Mod",main:{pwr:19,shl:150,rng:290,spd:320,itv:500},type:"cs",size:"M",cost:100}
 {id:86,name:"Impact Bazooka",main:{pwr:22,shl:200,rng:320,spd:285,itv:700},sub:{pwr:10,shl:30,rng:100,spd:570,itv:1000},type:"c",size:"M",cost:110}
 {id:87,name:"Swallow Beam Gun",main:{tec:100,pwr:12,shl:300,rng:250,spd:300,itv:540},type:"a",size:"M",cost:80}
 {id:1084,name:"Swallow Beam Gun Mod",main:{tec:100,pwr:14,shl:220,rng:250,spd:300,itv:540},type:"a",size:"M",cost:80}
 {id:88,name:"SBC-Beam Cannon Mod",main:{tec:100,pwr:38,shl:100,rng:330,spd:350,itv:1500},type:"a",size:"M",cost:170}
 {id:90,name:"Blast Missile Gun",main:{tec:100,pwr:25,shl:250,rng:290,spd:260,itv:800},tunable:{mwp:1},type:"cs",size:"M",cost:160}
-{id:92,name:"Blast Missile Gun Mod",main:{tec:100,pwr:27,shl:220,rng:290,spd:260,itv:800},tunable:{mwp:1},type:"cs",size:"M",cost:160}
+{id:1089,name:"Blast Missile Gun Mod",main:{tec:100,pwr:27,shl:220,rng:290,spd:260,itv:800},tunable:{mwp:1},type:"cs",size:"M",cost:160}
+{id:91,name:"Pretty Rabbit Bazooka",main:{tec:100,pwr:26,shl:200,rng:200,spd:350,itv:500},tunable:{mwp:1},conversion:"BDCS90AM BDCS90AM2",type:"c",size:"S",cost:80,comment:"Attachable to 'Ripley AM/AM' only"}
+{id:92,name:"Pretty Ninja Missile",main:{tec:100,pwr:13,shl:400,rng:320,spd:260,itv:300},tunable:{mwp:1},conversion:"BDCS90AM BDCS90AM2",type:"c",size:"S",cost:70,comment:"Attachable to 'Ripley AM/AM2' only"}
+{id:93,name:"Optical Launcher",main:{pwr:23,shl:200,rng:340,spd:250,itv:500},type:"c",size:"L",cost:160}
 
 {id:1079,name:"Multi Missile Gun",main:{pwr:6,shl:230,rng:300,spd:280,itv:800},type:"lc",size:"M",cost:180}
 {id:1083,name:"Multi Missile Gun Mod",main:{pwr:7,shl:170,rng:300,spd:280,itv:800},type:"lc",size:"M",cost:180}
@@ -510,7 +513,7 @@
 {id:139,name:"Chivalry Aegis",main:{shl:30,spd:10,itv:1000},conversion:"BDLS138AM8",comment:"Attachable to 'Sylvia AM8' only",size:"M",type:"l",cost:20}
 {id:142,name:"Nora Schneid BD@",tunable:{mwp:1},type:"l",size:"S",cost:30,conversion:"BDLS140",comment:"Attachable to 'Nora Schneid BD' only",main:{pwr:5,shl:45,rng:200,spd:280,itv:300}}
 //{id:143,name:"Pepo BD@",main:{tec:100,pwr:5,shl:250,rng:210,spd:310,itv:440},sub:{str:100,tec:7,pwr:7,shl:100,rng:250,spd:200,itv:1500},tunable:{mwp:1},comment:"Attachable to 'Pepo-chan BD4' only"}
-{id:144,name:"Maple Leaf Guard",main:{shl:7,spd:10,itv:1000},conversion:"BSM148",comment:"Attachable to 'Autumn Cape BS' only",slot:0,size:"M",cost:35}
+{id:144,name:"Maple Leaf Guard",main:{shl:7,spd:10,itv:1000},conversion:"BSM148 BSM165",comment:"Attachable to 'Autumn Cape BS/Autumn Leaf BS' only",slot:0,size:"M",cost:35}
 {id:145,name:"Malice Blade",main:{pwr:8,shl:400,rng:340,spd:220,itv:600},tunable:{mwp:1},conversion:"AMS167",comment:"Attachable to 'Nicole Malice AM6' only",size:"S",type:"c",cost:110}
 {id:146,name:"Azraq Lamp",main:{pwr:7,shl:400,rng:320,spd:280,itv:500},sub:{rng:100,itv:500},tunable:{mwp:1},joint:{wp:1},fixedParts:{wp:{name:"Azraq Lamp@",main:{pwr:27,shl:50,rng:320,spd:450,itv:500},slot:0}},type:"a",size:"S",cost:220,conversion:"BDAS85AM",comment:"Attachable to 'Munya AM2' only"}
 {id:147,name:"B Blast Railgun",type:"a",main:{tec:100,pwr:20,shl:270,rng:320,spd:480,itv:340},tunable:{mwp:1},cost:170}
@@ -558,10 +561,9 @@
 {id:188,name:"Donner Musket",joint:{wp:1},fixedParts:{wp:{name:"Donner Musket@",main:{pwr:32,shl:40,rng:360,spd:400,itv:500},slot:0}},type:"a",size:"S",conversion:"BDAS99AM",comment:"Attachable to 'Nebel AM' only",cost:60}
 {id:189,name:"Blitz B Machinegun",main:{pwr:12,shl:700,rng:320,spd:410,itv:240},tunable:{mwp:1},joint:{wp:1},type:"a",size:"S",conversion:"BDAS99AM2",comment:"Attachable to 'Nebel AM2' only",cost:90}
 {id:190,name:"Connect Blast",main:{pwr:32,shl:160,rng:350,spd:450,itv:500},type:"a",size:"S",slot:0,conversion:"WPMO189",comment:"Attachable to 'Blitz B Machinegun' only",cost:60}
-{id:191,name:"Fin Musket",cost:90,type:"c",size:"S",main:{pwr:17,shl:300,rng:330,spd:420,itv:500},conversion:"BDCS81AM",comment:"Attachable to 'Colleti AM' only"}
+{id:191,name:"Fin Musket",cost:90,type:"c",size:"S",main:{pwr:17,shl:300,rng:360,spd:420,itv:500},conversion:"BDCS81AM",comment:"Attachable to 'Colleti AM' only"}
 {id:192,name:"Fin Cannon SS",cost:90,type:"c",size:"S",slot:0,main:{pwr:9,shl:200,rng:320,spd:260,itv:1400},sub:{pwr:25,shl:15,rng:10,spd:110,itv:500},conversion:"BDCS81AM",comment:"Attachable to 'Colleti BD' only"}
-{id:193,name:"Fin Cannon HE",cost:120,type:"c",size:"S",slot:0,main:{pwr:15,shl:80,rng:320,spd:400,itv:300},sub:{pwr:4,shl:300,rng:320,spd:280,itv:500},conversion:"BDCS81AM",comment:"Attachable to 'Colleti BD' only"}
-{id:1011,name:"Draw Boomerang",type:"l",size:"M",main:{pwr:15,shl:20,rng:200,spd:260,itv:500},tunable:{mwp:1},cost:30}
+{id:193,name:"Fin Cannon HE",cost:120,type:"c",size:"S",slot:0,main:{pwr:20,shl:80,rng:320,spd:400,itv:800},sub:{pwr:10,shl:300,rng:320,spd:280,itv:500},conversion:"BDCS81AM",comment:"Attachable to 'Colleti BD' only"}
 {id:194,name:"Bloody Star AM@",main:{tec:100,pwr:28,shl:15,rng:250,spd:570,itv:1200},type:"c",size:"M",cost:25,slot:0,conversion:"AMM172",comment:"Attachable to 'Bloody Star AM' only"}
 {id:195,name:"Revenant Shield",main:{shl:30,rng:10,spd:10,itv:1000},type:"l",size:"M",slot:0,cost:30,conversion:"AMM173",comment:"Attachable to 'Dark Revenant AM' only"}
 {id:196,name:"Revenant Dart",main:{str:100,pwr:30,shl:30,rng:320,spd:270,itv:1000},tunable:{mwp:1},cost:60,type:"l",size:"M",conversion:"AMM173",comment:"Attachable to 'Dark Revenant AM' only"}
@@ -611,3 +613,5 @@
 // {id:228,name:"Multi Missile Gun Mod",main:{tec:100,pwr:7,shl:170,rng:300,spd:280,itv:800},tunable:{mwp:1},type:"lc",size:"M",cost:180} -> BZ1083
 {id:229,name:"Meteorpfeil",main:{tec:100,pwr:5,shl:200,rng:320,spd:260,itv:600},tunable:{mwp:1},type:"a",size:"S",cost:30,conversion:"BDAS108",comment:"Attachable to 'Celica Hawk BD' only"}
 {id:230,name:"Blink Mace",main:{tec:100,pwr:18,shl:360,rng:330,spd:280,itv:1000},sub:{str:100,pwr:15,shl:15,rng:70,spd:85,itv:1000},tunable:{mwp:1,pwp:1},type:"c",size:"M",cost:200}
+{id:231,name:"Multi Knife Shooter",main:{tec:100,pwr:7,shl:600,rng:250,spd:330,itv:600},tunable:{mwp:1},type:"l",size:"S",conversion:"AMS131 AMS198",cost:90,comment:"Attachable to 'Renny Lop AM6/AM7/AM8' only"}
+{id:232,name:"Draw Boomerang",main:{pwr:15,shl:20,rng:200,spd:260,itv:500,str:100},tunable:{mwp:1},type:"l",size:"M",cost:30}

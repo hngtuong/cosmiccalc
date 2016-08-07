@@ -78,11 +78,12 @@
 {id:74,name:"Full Power"}
 {id:75,name:"Arte: Resonance Mirror"}
 {id:76,name:"Adwolff"}
-{id:77,name:"Bind Unit"}
+{id:77,name:"TA-LOs"}
 {id:78,name:"Guardian Pawn"}
 {id:79,name:"S-AURA"}
 {id:80,name:"Dead Sect Cyclo"}
 {id:81,name:"Dead Ogre"}
+{id:82,name:"Fire Show"}
 
 {id:1051,name:"Pepo Counter Bit"}
 {id:1052,name:"Battle Frame O Bit"}
@@ -126,3 +127,4 @@
 {id:1091,name:"Revelation"}
 {id:1092,name:"Sturmwind"}
 {id:1093,name:"Meteorlichten"}
+{id:1094,name:"Bind Unit"}

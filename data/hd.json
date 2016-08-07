@@ -295,7 +295,7 @@
 {id:219,name:"Mizuha HD",cost:30,hp:15,str:1,fly:1,tgh:2}
 {id:220,name:"Wolf Rayet HD",cost:35,hp:20,str:1,tec:2,wlk:1,fly:2,tgh:-1}
 {id:221,name:"Combat Freed HD",cost:40,hp:35,tec:3,wlk:-1,fly:1,tgh:2}
-{id:267,name:"Combat Freed HD2",main:{pwr:5,shl:20,rng:160,spd:570,itv:500},tunable:{mwp:1},cost:50,hp:35,str:1,tec:2,wlk:-1,fly:1,tgh:2}
+{id:325,name:"Combat Freed HD2",main:{pwr:5,shl:20,rng:160,spd:570,itv:500},tunable:{mwp:1},cost:50,hp:35,str:1,tec:2,wlk:-1,fly:1,tgh:2}
 {id:222,name:"Protos HD",cost:35,hp:25,tec:3,tgh:1}
 {id:223,name:"Pelena HD",sub:{shl:10,spd:63,itv:30000,rng:43},cost:75,hp:20,tec:2,wlk:1,fly:1,type:"s"}
 {id:224,name:"Volcanics HD",main:{pwr:10,shl:300,rng:70,spd:360,itv:100},tunable:{mwp:1},type:"lac",cost:120,hp:15,tec:2,fly:2,tgh:1}
@@ -333,7 +333,8 @@
 {id:258,name:"Harrier Accel HD",cost:45,hp:25,wlk:1,fly:2,tgh:2}
 {id:259,name:"Orphenous HD",cost:35,hp:20,str:2,tec:1,wlk:-1,fly:2,tgh:1}
 {id:261,name:"Voltis HD",cost:40,hp:25,tec:2,wlk:-1,fly:2,tgh:2}
-{id:262,name:"Scaraboss HD",sub:{pwr:10,shl:5,itv:1000},type:"lcs",cost:75,hp:20,str:1,tec:1,wlk:-1,fly:1,tgh:2}
+{id:262,name:"Scaraboss HD",sub:{pwr:10,shl:8,itv:1000},type:"lcs",cost:75,hp:20,str:1,tec:1,wlk:-1,fly:1,tgh:2}
+{id:326,name:"Scaraboss HD2",main:{pwr:10,shl:5,rng:30,spd:50,itv:500},tunable:{mwp:1},type:"lcs",cost:65,hp:20,str:-1,tec:1,fly:2,tgh:2}
 {id:263,name:"Mantiscythe HD",cost:35,hp:20,str:2,tec:2,tgh:1}
 {id:264,name:"Agnizyne HD",cost:35,hp:20,str:1,tec:1,tgh:2}
 {id:266,name:"Hecatocles HD",cost:35,hp:20,str:2,tec:1,wlk:1,fly:-1,tgh:2}
@@ -357,7 +358,7 @@
 {id:287,name:"Ramdiver HD",cost:30,hp:15,str:1,tec:1,wlk:-1,fly:1,tgh:2}
 {id:288,name:"Valiant HD",cost:25,hp:15,str:1,tec:2,wlk:1,tgh:-1}
 {id:290,name:"Recipro HD",cost:35,hp:20,tec:1,wlk:-1,fly:2,tgh:3}
-{id:326,name:"Recipro HD2",main:{pwr:3,shl:30,rng:110,spd:570,itv:200},cost:50,hp:15,wlk:1,fly:1,tgh:2}
+{id:1278,name:"Recipro HD2",main:{pwr:3,shl:30,rng:110,spd:570,itv:200},cost:50,hp:15,wlk:1,fly:1,tgh:2}
 {id:291,name:"Aeolius HD",cost:30,hp:15,str:1,tec:1,fly:2}
 {id:292,name:"Rosso Aspide HD",cost:35,hp:20,str:-1,wlk:2,fly:1,tgh:2,size:"L"}
 {id:293,name:"Windlynx HD",cost:45,hp:25,str:2,tec:-1,fly:2,tgh:3}
@@ -386,7 +387,6 @@
 {id:1263,name:"Oboromaru HD",cost:40,hp:25,str:3,tec:1,wlk:1,fly:1,tgh:-1}
 // {name:"Oboromaru HD2JP",main:{pwr:25,shl:20,rng:300,spd:100,itv:500}}
 {id:324,name:"Oboromaru HD2",main:{pwr:25,shl:15,rng:300,spd:100,itv:1000},tunable:{mwp:1},cost:70,hp:20,str:2,tec:1,fly:2}
-{id:325,name:"Hard Bomber HD",cost:45,hp:25,str:1,tec:1,wlk:2,fly:-1,tgh:2}
 {id:327,name:"Katto Baldo HD",cost:40,hp:20,tec:-1,wlk:2,fly:1,tgh:3}
 
 {id:1262,name:"Magnell HD",cost:40,hp:20,str:2,tec:2,wlk:2,fly:-1}
@@ -396,6 +396,8 @@
 {id:1269,name:"Gigant Arms HD",cost:45,hp:30,str:3,tec:1,fly:-1,tgh:2}
 {id:1272,name:"Brink HD",cost:35,hp:20,str:2,tec:2,wlk:0,fly:-1,tgh:2}
 {id:1274,name:"P. Mona HD",cost:25,hp:15,str:1,tec:2,wlk:-1,fly:2}
+{id:1277,name:"Hard Bomber HD",cost:45,hp:25,str:1,tec:1,wlk:2,fly:-1,tgh:2}
+{id:1279,name:"Sea Turtlebacker HD",cost:30,hp:20,str:-1,tec:1,fly:2,tgh:2}
 
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
@@ -417,3 +419,4 @@
 {id:2,name:"Magic Neck HDJ",size:"M",cost:5,hp:5,slot:1}
 {id:3,name:"Hero Scarf HDJ",size:"M",cost:5,hp:5,slot:1}
 {id:4,name:"Big Head Cape HDJ",size:"M",cost:5,hp:5,slot:1}
+// {id:4,name:"Dummy HDJ",comment:"FOR WHAT?",size:"M",slot:1}
