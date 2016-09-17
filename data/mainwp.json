@@ -35,7 +35,7 @@
 {id:100,name:"LL Bulk Mag Mod",type:"l",size:"LL",cost:140,fly:-1,main:{pwr:23,shl:150,rng:190,spd:300,itv:500}}
 {id:67,name:"Estes Magnum",main:{pwr:18,shl:260,rng:230,spd:360,itv:440},size:"M",type:"l",cost:155}
 {id:102,name:"Estes Mag Mod",main:{pwr:21,shl:180,rng:230,spd:360,itv:440},size:"M",type:"l",cost:155}
-{id:123,name:"Wild Revolver",main:{pwr:18,shl:230,rng:250,spd:380,itv:440},size:"M",type:"l",cost:180}
+{id:124,name:"Wild Revolver",main:{pwr:18,shl:230,rng:250,spd:380,itv:440},size:"M",type:"l",cost:180}
 // {id:120,name:"ストライカーライフル",main:{pwr:11,shl:300,rng:300,spd:400,itv:140},size:"M",type:"l",cost:155,str:-1,wlk:1}
 // {id:121,name:"ストライカーライフル改",main:{pwr:9,shl:450,rng:300,spd:400,itv:140},size:"M",type:"l",cost:155,str:-1,wlk:1}
 {id:24,name:"Beam Gun",size:"S",cost:20,main:{pwr:9,shl:500,rng:230,spd:285,itv:460}}
