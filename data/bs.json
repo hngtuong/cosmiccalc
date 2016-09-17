@@ -374,7 +374,7 @@
 {id:154,name:"Grand Vernier BS",sub:{shl:20,rng:100,spd:200,itv:2000},cost:60,hp:25,wlk:2,fly:3}
 {id:155,name:"Thrones Wing BS",sub:{shl:15,rng:100,spd:150,itv:2000},size:"M",cost:60,hp:25,wlk:2,fly:3}
 {id:159,name:"Manimo Wing",sub:{shl:5,spd:160,itv:1000},joint:{wp:1},type:"a",size:"M",cost:65,hp:20,str:1,fly:2,tgh:2}
-{id:160,name:"Persecius",type:"a",cost:40,hp:20,tec:2,fly:2,tgh:1}
+{id:160,name:"Persecius BS",type:"a",cost:40,hp:20,tec:2,fly:2,tgh:1}
 {id:161,name:"Shadow Kinesis BS",type:"a",main:{pwr:15,shl:350,rng:140,spd:280,itv:240},joint:{bs:1},cost:155,hp:20,tec:1,fly:3,tgh:1}
 {id:2107,name:"Shadow Kinesis BS@",type:"a",sub:{shl:7,rng:300,spd:10,itv:1000},cost:20,conversion:"BSM161",comment:"Attachable to 'Shadow Kinesis BS' only"}
 // {id:161,name:"BS空き",type:"lacs",size:"M",slot:0,comment:"ロードしてパーツの位置がずれる場合に挟んでください"}
@@ -402,7 +402,9 @@
 {id:184,name:"Wired Magnegun BS",main:{pwr:10,shl:300,rng:300,spd:220,itv:700},tunable:{mwp:1},type:"c",cost:85,hp:10,tec:1,fly:2}
 {id:185,name:"SB Beam Missile BS",sub:{tec:100,pwr:3,shl:30,rng:250,spd:330,itv:100},type:"a",size:"M",cost:85,hp:25,str:1,tec:2,wlk:-1,fly:2,tgh:1}
 {id:187,name:"Sea Turtlebacker BS",sub:{tec:100,pwr:6,shl:80,rng:250,spd:260,itv:300},type:"a",cost:70,hp:30,tec:1,fly:2,tgh:2}
+{id:2114,name:"Gatorbacker BS",sub:{tec:100,pwr:28,shl:30,rng:320,spd:500,itv:500},type:"c",cost:125,hp:15,str:-1,tec:2,wlk:1,fly:2}
 {id:188,name:"Flareleon BS",type:"l",size:"M",cost:40,hp:20,str:3,wlk:1,fly:2,tgh:1}
+{id:189,name:"Margrethe BS",type:"l",cost:45,hp:25,tec:-1,fly:3,tgh:3}
 
 //{id:299,name:"Sylvia BS",type:"l",cost:45,hp:25,str:2,tec:-1,wlk:2,fly:2}
 {id:2100,name:"Lucca Decho BS",type:"l",cost:35,hp:20,str:1,tec:1,wlk:1,fly:3,tgh:-1}

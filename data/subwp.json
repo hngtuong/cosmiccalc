@@ -304,10 +304,11 @@
 {id:113,name:"Chain Blade Sheath",main:{tec:100,shl:-1,spd:150,itv:1000},sub:{str:100,pwr:22,shl:20,rng:120,spd:220,itv:500},conversion:"BDLS133 BDLS173",comment:"Attachable to 'Killica BD/BD2/BD3#1/BD4/BD5' only",slot:0}
 {id:115,name:"Chain Blade Sheath ALPHA",main:{tec:100,shl:-1,spd:150,itv:1000},sub:{str:100,pwr:22,shl:10,rng:120,spd:220,itv:500},conversion:"BDLS133 BDLS173",comment:"Attachable to 'Killica BD/BD2/BD3#1/BD4/BD5' only",slot:0}
 {id:1014,name:"Chain Blade II Sheath",main:{tec:100,pwr:15,shl:30,rng:200,spd:570,itv:500},sub:{str:100,pwr:22,shl:20,rng:120,spd:220,itv:500},conversion:"BDLS133 BDLS173",comment:"Attachable to 'Killica BD/BD2/BD3#1/BD4/BD5' only",slot:0}
-{id:116,name:"Captain Anchor",main:{tec:100,pwr:20,shl:30,rng:200,spd:300,itv:1000},sub:{str:100,pwr:32,rng:80,spd:50,itv:500},joint:{wp:1},type:"l",size:"S",slot:0,cost:90,conversion:"BDLS134AM BDLS177AM4",comment:"Attachable to 'Sunny AM2' only"}
-{id:117,name:"Captain Anchor @",main:{tec:100,shl:30,spd:10,itv:1000},sub:{str:100,pwr:32,rng:70,spd:85,itv:500},tunable:{pwp:1},cost:110,type:"l",size:"S",conversion:"WPSO116",comment:"Attachable to 'Captain Anchor' only"}
-{id:120,name:"Captain Anchor ALPHA",main:{tec:100,pwr:20,shl:5,rng:200,spd:300,itv:1000},sub:{str:100,pwr:25,rng:80,spd:50,itv:500},joint:{wp:1},type:"l",size:"S",slot:0,cost:90,conversion:"BDLS134AM BDLS177AM4",comment:"Attachable to 'Sunny AM2' only"}
-{id:118,name:"Captain Anchor @2",main:{tec:100,shl:30,spd:10,itv:1000},sub:{str:100,pwr:25,rng:70,spd:85,itv:500},tunable:{pwp:1},cost:110,type:"l",size:"S",conversion:"WPSO116",comment:"Attachable to 'Captain Anchor' only"}
+{id:116,name:"Captain Anchor",main:{tec:100,pwr:20,shl:30,rng:200,spd:300,itv:1000},sub:{str:100,pwr:32,rng:80,spd:50,itv:500},joint:{wp:1},type:"l",size:"S",slot:0,cost:90,conversion:"BDLS134AM BDLS177AM4",comment:"Attachable to 'Sunny AM2/AM4' only"}
+{id:120,name:"Captain Anchor ALPHA",main:{tec:100,pwr:20,shl:5,rng:200,spd:300,itv:1000},sub:{str:100,pwr:25,rng:80,spd:50,itv:500},joint:{wp:1},type:"l",size:"S",slot:0,cost:90,conversion:"BDLS134AM BDLS177AM4",comment:"Attachable to 'Sunny AM2/AM4' only"}
+{id:1019,name:"Captain Anchor II",main:{tec:100,pwr:15,shl:15,rng:200,spd:500,itv:1000},sub:{str:100,pwr:32,rng:110,spd:150,itv:500},joint:{wp:1},type:"l",size:"S",slot:0,cost:90,conversion:"BDLS134AM BDLS177AM4",comment:"Attachable to 'Sunny AM2/AM4' only"}
+{id:117,name:"Captain Anchor @",main:{tec:100,shl:30,spd:10,itv:1000},sub:{str:100,pwr:32,rng:70,spd:85,itv:500},tunable:{pwp:1},cost:110,type:"l",size:"S",conversion:"WPSO116 WPSO1019",comment:"Attachable to 'Captain Anchor' only"}
+{id:118,name:"Captain Anchor @2",main:{tec:100,shl:30,spd:10,itv:1000},sub:{str:100,pwr:25,rng:70,spd:85,itv:500},tunable:{pwp:1},cost:110,type:"l",size:"S",conversion:"WPSO116 WPSO1019",comment:"Attachable to 'Captain Anchor' only"}
 {id:119,name:"Hero Emblem BETA",sub:{pwr:1,shl:1,rng:30,spd:60,itv:400},cost:10,fly:1,comment:"Gives All Guard",size:"M"}
 {id:121,name:"Sanae-chan's Fireball",main:{pwr:16,shl:400,rng:260,spd:340,itv:440},sub:{rng:10,spd:10,itv:500},tunable:{mwp:1},type:"l",size:"S",cost:90,conversion:"BDLS135AM",comment:"Attachable to 'Sanae AM' only"}
 {id:125,name:"Sanae-chan's Fireball ALPHA",main:{pwr:13,shl:260,rng:260,spd:340,itv:440},sub:{rng:10,spd:10,itv:500},tunable:{mwp:1},type:"l",size:"S",cost:70,conversion:"BDLS135AM",comment:"Attachable to 'Sanae AM' only"}
@@ -382,6 +383,7 @@
 {id:184,name:"Berzellius Soul",main:{pwr:22,shl:1200,rng:320,spd:320,itv:240},sub:{shl:5,spd:160,itv:100},tunable:{mwp:1},joint:{wp:1},fixedParts:{wp:{name:"Berzellius Soul@",main:{pwr:9,shl:15,rng:320,spd:250,itv:500},sub:{shl:7,rng:300,itv:1000},slot:0}},conversion:"BDSS126WP",comment:"Attachable to 'Magical Mic Rod' only"}
 {id:1018,name:"Fractulus Soul",main:{pwr:30,shl:100,rng:320,spd:350,itv:300},sub:{shl:5,spd:160,itv:1000},tunable:{mwp:1},conversion:"BDSS126WP",comment:["Attachable to 'Magical Mic Rod' only","data incomplete"]}
 {id:186,name:"Scaraboss BS2@",sub:{pwr:1,shl:10,rng:80,spd:150,itv:500,str:100},cost:40,slot:0,size:"M",type:"c",conversion:"BSM186",comment:"Attachable to 'Scaraboss BS2' only"}
+// {id:187,name:"Assault Beam Lance",sub:{pwr:26,rng:90,spd:90,itv:1800},cost:120,slot:2,type:"a",size:"M"}
 
 {id:1006,name:"Gigant Arms AM@",type:"l",size:"L",sub:{str:100,pwr:30,rng:170,spd:80,itv:500},tunable:{pwp:1},cost:70,conversion:"AML160",comment:"Attachable to 'Gigant Arms AM' only"}
 {id:162,name:"Gigant Arms LG@",type:"l",size:"L",sub:{pwr:20,shl:30,rng:230,spd:80,itv:500},cost:50,conversion:"LGL115",comment:"Attachable to 'Gigant Arms LG' only"}

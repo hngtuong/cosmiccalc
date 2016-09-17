@@ -398,6 +398,7 @@
 {id:1274,name:"P. Mona HD",cost:25,hp:15,str:1,tec:2,wlk:-1,fly:2}
 {id:1277,name:"Hard Bomber HD",cost:45,hp:25,str:1,tec:1,wlk:2,fly:-1,tgh:2}
 {id:1279,name:"Sea Turtlebacker HD",cost:30,hp:20,str:-1,tec:1,fly:2,tgh:2}
+{id:1280,name:"Gatorbacker HD",cost:35,hp:20,str:-1,tec:2,wlk:1,fly:1,tgh:2}
 
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}

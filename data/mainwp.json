@@ -35,6 +35,7 @@
 {id:100,name:"LL Bulk Mag Mod",type:"l",size:"LL",cost:140,fly:-1,main:{pwr:23,shl:150,rng:190,spd:300,itv:500}}
 {id:67,name:"Estes Magnum",main:{pwr:18,shl:260,rng:230,spd:360,itv:440},size:"M",type:"l",cost:155}
 {id:102,name:"Estes Mag Mod",main:{pwr:21,shl:180,rng:230,spd:360,itv:440},size:"M",type:"l",cost:155}
+{id:123,name:"Wild Revolver",main:{pwr:18,shl:230,rng:250,spd:380,itv:440},size:"M",type:"l",cost:180}
 // {id:120,name:"ストライカーライフル",main:{pwr:11,shl:300,rng:300,spd:400,itv:140},size:"M",type:"l",cost:155,str:-1,wlk:1}
 // {id:121,name:"ストライカーライフル改",main:{pwr:9,shl:450,rng:300,spd:400,itv:140},size:"M",type:"l",cost:155,str:-1,wlk:1}
 {id:24,name:"Beam Gun",size:"S",cost:20,main:{pwr:9,shl:500,rng:230,spd:285,itv:460}}
@@ -289,7 +290,7 @@
 {id:19,name:"Flare Star",type:"c",size:"M",cost:60,main:{pwr:18,shl:120,rng:230,spd:205,itv:1400}}
 {id:30,name:"Quad Flare Star",type:"c",size:"M",cost:100,main:{pwr:6,shl:300,rng:250,spd:230,itv:800}}
 {id:18,name:"Compact Launcher",type:"c",size:"S",cost:60,main:{pwr:13,shl:180,rng:250,spd:260,itv:600}}
-{id:1086,name:"Compact Launcher Mod",type:"c",size:"S",cost:60,main:{pwr:13,shl:160,rng:250,spd:300,itv:600}}
+{id:93,name:"Compact Launcher Mod",type:"c",size:"S",cost:60,main:{pwr:13,shl:160,rng:250,spd:300,itv:600}}
 {id:20,name:"Rocket Launcher",type:"lc",size:"L",cost:80,main:{pwr:15,shl:210,rng:290,spd:260,itv:800}}
 {id:34,name:"Rocket Launcher Mod",main:{tec:100,pwr:17,shl:170,rng:290,spd:260,itv:800},tunable:{mwp:1},type:"lc",cost:80,size:"L"}
 {id:21,name:"Missile Launcher",type:"c",size:"LL",cost:110,main:{pwr:20,shl:130,rng:330,spd:240,itv:900}}
@@ -335,6 +336,7 @@
 {id:1081,name:"Rapid Pulse Missile Mod",main:{pwr:13,shl:380,rng:280,spd:300,itv:340},type:"a",size:"M",cost:110}
 {id:80,name:"Might Bazooka",main:{pwr:23,shl:250,rng:290,spd:320,itv:500},type:"c",size:"M",cost:165}
 {id:85,name:"Might Bazooka Mod",main:{pwr:25,shl:200,rng:290,spd:320,itv:500},type:"c",size:"M",cost:165}
+{id:94,name:"Mini Might Bazooka",main:{tec:100,pwr:13,shl:180,rng:320,spd:320,itv:500},type:"c",size:"M",cost:90}
 {id:81,name:"Missile Cluster",main:{pwr:7,shl:250,rng:320,spd:260,itv:1000},type:"c",size:"M",cost:100}
 {id:89,name:"Missile Cluster Mod",main:{pwr:9,shl:150,rng:320,spd:260,itv:1000},type:"c",size:"M",cost:100}
 {id:82,name:"BT Bazooka",main:{pwr:16,shl:200,rng:290,spd:320,itv:500},type:"cs",size:"M",cost:100}
@@ -347,7 +349,7 @@
 {id:1089,name:"Blast Missile Gun Mod",main:{tec:100,pwr:27,shl:220,rng:290,spd:260,itv:800},tunable:{mwp:1},type:"cs",size:"M",cost:160}
 {id:91,name:"Pretty Rabbit Bazooka",main:{tec:100,pwr:26,shl:200,rng:200,spd:350,itv:500},tunable:{mwp:1},conversion:"BDCS90AM BDCS90AM2",type:"c",size:"S",cost:80,comment:"Attachable to 'Ripley AM/AM' only"}
 {id:92,name:"Pretty Ninja Missile",main:{tec:100,pwr:13,shl:400,rng:320,spd:260,itv:300},tunable:{mwp:1},conversion:"BDCS90AM BDCS90AM2",type:"c",size:"S",cost:70,comment:"Attachable to 'Ripley AM/AM2' only"}
-{id:93,name:"Optical Launcher",main:{pwr:23,shl:200,rng:340,spd:250,itv:500},type:"c",size:"L",cost:160}
+{id:1090,name:"Optical Launcher",main:{pwr:23,shl:200,rng:340,spd:250,itv:500},type:"c",size:"L",cost:160}
 
 {id:1079,name:"Multi Missile Gun",main:{pwr:6,shl:230,rng:300,spd:280,itv:800},type:"lc",size:"M",cost:180}
 {id:1083,name:"Multi Missile Gun Mod",main:{pwr:7,shl:170,rng:300,spd:280,itv:800},type:"lc",size:"M",cost:180}

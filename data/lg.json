@@ -251,6 +251,7 @@
 {id:122,name:"Sovlancer LG",cost:45,hp:25,str:2,wlk:2,fly:2,tgh:-1}
 {id:123,name:"Dark Revenant LG",type:"l",cost:45,hp:25,str:2,tec:-1,wlk:3,fly:1}
 {id:126,name:"Sea Turtlebacker LG",type:"a",cost:40,hp:30,str:1,tec:1,wlk:3,fly:1,tgh:-1}
+{id:1110,name:"Gatorbacker LG",type:"c",cost:40,hp:30,str:-1,tec:1,wlk:3,fly:1,tgh:1}
 
 {id:1103,name:"Oboromaru LG",cost:45,hp:25,str:2,tec:2,wlk:2,fly:-1}
 {id:1104,name:"Gotrun LG",sub:{shl:20,rng:120,spd:200,itv:1500},type:"l",cost:80,hp:20,tec:-1,wlk:3,fly:1,tgh:1}

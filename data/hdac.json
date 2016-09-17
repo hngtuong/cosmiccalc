@@ -363,9 +363,9 @@
 {id:344,name:"Floral Gear ALPHA",wlk:1,capa:5}
 {id:345,name:"Hawk Radar Gear",capa:5,hp:5,tec:1}
 {id:346,name:"Ena's Work Cap",capa:5,hp:5,tec:1}
-{id:347,name:"Circus Master Hat",hp:5,str:1,capa:5}
-{id:348,name:"Ripley's Cannon Gear",hp:5,fly:1,capa:5}
 {id:349,name:"Bunny Beats",tec:1,capa:5}
+{id:347,name:"Berithia Horn",capa:5,hp:5,wlk:1,slot:1}
+{id:348,name:"Thorn Circlet",capa:5,hp:5,tgh:1,slot:1}
 
 {id:261,name:"Mosquito Buster",hp:5,str:1}
 {id:1227,name:"Orange Layer Ribbon",str:1,fly:1}
@@ -431,7 +431,7 @@
 {id:1295,name:"Blue Crystal Flower",tec:1,wlk:1}
 {id:1296,name:"Feather Ribbon",tec:1,fly:1}
 {id:1297,name:"Rabbit Cachusha",tec:1,wlk:1}
-
+{id:1299,name:"Circus Master Hat",hp:5,str:1,capa:5}
 {id:1300,name:"Magical Beret",tec:1,fly:1}
 {id:1301,name:"Chivalry Crown",str:1,tgh:1}
 {id:1302,name:"Empress Tiara",tec:1,wlk:1}
@@ -450,3 +450,4 @@
 {id:1316,name:"Wolf Broach",str:1,wlk:1}
 {id:1317,name:"Crystal Clip",tec:1,tgh:1}
 {id:1318,name:"Kaguya Ribbon",tec:1,wlk:1}
+{id:1319,name:"Ripley's Cannon Gear",hp:5,fly:1,capa:5}
