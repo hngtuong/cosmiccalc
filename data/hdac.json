@@ -363,9 +363,12 @@
 {id:344,name:"Floral Gear ALPHA",wlk:1,capa:5}
 {id:345,name:"Hawk Radar Gear",capa:5,hp:5,tec:1}
 {id:346,name:"Ena's Work Cap",capa:5,hp:5,tec:1}
-{id:349,name:"Bunny Beats",tec:1,capa:5}
 {id:347,name:"Berithia Horn",capa:5,hp:5,wlk:1,slot:1}
 {id:348,name:"Thorn Circlet",capa:5,hp:5,tgh:1,slot:1}
+{id:349,name:"Hound Dog Gear",str:1,wlk:1,slot:1}
+{id:350,name:"Replica Cannon Gear",capa:5,hp:5,fly:1,slot:1}
+{id:351,name:"Caracal Eargear",tec:1,tgh:1}
+{id:352,name:"Ferme Screw",type:"l",capa:5,hp:5,tec:1,slot:1}
 
 {id:261,name:"Mosquito Buster",hp:5,str:1}
 {id:1227,name:"Orange Layer Ribbon",str:1,fly:1}
@@ -382,7 +385,7 @@
 {id:1240,name:"Miruru Horn",wlk:1,fly:1}
 {id:1279,name:"Miruru Horn II",tec:1,wlk:1}
 {id:1315,name:"Miruru Horn LB",tec:1,fly:1}
-
+{id:1241,name:"Gathima Nieuport Mod",hp:5,tec:1,capa:5}
 {id:1242,name:"Rouche's Dog Ears",tec:1,capa:5}
 {id:1243,name:"Cougar Headgear",str:1,wlk:1}
 {id:1244,name:"Bucket Hat",hp:5,tec:1}
@@ -418,7 +421,7 @@
 {id:1280,name:"Ex Melfi Gear",tec:1,fly:1}
 {id:1281,name:"Top Intake",str:1,wlk:1}
 {id:1282,name:"Manihelmet",str:1,tgh:1}
-{id:1284,name:"Caracal Eargear",tec:1,tgh:1}
+{id:1284,name:"Bunny Beats",tec:1,capa:5}
 {id:1285,name:"Gisele Cachusha",str:1,wlk:1}
 {id:1286,name:"Cyclops Visor",tec:1,fly:1}
 {id:1287,name:"High Nurse Cap",hp:10}

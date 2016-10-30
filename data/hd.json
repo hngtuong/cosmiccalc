@@ -285,6 +285,8 @@
 {id:211,name:"Lepscepter HD",type:"l",sub:{shl:2,itv:500},tunable:{pwp:1},cost:75,hp:25,str:1,tec:1,wlk:3,fly:-1}
 {id:212,name:"Fulcrum HD",cost:40,hp:25,str:2,tec:1,fly:-1,tgh:2}
 {id:213,name:"CAPTAIN X HD",cost:35,hp:20,wlk:2,fly:2,tgh:1}
+{id:1281,name:"CAPTAIN X HD2",cost:35,hp:20,str:2,tec:1,wlk:2,fly:-1}
+{id:1282,name:"C. Barossa HD",cost:25,hp:15,str:2,tec:1,wlk:-1,tgh:2}
 {id:214,name:"Artilus HD",cost:35,hp:20,str:1,tec:2,fly:2,wlk:1,tgh:-1}
 {id:303,name:"Artilus HD2",cost:35,hp:25,str:2,tec:2,fly:2,tgh:-1}
 {id:215,name:"Cinbydion HD",cost:35,hp:20,str:3,tec:1}
@@ -412,7 +414,9 @@
 {id:8,name:"Trizelion HD",cost:45,hp:25,str:1,wlk:1,type:"l",tgh:3}
 {id:9,name:"Heldtkaiser HD",type:"c",cost:35,hp:25,tec:-1,wlk:2,fly:2,tgh:2}
 {id:10,name:"Jet Falcon HD",type:"a",cost:35,hp:20,str:1,tec:1,wlk:-1,fly:1,tgh:2}
-{id:11,name:"Cordyceps HD",cost:45,hp:30,str:1,tec:2,wlk:1,fly:1,tgh:1}
+{id:11,name:"Digaias HD",cost:35,hp:20,str:3,tec:1,wlk:-1,tgh:2}
+
+{id:100,name:"Cordyceps HD",cost:45,hp:30,str:1,tec:2,wlk:1,fly:1,tgh:1}
 
 
 {group:"Joint",prefixID:"J",commonStat:{jointPart:1}}

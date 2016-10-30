@@ -594,13 +594,14 @@
 {id:1004,name:"Aries Wing@",main:{tec:100,pwr:6,shl:800,rng:250,spd:300,itv:300},sub:{str:100,pwr:20,shl:10,itv:1000},tunable:{mwp:1},conversion:"BSS1052 BSS126 BSS1053",comment:"Attachable to 'Kaltos Wing'/'Blue Wing'/'Aries Wing' only",cost:90}
 {id:1005,name:"Sonic Impact Cannon R",main:{pwr:3,shl:10,rng:200,spd:300,itv:500},tunable:{mwp:1}}
 {id:1006,name:"Autumn Umbrella",main:{pwr:1,shl:50,rng:100,spd:100,itv:1000},sub:{pwr:10,shl:1,rng:10,spd:10,itv:500},tunable:{mwp:1},cost:10,wlk:1}
+{id:1024,name:"Maple Leaf Gun",main:{pwr:1,shl:300,rng:230,spd:300,itv:700},tunable:{mwp:1},cost:10,wlk:1}
 {id:1007,name:"Magical Gate",sub:{pwr:1,rng:10,spd:10,itv:1500},cost:10,wlk:1}
 {id:1009,name:"Jet Falcon AM@",type:"a",size:"L",main:{pwr:20,shl:160,rng:340,spd:520,itv:840},tunable:{mwp:1},cost:60,conversion:"AML158",comment:"Attachable to 'Jet Falcon AM' only"}
 {id:1012,name:"Brink Mace",type:"c",size:"M",main:{pwr:18,shl:360,rng:330,spd:280,itv:1000},sub:{pwr:15,shl:15,rng:70,spd:85,itv:1000},tunable:{mwp:1},cost:200}
 {id:1013,name:"Pumpkin Rod",type:"c",size:"S",main:{pwr:17,shl:200,rng:320,spd:320,itv:500},tunable:{mwp:1},cost:125}
 {id:1014,name:"Spada AM@",type:"l",size:"M",main:{shl:15,spd:10,itv:700},sub:{str:100,pwr:14,rng:70,spd:85,itv:500},auraStat:{main:{shl:15,spd:10,itv:700},sub:{pwr:32,rng:70,spd:85,itv:500,str:100}},tunable:{mwp:1,pwp:1},cost:80,conversion:"AMM169",comment:"Attachable to 'Spada AM' only"}
 {id:1016,name:"Tsukishiro Style: Barrier",main:{shl:15,spd:10,itv:1000},type:"l",size:"S",cost:30,slot:0,conversion:"WPSO159",comment:"Attachable to 'Relic: Gattenmaru' only"}
-{id:1017,name:"Tsukishiro Style: Mortar",main:{str:100,pwr:20,shl:30,rng:200,spd:300,itv:1000},tunable:{mwp:1},type:"l",size:"S",cost:30,conversion:"BDLS155AM2",comment:"Attachable to 'Kanna AM2' only"}
+{id:1017,name:"Tsukishiro Style: Mortar",main:{str:100,pwr:20,shl:30,rng:200,spd:570,itv:1000},tunable:{mwp:1},type:"l",size:"S",cost:30,conversion:"BDLS155AM2",comment:"Attachable to 'Kanna AM2' only"}
 {id:1018,name:"Wizamel Wand",type:"a",size:"M",main:{pwr:20,shl:20,rng:410,spd:520,itv:1000},sub:{pwr:9,shl:120,rng:350,spd:320,itv:400},cost:110,slot:0,conversion:"AMM176",comment:"Attachable to 'Wizamel AM' only"}
 // {id:220,name:"ホーミングボール",cost:60,main:{pwr:7,shl:200,rng:250,spd:320,itv:400},size:"S",type:"s",comment:"トライクレーサーのみ装備可能"}
 {id:226,name:"Mini Shuriken",main:{pwr:5,shl:650,rng:140,spd:200,itv:160},tunable:{mwp:1},type:"s",size:"S",cost:60,conversion:"SS126LG SS127LG",comment:"Attachable to 'Tricyclaser/II/III/IV/V' only"}
@@ -617,3 +618,5 @@
 {id:230,name:"Blink Mace",main:{tec:100,pwr:18,shl:360,rng:330,spd:280,itv:1000},sub:{str:100,pwr:15,shl:15,rng:70,spd:85,itv:1000},tunable:{mwp:1,pwp:1},type:"c",size:"M",cost:200}
 {id:231,name:"Multi Knife Shooter",main:{tec:100,pwr:7,shl:600,rng:250,spd:330,itv:600},tunable:{mwp:1},type:"l",size:"S",conversion:"AMS131 AMS198",cost:90,comment:"Attachable to 'Renny Lop AM6/AM7/AM8' only"}
 {id:232,name:"Draw Boomerang",main:{pwr:15,shl:20,rng:200,spd:260,itv:500,str:100},tunable:{mwp:1},type:"l",size:"M",cost:30}
+{id:235,name:"Gathima Missile",main:{tec:100,pwr:24,shl:300,rng:350,spd:220,itv:300},type:"c",size:"S",cost:100,conversion:"BDCS92AM",comment:"Attachable to 'Gathima Girl AM' only"}
+{id:236,name:"Gathima Breaker",main:{tec:100,pwr:30,shl:120,rng:350,spd:500,itv:500},type:"c",size:"S",cost:80,conversion:"BDCS92AM",comment:"Attachable to 'Gathima Girl AM' only"}

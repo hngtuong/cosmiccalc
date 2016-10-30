@@ -5,6 +5,7 @@
 {id:4,name:"Cannon Baller LG",cost:20,hp:10,wlk:2,fly:-1,tgh:2}
 {id:79,name:"Cannonballer HL LG",cost:30,hp:20,wlk:3,fly:-1,tgh:2}
 {id:5,name:"Turtlebacker LG",cost:25,hp:15,str:2,wlk:1}
+{id:116,name:"Turtlebacker LG2",type:"l",cost:55,hp:40,str:2,tec:1,wlk:2,fly:-1,tgh:2}
 {id:6,name:"Pawnger LG",cost:25,hp:15,wlk:1,tgh:2}
 {id:57,name:"Pawnger LG2",cost:25,hp:15,str:-1,wlk:2,tgh:2}
 {id:74,name:"Pawnger Mt LG",cost:25,hp:15,str:1,tec:-1,wlk:2,tgh:1}
@@ -371,16 +372,18 @@
 {id:104,name:"Heldtkaiser LG",type:"c",cost:45,hp:35,str:-1,tec:2,wlk:2,fly:1,tgh:1}
 {id:105,name:"Dismoke LG2",sub:{rng:43,shl:10,spd:63,itv:1000},cost:40,hp:10,wlk:2,tgh:1}
 {id:106,name:"Persecius LG",sub:{shl:15,rng:100,spd:150,itv:2000},type:"a",cost:65,hp:25,wlk:2,fly:2,tgh:2}
-{id:114,name:"RAM Soljeter LG",type:"a",sub:{str:100,pwr:29,rng:60,spd:110,itv:1500},tunable:{pwp:1},cost:85,hp:25,wlk:2,fly:1,tgh:2}
+{id:1005,name:"RAM Soljeter LG",type:"a",sub:{str:100,pwr:29,rng:60,spd:110,itv:1500},tunable:{pwp:1},cost:85,hp:25,wlk:2,fly:1,tgh:2}
 {id:116,name:"Cordyceps LG",cost:40,hp:25,tec:2,wlk:2,tgh:1}
 {id:110,name:"Flash Bomber LG",size:"L",cost:45,hp:25,str:1,tec:2,wlk:2,tgh:1}
 {id:112,name:"Gigant Arms LG",type:"l",joint:{wp:1},cost:55,hp:35,str:2,tec:-1,wlk:3,tgh:2}
 {id:113,name:"Katto Baldo LG",type:"l",sub:{str:100,pwr:22,rng:150,spd:350,itv:500},tunable:{pwp:1},cost:90,hp:30,str:2,tec:1,wlk:2,fly:-1,tgh:1}
+{id:114,name:"Digaias LG",cost:50,hp:70,str:1,wlk:2,tgh:2}
 
 {id:109,name:"Falx LG",cost:45,hp:50,tec:-1,wlk:2,fly:1,tgh:3}
 {id:1000,name:"Crystas LG",sub:{tec:100,pwr:5,shl:360,rng:270,spd:290,itv:1500},type:"a",cost:60,hp:25,str:-1,tec:1,wlk:2,fly:2,tgh:1}
 {id:1001,name:"Transonic LG",type:"a",cost:45,hp:25,tec:-1,wlk:2,fly:2,tgh:2}
 {id:1004,name:"Shadow Kinesis LG",cost:50,hp:25,str:2,tec:1,wlk:1,fly:-1,tgh:2}
+{id:1006,name:"C. Barossa LG",type:"a",sub:{str:100,pwr:19,rng:65,spd:95,itv:500},tunable:{pwp:1},cost:125,hp:40,str:-1,tec:2,wlk:3,tgh:1}
 
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}

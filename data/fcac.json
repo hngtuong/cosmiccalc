@@ -205,7 +205,7 @@
 {id:196,name:"エナインカム",tec:1,wlk:1,comment:"translation needed"}
 {id:197,name:"Circus Master Glass",str:1,wlk:1}
 // {id:197,name:"TEC+1 Capa+5 HP+5(FC)",slot:1,capa:5,hp:5,tec:1}
-{id:198,name:"古代の石仮面",comment:"translation needed",capa:5,hp:5,tgh:1}
+{id:198,name:"Ancient Stone Mask",comment:"translation needed",capa:5,hp:5,tgh:1}
 {id:348,name:"Ripley's Bunny Ears",tec:1,fly:1}
 
 {id:255,name:"Crim's Witch Cape",fly:2}

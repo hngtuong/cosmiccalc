@@ -339,7 +339,8 @@
 {id:146,name:"Outsider Key",sub:{rng:10,spd:10,itv:500},cost:90,slot:0,type:"l",size:"S",conversion:"BDLS148",comment:"Attachable to 'Aleixa Arl BD' only"}
 {id:147,name:"Glory Key",sub:{rng:10,spd:10,itv:500},cost:100,slot:0,type:"l",size:"S",conversion:"BDLS149",comment:"Attachable to 'Kal Valentine BD' only"}
 {id:148,name:"Wheel Tackle",sub:{pwr:32,rng:70,spd:160,itv:1000,str:100},tunable:{pwp:1},type:"l",size:"S",cost:70,conversion:"BDLS149",comment:"Attachable to 'Kal Valentine BD' only"}
-{id:149,name:"Heart Balloon R",cost:10,wlk:1}
+{id:149,name:"Heart Balloon C",cost:10,str:1}
+{id:188,name:"Heart Balloon R",cost:10,wlk:1}
 {id:150,name:"Heart Balloon Y",cost:10,fly:1}
 // {id:185,name:"ECMライトニングバスターR",cost:10,tec:1}
 {id:1085,name:"Aries Tail",sub:{str:100,pwr:20,shl:15,rng:150,spd:350,itv:1000},joint:{wp:1},fixedParts:{wp:"Aries Tail@"},cost:30,size:"S",type:"a",conversion:"BDAS60LG BDAS73LG BDAS90LG",comment:"Attachable to 'Litia LG/LG2/LG3' only"}
@@ -356,7 +357,7 @@
 //{id:168,name:"スパーダBD@",sub:{pwr:20,shl:20,rng:120,spd:220,itv:500,str:100},auraStat:{sub:{pwr:27,shl:20,rng:120,spd:220,itv:500,str:100}},comment:"スパーダBD専用コンバージョンパーツ",slot:0,cost:60,type:"l",size:"M"}
 //{id:169,name:"スパーダAM@",main:{shl:15,spd:10,itv:700},sub:{pwr:14,rng:70,spd:85,itv:500,str:100},auraStat:{main:{shl:15,spd:10,itv:700},sub:{pwr:32,rng:70,spd:85,itv:500,str:100}},type:"l",size:"M",comment:"スパーダAM専用コンバージョンパーツ",cost:80,tunable:{mwp:1,pwp:1}}
 {id:159,name:"Relic: Gattenmaru",sub:{str:100,pwr:32,rng:70,spd:70,itv:500},joint:{wp:2},type:"l",size:"S",cost:90,tunable:{pwp:1},conversion:"BDLS155AM",comment:"Attachable to 'Kanna AM' only"}
-{id:160,name:"Ougi: Lunar Drive",sub:{str:100,pwr:35,shl:15,rng:80,spd:50,itv:500},type:"l",size:"S",cost:70,slot:0,conversion:"WPSO159",comment:"Attachable to 'Relic: Gattenmaru' only"}
+{id:160,name:"Ougi: Lunar Drive",sub:{str:100,pwr:35,shl:30,rng:80,spd:50,itv:500},type:"l",size:"S",cost:70,slot:0,conversion:"WPSO159",comment:"Attachable to 'Relic: Gattenmaru' only"}
 // {id:161,name:"Tsukishiro Style: Barrier",main:{shl:15,spd:10,itv:1000},type:"l",size:"S",cost:30,slot:0,comment:"Attachable to 'Relic: Gattenmaru' only"}
 // {id:162,name:"Tsukishiro Style: Mortar",main:{str:100,pwr:20,shl:30,rng:200,spd:300,itv:1000},tunable:{mwp:1},type:"l",size:"S",cost:30,comment:"Attachable to 'Kanna AM2' only"}
 // {id:163,name:"Kanna Slot",size:"S"}
@@ -372,7 +373,7 @@
 {id:1010,name:"Satellite Missile Mod",type:"a",size:"M",sub:{pwr:40,shl:30,rng:200,spd:280,itv:500},cost:60}
 {id:174,name:"Missile Rain",sub:{tec:100,pwr:7,shl:10,rng:250,spd:500,itv:5000},cost:70,type:"lc",size:"M"}
 {id:1008,name:"SB Trick Missile",sub:{tec:100,pwr:5,shl:300,rng:290,spd:260,itv:1000},cost:60,type:"a",size:"M"}
-{id:175,name:"Needle Star",main:{tec:100,pwr:17,shl:30,rng:260,spd:570,itv:300},sub:{str:100,pwr:28,rng:80,spd:50,itv:500},tunable:{mwp:1,pwp:1},type:"l",size:"S",cost:150,conversion:"BDLS168AM",comment:"Attachable to 'Mercurio AM2' only"}
+{id:175,name:"Needle Star",main:{tec:100,pwr:17,shl:30,rng:260,spd:570,itv:300},sub:{str:100,pwr:34,rng:80,spd:50,itv:500},tunable:{mwp:1,pwp:1},type:"l",size:"S",cost:150,conversion:"BDLS168AM",comment:"Attachable to 'Mercurio AM2' only"}
 
 {id:176,name:"Revenant Sword",sub:{str:100,pwr:32,rng:70,spd:70,itv:500},type:"l",size:"M",cost:100,conversion:"AMM173",comment:"Attachable to 'Dark Revenant AM' only"}
 // {id:178,name:"ハッキングユニット@(S.COSMOS)",main:{itv:100},sub:{str:100,pwr:30,rng:80,spd:115,itv:2000},tunable:{pwp:1},type:"a",size:"S",cost:30}
@@ -384,6 +385,10 @@
 {id:1018,name:"Fractulus Soul",main:{pwr:30,shl:100,rng:320,spd:350,itv:300},sub:{shl:5,spd:160,itv:1000},tunable:{mwp:1},conversion:"BDSS126WP",comment:["Attachable to 'Magical Mic Rod' only","data incomplete"]}
 {id:186,name:"Scaraboss BS2@",sub:{pwr:1,shl:10,rng:80,spd:150,itv:500,str:100},cost:40,slot:0,size:"M",type:"c",conversion:"BSM186",comment:"Attachable to 'Scaraboss BS2' only"}
 // {id:187,name:"Assault Beam Lance",sub:{pwr:26,rng:90,spd:90,itv:1800},cost:120,slot:2,type:"a",size:"M"}
+{id:189,name:"Gathima Howitzer",sub:{tec:100,pwr:40,shl:30,rng:360,spd:230,itv:500},type:"c",size:"S",cost:40,conversion:"BDCS92",comment:"Attachable to 'Gathima Girl BD/BD2' only"}
+// {id:190,name:"Slot",type:"lacs",size:"M",comment:["一部ジアスにのみ装備可能なスロット","例：フィーリア、ネーベル、ラフィール、コレッティ他"]}
+{id:191,name:"Gaia Rammer",main:{pwr:20,shl:30,rng:200,spd:300,itv:1000},sub:{str:100,pwr:39,rng:120,spd:20,itv:500},tunable:{mwp:1,pwp:1},size:"LL",type:"l",cost:150,conversion:"AML167",comment:"Attachable to 'Digaias AM' only"}
+{id:192,name:"Gaia Pile",sub:{pwr:32,shl:10,rng:140,spd:250,itv:500},tunable:{pwp:1},cost:120,type:"l",size:"LL",conversion:"AML167",comment:"Attachable to 'Digaias AM' only"}
 
 {id:1006,name:"Gigant Arms AM@",type:"l",size:"L",sub:{str:100,pwr:30,rng:170,spd:80,itv:500},tunable:{pwp:1},cost:70,conversion:"AML160",comment:"Attachable to 'Gigant Arms AM' only"}
 {id:162,name:"Gigant Arms LG@",type:"l",size:"L",sub:{pwr:20,shl:30,rng:230,spd:80,itv:500},cost:50,conversion:"LGL115",comment:"Attachable to 'Gigant Arms LG' only"}
