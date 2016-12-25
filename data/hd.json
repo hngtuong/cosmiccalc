@@ -401,6 +401,7 @@
 {id:1277,name:"Hard Bomber HD",cost:45,hp:25,str:1,tec:1,wlk:2,fly:-1,tgh:2}
 {id:1279,name:"Sea Turtlebacker HD",cost:30,hp:20,str:-1,tec:1,fly:2,tgh:2}
 {id:1280,name:"Gatorbacker HD",cost:35,hp:20,str:-1,tec:2,wlk:1,fly:1,tgh:2}
+{id:1283,name:"Reversunder HD",cost:45,hp:25,str:1,tec:2,fly:2,tgh:1}
 
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
@@ -414,7 +415,7 @@
 {id:8,name:"Trizelion HD",cost:45,hp:25,str:1,wlk:1,type:"l",tgh:3}
 {id:9,name:"Heldtkaiser HD",type:"c",cost:35,hp:25,tec:-1,wlk:2,fly:2,tgh:2}
 {id:10,name:"Jet Falcon HD",type:"a",cost:35,hp:20,str:1,tec:1,wlk:-1,fly:1,tgh:2}
-{id:11,name:"Digaias HD",cost:35,hp:20,str:3,tec:1,wlk:-1,tgh:2}
+{id:11,name:"Digaius HD",cost:35,hp:20,str:3,tec:1,wlk:-1,tgh:2}
 
 {id:100,name:"Cordyceps HD",cost:45,hp:30,str:1,tec:2,wlk:1,fly:1,tgh:1}
 

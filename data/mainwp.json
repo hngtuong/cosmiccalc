@@ -85,7 +85,7 @@
 {id:69,name:"Multi Curve Gun Mod",main:{pwr:7,shl:640,rng:240,spd:270,itv:940},type:"as",size:"M",cost:100,wlk:-1}
 {id:46,name:"Cross Shooter",type:"las",size:"S",cost:60,str:-1,tec:1,main:{pwr:8,shl:600,rng:285,spd:400,itv:400}}
 {id:47,name:"Cross Shooter Mod",type:"las",size:"S",cost:60,str:-1,tec:1,main:{pwr:10,shl:300,rng:285,spd:400,itv:400}}
-{id:73,name:"Triple Shooter",main:{pwr:10,shl:600,rng:250,spd:380,itv:800},type:"la",size:"M",cost:150,str:-1,wlk:-1}
+{id:73,name:"Triple Shooter",main:{pwr:12,shl:600,rng:250,spd:380,itv:800},type:"la",size:"M",cost:150,str:-1,wlk:-1}
 {id:48,name:"Power Shooter",type:"a",size:"M",cost:140,str:-1,main:{pwr:13,shl:370,rng:350,spd:430,itv:640}}
 {id:273,name:"Power Shooter Mod",type:"a",size:"M",cost:140,str:-1,main:{pwr:15,shl:250,rng:350,spd:430,itv:640}}
 {id:49,name:"Ballista Shooter",size:"M",cost:180,str:-1,wlk:-1,main:{pwr:20,shl:500,rng:250,spd:380,itv:540},type:"la"}
@@ -169,6 +169,7 @@
 {id:31,name:"Water Gatling",type:"lac",size:"S",main:{tec:100,pwr:5,shl:600,rng:200,spd:400,itv:140},sub:{itv:500},cost:90,comment:"Sub weapon refills 100 ammo and grants Hyper Shot"}
 {id:33,name:"Heat Gatling",type:"c",size:"M",main:{pwr:10,shl:600,rng:320,spd:420,itv:200},cost:85,wlk:-1,fly:-1}
 {id:34,name:"Heat Gatling Mod",type:"c",size:"M",main:{pwr:12,shl:400,rng:320,tec:100,spd:420,itv:200},wlk:-1,fly:-1,cost:85}
+{id:38,name:"Adhesive Machinegun",type:"l",size:"M",main:{pwr:9,shl:400,rng:200,spd:430,itv:140},cost:180}
 
 
 {group:"Rifles",prefixID:"LF",commonStat:{tunable:{mwp:1}}}
@@ -195,7 +196,7 @@
 {id:16,name:"Beam Rifle",type:"acs",size:"M",cost:70,str:-2,main:{pwr:18,shl:160,rng:300,spd:330,itv:800}}
 {id:18,name:"Auto Beam Rifle",type:"a",size:"M",cost:110,wlk:-1,fly:1,main:{pwr:13,shl:360,rng:300,spd:385,itv:200}}
 {id:19,name:"Auto Beam Rifle Mod",type:"a",size:"M",cost:110,wlk:-1,fly:1,main:{pwr:15,shl:300,rng:250,spd:380,itv:200}}
-{id:23,name:"Long Beam Rifle",type:"a",size:"L",cost:160,str:-1,fly:1,main:{pwr:26,shl:160,rng:320,spd:385,itv:600}}
+{id:23,name:"Long Beam Rifle",type:"a",size:"L",cost:160,str:-1,fly:1,main:{pwr:30,shl:160,rng:320,spd:500,itv:400}}
 {id:17,name:"Negatron Rifle",type:"las",size:"L",cost:180,tec:2,main:{pwr:28,shl:320,rng:330,spd:380,itv:1100}}
 {id:43,name:"Negatron Rifle Mod",type:"las",size:"L",cost:180,main:{pwr:28,shl:250,rng:350,spd:410,itv:1100},tec:2}
 {id:20,name:"Railgun",type:"c",size:"M",cost:110,tec:1,wlk:-1,main:{pwr:30,shl:140,rng:390,spd:570,itv:560}}
@@ -264,8 +265,8 @@
 {id:31,name:"Blast Bazooka Mod",type:"c",size:"M",cost:105,str:1,wlk:1,main:{pwr:17,shl:180,rng:230,spd:290,itv:900}}
 {id:70,name:"Mini Blast Bazooka",main:{pwr:14,shl:200,rng:230,spd:290,itv:640},type:"c",size:"S",cost:60}
 {id:37,name:"LL Bulk Blast",main:{pwr:27,shl:120,rng:260,spd:290,itv:1000},type:"c",cost:150,wlk:-1,fly:-3,size:"LL"}
-{id:45,name:"Blast Gatling",type:"c",size:"L",cost:210,tgh:2,main:{pwr:14,shl:900,rng:270,spd:280,itv:200}}
-{id:53,name:"Blast Gatling Mod",type:"c",size:"L",cost:210,tgh:2,main:{tec:100,pwr:12,shl:1300,rng:270,spd:280,itv:200}}
+{id:45,name:"Blast Gatling",type:"c",size:"L",cost:210,tgh:2,main:{pwr:16,shl:900,rng:270,spd:360,itv:200}}
+{id:53,name:"Blast Gatling Mod",type:"c",size:"L",cost:210,tgh:2,main:{tec:100,pwr:14,shl:1300,rng:270,spd:360,itv:200}}
 {id:9,name:"Ancient Bazooka",type:"cs",size:"M",cost:110,str:1,fly:-1,main:{pwr:27,shl:180,rng:290,spd:260,itv:680}}
 {id:10,name:"Large Bazooka",type:"cs",size:"LL",cost:120,tgh:3,main:{pwr:36,shl:210,rng:280,spd:260,itv:1000}}
 {id:79,name:"Large Bazooka Mod",type:"cs",size:"LL",cost:120,tgh:3,main:{pwr:38,shl:180,rng:280,spd:260,itv:1000}}
@@ -302,8 +303,8 @@
 {id:32,name:"Ballistic Launcher Mod",type:"c",size:"L",cost:200,wlk:1,tgh:1,main:{pwr:30,shl:260,rng:320,spd:260,itv:1200}}
 {id:25,name:"2 Way Missile",type:"c",size:"LL",cost:180,main:{pwr:20,shl:360,rng:350,spd:240,itv:1200}}
 {id:22,name:"V-2 Way Missile",type:"c",size:"L",cost:140,fly:-1,main:{pwr:18,shl:250,rng:310,spd:230,itv:1000}}
-{id:33,name:"Septuple Launcher",main:{pwr:11,shl:840,rng:260,spd:260,itv:2000},cost:170,str:-1,wlk:-2,fly:-2,size:"LL",type:"c"}
-{id:60,name:"Septuple Launcher Mod",main:{pwr:9,shl:1120,rng:260,spd:260,itv:2000},cost:170,str:-1,wlk:-2,fly:-2,size:"LL",type:"c"}
+{id:33,name:"Septuple Launcher",main:{pwr:15,shl:840,rng:260,spd:260,itv:1000},cost:170,str:-1,wlk:-2,fly:-2,size:"LL",type:"c"}
+{id:60,name:"Septuple Launcher Mod",main:{pwr:13,shl:1120,rng:260,spd:260,itv:1000},cost:170,str:-1,wlk:-2,fly:-2,size:"LL",type:"c"}
 {id:27,name:"Bomb Launcher",type:"acs",size:"L",cost:75,main:{pwr:32,shl:200,rng:100,spd:300,itv:1000}}
 {id:28,name:"Little Star Gun",type:"a",size:"S",cost:80,wlk:-2,fly:-2,main:{pwr:21,shl:200,rng:260,spd:260,itv:1000}}
 {id:29,name:"Stardust Cannon",type:"a",size:"LL",cost:130,str:-1,wlk:-3,fly:-2,main:{pwr:31,shl:170,rng:280,spd:260,itv:1000}}
@@ -339,8 +340,8 @@
 {id:94,name:"Mini Might Bazooka",main:{tec:100,pwr:13,shl:180,rng:320,spd:320,itv:500},type:"c",size:"M",cost:90}
 {id:81,name:"Missile Cluster",main:{pwr:7,shl:250,rng:320,spd:260,itv:1000},type:"c",size:"M",cost:100}
 {id:89,name:"Missile Cluster Mod",main:{pwr:9,shl:150,rng:320,spd:260,itv:1000},type:"c",size:"M",cost:100}
-{id:82,name:"BT Bazooka",main:{pwr:16,shl:200,rng:290,spd:320,itv:500},type:"cs",size:"M",cost:100}
-{id:1088,name:"BT Bazooka Mod",main:{pwr:19,shl:150,rng:290,spd:320,itv:500},type:"cs",size:"M",cost:100}
+{id:82,name:"BT Bazooka",main:{pwr:16,shl:200,rng:290,spd:360,itv:500},type:"cs",size:"M",cost:100}
+{id:1088,name:"BT Bazooka Mod",main:{pwr:19,shl:150,rng:290,spd:360,itv:500},type:"cs",size:"M",cost:100}
 {id:86,name:"Impact Bazooka",main:{pwr:22,shl:200,rng:320,spd:285,itv:700},sub:{pwr:10,shl:30,rng:100,spd:570,itv:1000},type:"c",size:"M",cost:110}
 {id:87,name:"Swallow Beam Gun",main:{tec:100,pwr:12,shl:300,rng:250,spd:300,itv:540},type:"a",size:"M",cost:80}
 {id:1084,name:"Swallow Beam Gun Mod",main:{tec:100,pwr:14,shl:220,rng:250,spd:300,itv:540},type:"a",size:"M",cost:80}
@@ -596,6 +597,8 @@
 {id:1006,name:"Autumn Umbrella",main:{pwr:1,shl:50,rng:100,spd:100,itv:1000},sub:{pwr:10,shl:1,rng:10,spd:10,itv:500},tunable:{mwp:1},cost:10,wlk:1}
 {id:1024,name:"Maple Leaf Gun",main:{pwr:1,shl:300,rng:230,spd:300,itv:700},tunable:{mwp:1},cost:10,wlk:1}
 {id:1007,name:"Magical Gate",sub:{pwr:1,rng:10,spd:10,itv:1500},cost:10,wlk:1}
+{id:1025,name:"Pumpkin Pitcher",main:{pwr:1,shl:300,rng:210,spd:100,itv:800},cost:10,wlk:1}
+{id:1026,name:"Ghost Shooter",main:{pwr:1,shl:300,rng:210,spd:100,itv:800},cost:10,wlk:1}
 {id:1009,name:"Jet Falcon AM@",type:"a",size:"L",main:{pwr:20,shl:160,rng:340,spd:520,itv:840},tunable:{mwp:1},cost:60,conversion:"AML158",comment:"Attachable to 'Jet Falcon AM' only"}
 {id:1012,name:"Brink Mace",type:"c",size:"M",main:{pwr:18,shl:360,rng:330,spd:280,itv:1000},sub:{pwr:15,shl:15,rng:70,spd:85,itv:1000},tunable:{mwp:1},cost:200}
 {id:1013,name:"Pumpkin Rod",type:"c",size:"S",main:{pwr:17,shl:200,rng:320,spd:320,itv:500},tunable:{mwp:1},cost:125}
@@ -610,7 +613,8 @@
 {id:222,name:"Crystal Wall II",main:{pwr:4,shl:800,rng:240,spd:300,itv:200},tunable:{mwp:1},type:"a",size:"M",conversion:"BDAS106",comment:"Attachable to 'Fractulus Girl BD/BD2/BD3/BD4' only",cost:40}
 {id:223,name:"Wonder Key Rod",main:{pwr:4,shl:840,rng:340,spd:330,itv:300},tunable:{mwp:1},fixedParts:{wp:{main:{pwr:32,shl:30,rng:390,spd:180,itv:500},name:"Cheshire Cannon",slot:0,cost:70}},type:"a",size:"S",cost:100,joint:{wp:1},conversion:"BDAS107AM",comment:"Attachable to 'Alice AM' only"}
 {id:224,name:"Liquid Burner",main:{pwr:12,shl:700,rng:70,spd:360,itv:100,tec:100},tunable:{mwp:1},type:"lc",size:"M",cost:170}
-{id:225,name:"Fish Beamgun",main:{pwr:7,tec:100,shl:150,rng:320,spd:280,itv:640},type:"a",size:"M",cost:180}
+{id:225,name:"Smart Beam Gun",main:{pwr:5,tec:100,shl:120,rng:320,spd:280,itv:640},cost:110,type:"a",size:"M"}
+{id:237,name:"Fish Beam Gun",main:{pwr:7,tec:100,shl:150,rng:320,spd:280,itv:640},type:"a",size:"M",cost:180}
 {id:227,name:"Katto Bat",main:{pwr:10,shl:100,rng:250,spd:320,itv:500},sub:{str:100,pwr:39,rng:70,spd:70,itv:1000},tunable:{mwp:1,pwp:1},type:"l",size:"L",cost:170,conversion:"AML166",comment:"Attachable to 'Katto Baldo AM' only"}
 // {id:227,name:"Multi Missile Gun",main:{tec:100,pwr:6,shl:230,rng:300,spd:280,itv:800},tunable:{mwp:1},type:"lc",size:"M",cost:180} -> BZ1079
 // {id:228,name:"Multi Missile Gun Mod",main:{tec:100,pwr:7,shl:170,rng:300,spd:280,itv:800},tunable:{mwp:1},type:"lc",size:"M",cost:180} -> BZ1083

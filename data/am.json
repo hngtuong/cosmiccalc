@@ -153,6 +153,7 @@
 {id:120,name:"Anko AM2",cost:35,hp:20,str:1,tec:3,wlk:2,fly:-1,comment:"'D.N.G. cannon' only"}
 {id:123,name:"Elcott AM",cost:35,hp:20,str:1,tec:2,wlk:1,fly:-1,tgh:1,type:"l"}
 {id:124,name:"Cyllene AM",cost:35,hp:20,str:-1,tec:1,wlk:1,fly:2,tgh:2}
+{id:1012,name:"Cyllene AM2",cost:25,hp:15,str:-1,tec:1,fly:1,tgh:2}
 {id:126,name:"Liefy AM",cost:35,hp:20,tec:1,wlk:2,fly:1,str:1}
 {id:127,name:"Chloe AM",main:{pwr:26,shl:220,rng:290,spd:260,itv:800},type:"c",tunable:{mwp:1},joint:{wp:2},cost:35,hp:20,str:-1,tec:2,wlk:1,fly:1,tgh:1,conversion:"BDCS49 BDCS51 BDCS64",comment:"Attachable to 'Chloe BD/BD2/BD4' only"}
 {id:128,name:"Chloe AM2",sub:{pwr:1,shl:10,rng:250,spd:500,itv:500},type:"c",cost:35,hp:20,str:-1,tec:2,wlk:1,fly:1,tgh:1,conversion:"BDCS49 BDCS51 BDCS64",comment:"Attachable to 'Chloe BD/BD2/BD4' only"}
@@ -329,7 +330,7 @@
 //{id:75,name:"P. Juana AM2",type:"lcs",main:{tec:100,pwr:8,shl:400,rng:160,spd:280,itv:500},joint:{wp:0},cost:55,hp:15,tec:3,wlk:2,tgh:-1}
 {id:100,name:"Flapjack AM",fixedParts:{wp:{name:"Flapjack AM@",main:{pwr:29,tec:100,shl:150,rng:270,spd:380,itv:500},auraStat:{main:{pwr:21}},type:"a",slot:0}},auraStat:{tec:2,fly:3},type:"a",cost:120,hp:25,tec:2,fly:3}
 {id:114,name:"Flapjack AM2",joint:{am:1,wp:0},fixedParts:{am:{name:"Flapjack AM2@",main:{tec:100,pwr:18,shl:170,rng:265,spd:325,itv:440},sub:{shl:30,rng:90,spd:120,itv:100,tec:100},auraStat:{sub:{pwr:26,itv:2000}},joint:{wp:0},slot:0}},type:"a",cost:120,hp:25,str:1,tec:1,fly:3}
-{id:148,name:"Flapjack AM3",main:{pwr:5,shl:20,rng:300,spd:385,itv:200},sub:{pwr:29,shl:15,rng:80,spd:90,itv:1500},tunable:{mwp:1,pwp:1},fixedParts:{am:{name:"Flapjack AM3@",joint:{wp:0},slot:0}},auraStat:{main:{pwr:5,shl:20,rng:300,spd:385,itv:200},sub:{pwr:29,shl:15,rng:80,spd:80,itv:1500},str:-1,tec:3,fly:3},joint:{wp:0},type:"a",cost:140,hp:25,str:3,tec:-1,fly:3}
+{id:148,name:"Flapjack AM3",main:{pwr:5,shl:20,rng:300,spd:385,itv:200},sub:{pwr:29,shl:15,rng:80,spd:90,itv:1500},tunable:{mwp:1,pwp:1},fixedParts:{am:{name:"Flapjack AM3@",joint:{wp:0},slot:0}},auraStat:{main:{pwr:5,shl:20,rng:300,spd:385,itv:200},sub:{pwr:29,shl:15,rng:80,spd:80,itv:1500}},joint:{wp:0},type:"a",cost:140,hp:25,str:-1,tec:3,fly:3}
 {id:101,name:"Quadra AM",type:"c",cost:80,hp:20,str:1,tec:2,wlk:1,tgh:1,main:{pwr:15,shl:250,rng:240,spd:260,itv:1000},tunable:{mwp:1},joint:{wp:0}}
 {id:111,name:"Quadra AM2",main:{pwr:6,shl:220,rng:160,spd:350,itv:220},tunable:{mwp:1},joint:{wp:0},type:"lcs",cost:65,hp:20,str:1,wlk:2,fly:-1,tgh:2}
 {id:102,name:"Initone AM",type:"a",cost:30,hp:15,tec:3,fly:-1,tgh:2}
@@ -410,7 +411,7 @@
 {id:185,name:"Hard Bomber AM2",sub:{rng:100,spd:50,itv:500},joint:{wp:0},type:"lc",cost:90,hp:25,wlk:1,fly:1,tgh:3}
 {id:187,name:"Sea Turtlebacker AM",main:{pwr:20,shl:100,rng:280,spd:260,itv:800},type:"a",cost:100,hp:20,str:1,tec:2,wlk:-1,fly:2,tunable:{mwp:1}}
 {id:1004,name:"Gatorbacker AM",cost:35,hp:20,str:1,tec:2,tgh:2}
-{id:188,name:"Reverse Thunder AM",cost:35,hp:20,str:2,tec:-1,wlk:3,tgh:1}
+{id:188,name:"Reversunder AM",cost:35,hp:20,str:2,tec:-1,wlk:3,tgh:1}
 
 {id:1002,name:"Mediger AM3",size:"M",cost:35,hp:20,tec:1,wlk:2,tgh:1,fixedParts:{wp:{name:"Liber",sub:{shl:3,rng:45,spd:65,itv:15000},cost:70,slot:0}}}
 //{id:154,name:"ビクトリーAM",type:"lacs",size:"M",cost:20,hp:15,str:1,fly:1}
@@ -522,7 +523,7 @@
 {id:81,name:"Galsteel AM2",cost:90,hp:25,str:-1,tec:2,wlk:2,fly:2,type:"c",main:{pwr:31,shl:160,spd:410,rng:310,itv:1000},auraStat:{hp:25,str:0,tec:4,wlk:2,fly:2,tgh:0,main:{pwr:31,shl:160,spd:410,rng:310,itv:600},tunable:{mwp:1}},joint:{wp:0}}
 {id:82,name:"Dagomure AM",type:"lcs",sub:{str:100,pwr:20,rng:45,spd:200,itv:1500},tunable:{pwp:1},joint:{wp:0},cost:40,hp:20,str:2,tec:1,wlk:2,fly:-1}
 {id:120,name:"Dagomure AM2",main:{pwr:8,shl:120,rng:280,spd:165,itv:1000},tunable:{mwp:1},type:"lcs",cost:40,hp:20,tec:2,wlk:2,fly:-1,tgh:1}
-{id:83,name:"Ilgryps AM",type:"las",cost:40,hp:20,str:-1,tec:2,wlk:2,tgh:2}
+{id:83,name:"Ilgryps AM",cost:40,hp:20,str:-1,tec:2,wlk:2,tgh:2}
 {id:84,name:"Ilgryps AM2",main:{tec:100,pwr:23,shl:350,rng:230,spd:370,itv:300},joint:{wp:0},tunable:{mwp:1},type:"a",cost:190,hp:20,str:-1,tec:3,fly:2,tgh:1}
 {id:117,name:"Ilgryps AM3",main:{pwr:19,shl:170,rng:230,spd:370,itv:300},tunable:{mwp:1},joint:{wp:0},type:"a",cost:120,hp:20,str:-1,tec:3,fly:2,tgh:1}
 {id:85,name:"Dismoke AM",type:"s",main:{tec:100,pwr:16,shl:180,rng:190,spd:320,itv:460},tunable:{mwp:1},cost:105,hp:20,str:1,tec:2,wlk:-1,tgh:3}
@@ -595,7 +596,7 @@
 {id:161,name:"Persecius AM3",main:{tec:100,pwr:35,shl:100,rng:330,spd:350,itv:1500},tunable:{mwp:1},joint:{wp:0},type:"a",cost:170,hp:15,tec:2,fly:2}
 {id:165,name:"Buff Devastator AM2",main:{pwr:12,shl:220,rng:260,spd:340,itv:540},tunable:{mwp:1},type:"s",cost:105,hp:20,tec:1,tgh:1}
 {id:2109,name:"Katto Baldo AM",type:"l",cost:40,hp:25,str:2,tec:1,fly:-1,tgh:3,conversion:"BDLL55",comment:"Attachable to 'Katto Baldo BD' only"}
-{id:167,name:"Digaias AM",cost:40,hp:25,str:1,wlk:1,tgh:3}
+{id:167,name:"Digaius AM",cost:40,hp:25,str:1,wlk:1,tgh:3}
 
 {id:2106,name:"Cordyceps AM",cost:45,hp:25,str:1,tec:1,fly:1,tgh:2}
 {id:2111,name:"Katto Baldo AM2",joint:{wp:0},main:{shl:30,spd:10,itv:1000},tunable:{mwp:1},cost:90,hp:25,str:2,wlk:1,fly:-1,tgh:4,conversion:"BDLL55",comment:"Attachable to 'Katto Baldo BD' only"}
@@ -684,3 +685,4 @@
 {id:50,name:"Agnizyne AMJ",size:"M",slot:1}
 
 {id:142,name:"Wild Shoulder AMJ",size:"M",slot:1}
+{id:143,name:"Digaius AMJ",size:"M",slot:1}

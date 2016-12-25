@@ -368,7 +368,8 @@
 {id:349,name:"Hound Dog Gear",str:1,wlk:1,slot:1}
 {id:350,name:"Replica Cannon Gear",capa:5,hp:5,fly:1,slot:1}
 {id:351,name:"Caracal Eargear",tec:1,tgh:1}
-{id:352,name:"Ferme Screw",type:"l",capa:5,hp:5,tec:1,slot:1}
+{id:352,name:"Thermes' Screw",type:"l",capa:5,hp:5,tec:1,slot:1}
+{id:353,name:"Nina's Ribbon",hp:5,str:1,capa:5}
 
 {id:261,name:"Mosquito Buster",hp:5,str:1}
 {id:1227,name:"Orange Layer Ribbon",str:1,fly:1}

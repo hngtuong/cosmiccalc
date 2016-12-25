@@ -338,7 +338,7 @@
 {id:145,name:"Pepen Girl BD@",sub:{shl:7,rng:300,itv:1000},type:"c",size:"M",cost:20,slot:0}
 {id:146,name:"Outsider Key",sub:{rng:10,spd:10,itv:500},cost:90,slot:0,type:"l",size:"S",conversion:"BDLS148",comment:"Attachable to 'Aleixa Arl BD' only"}
 {id:147,name:"Glory Key",sub:{rng:10,spd:10,itv:500},cost:100,slot:0,type:"l",size:"S",conversion:"BDLS149",comment:"Attachable to 'Kal Valentine BD' only"}
-{id:148,name:"Wheel Tackle",sub:{pwr:32,rng:70,spd:160,itv:1000,str:100},tunable:{pwp:1},type:"l",size:"S",cost:70,conversion:"BDLS149",comment:"Attachable to 'Kal Valentine BD' only"}
+{id:148,name:"Wheel Tackle",sub:{pwr:32,rng:70,spd:160,itv:1000,str:100},tunable:{pwp:1},type:"l",size:"S",cost:70,conversion:"BDLS149LG",comment:"Attachable to 'Kal Valentine BD' only"}
 {id:149,name:"Heart Balloon C",cost:10,str:1}
 {id:188,name:"Heart Balloon R",cost:10,wlk:1}
 {id:150,name:"Heart Balloon Y",cost:10,fly:1}
@@ -366,7 +366,7 @@
 // {id:166,name:"Asphe Slot",type:"c",size:"M"}
 // {id:167,name:"Minaria Slot",type:"a",size:"M"}
 {id:173,name:"Fairys BS@",sub:{shl:3,spd:160,itv:1000},type:"a",size:"M",cost:20,conversion:"BSM172",comment:"Attachable to 'Fairys BS' only"}
-{id:170,name:"Minute Rapier",main:{shl:30,spd:10,itv:700},sub:{pwr:25,rng:70,spd:85,itv:500,str:100},tunable:{pwp:1},type:"l",size:"S",cost:110,conversion:"BDLS158AM",comment:"Attachable to 'Lafiel AM' only"}
+{id:170,name:"Minute Rapier",main:{shl:30,spd:10,itv:700},sub:{pwr:28,rng:70,spd:85,itv:500,str:100},tunable:{pwp:1},type:"l",size:"S",cost:110,conversion:"BDLS158AM",comment:"Attachable to 'Lafiel AM' only"}
 {id:171,name:"Hour Dagger",main:{pwr:15,shl:30,rng:200,spd:570,itv:500,str:100},sub:{pwr:30,shl:110,spd:200,itv:500,str:100},type:"l",size:"S",cost:90,slot:0,conversion:"BDLS158AM2",comment:"Attachable to 'Lafiel AM2' only"}
 // {id:172,name:"ラフィール･スロット",type:"l",size:"S"}
 {id:177,name:"Satellite Missile",type:"a",size:"M",sub:{pwr:40,shl:20,rng:350,spd:280,itv:500},cost:60}
@@ -387,8 +387,8 @@
 // {id:187,name:"Assault Beam Lance",sub:{pwr:26,rng:90,spd:90,itv:1800},cost:120,slot:2,type:"a",size:"M"}
 {id:189,name:"Gathima Howitzer",sub:{tec:100,pwr:40,shl:30,rng:360,spd:230,itv:500},type:"c",size:"S",cost:40,conversion:"BDCS92",comment:"Attachable to 'Gathima Girl BD/BD2' only"}
 // {id:190,name:"Slot",type:"lacs",size:"M",comment:["一部ジアスにのみ装備可能なスロット","例：フィーリア、ネーベル、ラフィール、コレッティ他"]}
-{id:191,name:"Gaia Rammer",main:{pwr:20,shl:30,rng:200,spd:300,itv:1000},sub:{str:100,pwr:39,rng:120,spd:20,itv:500},tunable:{mwp:1,pwp:1},size:"LL",type:"l",cost:150,conversion:"AML167",comment:"Attachable to 'Digaias AM' only"}
-{id:192,name:"Gaia Pile",sub:{pwr:32,shl:10,rng:140,spd:250,itv:500},tunable:{pwp:1},cost:120,type:"l",size:"LL",conversion:"AML167",comment:"Attachable to 'Digaias AM' only"}
+{id:191,name:"Gaia Rammer",main:{pwr:20,shl:30,rng:200,spd:300,itv:1000},sub:{str:100,pwr:39,rng:120,spd:20,itv:500},tunable:{mwp:1,pwp:1},size:"LL",type:"l",cost:150,conversion:"AML167",comment:"Attachable to 'Digaius AM' only"}
+{id:192,name:"Gaia Pile",sub:{pwr:32,shl:10,rng:140,spd:250,itv:500},tunable:{pwp:1},cost:120,type:"l",size:"LL",conversion:"AML167",comment:"Attachable to 'Digaius AM' only"}
 
 {id:1006,name:"Gigant Arms AM@",type:"l",size:"L",sub:{str:100,pwr:30,rng:170,spd:80,itv:500},tunable:{pwp:1},cost:70,conversion:"AML160",comment:"Attachable to 'Gigant Arms AM' only"}
 {id:162,name:"Gigant Arms LG@",type:"l",size:"L",sub:{pwr:20,shl:30,rng:230,spd:80,itv:500},cost:50,conversion:"LGL115",comment:"Attachable to 'Gigant Arms LG' only"}

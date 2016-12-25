@@ -97,6 +97,7 @@
 {id:84,name:"Mizuha LG",type:"s",cost:30,hp:20,str:-1,tec:1,wlk:2,fly:2}
 {id:86,name:"Pelena LG",cost:35,hp:25,str:-1,wlk:2,fly:2,tgh:2}
 {id:88,name:"Cyllene LG",cost:45,hp:25,tec:1,wlk:1,fly:1,tgh:2}
+{id:1102,name:"Cyllene LG2",cost:35,hp:25,str:-1,tec:2,wlk:2,fly:1,tgh:1}
 {id:90,name:"Liefy LG",cost:40,hp:25,str:-1,tec:-1,wlk:3,fly:2,tgh:2}
 {id:91,name:"Airyad LG",cost:40,hp:25,tec:2,wlk:2,fly:1}
 {id:92,name:"Wanders LG",cost:30,hp:20,str:-1,tec:1,wlk:2,fly:1,tgh:1}
@@ -258,6 +259,7 @@
 {id:1104,name:"Gotrun LG",sub:{shl:20,rng:120,spd:200,itv:1500},type:"l",cost:80,hp:20,tec:-1,wlk:3,fly:1,tgh:1}
 {id:1107,name:"Brink LG",type:"c",cost:30,hp:20,str:-1,tec:2,wlk:2,fly:1}
 {id:1108,name:"Hard Bomber LG",cost:45,hp:25,str:-1,wlk:3,fly:1,tgh:2}
+{id:1111,name:"Reversunder LG",sub:{shl:10,itv:500},type:"c",cost:80,hp:30,str:-1,wlk:2,fly:3,tgh:1}
 
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
@@ -377,7 +379,7 @@
 {id:110,name:"Flash Bomber LG",size:"L",cost:45,hp:25,str:1,tec:2,wlk:2,tgh:1}
 {id:112,name:"Gigant Arms LG",type:"l",joint:{wp:1},cost:55,hp:35,str:2,tec:-1,wlk:3,tgh:2}
 {id:113,name:"Katto Baldo LG",type:"l",sub:{str:100,pwr:22,rng:150,spd:350,itv:500},tunable:{pwp:1},cost:90,hp:30,str:2,tec:1,wlk:2,fly:-1,tgh:1}
-{id:114,name:"Digaias LG",cost:50,hp:70,str:1,wlk:2,tgh:2}
+{id:114,name:"Digaius LG",cost:50,hp:70,str:1,wlk:2,tgh:2}
 
 {id:109,name:"Falx LG",cost:45,hp:50,tec:-1,wlk:2,fly:1,tgh:3}
 {id:1000,name:"Crystas LG",sub:{tec:100,pwr:5,shl:360,rng:270,spd:290,itv:1500},type:"a",cost:60,hp:25,str:-1,tec:1,wlk:2,fly:2,tgh:1}
