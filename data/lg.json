@@ -228,7 +228,7 @@
 {id:95,name:"Garnerimp LG",sub:{pwr:20,shl:20,spd:100,itv:1500,str:100},tunable:{pwp:1},type:"l",cost:65,hp:20,str:1,tec:-1,wlk:2,fly:2,tgh:2}
 {id:96,name:"Voltis LG",cost:45,hp:25,str:1,tec:1,wlk:3,fly:2,tgh:-1}
 {id:97,name:"Scaraboss LG",cost:40,hp:25,str:1,tec:1,wlk:3,fly:1,tgh:-1}
-{id:125,name:"Scaraboss LG2",sub:{pwr:1,shl:20,rng:250,spd:70,itv:500},cost:100,hp:35,tec:1,wlk:3,fly:-1,tgh:1}
+{id:1110,name:"Scaraboss LG2",sub:{pwr:1,shl:20,rng:250,spd:70,itv:500},cost:100,hp:35,tec:1,wlk:3,fly:-1,tgh:1}
 {id:98,name:"Mantiscythe LG",joint:{bs:1},cost:40,hp:20,tec:1,wlk:2,tgh:2}
 {id:100,name:"Yngvi LG",sub:{str:100,pwr:29,rng:80,spd:100,itv:2000},tunable:{pwp:1},cost:80,hp:25,wlk:3,str:1,tec:-1,fly:2}
 {id:1109,name:"Yngvi LG2",cost:20,hp:10,wlk:2}
@@ -253,7 +253,8 @@
 {id:122,name:"Sovlancer LG",cost:45,hp:25,str:2,wlk:2,fly:2,tgh:-1}
 {id:123,name:"Dark Revenant LG",type:"l",cost:45,hp:25,str:2,tec:-1,wlk:3,fly:1}
 {id:126,name:"Sea Turtlebacker LG",type:"a",cost:40,hp:30,str:1,tec:1,wlk:3,fly:1,tgh:-1}
-{id:1110,name:"Gatorbacker LG",type:"c",cost:40,hp:30,str:-1,tec:1,wlk:3,fly:1,tgh:1}
+{id:125,name:"Gatorbacker LG",type:"c",cost:40,hp:30,str:-1,tec:1,wlk:3,fly:1,tgh:1}
+{id:127,name:"Axion LG",type:"l",cost:50,hp:25,tec:2,wlk:3,fly:2,tgh:-1}
 
 {id:1103,name:"Oboromaru LG",cost:45,hp:25,str:2,tec:2,wlk:2,fly:-1}
 {id:1104,name:"Gotrun LG",sub:{shl:20,rng:120,spd:200,itv:1500},type:"l",cost:80,hp:20,tec:-1,wlk:3,fly:1,tgh:1}

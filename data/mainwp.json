@@ -459,6 +459,7 @@
 {id:141,name:"Monokeras Rod",main:{pwr:31,shl:300,rng:320,spd:320,itv:800},sub:{pwr:10,shl:30,rng:320,spd:300,itv:500},tunable:{mwp:1},type:"c",size:"S",cost:170,conversion:"BDCS67AM BDCS53AM AMS1003",comment:"Attachable to 'Lumiera AM/AM3' only"}
 {id:83,name:"Lumes Rod",main:{pwr:9,shl:900,rng:280,spd:280,itv:700},sub:{pwr:10,shl:50,rng:250,spd:270,itv:1000},tunable:{mwp:1},type:"c",size:"S",cost:170,conversion:"BDCS67AM BDCS53AM AMS1003",comment:"Attachable to 'Lumiera AM/AM3' only"}
 {id:84,name:"Flowering Gun",size:"M",main:{pwr:1,shl:300,rng:210,spd:300,itv:300},cost:10,tec:1}
+{id:239,name:"Coffin Bat Gun",size:"M",main:{pwr:1,shl:100,rng:330,spd:220,itv:800},cost:10,tec:1}
 {id:85,name:"Peach Soul",main:{shl:5,spd:10,itv:500},sub:{tec:100,pwr:32,shl:15,rng:180,spd:300,itv:500},joint:{wp:1},fixedParts:{wp:{name:"Peach Soul @",main:{shl:5,rng:300,spd:10,itv:500},slot:0}},cost:100,slot:0,type:"l",size:"S",conversion:"BDLS124",comment:"Attachable to 'Kaede BD' only"}
 {id:86,name:"Icicle Bow",main:{tec:100,pwr:3,shl:30,rng:300,spd:150,itv:1000},sub:{str:100,pwr:20,shl:10,rng:60,spd:100,itv:500},tunable:{mwp:1},type:"s",size:"S",cost:150}
 {id:87,name:"Snow Flower",main:{pwr:[28,30,32],shl:[200,250,300],rng:300,spd:[300,315,330],itv:800},sub:{shl:1,rng:60,spd:60,itv:2000},type:"l",size:"S",cost:70,slot:0,conversion:"BDLS91 BDLS118 BDLS126",comment:"Attachable to 'Ion BD6/BD7/BD8/BD8#2/BD9/BD10' only"}
@@ -530,6 +531,7 @@
 // {id:153,name:"クエンチシューター",main:{pwr:16,shl:350,rng:230,spd:340,itv:340},type:"l",size:"M",cost:160}
 {id:154,name:"Labyrinthammer",main:{pwr:6,shl:100,rng:290,spd:280,itv:1200,tec:100},sub:{tec:100,pwr:30,shl:20,rng:340,spd:210,itv:1000},type:"c",size:"M",cost:115,conversion:"BDCS56AM BDCS69AM BDCS88AM",comment:"Attachable to 'Miruru Miu AM/AM3/AM4' only",tunable:{mwp:1}}
 {id:155,name:"Labyrinthammer@",main:{pwr:26,shl:150,rng:350,spd:320,itv:700,tec:100},sub:{tec:100,pwr:20,shl:20,rng:150,spd:130,itv:1000},type:"c",size:"S",cost:110,conversion:"BDCS56AM BDCS69AM BDCS88AM",comment:"Attachable to 'Miruru Miu AM/AM3/AM4' only",tunable:{mwp:1}}
+{id:241,name:"Labyrinthaxe LJ@",main:{pwr:17,shl:400,rng:280,spd:240,itv:340,tec:100},type:"c",size:"S",cost:75,conversion:"WPSO1015",comment:"Attachable to 'Labyrinthaxe LJ' only",tunable:{mwp:1}}
 {id:156,name:"Pepen Gunners",main:{tec:100,pwr:14,shl:450,rng:330,spd:320,itv:440},tunable:{mwp:1},type:"c",size:"M",cost:100}
 {id:157,name:"Seraphim Buster",main:{pwr:13,shl:260,rng:330,spd:380,itv:300},tunable:{mwp:1},joint:{wp:1},type:"c",size:"M",conversion:"AMS176",comment:"Attachable to 'Seraph Crimrose AM7' only",cost:120}
 {id:158,name:"Seraphim Buster@",main:{pwr:32,shl:30,rng:330,spd:480,itv:1000},type:"c",size:"S",cost:40,slot:0,conversion:"WPMO157",comment:"Attachable to 'Seraphim Buster' only"}
@@ -546,13 +548,13 @@
 {id:168,name:"SBC-Beam Cannon",main:{tec:100,pwr:35,shl:150,rng:330,spd:350,itv:1500},cost:170,type:"a",size:"M"}
 {id:170,name:"ECM Lightning Buster",main:{tec:100,pwr:17,shl:220,rng:330,spd:350,itv:440},sub:{itv:500},tunable:{mwp:1},type:"a",size:"M",cost:100}
 {id:169,name:"Predatobytez AM2@",main:{pwr:4,shl:400,rng:330,spd:380,itv:300},type:"c",size:"L",cost:40,slot:0}
-{id:171,name:"Machinegun (Lunastasia)",main:{pwr:8,shl:240,rng:250,spd:360,itv:240,str:100},tunable:{mwp:1},type:"l",size:"S",cost:50,conversion:"BDLS153",comment:"Attachable to 'Lunastasia BD' only"}
-{id:172,name:"Magnegun",main:{tec:100,pwr:6,shl:400,rng:300,spd:220,itv:1000},tunable:{mwp:1},type:"c",size:"S",cost:60,conversion:"BDCS76",comment:"Attachable to 'Fiona BD' only"}
+{id:171,name:"Machinegun (Lunastasia)",main:{pwr:10,shl:240,rng:250,spd:390,itv:240,str:100},tunable:{mwp:1},type:"l",size:"S",cost:50,conversion:"BDLS153",comment:"Attachable to 'Lunastasia BD' only"}
+{id:172,name:"Magnegun",main:{tec:100,pwr:8,shl:400,rng:300,spd:220,itv:1000},tunable:{mwp:1},type:"c",size:"S",cost:60,conversion:"BDCS76",comment:"Attachable to 'Fiona BD' only"}
 {id:175,name:"Pursuit Frame II",main:{pwr:10,shl:180,rng:340,spd:520,itv:800},tunable:{mwp:0},cost:50,slot:0}
 {id:176,name:"Jupitizer Rifle",main:{pwr:18,tec:100,shl:250,rng:330,spd:370,itv:700},tunable:{mwp:1},type:"a",size:"LL",cost:70,conversion:"BDAL51",comment:"Attachable to 'Thoarla BD11' only"}
 {id:177,name:"Jupitizer Buster",main:{tec:100,pwr:36,shl:15,rng:330,spd:400,itv:1000},type:"a",size:"LL",cost:50,slot:0,conversion:"BDAL51",comment:"Attachable to 'Thoarla BD11' only"}
-{id:178,name:"Fillnaught",type:"c",size:"S",main:{pwr:15,shl:300,rng:280,spd:280,itv:300},sub:{pwr:10,shl:50,rng:150,spd:150,itv:500},tunable:{mwp:1},cost:100}
-{id:179,name:"Harp Shield",type:"c",size:"S",main:{shl:30,spd:10,itv:1000},cost:40}
+{id:178,name:"Fillnaught",type:"c",size:"S",main:{pwr:19,shl:300,rng:300,spd:300,itv:300},sub:{pwr:10,shl:50,rng:300,spd:150,itv:500},tunable:{mwp:1},cost:90,conversion:"AMS182",comment:"Attachable to 'Tristan AM2' only"}
+{id:179,name:"Harp Shield",type:"c",size:"S",main:{shl:30,spd:10,itv:1000},cost:40,conversion:"AMS181",comment:"Attachable to 'Tristan AM' only"}
 {id:180,name:"Aqua Splasher",main:{tec:100,pwr:30,shl:200,rng:300,spd:300,itv:800},tunable:{mwp:1},type:"l",size:"S",cost:65,conversion:"BDLS40AM BDLS40AM2 BDLS55AM BDLS55AM5 BDLS85AM3 BDLS85AM4 BDLS91AM6 BDLS118AM8 BDLS118AM7 BDLS126AM9 BDLS126AM7 BDLS156AM10",comment:"Attachable to 'Ion AM|2/3/4/5/6/7/8/9/10' only"}
 {id:181,name:"Water Flower Hy",main:{tec:100,pwr:6,shl:900,rng:200,spd:360,itv:200},sub:{tec:100,pwr:35,shl:50,rng:150,spd:400,itv:3000},tunable:{mwp:1},type:"l",size:"S",cost:100,conversion:"BDLS91 BDLS118 BDLS126 BDLS156",comment:"Attachable to 'Ion BD6/7/8/9/10/11' only"}
 {id:182,name:"Driver Cannon",main:{tec:100,pwr:13,shl:420,rng:330,spd:220,itv:340},tunable:{mwp:1,pwp:0},size:"M",type:"c",cost:100,conversion:"BDCS79",comment:"Attachable to 'Asphe BD' only"}
@@ -624,3 +626,5 @@
 {id:232,name:"Draw Boomerang",main:{pwr:15,shl:20,rng:200,spd:260,itv:500,str:100},tunable:{mwp:1},type:"l",size:"M",cost:30}
 {id:235,name:"Gathima Missile",main:{tec:100,pwr:24,shl:300,rng:350,spd:220,itv:300},type:"c",size:"S",cost:100,conversion:"BDCS92AM",comment:"Attachable to 'Gathima Girl AM' only"}
 {id:236,name:"Gathima Breaker",main:{tec:100,pwr:30,shl:120,rng:350,spd:500,itv:500},type:"c",size:"S",cost:80,conversion:"BDCS92AM",comment:"Attachable to 'Gathima Girl AM' only"}
+{id:238,name:"Announcer's Mic",main:{pwr:30,shl:50,rng:250,spd:350,itv:800},tunable:{mwp:1},conversion:"BDSS128AM2",comment:"Attachable to 'Anna AM2' only",cost:40,type:"s",size:"S"}
+{id:240,name:"Sticky Machinegun",main:{pwr:9,shl:400,rng:200,spd:430,itv:140},tunable:{mwp:1},type:"l",size:"M",cost:180}

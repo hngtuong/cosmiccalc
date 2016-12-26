@@ -410,8 +410,10 @@
 {id:186,name:"Hard Bomber AM",main:{pwr:14,shl:180,rng:330,spd:380,itv:540},tunable:{mwp:1},type:"c",cost:90,hp:25,tec:1,fly:2,tgh:2}
 {id:185,name:"Hard Bomber AM2",sub:{rng:100,spd:50,itv:500},joint:{wp:0},type:"lc",cost:90,hp:25,wlk:1,fly:1,tgh:3}
 {id:187,name:"Sea Turtlebacker AM",main:{pwr:20,shl:100,rng:280,spd:260,itv:800},type:"a",cost:100,hp:20,str:1,tec:2,wlk:-1,fly:2,tunable:{mwp:1}}
-{id:1004,name:"Gatorbacker AM",cost:35,hp:20,str:1,tec:2,tgh:2}
+{id:190,name:"Gatorbacker AM",cost:35,hp:20,str:1,tec:2,tgh:2}
 {id:188,name:"Reversunder AM",cost:35,hp:20,str:2,tec:-1,wlk:3,tgh:1}
+{id:189,name:"Axion AM2",type:"l",tunable:{pwp:1},sub:{pwr:25,rng:70,spd:85,itv:500},cost:75,hp:20,str:3,tec:-1,wlk:2,tgh:1}
+{id:191,name:"Axion AM",type:"l",tunable:{mwp:1},main:{pwr:16,shl:350,rng:250,spd:360,itv:300},cost:105,hp:20,str:-1,tec:3,wlk:2,tgh:1}
 
 {id:1002,name:"Mediger AM3",size:"M",cost:35,hp:20,tec:1,wlk:2,tgh:1,fixedParts:{wp:{name:"Liber",sub:{shl:3,rng:45,spd:65,itv:15000},cost:70,slot:0}}}
 //{id:154,name:"ビクトリーAM",type:"lacs",size:"M",cost:20,hp:15,str:1,fly:1}

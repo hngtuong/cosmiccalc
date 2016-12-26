@@ -285,6 +285,7 @@
 {id:336,name:"Flower Beret",hp:5,wlk:1}
 {id:1266,name:"Imperial Crown",tec:2}
 {id:263,name:"Sunny's Pirate Hat",str:1,wlk:1}
+{id:1320,name:"Sunny's Pirate Hat II",hp:5,wlk:1}
 {id:1267,name:"BB Burger Visor",wlk:1,capa:5}
 {id:264,name:"Tyr Circlet",str:1,capa:5}
 {id:265,name:"Dead Horn",tec:2}
@@ -455,3 +456,5 @@
 {id:1317,name:"Crystal Clip",tec:1,tgh:1}
 {id:1318,name:"Kaguya Ribbon",tec:1,wlk:1}
 {id:1319,name:"Ripley's Cannon Gear",hp:5,fly:1,capa:5}
+{id:1321,name:"Transmitter",wlk:1,tgh:1}
+{id:1322,name:"Siren Ribbon",hp:5,tec:1,capa:5}

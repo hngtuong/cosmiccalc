@@ -207,6 +207,8 @@
 {id:195,name:"Lino Falcon BS",type:"a",cost:40,hp:25,str:2,tec:-1,wlk:1,fly:3}
 {id:196,name:"Hound Dog Girl BS",type:"l",cost:35,hp:20,str:2,tec:-1,fly:2,tgh:2}
 {id:197,name:"Thermes BS",sub:{tec:100,pwr:15,shl:60,rng:250,spd:150,itv:600},type:"l",cost:65,hp:20,str:-1,tec:2,wlk:1,fly:3,conversion:"BDLS179",comment:"Attachable to 'Thermes BD/BD2' only"}
+{id:198,name:"Anna BS",main:{pwr:10,shl:300,rng:260,spd:320,itv:640},tunable:{mwp:1},joint:{wp:2},fixedParts:{wp:[{name:"Repair Announce",sub:{shl:[5,7,10],rng:100,spd:150,itv:10000},cost:60,comment:"200 HP restore",slot:0},{name:"Support Announce",sub:{shl:[5,7,10],rng:100,spd:150,itv:10000},slot:0,cost:60,comment:"Hyper Shot, Shell Supply, Crimson Veil, Gladiator, Speed Up"}]},cost:95,hp:25,str:1,wlk:-1,fly:3,tgh:2}
+// {id:199,name:"リゼリアBS",type:"l",size:"S",cost:40,hp:25,str:1,tec:1,fly:3}
 
 {id:1052,name:"Kaltos Wing",joint:{wp:1},type:"a",cost:40,hp:20,str:1,tec:1,wlk:2,fly:2,tgh:-1,conversion:"BDAS60 BDAS73 BDAS90",comment:["Attachable to 'Litia BD/BD2/BD3' only","Weapon slot for 'Kaltos Wing@'"]}
 {id:1053,name:"Aries Wing",joint:{wp:1},type:"a",cost:40,hp:20,str:1,tec:1,wlk:2,fly:2,tgh:-1,conversion:"BDAS60 BDAS73 BDAS90",comment:"Attachable to 'Litia BD/BD2/BD3' only"}
@@ -389,7 +391,7 @@
 {id:168,name:"Mirage Raid BS",main:{pwr:11,shl:200,rng:320,spd:330,itv:500},sub:{pwr:30,rng:90,spd:100,itv:500,str:100},tunable:{pwp:1,mwp:1},type:"a",cost:135,hp:15,str:1,tec:-1,fly:2,tgh:2}
 {id:169,name:"Koyomi BS",type:"s",cost:40,hp:20,str:1,wlk:1,fly:2,tgh:1}
 {id:170,name:"Liquid Snail BS",type:"lcs",sub:{shl:20,rng:100,spd:120,itv:100},cost:80,hp:25,tec:1,wlk:1,fly:3}
-{id:171,name:"S.U. Barrier Dome BS",main:{shl:30,spd:10,itv:1000},tunable:{mwp:1},type:"cs",size:"M",cost:75,hp:25,str:1,tec:2,wlk:-1,tgh:3}
+{id:171,name:"S.U. Barrier Dome BS",main:{shl:30,spd:10,itv:1000},tunable:{mwp:1},type:"cs",size:"M",cost:75,hp:25,str:1,tec:2,wlk:-1,tgh:3,comment:"S.U. Barrier Dome Mod BS has the same stats"}
 {id:172,name:"Fairys BS",type:"a",joint:{wp:1},cost:35,hp:25,wlk:2,fly:3}
 {id:173,name:"Spada BS",type:"l",cost:45,hp:25,str:1,wlk:-1,fly:2,tgh:3}
 {id:174,name:"Crys Horn BS",type:"l",cost:25,hp:15,tec:1,fly:2,tgh:1}
@@ -405,9 +407,10 @@
 {id:184,name:"Wired Magnegun BS",main:{pwr:10,shl:300,rng:300,spd:220,itv:700},tunable:{mwp:1},type:"c",cost:85,hp:10,tec:1,fly:2}
 {id:185,name:"SB Beam Missile BS",sub:{tec:100,pwr:3,shl:30,rng:250,spd:330,itv:100},type:"a",size:"M",cost:85,hp:25,str:1,tec:2,wlk:-1,fly:2,tgh:1}
 {id:187,name:"Sea Turtlebacker BS",sub:{tec:100,pwr:6,shl:80,rng:250,spd:260,itv:300},type:"a",cost:70,hp:30,tec:1,fly:2,tgh:2}
-{id:2114,name:"Gatorbacker BS",sub:{tec:100,pwr:28,shl:30,rng:320,spd:500,itv:500},type:"c",cost:125,hp:15,str:-1,tec:2,wlk:1,fly:2}
+{id:191,name:"Gatorbacker BS",sub:{tec:100,pwr:28,shl:30,rng:320,spd:500,itv:500},type:"c",cost:125,hp:15,str:-1,tec:2,wlk:1,fly:2}
 {id:188,name:"Flareleon BS",type:"l",size:"M",cost:40,hp:20,str:3,wlk:1,fly:2,tgh:1}
 {id:189,name:"Margrethe BS",type:"l",cost:45,hp:25,tec:-1,fly:3,tgh:3}
+{id:190,name:"Axion BS",type:"l",cost:35,hp:20,tec:2,wlk:1,fly:3,tgh:-1}
 
 //{id:299,name:"Sylvia BS",type:"l",cost:45,hp:25,str:2,tec:-1,wlk:2,fly:2}
 {id:2100,name:"Lucca Decho BS",type:"l",cost:35,hp:20,str:1,tec:1,wlk:1,fly:3,tgh:-1}
