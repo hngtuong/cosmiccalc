@@ -458,3 +458,5 @@
 {id:1319,name:"Ripley's Cannon Gear",hp:5,fly:1,capa:5}
 {id:1321,name:"Transmitter",wlk:1,tgh:1}
 {id:1322,name:"Siren Ribbon",hp:5,tec:1,capa:5}
+{id:1323,name:"Maid Ribbion I",hp:5,str:1,capa:5}
+{id:1324,name:"Maid Ribbion II",hp:5,tec:1,capa:5}
