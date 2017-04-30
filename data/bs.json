@@ -411,6 +411,7 @@
 {id:188,name:"Flareleon BS",type:"l",size:"M",cost:40,hp:20,str:3,wlk:1,fly:2,tgh:1}
 {id:189,name:"Margrethe BS",type:"l",cost:45,hp:25,tec:-1,fly:3,tgh:3}
 {id:190,name:"Axion BS",type:"l",cost:35,hp:20,tec:2,wlk:1,fly:3,tgh:-1}
+{id:2150,name:"Missile Pod BS",type:"c",cost:110,hp:20,tec:2,wlk:1,fly:2,tgh:-1}
 
 //{id:299,name:"Sylvia BS",type:"l",cost:45,hp:25,str:2,tec:-1,wlk:2,fly:2}
 {id:2100,name:"Lucca Decho BS",type:"l",cost:35,hp:20,str:1,tec:1,wlk:1,fly:3,tgh:-1}
@@ -426,6 +427,7 @@
 {id:2111,name:"Star Strider BS",comment:"Basically a clone of 'Jet Accel BS'",sub:{pwr:10,shl:20,rng:100,spd:120,itv:2000},cost:60,hp:25,wlk:1,fly:3,tgh:1}
 {id:2115,name:"CAPTAIN X BS2",type:"l",cost:35,hp:20,str:2,wlk:-1,fly:2,tgh:1}
 {id:2116,name:"Reversunder BS",type:"c",sub:{pwr:8,shl:400,rng:350,spd:320,itv:500},cost:115,hp:30,str:-1,tec:2,wlk:2,fly:2}
+{id:2117,name:"Antique Book BS",type:"lacs",cost:30,hp:15,tec:1,wlk:1,fly:2}
 
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}

@@ -395,7 +395,7 @@
 //                                                                       spd:300,itv:1500
 {id:28,name:"Water Flower",main:{pwr:[15,18,21],shl:[200,280,360],rng:300,spd:[300,315,330],itv:800},sub:{shl:[1,3,5],rng:60,spd:60,itv:2000},type:"l",cost:70,slot:0,size:"S",conversion:"BDLS91 BDLS118",comment:"Attachable to 'Ion BD6/BD7/BD8/BD8#2/BD9' only"}
 {id:29,name:"Water Flower Ps",main:{pwr:[10,11,13],shl:[400,500,600],rng:260,spd:340,itv:340},sub:{shl:[1,3,5],rng:60,spd:60,itv:2000},type:"l",cost:70,slot:0,size:"S",conversion:"BDLS91 BDLS118",comment:"Attachable to 'Ion BD6/BD7/BD8/BD8#2/BD9' only"}
-{id:52,name:"Water Flower Bg",main:{pwr:22,shl:240,rng:225,spd:380,itv:500},sub:{shl:[1,3,5],rng:60,spd:60,itv:2000},type:"l",size:"S",conversion:"BDLS91 BDLS118",comment:"Attachable to Ion BD6/BD7/BD8/BD8#2/BD9　only",cost:120}
+{id:52,name:"Water Flower Bg",main:{pwr:22,shl:240,rng:225,spd:380,itv:500},sub:{shl:[1,3,5],rng:60,spd:60,itv:2000},type:"l",size:"S",conversion:"BDLS91 BDLS118 BDLS156",comment:"Attachable to Ion BD6/BD7/BD8/BD8#2/BD9　only",cost:120}
 {id:30,name:"Ion's Aqua Pot",main:{pwr:1,shl:3,rng:300,spd:220,itv:1100},tunable:{mwp:1},size:"S",cost:35,wlk:1}
 {id:32,name:"Ladle",main:{pwr:5,shl:200,rng:290,spd:280,itv:1500},sub:{shl:1,itv:1000},tunable:{mwp:1},type:"s",size:"M",cost:70,conversion:"BDSS1087AM BDSS87AM",comment:"Attachable to 'Resha AM5' only"}
 {id:33,name:"Remote",main:{shl:-1,rng:300,spd:300,itv:4500},joint:{wp:1},fixedParts:{wp:{name:"Remote@",sub:{pwr:15,shl:30,rng:40,spd:200,itv:1000},slot:0}},type:"s",cost:100,size:"S",conversion:"BDSS1088AM BDSS88AM",comment:"Attachable to 'Eris AM6' only"}
