@@ -532,7 +532,7 @@
 {id:154,name:"Labyrinthammer",main:{pwr:6,shl:100,rng:290,spd:280,itv:1200,tec:100},sub:{tec:100,pwr:30,shl:20,rng:340,spd:210,itv:1000},type:"c",size:"M",cost:115,conversion:"BDCS56AM BDCS69AM BDCS88AM",comment:"Attachable to 'Miruru Miu AM/AM3/AM4' only",tunable:{mwp:1}}
 {id:155,name:"Labyrinthammer@",main:{pwr:26,shl:150,rng:350,spd:320,itv:700,tec:100},sub:{tec:100,pwr:20,shl:20,rng:150,spd:130,itv:1000},type:"c",size:"S",cost:110,conversion:"BDCS56AM BDCS69AM BDCS88AM",comment:"Attachable to 'Miruru Miu AM/AM3/AM4' only",tunable:{mwp:1}}
 {id:241,name:"Labyrinthaxe LJ@",main:{pwr:17,shl:400,rng:280,spd:240,itv:340,tec:100},type:"c",size:"S",cost:75,conversion:"WPSO1015",comment:"Attachable to 'Labyrinthaxe LJ' only",tunable:{mwp:1}}
-{id:156,name:"Pepen Gunners",main:{tec:100,pwr:14,shl:450,rng:330,spd:320,itv:440},tunable:{mwp:1},type:"c",size:"M",cost:100}
+{id:156,name:"Pepen Gunners",main:{tec:100,pwr:14,shl:450,rng:330,spd:320,itv:440},tunable:{mwp:1},type:"c",size:"M",cost:100,conversion:"BDCS1060 BDCS70"}
 {id:157,name:"Seraphim Buster",main:{pwr:13,shl:260,rng:330,spd:380,itv:300},tunable:{mwp:1},joint:{wp:1},type:"c",size:"M",conversion:"AMS176",comment:"Attachable to 'Seraph Crimrose AM7' only",cost:120}
 {id:158,name:"Seraphim Buster@",main:{pwr:32,shl:30,rng:330,spd:480,itv:1000},type:"c",size:"S",cost:40,slot:0,conversion:"WPMO157",comment:"Attachable to 'Seraphim Buster' only"}
 
@@ -628,3 +628,9 @@
 {id:236,name:"Gathima Breaker",main:{tec:100,pwr:30,shl:120,rng:350,spd:500,itv:500},type:"c",size:"S",cost:80,conversion:"BDCS92AM",comment:"Attachable to 'Gathima Girl AM' only"}
 {id:238,name:"Announcer's Mic",main:{pwr:30,shl:50,rng:250,spd:350,itv:800},tunable:{mwp:1},conversion:"BDSS128AM2",comment:"Attachable to 'Anna AM2' only",cost:40,type:"s",size:"S"}
 {id:240,name:"Sticky Machinegun",main:{pwr:9,shl:400,rng:200,spd:430,itv:140},tunable:{mwp:1},type:"l",size:"M",cost:180}
+{id:1030,name:"Pepen Twin Gun II",conversion:"BDCS1060AM AMS175",cost:70,joint:{wp:1},type:"c",size:"S",main:{pwr:10,shl:400,rng:300,spd:220,itv:340},tunable:{mwp:1}}
+{id:1031,name:"Pepen Twin Gun II@",conversion:"WPMO1030",cost:50,main:{pwr:24,shl:225,rng:330,spd:320,itv:340},tunable:{mwp:1}}
+{id:1032,name:"Pepen Gunners II",conversion:"BDCS1060 BDCS70",cost:100,type:"c",size:"S",main:{pwr:6,shl:450,rng:330,spd:320,itv:440},tunable:{mwp:1}}
+{id:1033,name:"Maid Pepen Girl BD@",conversion:"BDCS1060",type:"c",size:"S",cost:20,sub:{shl:14,rng:300,itv:1000},slot:0}
+{id:1034,name:"Pepen Twin Gun",main:{pwr:10,shl:400,rng:300,spd:220,itv:340},tunable:{mwp:1},type:"c",size:"S",cost:70,conversion:"BDCS1060AM AMS175"}
+{id:1035,name:"Pepen Girl BD@",sub:{shl:7,rng:300,itv:1000},type:"c",size:"M",cost:20,slot:0,conversion:"BDCS70"}

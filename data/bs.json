@@ -209,6 +209,7 @@
 {id:197,name:"Thermes BS",sub:{tec:100,pwr:15,shl:60,rng:250,spd:150,itv:600},type:"l",cost:65,hp:20,str:-1,tec:2,wlk:1,fly:3,conversion:"BDLS179",comment:"Attachable to 'Thermes BD/BD2' only"}
 {id:198,name:"Anna BS",main:{pwr:10,shl:300,rng:260,spd:320,itv:640},tunable:{mwp:1},joint:{wp:2},fixedParts:{wp:[{name:"Repair Announce",sub:{shl:[5,7,10],rng:100,spd:150,itv:10000},cost:60,comment:"200 HP restore",slot:0},{name:"Support Announce",sub:{shl:[5,7,10],rng:100,spd:150,itv:10000},slot:0,cost:60,comment:"Hyper Shot, Shell Supply, Crimson Veil, Gladiator, Speed Up"}]},cost:95,hp:25,str:1,wlk:-1,fly:3,tgh:2}
 {id:199,name:"Rosette/Liseria BS",type:"l",size:"S",cost:40,hp:25,str:1,tec:1,fly:3}
+{id:200,name:"Hilti BS",type:"s",size:"S",cost:35,hp:25,tec:1,wlk:-1,fly:3,tgh:2}
 
 {id:1052,name:"Kaltos Wing",joint:{wp:1},type:"a",cost:40,hp:20,str:1,tec:1,wlk:2,fly:2,tgh:-1,conversion:"BDAS60 BDAS73 BDAS90",comment:["Attachable to 'Litia BD/BD2/BD3' only","Weapon slot for 'Kaltos Wing@'"]}
 {id:1053,name:"Aries Wing",joint:{wp:1},type:"a",cost:40,hp:20,str:1,tec:1,wlk:2,fly:2,tgh:-1,conversion:"BDAS60 BDAS73 BDAS90",comment:"Attachable to 'Litia BD/BD2/BD3' only"}
