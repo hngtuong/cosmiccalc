@@ -333,8 +333,6 @@
 // {id:141,name:"ガラクタ",sub:{shl:5,spd:160,itv:1000},tunable:{mwp:0,pwp:0},joint:{wp:1},type:"a",size:"S",cost:65,hp:20,str:1,fly:2,tgh:2}
 {id:142,name:"Manimo Wing@",main:{pwr:5,shl:500,rng:320,spd:420,itv:340,str:100},tunable:{mwp:1},type:"a",size:"S",cost:40}
 {id:143,name:"Manimo Jetlance",sub:{str:100,pwr:30,rng:150,spd:170,itv:500},type:"a",size:"M",cost:110}
-{id:144,name:"Pepen Twin Gun",main:{pwr:10,shl:400,rng:300,spd:220,itv:340},tunable:{mwp:1},type:"c",size:"S",cost:70}
-{id:145,name:"Pepen Girl BD@",sub:{shl:7,rng:300,itv:1000},type:"c",size:"M",cost:20,slot:0}
 {id:146,name:"Outsider Key",sub:{rng:10,spd:10,itv:500},cost:90,slot:0,type:"l",size:"S",conversion:"BDLS148",comment:"Attachable to 'Aleixa Arl BD' only"}
 {id:147,name:"Glory Key",sub:{rng:10,spd:10,itv:500},cost:100,slot:0,type:"l",size:"S",conversion:"BDLS149",comment:"Attachable to 'Kal Valentine BD' only"}
 {id:148,name:"Wheel Tackle",sub:{pwr:32,rng:70,spd:160,itv:1000,str:100},tunable:{pwp:1},type:"l",size:"S",cost:70,conversion:"BDLS149LG",comment:"Attachable to 'Kal Valentine BD' only"}
@@ -395,3 +393,11 @@
 {id:1009,name:"Meteora BS2@",size:"S",type:"a",sub:{shl:15,rng:100,spd:150,itv:2000},cost:35,slot:0,conversion:"BSS1056",comment:"Attachable to 'Meteora BS2' only"}
 {id:1011,name:"Multi-missile Pack",sub:{tec:100,pwr:4,shl:320,rng:350,spd:320,itv:500},type:"c",size:"S",cost:60,conversion:"BDCM46WP",comment:"Attachable to 'Toybox Girl BD5@' only"}
 {id:1017,name:"Brave Arts",joint:{wp:3},type:"l",size:"M",conversion:"AMM177",comment:"Attachable to 'Sovlancer AM' only",slot:0}
+{id:1020,name:"Drag Drill Arm",conversion:"BSM2118",joint:{wp:1},type:"l",size:"M",slot:0}
+{id:1021,name:"Drill Claw",conversion:"WPSO1020",type:"l",size:"M",cost:160,main:{pwr:15,shl:30,rng:150,spd:400,itv:500},sub:{str:100,pwr:32,shl:15,rng:70,spd:85,itv:500},tunable:{mwp:1,pwp:1}}
+{id:1022,name:"Drag Engine II",conversion:"BSM2118",joint:{wp:1},type:"l",size:"M",slot:0}
+{id:1023,name:"Full Power Drive",conversion:"WPSO1022",type:"l",size:"M",cost:40,main:{pwr:0,shl:20,rng:0,spd:10,itv:1000}}
+{id:1024,name:"Drag Shovel Arm",conversion:"BSM2118",joint:{wp:1},type:"l",size:"M",slot:0}
+{id:1025,name:"Shovel Claw",conversion:"WPSO1024",type:"l",size:"M",cost:160,main:{pwr:30,shl:30,rng:300,spd:470,itv:500},sub:{str:100,pwr:32,shl:15,rng:70,spd:85,itv:500},tunable:{mwp:1,pwp:1}}
+{id:1026,name:"Drag Engine",conversion:"BSM2118",joint:{wp:1},type:"l",size:"M",slot:0}
+{id:1027,name:"Full Power Drive A",conversion:"WPSO1026",type:"l",size:"M",cost:40,main:{pwr:0,shl:20,rng:0,spd:10,itv:1000}}
