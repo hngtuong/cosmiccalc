@@ -622,7 +622,7 @@
 {id:14,name:"Gaderoga AM",type:"c",cost:100,hp:30,str:-1,tec:3,wlk:-1,fly:1,tgh:3,main:{pwr:26,shl:100,rng:350,spd:290,itv:1200},tunable:{mwp:1},joint:{wp:0}}
 {id:15,name:"Gaderoga AM2",type:"c",cost:120,hp:30,tec:2,wlk:2,fly:-1,tgh:2,main:{pwr:20,shl:420,rng:80,spd:360,itv:100},tunable:{mwp:1},joint:{wp:0}}
 {id:19,name:"Gaderoga AM3",main:{tec:100,pwr:8,shl:500,rng:150,spd:380,itv:100},tunable:{mwp:1},type:"c",cost:100,hp:30,tec:3,wlk:1,fly:-1,tgh:3,joint:{wp:0},str:-1}
-{id:16,name:"Machintlet AM",sub:{str:100,pwr:32,rng:80,spd:50,itv:3000},tunable:{pwp:1},joint:{wp:0},type:"l",cost:185,hp:25,str:3,tec:-1,wlk:1,fly:-1,tgh:4}
+{id:16,name:"Machintlet AM",sub:{str:100,pwr:34,rng:80,spd:50,itv:3000},tunable:{pwp:1},joint:{wp:0},type:"l",cost:185,hp:25,str:3,tec:-1,wlk:1,fly:-1,tgh:4}
 {id:23,name:"Machintlet AM2",sub:{str:100,pwr:32,shl:10,rng:300,spd:85,itv:3000},tunable:{pwp:1},joint:{wp:0},type:"l",cost:185,hp:25,str:4,tec:-1,wlk:1,fly:-1,tgh:3}
 {id:17,name:"Gyallanbard AM",type:"l",joint:{wp:0},main:{shl:30,spd:10,itv:1000},sub:{pwr:20,shl:30,rng:150,spd:250,itv:4800},tunable:{mwp:1,pwp:1},cost:125,hp:25,str:1,wlk:1,tgh:3}
 {id:18,name:"Mountos Homura AM",sub:{pwr:15,rng:110,spd:35,itv:1800,tec:100},tunable:{pwp:1},joint:{wp:0},type:"lcs",cost:75,hp:20,str:2,tec:2,fly:-1,tgh:2,comment:"Projectile size depends on STR"}
