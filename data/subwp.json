@@ -70,7 +70,7 @@
 //{id:42,name:"シグナルティンR",sub:{pwr:30,rng:70,spd:80,itv:1000,str:100},size:"S",cost:60,type:"lacs",str:1}
 {id:44,name:"Blitz Cutlass",sub:{str:100,pwr:25,shl:20,rng:120,spd:250,itv:1000},type:"l",size:"M",cost:140}
 {id:45,name:"Dragoon Sword",sub:{tec:100,pwr:13,shl:270,rng:350,spd:280,itv:500},joint:{wp:1},type:"c",size:"S",conversion:"BDCS80AM",comment:"Attachable to 'Philia AM2' only",cost:40,slot:0}
-{id:46,name:"Dragoon Sword@",type:"c",size:"S",cost:90,main:{tec:100,pwr:20,shl:400,rng:320,spd:320,itv:700},tunable:{mwp:1},conversion:"WPSW45",comment:"Attachable to 'Dragoon Sword' only"}
+{id:46,name:"Dragoon Sword@",type:"c",size:"S",cost:90,main:{tec:100,pwr:20,shl:400,rng:320,spd:420,itv:700},tunable:{mwp:1},conversion:"WPSW45",comment:"Attachable to 'Dragoon Sword' only"}
 {id:47,name:"Brave Sword",sub:{str:100,pwr:29,rng:70,spd:85,itv:500},tunable:{pwp:1},cost:130,type:"l",size:"M",conversion:"WPSO181",comment:"Attachable to 'Brave Arts' only"}
 
 {group:"Axes",prefixID:"AX"}
@@ -384,7 +384,7 @@
 // {id:187,name:"Assault Beam Lance",sub:{pwr:26,rng:90,spd:90,itv:1800},cost:120,slot:2,type:"a",size:"M"}
 {id:189,name:"Gathima Howitzer",sub:{tec:100,pwr:40,shl:30,rng:360,spd:230,itv:500},type:"c",size:"S",cost:40,conversion:"BDCS92",comment:"Attachable to 'Gathima Girl BD/BD2' only"}
 // {id:190,name:"Slot",type:"lacs",size:"M",comment:["一部ジアスにのみ装備可能なスロット","例：フィーリア、ネーベル、ラフィール、コレッティ他"]}
-{id:191,name:"Gaia Rammer",main:{pwr:20,shl:30,rng:200,spd:300,itv:1000},sub:{str:100,pwr:39,rng:120,spd:20,itv:500},tunable:{mwp:1,pwp:1},size:"LL",type:"l",cost:150,conversion:"AML167",comment:"Attachable to 'Digaius AM' only"}
+{id:191,name:"Gaia Rammer",main:{pwr:20,shl:30,rng:200,spd:300,itv:1000},sub:{str:100,pwr:34,rng:120,spd:20,itv:500},tunable:{mwp:1,pwp:1},size:"LL",type:"l",cost:150,conversion:"AML167",comment:"Attachable to 'Digaius AM' only"}
 {id:192,name:"Gaia Pile",sub:{pwr:32,shl:10,rng:140,spd:250,itv:500},tunable:{pwp:1},cost:120,type:"l",size:"LL",conversion:"AML167",comment:"Attachable to 'Digaius AM' only"}
 
 {id:1006,name:"Gigant Arms AM@",type:"l",size:"L",sub:{str:100,pwr:30,rng:170,spd:80,itv:500},tunable:{pwp:1},cost:70,conversion:"AML160",comment:"Attachable to 'Gigant Arms AM' only"}
