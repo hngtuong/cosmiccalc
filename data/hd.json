@@ -382,6 +382,7 @@
 {id:314,name:"Spada HD",cost:35,hp:25,str:3,tec:-1,wlk:2,tgh:1}
 {id:315,name:"Crys Horn HD",sub:{pwr:10,shl:10,rng:70,spd:120,itv:500,str:100},tunable:{pwp:1},type:"l",cost:65,hp:20,tec:1,wlk:1,tgh:2}
 {id:318,name:"Bloody Star HD",cost:35,hp:20,tec:2,wlk:1,fly:1,tgh:1}
+{id:1284,name:"Bloody Star HD2",cost:35,hp:20,tec:1,wlk:1,fly:2,tgh:1}
 {id:319,name:"Flash Bomber HD",cost:40,hp:25,str:2,tec:1,wlk:-1,tgh:3}
 {id:321,name:"Sovlancer HD",cost:45,hp:25,str:1,wlk:2,fly:1,tgh:2}
 {id:323,name:"A. Miral HD",type:"l",size:"M",cost:95,hp:15,wlk:1,main:{tec:100,pwr:5,shl:800,rng:230,spd:420,itv:240},tunable:{mwp:1},tec:2}
@@ -405,6 +406,7 @@
 {id:1277,name:"Hard Bomber HD",cost:45,hp:25,str:1,tec:1,wlk:2,fly:-1,tgh:2}
 {id:1279,name:"Sea Turtlebacker HD",cost:30,hp:20,str:-1,tec:1,fly:2,tgh:2}
 {id:1283,name:"Reversunder HD",cost:45,hp:25,str:1,tec:2,fly:2,tgh:1}
+//last:1284
 
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}

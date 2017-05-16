@@ -569,7 +569,8 @@
 {id:191,name:"Fin Musket",cost:90,type:"c",size:"S",main:{pwr:17,shl:300,rng:360,spd:420,itv:500},conversion:"BDCS81AM",comment:"Attachable to 'Colleti AM' only"}
 {id:192,name:"Fin Cannon SS",cost:90,type:"c",size:"S",slot:0,main:{pwr:9,shl:200,rng:320,spd:260,itv:1400},sub:{pwr:25,shl:15,rng:10,spd:110,itv:500},conversion:"BDCS81AM",comment:"Attachable to 'Colleti BD' only"}
 {id:193,name:"Fin Cannon HE",cost:120,type:"c",size:"S",slot:0,main:{pwr:20,shl:80,rng:320,spd:400,itv:800},sub:{pwr:10,shl:300,rng:320,spd:280,itv:500},conversion:"BDCS81AM",comment:"Attachable to 'Colleti BD' only"}
-{id:194,name:"Bloody Star AM@",main:{tec:100,pwr:28,shl:15,rng:250,spd:570,itv:1200},type:"c",size:"M",cost:25,slot:0,conversion:"AMM172",comment:"Attachable to 'Bloody Star AM' only"}
+{id:194,name:"Bloody Star AM@",main:{tec:100,pwr:28,shl:15,rng:250,spd:570,itv:1200},type:"c",size:"M",cost:25,slot:0,conversion:"AMM172 AMM1013"}
+{id:1037,name:"Blood Star AM2@",type:"c",size:"M",slot:0,cost:25,main:{pwr:2,shl:360,rng:280,spd:380,itv:500},conversion:"AMM172 AMM1013"}
 {id:195,name:"Revenant Shield",main:{shl:30,rng:10,spd:10,itv:1000},type:"l",size:"M",slot:0,cost:30,conversion:"AMM173",comment:"Attachable to 'Dark Revenant AM' only"}
 {id:196,name:"Revenant Dart",main:{str:100,pwr:30,shl:30,rng:320,spd:270,itv:1000},tunable:{mwp:1},cost:60,type:"l",size:"M",conversion:"AMM173",comment:"Attachable to 'Dark Revenant AM' only"}
 {id:153,name:"Gadget Box",main:{pwr:21,shl:400,rng:230,spd:340,itv:400},tunable:{mwp:1},type:"lacs",size:"S",conversion:"AMS189",comment:"Attachable to 'Patty Lop AM7' only",cost:110}
@@ -581,7 +582,7 @@
 {id:201,name:"Lantern Gun",size:"M",main:{pwr:1,shl:300,rng:210,spd:300,itv:300},cost:10,wlk:1}
 {id:204,name:"Ignis Rod",main:{pwr:20,shl:200,rng:300,spd:320,itv:600,tec:100},sub:{pwr:5,shl:20,rng:300,spd:130,itv:1000,tec:100},type:"a",cost:120,conversion:"BDAS63AM BDAS81AM BDAS103AM",comment:"Attachable to 'Malca AM/AM3/AM5/AM7' only"}
 {id:205,name:"Brave Axe",main:{str:100,pwr:11,shl:200,rng:320,spd:330,itv:500},type:"l",size:"M",cost:40,conversion:"WPSO181",comment:"Attachable to 'Brave Arts' only",slot:0}
-{id:206,name:"Guardian Knight",sub:{pwr:50,shl:30,rng:300,spd:400,itv:500,tec:100},type:"c",size:"S",slot:0,cost:50,conversion:"BDCS85",comment:"Attachable to 'Eleanore BD' only"}
+{id:206,name:"Guardian Knight",sub:{pwr:50,shl:30,rng:370,spd:520,itv:500,tec:100},type:"c",size:"S",slot:0,cost:50,conversion:"BDCS85",comment:"Attachable to 'Eleanore BD' only"}
 {id:207,name:"Guardian Bishop",main:{pwr:5,shl:300,rng:320,spd:260,itv:600,tec:100},sub:{tec:100,pwr:10,shl:1000,rng:320,spd:320,itv:500},type:"c",size:"S",cost:150,slot:0,conversion:"BDCS85",comment:"Attachable to 'Eleanore BD' only"}
 {id:208,name:"Eisen Faust",main:{shl:10,spd:10,itv:1000},type:"l",size:"S",cost:25,slot:0,conversion:"BDLS132AM BDLS167AM",comment:"Attachable to 'Hanna Fritz AM' only"}
 {id:209,name:"Lise Flak",main:{tec:100,pwr:22,shl:80,rng:300,spd:420,itv:1300},type:"c",size:"S",cost:60,conversion:"BDCS62WP BDCS86WP",comment:"Attachable to 'Lise Launcher' only"}
@@ -634,3 +635,5 @@
 {id:1033,name:"Maid Pepen Girl BD@",conversion:"BDCS1060",type:"c",size:"M",cost:20,sub:{shl:14,rng:300,itv:1000},slot:0}
 {id:1034,name:"Pepen Twin Gun",main:{pwr:10,shl:400,rng:300,spd:220,itv:340},tunable:{mwp:1},type:"c",size:"M",cost:70,conversion:"BDCS1060AM AMS175"}
 {id:1035,name:"Pepen Girl BD@",sub:{shl:7,rng:300,itv:1000},type:"c",size:"M",cost:20,slot:0,conversion:"BDCS70"}
+{id:1036,name:"M1 Ignited",cost:40,type:"c",size:"S",main:{pwr:30,shl:60,rng:360,spd:250,itv:500},tunable:{mwp:1},conversion:"BSS1056"}
+//last:1037
