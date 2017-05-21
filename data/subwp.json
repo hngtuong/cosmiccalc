@@ -390,7 +390,7 @@
 {id:1006,name:"Gigant Arms AM@",type:"l",size:"L",sub:{str:100,pwr:30,rng:170,spd:80,itv:500},tunable:{pwp:1},cost:70,conversion:"AML160",comment:"Attachable to 'Gigant Arms AM' only"}
 {id:162,name:"Gigant Arms LG@",type:"l",size:"L",sub:{pwr:20,shl:30,rng:230,spd:80,itv:500},cost:50,conversion:"LGL115",comment:"Attachable to 'Gigant Arms LG' only"}
 {id:1007,name:"Milky Way BS@",size:"M",sub:{pwr:1,shl:10,spd:150,itv:1000},cost:25,slot:0,conversion:"BSM147",comment:"Attachable to 'Milky Way BS' only"}
-{id:1009,name:"Meteora BS2@",size:"S",type:"a",sub:{shl:15,rng:100,spd:150,itv:2000},cost:35,slot:0,conversion:"BSS1056",comment:"Attachable to 'Meteora BS2' only"}
+{id:1009,name:"Meteora BS2@",size:"S",type:"a",sub:{shl:15,rng:100,spd:150,itv:2000},cost:35,slot:0,conversion:"BSS189",comment:"Attachable to 'Meteora BS2' only"}
 {id:1011,name:"Multi-missile Pack",sub:{tec:100,pwr:4,shl:320,rng:350,spd:320,itv:500},type:"c",size:"S",cost:60,conversion:"BDCM46WP",comment:"Attachable to 'Toybox Girl BD5@' only"}
 {id:1017,name:"Brave Arts",joint:{wp:3},type:"l",size:"M",conversion:"AMM177",comment:"Attachable to 'Sovlancer AM' only",slot:0}
 {id:1020,name:"Drag Drill Arm",conversion:"BSM2118",joint:{wp:1},type:"l",size:"M",slot:0}

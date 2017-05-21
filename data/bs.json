@@ -214,7 +214,7 @@
 {id:1052,name:"Kaltos Wing",joint:{wp:1},type:"a",cost:40,hp:20,str:1,tec:1,wlk:2,fly:2,tgh:-1,conversion:"BDAS60 BDAS73 BDAS90",comment:["Attachable to 'Litia BD/BD2/BD3' only","Weapon slot for 'Kaltos Wing@'"]}
 {id:1053,name:"Aries Wing",joint:{wp:1},type:"a",cost:40,hp:20,str:1,tec:1,wlk:2,fly:2,tgh:-1,conversion:"BDAS60 BDAS73 BDAS90",comment:"Attachable to 'Litia BD/BD2/BD3' only"}
 {id:1055,name:"P. Mona BS",sub:{pwr:10,shl:30,rng:100,spd:570,itv:1000},type:"c",cost:55,hp:20,str:1,tec:1,wlk:-1,fly:2,tgh:2}
-
+{id:1056,name:"T40 Tactical Arms",type:"c",cost:190,hp:25,tec:3,fly:2,tgh:1,joint:{wp:1,bs:1},main:{pwr:12,shl:600,rng:340,spd:340,itv:300},tunable:{mwp:1},sub:{tec:100,pwr:2,shl:30,rng:320,spd:260,itv:500},conversion:"BDCS1061"}
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Fizalivan BS",type:"l",cost:15,hp:15,fly:1,tgh:1}
@@ -429,7 +429,8 @@
 {id:2115,name:"CAPTAIN X BS2",type:"l",cost:35,hp:20,str:2,wlk:-1,fly:2,tgh:1}
 {id:2116,name:"Reversunder BS",type:"c",sub:{pwr:8,shl:400,rng:350,spd:320,itv:500},cost:115,hp:30,str:-1,tec:2,wlk:2,fly:2}
 {id:2117,name:"Antique Book BS",type:"lacs",cost:30,hp:15,tec:1,wlk:1,fly:2}
-{id:2118,name:"Ciel BS",type:"l",cost:40,hp:20,str:1,wlk:1,fly:2,tgh:1,joint:{wp:2},conversion:"BDLM58",comment:"Attachable to Ciel BD"}
+{id:2118,name:"Ciel BS",type:"l",cost:40,hp:20,str:1,wlk:1,fly:2,tgh:1,joint:{wp:2},conversion:"BDLM58 BDLM59",comment:"Attachable to Ciel BD"}
+//last:2118
 
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
