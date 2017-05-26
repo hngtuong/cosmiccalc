@@ -210,11 +210,12 @@
 {id:198,name:"Anna BS",main:{pwr:10,shl:300,rng:260,spd:320,itv:640},tunable:{mwp:1},joint:{wp:2},fixedParts:{wp:[{name:"Repair Announce",sub:{shl:[5,7,10],rng:100,spd:150,itv:10000},cost:60,comment:"200 HP restore",slot:0},{name:"Support Announce",sub:{shl:[5,7,10],rng:100,spd:150,itv:10000},slot:0,cost:60,comment:"Hyper Shot, Shell Supply, Crimson Veil, Gladiator, Speed Up"}]},cost:95,hp:25,str:1,wlk:-1,fly:3,tgh:2}
 {id:199,name:"Rosette/Liseria BS",type:"l",size:"S",cost:40,hp:25,str:1,tec:1,fly:3}
 {id:200,name:"Hilti BS",type:"s",size:"S",cost:35,hp:25,tec:1,wlk:-1,fly:3,tgh:2}
-
 {id:1052,name:"Kaltos Wing",joint:{wp:1},type:"a",cost:40,hp:20,str:1,tec:1,wlk:2,fly:2,tgh:-1,conversion:"BDAS60 BDAS73 BDAS90",comment:["Attachable to 'Litia BD/BD2/BD3' only","Weapon slot for 'Kaltos Wing@'"]}
 {id:1053,name:"Aries Wing",joint:{wp:1},type:"a",cost:40,hp:20,str:1,tec:1,wlk:2,fly:2,tgh:-1,conversion:"BDAS60 BDAS73 BDAS90",comment:"Attachable to 'Litia BD/BD2/BD3' only"}
 {id:1055,name:"P. Mona BS",sub:{pwr:10,shl:30,rng:100,spd:570,itv:1000},type:"c",cost:55,hp:20,str:1,tec:1,wlk:-1,fly:2,tgh:2}
 {id:1056,name:"T40 Tactical Arms",type:"c",cost:190,hp:25,tec:3,fly:2,tgh:1,joint:{wp:1,bs:1},main:{pwr:12,shl:600,rng:340,spd:340,itv:300},tunable:{mwp:1},sub:{tec:100,pwr:2,shl:30,rng:320,spd:260,itv:500},conversion:"BDCS1061"}
+{id:1057,name:"Feuille BS",type:"c",cost:35,hp:20,tec:1,wlk:-1,fly:3,tgh:2}
+//last:1058
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Fizalivan BS",type:"l",cost:15,hp:15,fly:1,tgh:1}
