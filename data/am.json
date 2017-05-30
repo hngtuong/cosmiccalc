@@ -210,14 +210,11 @@
 {id:194,name:"A. Miral AM",size:"S",cost:30,hp:15,tec:1,fly:1,wlk:1,tgh:2}
 // {id:195,name:"F・リュールAM",type:"lacs",size:"S",cost:40,hp:20,tec:2,fly:3,wlk:-1,tgh:1}
 {id:196,name:"Oboromaru AM2",type:"a",joint:{am:1},fixedParts:{am:{name:"Oboromaru AM2@",sub:{pwr:13,shl:10,rng:220,spd:280,itv:440,str:100},joint:{wp:0},slot:0}},cost:75,hp:20,str:1,fly:2,tgh:1}
-
 {id:1003,name:"Lumiera AM3",cost:40,hp:25,str:1,tec:3,sub:{shl:3,itv:500},fly:1,type:"c"}
-//183
 {id:1004,name:"Lumiera AM4",tunable:{mwp:1},cost:40,hp:25,str:1,tec:3,fly:1,main:{spd:10,shl:50,itv:700},type:"c"}
-//111
 {id:1006,name:"Oboromaru AM",type:"a",joint:{am:1},fixedParts:{am:{name:"Oboromaru AM@",main:{pwr:14,shl:200,rng:220,spd:280,itv:500},joint:{wp:0},slot:0}},cost:75,hp:20,str:-1,tec:2,fly:2,tgh:2}
 {id:1008,name:"P. Mona AM",cost:35,hp:20,str:1,tec:-1,wlk:2,fly:2,tgh:1}
-
+//last:1008
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:21,name:"Victory AM",cost:20,hp:15,str:1,fly:1}
@@ -415,7 +412,6 @@
 {id:188,name:"Reversunder AM",cost:35,hp:20,str:2,tec:-1,wlk:3,tgh:1}
 {id:189,name:"Axion AM2",type:"l",tunable:{pwp:1},sub:{pwr:25,rng:70,spd:85,itv:500},cost:75,hp:20,str:3,tec:-1,wlk:2,tgh:1}
 {id:191,name:"Axion AM",type:"l",tunable:{mwp:1},main:{pwr:16,shl:350,rng:250,spd:360,itv:300},cost:105,hp:20,str:-1,tec:3,wlk:2,tgh:1}
-
 {id:1002,name:"Mediger AM3",size:"M",cost:35,hp:20,tec:1,wlk:2,tgh:1,fixedParts:{wp:{name:"Liber",sub:{shl:3,rng:45,spd:65,itv:15000},cost:70,slot:0}}}
 //{id:154,name:"ビクトリーAM",type:"lacs",size:"M",cost:20,hp:15,str:1,fly:1}
 {id:1003,name:"Windlynx AM",cost:35,hp:20,tec:1,wlk:1,fly:1,tgh:2}
@@ -457,7 +453,6 @@
 {id:58,name:"Cyclotes AM2",cost:40,hp:20,str:2,tec:1,wlk:3,fly:-1}
 {id:163,name:"Cyclotes AM3",cost:55,hp:20,str:2,tec:1,wlk:1,fly:2,tgh:-1}
 {id:2110,name:"Cyclotes AM4",sub:{str:100,pwr:34,rng:80,spd:85,itv:500},tunable:{pwp:1},joint:{wp:0},cost:190,hp:30,str:4,wlk:1,fly:-1,tgh:1}
-// {id:26,name:"Cyclotes AM4"}
 {id:5,name:"Centaur X AM",cost:45,hp:30,str:1,tec:1,wlk:1,tgh:2}
 {id:6,name:"Cosmo Kaiser AM",cost:45,hp:35,str:3,tec:1,tgh:1}
 {id:8,name:"Shaden AM",cost:45,hp:35,tec:2,wlk:1,fly:1,tgh:1}
@@ -500,7 +495,6 @@
 {id:11,name:"Toybox AM",type:"c",cost:125,hp:40,tec:3,tgh:2,main:{pwr:16,shl:250,rng:320,spd:260,itv:900},tunable:{mwp:1},joint:{wp:0}}
 {id:12,name:"Toybox AM2",type:"c",cost:80,hp:35,tec:2,tgh:3,main:{pwr:9,shl:200,rng:250,spd:245,itv:380},tunable:{mwp:1}}
 {id:70,name:"Felchas AM",sub:{pwr:25,rng:50,spd:70,itv:1500,str:100},tunable:{pwp:1},cost:130,hp:20,str:3,tec:1,fly:-1,tgh:2}
-// Felchas AM	type:l		WTF??
 {id:21,name:"Lancerlot AM",type:"l",cost:135,hp:30,str:3,tec:1,wlk:1,sub:{str:100,pwr:26,shl:100,rng:51,spd:118,itv:1200},main:{pwr:11,shl:160,rng:290,spd:380,itv:180},tunable:{pwp:1,mwp:1},joint:{wp:0}}
 {id:22,name:"Lancerlot AM2",type:"l",cost:85,hp:40,tec:2,wlk:2,fly:1,sub:{str:100,rng:100,spd:50,itv:500},tunable:{pwp:1},joint:{wp:0}}
 {id:23,name:"Lancerlot AM3",type:"l",cost:120,hp:30,str:3,tgh:2,sub:{str:100,pwr:32,rng:32,spd:63,itv:1100},tunable:{pwp:1},joint:{wp:0}}
@@ -598,13 +592,12 @@
 {id:160,name:"Gigant Arms AM",joint:{wp:2},cost:35,hp:20,wlk:3,fly:1,tgh:1}
 {id:161,name:"Persecius AM3",main:{tec:100,pwr:35,shl:100,rng:330,spd:350,itv:1500},tunable:{mwp:1},joint:{wp:0},type:"a",cost:170,hp:15,tec:2,fly:2}
 {id:165,name:"Buff Devastator AM2",main:{pwr:12,shl:220,rng:260,spd:340,itv:540},tunable:{mwp:1},type:"s",cost:105,hp:20,tec:1,tgh:1}
-{id:2109,name:"Katto Baldo AM",type:"l",cost:40,hp:25,str:2,tec:1,fly:-1,tgh:3,conversion:"BDLL55",comment:"Attachable to 'Katto Baldo BD' only"}
+{id:2109,name:"Katto Baldo AM",type:"l",cost:40,hp:25,str:2,tec:1,fly:-1,tgh:3,conversion:"BDLL1001",comment:"Attachable to 'Katto Baldo BD' only"}
 {id:167,name:"Digaius AM",cost:40,hp:25,str:1,wlk:1,tgh:3}
-
 {id:2106,name:"Cordyceps AM",cost:45,hp:25,str:1,tec:1,fly:1,tgh:2}
-{id:2111,name:"Katto Baldo AM2",joint:{wp:0},main:{shl:30,spd:10,itv:1000},tunable:{mwp:1},cost:90,hp:25,str:2,wlk:1,fly:-1,tgh:4,conversion:"BDLL55",comment:"Attachable to 'Katto Baldo BD' only"}
+{id:2111,name:"Katto Baldo AM2",joint:{wp:0},main:{shl:30,spd:10,itv:1000},tunable:{mwp:1},cost:90,hp:25,str:2,wlk:1,fly:-1,tgh:4,conversion:"BDLL1001",comment:"Attachable to 'Katto Baldo BD' only"}
 {id:2112,name:"C. Barossa AM",type:"a",main:{pwr:12,shl:150,rng:340,spd:330,itv:300},tunable:{mwp:1},cost:100,hp:15,str:-1,tec:2,fly:2,tgh:1}
-
+//last:2112
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:11,name:"Brigand Baron AM",cost:50,hp:35,str:2,tgh:3}
