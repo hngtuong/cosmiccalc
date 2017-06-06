@@ -431,7 +431,8 @@
 {id:2116,name:"Reversunder BS",type:"c",sub:{pwr:8,shl:400,rng:350,spd:320,itv:500},cost:115,hp:30,str:-1,tec:2,wlk:2,fly:2}
 {id:2117,name:"Antique Book BS",type:"lacs",cost:30,hp:15,tec:1,wlk:1,fly:2}
 {id:2118,name:"Ciel BS",type:"l",cost:40,hp:20,str:1,wlk:1,fly:2,tgh:1,joint:{wp:2},conversion:"BDLM58 BDLM59",comment:"Attachable to Ciel BD"}
-//last:2118
+{id:2119,name:"Planet Wing BS",tyle:"lacs",cost:30,hp:15,str:2,fly:2}
+//last:2119
 
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}

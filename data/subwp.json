@@ -165,7 +165,7 @@
 {id:13,name:"Crystalight Shield",size:"M",cost:35,sub:{}}
 {id:14,name:"Circular Shield",sub:{rng:100,spd:50,itv:500},type:"l",size:"S",cost:55}
 {id:15,name:"Canvas Shield",size:"S",cost:40,sub:{}}
-{id:16,name:"-",slot:0}
+{id:16,name:"Vesper Shield",size:"M",cost:35}
 {id:17,name:"Blitz Shield",main:{spd:10,itv:1000,shl:30},sub:{pwr:5,rng:50,spd:100,itv:800,str:100},tunable:{mwp:1,pwp:1},type:"l",size:"S",cost:50}
 {id:18,name:"Brink Shield",size:"M",type:"c",sub:{shl:5,itv:500},cost:30}
 
