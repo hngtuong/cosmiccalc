@@ -214,7 +214,8 @@
 {id:1004,name:"Lumiera AM4",tunable:{mwp:1},cost:40,hp:25,str:1,tec:3,fly:1,main:{spd:10,shl:50,itv:700},type:"c"}
 {id:1006,name:"Oboromaru AM",type:"a",joint:{am:1},fixedParts:{am:{name:"Oboromaru AM@",main:{pwr:14,shl:200,rng:220,spd:280,itv:500},joint:{wp:0},slot:0}},cost:75,hp:20,str:-1,tec:2,fly:2,tgh:2}
 {id:1008,name:"P. Mona AM",cost:35,hp:20,str:1,tec:-1,wlk:2,fly:2,tgh:1}
-//last:1008
+{id:1009,name:"Vermelho AM",cost:35,hp:20,str:2,wlk:1,tgh:2,conversion:"BDLS184",joint:{wp:2}}
+//last:1009
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:21,name:"Victory AM",cost:20,hp:15,str:1,fly:1}
@@ -402,6 +403,7 @@
 {id:170,name:"Crys Horn AM",type:"l",main:{pwr:13,shl:290,rng:225,spd:380,itv:300},tunable:{mwp:1},cost:140,hp:20,str:1,tec:2,wlk:2}
 {id:172,name:"Bloody Star AM",type:"c",joint:{wp:2},cost:35,hp:20,tec:2,wlk:1,fly:1,tgh:1}
 {id:1013,name:"Bloody Star AM2",tyoe:"c",cost:35,hp:20,str:1,tec:2,wlk:2,joint:{wp:2}}
+{id:1014,name:"Bloody Star AM3",tyoe:"c",cost:25,hp:15,str:1,tec:2,fly:-1,tgh:2,joint:{wp:2},fixedParts:{wp:{name:"Bloody Star AM3@",cost:50,main:{pwr:10,shl:300,rng:320,spd:420,itv:200}}}}
 {id:173,name:"Dark Revenant AM",joint:{wp:3},type:"l",size:"M",cost:40,hp:25,str:2,tec:-1,wlk:2,fly:2}
 {id:176,name:"Wizamel AM",type:"a",main:{pwr:8,shl:250,rng:300,spd:330,itv:300},tunable:{mwp:1},cost:90,hp:25,tec:1,fly:2,tgh:2}
 {id:177,name:"Sovlancer AM",cost:35,hp:20,str:2,wlk:2,tgh:1}
@@ -417,7 +419,7 @@
 {id:1003,name:"Windlynx AM",cost:35,hp:20,tec:1,wlk:1,fly:1,tgh:2}
 {id:1006,name:"Shadow Kinesis AM",cost:40,hp:25,tec:1,wlk:2,fly:-1,tgh:3}
 {id:1010,name:"Brink AM",cost:35,hp:20,str:1,wlk:1,fly:1,tgh:2}
-//last:1013
+//last:1014
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:2,name:"Ettion AM",cost:25,hp:25,str:1,tec:1,tgh:1}
@@ -597,7 +599,9 @@
 {id:2106,name:"Cordyceps AM",cost:45,hp:25,str:1,tec:1,fly:1,tgh:2}
 {id:2111,name:"Katto Baldo AM2",joint:{wp:0},main:{shl:30,spd:10,itv:1000},tunable:{mwp:1},cost:90,hp:25,str:2,wlk:1,fly:-1,tgh:4,conversion:"BDLL1001",comment:"Attachable to 'Katto Baldo BD' only"}
 {id:2112,name:"C. Barossa AM",type:"a",main:{pwr:12,shl:150,rng:340,spd:330,itv:300},tunable:{mwp:1},cost:100,hp:15,str:-1,tec:2,fly:2,tgh:1}
-//last:2112
+{id:2113,name:"Hadelos AM2",type:"l",joint:{wp:0},cost:165,hp:20,str:4,tec:-1,wlk:1,tgh:1,sub:{str:100,pwr:32,rng:70,spd:85,itv:500},tunable:{pwp:1}}
+{id:2114,name:"Hadelos AM",type:"l",cost:25,hp:15,str:1,tec:-1,wlk:1,fly:1,tgh:1}
+//last:2114
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:11,name:"Brigand Baron AM",cost:50,hp:35,str:2,tgh:3}

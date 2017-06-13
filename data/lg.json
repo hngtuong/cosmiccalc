@@ -118,10 +118,11 @@
 {id:111,name:"Recipro LG",cost:35,hp:20,tec:2,wlk:2,fly:2,tgh:-1}
 {id:114,name:"A. Miral LG",size:"S",cost:25,hp:15,tec:2,wlk:2}
 {id:115,name:"Medicarest LG",cost:45,hp:20,tec:1,wlk:2,fly:-1,tgh:3}
-
 {id:1096,name:"Magnell LG",cost:40,hp:25,str:-1,wlk:2,fly:1,tgh:3}
 {id:1099,name:"Fairys LG",cost:40,hp:20,str:-1,wlk:3,fly:2,tgh:1}
 {id:1101,name:"P. Mona LG",cost:35,hp:20,tec:3,wlk:2,fly:-1,tgh:1}
+{id:1103,name:"Vermelho LG",cost:85,hp:20,str:1,wlk:3,tgh:1,sub:{str:100,pwr:32,rng:150,spd:220,itv:500},tunable:{pwp:1}}
+//last:1104
 
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
@@ -250,6 +251,7 @@
 {id:119,name:"Crys Horn LG",type:"l",sub:{pwr:4,shl:60,rng:250,spd:280,itv:2000},cost:65,hp:20,str:1,tec:1,wlk:2}
 {id:1106,name:"Wizamel LG",cost:45,hp:25,tec:1,wlk:2,fly:1,tgh:1}
 {id:120,name:"Bloody Star LG",sub:{shl:15,rng:100,spd:200,itv:600},type:"lc",cost:65,hp:25,tec:2,wlk:2,fly:1}
+{id:1112,name:"Bloody Star LG2",sub:{pwr:0,shl:10,rng:100,spd:200,itv:600},type:"lc",cost:60,hp:20,str:-1,tec:2,wlk:2,tgh:2}
 {id:122,name:"Sovlancer LG",cost:45,hp:25,str:2,wlk:2,fly:2,tgh:-1}
 {id:123,name:"Dark Revenant LG",type:"l",cost:45,hp:25,str:2,tec:-1,wlk:3,fly:1}
 {id:126,name:"Sea Turtlebacker LG",type:"a",cost:40,hp:30,str:1,tec:1,wlk:3,fly:1,tgh:-1}
@@ -262,7 +264,7 @@
 {id:1107,name:"Brink LG",type:"c",cost:30,hp:20,str:-1,tec:2,wlk:2,fly:1}
 {id:1108,name:"Hard Bomber LG",cost:45,hp:25,str:-1,wlk:3,fly:1,tgh:2}
 {id:1111,name:"Reversunder LG",sub:{shl:10,itv:500},type:"c",cost:80,hp:30,str:-1,wlk:2,fly:3,tgh:1}
-//last:1111
+//last:1112
 
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
@@ -388,6 +390,8 @@
 {id:1001,name:"Transonic LG",type:"a",cost:45,hp:25,tec:-1,wlk:2,fly:2,tgh:2}
 {id:1004,name:"Shadow Kinesis LG",cost:50,hp:25,str:2,tec:1,wlk:1,fly:-1,tgh:2}
 {id:1006,name:"C. Barossa LG",type:"a",sub:{str:100,pwr:19,rng:65,spd:95,itv:500},tunable:{pwp:1},cost:125,hp:40,str:-1,tec:2,wlk:3,tgh:1}
+{id:117,name:"Hadelos LG",type:"l",cost:40,hp:25,str:2,tec:-1,wlk:2,fly:1,tgh:1}
+//last:117
 
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
