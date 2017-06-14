@@ -45,6 +45,7 @@
 {id:39,name:"F Ruhl HD2",type:"a",main:{pwr:4,shl:500,rng:200,spd:400,itv:220},tunable:{mwp:1},cost:65,hp:10,fly:2,tgh:1}
 {id:36,name:"Tristan HD",type:"lcs",cost:45,hp:25,tec:3,tgh:2}
 {id:101,name:"Dark Revenant HD",type:"l",cost:40,hp:25,tec:-1,wlk:1,fly:2,tgh:3}
+{id:102,name:"Vermelho HD",cost:35,hp:20,str:1,tec:-1,wlk:2,fly:1,tgh:2}
 
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
@@ -406,7 +407,8 @@
 {id:1277,name:"Hard Bomber HD",cost:45,hp:25,str:1,tec:1,wlk:2,fly:-1,tgh:2}
 {id:1279,name:"Sea Turtlebacker HD",cost:30,hp:20,str:-1,tec:1,fly:2,tgh:2}
 {id:1283,name:"Reversunder HD",cost:45,hp:25,str:1,tec:2,fly:2,tgh:1}
-//last:1284
+{id:1285,name:"Hadelos HD",cost:35,hp:20,str:1,tec:1,wlk:1,fly:-1,tgh:3}
+//last:1285
 
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}

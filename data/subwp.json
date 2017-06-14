@@ -165,7 +165,7 @@
 {id:13,name:"Crystalight Shield",size:"M",cost:35,sub:{}}
 {id:14,name:"Circular Shield",sub:{rng:100,spd:50,itv:500},type:"l",size:"S",cost:55}
 {id:15,name:"Canvas Shield",size:"S",cost:40,sub:{}}
-{id:16,name:"-",slot:0}
+{id:16,name:"Vesper Shield",size:"M",cost:35}
 {id:17,name:"Blitz Shield",main:{spd:10,itv:1000,shl:30},sub:{pwr:5,rng:50,spd:100,itv:800,str:100},tunable:{mwp:1,pwp:1},type:"l",size:"S",cost:50}
 {id:18,name:"Brink Shield",size:"M",type:"c",sub:{shl:5,itv:500},cost:30}
 
@@ -401,3 +401,7 @@
 {id:1025,name:"Shovel Claw",conversion:"WPSO1024",type:"l",size:"M",cost:160,main:{str:100,pwr:30,shl:30,rng:300,spd:470,itv:500},sub:{str:100,pwr:32,shl:15,rng:70,spd:85,itv:500},tunable:{mwp:1,pwp:1}}
 {id:1026,name:"Drag Engine",conversion:"BSM2118",joint:{wp:1},type:"l",size:"M",slot:0}
 {id:1027,name:"Full Power Drive A",conversion:"WPSO1026",type:"l",size:"M",cost:40,main:{pwr:0,shl:20,rng:0,spd:10,itv:1000}}
+{id:1028,name:"Fragarach Module",conversion:"AMS1009",type:"l",size:"S",cost:105,main:{pwr:15,shl:150,rng:225,spd:420,itv:200},sub:{str:100,pwr:32,rng:70,spd:85,itv:500},tunable:{mwp:1,pwp:1}}
+{id:1029,name:"Titan Module",conversion:"AMS1009",type:"l",size:"S",cost:105,main:{str:100,pwr:30,shl:10,rng:200,spd:570,itv:500},sub:{str:100,pwr:32,rng:70,spd:85,itv:500},tunable:{mwp:1,pwp:1}}
+{id:1030,name:"Aegis Module",conversion:"AMS1009",type:"l",size:"S",cost:105,main:{pwr:5,shl:200,rng:320,spd:260,itv:600},sub:{str:100,pwr:34,rng:150,spd:150,itv:500},tunable:{mwp:1,pwp:1}}
+//last:1030

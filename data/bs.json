@@ -215,6 +215,7 @@
 {id:1055,name:"P. Mona BS",sub:{pwr:10,shl:30,rng:100,spd:570,itv:1000},type:"c",cost:55,hp:20,str:1,tec:1,wlk:-1,fly:2,tgh:2}
 {id:1056,name:"T40 Tactical Arms",type:"c",cost:190,hp:25,tec:3,fly:2,tgh:1,joint:{wp:1,bs:1},main:{pwr:12,shl:600,rng:340,spd:340,itv:300},tunable:{mwp:1},sub:{tec:100,pwr:2,shl:30,rng:320,spd:260,itv:500},conversion:"BDCS1061"}
 {id:1057,name:"Feuille BS",type:"c",cost:35,hp:20,tec:1,wlk:-1,fly:3,tgh:2}
+{id:1058,name:"Vermelho BS",type:"l",cost:35,hp:20,str:3,tec:1,fly:2,tgh:-1}
 //last:1058
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
@@ -401,6 +402,7 @@
 {id:176,name:"Rayminous BS2",main:{pwr:24,shl:15,rng:250,spd:570,itv:1300},tunable:{mwp:1},type:"c",cost:115,hp:10,tec:1,fly:1}
 // {id:177,name:"フェアリスBS",joint:{wp:1},cost:35,wlk:2,type:"a",size:"M",fly:3,hp:25}
 {id:178,name:"Bloody Star BS",type:"c",cost:35,hp:20,str:1,wlk:2,fly:2}
+{id:201,name:"Bloody Star BS2",type:"c",cost:20,hp:10,str:1,wlk:1,fly:2}
 {id:179,name:"Dark Mist BS",sub:{pwr:15,shl:10,rng:80,spd:160,itv:1200},type:"lcs",cost:65}
 {id:180,name:"Sovlancer BS",type:"l",cost:40,hp:25,str:1,tec:1,wlk:1,fly:2}
 {id:181,name:"Chronos Machina Wing ALPHA",size:"M",cost:30,wlk:2,fly:2,hp:15}
@@ -413,7 +415,7 @@
 {id:188,name:"Flareleon BS",type:"l",size:"M",cost:40,hp:20,str:3,wlk:1,fly:2,tgh:1}
 {id:189,name:"Margrethe BS",type:"l",cost:45,hp:25,tec:-1,fly:3,tgh:3}
 {id:190,name:"Axion BS",type:"l",cost:35,hp:20,tec:2,wlk:1,fly:3,tgh:-1}
-{id:2150,name:"Missile Pod BS",type:"c",cost:110,hp:20,tec:2,wlk:1,fly:2,tgh:-1,main:{pwr:10,shl:540,rng:320,spd:280,itv:400},tunable:{mwp:1}}
+{id:200,name:"Missile Pod BS",type:"c",cost:110,hp:20,tec:2,wlk:1,fly:2,tgh:-1,main:{pwr:10,shl:540,rng:320,spd:280,itv:400},tunable:{mwp:1}}
 
 //{id:299,name:"Sylvia BS",type:"l",cost:45,hp:25,str:2,tec:-1,wlk:2,fly:2}
 {id:2100,name:"Lucca Decho BS",type:"l",cost:35,hp:20,str:1,tec:1,wlk:1,fly:3,tgh:-1}
@@ -431,7 +433,9 @@
 {id:2116,name:"Reversunder BS",type:"c",sub:{pwr:8,shl:400,rng:350,spd:320,itv:500},cost:115,hp:30,str:-1,tec:2,wlk:2,fly:2}
 {id:2117,name:"Antique Book BS",type:"lacs",cost:30,hp:15,tec:1,wlk:1,fly:2}
 {id:2118,name:"Ciel BS",type:"l",cost:40,hp:20,str:1,wlk:1,fly:2,tgh:1,joint:{wp:2},conversion:"BDLM58 BDLM59",comment:"Attachable to Ciel BD"}
-//last:2118
+{id:2119,name:"Planet Wing BS",tyle:"lacs",cost:30,hp:15,str:2,fly:2}
+{id:2120,name:"Hadelos BS",type:"l",cost:130,hp:30,str:2,tec:-1,fly:3,tgh:1,main:{pwr:6,shl:400,rng:230,spd:400,itv:140},tunable:{mwp:1}}
+//last:2120
 
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}

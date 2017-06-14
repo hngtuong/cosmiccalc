@@ -636,4 +636,8 @@
 {id:1034,name:"Pepen Twin Gun",main:{pwr:10,shl:400,rng:300,spd:220,itv:340},tunable:{mwp:1},type:"c",size:"M",cost:70,conversion:"BDCS1060AM AMS175"}
 {id:1035,name:"Pepen Girl BD@",sub:{shl:7,rng:300,itv:1000},type:"c",size:"M",cost:20,slot:0,conversion:"BDCS70"}
 {id:1036,name:"M1 Ignited",cost:40,type:"c",size:"S",main:{pwr:30,shl:60,rng:360,spd:250,itv:500},tunable:{mwp:1},conversion:"BSS1056"}
-//last:1037
+{id:1038,name:"Missile Shotgun",cost:110,type:"lc",size:"M",main:{pwr:5,shl:120,rng:280,spd:320,itv:600},tunable:{mwp:1}}
+{id:1039,name:"Charge Delay Bazooka",cost:60,wlk:-1,fly:-1,type:"s",size:"M",main:{pwr:16,shl:210,rng:170,spd:365,itv:600},tunable:{mwp:1}}
+{id:1040,name:"Smart Beam Gun Mod",main:{pwr:6,tec:100,shl:90,rng:320,spd:280,itv:640},cost:110,type:"a",size:"M"}
+{id:1041,name:"Micromissilegun Mod",cost:80,type:"lc",size:"SS",main:{pwr:8,shl:140,rng:320,spd:260,itv:1000},tunable:{mwp:1}}
+//last:1041
