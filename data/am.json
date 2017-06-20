@@ -403,7 +403,7 @@
 {id:170,name:"Crys Horn AM",type:"l",main:{pwr:13,shl:290,rng:225,spd:380,itv:300},tunable:{mwp:1},cost:140,hp:20,str:1,tec:2,wlk:2}
 {id:172,name:"Bloody Star AM",type:"c",joint:{wp:2},cost:35,hp:20,tec:2,wlk:1,fly:1,tgh:1}
 {id:1013,name:"Bloody Star AM2",tyoe:"c",cost:35,hp:20,str:1,tec:2,wlk:2,joint:{wp:2}}
-{id:1014,name:"Bloody Star AM3",tyoe:"c",cost:25,hp:15,str:1,tec:2,fly:-1,tgh:2,joint:{wp:2},fixedParts:{wp:{name:"Bloody Star AM3@",cost:50,main:{pwr:10,shl:300,rng:320,spd:420,itv:200}}}}
+{id:1014,name:"Bloody Star AM3",tyoe:"c",cost:25,hp:15,str:1,tec:2,fly:-1,tgh:2,joint:{wp:2},fixedParts:{wp:{name:"Bloody Star AM3@",cost:50,slot:0,main:{pwr:10,shl:300,rng:320,spd:420,itv:200}}}}
 {id:173,name:"Dark Revenant AM",joint:{wp:3},type:"l",size:"M",cost:40,hp:25,str:2,tec:-1,wlk:2,fly:2}
 {id:176,name:"Wizamel AM",type:"a",main:{pwr:8,shl:250,rng:300,spd:330,itv:300},tunable:{mwp:1},cost:90,hp:25,tec:1,fly:2,tgh:2}
 {id:177,name:"Sovlancer AM",cost:35,hp:20,str:2,wlk:2,tgh:1}
