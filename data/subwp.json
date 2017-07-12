@@ -165,10 +165,10 @@
 {id:13,name:"Crystalight Shield",size:"M",cost:35,sub:{}}
 {id:14,name:"Circular Shield",sub:{rng:100,spd:50,itv:500},type:"l",size:"S",cost:55}
 {id:15,name:"Canvas Shield",size:"S",cost:40,sub:{}}
-{id:16,name:"Vesper Shield",size:"M",cost:35}
+{id:16,name:"-",slot:0}
 {id:17,name:"Blitz Shield",main:{spd:10,itv:1000,shl:30},sub:{pwr:5,rng:50,spd:100,itv:800,str:100},tunable:{mwp:1,pwp:1},type:"l",size:"S",cost:50}
 {id:18,name:"Brink Shield",size:"M",type:"c",sub:{shl:5,itv:500},cost:30}
-
+{id:19,name:"Vesper Shield",size:"M",cost:35}
 
 {group:"Others",prefixID:"SO"}
 {id:1,name:"Cheer Pom-pon",size:"M",cost:10,wlk:1,sub:{str:100,pwr:1,rng:51,spd:80,itv:400},tunable:{pwp:1}}
@@ -321,7 +321,7 @@
 {id:130,name:"Chivalry Sword",sub:{pwr:30,rng:70,spd:80,itv:900,str:100},tunable:{pwp:1},type:"l",size:"M",cost:90,conversion:"BDLS138AM7",comment:"Attachable to 'Sylvia AM7' only"}
 {id:131,name:"Gale Attachment Beta",sub:{str:100,pwr:15,shl:15,rng:120,spd:220,itv:500},size:"M",type:"lcs",cost:25,slot:0,conversion:"BSM146",comment:"Attachable to 'Vampire Gale BS Beta' only"}
 {id:1087,name:"Ice Attachment Beta",sub:{str:100,pwr:15,shl:10,rng:100,spd:10,itv:500},size:"M",type:"lcs",cost:25,slot:0,conversion:"BSM2103",comment:"Attachable to 'Iceraid BS Beta' only"}
-{id:132,name:"Voltic Power",type:"l",size:"S",cost:220,slot:0,sub:{itv:500},tunable:{pwp:0},conversion:"BDLS139",comment:"Attachable to 'Kuhl BD' only"}
+{id:132,name:"Voltic Power",type:"l",size:"S",cost:220,slot:0,sub:{itv:500},tunable:{pwp:0},conversion:"BDLS139 BDLS185",comment:"Attachable to 'Kuhl BD' only"}
 {id:134,name:"Maple Leaf Step",sub:{pwr:1,shl:5,rng:10,spd:180,itv:500},size:"M",cost:35,slot:0,conversion:"BSM148 BSM165",comment:"Attachable to 'Autumn Cape BS/Autumn Leaf BS' only"}
 {id:135,name:"Safety Lever",sub:{rng:10,spd:10,itv:500},slot:0,cost:200,conversion:"BDLS140",comment:"Attachable to 'Nora Schneid BD' only"}
 {id:136,name:"Dancing Time",type:"l",size:"S",cost:200,sub:{pwr:32,rng:70,spd:85,itv:500,str:100},tunable:{pwp:1},conversion:"BDLS142",comment:"Attachable to 'Prome BD' only"}
