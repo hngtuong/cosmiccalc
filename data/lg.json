@@ -384,14 +384,14 @@
 {id:112,name:"Gigant Arms LG",type:"l",joint:{wp:1},cost:55,hp:35,str:2,tec:-1,wlk:3,tgh:2}
 {id:113,name:"Katto Baldo LG",type:"l",sub:{str:100,pwr:22,rng:150,spd:350,itv:500},tunable:{pwp:1},cost:90,hp:30,str:2,tec:1,wlk:2,fly:-1,tgh:1}
 {id:114,name:"Digaius LG",cost:50,hp:70,str:1,wlk:2,tgh:2}
-
 {id:109,name:"Falx LG",cost:45,hp:50,tec:-1,wlk:2,fly:1,tgh:3}
 {id:1000,name:"Crystas LG",sub:{tec:100,pwr:5,shl:360,rng:270,spd:290,itv:1500},type:"a",cost:60,hp:25,str:-1,tec:1,wlk:2,fly:2,tgh:1}
 {id:1001,name:"Transonic LG",type:"a",cost:45,hp:25,tec:-1,wlk:2,fly:2,tgh:2}
 {id:1004,name:"Shadow Kinesis LG",cost:50,hp:25,str:2,tec:1,wlk:1,fly:-1,tgh:2}
 {id:1006,name:"C. Barossa LG",type:"a",sub:{str:100,pwr:19,rng:65,spd:95,itv:500},tunable:{pwp:1},cost:125,hp:40,str:-1,tec:2,wlk:3,tgh:1}
 {id:117,name:"Hadelos LG",type:"l",cost:40,hp:25,str:2,tec:-1,wlk:2,fly:1,tgh:1}
-//last:117
+{id:118,name:"Aresis LG",type:"l",cost:85,hp:70,str:2,tec:-1,wlk:3,fly:1,tgh:1,sub:{rng:110,spd:200,itv:500}}
+//last:118
 
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}

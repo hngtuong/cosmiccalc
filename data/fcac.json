@@ -245,3 +245,6 @@
 {id:293,name:"Maid Headdress",hp:5,wlk:1,capa:5}
 {id:294,name:"Hilti Comms",hp:5,wlk:1,capa:5}
 {id:295,name:"Clingy Pepen",tec:1,wlk:1}
+{id:296,name:"Lebruck Snorkel",tec:1,tgh:1}
+{id:297,name:"Raindrop Earrings",hp:5,fly:1,capa:5}
+{id:298,name:"Fluffy Earmuffs",str:1,wlk:1}
