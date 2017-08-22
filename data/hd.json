@@ -408,7 +408,8 @@
 {id:1279,name:"Sea Turtlebacker HD",cost:30,hp:20,str:-1,tec:1,fly:2,tgh:2}
 {id:1283,name:"Reversunder HD",cost:45,hp:25,str:1,tec:2,fly:2,tgh:1}
 {id:1285,name:"Hadelos HD",cost:35,hp:20,str:1,tec:1,wlk:1,fly:-1,tgh:3}
-//last:1285
+{id:1286,name:"Aresis HD",cost:45,hp:25,str:2,wlk:1,fly:-1,tgh:3}
+//last:1286
 
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}

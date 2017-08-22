@@ -150,9 +150,9 @@
 {id:149,name:"Aqua Splasher",main:{tec:100,pwr:30,shl:200,rng:300,spd:300,itv:800},tunable:{mwp:1},type:"l",size:"S",cost:65,conversion:"BDLS40AM BDLS40AM2 BDLS55AM BDLS55AM5 BDLS85AM3 BDLS85AM4 BDLS91AM6 BDLS118AM8 BDLS118AM7 BDLS126AM9 BDLS126AM7 BDLS156AM10",comment:"Attachable to 'Ion AM|2/3/4/5/6/7/8/9/10' only"}
 {id:150,name:"Water Flower Hy",main:{tec:100,pwr:6,shl:900,rng:200,spd:360,itv:200},sub:{tec:100,pwr:35,shl:50,rng:150,spd:400,itv:3000},tunable:{mwp:1},type:"l",size:"S",cost:100,conversion:"BDLS91 BDLS118 BDLS126 BDLS156",comment:"Attachable to 'Ion BD6/7/8/9/10/11' only"}
 {id:151,name:"Driver Cannon",main:{tec:100,pwr:13,shl:420,rng:330,spd:220,itv:340},tunable:{mwp:1,pwp:0},size:"M",type:"c",cost:100,conversion:"BDCS79",comment:"Attachable to 'Asphe BD' only"}
-{id:152,name:"Denden Cam Pro",main:{tec:100,pwr:15,shl:360,rng:320,spd:330,itv:300},tunable:{mwp:1},type:"a",size:"S",cost:90,conversion:"BDAS98",comment:"Attachable to 'Minaria BD' only"}
-{id:153,name:"Weather Umbrella",sub:{tec:100,pwr:13,shl:40,rng:10,spd:320,itv:500},joint:{wp:1},cost:45,slot:0,conversion:"BDAS98AM",comment:"Attachable to 'Minaria AM2' only"}
-{id:154,name:"Weather Umbrella@",main:{tec:100,pwr:35,shl:30,rng:320,spd:400,itv:1000},sub:{tec:100,shl:15,rng:10,spd:110,itv:500},type:"a",size:"S",slot:0,cost:125,conversion:"WPCM154",comment:"Attachable to 'Weather Umbrella' only"}
+{id:152,name:"Denden Cam Pro",main:{tec:100,pwr:15,shl:360,rng:320,spd:330,itv:300},tunable:{mwp:1},type:"a",size:"S",cost:90,conversion:"BDAS98 BDAS1082",comment:"Attachable to 'Minaria BD' only"}
+{id:153,name:"Weather Umbrella",sub:{tec:100,pwr:13,shl:40,rng:10,spd:320,itv:500},joint:{wp:1},cost:45,slot:0,conversion:"BDAS98AM BDAS1082AM",comment:"Attachable to 'Minaria AM2' only"}
+{id:154,name:"Weather Umbrella@",main:{tec:100,pwr:35,shl:30,rng:320,spd:400,itv:1000},sub:{tec:100,shl:15,rng:10,spd:110,itv:500},type:"a",size:"S",slot:0,cost:125,conversion:"WPCM153 WPCM207",comment:"Attachable to 'Weather Umbrella' only"}
 {id:155,name:"Dragon Talon",main:{pwr:16,shl:270,rng:250,spd:320,itv:500,str:100},type:"l",size:"S",tunable:{mwp:1},cost:130,conversion:"BDLS157AM",comment:"Attachable to 'Kuten Jikun Long AM7' only"}
 {id:156,name:"Fire Breath",main:{pwr:36,shl:30,rng:320,spd:400,itv:300},type:"c",size:"S",conversion:"BDCS80WP",comment:"Attachable to 'Gii-kun' only",cost:60,slot:0}
 {id:157,name:"Donner Musket",joint:{wp:1},fixedParts:{wp:{name:"Donner Musket@",main:{pwr:32,shl:40,rng:360,spd:400,itv:500},slot:0}},type:"a",size:"S",conversion:"BDAS99AM",comment:"Attachable to 'Nebel AM' only",cost:60}
@@ -170,8 +170,8 @@
 {id:169,name:"Mega Rook Cannon",main:{pwr:35,shl:30,rng:400,spd:330,itv:500},type:"a",size:"S",cost:70,slot:0,conversion:"BDAS102",comment:"Attachable to 'Henrierre BD' only"}
 {id:170,name:"Ignis Rod",main:{pwr:20,shl:200,rng:300,spd:320,itv:600,tec:100},sub:{pwr:5,shl:20,rng:300,spd:130,itv:1000,tec:100},type:"a",cost:120,conversion:"BDAS63AM BDAS81AM BDAS103AM",comment:"Attachable to 'Malca AM/AM3/AM5/AM7' only"}
 {id:171,name:"Brave Axe",main:{str:100,pwr:11,shl:200,rng:320,spd:330,itv:500},type:"l",size:"M",cost:40,conversion:"WPCS26",comment:"Attachable to 'Brave Arts' only",slot:0}
-{id:172,name:"Guardian Knight",sub:{pwr:50,shl:30,rng:370,spd:520,itv:500,tec:100},type:"c",size:"S",slot:0,cost:50,conversion:"BDCS85",comment:"Attachable to 'Eleanore BD' only"}
-{id:173,name:"Guardian Bishop",main:{pwr:5,shl:300,rng:320,spd:260,itv:600,tec:100},sub:{tec:100,pwr:10,shl:1000,rng:320,spd:320,itv:500},type:"c",size:"S",cost:150,slot:0,conversion:"BDCS85",comment:"Attachable to 'Eleanore BD' only"}
+{id:172,name:"Guardian Knight",sub:{pwr:50,shl:30,rng:370,spd:520,itv:500,tec:100},type:"c",size:"S",slot:0,cost:50,conversion:"BDCS85 BDCS1063",comment:"Attachable to 'Eleanore BD' only"}
+{id:173,name:"Guardian Bishop",main:{pwr:5,shl:300,rng:320,spd:260,itv:600,tec:100},sub:{tec:100,pwr:10,shl:1000,rng:320,spd:320,itv:500},type:"c",size:"S",cost:150,slot:0,conversion:"BDCS85 BDCS1063",comment:"Attachable to 'Eleanore BD' only"}
 {id:174,name:"Eisen Faust",main:{shl:10,spd:10,itv:1000},type:"l",size:"S",cost:25,slot:0,conversion:"BDLS132AM BDLS167AM",comment:"Attachable to 'Hanna Fritz AM' only"}
 {id:175,name:"Lise Flak",main:{tec:100,pwr:22,shl:80,rng:300,spd:420,itv:1300},type:"c",size:"S",cost:60,conversion:"BDCS62WP BDCS86WP",comment:"Attachable to 'Lise Launcher' only"}
 {id:176,name:"Polaris",main:{tec:100,pwr:10,shl:30,rng:220,spd:280,itv:500},type:"l",size:"S",cost:40,conversion:"BDLS168WP",comment:"Attachable to 'Mercurio BD@' only",slot:0}
@@ -205,6 +205,9 @@
 {id:204,name:"Pepen Girl BD@",sub:{shl:7,rng:300,itv:1000},type:"c",size:"M",cost:20,slot:0,conversion:"BDCS70"}
 {id:205,name:"M1 Ignited",cost:40,type:"c",size:"S",main:{pwr:30,shl:60,rng:360,spd:250,itv:500},tunable:{mwp:1},conversion:"BSS1056"}
 {id:206,name:"D.N.G. Cannon",main:{pwr:25,shl:200,rng:340,spd:230,itv:800},type:"c",cost:70,conversion:"AMS120",comment:"Attachable to 'Anko AM2' only",size:"S"}
+{id:207,name:"Summer Parasol",type:"a",cost:45,slot:0,joint:{wp:1},sub:{pwr:25,shl:40,rng:10,spd:320,itv:500},conversion:"BDAS98AM BDAS1082AM"}
+{id:208,name:"Summer Parasol@",type:"a",cost:135,main:{pwr:3,shl:480,rng:320,spd:330,itv:300},sub:{tec:100,shl:15,rng:10,spd:110,itv:500},conversion:"WPCM153 WPCM207"}
+{id:209,name:"Denden Cam Pro II",type:"a",cost:80,main:{pwr:27,shl:50,rng:320,spd:330,itv:300},conversion:"BDAS98 BDAS1082"}
 
 {group:"Conversion-SWP",prefixID:"CS",commonStat:{tunable:{pwp:1}}}
 {id:1,name:"General Blade",main:{pwr:22,shl:30,rng:285,spd:325,itv:1000},sub:{str:100,pwr:28,rng:80,spd:70,itv:500},tunable:{mwp:1},size:"L",type:"l",cost:120,conversion:"AML1138",comment:"Attachable to 'Generaldo AM2' only"}
@@ -344,3 +347,5 @@
 {id:135,name:"Fragarach Module",conversion:"AMS1009",type:"l",size:"S",cost:105,main:{pwr:15,shl:150,rng:225,spd:420,itv:200},sub:{str:100,pwr:32,rng:70,spd:85,itv:500},tunable:{mwp:1,pwp:1}}
 {id:136,name:"Titan Module",conversion:"AMS1009",type:"l",size:"S",cost:105,main:{str:100,pwr:30,shl:10,rng:200,spd:570,itv:500},sub:{str:100,pwr:32,rng:70,spd:85,itv:500},tunable:{mwp:1,pwp:1}}
 {id:137,name:"Aegis Module",conversion:"AMS1009",type:"l",size:"S",cost:105,main:{pwr:5,shl:200,rng:320,spd:260,itv:600},sub:{str:100,pwr:34,rng:150,spd:150,itv:500},tunable:{mwp:1,pwp:1}}
+{id:138,name:"Fluffy Cape",type:"l",size:"S",cost:70,slot:0,joint:{wp:1},main:{str:100,pwr:20,shl:50,rng:300,spd:320,itv:1000},conversion:"BDLS187"}
+{id:139,name:"Snow Bear",type:"l",size:"S",cost:120,main:{str:100,pwr:15,shl:50,rng:200,spd:320,itv:500},tunable:{mwp:1},sub:{str:100,pwr:32,rng:70,spd:85,itv:500},conversion:"WPCS138"}

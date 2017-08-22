@@ -601,7 +601,9 @@
 {id:2112,name:"C. Barossa AM",type:"a",main:{pwr:12,shl:150,rng:340,spd:330,itv:300},tunable:{mwp:1},cost:100,hp:15,str:-1,tec:2,fly:2,tgh:1}
 {id:2113,name:"Hadelos AM2",type:"l",joint:{wp:0},cost:165,hp:20,str:4,tec:-1,wlk:1,tgh:1,sub:{str:100,pwr:32,rng:70,spd:85,itv:500},tunable:{pwp:1}}
 {id:2114,name:"Hadelos AM",type:"l",cost:25,hp:15,str:1,tec:-1,wlk:1,fly:1,tgh:1}
-//last:2114
+{id:2115,name:"Aresis AM",type:"l",cost:45,hp:25,str:3,tec:1,fly:-1,tgh:2}
+{id:2116,name:"Aresis AM2",type:"l",cost:40,hp:25,str:2,tec:1,fly:-1,tgh:3,joint:{wp:2},fixedParts:{wp:{name:"Aresis Shield",cost:20,slot:0,main:{shl:15,spd:10,itv:700}}}}
+//last:2116
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:11,name:"Brigand Baron AM",cost:50,hp:35,str:2,tgh:3}

@@ -265,4 +265,5 @@
 {id:71,name:"Zero Knight Calibur",sub:{pwr:26,rng:70,spd:70,itv:1000},tunable:{pwp:1},type:"a",size:"M",cost:120}
 {id:72,name:"Rain Shooter",type:"s",size:"M",sub:{tec:100,pwr:13,shl:40,rng:250,spd:500,itv:5000},cost:100}
 {id:73,name:"Dead Recall R",sub:{pwr:5,shl:30,rng:250,spd:100,itv:4000},size:"M",type:"s",cost:100,tec:1}
+{id:74,name:"Aresis Sword",size:"L",type:"l",cost:160,main:{str:100,pwr:20,shl:30,rng:305,spd:325,itv:1000},sub:{str:100,pwr:32,rng:70,spd:70,itv:500},tunable:{mwp:1,pwp:1}}
 //last:73

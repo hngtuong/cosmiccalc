@@ -431,4 +431,6 @@
 {id:1039,name:"Charge Delay Bazooka",cost:60,wlk:-1,fly:-1,type:"s",size:"M",main:{pwr:16,shl:210,rng:170,spd:365,itv:600},tunable:{mwp:1}}
 {id:1040,name:"Smart Beam Gun Mod",main:{pwr:6,tec:100,shl:90,rng:320,spd:280,itv:640},cost:110,type:"a",size:"M"}
 {id:1041,name:"Micromissilegun Mod",cost:80,type:"lc",size:"SS",main:{pwr:8,shl:140,rng:320,spd:260,itv:1000},tunable:{mwp:1}}
-//last:1041
+{id:1042,name:"Sunflower Magnegun",cost:120,size:"M",main:{pwr:14,shl:230,rng:330,spd:220,itv:800}}
+{id:1043,name:"Twin Blast Magnegun Mod",cost:100,size:"M",type:"c",main:{pwr:11,shl:250,rng:300,spd:220,itv:340}}
+//last:1043

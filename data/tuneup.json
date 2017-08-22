@@ -1,4 +1,55 @@
-﻿{group:"Strength",prefixID:"P",commonStat:{target:"cpt"}}
+﻿{group:"Force",prefixID:"F",commonStat:{target:"mwp"}}
+{id:1,name:"Force",cost:10,effect:{pwr:3},material:"7*1|23*4",comment:["40%","Force+3%"]}
+{id:2,name:"High Force Alpha",cost:20,effect:{pwr:6,rng:-7},material:"8*1|23*5|11*10",comment:["55%","Force+6%、Range-7%"]}
+{id:3,name:"High Force Beta",cost:20,effect:{pwr:6,shl:-7},material:"8*1|23*5|12*10",comment:["55%","Force+6%、Ammo-7%"]}
+{id:4,name:"Great Force Alpha",cost:30,effect:{pwr:9,rng:-10},material:"9*1|23*9|11*20|31*15",comment:["60%","Force+9%、Range-10%"]}
+{id:5,name:"Great Force Beta",cost:30,effect:{pwr:9,shl:-10},material:"9*1|23*9|12*20|32*15",comment:["60%","Force+9%、Ammo-10%"]}
+
+{group:"Range",prefixID:"LC",commonStat:{target:"mwp"}}
+{id:1,name:"Range",cost:5,effect:{rng:5},material:"7*1|24*4",comment:["40%","Range+5%"]}
+{id:2,name:"High Range Alpha",cost:10,effect:{shl:-7,rng:10},material:"8*1|24*5|15*10",comment:["55%","Range+10%、Ammo-7%"]}
+{id:3,name:"Great Range Alpha",cost:20,effect:{shl:-10,rng:15},material:"9*1|24*9|15*20|32*15",comment:["60%","Range+15%、Ammo-10%"]}
+
+{group:"Speed",prefixID:"RP",commonStat:{target:"mwp"}}
+{id:1,name:"Rapid",cost:5,effect:{spd:5},material:"7*1|25*5",comment:["40%","Speed+5%"]}
+{id:2,name:"High Rapid Alpha",cost:10,effect:{rng:-7,spd:10},material:"8*1|25*9|13*10",comment:["55%","Speed+10%、Range-7%"]}
+{id:3,name:"High Rapid Beta",cost:10,effect:{shl:-7,spd:10},material:"8*1|25*9|14*10",comment:["55%","Speed+10%、Ammo-7%"]}
+{id:4,name:"Great Rapid Alpha",cost:20,effect:{rng:-10,spd:15},material:"9*1|25*17|13*20|29*15",comment:["60%","Speed+15%、Range-10%"]}
+{id:5,name:"Great Rapid Beta",cost:20,effect:{shl:-10,spd:15},material:"9*1|25*17|14*20|29*15",comment:["60%","Speed+15%、Ammo-10%"]}
+
+{group:"Ammo",prefixID:"SL",commonStat:{target:"mwp"}}
+{id:1,name:"Supply",cost:5,effect:{shl:5},material:"7*1|26*4",comment:["40%","Ammo+5%"]}
+{id:2,name:"High Supply",cost:15,effect:{shl:10},material:"8*1|26*9|31*11",comment:["45%","Ammo+10%"]}
+{id:3,name:"Great Supply",cost:30,effect:{shl:15},material:"9*1|26*13|31*15|32*15",comment:["50%","Ammo+15%"]}
+
+{group:"Complex",prefixID:"MC",commonStat:{target:"mwp"}}
+{id:1,name:"Air Force",cost:20,effect:{shl:5,spd:5},material:"9*1|25*21|26*13|16*3",comment:["50%","Ammo+5%、Speed+5%"]}
+{id:2,name:"High Air Force",cost:45,effect:{shl:10,spd:10},material:"10*1|25*33|26*21|29*23|16*11",comment:["55%","Ammo+10%、Speed+10%"]}
+{id:3,name:"Shooter",cost:20,effect:{rng:5,spd:5},material:"9*1|25*21|24*13|16*3",comment:["50%","Range+5%、Speed+5%"]}
+{id:4,name:"High Shooter",cost:45,effect:{rng:10,spd:10},material:"10*1|25*33|24*21|32*23|16*11",comment:["55%","Range+10%、Speed+10%"]}
+
+{group:"Main Weapon Special Effects",prefixID:"MS",commonStat:{target:"mwp"}}
+{id:1,name:"Paralyze",cost:50,material:"10*1|27*33|21*33|15*55",comment:["55%","Stunning probability is doubled"]}
+{id:2,name:"Breaker",cost:25,material:"10*1|35*35|36*33|37*19|38*19",comment:["55%","Chance of destroying parts increased by 25%"]}
+{id:3,name:"ExW Dash Restrict",cost:30,hp:15,material:"7*1|42*20|16*15|45*15",comment:["55%","5% chance to Dash & Air Dash Restrict","Reinforce G Drive cartridge required"]}
+{id:4,name:"ExW Bullet Speed Down",cost:30,hp:15,material:"8*1|42*20|16*15|45*15",comment:["55%","5% chance to Bullet Speed Down","Reinforce G Drive cartridge required"]}
+
+{group:"Sub Weapon Performance",prefixID:"PP",commonStat:{target:"pwp"}}
+{id:1,name:"Grappler",cost:10,effect:{pwr:3},material:"7*1|23*4",comment:["40%","Force+3%"]}
+{id:2,name:"High Grappler Alpha",cost:20,effect:{pwr:6,spd:-7},material:"8*1|23*5|13*9",comment:["55%","Force+6%、Speed-7%"]}
+{id:3,name:"Great Grappler Alpha",cost:30,effect:{pwr:9,spd:-10},material:"9*1|23*9|13*20|30*15",comment:["60%","Force+9%、Speed-10%"]}
+{id:4,name:"Gladiator",cost:20,effect:{rng:5,spd:5},material:"9*1|24*13|25*15|16*3",comment:["50%","Range+5%、Speed+5%"]}
+{id:5,name:"High Gladiator",cost:45,effect:{rng:10,spd:10},material:"10*1|24*17|25*23|31*23|16*11",comment:["55%","Range+10%、Speed+10%"]}
+
+{group:"Sub Weapon Special Effects",prefixID:"PS",commonStat:{target:"pwp"}}
+{id:1,name:"Burning",cost:30,material:"10*1|29*33|23*27|16*19",comment:["55%","5% chance to Burn"]}
+{id:2,name:"Slow",cost:30,material:"10*1|30*33|25*27|16*19",comment:["55%","5% chance to Slow"]}
+{id:3,name:"Disorder",cost:30,material:"10*1|31*33|28*15|16*19",comment:["55%","5% chance to lower accuracy"]}
+{id:4,name:"Drain",cost:30,material:"10*1|32*33|27*15|16*19",comment:["55%","5% chance to Shell Drain"]}
+{id:5,name:"EX Melt",cost:30,hp:15,material:"10*1|47*20|16*15|41*15",comment:["55%","Reinforce S Drive cartridge required","5% chance to Melt"]}
+{id:6,name:"EX Powerless BETA",cost:30,hp:15,material:"10*1|47*20|16*15|45*15",comment:["55%","Reinforce S Drive cartridge required","5% chance to Powerless BETA"]}
+
+{group:"Strength",prefixID:"P",commonStat:{target:"cpt"}}
 {id:1,name:"Power",cost:5,str:1,material:"1*1|17*5",comment:"100%"}
 {id:2,name:"Power Alpha",cost:5,str:1,tec:-1,material:"1*1|17*1|12*2",comment:"100%"}
 {id:3,name:"High Power",cost:15,str:2,material:"2*1|17*13|27*11",comment:"45%"}
@@ -150,59 +201,7 @@
 {group:"Revenge",prefixID:"RV",commonStat:{target:"cpt lg"}}
 {id:1,name:"Crimson Veil",cost:30,hp:10,material:"40*1|16*10|12*10|14*10|33*50|22*50",comment:["50%","Handy Cosmos Version"]}
 {id:2,name:"Crimson Veil",cost:30,hp:10,material:"1*50|2*20|3*10|4*5|16*10|37*20|38*20|12*10|14*10|33*50|22*50",comment:"50%"}
-
 {id:3,name:"Hypershot",cost:30,hp:10,material:"40*1|16*10|12*10|14*10|19*50|20*50",comment:["50%","Handy Cosmos Version"]}
 {id:4,name:"Hypershot",cost:30,hp:10,material:"1*50|2*20|3*10|4*5|16*10|37*20|38*20|12*10|14*10|19*50|20*50",comment:"50%"}
-
 {id:5,name:"Clearance",cost:20,hp:10,material:"40*1|16*10|12*10|14*10|25*50|34*50",comment:["50%","Handy Cosmos Version"]}
 {id:6,name:"Clearance",cost:20,hp:10,material:"1*50|2*20|3*10|4*5|16*10|37*20|38*20|12*10|14*10|25*50|34*50",comment:"50%"}
-
-
-{group:"Force",prefixID:"F",commonStat:{target:"mwp"}}
-{id:1,name:"Force",cost:10,effect:{pwr:3},material:"7*1|23*4",comment:["40%","Force+3%"]}
-{id:2,name:"High Force Alpha",cost:20,effect:{pwr:6,rng:-7},material:"8*1|23*5|11*10",comment:["55%","Force+6%、Range-7%"]}
-{id:3,name:"High Force Beta",cost:20,effect:{pwr:6,shl:-7},material:"8*1|23*5|12*10",comment:["55%","Force+6%、Ammo-7%"]}
-{id:4,name:"Great Force Alpha",cost:30,effect:{pwr:9,rng:-10},material:"9*1|23*9|11*20|31*15",comment:["60%","Force+9%、Range-10%"]}
-{id:5,name:"Great Force Beta",cost:30,effect:{pwr:9,shl:-10},material:"9*1|23*9|12*20|32*15",comment:["60%","Force+9%、Ammo-10%"]}
-
-{group:"Range",prefixID:"LC",commonStat:{target:"mwp"}}
-{id:1,name:"Range",cost:5,effect:{rng:5},material:"7*1|24*4",comment:["40%","Range+5%"]}
-{id:2,name:"High Range Alpha",cost:10,effect:{shl:-7,rng:10},material:"8*1|24*5|15*10",comment:["55%","Range+10%、Ammo-7%"]}
-{id:3,name:"Great Range Alpha",cost:20,effect:{shl:-10,rng:15},material:"9*1|24*9|15*20|32*15",comment:["60%","Range+15%、Ammo-10%"]}
-
-{group:"Speed",prefixID:"RP",commonStat:{target:"mwp"}}
-{id:1,name:"Rapid",cost:5,effect:{spd:5},material:"7*1|25*5",comment:["40%","Speed+5%"]}
-{id:2,name:"High Rapid Alpha",cost:10,effect:{rng:-7,spd:10},material:"8*1|25*9|13*10",comment:["55%","Speed+10%、Range-7%"]}
-{id:3,name:"High Rapid Beta",cost:10,effect:{shl:-7,spd:10},material:"8*1|25*9|14*10",comment:["55%","Speed+10%、Ammo-7%"]}
-{id:4,name:"Great Rapid Alpha",cost:20,effect:{rng:-10,spd:15},material:"9*1|25*17|13*20|29*15",comment:["60%","Speed+15%、Range-10%"]}
-{id:5,name:"Great Rapid Beta",cost:20,effect:{shl:-10,spd:15},material:"9*1|25*17|14*20|29*15",comment:["60%","Speed+15%、Ammo-10%"]}
-
-{group:"Ammo",prefixID:"SL",commonStat:{target:"mwp"}}
-{id:1,name:"Supply",cost:5,effect:{shl:5},material:"7*1|26*4",comment:["40%","Ammo+5%"]}
-{id:2,name:"High Supply",cost:15,effect:{shl:10},material:"8*1|26*9|31*11",comment:["45%","Ammo+10%"]}
-{id:3,name:"Great Supply",cost:30,effect:{shl:15},material:"9*1|26*13|31*15|32*15",comment:["50%","Ammo+15%"]}
-
-{group:"Complex",prefixID:"MC",commonStat:{target:"mwp"}}
-{id:1,name:"Air Force",cost:20,effect:{shl:5,spd:5},material:"9*1|25*21|26*13|16*3",comment:["50%","Ammo+5%、Speed+5%"]}
-{id:2,name:"High Air Force",cost:45,effect:{shl:10,spd:10},material:"10*1|25*33|26*21|29*23|16*11",comment:["55%","Ammo+10%、Speed+10%"]}
-{id:3,name:"Shooter",cost:20,effect:{rng:5,spd:5},material:"9*1|25*21|24*13|16*3",comment:["50%","Range+5%、Speed+5%"]}
-{id:4,name:"High Shooter",cost:45,effect:{rng:10,spd:10},material:"10*1|25*33|24*21|32*23|16*11",comment:["55%","Range+10%、Speed+10%"]}
-
-{group:"Main Weapon Special Effects",prefixID:"MS",commonStat:{target:"mwp"}}
-{id:1,name:"Paralyze",cost:50,material:"10*1|27*33|21*33|15*55",comment:["55%","Stunning probability is doubled"]}
-{id:2,name:"Breaker",cost:25,material:"10*1|35*35|36*33|37*19|38*19",comment:["55%","Chance of destroying parts increased by 25%"]}
-
-{group:"Sub Weapon Performance",prefixID:"PP",commonStat:{target:"pwp"}}
-{id:1,name:"Grappler",cost:10,effect:{pwr:3},material:"7*1|23*4",comment:["40%","Force+3%"]}
-{id:2,name:"High Grappler Alpha",cost:20,effect:{pwr:6,spd:-7},material:"8*1|23*5|13*9",comment:["55%","Force+6%、Speed-7%"]}
-{id:3,name:"Great Grappler Alpha",cost:30,effect:{pwr:9,spd:-10},material:"9*1|23*9|13*20|30*15",comment:["60%","Force+9%、Speed-10%"]}
-{id:4,name:"Gladiator",cost:20,effect:{rng:5,spd:5},material:"9*1|24*13|25*15|16*3",comment:["50%","Range+5%、Speed+5%"]}
-{id:5,name:"High Gladiator",cost:45,effect:{rng:10,spd:10},material:"10*1|24*17|25*23|31*23|16*11",comment:["55%","Range+10%、Speed+10%"]}
-
-{group:"Sub Weapon Special Effects",prefixID:"PS",commonStat:{target:"pwp"}}
-{id:1,name:"Burning",cost:30,material:"10*1|29*33|23*27|16*19",comment:["55%","5% chance to Burn"]}
-{id:2,name:"Slow",cost:30,material:"10*1|30*33|25*27|16*19",comment:["55%","5% chance to Slow"]}
-{id:3,name:"Disorder",cost:30,material:"10*1|31*33|28*15|16*19",comment:["55%","5% chance to lower accuracy"]}
-{id:4,name:"Drain",cost:30,material:"10*1|32*33|27*15|16*19",comment:["55%","5% chance to Shell Drain"]}
-{id:5,name:"EX Melt",cost:30,hp:15,material:"10*1|47*20|16*15|41*15",comment:["55%","Reinforce S Drive cartridge required","5% chance to Melt"]}
-{id:6,name:"EX Powerless BETA",cost:30,hp:15,material:"10*1|47*20|16*15|45*15",comment:["55%","Reinforce S Drive cartridge required","5% chance to Powerless BETA"]}
