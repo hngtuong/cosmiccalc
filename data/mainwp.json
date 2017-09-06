@@ -1,4 +1,11 @@
-﻿{group:"Handguns",prefixID:"HG",commonStat:{tunable:{mwp:1}}}
+﻿{group:"Statstick",prefixID:"SK"}
+{id:1,name:"+1 STR",size:"M",cost:10,str:1}
+{id:2,name:"+1 TEC",size:"M",cost:10,tec:1}
+{id:3,name:"+1 WLK",size:"M",cost:10,wlk:1}
+{id:4,name:"+1 FLY",size:"M",cost:10,fly:1}
+{id:5,name:"+1 TGH",size:"M",cost:10,tgh:1}
+
+{group:"Handguns",prefixID:"HG",commonStat:{tunable:{mwp:1}}}
 {id:1,name:"Single Gun",type:"lcs",size:"M",cost:35,tec:-1,main:{pwr:10,shl:250,rng:260,spd:450,itv:400}}
 {id:2,name:"Accelerated Gun",type:"lcs",size:"M",cost:85,tec:-1,main:{pwr:16,shl:280,rng:250,spd:480,itv:480}}
 {id:3,name:"Accelerated Gun Mod",type:"lcs",size:"M",cost:85,tec:-1,main:{pwr:18,shl:250,rng:250,spd:480,itv:480}}
