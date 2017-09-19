@@ -211,7 +211,7 @@
 {id:210,name:"Fin Musket II",cost:90,type:"c",size:"S",main:{pwr:17,shl:300,rng:350,spd:220,itv:300},conversion:"BDCS81AM BDCS1064AM"}
 {id:211,name:"Fin Cannon BU",cost:90,type:"c",size:"S",slot:0,main:{pwr:10,shl:160,rng:320,spd:480,itv:400},sub:{pwr:0,shl:30,rng:150,spd:100,itv:500},conversion:"BDCS81 BDCS1064",comment:"Attachable to 'Colleti BD' only"}
 {id:212,name:"Fin Cannon PS",cost:120,type:"c",size:"S",slot:0,main:{pwr:6,shl:400,rng:300,spd:220,itv:340},sub:{pwr:5,shl:240,rng:320,spd:260,itv:600},conversion:"BDCS81 BDCS1064",comment:"Attachable to 'Colleti BD' only"}
-{id:213,name:"Liozen AM@",cost:50,slot:0,main:{pwr:15,shl:12,rng:130,spd:570,itv:1000},conversion:"AML2119"}
+{id:213,name:"Liozen AM@",cost:50,slot:0,main:{str:100,pwr:15,shl:12,rng:130,spd:570,itv:1000},conversion:"AML2119"}
 
 
 {group:"Conversion-SWP",prefixID:"CS",commonStat:{tunable:{pwp:1}}}
