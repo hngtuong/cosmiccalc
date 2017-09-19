@@ -122,6 +122,7 @@
 {id:1099,name:"Fairys LG",cost:40,hp:20,str:-1,wlk:3,fly:2,tgh:1}
 {id:1101,name:"P. Mona LG",cost:35,hp:20,tec:3,wlk:2,fly:-1,tgh:1}
 {id:1103,name:"Vermelho LG",cost:85,hp:20,str:1,wlk:3,tgh:1,sub:{str:100,pwr:32,rng:150,spd:220,itv:500},tunable:{pwp:1}}
+{id:1104,name:"M.Arch LG",type:"a",cost:80,hp:20,str:-1,tec:2,wlk:2,fly:1,sub:{pwr:12,shl:60,rng:330,spd:320,itv:200}}
 //last:1104
 
 
@@ -392,7 +393,9 @@
 {id:117,name:"Hadelos LG",type:"l",cost:40,hp:25,str:2,tec:-1,wlk:2,fly:1,tgh:1}
 {id:118,name:"Aresis LG",type:"l",cost:85,hp:70,str:2,tec:-1,wlk:3,fly:1,tgh:1,sub:{rng:110,spd:200,itv:500}}
 {id:119,name:"Crugis LG",type:"a",sub:{pwr:1,shl:15,rng:150,spd:150,itv:1000},cost:65,hp:70,str:-1,wlk:1,fly:3,tgh:2,joint:{bs:1}}
-//last:119
+{id:120,name:"Cordyceps LG2",type:"c",cost:65,hp:25,str:1,tec:2,wlk:3,fly:-1,sub:{shl:10,rng:100,spd:200,itv:600}}
+{id:121,name:"Liozen LG",type:"l",cost:110,hp:75,str:3,tec:-1,wlk:2,tgh:2,sub:{pwr:32,rng:150,spd:200,itv:500},tunable:{pwp:1}}
+//last:121
 
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
