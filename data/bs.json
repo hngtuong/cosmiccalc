@@ -217,7 +217,9 @@
 {id:1057,name:"Feuille BS",type:"c",cost:35,hp:20,tec:1,wlk:-1,fly:3,tgh:2}
 {id:1058,name:"Vermelho BS",type:"l",cost:35,hp:20,str:3,tec:1,fly:2,tgh:-1}
 {id:1059,name:"Odette BS",type:"a",cost:45,hp:30,str:-1,tec:2,wlk:1,fly:3}
-//last:1059
+{id:1060,name:"Saber Elisalotte BS2",type:"a",cost:40,hp:20,str:3,tec:1,wlk:-1,fly:2}
+{id:1061,name:"M.Arch BS",type:"a",cost:25,hp:15,str:1,tec:1,fly:2}
+//last:1061
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Fizalivan BS",type:"l",cost:15,hp:15,fly:1,tgh:1}
@@ -547,7 +549,10 @@
 //{id:31,name:"Herianzus BS",type:"s",cost:90,hp:25,str:-1,tec:3,fly:3,main:{pwr:10,shl:800,rng:165,spd:380,itv:100},tunable:{mwp:1}}
 {id:1091,name:"C. Barossa BS",type:"a",sub:{shl:15,rng:90,spd:150,itv:500},cost:80,hp:30,tec:1,wlk:-1,fly:3,tgh:2}
 {id:100,name:"Aresis BS",type:"l",cost:45,hp:25,str:2,wlk:-1,fly:3,tgh:1}
-//last:100
+{id:101,name:"Crugis BS",type:"a",cost:25,hp:15,tec:1,fly:2,tgh:1}
+{id:102,name:"Cordyceps BS2",type:"c",main:{pwr:4,shl:500,rng:320,spd:280,itv:740},tunable:{mwp:1},cost:90,hp:15,tec:2,wlk:-1,fly:2,tgh:1}
+{id:103,name:"Liozen BS",type:"l",cost:45,hp:25,str:2,tec:-1,fly:3,tgh:1}
+//last:103
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:1,name:"Shaden BS",type:"a",cost:150,hp:5,fly:1,sub:{pwr:1,shl:1,rng:200,spd:110,itv:2000}}
