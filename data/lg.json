@@ -391,7 +391,8 @@
 {id:1006,name:"C. Barossa LG",type:"a",sub:{str:100,pwr:19,rng:65,spd:95,itv:500},tunable:{pwp:1},cost:125,hp:40,str:-1,tec:2,wlk:3,tgh:1}
 {id:117,name:"Hadelos LG",type:"l",cost:40,hp:25,str:2,tec:-1,wlk:2,fly:1,tgh:1}
 {id:118,name:"Aresis LG",type:"l",cost:85,hp:70,str:2,tec:-1,wlk:3,fly:1,tgh:1,sub:{rng:110,spd:200,itv:500}}
-//last:118
+{id:119,name:"Crugis LG",type:"a",sub:{pwr:1,shl:15,rng:150,spd:150,itv:1000},cost:65,hp:70,str:-1,wlk:1,fly:3,tgh:2,joint:{bs:1}}
+//last:119
 
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
