@@ -160,7 +160,7 @@
 {id:180,name:"Swift BS2",sub:{pwr:9,shl:60,rng:300,spd:320,itv:400},type:"a",cost:95,hp:20,tec:2,fly:2}
 {id:126,name:"Blue Wing",joint:{wp:1},cost:40,hp:20,str:1,tec:1,wlk:2,fly:1,type:"a",conversion:"BDAS60 BDAS73 BDAS90",comment:"Attachable to 'Litia BD/BD2/BD3' only"}
 {id:128,name:"Recipro BS",main:{pwr:12,shl:330,rng:300,spd:220,itv:900},tunable:{mwp:1},type:"a",cost:70,hp:10,tec:1,wlk:1,fly:2,tgh:-1}
-{id:129,name:"Stella BS",cost:35,hp:20,tec:3,wlk:1,fly:2,tgh:-1}
+{id:129,name:"Stella BS",type:"a",cost:35,hp:20,tec:3,wlk:1,fly:2,tgh:-1}
 {id:130,name:"Berzelius Girl BS",type:"c",cost:35,hp:20,tec:1,wlk:1,fly:3}
 {id:131,name:"Lios BS2",type:"l",cost:35,hp:25,str:1,wlk:2,fly:3,tgh:-1}
 //{id:133,name:"Elcott BSJ2",joint:{bs:1,wp:1},type:"l",size:"S",slot:1,comment:"Attachable to 'Elcott BD/BD2' only",fixedParts:[]}
