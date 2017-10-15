@@ -13,7 +13,7 @@
 ### Getting Started
 If you are familiar with Git and GitHub, you may skip this section.
 
-Make sure [you have git installed](https://help.github.com/articles/set-up-git/).
+Make sure [you have Git installed](https://help.github.com/articles/set-up-git/).
 
 Note that there is a user-friendly GUI client [GitHub Desktop](https://help.github.com/desktop/guides/getting-started-with-github-desktop/) as well if you don't want to use the command line.
 
@@ -86,3 +86,9 @@ git push origin master
 ```
 
 Your forked repository is now in sync with your local clone.
+
+### Submitting Changes
+
+[Create a pull request](https://github.com/blead/cosmiccalc/compare). Click **compare across fork** and choose your fork as the **head** fork. We are merging commits from the **head** fork to the **base** fork.
+
+In your pull request, briefly explain what you did. We will review your changes, possibly edit/request an edit, and finally merge your changes into the main repository.
