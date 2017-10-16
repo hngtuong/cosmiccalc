@@ -7,6 +7,48 @@
 
 ## General Information
 
+### Directory Structure
+```
+.
+├── cosmicalc.css
+├── data
+│   ├── am.json
+│   ├── bd.json
+│   ├── bs.json
+│   ├── cartridge.json
+│   ├── cwp.json
+│   ├── defaultwb.json
+│   ├── fcac.json
+│   ├── fixed.json
+│   ├── hdac.json
+│   ├── hd.json
+│   ├── lg.json
+│   ├── mainwp.json
+│   ├── material.json
+│   ├── subwp.json
+│   ├── tuneup.json
+│   └── wb.json
+├── img
+│   ├── favicon.ico
+│   ├── frame
+│   │   ├── LM.gif
+│   │   ├── RM.gif
+│   │   └── Thumbs.db
+│   ├── loading.gif
+│   ├── s1.png
+│   └── Thumbs.db
+├── index.html
+├── js
+│   ├── cosmicalc.js
+│   └── jquery.min.js
+└── varies.html
+```
+
+- [`cosmicalc.css`](cosmicalc.css) is the stylesheet of the application
+- [`data/`](data) contains all in-game data used for simulation
+- [`img/`](img) contains all images used
+- [`index.html`](index.html) is the entry point of the application
+- [`js/`](js) contains the logic behind the application
 
 ## How to contribute
 
