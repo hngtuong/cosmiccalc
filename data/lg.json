@@ -123,7 +123,8 @@
 {id:1101,name:"P. Mona LG",cost:35,hp:20,tec:3,wlk:2,fly:-1,tgh:1}
 {id:1103,name:"Vermelho LG",cost:85,hp:20,str:1,wlk:3,tgh:1,sub:{str:100,pwr:32,rng:150,spd:220,itv:500},tunable:{pwp:1}}
 {id:1104,name:"M.Arch LG",type:"a",cost:80,hp:20,str:-1,tec:2,wlk:2,fly:1,sub:{pwr:12,shl:60,rng:330,spd:320,itv:200}}
-//last:1104
+{id:1105,name:"Cyan LG",type:"c",cost:60,hp:20,tec:2,wlk:3,sub:{pwr:0,shl:30,rng:100,spd:150,itv:2000}}
+//last:1105
 
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}

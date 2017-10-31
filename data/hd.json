@@ -47,7 +47,8 @@
 {id:101,name:"Dark Revenant HD",type:"l",cost:40,hp:25,tec:-1,wlk:1,fly:2,tgh:3}
 {id:102,name:"Vermelho HD",cost:35,hp:20,str:1,tec:-1,wlk:2,fly:1,tgh:2}
 {id:103,name:"M.Arch HD",cost:25,hp:20,str:-1,tec:1,wlk:1,fly:1,tgh:1}
-
+{id:104,name:"Cyan HD",cost:35,hp:20,str:1,tec:1,wlk:2,fly:-1,tgh:2}
+//last:104
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Steel Rider HD",cost:15,hp:5,str:1,wlk:1,tgh:1}
@@ -412,7 +413,9 @@
 {id:1286,name:"Aresis HD",cost:45,hp:25,str:2,wlk:1,fly:-1,tgh:3}
 {id:1287,name:"Crugis HD",cost:30,hp:15,str:-1,tec:2,wlk:1,tgh:3}
 {id:1288,name:"Liozen HD",cost:45,hp:25,str:3,tec:-1,wlk:1,tgh:2}
-//last:1288
+{id:1289,name:"Buff Devastator HD2",cost:35,hp:20,wlk:2,fly:1,tgh:2}
+{id:1290,name:"Crystas HD2",cost:40,hp:25,tec:1,fly:2,tgh:2}
+//last:1290
 
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
