@@ -8,7 +8,7 @@
 {id:7,name:"Gradd Scissors",main:{str:100,pwr:[15,16,17],shl:[40,50,60],rng:305,spd:325,itv:1000},sub:{str:100,pwr:32,rng:[70,80,90],spd:[85,90,95],itv:500},conversion:"BDLS90AM BDLS127AM",comment:"Attachable to 'Kururu AM/AM2' only",type:"l",size:"S",cost:60,slot:0}
 {id:8,name:"Olktwaffe",main:{pwr:[30,32,34],shl:[100,120,150],rng:350,spd:700,itv:1000},type:"c",size:"S",slot:0,cost:150,joint:{wp:1},fixedParts:{wp:{name:"Magne ESP Sight",sub:{itv:1000},slot:0}},conversion:"BDCS36AM BDCS47AM3",comment:["Attachable to 'Rinka Lynx AM2/AM3' only","Garapon version"]}
 {id:9,name:"Olktwaffe BETA",main:{pwr:[20,22,24],shl:[100,120,150],rng:350,spd:700,itv:1000},type:"c",size:"S",slot:0,cost:120,joint:{wp:1},fixedParts:{wp:{name:"Magne ESP Sight",sub:{itv:1000},slot:0}},conversion:"BDCS36AM BDCS47AM3",comment:["Attachable to 'Rinka Lynx AM2/AM3' only","Shop version"]}
-{id:10,name:"Klangewaffe",main:{pwr:30,shl:40,rng:600,spd:300,itv:1500},cost:140,slot:0,type:"c",joint:{wp:1},fixedParts:{wp:{name:"Magne ESP Sight",sub:{itv:1000},slot:0}},conversion:"BDCS36AM BDCS47AM3",comment:["Attachable to 'Rinka Lynx AM2/AM3' only","EIW data needed"]}
+{id:10,name:"Klangewaffe",main:{pwr:[30,32,34],shl:40,rng:350,spd:300,itv:1500},cost:140,slot:0,type:"c",joint:{wp:1},fixedParts:{wp:{name:"Magne ESP Sight",sub:{itv:1000},slot:0}},conversion:"BDCS36AM BDCS47AM3",comment:"Attachable to 'Rinka Lynx AM2/AM3' only"}
 {id:11,name:"Schutzwaffe",main:{pwr:[24,26,28],shl:[90,130,170],rng:600,spd:700,itv:1000},cost:140,slot:0,type:"c",joint:{wp:1},fixedParts:{wp:{name:"Magne ESP Sight",sub:{itv:1000},slot:0}},conversion:"BDCS36AM BDCS47AM3",comment:"Attachable to 'Rinka Lynx AM2/AM3' only"}
 {id:12,name:"Water Flower",main:{pwr:[15,18,21],shl:[200,280,360],rng:300,spd:[300,315,330],itv:800},sub:{shl:[1,3,5],rng:60,spd:60,itv:2000},type:"l",cost:70,slot:0,size:"S",conversion:"BDLS91 BDLS118 BDLS126 BDLS156",comment:"Attachable to 'Ion BD6/BD7/BD8/BD8#2/BD9/BD11' only"}
 {id:13,name:"Water Flower Ps",main:{pwr:[10,11,13],shl:[400,500,600],rng:260,spd:340,itv:340},sub:{shl:[1,3,5],rng:60,spd:60,itv:2000},type:"l",cost:70,slot:0,size:"S",conversion:"BDLS91 BDLS118 BDLS126 BDLS156",comment:"Attachable to 'Ion BD6/BD7/BD8/BD8#2/BD9/BD11' only"}
@@ -212,7 +212,11 @@
 {id:211,name:"Fin Cannon BU",cost:90,type:"c",size:"S",slot:0,main:{pwr:10,shl:160,rng:320,spd:480,itv:400},sub:{pwr:0,shl:30,rng:150,spd:100,itv:500},conversion:"BDCS81 BDCS1064",comment:"Attachable to 'Colleti BD' only"}
 {id:212,name:"Fin Cannon PS",cost:120,type:"c",size:"S",slot:0,main:{pwr:6,shl:400,rng:300,spd:220,itv:340},sub:{pwr:5,shl:240,rng:320,spd:260,itv:600},conversion:"BDCS81 BDCS1064",comment:"Attachable to 'Colleti BD' only"}
 {id:213,name:"Liozen AM@",cost:50,slot:0,main:{str:100,pwr:15,shl:12,rng:130,spd:570,itv:1000},conversion:"AML2119"}
-
+{id:214,name:"Serieux Key Alpha",cost:150,main:{pwr:9,shl:480,rng:350,spd:330,itv:300},sub:{pwr:15,shl:15,rng:350,spd:280,itv:500},conversion:"BDCS1065AM"}
+{id:215,name:"Prometheus Module",cost:105,type:"c",main:{pwr:18,shl:125,rng:320,spd:380,itv:500},sub:{pwr:35,rng:110,spd:300,itv:1000},tunable:{pwp:1},conversion:"AMS1009 AMS1011"}
+{id:216,name:"Broniac Module",cost:105,type:"c",main:{pwr:26,shl:60,rng:350,spd:500,itv:500},sub:{pwr:15,shl:50,rng:250,spd:120,itv:500},conversion:"AMS1009 AMS1011"}
+{id:217,name:"Trident Module",cost:65,type:"c",joint:{wp:1},main:{pwr:6,shl:450,rng:330,spd:280,itv:740},sub:{pwr:1,shl:240,rng:20,spd:280,itv:600},conversion:"AMS1009 AMS1011"}
+{id:218,name:"Trident Module@",cost:45,slot:0,main:{pwr:21,shl:140,rng:290,spd:260,itv:800},conversion:"WPCM217"}
 
 {group:"Conversion-SWP",prefixID:"CS",commonStat:{tunable:{pwp:1}}}
 {id:1,name:"General Blade",main:{pwr:22,shl:30,rng:285,spd:325,itv:1000},sub:{str:100,pwr:28,rng:80,spd:70,itv:500},tunable:{mwp:1},size:"L",type:"l",cost:120,conversion:"AML1138",comment:"Attachable to 'Generaldo AM2' only"}
@@ -349,8 +353,8 @@
 {id:132,name:"Shovel Claw",conversion:"WPCS131",type:"l",size:"M",cost:160,main:{str:100,pwr:30,shl:30,rng:300,spd:470,itv:500},sub:{str:100,pwr:32,shl:15,rng:70,spd:85,itv:500},tunable:{mwp:1,pwp:1}}
 {id:133,name:"Drag Engine",conversion:"BSM2118",joint:{wp:1},type:"l",size:"M",slot:0}
 {id:134,name:"Full Power Drive A",conversion:"WPCS133",type:"l",size:"M",cost:40,main:{pwr:0,shl:20,rng:0,spd:10,itv:1000}}
-{id:135,name:"Fragarach Module",conversion:"AMS1009",type:"l",size:"S",cost:105,main:{pwr:15,shl:150,rng:225,spd:420,itv:200},sub:{str:100,pwr:32,rng:70,spd:85,itv:500},tunable:{mwp:1,pwp:1}}
-{id:136,name:"Titan Module",conversion:"AMS1009",type:"l",size:"S",cost:105,main:{str:100,pwr:30,shl:10,rng:200,spd:570,itv:500},sub:{str:100,pwr:32,rng:70,spd:85,itv:500},tunable:{mwp:1,pwp:1}}
-{id:137,name:"Aegis Module",conversion:"AMS1009",type:"l",size:"S",cost:105,main:{pwr:5,shl:200,rng:320,spd:260,itv:600},sub:{str:100,pwr:34,rng:150,spd:150,itv:500},tunable:{mwp:1,pwp:1}}
+{id:135,name:"Fragarach Module",conversion:"AMS1009 AMS1011",type:"l",size:"S",cost:105,main:{pwr:15,shl:150,rng:225,spd:420,itv:200},sub:{str:100,pwr:32,rng:70,spd:85,itv:500},tunable:{mwp:1,pwp:1}}
+{id:136,name:"Titan Module",conversion:"AMS1009 AMS1011",type:"l",size:"S",cost:105,main:{str:100,pwr:30,shl:10,rng:200,spd:570,itv:500},sub:{str:100,pwr:32,rng:70,spd:85,itv:500},tunable:{mwp:1,pwp:1}}
+{id:137,name:"Aegis Module",conversion:"AMS1009 AMS1011",type:"l",size:"S",cost:105,main:{pwr:5,shl:200,rng:320,spd:260,itv:600},sub:{str:100,pwr:34,rng:150,spd:150,itv:500},tunable:{mwp:1,pwp:1}}
 {id:138,name:"Fluffy Cape",type:"l",size:"S",cost:70,slot:0,joint:{wp:1},main:{str:100,pwr:20,shl:50,rng:300,spd:320,itv:1000},conversion:"BDLS187"}
 {id:139,name:"Snow Bear",type:"l",size:"S",cost:120,main:{str:100,pwr:15,shl:50,rng:200,spd:320,itv:500},tunable:{mwp:1},sub:{str:100,pwr:32,rng:70,spd:85,itv:500},conversion:"WPCS138"}
