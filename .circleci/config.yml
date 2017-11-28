@@ -19,7 +19,15 @@ jobs:
           name: set project
           command: gcloud --quiet config set project cosmiccalc
       - run:
-          command: gcloud --quiet app versions list
+          name: stage app.yaml
+          command: mv ~/cosmiccalc/.circleci/app.yaml ~/cosmiccalc/app.yaml
+      - run:
+          name: replace paths
+          command: |
+            sed -i "s#${GH_PATH}#${GAE_PATH}#g" ~/cosmiccalc/index.html
+            sed -i "s#${GH_PATH}#${GAE_PATH}#g" ~/cosmiccalc/js/cosmicalc.js
+      - deploy:
+          command: gcloud --quiet app deploy
 workflows:
   version: 2
   deploy:
