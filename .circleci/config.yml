@@ -1,9 +1,9 @@
 version: 2
 jobs:
   deploy:
-    working_directory: ~/cosmiccalc
     docker:
       - image: google/cloud-sdk:latest
+    working_directory: ~/cosmiccalc
     steps:
       - checkout
       - run:
