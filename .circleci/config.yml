@@ -1,0 +1,30 @@
+version: 2
+jobs:
+  deploy:
+    working_directory: ~/cosmiccalc
+    docker:
+      - image: google/cloud-sdk:latest
+    steps:
+      - checkout
+      - run:
+          name: create GCP key file
+          command: echo ${GCP_KEY} > ~/cosmiccalc/gcp_key.json
+      - run:
+          name: authorize SDK
+          command: gcloud auth activate-service-account --key-file ~/cosmiccalc/gcp_key.json
+      - run:
+          name: clean up GCP key file
+          command: rm ~/cosmiccalc/gcp_key.json
+      - run:
+          name: set project
+          command: gcloud --quiet config set project cosmiccalc
+      - run:
+          command: gcloud app describe
+workflows:
+  version: 2
+  deploy:
+    jobs:
+      - deploy:
+          filters:
+            branches:
+              only: circleci
