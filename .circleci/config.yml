@@ -4,6 +4,10 @@ jobs:
     docker:
       - image: google/cloud-sdk:latest
     working_directory: ~/cosmiccalc
+    branches:
+      only:
+        - master
+        - circleci
     steps:
       - checkout
       - run:
@@ -28,11 +32,3 @@ jobs:
             sed -i "s#${GH_PATH}#${GAE_PATH}#g" ~/cosmiccalc/js/cosmicalc.js
       - deploy:
           command: gcloud --quiet app deploy ~/cosmiccalc/app.yaml -v 1
-workflows:
-  version: 2
-  deploy:
-    jobs:
-      - deploy:
-          filters:
-            branches:
-              only: circleci
