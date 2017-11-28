@@ -27,7 +27,7 @@
 var VERSION = "3.4.3",
 	LAST_MODIFIED = "2017.11.28",
 
-	CODEW_URL = "http://hngtuong.github.io/cosmiccalc/",
+	CODEW_URL = "http://blead.github.io/cosmiccalc/",
 	
 	MAXLEVEL_DEF = 10;
 	ADDLEVEL_DEF = 0;
