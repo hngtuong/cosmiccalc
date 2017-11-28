@@ -4,10 +4,6 @@ jobs:
     docker:
       - image: google/cloud-sdk:latest
     working_directory: ~/cosmiccalc
-    branches:
-      only:
-        - master
-        - circleci
     steps:
       - checkout
       - run:
@@ -36,4 +32,7 @@ workflows:
   version: 2
   deploy:
     jobs:
-      - deploy
+      - deploy:
+          filters:
+            branches:
+              only: master
