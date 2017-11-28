@@ -19,7 +19,7 @@ jobs:
           name: set project
           command: gcloud --quiet config set project cosmiccalc
       - run:
-          command: gcloud app versions list
+          command: gcloud --quiet app versions list
 workflows:
   version: 2
   deploy:
