@@ -415,6 +415,7 @@
 {id:1288,name:"Liozen HD",cost:45,hp:25,str:3,tec:-1,wlk:1,tgh:2}
 {id:1289,name:"Buff Devastator HD2",cost:35,hp:20,wlk:2,fly:1,tgh:2}
 {id:1290,name:"Crystas HD2",cost:40,hp:25,tec:1,fly:2,tgh:2}
+{id:1291,name:"Genesion HD",cost:45,hp:30,str:1,tec:1,wlk:-1,fly:3,tgh:1}
 //last:1290
 
 
@@ -430,8 +431,8 @@
 {id:9,name:"Heldtkaiser HD",type:"c",cost:35,hp:25,tec:-1,wlk:2,fly:2,tgh:2}
 {id:10,name:"Jet Falcon HD",type:"a",cost:35,hp:20,str:1,tec:1,wlk:-1,fly:1,tgh:2}
 {id:11,name:"Digaius HD",cost:35,hp:20,str:3,tec:1,wlk:-1,tgh:2}
-
-{id:100,name:"Cordyceps HD",cost:45,hp:30,str:1,tec:2,wlk:1,fly:1,tgh:1}
+{id:12,name:"Cordyceps HD",cost:45,hp:30,str:1,tec:2,wlk:1,fly:1,tgh:1}
+{id:13,name:"Gozu HD",cost:45,hp:25,str:3,tec:-1,fly:1,tgh:2}
 
 
 {group:"Joint",prefixID:"J",commonStat:{jointPart:1}}

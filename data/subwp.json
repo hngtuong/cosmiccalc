@@ -82,6 +82,7 @@
 {id:8,name:"Saucer",size:"M",cost:55,wlk:-1,sub:{pwr:29,rng:105,spd:170,itv:800}}
 {id:9,name:"Battle Boomerang",size:"M",cost:60,fly:-1,sub:{pwr:22,rng:135,spd:210,itv:640}}
 {id:12,name:"Dostrex Soul R",sub:{str:100,pwr:25,rng:60,spd:70,itv:1500},tunable:{pwp:1},type:"l",size:"LL",cost:120}
+{id:13,name:"Gozu Cleaver",size:"L",type:"l",cost:120,sub:{str:100,pwr:36,rng:70,spd:85,itv:500},tunable:{pwp:1}}
 
 
 {group:"Maces",prefixID:"MC",commonStat:{tunable:{pwp:1}}}

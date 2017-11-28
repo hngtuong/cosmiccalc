@@ -421,7 +421,9 @@
 {id:1003,name:"Windlynx AM",cost:35,hp:20,tec:1,wlk:1,fly:1,tgh:2}
 {id:1006,name:"Shadow Kinesis AM",cost:40,hp:25,tec:1,wlk:2,fly:-1,tgh:3}
 {id:1010,name:"Brink AM",cost:35,hp:20,str:1,wlk:1,fly:1,tgh:2}
-//last:1014
+{id:1015,name:"Genesion AM",cost:35,hp:20,str:1,tec:2,fly:1,tgh:1}
+{id:1016,name:"Genesion AM2",type:"a",joint:{wp:0},cost:130,hp:15,tec:3,fly:2,main:{pwr:42,shl:140,rng:360,spd:420,itv:1000},tunable:{mwp:1}}
+//last:1016
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:2,name:"Ettion AM",cost:25,hp:25,str:1,tec:1,tgh:1}
@@ -611,7 +613,8 @@
 {id:2120,name:"Liozen AM2",type:"l",cost:35,hp:25,str:-1,tec:3,wlk:2,tgh:1}
 {id:2121,name:"Buff Devastator AM3",type:"s",cost:95,hp:10,tec:2,wlk:1,tgh:-1,main:{pwr:12,shl:90,rng:230,spd:350,itv:600},sub:{str:100,pwr:25,shl:20,rng:90,spd:80,itv:2000},tunable:{mwp:1,pwp:1}}
 {id:2122,name:"Crystas AM2",type:"a",cost:90,hp:15,tec:2,wlk:1,fly:2,main:{pwr:8,shl:80,rng:320,spd:280,itv:740},tunable:{mwp:1}}
-//last:2122
+{id:2123,name:"Gozu AM",cost:40,hp:25,str:2,tec:1,wlk:1,fly:-1,tgh:2}
+//last:2123
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:11,name:"Brigand Baron AM",cost:50,hp:35,str:2,tgh:3}
