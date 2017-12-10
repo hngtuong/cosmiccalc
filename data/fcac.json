@@ -6,6 +6,11 @@
 {id:2004,name:"+1 tgh +5 capa ",capa:5,tgh:1}
 {id:2005,name:"+1 str +1 wlk ",str:1,wlk:1}
 {id:2006,name:"+1 tec +1 fly ",tec:1,fly:1}
+{id:2007,name:"+5 hp +1 str +5 capa ",capa:5,str:1,hp:5}
+{id:2008,name:"+5 hp +1 tec +5 capa ",capa:5,tec:1,hp:5}
+{id:2009,name:"+5 hp +1 wlk +5 capa ",capa:5,wlk:1,hp:5}
+{id:2010,name:"+5 hp +1 fly +5 capa ",capa:5,fly:1,hp:5}
+{id:2011,name:"+5 hp +1 tgh +5 capa ",capa:5,tgh:1,hp:5}
 {id:1,name:"Papillion Mask"}
 {id:2,name:"13th Mask"}
 {id:3,name:"Bloody 13th Mask",str:1}
