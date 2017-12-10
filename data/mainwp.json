@@ -423,7 +423,7 @@
 {id:1007,name:"Magical Gate",sub:{pwr:1,rng:10,spd:10,itv:1500},cost:10,wlk:1}
 {id:1025,name:"Pumpkin Pitcher",main:{pwr:1,shl:300,rng:210,spd:100,itv:800},cost:10,wlk:1}
 {id:1026,name:"Ghost Shooter",main:{pwr:1,shl:300,rng:210,spd:100,itv:800},cost:10,wlk:1}
-{id:1012,name:"Brink Mace",type:"c",size:"M",main:{pwr:18,shl:360,rng:330,spd:280,itv:1000},sub:{pwr:15,shl:15,rng:70,spd:85,itv:1000},tunable:{mwp:1},cost:200}
+{id:1012,name:"Brink Mace",type:"c",size:"M",main:{pwr:20,shl:360,rng:330,spd:280,itv:1000},sub:{pwr:15,shl:15,rng:70,spd:85,itv:1000},tunable:{mwp:1},cost:200}
 {id:1013,name:"Pumpkin Rod",type:"c",size:"S",main:{pwr:17,shl:200,rng:320,spd:320,itv:500},tunable:{mwp:1},cost:125}
 // {id:220,name:"ホーミングボール",cost:60,main:{pwr:7,shl:200,rng:250,spd:320,itv:400},size:"S",type:"s",comment:"トライクレーサーのみ装備可能"}
 {id:224,name:"Liquid Burner",main:{pwr:12,shl:700,rng:70,spd:360,itv:100,tec:100},tunable:{mwp:1},type:"lc",size:"M",cost:170}

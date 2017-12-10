@@ -607,7 +607,7 @@
 {id:2114,name:"Hadelos AM",type:"l",cost:25,hp:15,str:1,tec:-1,wlk:1,fly:1,tgh:1}
 {id:2115,name:"Aresis AM",type:"l",cost:45,hp:25,str:3,tec:1,fly:-1,tgh:2}
 {id:2116,name:"Aresis AM2",type:"l",cost:40,hp:25,str:2,tec:1,fly:-1,tgh:3,joint:{wp:2},fixedParts:{wp:{name:"Aresis Shield",cost:20,slot:0,main:{shl:15,spd:10,itv:700}}}}
-{id:2117,name:"Crugis AM",type:"a",main:{pwr:22,shl:150,rng:330,spd:300,itv:600},tunable:{mwp:1},cost:105,hp:20,tec:3,wlk:-1,fly:2,tgh:1}
+{id:2117,name:"Crugis AM",type:"a",main:{pwr:22,shl:150,rng:330,spd:300,itv:600},tunable:{mwp:1},joint:{wp:0},cost:105,hp:20,tec:3,wlk:-1,fly:2,tgh:1}
 {id:2118,name:"Cordyceps AM2",type:"c",cost:75,hp:25,tec:3,wlk:2,fly:-1,tgh:1,slot:0,main:{pwr:16,shl:130,rng:340,spd:520,itv:800},tunable:{mwp:1}}
 {id:2119,name:"Liozen AM",type:"l",cost:140,hp:25,str:4,tec:-1,wlk:1,tgh:2,sub:{pwr:30,rng:70,spd:70,itv:500},tunable:{pwp:1}}
 {id:2120,name:"Liozen AM2",type:"l",cost:35,hp:25,str:-1,tec:3,wlk:2,tgh:1}

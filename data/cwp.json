@@ -342,7 +342,7 @@
 {id:117,name:"Scaraboss BS2@",sub:{pwr:1,shl:10,rng:80,spd:150,itv:500,str:100},cost:40,slot:0,size:"M",type:"c",conversion:"BSM186",comment:"Attachable to 'Scaraboss BS2' only"}
 {id:118,name:"Gathima Howitzer",sub:{tec:100,pwr:40,shl:30,rng:360,spd:230,itv:500},type:"c",size:"S",cost:40,conversion:"BDCS92 BDCS1068",comment:"Attachable to 'Gathima Girl BD/BD2' only"}
 {id:119,name:"Gaia Rammer",main:{pwr:20,shl:30,rng:200,spd:300,itv:1000},sub:{str:100,pwr:34,rng:120,spd:20,itv:500},tunable:{mwp:1,pwp:1},size:"LL",type:"l",cost:150,conversion:"AML167",comment:"Attachable to 'Digaius AM' only"}
-{id:120,name:"Gaia Pile",sub:{pwr:32,shl:10,rng:140,spd:250,itv:500},tunable:{pwp:1},cost:120,type:"l",size:"LL",conversion:"AML167",comment:"Attachable to 'Digaius AM' only"}
+{id:120,name:"Gaia Pile",sub:{pwr:32,shl:10,rng:140,spd:250,itv:500},tunable:{pwp:0},cost:120,type:"l",size:"LL",conversion:"AML167",comment:"Attachable to 'Digaius AM' only"}
 {id:121,name:"Gigant Arms AM@",type:"l",size:"L",sub:{str:100,pwr:30,rng:170,spd:80,itv:500},tunable:{pwp:1},cost:70,conversion:"AML160",comment:"Attachable to 'Gigant Arms AM' only"}
 {id:122,name:"Gigant Arms LG@",type:"l",size:"L",sub:{pwr:20,shl:30,rng:230,spd:80,itv:500},cost:50,conversion:"LGL115",comment:"Attachable to 'Gigant Arms LG' only"}
 {id:123,name:"Milky Way BS@",size:"M",sub:{pwr:1,shl:10,spd:150,itv:1000},cost:25,slot:0,conversion:"BSM147",comment:"Attachable to 'Milky Way BS' only"}
