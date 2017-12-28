@@ -418,7 +418,8 @@
 {id:1291,name:"Genesion HD",cost:45,hp:30,str:1,tec:1,wlk:-1,fly:3,tgh:1}
 {id:1292,name:"Metatel HD",cost:45,hp:30,str:-1,tec:1,wlk:2,fly:2,tgh:1}
 {id:1293,name:"Centurion HD",cost:45,hp:25,str:1,tec:1,wlk:1,fly:3,tgh:-1}
-//last:1293
+{id:1294,name:"Dartanis HD2",cost:20,hp:15,str:2,wlk:2,fly:-1}
+//last:1294
 
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
