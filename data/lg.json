@@ -398,7 +398,9 @@
 {id:120,name:"Cordyceps LG2",type:"c",cost:65,hp:25,str:1,tec:2,wlk:3,fly:-1,sub:{shl:10,rng:100,spd:200,itv:600}}
 {id:121,name:"Liozen LG",type:"l",cost:110,hp:75,str:3,tec:-1,wlk:2,tgh:2,sub:{pwr:32,rng:150,spd:200,itv:500},tunable:{pwp:1}}
 {id:122,name:"Gozu LG",cost:50,hp:40,str:1,tec:-1,wlk:3,tgh:2}
-//last:122
+{id:123,name:"Metatel LG",cost:50,hp:55,str:-1,wlk:3,fly:2,tgh:2}
+{id:124,name:"Centurion LG",cost:50,hp:30,str:2,tec:-1,wlk:3,tgh:1}
+//last:124
 
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}

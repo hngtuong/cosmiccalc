@@ -220,7 +220,8 @@
 {id:1060,name:"Saber Elisalotte BS2",type:"a",cost:40,hp:20,str:3,tec:1,wlk:-1,fly:2}
 {id:1061,name:"M.Arch BS",type:"a",cost:25,hp:15,str:1,tec:1,fly:2}
 {id:1062,name:"Cyan BS",type:"c",cost:35,hp:20,str:1,tec:3,fly:2,tgh:-1}
-//last:1062
+{id:1063,name:"Raphilim BS",type:"a",cost:35,hp:20,str:-1,tec:2,wlk:1,fly:3}
+//last:1063
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Fizalivan BS",type:"l",cost:15,hp:15,fly:1,tgh:1}
@@ -557,7 +558,9 @@
 {id:103,name:"Liozen BS",type:"l",cost:45,hp:25,str:2,tec:-1,fly:3,tgh:1}
 {id:104,name:"Crystas BS2",type:"a",cost:125,hp:20,tec:2,wlk:1,fly:2,tgh:-1,main:{pwr:8,shl:200,rng:330,spd:370,itv:340},sub:{pwr:1,shl:5,rng:10,spd:280,itv:500},tunable:{mwp:1}}
 {id:105,name:"Gozu BS",type:"l",cost:45,hp:25,str:2,wlk:1,fly:3,tgh:-1}
-//last:105
+{id:106,name:"Metatel BS",type:"a",cost:120,hp:25,tec:2,wlk:-1,fly:3,tgh:1,main:{pwr:22,shl:240,rng:320,spd:290,itv:500},tunable:{mwp:1},sub:{pwr:0,shl:30,rng:150,spd:320,itv:200}}
+{id:107,name:"Centurion BS",type:"l",cost:40,hp:25,str:1,tec:1,wlk:-1,fly:3,tgh:1}
+//last:107
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:1,name:"Shaden BS",type:"a",cost:150,hp:5,fly:1,sub:{pwr:1,shl:1,rng:200,spd:110,itv:2000}}
