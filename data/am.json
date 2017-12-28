@@ -370,7 +370,7 @@
 {id:143,name:"Landoss AM2",comment:"Main weapons only",main:{pwr:11,shl:390,rng:260,spd:340,itv:340},tunable:{mwp:1},type:"l",cost:115,hp:10,str:-1,tec:2,wlk:1,tgh:1}
 {id:131,name:"Satyx AM",sub:{pwr:21,rng:80,spd:80,itv:1800,str:100},tunable:{pwp:1},type:"a",cost:95,hp:20,str:3,tec:-1,wlk:1,tgh:2}
 {id:132,name:"Dartanis AM",cost:55,hp:15,str:1,wlk:1,fly:-1,tgh:2}
-{id:133,name:"Dartanis AM2",sub:{str:100,pwr:28,rng:60,spd:70,itv:500},tunable:{pwp:1},joint:{wp:0},type:"la",cost:150,hp:15,str:2,tec:-1,tgh:2}
+{id:133,name:"Dartanis AM2",sub:{str:100,pwr:28,rng:75,spd:80,itv:500},tunable:{pwp:1},joint:{wp:0},type:"la",cost:150,hp:15,str:2,tec:-1,tgh:2}
 {id:134,name:"Photon Slash AM",sub:{str:100,pwr:25,shl:30,rng:180,spd:300,itv:500},tunable:{pwp:1},joint:{wp:0},type:"la",cost:100,str:2,tec:-1,wlk:1,fly:-2}
 {id:135,name:"Galaxy Commando AM",cost:40,hp:25,str:1,tec:2,fly:-1,tgh:3}
 {id:136,name:"Galaxy Commando AM2",main:{pwr:14,shl:300,rng:260,spd:340,itv:340},tunable:{mwp:1},auraStat:{main:{pwr:28,shl:150,rng:390,spd:530,itv:600}},type:"c",cost:160,hp:25,str:1,tec:3,wlk:1,fly:-1,tgh:1}
@@ -423,7 +423,8 @@
 {id:1010,name:"Brink AM",cost:35,hp:20,str:1,wlk:1,fly:1,tgh:2}
 {id:1015,name:"Genesion AM",cost:35,hp:20,str:1,tec:2,fly:1,tgh:1}
 {id:1016,name:"Genesion AM2",type:"a",joint:{wp:0},cost:130,hp:15,tec:3,fly:2,main:{pwr:42,shl:140,rng:360,spd:420,itv:1000},tunable:{mwp:1}}
-//last:1016
+{id:1017,name:"Dartanis AM3",cost:100,hp:20,str:2,tec:-1,wlk:1,tgh:2,main:{str:100,pwr:11,shl:370,rng:250,spd:380,itv:300},sub:{pwr:28,shl:20,rng:250,spd:270,itv:500},tunable:{mwp:1},joint:{wp:0}}
+//last:1017
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:2,name:"Ettion AM",cost:25,hp:25,str:1,tec:1,tgh:1}
@@ -614,7 +615,9 @@
 {id:2121,name:"Buff Devastator AM3",type:"s",cost:95,hp:10,tec:2,wlk:1,tgh:-1,main:{pwr:12,shl:90,rng:230,spd:350,itv:600},sub:{str:100,pwr:25,shl:20,rng:90,spd:80,itv:2000},tunable:{mwp:1,pwp:1}}
 {id:2122,name:"Crystas AM2",type:"a",cost:90,hp:15,tec:2,wlk:1,fly:2,main:{pwr:8,shl:80,rng:320,spd:280,itv:740},tunable:{mwp:1}}
 {id:2123,name:"Gozu AM",cost:40,hp:25,str:2,tec:1,wlk:1,fly:-1,tgh:2}
-//last:2123
+{id:2124,name:"Metatel AM",cost:35,hp:20,str:2,tec:2,wlk:-1,fly:2}
+{id:2125,name:"Centurion AM",cost:35,hp:20,str:1,tec:-1,wlk:2,fly:1,tgh:2}
+//last:2125
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:11,name:"Brigand Baron AM",cost:50,hp:35,str:2,tgh:3}
@@ -696,6 +699,6 @@
 {id:48,name:"S.U. Barrier Shooter AMJ",main:{pwr:5,shl:150,rng:320,spd:260,itv:400},tunable:{mwp:1},type:"c",size:"M",cost:50,slot:1}
 {id:49,name:"Beam Cannon Canceler AMJ",size:"M",type:"lc",main:{tec:100,pwr:5,shl:5,rng:220,spd:430,itv:200},tunable:{mwp:1},cost:15,slot:1}
 {id:50,name:"Agnizyne AMJ",size:"M",slot:1}
-
 {id:142,name:"Wild Shoulder AMJ",size:"M",slot:1}
 {id:143,name:"Digaius AMJ",size:"M",slot:1}
+{id:144,name:"Metatel AMJ ",cost:65,type:"a",main:{pwr:16,shl:280,rng:340,spd:480,itv:300},tunable:{mwp:1}}

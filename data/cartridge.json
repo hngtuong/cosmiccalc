@@ -4,10 +4,10 @@
 {id:4,name:"Capacity +80",comment:"Raises robot's cost capacity by 80 and HP by #hp."}
 {id:5,name:"Capacity +90",comment:"Raises robot's cost capacity by 90 and HP by #hp."}
 {id:6,name:"Enhance Internal Weapon",comment:"Enhances the core's built in weapon."}
-{id:7,name:"Shell Guard",comment:"Decreases damage from bullet type projectiles by 10%."}
-{id:8,name:"Beam Guard",comment:"Decreases damage from beam type projectiles by 25%."}
-{id:9,name:"Sword Guard",comment:"Decreases damage from melee attacks by 30%."}
-{id:10,name:"Blast Guard",comment:"Decreases damage from explosive projectiles by 50%."}
+{id:7,name:"Shell Guard",comment:"Decreases damage from bullet type projectiles by 15%."}
+{id:8,name:"Beam Guard",comment:"Decreases damage from beam type projectiles by 30% (55% for ART bots)."}
+{id:9,name:"Sword Guard",comment:"Decreases damage from melee attacks by 40% (50% for AIR bots)."}
+{id:10,name:"Blast Guard",comment:"Decreases damage from explosive projectiles by 50% (55% for LND bots)."}
 {id:11,name:"Anti Burning",comment:"Allows robot to move normally even when on fire."}
 {id:12,name:"Anti Slow",comment:"Effects of slow traps will be reduced."}
 {id:13,name:"Fast Recovery",comment:"Status effects will only last half as long as usual."}

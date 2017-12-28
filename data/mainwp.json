@@ -440,4 +440,5 @@
 {id:1041,name:"Micromissilegun Mod",cost:80,type:"lc",size:"SS",main:{pwr:8,shl:140,rng:320,spd:260,itv:1000},tunable:{mwp:1}}
 {id:1042,name:"Sunflower Magnegun",cost:120,size:"M",main:{pwr:14,shl:230,rng:330,spd:220,itv:800}}
 {id:1043,name:"Twin Blast Magnegun Mod",cost:100,size:"M",type:"c",main:{pwr:11,shl:250,rng:300,spd:220,itv:340}}
-//last:1043
+{id:1044,name:"M72 Bazoofa",cost:90,size:"S",type:"l",main:{str:100,pwr:20,shl:30,rng:200,spd:300,itv:500},sub:{str:100,pwr:25,rng:90,spd:90,itv:500},tunable:{pwp:1}}
+//last:1044
