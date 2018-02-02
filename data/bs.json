@@ -213,7 +213,7 @@
 {id:1052,name:"Kaltos Wing",joint:{wp:1},type:"a",cost:40,hp:20,str:1,tec:1,wlk:2,fly:2,tgh:-1,conversion:"BDAS60 BDAS73 BDAS90",comment:["Attachable to 'Litia BD/BD2/BD3' only","Weapon slot for 'Kaltos Wing@'"]}
 {id:1053,name:"Aries Wing",joint:{wp:1},type:"a",cost:40,hp:20,str:1,tec:1,wlk:2,fly:2,tgh:-1,conversion:"BDAS60 BDAS73 BDAS90",comment:"Attachable to 'Litia BD/BD2/BD3' only"}
 {id:1055,name:"P. Mona BS",sub:{pwr:10,shl:30,rng:100,spd:570,itv:1000},type:"c",cost:55,hp:20,str:1,tec:1,wlk:-1,fly:2,tgh:2}
-{id:1056,name:"T40 Tactical Arms",type:"c",cost:190,hp:25,tec:3,fly:2,tgh:1,joint:{wp:1,bs:1},main:{pwr:12,shl:600,rng:340,spd:340,itv:300},tunable:{mwp:1},sub:{tec:100,pwr:2,shl:30,rng:320,spd:260,itv:500},conversion:"BDCS1061"}
+{id:1056,name:"T40 Tactical Arms",type:"c",cost:190,hp:25,tec:3,fly:2,tgh:1,joint:{wp:1,bs:1},main:{pwr:14,shl:560,rng:340,spd:400,itv:300},tunable:{mwp:1},sub:{tec:100,pwr:2,shl:30,rng:320,spd:260,itv:500},conversion:"BDCS1061"}
 {id:1057,name:"Feuille BS",type:"c",cost:35,hp:20,tec:1,wlk:-1,fly:3,tgh:2}
 {id:1058,name:"Vermelho BS",type:"l",cost:35,hp:20,str:3,tec:1,fly:2,tgh:-1}
 {id:1059,name:"Odette BS",type:"a",cost:45,hp:30,str:-1,tec:2,wlk:1,fly:3}
@@ -221,7 +221,9 @@
 {id:1061,name:"M.Arch BS",type:"a",cost:25,hp:15,str:1,tec:1,fly:2}
 {id:1062,name:"Cyan BS",type:"c",cost:35,hp:20,str:1,tec:3,fly:2,tgh:-1}
 {id:1063,name:"Raphilim BS",type:"a",cost:35,hp:20,str:-1,tec:2,wlk:1,fly:3}
-//last:1063
+{id:1064,name:"Shana Kubera BS",type:"c",cost:45,hp:25,str:-1,tec:3,fly:3}
+{id:1065,name:"Baphogridr Girl BS2",type:"l",cost:40,hp:20,str:2,tec:1,wlk:-1,fly:3}
+//last:1065
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Fizalivan BS",type:"l",cost:15,hp:15,fly:1,tgh:1}
@@ -442,8 +444,10 @@
 {id:2121,name:"Firework Launcher BS",cost:30,hp:15,wlk:2,fly:2,main:{pwr:1,shl:200,rng:150,spd:200,itv:1000},tunable:{mwp:1}}
 {id:2122,name:"Tornado Gatling BS",type:"c",cost:110,hp:20,str:-1,tec:2,wlk:1,fly:2,main:{pwr:8,shl:500,rng:250,spd:380,itv:200},tunable:{mwp:1}}
 {id:2123,name:"Genesion BS",type:"a",cost:55,hp:20,str:1,tec:2,wlk:-1,fly:3,sub:{pwr:1,shl:60,rng:150,spd:200,itv:500}}
-//last:2123
-
+{id:2124,name:"Shivatoris BS",type:"lc",cost:40,hp:25,str:1,tec:-1,wlk:2,fly:3}
+{id:2126,name:"Subspace BS",cost:60,hp:15,wlk:2,fly:3,sub:{shl:15,rng:80,spd:200,itv:1200}}
+{id:2127,name:"Magnet Jamming BS",cost:60,hp:15,tec:1,wlk:1,fly:2,sub:{pwr:1,shl:15,rng:10,spd:180,itv:500}}
+//last:2127
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Steel Rider BS",type:"l",cost:25,hp:10,wlk:1,fly:2}

@@ -617,7 +617,9 @@
 {id:2123,name:"Gozu AM",cost:40,hp:25,str:2,tec:1,wlk:1,fly:-1,tgh:2}
 {id:2124,name:"Metatel AM",cost:35,hp:20,str:2,tec:2,wlk:-1,fly:2}
 {id:2125,name:"Centurion AM",cost:35,hp:20,str:1,tec:-1,wlk:2,fly:1,tgh:2}
-//last:2125
+{id:2126,name:"Giganbreaker (ART)",type:"c",cost:115,hp:30,str:4,tgh:2,joint:{wp:0},main:{str:100,pwr:5,shl:200,rng:300,spd:600,itv:100},sub:{pwr:-1,rng:-9,spd:-9,itv:-1},tunable:{mwp:1,pwp:1},conversion:"BDCM1042"}
+{id:2127,name:"Giganbreaker (LND)",type:"l",cost:115,hp:30,str:4,tgh:2,joint:{wp:0},main:{str:100,pwr:-1,shl:-1,rng:-9,spd:-9,itv:-1},sub:{str:100,pwr:26,rng:70,spd:85,itv:500},tunable:{mwp:1,pwp:1},conversion:"BDLM60"}
+//last:2126
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:11,name:"Brigand Baron AM",cost:50,hp:35,str:2,tgh:3}

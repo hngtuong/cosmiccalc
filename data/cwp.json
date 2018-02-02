@@ -140,7 +140,7 @@
 //139
 {id:140,name:"Sonic Claw",main:{pwr:15,shl:30,rng:300,spd:570,itv:500,str:100},tunable:{mwp:1},type:"l",size:"S",cost:30,conversion:"BDLS149AM",comment:"Attachable to 'Kal Valentine AM2' only"}
 {id:141,name:"Cannon Pack",main:{tec:100,pwr:40,shl:40,rng:250,spd:570,itv:300},tunable:{mwp:1},type:"c",size:"S",cost:120,conversion:"BDCM42WP",comment:"Attachable to 'Toybox Girl BD4@' only"}
-{id:142,name:"Stigma Shield",main:{shl:30,spd:10,itv:1000},type:"l",size:"S",cost:20,conversion:"BDLS150AM",comment:"Attachable to 'Gisele Noire AM' only",slot:0}
+{id:142,name:"Stigma Shield",main:{shl:30,spd:10,itv:1000},type:"l",size:"S",cost:20,conversion:"BDLS150AM BDLS193AM",comment:"Attachable to 'Gisele Noire AM' only",slot:0}
 {id:143,name:"Machinegun (Lunastasia)",main:{pwr:10,shl:240,rng:250,spd:390,itv:240,str:100},tunable:{mwp:1},type:"l",size:"S",cost:50,conversion:"BDLS153",comment:"Attachable to 'Lunastasia BD' only"}
 {id:144,name:"Magnegun",main:{tec:100,pwr:8,shl:400,rng:300,spd:220,itv:1000},tunable:{mwp:1},type:"c",size:"S",cost:60,conversion:"BDCS76",comment:"Attachable to 'Fiona BD' only"}
 {id:145,name:"Jupitizer Rifle",main:{pwr:18,tec:100,shl:250,rng:330,spd:370,itv:700},tunable:{mwp:1},type:"a",size:"LL",cost:70,conversion:"BDAL51",comment:"Attachable to 'Thoarla BD11' only"}
@@ -221,6 +221,8 @@
 {id:220,name:"Gathima Buster",cost:80,main:{pwr:22,shl:200,rng:350,spd:360,itv:400},conversion:"BDCS92AM BDCS1068AM"}
 {id:221,name:"Gathima Launcher",cost:40,main:{pwr:10,shl:330,rng:350,spd:360,itv:800},conversion:"BDCS92 BDCS1068"}
 {id:222,name:"Nora Schneid BD2@",cost:30,main:{pwr:20,shl:30,rng:250,spd:350,itv:500},conversion:"BDLS140 BDLS191"}
+{id:223,name:"Serieux Key",cost:150,main:{pwr:10,shl:780,rng:350,spd:330,itv:300},sub:{pwr:24,shl:30,rng:350,spd:280,itv:500},conversion:"BDCS1065AM"}
+{id:224,name:"Hand Bouclier",cost:60,main:{pwr:25,shl:540,rng:430,spd:370,itv:200},conversion:"BDCS1065AM2"}
 
 {group:"Conversion-SWP",prefixID:"CS",commonStat:{tunable:{pwp:1}}}
 {id:1,name:"General Blade",main:{pwr:22,shl:30,rng:285,spd:325,itv:1000},sub:{str:100,pwr:28,rng:80,spd:70,itv:500},tunable:{mwp:1},size:"L",type:"l",cost:120,conversion:"AML1138",comment:"Attachable to 'Generaldo AM2' only"}
