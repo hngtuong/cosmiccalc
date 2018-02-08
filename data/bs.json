@@ -596,4 +596,4 @@
 {id:18,name:"Guardian Rook BSJ",joint:{wp:2,bs:1},fixedParts:{wp:[{name:"Rook BSJR@",main:{tec:100,pwr:1,shl:100,rng:300,spd:330,itv:300},slot:0},{name:"Rook BSJR@",main:{tec:100,pwr:1,shl:100,rng:300,spd:330,itv:300},slot:0}]},cost:5,hp:5,slot:1,size:"M"}
 // {id:19,name:"ワイヤードマグネガンBS",main:{pwr:10,shl:300,rng:300,spd:220,itv:700},tunable:{mwp:1},builtin:{bs:-1},type:"c",size:"M",cost:85,hp:10,tec:1,fly:2,joint:{bs:0}}
 {id:19,name:"Baphogridr BSJ",cost:5,hp:5,slot:1,size:"M"}
-{id:20,name:"Kyouka BSJ",cost:10,hp:10,wlk:1,size:"M",slot:1}
+{id:20,name:"Kyouka BSJ",cost:10,hp:10,wlk:1,size:"S",slot:1}
