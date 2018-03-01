@@ -214,10 +214,11 @@
 {id:1004,name:"Lumiera AM4",tunable:{mwp:1},cost:40,hp:25,str:1,tec:3,fly:1,main:{spd:10,shl:50,itv:700},type:"c"}
 {id:1006,name:"Oboromaru AM",type:"a",joint:{am:1},fixedParts:{am:{name:"Oboromaru AM@",main:{pwr:14,shl:200,rng:220,spd:280,itv:500},joint:{wp:0},slot:0}},cost:75,hp:20,str:-1,tec:2,fly:2,tgh:2}
 {id:1008,name:"P. Mona AM",cost:35,hp:20,str:1,tec:-1,wlk:2,fly:2,tgh:1}
-{id:1009,name:"Vermelho AM",cost:35,hp:20,str:2,wlk:1,tgh:2,conversion:"BDLS184 BDCS1066",joint:{wp:2}}
+{id:1009,name:"Vermelho AM",cost:35,hp:20,str:2,wlk:1,tgh:2,conversion:"BDLS184 BDLS195 BDCS1066",joint:{wp:2}}
 {id:1010,name:"M.Arch AM",cost:55,hp:20,str:1,tec:2,fly:1,tgh:1,main:{pwr:6,shl:100,rng:330,spd:320,itv:500},tunable:{mwp:1}}
-{id:1011,name:"Cyan AM",cost:35,hp:20,tec:2,fly:1,tgh:2,joint:{wp:2},conversion:"BDLS184 BDCS1066"}
-//last:1011
+{id:1011,name:"Cyan AM",cost:35,hp:20,tec:2,fly:1,tgh:2,joint:{wp:2},conversion:"BDLS184 BDLS195 BDCS1066"}
+{id:1013,name:"Vermelho AM2",cost:35,hp:20,str:2,wlk:1,fly:1,tgh:1,conversion:"BDLS184 BDLS195 BDCS1066",joint:{wp:2}}
+//last:1013
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:21,name:"Victory AM",cost:20,hp:15,str:1,fly:1}
@@ -424,7 +425,9 @@
 {id:1015,name:"Genesion AM",cost:35,hp:20,str:1,tec:2,fly:1,tgh:1}
 {id:1016,name:"Genesion AM2",type:"a",joint:{wp:0},cost:130,hp:15,tec:3,fly:2,main:{pwr:42,shl:140,rng:360,spd:420,itv:1000},tunable:{mwp:1}}
 {id:1017,name:"Dartanis AM3",cost:100,hp:20,str:2,tec:-1,wlk:1,tgh:2,main:{str:100,pwr:11,shl:370,rng:250,spd:380,itv:300},sub:{pwr:28,shl:20,rng:250,spd:270,itv:500},tunable:{mwp:1},joint:{wp:0}}
-//last:1017
+{id:1018,name:"Shroomash AM",type:"s",cost:70,hp:20,tec:3,tgh:2,joint:{wp:0},main:{pwr:16,shl:350,rng:250,spd:350,itv:300},tunable:{mwp:1}}
+{id:1019,name:"Snailbot AM2",type:"c",cost:75,hp:20,tec:2,fly:1,tgh:2,joint:{wp:0},main:{pwr:26,shl:130,rng:340,spd:320,itv:600,tunable:{mwp:1}}}
+//last:1019
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:2,name:"Ettion AM",cost:25,hp:25,str:1,tec:1,tgh:1}
@@ -619,7 +622,7 @@
 {id:2125,name:"Centurion AM",cost:35,hp:20,str:1,tec:-1,wlk:2,fly:1,tgh:2}
 {id:2126,name:"Giganbreaker (ART)",type:"c",cost:115,hp:30,str:4,tgh:2,joint:{wp:0},main:{str:100,pwr:5,shl:200,rng:300,spd:600,itv:100},sub:{pwr:-1,rng:-9,spd:-9,itv:-1},tunable:{mwp:1,pwp:1},conversion:"BDCM1042"}
 {id:2127,name:"Giganbreaker (LND)",type:"l",cost:115,hp:30,str:4,tgh:2,joint:{wp:0},main:{str:100,pwr:-1,shl:-1,rng:-9,spd:-9,itv:-1},sub:{str:100,pwr:26,rng:70,spd:85,itv:500},tunable:{mwp:1,pwp:1},conversion:"BDLM60"}
-//last:2126
+//last:2127
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:11,name:"Brigand Baron AM",cost:50,hp:35,str:2,tgh:3}
