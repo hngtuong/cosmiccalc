@@ -198,7 +198,7 @@
 {id:185,name:"A. Miral BS",sub:{shl:30,rng:100,spd:150,itv:2000},joint:{bs:1},type:"lc",size:"S",cost:55,hp:25,tec:2,wlk:1,fly:2}
 {id:186,name:"A. Miral BS@",type:"lc",size:"S",tunable:{mwp:1},main:{tec:100,pwr:10,shl:500,rng:250,spd:320,itv:440},cost:100,conversion:"BSS185",comment:"Attachable to 'A. Miral BS' only"}
 {id:187,name:"Maisie BS",type:"l",size:"S",cost:40,hp:20,str:2,tec:-1,fly:2,tgh:2}
-{id:188,name:"Alice BS",sub:{pwr:5,shl:260,rng:360,spd:360,itv:400},type:"a",size:"S",cost:65,hp:20,str:-1,tec:1,fly:3,tgh:2,conversion:"BDAS107",comment:"Attachable to 'Alice BD/BD2' only"}
+{id:188,name:"Alice BS",sub:{pwr:5,shl:260,rng:360,spd:360,itv:400},type:"a",size:"S",cost:65,hp:20,str:-1,tec:1,fly:3,tgh:2,conversion:"BDAS107 BDAS1089",comment:"Attachable to 'Alice BD/BD2' only"}
 {id:191,name:"Baphogridr Girl BS",type:"l",cost:40,hp:20,str:2,tec:1,wlk:-1,fly:3}
 {id:192,name:"Magical C.S. BSR",size:"S",cost:40,hp:20,str:1,wlk:2,fly:3,tgh:-1}
 {id:1051,name:"Oboromaru BS",type:"a",cost:40,hp:25,str:2,tec:2,wlk:-1,fly:2}
@@ -223,7 +223,8 @@
 {id:1063,name:"Raphilim BS",type:"a",cost:35,hp:20,str:-1,tec:2,wlk:1,fly:3}
 {id:1064,name:"Shana Kubera BS",type:"c",cost:45,hp:25,str:-1,tec:3,fly:3}
 {id:1065,name:"Baphogridr Girl BS2",type:"l",cost:40,hp:20,str:2,tec:1,wlk:-1,fly:3}
-//last:1065
+{id:1066,name:"Alice BS2",sub:{pwr:3,shl:30,rng:360,spd:360,itv:300},type:"a",size:"S",cost:60,hp:20,str:0,tec:1,wlk:1,fly:3,tgh:0,conversion:"BDAS107 BDAS1089",comment:"Attachable to 'Alice BD/BD3' only"}
+//last:1066
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Fizalivan BS",type:"l",cost:15,hp:15,fly:1,tgh:1}
