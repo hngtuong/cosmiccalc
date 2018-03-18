@@ -448,7 +448,7 @@
 {id:2124,name:"Shivatoris BS",type:"lc",cost:40,hp:25,str:1,tec:-1,wlk:2,fly:3}
 {id:2126,name:"Subspace BS",cost:60,hp:15,wlk:2,fly:3,sub:{shl:15,rng:80,spd:200,itv:1200}}
 {id:2127,name:"Magnet Jamming BS",cost:60,hp:15,tec:1,wlk:1,fly:2,sub:{pwr:1,shl:15,rng:10,spd:180,itv:500}}
-{id:2128,name:"Shroomash BS",type:"s",cost:45,hp:30,str:2,tec:1,wlk:2,fly:1,tgh:-1}
+{id:2128,name:"Shroomash BS",type:"s",cost:45,hp:25,str:0,tec:1,wlk:2,fly:2,tgh:0}
 //last:2128
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
