@@ -365,7 +365,7 @@
 {id:134,name:"Full Power Drive A",conversion:"WPCS133",type:"l",size:"M",cost:40,main:{pwr:0,shl:20,rng:0,spd:10,itv:1000}}
 {id:135,name:"Fragarach Module",conversion:"AMS1009 AMS1011 AMS1013",type:"l",size:"S",cost:105,main:{pwr:15,shl:150,rng:225,spd:420,itv:200},sub:{str:100,pwr:32,rng:70,spd:85,itv:500},tunable:{mwp:1,pwp:1}}
 {id:136,name:"Titan Module",conversion:"AMS1009 AMS1011 AMS1013",type:"l",size:"S",cost:105,main:{str:100,pwr:30,shl:10,rng:200,spd:570,itv:500},sub:{str:100,pwr:32,rng:70,spd:85,itv:500},tunable:{mwp:1,pwp:1}}
-{id:137,name:"Aegis Module",conversion:"AMS1009 AMS1011 AMS1013",type:"l",size:"S",cost:105,main:{pwr:5,shl:200,rng:320,spd:260,itv:600},sub:{str:100,pwr:34,rng:150,spd:150,itv:500},tunable:{mwp:1,pwp:1}}
+{id:137,name:"Aegis Module",conversion:"AMS1009 AMS1011 AMS1013",type:"l",size:"S",cost:105,main:{pwr:5,shl:200,rng:320,spd:260,itv:600},sub:{str:100,pwr:28,rng:150,spd:150,itv:500},tunable:{mwp:1,pwp:1}}
 {id:138,name:"Fluffy Cape",type:"l",size:"S",cost:70,slot:0,joint:{wp:1},main:{str:100,pwr:20,shl:50,rng:300,spd:320,itv:1000},conversion:"BDLS187"}
 {id:139,name:"Snow Bear",type:"l",size:"S",cost:120,main:{str:100,pwr:15,shl:50,rng:200,spd:320,itv:500},tunable:{mwp:1},sub:{str:100,pwr:32,rng:70,spd:85,itv:500},conversion:"WPCS138"}
 {id:140,name:"Labyrinthaxe HW",cost:120,main:{shl:30,rng:10,spd:10,itv:500},sub:{pwr:32,rng:70,spd:85,itv:500},conversion:"BDLS190AM"}
