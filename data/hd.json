@@ -49,7 +49,8 @@
 {id:103,name:"M.Arch HD",cost:25,hp:20,str:-1,tec:1,wlk:1,fly:1,tgh:1}
 {id:104,name:"Cyan HD",cost:35,hp:20,str:1,tec:1,wlk:2,fly:-1,tgh:2}
 {id:105,name:"Vermelho HD2",cost:35,hp:20,str:2,tec:0,wlk:2,fly:0,tgh:1,conversion:"BDLS184 BDLS195 BDCS1066"}
-//last:105
+{id:106,name:"Turtlebacker HD2",cost:40,hp:30,str:1,tec:2,wlk:3,fly:0,tgh:-1}
+//last:106
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Steel Rider HD",cost:15,hp:5,str:1,wlk:1,tgh:1}
@@ -398,7 +399,6 @@
 {id:329,name:"Axion HD",cost:35,hp:25,tec:1,tgh:3}
 {id:330,name:"Brisgandr Pawn HD",cost:35,hp:15,str:2,tec:1,wlk:1,tgh:1}
 {id:331,name:"Brisgandr Pawn HD2",cost:35,hp:15,str:1,tec:2,wlk:1,tgh:1}
-
 {id:1262,name:"Magnell HD",cost:40,hp:20,str:2,tec:2,wlk:2,fly:-1}
 {id:1265,name:"Nova Dikaros HD",cost:30,hp:15,str:1,tec:3,wlk:2,tgh:-1}
 {id:1266,name:"Gyallanbard HD2",cost:40,hp:20,str:3,wlk:2,fly:-1,tgh:1}
@@ -422,7 +422,8 @@
 {id:1294,name:"Dartanis HD2",cost:20,hp:15,str:2,wlk:2,fly:-1}
 {id:1295,name:"Shroomash HD",cost:50,hp:25,str:1,tec:2,fly:1,tgh:2}
 {id:1296,name:"Mirage Raid HD2",cost:35,hp:20,str:2,tec:1,wlk:-1,fly:1,tgh:2}
-//last:1296
+{id:1297,name:"Cosmo Kaiser HD2",cost:45,hp:25,str:0,tec:2,wlk:2,fly:0,tgh:1}
+//last:1297
 
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}

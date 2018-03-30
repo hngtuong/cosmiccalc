@@ -268,4 +268,6 @@
 {id:73,name:"Dead Recall R",sub:{pwr:5,shl:30,rng:250,spd:100,itv:4000},size:"M",type:"s",cost:100,tec:1}
 {id:74,name:"Aresis Sword",size:"L",type:"l",cost:160,main:{str:100,pwr:20,shl:30,rng:305,spd:325,itv:1000},sub:{str:100,pwr:32,rng:70,spd:70,itv:500},tunable:{mwp:1,pwp:1}}
 {id:75,name:"Centurion Stem",size:"L",type:"l",cost:160,main:{str:100,pwr:33,shl:30,rng:320,spd:300,itv:200},sub:{str:100,pwr:34,rng:70,spd:85,itv:600},auraStat:{main:{str:100,pwr:11,shl:90,rng:320,spd:300,itv:200},sub:{str:100,pwr:22,rng:70,spd:85,itv:600}},tunable:{mwp:1,pwp:1}}
-//last:75
+{id:76,name:"Crystal Pilebunker",size:"L",type:"l",cost:90,sub:{pwr:38,rng:90,spd:80,itv:500}}
+{id:77,name:"X Long Sword",size:"M",type:"las",cost:80,tec:1,wlk:1,sub:{str:100,pwr:28,rng:75,spd:80,itv:800}}
+//last:77
