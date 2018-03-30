@@ -218,7 +218,7 @@
 {id:1010,name:"M.Arch AM",cost:55,hp:20,str:1,tec:2,fly:1,tgh:1,main:{pwr:6,shl:100,rng:330,spd:320,itv:500},tunable:{mwp:1}}
 {id:1011,name:"Cyan AM",cost:35,hp:20,tec:2,fly:1,tgh:2,joint:{wp:2},conversion:"BDLS184 BDLS195 BDCS1066"}
 {id:1013,name:"Vermelho AM2",cost:35,hp:20,str:2,wlk:1,fly:1,tgh:1,conversion:"BDLS184 BDLS195 BDCS1066",joint:{wp:2}}
-//last:1013
+//last:1028
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:21,name:"Victory AM",cost:20,hp:15,str:1,fly:1}
@@ -596,7 +596,7 @@
 {id:145,name:"Aeolius AM",joint:{am:1},fixedParts:{am:{name:"Aeolius AM@",sub:{str:100,pwr:25,rng:70,spd:80,itv:1000},tunable:{mwp:0,pwp:0},slot:0,size:"L",type:"a",joint:{wp:0}}},type:"a",cost:115,hp:20,str:3,wlk:-1,fly:1,tgh:2}
 {id:146,name:"Rosso Aspide AM",main:{tec:100,pwr:4,shl:500,rng:340,spd:380,itv:300},tunable:{mwp:1},type:"a",size:"L",cost:75,hp:20,tec:3,wlk:-1,fly:3,conversion:"BDAL48",comment:"Attachable to 'Rosso Aspide BD' only",joint:{wp:0}}
 {id:147,name:"Rosso Aspide AM2",cost:35,hp:20,tec:2,wlk:-1,fly:2,tgh:2}
-{id:149,name:"Heldtkaiser AM",main:{pwr:8,shl:330,rng:320,spd:260,itv:1200},tunable:{mwp:1},type:"c",cost:70,str:2,tec:2,wlk:-1,tgh:2,hp:25}
+{id:149,name:"Heldtkaiser AM",main:{pwr:10,shl:300,rng:320,spd:280,itv:1000},tunable:{mwp:1},type:"c",cost:70,str:2,tec:2,wlk:-1,tgh:2,hp:25}
 {id:150,name:"Kuschelb AM2",sub:{pwr:8,shl:20,rng:120,spd:110,itv:500},tunable:{pwp:1},joint:{wp:2},type:"l",cost:75,hp:10,str:1,tgh:1}
 {id:158,name:"Jet Falcon AM",main:{pwr:10,shl:130,rng:230,spd:260,itv:1300},auraStat:{main:{pwr:12,shl:210,rng:300,spd:300,itv:340}},type:"a",tunable:{mwp:1},cost:85,hp:20,str:-1,tec:2,wlk:1,fly:2,tgh:1}
 {id:160,name:"Gigant Arms AM",joint:{wp:2},cost:35,hp:20,wlk:3,fly:1,tgh:1}
@@ -622,7 +622,9 @@
 {id:2125,name:"Centurion AM",cost:35,hp:20,str:1,tec:-1,wlk:2,fly:1,tgh:2}
 {id:2126,name:"Giganbreaker (ART)",type:"c",cost:115,hp:30,str:4,tgh:2,joint:{wp:0},main:{str:100,pwr:5,shl:200,rng:300,spd:600,itv:100},sub:{pwr:-1,rng:-9,spd:-9,itv:-1},tunable:{mwp:1,pwp:1},conversion:"BDCM1042"}
 {id:2127,name:"Giganbreaker (LND)",type:"l",cost:115,hp:30,str:4,tgh:2,joint:{wp:0},main:{str:100,pwr:-1,shl:-1,rng:-9,spd:-9,itv:-1},sub:{str:100,pwr:26,rng:70,spd:85,itv:500},tunable:{mwp:1,pwp:1},conversion:"BDLM60"}
-//last:2127
+{id:2128,name:"Transonic AM2",cost:110,hp:20,str:3,tec:0,wlk:-1,fly:3,tgh:0,type:"a",main:{str:100,pwr:14,shl:200,rng:320,spd:370,itv:300},tunable:{mwp:1},fixedParts:{wp:{name:"Transonic AM@2",slot:0,sub:{str:100,pwr:6,shl:10,rng:330,spd:320,itv:500}}}}
+{id:2129,name:"Cosmo Kaiser AM2",type:"l",cost:65,hp:20,str:1,tec:1,wlk:1,fly:0,tgh:2,sub:{pwr:0,shl:15,rng:110,spd:200,itv:500}}
+//last:2129
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:11,name:"Brigand Baron AM",cost:50,hp:35,str:2,tgh:3}

@@ -248,7 +248,7 @@
 {id:18,name:"Magnet Shotgun",main:{tec:100,pwr:4,shl:700,rng:330,spd:180,itv:1000},tunable:{mwp:1},type:"cs",size:"M",cost:140,wlk:-1,fly:1,tgh:-2}
 {id:21,name:"Advanced Shotgun",type:"l",size:"M",cost:160,main:{pwr:6,shl:1440,rng:225,spd:380,itv:500}}
 {id:22,name:"Advanced Shotgun Mod",type:"l",size:"M",cost:160,main:{pwr:8,shl:960,rng:225,spd:380,itv:500}}
-{id:23,name:"Shred Shotgun",main:{pwr:48,shl:200,rng:200,spd:350,itv:340},cost:180,size:"M",type:"l"}
+{id:23,name:"Shred Shotgun",main:{pwr:40,shl:240,rng:200,spd:350,itv:340},cost:180,size:"M",type:"l"}
 
 
 {group:"Bazookas",prefixID:"BZ",commonStat:{tunable:{mwp:1}}}
@@ -446,4 +446,14 @@
 {id:1046,name:"Shield Machinegun",cost:180,size:"M",type:"lc",main:{pwr:14,shl:450,rng:110,spd:330,itv:200}}
 {id:1047,name:"Micromissilegun",cost:80,size:"SS",type:"lc",main:{pwr:7,shl:180,rng:320,spd:260,itv:1000}}
 {id:1048,name:"Shock Stungun",cost:100,size:"S",type:"s",main:{pwr:14,shl:250,rng:220,spd:400,itv:500},sub:{pwr:30,shl:20,rng:70,spd:85,itv:1000},tunable:{pwp:1}}
-//last:1048
+{id:1049,name:"X Beam Rifle",type:"acs",size:"M",cost:70,hp:10,fly:1,main:{pwr:15,shl:300,rng:300,spd:380,itv:500}}
+{id:1050,name:"V-2 Way Missile Mod",type:"c",size:"L",cost:140,tec:1,wlk:1,fly:1,main:{pwr:25,shl:250,rng:300,spd:280,itv:800}}
+{id:1051,name:"X Burst Missile Gun",type:"lc",size:"M",cost:130,hp:10,wlk:1,fly:1,main:{pwr:17,shl:150,rng:320,spd:280,itv:1000}}
+//
+{id:1053,name:"X Gamma Lightning Gun",type:"a",size:"M",cost:130,tec:2,fly:1,main:{pwr:28,shl:250,rng:280,spd:380,itv:500}}
+{id:1054,name:"X Handy Magnum",size:"S",cost:45,tec:2,main:{pwr:22,shl:280,rng:180,spd:350,itv:400}}
+{id:1055,name:"X Compact Launcher",type:"c",size:"S",cost:60,main:{pwr:13,shl:180,rng:250,spd:260,itv:600}}
+{id:1056,name:"X Pulse Gun",size:"S",cost:60,wlk:1,fly:1,main:{pwr:15,shl:250,rng:200,spd:300,itv:500}}
+{id:1057,name:"X Auto Beam Rifle",type:"a",size:"M",cost:160,hp:10,tec:2,fly:1,main:{pwr:17,shl:300,rng:300,spd:420,itv:200}}
+{id:1058,name:"X Scout Rifle",type:"lcs",size:"M",cost:140,hp:10,tec:1,wlk:1,main:{pwr:23,shl:270,rng:260,spd:380,itv:340}}
+{id:1059,name:"X Hand Gun",size:"S",cost:45,hp:10,tec:1,main:{pwr:18,shl:370,rng:180,spd:280,itv:380}}
