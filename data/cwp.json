@@ -121,7 +121,7 @@
 {id:120,name:"Malice Blade",main:{pwr:8,shl:400,rng:340,spd:220,itv:600},tunable:{mwp:1},conversion:"AMS167",comment:"Attachable to 'Nicole Malice AM6' only",size:"S",type:"c",cost:110}
 {id:121,name:"Azraq Lamp",main:{pwr:7,shl:400,rng:320,spd:280,itv:500},sub:{rng:100,itv:500},tunable:{mwp:1},joint:{wp:1},fixedParts:{wp:{name:"Azraq Lamp@",main:{pwr:27,shl:50,rng:320,spd:450,itv:500},slot:0}},type:"a",size:"S",cost:220,conversion:"BDAS85AM",comment:"Attachable to 'Munya AM2' only"}
 {id:122,name:"Ogreil AM2@",main:{pwr:4,shl:150,rng:280,spd:230,itv:1000},conversion:"AMM175",comment:"Attachable to 'Ogreil AM2' only",slot:0,cost:60}
-{id:123,name:"Kaiser Gewitter",main:{pwr:18,shl:100,spd:400,rng:300,itv:500},sub:{tec:100,pwr:10,shl:25,rng:150,spd:570,itv:500},type:"c",size:"L",conversion:"AML149",comment:"Attachable to 'Heldtkaiser AM' only",cost:70}
+{id:123,name:"Kaiser Gewitter",main:{pwr:18,shl:100,spd:400,rng:330,itv:500},sub:{tec:100,pwr:10,shl:25,rng:150,spd:570,itv:500},type:"c",size:"L",conversion:"AML149",comment:"Attachable to 'Heldtkaiser AM' only",cost:70}
 {id:124,name:"Nemlim BD8@",main:{pwr:18,shl:300,rng:220,spd:340,itv:440},tunable:{mwp:1},joint:{wp:1},type:"l",size:"S",cost:70,conversion:"BDLS144",comment:"Attachable to 'Nemlim BD8' only"}
 {id:125,name:"Nemlim BD8@2",main:{pwr:30,shl:30,rng:300,spd:450,itv:500},type:"l",size:"S",slot:0,cost:60,conversion:"WPCM124",comment:"Attachable to 'Nemlim BD8@' only"}
 {id:126,name:"Tri-bazooka",main:{tec:100,pwr:24,shl:250,rng:230,spd:275,itv:500},tunable:{mwp:1},cost:80,type:"l",size:"M",conversion:"AMM159",comment:"Attachable to 'Growldian AM' only"}
@@ -226,7 +226,7 @@
 {id:225,name:"Wonder Vorpal Sword",type:"a",size:"S",cost:90,joint:{wp:1},conversion:"BDAS107AM",main:{pwr:12,shl:750,rng:300,spd:330,itv:700},tunable:{mwp:1},fixedParts:{wp:{main:{pwr:23,shl:60,rng:330,spd:520,itv:500},name:"Mad Hatter Cannon",slot:0,cost:60}},comment:"Attachable to 'Alice AM' only"}
 {id:226,name:"Azoth Module",conversion:"AMS1009 AMS1011 AMS1013",type:"l",size:"S",cost:105,main:{str:100,pwr:11,shl:300,rng:225,spd:420,itv:400},sub:{str:100,pwr:0,shl:15,rng:10,spd:10,itv:500}}
 {id:227,name:"Mirage Raid AM@2",main:{pwr:0,shl:75,rng:150,spd:500,itv:1000},type:"a",size:"M",cost:15,conversion:"AMM167",comment:"Attachable to 'Mirage Raid AM' only"}
-
+{id:228,name:"Shock Bullet",main:{pwr:11,shl:150,rng:250,spd:400,itv:300},cost:40,conversion:"BDSS132AM"}
 
 {group:"Conversion-SWP",prefixID:"CS",commonStat:{tunable:{pwp:1}}}
 {id:1,name:"General Blade",main:{pwr:22,shl:30,rng:285,spd:325,itv:1000},sub:{str:100,pwr:28,rng:80,spd:70,itv:500},tunable:{mwp:1},size:"L",type:"l",cost:120,conversion:"AML1138",comment:"Attachable to 'Generaldo AM2' only"}
@@ -368,4 +368,5 @@
 {id:137,name:"Aegis Module",conversion:"AMS1009 AMS1011 AMS1013",type:"l",size:"S",cost:105,main:{pwr:5,shl:200,rng:320,spd:260,itv:600},sub:{str:100,pwr:28,rng:150,spd:150,itv:500},tunable:{mwp:1,pwp:1}}
 {id:138,name:"Fluffy Cape",type:"l",size:"S",cost:70,slot:0,joint:{wp:1},main:{str:100,pwr:20,shl:50,rng:300,spd:320,itv:1000},conversion:"BDLS187"}
 {id:139,name:"Snow Bear",type:"l",size:"S",cost:120,main:{str:100,pwr:15,shl:50,rng:200,spd:320,itv:500},tunable:{mwp:1},sub:{str:100,pwr:32,rng:70,spd:85,itv:500},conversion:"WPCS138"}
-{id:140,name:"Labyrinthaxe HW",cost:120,main:{shl:30,rng:10,spd:10,itv:500},sub:{pwr:32,rng:70,spd:85,itv:500},conversion:"BDLS190AM"}
+{id:140,name:"Labyrinthaxe HW",cost:120,main:{shl:30,rng:10,spd:10,itv:500},sub:{str:100,pwr:32,rng:70,spd:85,itv:500},conversion:"BDLS190AM"}
+{id:141,name:"Advanced Cleaning",cost:100,sub:{str:100,pwr:28,shl:30,rng:75,spd:80,itv:500},conversion:"BDSS132WP"}
