@@ -35,6 +35,9 @@ jobs:
     steps:
       - checkout
       - run:
+          name: install zip
+          command: apt-get install -y --no-install-recommends zip
+      - run:
           name: install ghr
           command: go get -u github.com/tcnksm/ghr
       - run:
