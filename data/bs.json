@@ -198,7 +198,7 @@
 {id:185,name:"A. Miral BS",sub:{shl:30,rng:100,spd:150,itv:2000},joint:{bs:1},type:"lc",size:"S",cost:55,hp:25,tec:2,wlk:1,fly:2}
 {id:186,name:"A. Miral BS@",type:"lc",size:"S",tunable:{mwp:1},main:{tec:100,pwr:10,shl:500,rng:250,spd:320,itv:440},cost:100,conversion:"BSS185",comment:"Attachable to 'A. Miral BS' only"}
 {id:187,name:"Maisie BS",type:"l",size:"S",cost:40,hp:20,str:2,tec:-1,fly:2,tgh:2}
-{id:188,name:"Alice BS",sub:{pwr:5,shl:260,rng:360,spd:360,itv:400},type:"a",size:"S",cost:65,hp:20,str:-1,tec:1,fly:3,tgh:2,conversion:"BDAS107",comment:"Attachable to 'Alice BD/BD2' only"}
+{id:188,name:"Alice BS",sub:{pwr:5,shl:260,rng:360,spd:360,itv:400},type:"a",size:"S",cost:65,hp:20,str:-1,tec:1,fly:3,tgh:2,conversion:"BDAS107 BDAS1089",comment:"Attachable to 'Alice BD/BD2' only"}
 {id:191,name:"Baphogridr Girl BS",type:"l",cost:40,hp:20,str:2,tec:1,wlk:-1,fly:3}
 {id:192,name:"Magical C.S. BSR",size:"S",cost:40,hp:20,str:1,wlk:2,fly:3,tgh:-1}
 {id:1051,name:"Oboromaru BS",type:"a",cost:40,hp:25,str:2,tec:2,wlk:-1,fly:2}
@@ -213,14 +213,20 @@
 {id:1052,name:"Kaltos Wing",joint:{wp:1},type:"a",cost:40,hp:20,str:1,tec:1,wlk:2,fly:2,tgh:-1,conversion:"BDAS60 BDAS73 BDAS90",comment:["Attachable to 'Litia BD/BD2/BD3' only","Weapon slot for 'Kaltos Wing@'"]}
 {id:1053,name:"Aries Wing",joint:{wp:1},type:"a",cost:40,hp:20,str:1,tec:1,wlk:2,fly:2,tgh:-1,conversion:"BDAS60 BDAS73 BDAS90",comment:"Attachable to 'Litia BD/BD2/BD3' only"}
 {id:1055,name:"P. Mona BS",sub:{pwr:10,shl:30,rng:100,spd:570,itv:1000},type:"c",cost:55,hp:20,str:1,tec:1,wlk:-1,fly:2,tgh:2}
-{id:1056,name:"T40 Tactical Arms",type:"c",cost:190,hp:25,tec:3,fly:2,tgh:1,joint:{wp:1,bs:1},main:{pwr:12,shl:600,rng:340,spd:340,itv:300},tunable:{mwp:1},sub:{tec:100,pwr:2,shl:30,rng:320,spd:260,itv:500},conversion:"BDCS1061"}
+{id:1056,name:"T40 Tactical Arms",type:"c",cost:190,hp:25,tec:3,fly:2,tgh:1,joint:{wp:1,bs:1},main:{pwr:14,shl:560,rng:340,spd:400,itv:300},tunable:{mwp:1},sub:{tec:100,pwr:2,shl:30,rng:320,spd:260,itv:500},conversion:"BDCS1061"}
 {id:1057,name:"Feuille BS",type:"c",cost:35,hp:20,tec:1,wlk:-1,fly:3,tgh:2}
 {id:1058,name:"Vermelho BS",type:"l",cost:35,hp:20,str:3,tec:1,fly:2,tgh:-1}
 {id:1059,name:"Odette BS",type:"a",cost:45,hp:30,str:-1,tec:2,wlk:1,fly:3}
 {id:1060,name:"Saber Elisalotte BS2",type:"a",cost:40,hp:20,str:3,tec:1,wlk:-1,fly:2}
 {id:1061,name:"M.Arch BS",type:"a",cost:25,hp:15,str:1,tec:1,fly:2}
 {id:1062,name:"Cyan BS",type:"c",cost:35,hp:20,str:1,tec:3,fly:2,tgh:-1}
-//last:1062
+{id:1063,name:"Raphilim BS",type:"a",cost:35,hp:20,str:-1,tec:2,wlk:1,fly:3}
+{id:1064,name:"Shana Kubera BS",type:"c",cost:45,hp:25,str:-1,tec:3,fly:3}
+{id:1065,name:"Baphogridr Girl BS2",type:"l",cost:40,hp:20,str:2,tec:1,wlk:-1,fly:3}
+{id:1066,name:"Alice BS2",sub:{pwr:3,shl:30,rng:360,spd:360,itv:300},type:"a",size:"S",cost:60,hp:20,str:0,tec:1,wlk:1,fly:3,tgh:0,conversion:"BDAS107 BDAS1089",comment:"Attachable to 'Alice BD/BD3' only"}
+{id:1067,name:"Maid Pepo BS",type:"s",cost:35,hp:25,str:1,tec:0,wlk:-1,fly:3,tgh:2}
+{id:1068,name:"Turtlebacker BS2",type:"l",cost:35,hp:20,str:0,tec:1,wlk:-1,fly:3,tgh:2}
+//last:1068
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Fizalivan BS",type:"l",cost:15,hp:15,fly:1,tgh:1}
@@ -373,7 +379,7 @@
 {id:141,name:"Robin Hunter BS",sub:{pwr:10,shl:10,rng:100,spd:340,itv:500},cost:55,hp:20,str:-1,tec:3,wlk:1,fly:2,type:"l"}
 {id:142,name:"Istina Bullet BS",type:"a",cost:35,hp:20,str:-1,tec:1,fly:2,tgh:3}
 {id:2112,name:"Istina Bullet BS3",type:"a",cost:35,hp:20,str:2,tec:2,fly:2,tgh:-1}
-{id:143,name:"Ramdiver BS",sub:{shl:10,itv:500},cost:90,hp:15,str:-1,tec:1,fly:3}
+{id:143,name:"Ramdiver BS",type:"a",sub:{shl:10,itv:500},cost:90,hp:15,str:-1,tec:1,fly:3}
 {id:144,name:"Valiant BS",main:{tec:100,pwr:14,shl:200,rng:250,spd:280,itv:300},tunable:{mwp:1},type:"a",cost:25,hp:15,str:-1,fly:3,tgh:1}
 {id:146,name:"Vampire Gale BS Beta",joint:{wp:1},cost:35,hp:15,str:1,tec:1,wlk:1,fly:2}
 {id:147,name:"Milky Way BS",joint:{wp:1},cost:35,hp:15,wlk:3,fly:2}
@@ -440,8 +446,12 @@
 {id:2120,name:"Hadelos BS",type:"l",cost:130,hp:30,str:2,tec:-1,fly:3,tgh:1,main:{pwr:6,shl:400,rng:230,spd:400,itv:140},tunable:{mwp:1}}
 {id:2121,name:"Firework Launcher BS",cost:30,hp:15,wlk:2,fly:2,main:{pwr:1,shl:200,rng:150,spd:200,itv:1000},tunable:{mwp:1}}
 {id:2122,name:"Tornado Gatling BS",type:"c",cost:110,hp:20,str:-1,tec:2,wlk:1,fly:2,main:{pwr:8,shl:500,rng:250,spd:380,itv:200},tunable:{mwp:1}}
-//last:2122
-
+{id:2123,name:"Genesion BS",type:"a",cost:55,hp:20,str:1,tec:2,wlk:-1,fly:3,sub:{pwr:1,shl:60,rng:150,spd:200,itv:500}}
+{id:2124,name:"Shivatoris BS",type:"lc",cost:40,hp:25,str:1,tec:-1,wlk:2,fly:3}
+{id:2126,name:"Subspace BS",cost:60,hp:15,wlk:2,fly:3,sub:{shl:15,rng:80,spd:200,itv:1200}}
+{id:2127,name:"Magnet Jamming BS",cost:60,hp:15,tec:1,wlk:1,fly:2,sub:{pwr:1,shl:15,rng:10,spd:180,itv:500}}
+{id:2128,name:"Shroomash BS",type:"s",cost:45,hp:25,str:0,tec:1,wlk:2,fly:2,tgh:0}
+//last:2128
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Steel Rider BS",type:"l",cost:25,hp:10,wlk:1,fly:2}
@@ -555,7 +565,11 @@
 {id:102,name:"Cordyceps BS2",type:"c",main:{pwr:4,shl:500,rng:320,spd:280,itv:740},tunable:{mwp:1},cost:90,hp:15,tec:2,wlk:-1,fly:2,tgh:1}
 {id:103,name:"Liozen BS",type:"l",cost:45,hp:25,str:2,tec:-1,fly:3,tgh:1}
 {id:104,name:"Crystas BS2",type:"a",cost:125,hp:20,tec:2,wlk:1,fly:2,tgh:-1,main:{pwr:8,shl:200,rng:330,spd:370,itv:340},sub:{pwr:1,shl:5,rng:10,spd:280,itv:500},tunable:{mwp:1}}
-//last:104
+{id:105,name:"Gozu BS",type:"l",cost:45,hp:25,str:2,wlk:1,fly:3,tgh:-1}
+{id:106,name:"Metatel BS",type:"a",cost:120,hp:25,tec:2,wlk:-1,fly:3,tgh:1,main:{pwr:22,shl:240,rng:320,spd:290,itv:500},tunable:{mwp:1},sub:{pwr:0,shl:30,rng:150,spd:320,itv:200}}
+{id:107,name:"Centurion BS",type:"l",cost:40,hp:25,str:1,tec:1,wlk:-1,fly:3,tgh:1}
+{id:108,name:"Cosmo Kaiser BS2",type:"l",cost:40,hp:25,str:2,tec:1,wlk:1,fly:2,tgh:-1}
+//last:108
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:1,name:"Shaden BS",type:"a",cost:150,hp:5,fly:1,sub:{pwr:1,shl:1,rng:200,spd:110,itv:2000}}
@@ -587,4 +601,4 @@
 {id:18,name:"Guardian Rook BSJ",joint:{wp:2,bs:1},fixedParts:{wp:[{name:"Rook BSJR@",main:{tec:100,pwr:1,shl:100,rng:300,spd:330,itv:300},slot:0},{name:"Rook BSJR@",main:{tec:100,pwr:1,shl:100,rng:300,spd:330,itv:300},slot:0}]},cost:5,hp:5,slot:1,size:"M"}
 // {id:19,name:"ワイヤードマグネガンBS",main:{pwr:10,shl:300,rng:300,spd:220,itv:700},tunable:{mwp:1},builtin:{bs:-1},type:"c",size:"M",cost:85,hp:10,tec:1,fly:2,joint:{bs:0}}
 {id:19,name:"Baphogridr BSJ",cost:5,hp:5,slot:1,size:"M"}
-{id:20,name:"Kyouka BSJ",cost:10,hp:10,wlk:1,size:"M",slot:1}
+{id:20,name:"Kyouka BSJ",cost:10,hp:10,wlk:1,size:"S",slot:1}
