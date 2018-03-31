@@ -60,4 +60,4 @@ workflows:
       - release:
           filters:
             branches:
-              only: circleci
+              only: master
