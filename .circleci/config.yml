@@ -48,7 +48,7 @@ jobs:
           command: zip -r9q ~/cosmiccalc/cosmiccalc.zip ~/cosmiccalc/*
       - run:
           name: create GitHub Release
-          command: ghr --replace $(cat ~/cosmiccalc/.circleci/release_date) ~/cosmiccalc/cosmiccalc.zip
+          command: ghr -u ${GITHUB_USERNAME} --replace $(cat ~/cosmiccalc/.circleci/release_date) ~/cosmiccalc/cosmiccalc.zip
 workflows:
   version: 2
   deploy-release:
