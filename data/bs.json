@@ -224,7 +224,9 @@
 {id:1064,name:"Shana Kubera BS",type:"c",cost:45,hp:25,str:-1,tec:3,fly:3}
 {id:1065,name:"Baphogridr Girl BS2",type:"l",cost:40,hp:20,str:2,tec:1,wlk:-1,fly:3}
 {id:1066,name:"Alice BS2",sub:{pwr:3,shl:30,rng:360,spd:360,itv:300},type:"a",size:"S",cost:60,hp:20,str:0,tec:1,wlk:1,fly:3,tgh:0,conversion:"BDAS107 BDAS1089",comment:"Attachable to 'Alice BD/BD3' only"}
-//last:1066
+{id:1067,name:"Maid Pepo BS",type:"s",cost:35,hp:25,str:1,tec:0,wlk:-1,fly:3,tgh:2}
+{id:1068,name:"Turtlebacker BS2",type:"l",cost:35,hp:20,str:0,tec:1,wlk:-1,fly:3,tgh:2}
+//last:1068
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Fizalivan BS",type:"l",cost:15,hp:15,fly:1,tgh:1}
@@ -566,7 +568,8 @@
 {id:105,name:"Gozu BS",type:"l",cost:45,hp:25,str:2,wlk:1,fly:3,tgh:-1}
 {id:106,name:"Metatel BS",type:"a",cost:120,hp:25,tec:2,wlk:-1,fly:3,tgh:1,main:{pwr:22,shl:240,rng:320,spd:290,itv:500},tunable:{mwp:1},sub:{pwr:0,shl:30,rng:150,spd:320,itv:200}}
 {id:107,name:"Centurion BS",type:"l",cost:40,hp:25,str:1,tec:1,wlk:-1,fly:3,tgh:1}
-//last:107
+{id:108,name:"Cosmo Kaiser BS2",type:"l",cost:40,hp:25,str:2,tec:1,wlk:1,fly:2,tgh:-1}
+//last:108
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:1,name:"Shaden BS",type:"a",cost:150,hp:5,fly:1,sub:{pwr:1,shl:1,rng:200,spd:110,itv:2000}}

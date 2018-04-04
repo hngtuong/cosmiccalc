@@ -46,8 +46,8 @@
 {id:2,name:"Slow",cost:30,material:"10*1|30*33|25*27|16*19",comment:["55%","5% chance to Slow"]}
 {id:3,name:"Disorder",cost:30,material:"10*1|31*33|28*15|16*19",comment:["55%","5% chance to lower accuracy"]}
 {id:4,name:"Drain",cost:30,material:"10*1|32*33|27*15|16*19",comment:["55%","5% chance to Shell Drain"]}
-{id:5,name:"EX Melt",cost:30,hp:15,material:"10*1|47*20|16*15|41*15",comment:["55%","Reinforce S Drive cartridge required","5% chance to Melt"]}
-{id:6,name:"EX Powerless BETA",cost:30,hp:15,material:"10*1|47*20|16*15|45*15",comment:["55%","Reinforce S Drive cartridge required","5% chance to Powerless BETA"]}
+{id:5,name:"EX Melt",cost:30,hp:15,material:"10*1|42*20|16*15|44*15",comment:["55%","Reinforce S Drive cartridge required","5% chance to Melt"]}
+{id:6,name:"EX Powerless BETA",cost:30,hp:15,material:"10*1|42*20|16*15|43*15",comment:["55%","Reinforce S Drive cartridge required","5% chance to Powerless BETA"]}
 
 {group:"Strength",prefixID:"P",commonStat:{target:"cpt"}}
 {id:1,name:"Power",cost:5,str:1,material:"1*1|17*5",comment:"100%"}
