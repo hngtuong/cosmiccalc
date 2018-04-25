@@ -226,6 +226,7 @@
 {id:1066,name:"Alice BS2",sub:{pwr:3,shl:30,rng:360,spd:360,itv:300},type:"a",size:"S",cost:60,hp:20,str:0,tec:1,wlk:1,fly:3,tgh:0,conversion:"BDAS107 BDAS1089",comment:"Attachable to 'Alice BD/BD3' only"}
 {id:1067,name:"Maid Pepo BS",type:"s",cost:35,hp:25,str:1,tec:0,wlk:-1,fly:3,tgh:2}
 {id:1068,name:"Turtlebacker BS2",type:"l",cost:35,hp:20,str:0,tec:1,wlk:-1,fly:3,tgh:2}
+{id:1069,name:"Medicarest BS2",main:{tec:100,pwr:13,shl:350,rng:250,spd:350,itv:300},sub:{tec:100,pwr:15,shl:70,rng:260,spd:380,itv:500},type:"s",cost:155,hp:25,str:-1,tec:3,fly:3,conversion:"BDSS115"}
 //last:1068
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
