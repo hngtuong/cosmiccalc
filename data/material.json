@@ -57,3 +57,8 @@
 {id:45,name:"Tech Element"}
 {id:46,name:"Run Element"}
 {id:47,name:"Boost Element"}
+
+//Composite
+{id:48,name:"[CA] Composite Cosmos"}
+{id:49,name:"[HC] Composite Cosmos"}
+{id:50,name:"[GC] Composite Cosmos"}
