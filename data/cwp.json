@@ -148,7 +148,7 @@
 {id:147,name:"Fillnaught",type:"c",size:"S",main:{pwr:19,shl:300,rng:300,spd:300,itv:300},sub:{pwr:10,shl:50,rng:300,spd:150,itv:500},tunable:{mwp:1},cost:90,conversion:"AMS182",comment:"Attachable to 'Tristan AM2' only"}
 {id:148,name:"Harp Shield",type:"c",size:"S",main:{shl:30,spd:10,itv:1000},cost:40,conversion:"AMS181",comment:"Attachable to 'Tristan AM' only"}
 {id:149,name:"Aqua Splasher",main:{tec:100,pwr:30,shl:200,rng:300,spd:300,itv:800},tunable:{mwp:1},type:"l",size:"S",cost:65,conversion:"BDLS40AM BDLS40AM2 BDLS55AM BDLS55AM5 BDLS85AM3 BDLS85AM4 BDLS91AM6 BDLS118AM8 BDLS118AM7 BDLS126AM9 BDLS126AM7 BDLS156AM10",comment:"Attachable to 'Ion AM|2/3/4/5/6/7/8/9/10' only"}
-{id:150,name:"Water Flower Hy",main:{tec:100,pwr:6,shl:900,rng:200,spd:360,itv:200},sub:{tec:100,pwr:35,shl:50,rng:150,spd:400,itv:3000},tunable:{mwp:1},type:"l",size:"S",cost:100,conversion:"BDLS91 BDLS118 BDLS126 BDLS156",comment:"Attachable to 'Ion BD6/7/8/9/10/11' only"}
+{id:150,name:"Water Flower Hy",main:{tec:100,pwr:6,shl:900,rng:200,spd:360,itv:200},sub:{tec:100,pwr:35,shl:50,rng:250,spd:400,itv:3000},tunable:{mwp:1},type:"l",size:"S",cost:100,conversion:"BDLS91 BDLS118 BDLS126 BDLS156",comment:"Attachable to 'Ion BD6/7/8/9/10/11' only"}
 {id:151,name:"Driver Cannon",main:{tec:100,pwr:13,shl:420,rng:330,spd:220,itv:340},tunable:{mwp:1,pwp:0},size:"M",type:"c",cost:100,conversion:"BDCS79 BDCS1067",comment:"Attachable to 'Asphe BD' only"}
 {id:152,name:"Denden Cam Pro",main:{tec:100,pwr:15,shl:360,rng:320,spd:330,itv:300},tunable:{mwp:1},type:"a",size:"S",cost:90,conversion:"BDAS98 BDAS1082",comment:"Attachable to 'Minaria BD' only"}
 {id:153,name:"Weather Umbrella",sub:{tec:100,pwr:13,shl:40,rng:10,spd:320,itv:500},joint:{wp:1},cost:45,slot:0,conversion:"BDAS98AM BDAS1082AM",comment:"Attachable to 'Minaria AM2' only"}
@@ -229,6 +229,8 @@
 {id:228,name:"Shock Bullet",main:{pwr:11,shl:150,rng:250,spd:400,itv:300},cost:40,conversion:"BDSS132AM"}
 {id:229,name:"Pursuit Order",cost:50,slot:0,main:{shl:30,rng:270,spd:260,itv:500},conversion:"BDLS199"}
 {id:230,name:"Chullunku",cost:30,main:{pwr:20,shl:30,rng:320,spd:520,itv:500},conversion:"WPCM46 WPCM47 WPCM170 WPCS143"}
+{id:231,name:"Lightning Buster PT",cost:100,main:{pwr:25,shl:220,rng:330,spd:350,itv:400},sub:{pwr:0},conversion:"BDAS1092AM"}
+{id:232,name:"Vice Cannon HD@",cost:80,main:{pwr:8,shl:450,rng:320,spd:300,itv:500},conversion:"BDCL51HD"}
 
 {group:"Conversion-SWP",prefixID:"CS",commonStat:{tunable:{pwp:1}}}
 {id:1,name:"General Blade",main:{pwr:22,shl:30,rng:285,spd:325,itv:1000},sub:{str:100,pwr:28,rng:80,spd:70,itv:500},tunable:{mwp:1},size:"L",type:"l",cost:120,conversion:"AML1138",comment:"Attachable to 'Generaldo AM2' only"}
@@ -368,7 +370,7 @@
 {id:135,name:"Fragarach Module",conversion:"AMS1009 AMS1011 AMS1013",type:"l",size:"S",cost:105,main:{pwr:15,shl:150,rng:225,spd:420,itv:200},sub:{str:100,pwr:32,rng:70,spd:85,itv:500},tunable:{mwp:1,pwp:1}}
 {id:136,name:"Titan Module",conversion:"AMS1009 AMS1011 AMS1013",type:"l",size:"S",cost:105,main:{str:100,pwr:30,shl:10,rng:200,spd:570,itv:500},sub:{str:100,pwr:32,rng:70,spd:85,itv:500},tunable:{mwp:1,pwp:1}}
 {id:137,name:"Aegis Module",conversion:"AMS1009 AMS1011 AMS1013",type:"l",size:"S",cost:105,main:{pwr:5,shl:200,rng:320,spd:260,itv:600},sub:{str:100,pwr:28,rng:150,spd:150,itv:500},tunable:{mwp:1,pwp:1}}
-{id:138,name:"Fluffy Cape",type:"l",size:"S",cost:70,slot:0,joint:{wp:1},main:{str:100,pwr:20,shl:50,rng:300,spd:320,itv:1000},conversion:"BDLS187"}
+{id:138,name:"Fluffy Cape",type:"l",size:"S",cost:70,slot:0,joint:{wp:1},main:{str:100,pwr:32,shl:50,rng:300,spd:520,itv:1000},conversion:"BDLS187"}
 {id:139,name:"Snow Bear",type:"l",size:"S",cost:120,main:{str:100,pwr:15,shl:50,rng:200,spd:320,itv:500},tunable:{mwp:1},sub:{str:100,pwr:32,rng:70,spd:85,itv:500},conversion:"WPCS138"}
 {id:140,name:"Labyrinthaxe HW",cost:120,main:{shl:30,rng:10,spd:10,itv:500},sub:{str:100,pwr:32,rng:70,spd:85,itv:500},conversion:"BDLS190AM"}
 {id:141,name:"Advanced Cleaning",cost:100,sub:{str:100,pwr:28,shl:30,rng:75,spd:80,itv:500},conversion:"BDSS132WP"}
