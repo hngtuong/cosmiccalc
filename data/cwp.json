@@ -229,8 +229,9 @@
 {id:228,name:"Shock Bullet",main:{pwr:11,shl:150,rng:250,spd:400,itv:300},cost:40,conversion:"BDSS132AM"}
 {id:229,name:"Pursuit Order",cost:50,slot:0,main:{shl:30,rng:270,spd:260,itv:500},conversion:"BDLS199"}
 {id:230,name:"Chullunku",cost:30,main:{pwr:20,shl:30,rng:320,spd:520,itv:500},conversion:"WPCM46 WPCM47 WPCM170 WPCS143"}
-{id:231,name:"Lightning Buster PT",cost:100,main:{pwr:25,shl:220,rng:330,spd:350,itv:400},sub:{pwr:0},conversion:"BDAS1092AM"}
+{id:231,name:"Lightning Buster PT",cost:100,main:{pwr:25,shl:220,rng:330,spd:350,itv:400},sub:{itv:500},conversion:"BDAS1092AM"}
 {id:232,name:"Vice Cannon HD@",cost:80,main:{pwr:8,shl:450,rng:320,spd:300,itv:500},conversion:"BDCL51HD"}
+{id:233,name:"ECM Lightning Buster",main:{tec:100,pwr:17,shl:220,rng:330,spd:350,itv:440},sub:{itv:500},conversion:"BDAS1092AM",cost:100}
 
 {group:"Conversion-SWP",prefixID:"CS",commonStat:{tunable:{pwp:1}}}
 {id:1,name:"General Blade",main:{pwr:22,shl:30,rng:285,spd:325,itv:1000},sub:{str:100,pwr:28,rng:80,spd:70,itv:500},tunable:{mwp:1},size:"L",type:"l",cost:120,conversion:"AML1138",comment:"Attachable to 'Generaldo AM2' only"}
