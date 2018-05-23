@@ -1,4 +1,4 @@
-﻿{group:"Force",prefixID:"F",commonStat:{target:"mwp"}}
+{group:"Force",prefixID:"F",commonStat:{target:"mwp"}}
 {id:1,name:"Force",cost:10,effect:{pwr:3},material:"7*1|23*4",comment:["40%","Force+3%"]}
 {id:2,name:"High Force Alpha",cost:20,effect:{pwr:6,rng:-7},material:"8*1|23*5|11*10",comment:["55%","Force+6%、Range-7%"]}
 {id:3,name:"High Force Beta",cost:20,effect:{pwr:6,shl:-7},material:"8*1|23*5|12*10",comment:["55%","Force+6%、Ammo-7%"]}

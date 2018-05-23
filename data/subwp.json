@@ -271,3 +271,4 @@
 {id:76,name:"Crystal Pilebunker",size:"L",type:"l",cost:90,sub:{pwr:38,rng:90,spd:80,itv:500}}
 {id:77,name:"X Long Sword",size:"M",type:"las",cost:80,tec:1,wlk:1,sub:{str:100,pwr:28,rng:75,spd:80,itv:800}}
 {id:78,name:"Booster Javelin",size:"M",type:"l",cost:160,sub:{str:100,pwr:32,rng:150,spd:95,itv:1800}}
+{id:79,name:"Aresis Spear",size:"L",type:"l",cost:160,main:{str:100,pwr:15,shl:30,rng:305,spd:400,itv:1000},sub:{str:100,pwr:34,rng:100,spd:85,itv:500},tunable:{mwp:1}}
