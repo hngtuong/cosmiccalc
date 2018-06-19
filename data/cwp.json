@@ -126,7 +126,7 @@
 {id:125,name:"Nemlim BD8@2",main:{pwr:30,shl:30,rng:300,spd:450,itv:500},type:"l",size:"S",slot:0,cost:60,conversion:"WPCM124",comment:"Attachable to 'Nemlim BD8@' only"}
 {id:126,name:"Tri-bazooka",main:{tec:100,pwr:24,shl:250,rng:230,spd:275,itv:500},tunable:{mwp:1},cost:80,type:"l",size:"M",conversion:"AMM159",comment:"Attachable to 'Growldian AM' only"}
 {id:127,name:"Talis Shooter",main:{pwr:19,shl:270,rng:230,spd:340,itv:440},tunable:{mwp:1},type:"l",size:"M",cost:95,conversion:"AMM159"}
-{id:128,name:"Labyrinthammer",main:{pwr:6,shl:100,rng:290,spd:280,itv:1200,tec:100},sub:{tec:100,pwr:30,shl:50,rng:340,spd:210,itv:1000},type:"c",size:"M",cost:115,joint:{wp:1},conversion:"BDCS56AM BDCS69AM BDCS88AM",comment:"Attachable to 'Miruru Miu AM/AM3/AM4' only",tunable:{mwp:1}}
+{id:128,name:"Labyrinthammer",main:{pwr:6,shl:100,rng:290,spd:280,itv:1200,tec:100},sub:{tec:100,pwr:30,shl:50,rng:340,spd:210,itv:1000},type:"c",size:"M",cost:115,joint:{wp:1},conversion:"BDCS56AM BDCS69AM BDCS88AM",comment:"Attachable to 'Miruru Miu AM/AM3/AM4' only",tunable:{pwp:1}}
 {id:129,name:"Labyrinthammer@",main:{pwr:26,shl:150,rng:350,spd:320,itv:700,tec:100},sub:{tec:100,pwr:20,shl:20,rng:150,spd:130,itv:1000},type:"c",size:"S",cost:110,slot:0,conversion:"WPCM128"}
 {id:130,name:"Labyrinthaxe LJ@",main:{pwr:17,shl:400,rng:280,spd:240,itv:340,tec:100},type:"c",size:"S",cost:75,conversion:"WPCS51",comment:"Attachable to 'Labyrinthaxe LJ' only",tunable:{mwp:1}}
 {id:131,name:"Pepen Gunners",main:{tec:100,pwr:14,shl:450,rng:330,spd:320,itv:440},tunable:{mwp:1},type:"c",size:"M",cost:100,conversion:"BDCS1060 BDCS70"}
@@ -230,7 +230,7 @@
 {id:229,name:"Pursuit Order",cost:50,slot:0,main:{shl:30,rng:270,spd:260,itv:500},conversion:"BDLS199"}
 {id:230,name:"Chullunku",cost:30,main:{pwr:20,shl:30,rng:320,spd:520,itv:500},conversion:"WPCM46 WPCM47 WPCM170 WPCS143"}
 {id:231,name:"Lightning Buster PT",cost:100,main:{pwr:25,shl:220,rng:330,spd:350,itv:400},sub:{itv:500},conversion:"BDAS1092AM"}
-{id:232,name:"Vice Cannon HD@",cost:80,main:{pwr:8,shl:450,rng:320,spd:300,itv:500},conversion:"BDCL51HD"}
+{id:232,name:"Vice Cannon HD@",cost:80,main:{pwr:8,shl:450,rng:320,spd:300,itv:500},conversion:"HDL14"}
 {id:233,name:"ECM Lightning Buster",main:{tec:100,pwr:17,shl:220,rng:330,spd:350,itv:440},sub:{itv:500},conversion:"BDAS1092AM",cost:100}
 
 {group:"Conversion-SWP",prefixID:"CS",commonStat:{tunable:{pwp:1}}}
