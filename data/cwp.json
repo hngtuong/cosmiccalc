@@ -33,7 +33,7 @@
 {id:32,name:"Battle Frame I ALPHA 2 (Illumis)",main:{pwr:8,shl:800,rng:320,spd:280,itv:440},type:"a",size:"S",cost:70,conversion:"BDAS59",comment:"Attachable to 'Bikini Illumis BD/BD2'/'School Illumis BD' only"}
 {id:33,name:"Battle Frame I BETA (Illumis)",main:{pwr:8,shl:120,rng:320,spd:260,itv:500},sub:{pwr:1,shl:10,spd:130,itv:1000},type:"a",size:"S",cost:100,conversion:"BDAS59LG",comment:"Attachable to 'Bikini Illumis LG' only"}
 {id:34,name:"Battle Frame P ALPHA",main:{pwr:6,shl:800,rng:320,spd:270,itv:800},sub:{pwr:1,shl:15,spd:150,itv:1000},size:"S",type:"c",cost:90,conversion:"BDCS43",comment:"Attachable to 'Bikini Persenachia BD' only"}
-{id:35,name:"Kaltos Wing@",main:{pwr:6,shl:800,rng:250,spd:300,itv:300},sub:{pwr:20,shl:10,itv:1000},type:"a",size:"S",cost:90,conversion:"BSS1052",comment:"Attachable to 'Kaltos Wing' only"}
+{id:35,name:"Kaltos Wing@",main:{str:100,pwr:8,shl:800,rng:300,spd:320,itv:300},sub:{pwr:20,shl:10,itv:1000},type:"a",size:"S",cost:90,conversion:"BSS1052 BSS126 BSS1053",comment:"Attachable to 'Kaltos Wing' only"}
 {id:36,name:"Dieranarcam AM@",main:{pwr:12,shl:400,rng:360,spd:385,itv:460},type:"a",size:"L",cost:40,slot:0,conversion:"AML113",comment:"Attachable to 'Dieranarcam AM' only"}
 {id:37,name:"Dieranarcam LG@2",main:{pwr:11,shl:200,rng:300,spd:220,itv:700},sub:{shl:6,spd:180,itv:1000},type:"a",cost:60,size:"L",slot:0,conversion:"LGL81",comment:"Attachable to 'Dieranarcam LG' only"}
 {id:38,name:"Katalina BD4@",main:{pwr:3,shl:300,rng:230,spd:380,itv:340},sub:{shl:16,rng:100,spd:120,itv:1000},joint:{wp:1},fixedParts:{wp:{name:"Katalina BD4@2",cost:35,hp:15,wlk:2,fly:3,tgh:-1,slot:0}},slot:0,cost:45,conversion:"BDAM36",comment:"Attachable to 'Katalina BD4' only"}
@@ -72,7 +72,7 @@
 {id:71,name:"Peach Soul",main:{shl:5,spd:10,itv:500},sub:{tec:100,pwr:32,shl:15,rng:180,spd:300,itv:500},joint:{wp:1},fixedParts:{wp:{name:"Peach Soul @",main:{shl:5,rng:300,spd:10,itv:500},slot:0}},cost:100,slot:0,type:"l",size:"S",conversion:"BDLS124",comment:"Attachable to 'Kaede BD' only"}
 {id:72,name:"Snow Flower",main:{pwr:[28,30,32],shl:[200,250,300],rng:300,spd:[300,315,330],itv:800},sub:{shl:1,rng:60,spd:60,itv:2000},type:"l",size:"S",cost:70,slot:0,conversion:"BDLS91 BDLS118 BDLS126",comment:"Attachable to 'Ion BD6/BD7/BD8/BD8#2/BD9/BD10' only"}
 {id:73,name:"Aqua Pot",main:{tec:100,pwr:1,shl:100,rng:300,spd:220,itv:1100},tunable:{mwp:1},type:"l",size:"S",cost:30,conversion:"BDLS126AM9",comment:"Attachable to 'Ion AM9' only"}
-{id:74,name:"Blue Wing@",main:{tec:100,pwr:6,shl:60,rng:280,spd:280,itv:300},sub:{str:100,pwr:20,shl:10,itv:1000},tunable:{mwp:1},conversion:"BSS1052 BSS126",comment:"Attachable to 'Kaltos Wing'/'Blue Wing' only",cost:90}
+{id:74,name:"Blue Wing@",main:{tec:100,pwr:6,shl:60,rng:300,spd:280,itv:300},sub:{str:100,pwr:20,shl:10,itv:1000},tunable:{mwp:1},conversion:"BSS1052 BSS126 BSS1053",comment:"Attachable to 'Kaltos Wing'/'Blue Wing' only",cost:90}
 {id:75,name:"Charge Delay Cassette",main:{pwr:22,shl:350,rng:320,spd:370,itv:300},type:"a",size:"S",cost:90,tunable:{mwp:1},conversion:"WPCS55",comment:"Attachable to 'Aurora Cannon' only"}
 {id:76,name:"Auto-Charge Cassette",main:{pwr:40,shl:30,rng:360,spd:520,itv:500},type:"a",size:"S",cost:50,slot:0,conversion:"WPCS55",comment:"Attachable to 'Aurora Cannon' only"}
 {id:77,name:"Beam Crystal",main:{pwr:15,shl:400,rng:330,spd:330,itv:1000},tunable:{mwp:1},type:"a",size:"S",cost:80,conversion:"BDAS77LG BDAS106LG",comment:"Attachable to 'Fractulus Girl LG/LG2' only"}
@@ -232,6 +232,7 @@
 {id:231,name:"Lightning Buster PT",cost:100,main:{pwr:25,shl:220,rng:330,spd:350,itv:400},sub:{itv:500},conversion:"BDAS1092AM"}
 {id:232,name:"Vice Cannon HD@",cost:80,main:{pwr:8,shl:450,rng:320,spd:300,itv:500},conversion:"HDL14"}
 {id:233,name:"ECM Lightning Buster",main:{tec:100,pwr:17,shl:220,rng:330,spd:350,itv:440},sub:{itv:500},conversion:"BDAS1092AM",cost:100}
+{id:234,name:"Bouclier Cannon",cost:140,main:{pwr:30,shl:260,rng:350,spd:400,itv:600},sub:{itv:500},conversion:"BDCS74AM",joint:{wp:2},fixedParts:{wp:{name:"Bouclier Cannon@",slot:0,cost:60,main:{pwr:30,shl:450,rng:430,spd:370,itv:200}}}}
 
 {group:"Conversion-SWP",prefixID:"CS",commonStat:{tunable:{pwp:1}}}
 {id:1,name:"General Blade",main:{pwr:22,shl:30,rng:285,spd:325,itv:1000},sub:{str:100,pwr:28,rng:80,spd:70,itv:500},tunable:{mwp:1},size:"L",type:"l",cost:120,conversion:"AML1138",comment:"Attachable to 'Generaldo AM2' only"}
@@ -257,8 +258,8 @@
 {id:21,name:"Battle Frame L ALPHA",sub:{shl:5,rng:290,spd:140,itv:1000},type:"l",size:"S",cost:30,conversion:"BDLS109 BDLS137",comment:"Attachable to 'Bikini Lily Rain BD2'/'School Lily Rain BD' only"}
 {id:22,name:"Battle Frame R ALPHA",sub:{pwr:15,shl:60,rng:230,spd:240,itv:500,tec:100},type:"s",size:"S",cost:60,conversion:"BDSS92",comment:"Attachable to 'Bikini Rouche BD' only"}
 {id:23,name:"Battle Frame P BETA",sub:{pwr:20,shl:30,rng:350,spd:400,itv:1000},type:"c",size:"S",cost:70,conversion:"BDCS43LG",comment:"Attachable to 'Bikini Persenachia LG' only"}
-{id:24,name:"Kaltos Tail",sub:{str:100,pwr:20,shl:15,rng:150,spd:350,itv:1000},tunable:{pwp:1},joint:{wp:1},fixedParts:{wp:{name:"Kaltos Tail@",slot:0}},type:"a",size:"S",cost:30,conversion:"BDAS60LG BDAS73LG BDAS90LG",comment:"Attachable to 'Litia LG/LG2/LG3' only"}
-{id:25,name:"Kaltos Sword",sub:{str:100,pwr:26,rng:70,spd:70,itv:500},tunable:{pwp:1},type:"a",cost:100,size:"S",conversion:"BDAS60AM BDAS72AM",comment:"Attachable to 'Litia AM2/AM4' only"}
+{id:24,name:"Kaltos Tail",sub:{str:100,pwr:32,shl:15,rng:200,spd:350,itv:1000},tunable:{pwp:1},joint:{wp:1},fixedParts:{wp:{name:"Kaltos Tail@",slot:0}},type:"a",size:"S",cost:30,conversion:"BDAS60LG BDAS73LG BDAS90LG",comment:"Attachable to 'Litia LG/LG2/LG3' only"}
+{id:25,name:"Kaltos Sword",sub:{str:100,pwr:32,rng:90,spd:80,itv:500},tunable:{pwp:1},type:"a",cost:100,size:"S",conversion:"BDAS60AM BDAS72AM BDAS90AM",comment:"Attachable to 'Litia AM2/AM4' only"}
 {id:26,name:"Kaltos Arm Mod",sub:{pwr:35,rng:90,spd:90,itv:800,str:100},tunable:{pwp:1},joint:{wp:1},fixedParts:{wp:{name:"Kaltos Arm Mod@",sub:{tec:100,pwr:12,shl:10,rng:250,itv:600},slot:0}},type:"l",size:"S",cost:100,conversion:"BDLS110BS BDLS131BS",comment:"Attachable to 'Elcott BSJ/BSJ2' only"}
 {id:27,name:"Battle Frame E ALPHA",sub:{rng:150,spd:170,itv:1000},type:"a",size:"S",cost:20,conversion:"BDAS62",comment:"Attachable to 'Bikini Eve BD' only"}
 {id:28,name:"Shinuchi Ranouraikiri ",sub:{str:100,pwr:32,rng:70,spd:85,itv:500},tunable:{pwp:1},type:"l",size:"S",cost:100,conversion:"BDLS112AM",comment:"Attachable to 'Bikini Ouka AM' only"}
@@ -281,8 +282,8 @@
 {id:45,name:"Seraph Knight Shield",type:"a",size:"S",cost:35,conversion:"BDAS68AM5",comment:"Attachable to 'Seraph Crimrose AM5' only"}
 {id:46,name:"Chivalry Soul",builtin:{bs:1},sub:{shl:[1,2,3],itv:500},type:"l",size:"S",conversion:"BDLS120",comment:["Attachable to 'Elisalotte BD8' only","ALPHA/BETA have the same stats"]}
 {id:47,name:"Grave Paddle",sub:{str:100,pwr:30,rng:70,spd:85,itv:500},tunable:{pwp:1},cost:90,type:"l",size:"S",conversion:"BDLS124AM",comment:"Attachable to 'Kaede AM' only"}
-{id:48,name:"Blue Tail",sub:{str:100,pwr:20,shl:15,rng:150,spd:350,itv:1000},joint:{wp:1},jointPart:1,cost:30,size:"S",type:"a",conversion:"BDAS60LG BDAS73LG BDAS90LG",comment:"Attachable to 'Litia LG/LG2/LG3' only"}
-{id:49,name:"Blue Sarissa",sub:{str:100,pwr:26,rng:80,spd:80,itv:500},tunable:{pwp:1},type:"a",size:"S",cost:100,conversion:"BDAS60AM BDAS72AM",comment:"Attachable to 'Litia AM2' only"}
+{id:48,name:"Blue Tail",sub:{str:100,pwr:32,shl:15,rng:200,spd:350,itv:1000},joint:{wp:1},jointPart:1,cost:30,size:"S",type:"a",conversion:"BDAS60LG BDAS73LG BDAS90LG",comment:"Attachable to 'Litia LG/LG2/LG3' only"}
+{id:49,name:"Blue Sarissa",sub:{str:100,pwr:32,rng:90,spd:90,itv:500},tunable:{pwp:1},type:"a",size:"S",cost:100,conversion:"BDAS60AM BDAS72AM BDAS90AM",comment:"Attachable to 'Litia AM2' only"}
 {id:50,name:"Labyrinthaxe",main:{pwr:17,shl:400,rng:280,spd:240,itv:340,tec:100},sub:{tec:100,pwr:20,shl:200,rng:340,spd:210,itv:1000},type:"c",size:"S",cost:225,conversion:"BDCS56AM BDCS69AM BDCS88AM",comment:"Attachable to 'Miruru Miu AM/AM3/AM4' only",tunable:{mwp:1}}
 {id:51,name:"Labyrinthaxe LJ",main:{pwr:23,shl:100,rng:340,spd:210,itv:400,tec:100},sub:{tec:100,pwr:20,shl:200,rng:340,spd:210,itv:1000},joint:{wp:1},type:"c",size:"S",cost:180,conversion:"BDCS56AM BDCS69AM BDCS88AM",comment:"Attachable to 'Miruru Miu AM/AM3/AM4' only",slot:0}
 {id:52,name:"Wing Attachment ALPHA",size:"M",cost:40,slot:0,sub:{shl:7,rng:100,spd:150,itv:2000},conversion:"BSM132",comment:"Attachable to 'Multiwing BS' only"}
@@ -328,9 +329,9 @@
 {id:92,name:"Outsider Key",sub:{rng:10,spd:10,itv:500},cost:90,slot:0,type:"l",size:"S",conversion:"BDLS148",comment:"Attachable to 'Aleixa Arl BD' only"}
 {id:93,name:"Glory Key",sub:{rng:10,spd:10,itv:500},cost:100,slot:0,type:"l",size:"S",conversion:"BDLS149",comment:"Attachable to 'Kal Valentine BD' only"}
 {id:94,name:"Wheel Tackle",sub:{pwr:32,rng:70,spd:160,itv:1000,str:100},tunable:{pwp:1},type:"l",size:"S",cost:70,conversion:"BDLS149LG",comment:"Attachable to 'Kal Valentine BD' only"}
-{id:95,name:"Aries Tail",sub:{str:100,pwr:20,shl:15,rng:150,spd:350,itv:1000},joint:{wp:1},fixedParts:{wp:"Aries Tail@"},cost:30,size:"S",type:"a",conversion:"BDAS60LG BDAS73LG BDAS90LG",comment:"Attachable to 'Litia LG/LG2/LG3' only"}
-{id:96,name:"Aries Scythe",sub:{str:100,pwr:26,rng:70,spd:70,itv:500},tunable:{pwp:1},type:"a",size:"S",cost:100,conversion:"BDAS60AM BDAS72AM",comment:"Attachable to 'Litia AM2/AM4' only"}
-{id:97,name:"Diable Cacher",sub:{pwr:15,shl:300,rng:350,spd:280,itv:500},type:"c",size:"S",cost:50,slot:0,conversion:"BDCS74WP",comment:"Attachable to 'Bouclier Cannon' only"}
+{id:95,name:"Aries Tail",sub:{str:100,pwr:32,shl:15,rng:200,spd:350,itv:1000},joint:{wp:1},fixedParts:{wp:"Aries Tail@"},cost:30,size:"S",type:"a",conversion:"BDAS60LG BDAS73LG BDAS90LG",comment:"Attachable to 'Litia LG/LG2/LG3' only"}
+{id:96,name:"Aries Scythe",sub:{str:100,pwr:32,rng:90,spd:80,itv:500},tunable:{pwp:1},type:"a",size:"S",cost:100,conversion:"BDAS60AM BDAS72AM BDAS90AM",comment:"Attachable to 'Litia AM2/AM4' only"}
+{id:97,name:"Diable Cacher",sub:{pwr:15,shl:300,rng:350,spd:280,itv:500},type:"c",size:"S",cost:50,slot:0,conversion:"WPCM234",comment:"Attachable to 'Bouclier Cannon' only"}
 {id:98,name:"Angel Injector",main:{pwr:12,shl:400,rng:240,spd:320,itv:500},sub:{shl:8,rng:100,spd:70,itv:1000},tunable:{mwp:1,pwp:0},type:"s",size:"S",cost:150,conversion:"BDSS121AM",comment:"Attachable to 'Medi Aide AM5' only"}
 {id:99,name:"Serment Noire",sub:{pwr:32,rng:65,spd:85,itv:1000,str:100},tunable:{pwp:1,mwp:0},type:"l",size:"S",cost:170,conversion:"BDLS150AM",comment:"Attachable to 'Gisele Noire AM2' only"}
 {id:100,name:"Jager Shield",main:{shl:30,spd:10,itv:700},sub:{str:100,pwr:32,rng:70,spd:85,itv:500},tunable:{pwp:1},cost:160,type:"l",size:"S",joint:{wp:1},fixedParts:{wp:{name:"Jager Shield@",main:{pwr:15,shl:25,rng:200,spd:260,itv:500,str:100},slot:0}},conversion:"BDLS130AM BDLS152AM",comment:"Attachable to 'Corona AM' only"}
@@ -377,3 +378,5 @@
 {id:141,name:"Advanced Cleaning",cost:100,sub:{str:100,pwr:28,shl:30,rng:75,spd:80,itv:500},conversion:"BDSS132WP"}
 {id:142,name:"Dinner Knife",cost:110,sub:{str:100,pwr:28,rng:70,spd:85,itv:500},conversion:"BDLS199AM"}
 {id:143,name:"Stiria Rod",cost:150,joint:{wp:1},main:{shl:150,rng:150,spd:500,itv:1000},sub:{pwr:38,shl:15,rng:70,spd:90,itv:1000},tunable:{mwp:1},conversion:"BDAS63AM BDAS81AM BDAS103AM BDAS1090AM"}
+{id:144,name:"Onitachii",cost:150,main:{str:100,pwr:15,shl:30,rng:200,spd:570,itv:500},sub:{str:100,pwr:32,rng:70,spd:85,itv:500},tunable:{mwp:1},conversion:"AMS1030"}
+{id:145,name:"Orge Shield",cost:130,main:{str:100,pwr:15,shl:200,rng:150,spd:370,itv:400},sub:{str:100,pwr:25,rng:150,spd:350,itv:500},tunable:{mwp:1},conversion:"AMS1031"}
