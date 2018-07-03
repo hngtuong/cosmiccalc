@@ -219,7 +219,9 @@
 {id:1011,name:"Cyan AM",cost:35,hp:20,tec:2,fly:1,tgh:2,joint:{wp:2},conversion:"BDLS184 BDLS195 BDCS1066"}
 {id:1013,name:"Vermelho AM2",cost:35,hp:20,str:2,wlk:1,fly:1,tgh:1,conversion:"BDLS184 BDLS195 BDCS1066",joint:{wp:2}}
 {id:1029,name:"Medicarest AM2",cost:35,hp:20,str:-1,tec:2,wlk:1,tgh:3}
-//last:1029
+{id:1030,name:"Toukimaru AM",cost:35,hp:20,str:3,tec:-1,wlk:1,tgh:2,joint:{wp:2},type:"l"}
+{id:1031,name:"Toukimaru AM2",cost:35,hp:20,str:2,tec:0,wlk:1,fly:-1,tgh:3,joint:{wp:2},type:"l"}
+//last:1031
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:21,name:"Victory AM",cost:20,hp:15,str:1,fly:1}

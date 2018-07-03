@@ -452,7 +452,8 @@
 {id:2126,name:"Subspace BS",cost:60,hp:15,wlk:2,fly:3,sub:{shl:15,rng:80,spd:200,itv:1200}}
 {id:2127,name:"Magnet Jamming BS",cost:60,hp:15,tec:1,wlk:1,fly:2,sub:{pwr:1,shl:15,rng:10,spd:180,itv:500}}
 {id:2128,name:"Shroomash BS",type:"s",cost:45,hp:25,str:0,tec:1,wlk:2,fly:2,tgh:0}
-//last:2128
+{id:2129,name:"Toukimaru BS",type:"l",cost:15,hp:10,str:1,tec:0,wlk:1,fly:2,tgh:-1}
+//last:2129
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Steel Rider BS",type:"l",cost:25,hp:10,wlk:1,fly:2}

@@ -249,6 +249,7 @@
 {id:21,name:"Advanced Shotgun",type:"l",size:"M",cost:160,main:{pwr:6,shl:1440,rng:225,spd:380,itv:500}}
 {id:22,name:"Advanced Shotgun Mod",type:"l",size:"M",cost:160,main:{pwr:8,shl:960,rng:225,spd:380,itv:500}}
 {id:23,name:"Shred Shotgun",main:{pwr:40,shl:240,rng:200,spd:350,itv:340},cost:180,size:"M",type:"l"}
+{id:24,name:"Shred Shotgun Mod",main:{pwr:38,shl:260,rng:200,spd:350,itv:340},cost:180,size:"M",type:"l"}
 
 
 {group:"Bazookas",prefixID:"BZ",commonStat:{tunable:{mwp:1}}}
