@@ -270,7 +270,8 @@
 {id:1114,name:"Shroomash LG",cost:50,hp:30,str:2,tec:1,wlk:2,fly:1,tgh:-1}
 {id:1115,name:"Mirage Raid LG2",cost:85,hp:20,str:3,tec:-1,wlk:2,fly:1,sub:{str:100,pwr:20,rng:65,spd:95,itv:500},tunable:{pwp:1}}
 {id:1116,name:"Toukimaru LG",cost:35,hp:20,str:1,tec:1,wlk:3,fly:-1,tgh:1}
-//last:1116
+{id:1117,name:"Dreiblitz LG",type:"c",cost:40,hp:25,str:0,tec:1,wlk:3,fly:2,tgh:-1}
+//last:1117
 
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
