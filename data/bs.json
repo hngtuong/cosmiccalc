@@ -227,7 +227,8 @@
 {id:1067,name:"Maid Pepo BS",type:"s",cost:35,hp:25,str:1,tec:0,wlk:-1,fly:3,tgh:2}
 {id:1068,name:"Turtlebacker BS2",type:"l",cost:35,hp:20,str:0,tec:1,wlk:-1,fly:3,tgh:2}
 {id:1069,name:"Medicarest BS2",main:{tec:100,pwr:13,shl:350,rng:250,spd:350,itv:300},tunable:{mwp:1},sub:{tec:100,pwr:15,shl:70,rng:260,spd:380,itv:500},type:"s",cost:155,hp:25,str:-1,tec:3,fly:3,conversion:"BDSS115"}
-//last:1068
+{id:1070,name:"Lisel BS2",cost:30,tec:2,hp:20,fly:2,tgh:1,type:"l"}
+//last:1070
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Fizalivan BS",type:"l",cost:15,hp:15,fly:1,tgh:1}
@@ -444,7 +445,7 @@
 {id:2117,name:"Antique Book BS",type:"lacs",cost:30,hp:15,tec:1,wlk:1,fly:2}
 {id:2118,name:"Ciel BS",type:"l",cost:40,hp:20,str:1,wlk:1,fly:2,tgh:1,joint:{wp:2},conversion:"BDLM58 BDLM59",comment:"Attachable to Ciel BD"}
 {id:2119,name:"Planet Wing BS",tyle:"lacs",cost:30,hp:15,str:2,fly:2}
-{id:2120,name:"Hadelos BS",type:"l",cost:130,hp:30,str:2,tec:-1,fly:3,tgh:1,main:{pwr:6,shl:400,rng:230,spd:400,itv:140},tunable:{mwp:1}}
+{id:2120,name:"Hadelos BS",type:"l",cost:130,hp:30,str:2,tec:-1,fly:3,tgh:1,main:{str:100,pwr:5,shl:400,rng:230,spd:400,itv:140},tunable:{mwp:1}}
 {id:2121,name:"Firework Launcher BS",cost:30,hp:15,wlk:2,fly:2,main:{pwr:1,shl:200,rng:150,spd:200,itv:1000},tunable:{mwp:1}}
 {id:2122,name:"Tornado Gatling BS",type:"c",cost:110,hp:20,str:-1,tec:2,wlk:1,fly:2,main:{pwr:8,shl:500,rng:250,spd:380,itv:200},tunable:{mwp:1}}
 {id:2123,name:"Genesion BS",type:"a",cost:55,hp:20,str:1,tec:2,wlk:-1,fly:3,sub:{pwr:1,shl:60,rng:150,spd:200,itv:500}}
@@ -453,7 +454,8 @@
 {id:2127,name:"Magnet Jamming BS",cost:60,hp:15,tec:1,wlk:1,fly:2,sub:{pwr:1,shl:15,rng:10,spd:180,itv:500}}
 {id:2128,name:"Shroomash BS",type:"s",cost:45,hp:25,str:0,tec:1,wlk:2,fly:2,tgh:0}
 {id:2129,name:"Toukimaru BS",type:"l",cost:15,hp:10,str:1,tec:0,wlk:1,fly:2,tgh:-1}
-//last:2129
+{id:2130,name:"Dreiblitz BS",type:"c",cost:125,hp:20,str:0,tec:2,wlk:2,fly:2,tgh:-1,main:{pwr:3,shl:30,rng:320,spd:280,itv:600},sub:{pwr:2,shl:15,rng:320,spd:280,itv:500},tunable:{mwp:1}}
+//last:2130
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Steel Rider BS",type:"l",cost:25,hp:10,wlk:1,fly:2}
