@@ -804,6 +804,12 @@ div.res_add_val{float:left;}
 #RES_HP>.res_current_val{width:30px;}
 #RES_HP>.res_add_val{color:#999;}
 
+#RES_EX{width:114px;}
+#RES_EX>.res_item_name{}
+#RES_EX>.res_current_val{width:24px;text-align:center;}
+#RES_EX>.res_add_val{color:#e5e674;}
+
+
 #RESULT_TABLE{
 	margin-right:5px;
 	width:240px;
@@ -848,6 +854,8 @@ div.res_add_val{float:left;}
 }
 .ng{color:red;}
 #JUDGE_SORTIE.ng{background-color:#f62;}
+#RES_EX.ng{background-color:#f62;}
+
 
 /* ロボ名 */
 
