@@ -430,7 +430,9 @@
 {id:1017,name:"Dartanis AM3",cost:100,hp:20,str:2,tec:-1,wlk:1,tgh:2,main:{str:100,pwr:11,shl:370,rng:250,spd:380,itv:300},sub:{pwr:28,shl:20,rng:250,spd:270,itv:500},tunable:{mwp:1},joint:{wp:0}}
 {id:1018,name:"Shroomash AM",type:"s",cost:70,hp:20,tec:3,tgh:2,joint:{wp:0},main:{pwr:16,shl:350,rng:250,spd:350,itv:300},tunable:{mwp:1}}
 {id:1019,name:"Snailbot AM2",type:"c",cost:75,hp:20,tec:2,fly:1,tgh:2,joint:{wp:0},main:{pwr:26,shl:130,rng:340,spd:320,itv:600,tunable:{mwp:1}}}
-//last:1019
+{id:1020,name:"Dreiblitz AM2",type:"c",cost:125,hp:20,tec:3,wlk:2,fly:0,tgh:0,joint:{wp:0},main:{pwr:25,shl:250,rng:320,spd:380,itv:500,tunable:{mwp:1}}}
+{id:1021,name:"Dreiblitz AM",cost:30,hp:15,str:1,tec:2,fly:1,tgh:1}
+//last:1021
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:2,name:"Ettion AM",cost:25,hp:25,str:1,tec:1,tgh:1}
@@ -628,7 +630,12 @@
 {id:2128,name:"Transonic AM2",cost:110,hp:20,str:3,tec:0,wlk:-1,fly:3,tgh:0,type:"a",main:{str:100,pwr:14,shl:200,rng:320,spd:370,itv:300},tunable:{mwp:1},fixedParts:{wp:{name:"Transonic AM@2",slot:0,sub:{str:100,pwr:6,shl:10,rng:330,spd:320,itv:500}}}}
 {id:2129,name:"Cosmo Kaiser AM2",type:"l",cost:65,hp:20,str:1,tec:1,wlk:1,fly:0,tgh:2,sub:{pwr:0,shl:15,rng:110,spd:200,itv:500}}
 {id:2130,name:"Aresis AM3",type:"l",cost:45,hp:25,str:3,tec:1,fly:0,tgh:1}
-//last:2130
+{id:2131,name:"Hadelos AM4",type:"l",joint:{wp:0},cost:165,hp:20,str:3,tec:0,wlk:2,tgh:0,sub:{str:100,pwr:32,rng:70,spd:90,itv:500},tunable:{pwp:1}}
+{id:2132,name:"Hadelos AM3",type:"l",cost:20,hp:15,str:1,tec:1,wlk:2,fly:-1,tgh:0}
+{id:2133,name:"Apollion AM",type:"a",cost:110,hp:25,str:3,tec:0,wlk:-1,fly:2,tgh:1,joint:{wp:0},sub:{str:100,pwr:27,rng:120,spd:110,itv:500},tunable:{pwp:1}}
+{id:2134,name:"Gozu AM2",type:"l",cost:155,hp:20,str:3,tec:-1,wlk:1,fly:0,tgh:2,joint:{wp:0},main:{str:100,pwr:10,shl:280,rng:225,spd:420,itv:600},tunable:{mwp:1}}
+{id:2135,name:"Gozu AM3",type:"l",cost:85,hp:25,str:2,tec:0,wlk:1,fly:0,tgh:2,sub:{pwr:32,rng:150,spd:350,itv:500},tunable:{pwp:1}}
+//last:2135
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:11,name:"Brigand Baron AM",cost:50,hp:35,str:2,tgh:3}

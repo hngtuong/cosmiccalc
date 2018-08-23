@@ -25,7 +25,7 @@
 
 /* CONST VARS */
 var VERSION = "3.4.3",
-	LAST_MODIFIED = "2018.07.17",
+	LAST_MODIFIED = "2018.08.22",
 
 	CODEW_URL = "http://hngtuong.github.io/cosmiccalc/",
 	
@@ -2507,3 +2507,15 @@ function initCookieRead(){
 
 })(jQuery);
 
+$(function Ex_count(){ //
+   var x = setInterval(function(){
+   	var ex_node = document.querySelectorAll('#ASSEMBLE .tuneex').length;
+   	document.getElementById("EX_displayCount").innerHTML = ex_node;
+   	if (ex_node > 10) {
+   		$("#RES_EX.res_item_container").addClass("ng");
+   	}
+   	if (ex_node <= 10) {
+   		$("#RES_EX.res_item_container").removeClass("ng");
+   	};
+   }, 2500);
+});
