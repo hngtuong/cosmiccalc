@@ -25,7 +25,7 @@
 
 /* CONST VARS */
 var VERSION = "3.4.3",
-	LAST_MODIFIED = "2018.09.04",
+	LAST_MODIFIED = "2018.09.11",
 
 	CODEW_URL = "http://hngtuong.github.io/cosmiccalc/",
 	
@@ -732,7 +732,7 @@ ajaxManager.set({
 
 		if(typeof td.target != "string" ||
 			td.target == "" ||
-			!td.target.match(/^(cpt|mwp|pwp|ex)( (lg|hd|bs|am|wp|hdac|fcac))*$/)) throw "Target error @699";
+			!td.target.match(/^(cpt|mwp|pwp|ex)( (lg|hd|bs|am|wp|hdac|fcac|mwp|pwp))*$/)) throw "Target error @699";
 
 		if(td.effect){
 			for(var s in td.effect){
@@ -2508,7 +2508,7 @@ function initCookieRead(){
 })(jQuery);
 
 $(function Ex_count(){ //
-   var x = setInterval(function(){
+   	var x = setInterval(function(){
    	var ex_node = document.querySelectorAll('#ASSEMBLE .tuneex').length;
    	document.getElementById("EX_displayCount").innerHTML = ex_node;
    	if (ex_node > 10) {
