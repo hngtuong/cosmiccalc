@@ -455,7 +455,8 @@
 {id:2128,name:"Shroomash BS",type:"s",cost:45,hp:25,str:0,tec:1,wlk:2,fly:2,tgh:0}
 {id:2129,name:"Toukimaru BS",type:"l",cost:15,hp:10,str:1,tec:0,wlk:1,fly:2,tgh:-1}
 {id:2130,name:"Dreiblitz BS",type:"c",cost:125,hp:20,str:0,tec:2,wlk:2,fly:2,tgh:-1,main:{pwr:3,shl:30,rng:320,spd:280,itv:600},sub:{pwr:2,shl:15,rng:320,spd:280,itv:500},tunable:{mwp:1}}
-//last:2130
+{id:2131,name:"Taiko BS",type:"lcs",cost:60,hp:15,str:0,tec:2,wlk:-1,fly:2,tgh:1,sub:{pwr:10,shl:10,rng:100,spd:120,itv:500}}
+//last:2131
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Steel Rider BS",type:"l",cost:25,hp:10,wlk:1,fly:2}
