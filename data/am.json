@@ -258,7 +258,7 @@
 {id:104,name:"Mecha Jetter OMG AM",cost:40,hp:25,str:1,tec:1,wlk:-1,fly:2,tgh:2}
 {id:40,name:"Sol Jetter AM",cost:45,hp:20,str:1,tec:1,wlk:1,fly:2}
 {id:49,name:"Amateus AM",cost:40,hp:20,tec:1,wlk:2,tgh:2}
-{id:50,name:"Amateus AM2",type:"c",cost:100,hp:20,tec:3,wlk:1,fly:1,main:{pwr:17,shl:150,rng:290,spd:205,itv:1400},tunable:{mwp:1},joint:{wp:0}}
+{id:50,name:"Amateus AM2",type:"c",cost:100,hp:20,tec:3,wlk:1,fly:1,main:{pwr:21,shl:180,rng:320,spd:300,itv:950},tunable:{mwp:1},joint:{wp:0}}
 {id:9,name:"Crescent Saint AM",cost:40,hp:25,str:2,wlk:1,fly:2}
 {id:60,name:"Sharhead AM",cost:40,hp:20,str:1,tec:2,wlk:1,fly:-1,tgh:2}
 {id:129,name:"Sharhead AM2",main:{pwr:12,shl:400,rng:200,spd:270,itv:420},tunable:{mwp:1},type:"lac",cost:90,hp:20,tec:2,wlk:1,fly:-1,tgh:3}
@@ -485,7 +485,7 @@
 {id:64,name:"Might Bomber AM2",main:{tec:100,pwr:25,shl:100,rng:280,spd:250,itv:1000},tunable:{mwp:1},cost:70,hp:20,str:1,tec:2,wlk:-1,type:"a",tgh:2,joint:{wp:0}}
 {id:65,name:"Might Bomber AM3",main:{tec:100,pwr:5,shl:240,rng:260,spd:260,itv:700},tunable:{mwp:1},type:"a",cost:70,hp:20,tec:2,wlk:-1,fly:1,tgh:2,joint:{wp:0}}
 {id:45,name:"Contradict AM",type:"c",cost:80,hp:25,str:-1,tec:3,wlk:1,fly:1,tgh:1,main:{pwr:14,shl:180,rng:220,spd:280,itv:800},tunable:{mwp:1},joint:{wp:0}}
-{id:3,name:"Hound Dog AM",type:"l",cost:90,hp:20,str:3,wlk:1,tgh:1,sub:{str:100,pwr:15,rng:28,spd:53,itv:600},tunable:{pwp:1}}
+{id:3,name:"Hound Dog AM",type:"l",cost:90,hp:20,str:3,wlk:1,tgh:1,sub:{str:100,pwr:17,rng:70,spd:85,itv:600},tunable:{pwp:1}}
 {id:2108,name:"Hound Dog AM2",type:"l",cost:125,hp:20,str:2,wlk:3,fly:-1,tgh:1,main:{shl:15,spd:10,itv:1000},sub:{str:100,pwr:16,rng:60,spd:100,itv:600},tunable:{pwp:1}}
 {id:53,name:"Poseidon AM",sub:{pwr:28,rng:47,spd:48,itv:1000},type:"a",cost:115,hp:25,str:3,tec:1,wlk:-1,tgh:2,tunable:{pwp:1},joint:{wp:0}}
 {id:54,name:"Poseidon AM2",sub:{pwr:12,shl:250,rng:290,spd:185,itv:2000},type:"a",cost:90,hp:20,str:1,tec:2,wlk:-1,fly:2,tgh:1,tunable:{mwp:0,pwp:0}}
