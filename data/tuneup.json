@@ -28,11 +28,11 @@
 {id:3,name:"Shooter",cost:20,effect:{rng:5,spd:5},material:"9*1|25*21|24*13|16*3",comment:["50%","Range+5%、Speed+5%"]}
 {id:4,name:"High Shooter",cost:45,effect:{rng:10,spd:10},material:"10*1|25*33|24*21|32*23|16*11",comment:["55%","Range+10%、Speed+10%"]}
 
-{group:"Main Weapon Special Effects",prefixID:"MS",commonStat:{target:"mwp"}}
-{id:1,name:"Paralyze",cost:50,material:"10*1|27*33|21*33|15*55",comment:["55%","Stunning probability is doubled"]}
-{id:2,name:"Breaker",cost:25,material:"10*1|35*35|36*33|37*19|38*19",comment:["55%","Chance of destroying parts increased by 25%"]}
-{id:3,name:"ExW Dash Restrict",cost:30,hp:15,material:"7*1|42*20|16*15|45*15",comment:["55%","5% chance to Dash & Air Dash Restrict","Reinforce G Drive cartridge required"]}
-{id:4,name:"ExW Bullet Speed Down",cost:30,hp:15,material:"8*1|42*20|16*15|45*15",comment:["55%","5% chance to Bullet Speed Down","Reinforce G Drive cartridge required"]}
+{group:"Main Weapon Special Effects",prefixID:"MS"}
+{id:1,name:"Paralyze",cost:50,target:"mwp",material:"10*1|27*33|21*33|15*55",comment:["55%","Stunning probability is doubled"]}
+{id:2,name:"Breaker",cost:25,target:"mwp",material:"10*1|35*35|36*33|37*19|38*19",comment:["55%","Chance of destroying parts increased by 25%"]}
+{id:3,name:"ExW Dash Restrict",cost:30,hp:15,target:"ex mwp",material:"7*1|42*20|16*15|45*15",comment:["55%","Reinforce G Drive cartridge required","5% chance to Dash & Air Dash Restrict"]}
+{id:4,name:"ExW Bullet Speed Down",cost:30,hp:15,target:"ex mwp",material:"8*1|42*20|16*15|45*15",comment:["55%","Reinforce G Drive cartridge required","5% chance to Bullet Speed Down"]}
 
 {group:"Sub Weapon Performance",prefixID:"PP",commonStat:{target:"pwp"}}
 {id:1,name:"Grappler",cost:10,effect:{pwr:3},material:"7*1|23*4",comment:["40%","Force+3%"]}
@@ -41,13 +41,13 @@
 {id:4,name:"Gladiator",cost:20,effect:{rng:5,spd:5},material:"9*1|24*13|25*15|16*3",comment:["50%","Range+5%、Speed+5%"]}
 {id:5,name:"High Gladiator",cost:45,effect:{rng:10,spd:10},material:"10*1|24*17|25*23|31*23|16*11",comment:["55%","Range+10%、Speed+10%"]}
 
-{group:"Sub Weapon Special Effects",prefixID:"PS",commonStat:{target:"pwp"}}
-{id:1,name:"Burning",cost:30,material:"10*1|29*33|23*27|16*19",comment:["55%","5% chance to Burn"]}
-{id:2,name:"Slow",cost:30,material:"10*1|30*33|25*27|16*19",comment:["55%","5% chance to Slow"]}
-{id:3,name:"Disorder",cost:30,material:"10*1|31*33|28*15|16*19",comment:["55%","5% chance to lower accuracy"]}
-{id:4,name:"Drain",cost:30,material:"10*1|32*33|27*15|16*19",comment:["55%","5% chance to Shell Drain"]}
-{id:5,name:"EX Melt",cost:30,hp:15,material:"10*1|42*20|16*15|44*15",comment:["55%","Reinforce S Drive cartridge required","5% chance to Melt"]}
-{id:6,name:"EX Powerless BETA",cost:30,hp:15,material:"10*1|42*20|16*15|43*15",comment:["55%","Reinforce S Drive cartridge required","5% chance to Powerless BETA"]}
+{group:"Sub Weapon Special Effects",prefixID:"PS"}
+{id:1,name:"Burning",cost:30,target:"pwp",material:"10*1|29*33|23*27|16*19",comment:["55%","5% chance to Burn"]}
+{id:2,name:"Slow",cost:30,target:"pwp",material:"10*1|30*33|25*27|16*19",comment:["55%","5% chance to Slow"]}
+{id:3,name:"Disorder",cost:30,target:"pwp",material:"10*1|31*33|28*15|16*19",comment:["55%","5% chance to lower accuracy"]}
+{id:4,name:"Drain",cost:30,target:"pwp",material:"10*1|32*33|27*15|16*19",comment:["55%","5% chance to Shell Drain"]}
+{id:5,name:"EX Melt",cost:30,hp:15,target:"ex pwp",material:"10*1|42*20|16*15|44*15",comment:["55%","Reinforce S Drive cartridge required","5% chance to Melt"]}
+{id:6,name:"EX Powerless BETA",cost:30,hp:15,target:"ex pwp",material:"10*1|42*20|16*15|43*15",comment:["55%","Reinforce S Drive cartridge required","5% chance to Powerless BETA"]}
 
 {group:"Strength",prefixID:"P",commonStat:{target:"cpt"}}
 {id:1,name:"Power",cost:5,str:1,material:"1*1|17*5",comment:"100%"}
