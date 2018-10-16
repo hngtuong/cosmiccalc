@@ -460,3 +460,4 @@
 {id:1060,name:"Guardian Rifle",size:"M",type:"a",cost:160,main:{pwr:36,shl:160,rng:330,spd:280,itv:1000}}
 {id:1061,name:"Hinawa",size:"M",type:"l",cost:180,main:{pwr:24,shl:220,rng:200,spd:350,itv:1000}}
 {id:1062,name:"LLB Mine Shooter",size:"LL",type:"a",cost:140,main:{pwr:26,shl:200,rng:330,spd:400,itv:800}}
+{id:1063,name:"Blaze Headcannon",size:"S",type:"c",cost:60,main:{pwr:19,shl:200,rng:320,spd:300,itv:940}}
