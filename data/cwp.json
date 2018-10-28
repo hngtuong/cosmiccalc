@@ -186,8 +186,8 @@
 {id:185,name:"Tsukishiro Style: Barrier",main:{shl:15,spd:10,itv:1000},type:"l",size:"S",cost:30,slot:0,conversion:"WPCS103",comment:"Attachable to 'Relic: Gattenmaru' only"}
 {id:186,name:"Tsukishiro Style: Mortar",main:{str:100,pwr:20,shl:30,rng:200,spd:570,itv:1000},tunable:{mwp:1},type:"l",size:"S",cost:30,conversion:"BDLS155AM2",comment:"Attachable to 'Kanna AM2' only"}
 {id:187,name:"Wizamel Wand",type:"a",size:"M",main:{pwr:20,shl:20,rng:410,spd:520,itv:1000},sub:{pwr:9,shl:120,rng:350,spd:320,itv:400},cost:110,slot:0,conversion:"AMM176",comment:"Attachable to 'Wizamel AM' only"}
-{id:188,name:"Mini Shuriken",main:{pwr:5,shl:650,rng:140,spd:200,itv:160},tunable:{mwp:1},type:"s",size:"S",cost:60,conversion:"SS126LG SS127LG",comment:"Attachable to 'Tricyclaser/II/III/IV/V' only"}
-{id:189,name:"Mini Stun Arrow",main:{pwr:15,shl:160,rng:230,spd:245,itv:500},size:"S",type:"s",cost:60,conversion:"SS126LG SS127LG",comment:"Attachable to 'Tricyclaser/II/III/IV/V' only"}
+{id:188,name:"Mini Shuriken",main:{pwr:5,shl:650,rng:140,spd:200,itv:160},tunable:{mwp:1},type:"s",size:"S",cost:60,conversion:"Tricyclaser",comment:"Attachable to 'Tricyclaser' parts only"}
+{id:189,name:"Mini Stun Arrow",main:{pwr:15,shl:160,rng:230,spd:245,itv:500},size:"S",type:"s",cost:60,conversion:"Tricyclaser",comment:"Attachable to 'Tricyclaser' parts only"}
 {id:190,name:"Beam Crystal Ru",main:{pwr:10,shl:320,rng:330,spd:330,itv:1000},tunable:{mwp:1},size:"S",type:"a",conversion:"BDAS106LG",comment:"Attachable to 'Fractulus Girl LG/LG2' only",cost:80}
 {id:191,name:"Crystal Wall II",main:{pwr:4,shl:800,rng:240,spd:300,itv:200},tunable:{mwp:1},type:"a",size:"M",conversion:"BDAS106",comment:"Attachable to 'Fractulus Girl BD/BD2/BD3/BD4' only",cost:40}
 {id:192,name:"Wonder Key Rod",main:{pwr:4,shl:840,rng:340,spd:330,itv:300},tunable:{mwp:1},fixedParts:{wp:{main:{pwr:32,shl:30,rng:390,spd:180,itv:500},name:"Cheshire Cannon",slot:0,cost:70}},type:"a",size:"S",cost:100,joint:{wp:1},conversion:"BDAS107AM",comment:"Attachable to 'Alice AM' only"}
@@ -213,10 +213,10 @@
 {id:212,name:"Fin Cannon PS",cost:120,type:"c",size:"S",slot:0,main:{pwr:6,shl:400,rng:300,spd:220,itv:340},sub:{pwr:5,shl:240,rng:320,spd:260,itv:600},conversion:"BDCS81 BDCS1064",comment:"Attachable to 'Colleti BD' only"}
 {id:213,name:"Liozen AM@",cost:50,slot:0,main:{str:100,pwr:15,shl:12,rng:130,spd:570,itv:1000},conversion:"AML2119"}
 {id:214,name:"Serieux Key Alpha",cost:150,main:{pwr:9,shl:480,rng:350,spd:330,itv:300},sub:{pwr:15,shl:15,rng:350,spd:280,itv:500},conversion:"BDCS1065AM"}
-{id:215,name:"Prometheus Module",cost:105,type:"c",main:{pwr:18,shl:125,rng:320,spd:380,itv:500},sub:{pwr:35,rng:110,spd:300,itv:1000},tunable:{pwp:1},conversion:"AMS1009 AMS1011 AMS1013"}
-{id:216,name:"Broniac Module",cost:105,type:"c",main:{pwr:26,shl:60,rng:350,spd:500,itv:500},sub:{pwr:15,shl:50,rng:250,spd:120,itv:500},conversion:"AMS1009 AMS1011 AMS1013"}
-{id:217,name:"Trident Module",cost:65,type:"c",joint:{wp:1},main:{pwr:6,shl:450,rng:330,spd:280,itv:740},sub:{pwr:1,shl:240,rng:20,spd:280,itv:600},conversion:"AMS1009 AMS1011 AMS1013"}
-{id:218,name:"Trident Module@",cost:45,slot:0,main:{pwr:21,shl:140,rng:290,spd:260,itv:800},conversion:"WPCM217"}
+//{id:215,name:"Prometheus Module",cost:105,type:"c",main:{pwr:18,shl:125,rng:320,spd:380,itv:500},sub:{pwr:35,rng:110,spd:300,itv:1000},tunable:{pwp:1},conversion:"AMS1009 AMS1011 AMS1013"}
+//{id:216,name:"Broniac Module",cost:105,type:"c",main:{pwr:26,shl:60,rng:350,spd:500,itv:500},sub:{pwr:15,shl:50,rng:250,spd:120,itv:500},conversion:"AMS1009 AMS1011 AMS1013"}
+//{id:217,name:"Trident Module",cost:65,type:"c",joint:{wp:1},main:{pwr:6,shl:450,rng:330,spd:280,itv:740},sub:{pwr:1,shl:240,rng:20,spd:280,itv:600},conversion:"AMS1009 AMS1011 AMS1013"}
+{id:218,name:"Trident Module@",cost:45,slot:0,main:{pwr:21,shl:140,rng:290,spd:260,itv:800},conversion:"AMS1034"}
 {id:219,name:"Driver Cannon II",cost:100,main:{pwr:18,shl:350,rng:230,spd:350,itv:500},conversion:"BDCS79 BDCS1067"}
 {id:220,name:"Gathima Buster",cost:80,main:{pwr:22,shl:200,rng:350,spd:360,itv:400},conversion:"BDCS92AM BDCS1068AM"}
 {id:221,name:"Gathima Launcher",cost:40,main:{pwr:10,shl:330,rng:350,spd:360,itv:800},conversion:"BDCS92 BDCS1068"}
@@ -224,7 +224,7 @@
 {id:223,name:"Serieux Key",cost:150,main:{pwr:10,shl:780,rng:350,spd:330,itv:300},sub:{pwr:24,shl:30,rng:350,spd:280,itv:500},conversion:"BDCS1065AM"}
 {id:224,name:"Hand Bouclier",cost:60,main:{pwr:25,shl:540,rng:430,spd:370,itv:200},conversion:"BDCS1065AM2"}
 {id:225,name:"Wonder Vorpal Sword",type:"a",size:"S",cost:90,joint:{wp:1},conversion:"BDAS107AM",main:{pwr:12,shl:750,rng:300,spd:330,itv:700},tunable:{mwp:1},fixedParts:{wp:{main:{pwr:23,shl:60,rng:330,spd:520,itv:500},name:"Mad Hatter Cannon",slot:0,cost:60}},comment:"Attachable to 'Alice AM' only"}
-{id:226,name:"Azoth Module",conversion:"AMS1009 AMS1011 AMS1013",type:"l",size:"S",cost:105,main:{str:100,pwr:11,shl:300,rng:225,spd:420,itv:400},sub:{str:100,pwr:0,shl:15,rng:10,spd:10,itv:500}}
+//{id:226,name:"Azoth Module",conversion:"AMS1009 AMS1011 AMS1013",type:"l",size:"S",cost:105,main:{str:100,pwr:11,shl:300,rng:225,spd:420,itv:400},sub:{str:100,pwr:0,shl:15,rng:10,spd:10,itv:500}}
 {id:227,name:"Mirage Raid AM@2",main:{pwr:0,shl:75,rng:150,spd:500,itv:1000},type:"a",size:"M",cost:15,conversion:"AMM167",comment:"Attachable to 'Mirage Raid AM' only"}
 {id:228,name:"Shock Bullet",main:{pwr:11,shl:150,rng:250,spd:400,itv:300},cost:40,conversion:"BDSS132AM"}
 {id:229,name:"Pursuit Order",cost:50,slot:0,main:{shl:30,rng:270,spd:260,itv:500},conversion:"BDLS199"}
@@ -238,6 +238,13 @@
 {id:237,name:"Slow Ball",cost:60,main:{pwr:10,shl:100,rng:150,spd:400,itv:500},conversion:"BDSS133 BDSS134 BDSS135 BDSS136 BDSS137 BDSS138 BDSS139 BDSS140 BDSS141 BDSS142"}
 {id:238,name:"Shock Ball",cost:60,main:{pwr:9,shl:150,rng:150,spd:400,itv:300},conversion:"BDSS133 BDSS134 BDSS135 BDSS136 BDSS137 BDSS138 BDSS139 BDSS140 BDSS141 BDSS142"}
 {id:239,name:"Range Field",cost:60,main:{pwr:0,shl:50,rng:10,spd:10,itv:1000},conversion:"BDSS133 BDSS134 BDSS135 BDSS136 BDSS137 BDSS138 BDSS139 BDSS140 BDSS141 BDSS142"}
+{id:240,name:"Homing Ball",cost:60,main:{pwr:7,shl:200,rng:250,spd:320,itv:400},conversion:"Tricyclaser"}
+{id:241,name:"Splash Ball",cost:60,main:{pwr:7,shl:50,rng:250,spd:300,itv:3000},conversion:"Tricyclaser"}
+{id:242,name:"Rapid Ball",cost:60,main:{pwr:12,shl:280,rng:230,spd:360,itv:200},conversion:"Tricyclaser"}
+{id:243,name:"Burst Missile Ball",cost:60,main:{pwr:4,shl:100,rng:250,spd:300,itv:800},conversion:"Tricyclaser"}
+{id:244,name:"Blast Ball",cost:60,main:{pwr:15,shl:150,rng:250,spd:360,itv:800},conversion:"Tricyclaser"}
+{id:245,name:"Barrier Ball",cost:60,main:{pwr:3,shl:200,rng:200,spd:140,itv:600},conversion:"Tricyclaser"}
+{id:246,name:"Draw Ball",cost:60,main:{pwr:2,shl:100,rng:200,spd:410,itv:600},conversion:"Tricyclaser"}
 
 
 {group:"Conversion-SWP",prefixID:"CS",commonStat:{tunable:{pwp:1}}}
@@ -352,7 +359,7 @@
 {id:109,name:"Hour Dagger",main:{pwr:15,shl:30,rng:200,spd:570,itv:500,str:100},sub:{pwr:30,shl:110,spd:200,itv:500,str:100},type:"l",size:"S",cost:90,slot:0,conversion:"BDLS158AM2",comment:"Attachable to 'Lafiel AM2' only"}
 {id:110,name:"Needle Star",main:{tec:100,pwr:17,shl:30,rng:260,spd:570,itv:300},sub:{str:100,pwr:34,rng:80,spd:50,itv:500},tunable:{mwp:1,pwp:1},type:"l",size:"S",cost:150,conversion:"BDLS168AM",comment:"Attachable to 'Mercurio AM2' only"}
 {id:111,name:"Revenant Sword",sub:{str:100,pwr:32,rng:70,spd:70,itv:500},type:"l",size:"M",cost:100,conversion:"AMM173",comment:"Attachable to 'Dark Revenant AM' only"}
-{id:112,name:"Trike Tackle",cost:30,sub:{str:100,pwr:23,rng:60,spd:75,itv:500},type:"s",size:"S",conversion:"SS126LG SS127LG",comment:"Attachable to 'Tricyclaser/II/III/IV/V' only"}
+{id:112,name:"Trike Tackle",cost:30,sub:{str:100,pwr:23,rng:60,spd:75,itv:500},type:"s",size:"S",conversion:"Tricyclaser",comment:"Attachable to 'Tricyclaser' parts only"}
 {id:113,name:"Blitz Eisen",sub:{str:100,pwr:25,shl:20,rng:120,spd:220,itv:500},type:"l",size:"S",cost:60,slot:0,conversion:"BDLS132 BDLS167",comment:"Attachable to 'Hanna Fritz BD/BD2' only"}
 {id:114,name:"Demon Fox Haku Soul",main:{shl:30,spd:10,itv:1000},sub:{str:100,pwr:32,rng:85,spd:70,itv:500},tunable:{pwp:1},joint:{wp:1},fixedParts:{wp:{name:"Demon Fox Haku Soul@",main:{pwr:15,shl:30,rng:200,spd:500,itv:500,str:100},sub:{str:100,pwr:20,shl:15,rng:150,spd:350,itv:1000},slot:0}},conversion:"BDSS126WP",comment:"Attachable to 'Magical Mic Rod' only"}
 {id:115,name:"Berzellius Soul",main:{pwr:22,shl:1200,rng:320,spd:320,itv:240},sub:{shl:5,spd:160,itv:100},tunable:{mwp:1},joint:{wp:1},fixedParts:{wp:{name:"Berzellius Soul@",main:{pwr:9,shl:15,rng:320,spd:250,itv:500},sub:{shl:7,rng:300,itv:1000},slot:0}},conversion:"BDSS126WP",comment:"Attachable to 'Magical Mic Rod' only"}
@@ -375,9 +382,9 @@
 {id:132,name:"Shovel Claw",conversion:"WPCS131",type:"l",size:"M",cost:160,main:{str:100,pwr:30,shl:30,rng:300,spd:470,itv:500},sub:{str:100,pwr:32,shl:15,rng:70,spd:85,itv:500},tunable:{mwp:1,pwp:1}}
 {id:133,name:"Drag Engine",conversion:"BSM2118",joint:{wp:1},type:"l",size:"M",slot:0}
 {id:134,name:"Full Power Drive A",conversion:"WPCS133",type:"l",size:"M",cost:40,main:{pwr:0,shl:20,rng:0,spd:10,itv:1000}}
-{id:135,name:"Fragarach Module",conversion:"AMS1009 AMS1011 AMS1013",type:"l",size:"S",cost:105,main:{pwr:15,shl:150,rng:225,spd:420,itv:200},sub:{str:100,pwr:32,rng:70,spd:85,itv:500},tunable:{mwp:1,pwp:1}}
-{id:136,name:"Titan Module",conversion:"AMS1009 AMS1011 AMS1013",type:"l",size:"S",cost:105,main:{str:100,pwr:30,shl:30,rng:250,spd:570,itv:500},sub:{str:100,pwr:34,rng:70,spd:85,itv:500},tunable:{mwp:1,pwp:1}}
-{id:137,name:"Aegis Module",conversion:"AMS1009 AMS1011 AMS1013",type:"l",size:"S",cost:105,main:{pwr:5,shl:200,rng:320,spd:260,itv:600},sub:{str:100,pwr:32,rng:150,spd:150,itv:500},tunable:{mwp:1,pwp:1}}
+//{id:135,name:"Fragarach Module",conversion:"AMS1009 AMS1011 AMS1013",type:"l",size:"S",cost:105,main:{pwr:15,shl:150,rng:225,spd:420,itv:200},sub:{str:100,pwr:32,rng:70,spd:85,itv:500},tunable:{mwp:1,pwp:1}}
+//{id:136,name:"Titan Module",conversion:"AMS1009 AMS1011 AMS1013",type:"l",size:"S",cost:105,main:{str:100,pwr:30,shl:30,rng:250,spd:570,itv:500},sub:{str:100,pwr:34,rng:70,spd:85,itv:500},tunable:{mwp:1,pwp:1}}
+//{id:137,name:"Aegis Module",conversion:"AMS1009 AMS1011 AMS1013",type:"l",size:"S",cost:105,main:{pwr:5,shl:200,rng:320,spd:260,itv:600},sub:{str:100,pwr:32,rng:150,spd:150,itv:500},tunable:{mwp:1,pwp:1}}
 {id:138,name:"Fluffy Cape",type:"l",size:"S",cost:70,slot:0,joint:{wp:1},main:{str:100,pwr:32,shl:50,rng:300,spd:520,itv:1000},conversion:"BDLS187"}
 {id:139,name:"Snow Bear",type:"l",size:"S",cost:120,main:{str:100,pwr:15,shl:50,rng:200,spd:320,itv:500},tunable:{mwp:1},sub:{str:100,pwr:32,rng:70,spd:85,itv:500},conversion:"WPCS138"}
 {id:140,name:"Labyrinthaxe HW",cost:120,main:{shl:30,rng:10,spd:10,itv:500},sub:{str:100,pwr:32,rng:70,spd:85,itv:500},conversion:"BDLS190AM"}
@@ -387,3 +394,7 @@
 {id:144,name:"Onitachii",cost:150,main:{str:100,pwr:15,shl:30,rng:200,spd:570,itv:500},sub:{str:100,pwr:32,rng:70,spd:85,itv:500},tunable:{mwp:1},conversion:"AMS1030"}
 {id:145,name:"Orge Shield",cost:130,main:{str:100,pwr:15,shl:200,rng:150,spd:370,itv:400},sub:{str:100,pwr:25,rng:150,spd:350,itv:500},tunable:{mwp:1},conversion:"AMS1031"}
 {id:146,name:"Voltic Power III",type:"l",size:"S",cost:220,slot:0,sub:{itv:500},tunable:{pwp:0},conversion:"BDLS201",comment:"Attachable to 'Kuhl BD3' only"}
+{id:147,name:"Trike Dash",cost:30,sub:{str:100,pwr:0,shl:20,rng:100,spd:120,itv:2500},type:"s",size:"S",conversion:"Tricyclaser",comment:"Attachable to 'Tricyclaser' parts only"}
+{id:148,name:"Trike Step",cost:30,sub:{str:100,pwr:0,shl:15,rng:100,spd:150,itv:3000},type:"s",size:"S",conversion:"Tricyclaser",comment:"Attachable to 'Tricyclaser' parts only"}
+{id:149,name:"Trike Escape",cost:30,sub:{str:100,pwr:0,shl:15,rng:100,spd:150,itv:500},type:"s",size:"S",conversion:"Tricyclaser",comment:"Attachable to 'Tricyclaser' parts only"}
+{id:150,name:"Trike Blast",cost:30,sub:{str:100,pwr:12,shl:15,rng:75,spd:60,itv:500},type:"s",size:"S",conversion:"Tricyclaser",comment:"Attachable to 'Tricyclaser' parts only"}
