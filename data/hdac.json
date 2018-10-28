@@ -6,6 +6,16 @@
 {id:2004,name:"+1 tgh +5 capa",capa:5,tgh:1}
 {id:2005,name:"+1 str +1 wlk",str:1,wlk:1}
 {id:2006,name:"+1 tec +1 fly",tec:1,fly:1}
+{id:2007,name:"+5 hp +1 str +5 capa",capa:5,str:1,hp:5}
+{id:2008,name:"+5 hp +1 tec +5 capa",capa:5,tec:1,hp:5}
+{id:2009,name:"+5 hp +1 wlk +5 capa",capa:5,wlk:1,hp:5}
+{id:2010,name:"+5 hp +1 fly +5 capa",capa:5,fly:1,hp:5}
+{id:2011,name:"+5 hp +1 tgh +5 capa",capa:5,tgh:1,hp:5}
+{id:2012,name:"Headband (STR)",slot:2,capa:5,str:1,hp:5}
+{id:2013,name:"Headband (TEC)",slot:2,capa:5,tec:1,hp:5}
+{id:2014,name:"Headband (WLK)",slot:2,capa:5,wlk:1,hp:5}
+{id:2015,name:"Headband (FLY)",slot:2,capa:5,fly:1,hp:5}
+{id:2016,name:"Headband (TGH)",slot:2,capa:5,tgh:1,hp:5}
 {id:1,name:"White Flower"}
 {id:2,name:"Red Flower"}
 {id:3,name:"Blue Flower",str:1}
