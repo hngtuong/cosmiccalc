@@ -214,14 +214,21 @@
 {id:1004,name:"Lumiera AM4",tunable:{mwp:1},cost:40,hp:25,str:1,tec:3,fly:1,main:{spd:10,shl:50,itv:700},type:"c"}
 {id:1006,name:"Oboromaru AM",type:"a",joint:{am:1},fixedParts:{am:{name:"Oboromaru AM@",main:{pwr:14,shl:200,rng:220,spd:280,itv:500},joint:{wp:0},slot:0}},cost:75,hp:20,str:-1,tec:2,fly:2,tgh:2}
 {id:1008,name:"P. Mona AM",cost:35,hp:20,str:1,tec:-1,wlk:2,fly:2,tgh:1}
-{id:1009,name:"Vermelho AM",cost:35,hp:20,str:2,wlk:1,tgh:2,conversion:"BDLS184 BDLS195 BDCS1066",joint:{wp:2}}
+{id:1009,name:"Vermelho AM",cost:35,hp:20,str:2,wlk:1,tgh:2,conversion:"BDLS184 BDLS195 BDCS1066",joint:{wp:1,am:1}}
 {id:1010,name:"M.Arch AM",cost:55,hp:20,str:1,tec:2,fly:1,tgh:1,main:{pwr:6,shl:100,rng:330,spd:320,itv:500},tunable:{mwp:1}}
-{id:1011,name:"Cyan AM",cost:35,hp:20,tec:2,fly:1,tgh:2,joint:{wp:2},conversion:"BDLS184 BDLS195 BDCS1066"}
-{id:1013,name:"Vermelho AM2",cost:35,hp:20,str:2,wlk:1,fly:1,tgh:1,conversion:"BDLS184 BDLS195 BDCS1066",joint:{wp:2}}
+{id:1011,name:"Cyan AM",cost:35,hp:20,tec:2,fly:1,tgh:2,conversion:"BDLS184 BDLS195 BDCS1066",joint:{wp:1,am:1}}
+{id:1013,name:"Vermelho AM2",cost:35,hp:20,str:2,wlk:1,fly:1,tgh:1,conversion:"BDLS184 BDLS195 BDCS1066",joint:{wp:1,am:1}}
 {id:1029,name:"Medicarest AM2",cost:35,hp:20,str:-1,tec:2,wlk:1,tgh:3}
 {id:1030,name:"Toukimaru AM",cost:35,hp:20,str:3,tec:-1,wlk:1,tgh:2,joint:{wp:2},type:"l"}
 {id:1031,name:"Toukimaru AM2",cost:35,hp:20,str:2,tec:0,wlk:1,fly:-1,tgh:3,joint:{wp:2},type:"l"}
-//last:1031
+{id:1032,name:"Prometheus Module",cost:105,type:"c",joint:{wp:0},main:{pwr:18,shl:125,rng:320,spd:380,itv:500},sub:{pwr:35,rng:110,spd:300,itv:1000},tunable:{mwp:1,pwp:1},conversion:"AMS1009 AMS1011 AMS1013"}
+{id:1033,name:"Broniac Module",cost:105,type:"c",joint:{wp:0},main:{pwr:26,shl:60,rng:350,spd:500,itv:500},sub:{pwr:15,shl:50,rng:250,spd:120,itv:500},tunable:{mwp:1},conversion:"AMS1009 AMS1011 AMS1013"}
+{id:1034,name:"Trident Module",cost:65,type:"c",joint:{wp:1},main:{pwr:6,shl:450,rng:330,spd:280,itv:740},sub:{pwr:1,shl:240,rng:20,spd:280,itv:600},tunable:{mwp:1},conversion:"AMS1009 AMS1011 AMS1013"}
+{id:1035,name:"Fragarach Module",conversion:"AMS1009 AMS1011 AMS1013",type:"l",cost:105,joint:{wp:0},main:{pwr:15,shl:150,rng:225,spd:420,itv:200},sub:{str:100,pwr:32,rng:70,spd:85,itv:500},tunable:{mwp:1,pwp:1}}
+{id:1036,name:"Titan Module",conversion:"AMS1009 AMS1011 AMS1013",type:"l",cost:105,joint:{wp:0},main:{str:100,pwr:30,shl:30,rng:250,spd:570,itv:500},sub:{str:100,pwr:34,rng:70,spd:85,itv:500},tunable:{mwp:1,pwp:1}}
+{id:1037,name:"Aegis Module",conversion:"AMS1009 AMS1011 AMS1013",type:"l",cost:105,joint:{wp:0},main:{pwr:5,shl:200,rng:320,spd:260,itv:600},sub:{str:100,pwr:32,rng:150,spd:150,itv:500},tunable:{mwp:1,pwp:1}}
+{id:1038,name:"Azoth Module",conversion:"AMS1009 AMS1011 AMS1013",type:"l",cost:105,joint:{wp:0},main:{str:100,pwr:11,shl:300,rng:225,spd:420,itv:400},sub:{str:100,pwr:0,shl:15,rng:10,spd:10,itv:500}}
+//last:1038
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:21,name:"Victory AM",cost:20,hp:15,str:1,fly:1}
