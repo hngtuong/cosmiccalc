@@ -8,5 +8,5 @@ ART
 7@20		|8@15		|10@20		|13@30			|15@30		|16@30			|17@20	|18@20		|19@20		|20@15		|21@20		|22@30		|23@25		|26@10			|27@40		|30@20			|31@40			|32@40		|
 Shell Guard	|Beam Guard	|Blast Guard|Fast Recovery	|Stun Regain|Tough Runner	|Sway	|Short Boost|Float Dash	|Boost Run	|Quick Boost|Quick Jump	|Quick Land	|Moving Burst	|Soul Eater	|Sniper Sight	|Stealth System	|Broad Radar|
 SUP
-7@20		|8@30		|9@30		|10@30		|13@20			|16@20			|17@20	|18@20		|19@20		|20@20		|21@20		|22@30		|23@25		|26@20			|28@30			|31@40			|32@30		|
-Shell Guard	|Beam Guard	|Sword Guard|Blast Guard|Fast Recovery	|Tough Runner	|Sway	|Short Boost|Float Dash	|Boost Run	|Quick Boost|Quick Jump	|Quick Land	|Moving Burst	|Wonder Rate Up	|Stealth System	|Broad Radar|
+7@20		|8@30		|9@30		|10@30		|13@20			|16@20			|17@20	|18@20		|19@20		|20@20		|21@20		|22@30		|23@25		|26@20			|28@30			|29@10		|31@40			|32@30		|
+Shell Guard	|Beam Guard	|Sword Guard|Blast Guard|Fast Recovery	|Tough Runner	|Sway	|Short Boost|Float Dash	|Boost Run	|Quick Boost|Quick Jump	|Quick Land	|Moving Burst	|Wonder Rate Up	|Absorb Bump|Stealth System	|Broad Radar|
