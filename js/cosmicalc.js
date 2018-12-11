@@ -25,7 +25,7 @@
 
 /* CONST VARS */
 var VERSION = "3.4.3",
-	LAST_MODIFIED = "2018.11.30",
+	LAST_MODIFIED = "2018.12.11",
 
 	CODEW_URL = "http://hngtuong.github.io/cosmiccalc/",
 	
@@ -2036,6 +2036,8 @@ function calc(){
 				Result.hp += Assembly.cartridge.hpup;
 				break;
 			case "6":
+				Result.capa += 55;
+				Result.hp += 15;
 				Result.reinforce++;
 				break;
 			default:
