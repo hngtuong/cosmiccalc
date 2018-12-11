@@ -181,7 +181,7 @@
 {id:155,name:"Munya BS",type:"a",cost:35,hp:20,str:1,wlk:-1,fly:3,tgh:2}
 {id:156,name:"Rouche BS2",type:"a",cost:40,hp:25,tec:-1,wlk:2,fly:2,tgh:2}
 {id:157,name:"Nemlim BS4",joint:{wp:1},cost:35,hp:25,str:1,tec:1,fly:2,tgh:1,conversion:"BDLS144",comment:"Attachable to 'Nemlim BD8' only"}
-{id:158,name:"K Nonna BS@2",main:{pwr:28,tec:100,shl:80,rng:400,spd:230,itv:1200},sub:{tec:100,pwr:20,shl:100,rng:340,spd:210,itv:2000},tunable:{mwp:1},type:"c",cost:100,hp:20}
+{id:158,name:"K Nonna BS@2",main:{pwr:28,tec:100,shl:80,rng:400,spd:230,itv:1200},sub:{tec:100,pwr:20,shl:100,rng:340,spd:210,itv:2000},tunable:{mwp:1},type:"c",cost:100,hp:20,conversion:"BSS135"}
 {id:159,name:"Pepen Girl BS",type:"c",size:"S",cost:35,hp:20,str:-1,tec:2,wlk:2,fly:2}
 {id:160,name:"Alestar BS",type:"s",cost:40,hp:25,str:1,wlk:2,fly:2}
 {id:161,name:"Squidol Girl BS2",type:"s",size:"S",cost:30,hp:15,tec:2,fly:3,tgh:-1}
@@ -578,7 +578,8 @@
 {id:109,name:"Apollion BS",type:"a",cost:35,hp:20,str:1,tec:3,wlk:0,fly:2,tgh:-1}
 {id:110,name:"Gozu BS2",type:"l",cost:35,hp:20,str:1,tec:0,wlk:-1,fly:3,tgh:2}
 {id:111,name:"Joste Gunder BS",type:"l",cost:35,hp:20,str:-1,tec:2,wlk:1,fly:3,tgh:0}
-//last:111
+{id:112,name:"Teitarotes BS",type:"c",cost:90,hp:25,str:0,tec:2,wlk:0,fly:1,tgh:2,main:{pwr:15,shl:90,rng:320,spd:280,itv:1000},tunable:{mwp:1}}
+//last:112
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:1,name:"Shaden BS",type:"a",cost:150,hp:5,fly:1,sub:{pwr:1,shl:1,rng:200,spd:110,itv:2000}}
