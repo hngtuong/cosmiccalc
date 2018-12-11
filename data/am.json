@@ -439,7 +439,9 @@
 {id:1019,name:"Snailbot AM2",type:"c",cost:75,hp:20,tec:2,fly:1,tgh:2,joint:{wp:0},main:{pwr:26,shl:130,rng:340,spd:320,itv:600,tunable:{mwp:1}}}
 {id:1020,name:"Dreiblitz AM2",type:"c",cost:125,hp:20,tec:3,wlk:2,fly:0,tgh:0,joint:{wp:0},main:{pwr:25,shl:250,rng:320,spd:380,itv:500,tunable:{mwp:1}}}
 {id:1021,name:"Dreiblitz AM",cost:30,hp:15,str:1,tec:2,fly:1,tgh:1}
-//last:1021
+{id:1022,name:"Gundread AM",type:"l",cost:100,hp:15,str:0,tec:3,wlk:2,fly:-1,tgh:0,fixedParts:{wp:{name:"Gundread AM@",main:{pwr:18,shl:300,rng:180,spd:400,itv:140},tunable:{mwp:1}}}}
+{id:1023,name:"Gundread AM2",type:"l",cost:100,hp:15,str:-1,tec:3,wlk:2,fly:0,tgh:0,fixedParts:{wp:{name:"Gundread AM2@",sub:{pwr:36,rng:90,spd:80,itv:500},tunable:{pwp:1}}}}
+//last:1023
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:2,name:"Ettion AM",cost:25,hp:25,str:1,tec:1,tgh:1}
@@ -642,7 +644,8 @@
 {id:2133,name:"Apollion AM",type:"a",cost:110,hp:25,str:3,tec:0,wlk:-1,fly:2,tgh:1,joint:{wp:0},sub:{str:100,pwr:27,rng:120,spd:110,itv:500},tunable:{pwp:1}}
 {id:2134,name:"Gozu AM2",type:"l",cost:155,hp:20,str:3,tec:-1,wlk:1,fly:0,tgh:2,joint:{wp:0},main:{str:100,pwr:10,shl:280,rng:225,spd:420,itv:600},tunable:{mwp:1}}
 {id:2135,name:"Gozu AM3",type:"l",cost:85,hp:25,str:2,tec:0,wlk:1,fly:0,tgh:2,sub:{pwr:32,rng:150,spd:350,itv:500},tunable:{pwp:1}}
-//last:2135
+{id:2136,name:"Teitarotes AM",type:"c",cost:70,hp:15,str:1,tec:3,wlk:0,fly:-1,tgh:2,joint:{wp:2},sub:{pwr:34,rng:150,spd:350,itv:500},tunable:{pwp:1},fixedParts:{wp:{name:"Teitarotes AM@",slot:0,main:{pwr:14,shl:600,rng:360,spd:350,itv:140}}}}
+//last:2136
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:11,name:"Brigand Baron AM",cost:50,hp:35,str:2,tgh:3}
@@ -727,3 +730,4 @@
 {id:142,name:"Wild Shoulder AMJ",size:"M",slot:1}
 {id:143,name:"Digaius AMJ",size:"M",slot:1}
 {id:144,name:"Metatel AMJ ",cost:65,type:"a",main:{pwr:16,shl:280,rng:340,spd:480,itv:300},tunable:{mwp:1}}
+{id:145,name:"Teitarotes AMJ",size:"L",slot:1,cost:35,main:{pwr:15,shl:150,rng:320,spd:300,itv:800},tunable:{mwp:1}}
