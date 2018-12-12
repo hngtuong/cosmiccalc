@@ -3,7 +3,7 @@
 {id:3,name:"Capacity +70",comment:"Raises robot's cost capacity by 70 and HP by #hp."}
 {id:4,name:"Capacity +80",comment:"Raises robot's cost capacity by 80 and HP by #hp."}
 {id:5,name:"Capacity +90",comment:"Raises robot's cost capacity by 90 and HP by #hp."}
-{id:6,name:"Enhance Internal Weapon",comment:"Enhances the core's built in weapon."}
+{id:6,name:"Enhance Internal Weapon",comment:"Enhances the core's built in weapon.+80capa +15hp"}
 {id:7,name:"Shell Guard",comment:"Decreases damage from bullet type projectiles by 15%."}
 {id:8,name:"Beam Guard",comment:"Decreases damage from beam type projectiles by 30% (55% for ART bots)."}
 {id:9,name:"Sword Guard",comment:"Decreases damage from melee attacks by 40% (50% for AIR bots)."}
@@ -24,7 +24,7 @@
 {id:24,name:"Quick Swim",comment:"Allows you to move quickly through water."}
 {id:25,name:"Revenge Shot",comment:"Allows robot to occasionally attack without using up ammo when HP is below 50."}
 {id:26,name:"Moving Burst",comment:"Allows you to move for a short period of time while firing all weapons."}
-{id:27,name:"Soul Eater",comment:"Restores a small ammount of HP whenever you destroy a robot in the Arena."}
+{id:27,name:"Soul Eater",comment:"Restores a small amount of HP whenever you destroy a robot in the Arena."}
 {id:28,name:"Wonder Rate Up",comment:"WB gauge's increase rate will grow when robot is damaged."}
 {id:29,name:"Absorb Bump",comment:"Robot will not move when bumped into by other robots."}
 {id:30,name:"Sniper Sight",comment:"Enemies will not be alerted when you have locked on to them."}
