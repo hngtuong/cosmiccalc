@@ -25,7 +25,7 @@
 
 /* CONST VARS */
 var VERSION = "3.4.3",
-	LAST_MODIFIED = "2018.12.11",
+	LAST_MODIFIED = "2018.12.18",
 
 	CODEW_URL = "http://hngtuong.github.io/cosmiccalc/",
 	
@@ -345,11 +345,11 @@ $.fn.extend({
 				case "pwr":
 				case "rng":
 				case "shl":
-					effect[i].trg[j][0] = Math.ceil(effect[i].trg[j][0] * (100 + effect[i][j]) / 100);
+					for(var k in effect[i].trg[j]) effect[i].trg[j][k] = Math.ceil(effect[i].trg[j][k] * (100 + effect[i][j]) / 100);
 					if(ccd.parts_ref.auraStat) auraTrg[i][j][0] = Math.ceil(auraTrg[i][j][0] * (100 + effect[i][j]) / 100);
 					break;
 				case "spd":
-					effect[i].trg[j][0] = parseInt(effect[i].trg[j][0] * (100 + effect[i][j]) / 100);
+					for(var k in effect[i].trg[j]) effect[i].trg[j][k] = parseInt(effect[i].trg[j][k] * (100 + effect[i][j]) / 100);
 					if(ccd.parts_ref.auraStat) auraTrg[i][j][0] = parseInt(auraTrg[i][j][0] * (100 + effect[i][j]) / 100);
 					break;
 				default:
