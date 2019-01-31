@@ -25,7 +25,7 @@
 
 /* CONST VARS */
 var VERSION = "3.4.3",
-	LAST_MODIFIED = "2018.12.25",
+	LAST_MODIFIED = "2019.01.31",
 
 	CODEW_URL = "http://hngtuong.github.io/cosmiccalc/",
 	
@@ -2037,6 +2037,16 @@ function calc(){
 				break;
 			case "6":
 				Result.capa += 55;
+				Result.hp += 15;
+				Result.reinforce++;
+				break;
+			case "52":
+				Result.capa += 65;
+				Result.hp += 15;
+				Result.reinforce++;
+				break;
+			case "53":
+				Result.capa += 75;
 				Result.hp += 15;
 				Result.reinforce++;
 				break;
