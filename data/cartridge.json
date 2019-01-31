@@ -51,3 +51,4 @@
 {id:"EX3",ex:1,name:"Assault Step",comment:"Allows you to use the custom dash action [Assault Step]. Steps quickly forward, and jumps left and right.",cost:30}
 {id:"EX4",ex:1,name:"Glide Boost",comment:"Allows you to use the custom aerial dash action [Glide Boost]",cost:30}
 {id:"EX5",ex:1,name:"Air Step",comment:"Adds a Mid-air Dash Action called the [Air Step] to the robot.",cost:30}
+{id:"EX6",ex:1,name:"Boost Step",comment:"Allows you to use the custom dash action [Boost Step].",cost:30}
