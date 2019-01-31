@@ -2040,6 +2040,16 @@ function calc(){
 				Result.hp += 15;
 				Result.reinforce++;
 				break;
+			case "52":
+				Result.capa += 65;
+				Result.hp += 15;
+				Result.reinforce++;
+				break;
+			case "53":
+				Result.capa += 75;
+				Result.hp += 15;
+				Result.reinforce++;
+				break;
 			default:
 				break;
 			}
