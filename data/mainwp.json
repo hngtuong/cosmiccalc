@@ -42,7 +42,7 @@
 {id:100,name:"LL Bulk Mag Mod",type:"l",size:"LL",cost:140,fly:-1,main:{pwr:23,shl:150,rng:190,spd:300,itv:500}}
 {id:67,name:"Estes Magnum",main:{pwr:18,shl:260,rng:230,spd:360,itv:440},size:"M",type:"l",cost:155}
 {id:102,name:"Estes Mag Mod",main:{pwr:21,shl:180,rng:230,spd:360,itv:440},size:"M",type:"l",cost:155}
-{id:124,name:"Wild Revolver",main:{pwr:18,shl:230,rng:250,spd:380,itv:440},size:"M",type:"l",cost:180}
+{id:124,name:"Wild Revolver",main:{pwr:26,shl:280,rng:250,spd:380,itv:440},size:"M",type:"l",cost:160}
 // {id:120,name:"ストライカーライフル",main:{pwr:11,shl:300,rng:300,spd:400,itv:140},size:"M",type:"l",cost:155,str:-1,wlk:1}
 // {id:121,name:"ストライカーライフル改",main:{pwr:9,shl:450,rng:300,spd:400,itv:140},size:"M",type:"l",cost:155,str:-1,wlk:1}
 {id:24,name:"Beam Gun",size:"S",cost:20,main:{pwr:9,shl:500,rng:230,spd:285,itv:460}}
@@ -132,7 +132,7 @@
 {id:122,name:"Sakura Solid Gun",main:{tec:100,pwr:15,shl:200,rng:330,spd:370,itv:700},tunable:{mwp:1},size:"M",cost:110}
 {id:267,name:"Beam SB Pitcher",main:{pwr:13,shl:560,rng:255,spd:70,itv:600},type:"a",size:"M",cost:100,tec:1}
 //{id:89,name:"Plasma Beam Cannon",main:{pwr:25,shl:130,rng:270,spd:360,itv:740},cost:180,str:-1,tec:-1,wlk:-2,size:"M",type:"a"}
-{id:274,name:"Smart Magnum",type:"l",size:"S",cost:110,main:{str:100,pwr:14,shl:300,rng:225,spd:420,itv:400}}
+{id:274,name:"Smart Magnum",type:"l",size:"S",cost:110,main:{str:100,pwr:20,shl:300,rng:225,spd:420,itv:400}}
 
 
 {group:"Machineguns",prefixID:"MG",commonStat:{tunable:{mwp:1}}}

@@ -25,7 +25,7 @@
 
 /* CONST VARS */
 var VERSION = "3.4.3",
-	LAST_MODIFIED = "2019.01.31",
+	LAST_MODIFIED = "2019.02.20",
 
 	CODEW_URL = "http://hngtuong.github.io/cosmiccalc/",
 	
