@@ -83,6 +83,7 @@
 {id:9,name:"Battle Boomerang",size:"M",cost:60,fly:-1,sub:{pwr:22,rng:135,spd:210,itv:640}}
 {id:12,name:"Dostrex Soul R",sub:{str:100,pwr:25,rng:60,spd:70,itv:1500},tunable:{pwp:1},type:"l",size:"LL",cost:120}
 {id:13,name:"Gozu Cleaver",size:"L",type:"l",cost:120,sub:{str:100,pwr:36,rng:70,spd:85,itv:500},tunable:{pwp:1}}
+{id:14,name:"Hecaton Axe",size:"L",type:"l",cost:120,sub:{str:100,pwr:30,rng:40,spd:82,itv:1200},tunable:{pwp:1}}
 
 
 {group:"Maces",prefixID:"MC",commonStat:{tunable:{pwp:1}}}

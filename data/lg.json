@@ -271,7 +271,8 @@
 {id:1115,name:"Mirage Raid LG2",cost:85,hp:20,str:3,tec:-1,wlk:2,fly:1,sub:{str:100,pwr:20,rng:65,spd:95,itv:500},tunable:{pwp:1}}
 {id:1116,name:"Toukimaru LG",cost:35,hp:20,str:1,tec:1,wlk:3,fly:-1,tgh:1}
 {id:1117,name:"Dreiblitz LG",type:"c",cost:40,hp:25,str:0,tec:1,wlk:3,fly:2,tgh:-1}
-//last:1117
+{id:1118,name:"Gurenzalivan LG",type:"l",cost:80,hp:20,str:2,tec:-1,wlk:3,fly:0,tgh:1,sub:{str:100,pwr:30,shl:20,rng:150,spd:350,itv:1000}}
+//last:1118
 
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}

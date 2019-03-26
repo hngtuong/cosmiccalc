@@ -51,7 +51,9 @@
 {id:105,name:"Vermelho HD2",cost:35,hp:20,str:2,tec:0,wlk:2,fly:0,tgh:1,conversion:"BDLS184 BDLS195 BDCS1066"}
 {id:106,name:"Turtlebacker HD2",cost:40,hp:30,str:1,tec:2,wlk:3,fly:0,tgh:-1}
 {id:107,name:"Medicarest HD2",cost:40,hp:20,str:-1,tec:2,wlk:1,fly:1,tgh:2}
-//last:107
+{id:108,name:"Manimo Knight",conversion:"BDSS158",joint:{hd:1,am:2,hdac:0,fcac:0}}
+{id:109,name:"Manimo Knight HD",cost:40,hp:20,str:1,tec:2,wlk:-1,fly:0,tgh:3}
+//last:109
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Steel Rider HD",cost:15,hp:5,str:1,wlk:1,tgh:1}
@@ -429,7 +431,8 @@
 {id:1300,name:"Hadelos HD2",cost:35,hp:20,str:2,tec:0,wlk:1,fly:-1,tgh:3}
 {id:1301,name:"Dreiblitz HD",cost:30,hp:15,str:1,tec:2,wlk:2,fly:1,tgh:-1}
 {id:1302,name:"Apollion HD",cost:30,hp:20,str:2,tec:0,wlk:0,fly:1,tgh:2}
-//last:1302
+{id:1303,name:"Gurenzalivan HD",type:"l",cost:75,hp:20,str:2,tec:-1,wlk:2,fly:1,tgh:1,main:{pwr:6,shl:430,rng:300,spd:470,itv:1000},tunable:{mwp:1}}
+//last:1303
 
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}

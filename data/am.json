@@ -228,7 +228,9 @@
 {id:1036,name:"Titan Module",conversion:"AMS1009 AMS1011 AMS1013",type:"l",cost:105,joint:{wp:0},main:{str:100,pwr:30,shl:30,rng:250,spd:570,itv:500},sub:{str:100,pwr:34,rng:70,spd:85,itv:500},tunable:{mwp:1,pwp:1}}
 {id:1037,name:"Aegis Module",conversion:"AMS1009 AMS1011 AMS1013",type:"l",cost:105,joint:{wp:0},main:{pwr:5,shl:200,rng:320,spd:260,itv:600},sub:{str:100,pwr:32,rng:150,spd:150,itv:500},tunable:{mwp:1,pwp:1}}
 {id:1038,name:"Azoth Module",conversion:"AMS1009 AMS1011 AMS1013",type:"l",cost:105,joint:{wp:0},main:{str:100,pwr:11,shl:300,rng:225,spd:420,itv:400},sub:{str:100,pwr:0,shl:15,rng:10,spd:10,itv:500}}
-//last:1038
+{id:200,name:"Manimo Knight AM",cost:40,hp:20,str:0,tec:1,wlk:2,fly:1,tgh:2}
+{id:201,name:"Gurenzalivan AM",cost:45,hp:30,str:2,tec:1,wlk:1,fly:-1,tgh:2}
+//last:201
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:21,name:"Victory AM",cost:20,hp:15,str:1,fly:1}
