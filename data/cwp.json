@@ -42,8 +42,8 @@
 {id:41,name:"Battle Frame I BETA (Ivis)",main:{shl:15,spd:10,itv:1000},type:"l",size:"S",cost:20,conversion:"BDLS111LG",comment:"Attachable to 'Bikini Ivis LG' only"}
 {id:42,name:"Battle Frame E BETA",main:{pwr:8,shl:800,rng:280,spd:370,itv:500},sub:{pwr:15,shl:30,rng:320,spd:300,itv:500},type:"a",size:"S",cost:140,conversion:"BDAS62LG",comment:"Attachable to 'Bikini Eve LG' only"}
 {id:43,name:"Shinuchi Ranouraikiri",main:{shl:30,spd:10,itv:1000},sub:{pwr:27,shl:20,rng:120,spd:220,itv:500,str:100},type:"l",size:"S",cost:70,slot:0,conversion:"BDLS112AM2",comment:"Attachable to 'Bikini Ouka AM2' only"}
-{id:44,name:"Chivalry Cannon",main:{pwr:25,shl:400,rng:320,spd:270,itv:1000},joint:{wp:1},fixedParts:{wp:{name:"Chivalry Cannon",main:{pwr:40,shl:30,rng:340,spd:420,itv:1000},slot:0}},type:"c",size:"S",cost:140,conversion:"BDCS46AM",comment:"Attachable to 'Natascha AM' only"}
-{id:45,name:"Chivalry Cannon II",main:{pwr:13,shl:840,rng:320,spd:260,itv:300},joint:{wp:2},fixedParts:{wp:[{name:"Chivalry Cannon II",main:{shl:5,rng:10,spd:200,itv:1000,pwr:32},slot:0},{name:"Chivalry Cannon II＠",main:{shl:5,rng:10,spd:200,itv:1000},slot:0,cost:30}]},tunable:{mwp:1},cost:140,type:"c",size:"S",conversion:"BDCS46AM BDCS83AM5",comment:"Attachable to 'Natascha AM/AM3/AM5' only"}
+{id:44,name:"Chivalry Cannon",main:{pwr:25,shl:400,rng:340,spd:280,itv:600},joint:{wp:1},fixedParts:{wp:{name:"Chivalry Cannon",main:{pwr:40,shl:30,rng:340,spd:420,itv:1000},slot:0}},type:"c",size:"S",cost:140,conversion:"BDCS46AM",comment:"Attachable to 'Natascha AM' only"}
+{id:45,name:"Chivalry Cannon II",main:{pwr:13,shl:840,rng:320,spd:280,itv:300},joint:{wp:2},fixedParts:{wp:[{name:"Chivalry Cannon II",main:{shl:5,rng:10,spd:200,itv:1000,pwr:32},slot:0},{name:"Chivalry Cannon II＠",main:{shl:5,rng:10,spd:200,itv:1000},slot:0,cost:30}]},tunable:{mwp:1},cost:140,type:"c",size:"S",conversion:"BDCS46AM BDCS83AM5",comment:"Attachable to 'Natascha AM/AM3/AM5' only"}
 {id:46,name:"Gloom Rod",main:{pwr:19,shl:350,rng:260,spd:370,itv:300,tec:100},sub:{pwr:10,shl:5,spd:130,itv:1000,tec:100},tunable:{mwp:1},type:"a",size:"M",cost:100,conversion:"BDAS63AM BDAS81AM BDAS103AM BDAS1090AM",comment:"Attachable to 'Malca AM/AM3/AM5' only"}
 {id:47,name:"Gale Rod",main:{pwr:22,shl:250,rng:300,spd:370,itv:600,tec:100},sub:{pwr:10,shl:5,spd:130,itv:1000,tec:100},tunable:{mwp:1},type:"a",size:"M",cost:120,conversion:"BDAS63AM BDAS81AM BDAS103AM BDAS1090AM",comment:"Attachable to 'Malca AM/AM3/AM5' only"}
 {id:48,name:"Hand Blast Railgun",main:{pwr:22,shl:140,rng:340,spd:520,itv:800},sub:{pwr:20,shl:20,rng:10,spd:100,itv:500},type:"c",size:"S",cost:75,conversion:"BDCS39AM BDCS48AM",comment:"Attachable to 'Mialy AM2' only"}
@@ -227,7 +227,7 @@
 //{id:226,name:"Azoth Module",conversion:"AMS1009 AMS1011 AMS1013",type:"l",size:"S",cost:105,main:{str:100,pwr:11,shl:300,rng:225,spd:420,itv:400},sub:{str:100,pwr:0,shl:15,rng:10,spd:10,itv:500}}
 {id:227,name:"Mirage Raid AM@2",main:{pwr:0,shl:75,rng:150,spd:500,itv:1000},type:"a",size:"M",cost:15,conversion:"AMM167",comment:"Attachable to 'Mirage Raid AM' only"}
 {id:228,name:"Shock Bullet",main:{pwr:11,shl:150,rng:250,spd:400,itv:300},cost:40,conversion:"BDSS132AM"}
-{id:229,name:"Pursuit Order",cost:50,slot:0,main:{shl:30,rng:270,spd:260,itv:500},conversion:"BDLS199"}
+{id:229,name:"Pursuit Order",cost:50,slot:0,main:{shl:30,rng:300,spd:260,itv:500},conversion:"BDLS199"}
 {id:230,name:"Chullunku",cost:30,main:{pwr:20,shl:30,rng:320,spd:520,itv:500},conversion:"WPCM46 WPCM47 WPCM170 WPCS143"}
 {id:231,name:"Lightning Buster PT",cost:100,main:{pwr:25,shl:220,rng:330,spd:350,itv:400},sub:{itv:500},conversion:"BDAS1092AM"}
 {id:232,name:"Vice Cannon HD@",cost:80,main:{pwr:8,shl:450,rng:320,spd:300,itv:500},conversion:"HDL14"}

@@ -218,7 +218,7 @@
 {id:37,name:"Voulge Rifle",type:"c",size:"M",cost:160,main:{pwr:17,shl:300,rng:330,spd:380,itv:300}}
 {id:38,name:"Nonna Rifle",type:"c",size:"S",cost:80,main:{pwr:14,shl:200,rng:330,spd:380,itv:300}}
 {id:39,name:"S Blast Railgun",main:{pwr:26,shl:200,rng:320,spd:480,itv:600},type:"l",size:"M",cost:160}
-{id:40,name:"Zephyr Blade",main:{tec:100,pwr:16,shl:120,rng:360,spd:400,itv:760},sub:{str:100,pwr:23,rng:90,spd:90,itv:1000},tunable:{pwp:1},cost:150,size:"M",type:"a"}
+{id:40,name:"Zephyr Blade",main:{tec:100,pwr:20,shl:300,rng:360,spd:470,itv:400},sub:{str:100,pwr:32,rng:90,spd:100,itv:1000},tunable:{pwp:1},cost:150,size:"M",type:"a"}
 {id:41,name:"S Blast Railgun Mod",main:{pwr:28,shl:160,rng:320,spd:480,itv:600},type:"l",size:"M",cost:160}
 {id:42,name:"Military Railgun",main:{tec:100,pwr:30,shl:200,rng:390,spd:570,itv:560},tunable:{mwp:1},type:"c",size:"M",cost:160}
 

@@ -607,7 +607,7 @@
 {id:2105,name:"Falx AM",type:"l",sub:{pwr:25,rng:50,spd:70,itv:1500,str:100},tunable:{pwp:1},cost:130,hp:20,str:3,tec:1,fly:-1,tgh:2}
 {id:142,name:"Falx AM2",type:"l",sub:{pwr:25,rng:80,spd:80,itv:1000,str:100},tunable:{pwp:1},cost:130,hp:20,str:3,tec:1,wlk:1,fly:-1,tgh:1}
 {id:144,name:"Zarid AM2",main:{tec:100,pwr:6,shl:460,rng:320,spd:260,itv:1000},tunable:{mwp:1},type:"l",cost:70,hp:15,tec:2,wlk:1}
-{id:145,name:"Aeolius AM",joint:{am:1},fixedParts:{am:{name:"Aeolius AM@",sub:{str:100,pwr:25,rng:70,spd:80,itv:1000},tunable:{mwp:0,pwp:0},slot:0,size:"L",type:"a",joint:{wp:0}}},type:"a",cost:115,hp:20,str:3,wlk:-1,fly:1,tgh:2}
+{id:145,name:"Aeolius AM",joint:{am:1},fixedParts:{am:{name:"Aeolius AM@",sub:{str:100,pwr:32,rng:100,spd:90,itv:1000},tunable:{mwp:0,pwp:0},slot:0,size:"L",type:"a",joint:{wp:0}}},type:"a",cost:115,hp:20,str:3,wlk:-1,fly:1,tgh:2}
 {id:146,name:"Rosso Aspide AM",main:{tec:100,pwr:4,shl:500,rng:340,spd:380,itv:300},tunable:{mwp:1},type:"a",size:"L",cost:75,hp:20,tec:3,wlk:-1,fly:3,conversion:"BDAL48",comment:"Attachable to 'Rosso Aspide BD' only",joint:{wp:0}}
 {id:147,name:"Rosso Aspide AM2",cost:35,hp:20,tec:2,wlk:-1,fly:2,tgh:2}
 {id:149,name:"Heldtkaiser AM",main:{pwr:10,shl:300,rng:320,spd:280,itv:1000},tunable:{mwp:1},type:"c",cost:70,str:2,tec:2,wlk:-1,tgh:2,hp:25}
