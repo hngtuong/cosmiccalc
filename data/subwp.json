@@ -274,3 +274,4 @@
 {id:78,name:"Booster Javelin",size:"M",type:"l",cost:160,sub:{str:100,pwr:32,rng:150,spd:95,itv:1800}}
 {id:79,name:"Aresis Spear",size:"L",type:"l",cost:160,main:{str:100,pwr:15,shl:30,rng:305,spd:400,itv:1000},sub:{str:100,pwr:34,rng:100,spd:85,itv:500},tunable:{mwp:1}}
 {id:80,name:"Twin Braver",size:"M",type:"l",cost:140,main:{pwr:10,shl:30,rng:200,spd:570,itv:500},sub:{str:100,pwr:32,rng:70,spd:90,itv:500},tunable:{mwp:1}}
+{id:81,name:"Zeusneblade",size:"L",type:"l",cost:120,sub:{str:100,pwr:28,rng:150,spd:80,itv:500}}

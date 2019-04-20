@@ -229,7 +229,8 @@
 {id:1069,name:"Medicarest BS2",main:{tec:100,pwr:13,shl:350,rng:250,spd:350,itv:300},tunable:{mwp:1},sub:{tec:100,pwr:15,shl:70,rng:260,spd:380,itv:500},type:"s",cost:155,hp:25,str:-1,tec:3,fly:3,conversion:"BDSS115"}
 {id:1070,name:"Lisel BS2",cost:30,tec:2,hp:20,fly:2,tgh:1,type:"l"}
 {id:1071,name:"Pepo Pucci BS ",type:"s",cost:35,hp:25,str:-1,tec:2,wlk:3,fly:0,tgh:1}
-//last:1071
+{id:1072,name:"G Tetra BS",type:"s",cost:40,hp:25,str:1,tec:0,wlk:1,fly:2,tgh:1}
+//last:1072
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Fizalivan BS",type:"l",cost:15,hp:15,fly:1,tgh:1}
@@ -580,7 +581,8 @@
 {id:110,name:"Gozu BS2",type:"l",cost:35,hp:20,str:1,tec:0,wlk:-1,fly:3,tgh:2}
 {id:111,name:"Joste Gunder BS",type:"l",cost:35,hp:20,str:-1,tec:2,wlk:1,fly:3,tgh:0}
 {id:112,name:"Teitarotes BS",type:"c",cost:90,hp:25,str:0,tec:2,wlk:0,fly:1,tgh:2,main:{pwr:15,shl:90,rng:320,spd:280,itv:1000},tunable:{mwp:1}}
-//last:112
+{id:113,name:"Zeusnesis BS",type:"l",cost:140,hp:25,str:2,tec:-1,wlk:1,fly:3,tgh:1,main:{str:100,pwr:18,shl:100,rng:260,spd:380,itv:500},sub:{str:100,pwr:25,shl:60,rng:150,spd:200,itv:500},tunable:{mwp:1}}
+//last:113
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:1,name:"Shaden BS",type:"a",cost:150,hp:5,fly:1,sub:{pwr:1,shl:1,rng:200,spd:110,itv:2000}}

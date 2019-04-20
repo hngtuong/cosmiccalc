@@ -230,7 +230,8 @@
 {id:1038,name:"Azoth Module",conversion:"AMS1009 AMS1011 AMS1013",type:"l",cost:105,joint:{wp:0},main:{str:100,pwr:11,shl:300,rng:225,spd:420,itv:400},sub:{str:100,pwr:0,shl:15,rng:10,spd:10,itv:500}}
 {id:200,name:"Manimo Knight AM",cost:40,hp:20,str:0,tec:1,wlk:2,fly:1,tgh:2}
 {id:201,name:"Gurenzalivan AM",cost:45,hp:30,str:2,tec:1,wlk:1,fly:-1,tgh:2}
-//last:201
+{id:202,name:"G Tetra AM",type:"s",cost:85,hp:25,str:-1,tec:2,wlk:1,fly:1,tgh:2,main:{pwr:12,shl:350,rng:280,spd:350,itv:400},tunable:{mwp:1}}
+//last:202
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:21,name:"Victory AM",cost:20,hp:15,str:1,fly:1}
@@ -443,7 +444,8 @@
 {id:1021,name:"Dreiblitz AM",cost:30,hp:15,str:1,tec:2,fly:1,tgh:1}
 {id:1022,name:"Gundread AM",type:"l",cost:100,hp:15,str:0,tec:3,wlk:2,fly:-1,tgh:0,fixedParts:{wp:{name:"Gundread AM@",main:{pwr:18,shl:300,rng:180,spd:400,itv:140},tunable:{mwp:1}}}}
 {id:1023,name:"Gundread AM2",type:"l",cost:100,hp:15,str:-1,tec:3,wlk:2,fly:0,tgh:0,fixedParts:{wp:{name:"Gundread AM2@",sub:{pwr:36,rng:90,spd:80,itv:500},tunable:{pwp:1}}}}
-//last:1023
+{id:1024,name:"Windlynx AM2",type:"a",cost:75,hp:20,tec:2,wlk:-1,fly:2,tgh:2,main:{pwr:12,shl:170,rng:300,spd:280,itv:600},tunable:{mwp:1}}
+//last:1024
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:2,name:"Ettion AM",cost:25,hp:25,str:1,tec:1,tgh:1}
@@ -570,7 +572,7 @@
 {id:99,name:"Tierouge AM",joint:{am:1},fixedParts:{am:{name:"Tierouge AM@",slot:0,joint:{wp:0}}},cost:35,hp:20,str:-1,tec:2,wlk:1,fly:3}
 {id:100,name:"Antlion AM2",main:{tec:100,pwr:35,shl:20,rng:360,spd:450,itv:4000},tunable:{mwp:1},joint:{wp:0},type:"c",cost:125,hp:20,tec:3,tgh:2}
 {id:101,name:"Lupette AM",comment:"Same performance as AM3",cost:45,hp:30,str:2,tec:1,wlk:1,fly:-1,tgh:2}
-{id:102,name:"Trizelion AMR",joint:{am:1},fixedParts:{am:{name:"Trizelion RAM@",fixedParts:{wp:{name:"Trisword",main:{pwr:23,shl:30,rng:305,spd:325,itv:1000,str:100},sub:{pwr:32,rng:100,spd:120,itv:500,str:100},slot:0}},slot:0}},type:"l",cost:45,hp:25,str:3,tgh:2}
+{id:102,name:"Trizelion AMR",joint:{am:1},fixedParts:{am:{name:"Trizelion RAM@",fixedParts:{wp:{name:"Trisword",main:{pwr:30,shl:150,rng:350,spd:570,itv:1000,str:100},sub:{pwr:36,rng:100,spd:150,itv:500,str:100},slot:0}},slot:0}},type:"l",cost:45,hp:25,str:3,tgh:2}
 {id:103,name:"Trizelion AML",joint:{am:1},fixedParts:{am:{name:"Trizelion LAM@",joint:{wp:0},slot:0}},type:"l",cost:45,hp:25,str:3,tgh:2}
 {id:104,name:"Wolf Rayet AM",cost:40,hp:35,tec:3,fly:1,wlk:1}
 {id:1128,name:"Wolf Rayet AM2",main:{pwr:6,shl:50,rng:390,spd:570,itv:1000},cost:40,hp:35,tec:3,wlk:1,fly:1}
@@ -647,7 +649,8 @@
 {id:2134,name:"Gozu AM2",type:"l",cost:155,hp:20,str:3,tec:-1,wlk:1,fly:0,tgh:2,joint:{wp:0},main:{str:100,pwr:10,shl:280,rng:225,spd:420,itv:600},tunable:{mwp:1}}
 {id:2135,name:"Gozu AM3",type:"l",cost:85,hp:25,str:2,tec:0,wlk:1,fly:0,tgh:2,sub:{pwr:32,rng:150,spd:350,itv:500},tunable:{pwp:1}}
 {id:2136,name:"Teitarotes AM",type:"c",cost:70,hp:15,str:1,tec:3,wlk:0,fly:-1,tgh:2,joint:{wp:2},sub:{pwr:34,rng:150,spd:350,itv:500},tunable:{pwp:1},fixedParts:{wp:{name:"Teitarotes AM@",slot:0,main:{pwr:14,shl:600,rng:360,spd:350,itv:140}}}}
-//last:2136
+{id:2137,name:"Zeusnesis AM",cost:40,hp:25,str:2,tec:1,wlk:1,fly:-1,tgh:2}
+//last:2137
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:11,name:"Brigand Baron AM",cost:50,hp:35,str:2,tgh:3}

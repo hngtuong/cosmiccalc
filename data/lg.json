@@ -125,7 +125,8 @@
 {id:1104,name:"M.Arch LG",type:"a",cost:80,hp:20,str:-1,tec:2,wlk:2,fly:1,sub:{pwr:12,shl:60,rng:330,spd:320,itv:200}}
 {id:1105,name:"Cyan LG",type:"c",cost:60,hp:20,tec:2,wlk:3,sub:{pwr:0,shl:30,rng:100,spd:150,itv:2000}}
 {id:1106,name:"Vermelho LG2",cost:35,hp:20,str:1,tec:0,wlk:2,fly:0,tgh:2}
-//last:1106
+{id:1107,name:"G Tetra LG",cost:45,hp:25,str:0,tec:2,wlk:3,fly:-1,tgh:1}
+//last:1107
 
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
@@ -410,7 +411,8 @@
 {id:127,name:"Apollion LG",cost:35,hp:75,str:-1,tec:0,wlk:3,fly:1,tgh:2}
 {id:128,name:"Joste Gunder LG",cost:50,hp:30,str:1,tec:0,wlk:3,fly:-1,tgh:2}
 {id:129,name:"Teitarotes LG",type:"c",cost:70,hp:70,str:-1,tec:2,wlk:2,fly:0,tgh:3,sub:{pwr:4,shl:30,rng:360,spd:250,itv:500}}
-//last:129
+{id:130,name:"Zeusnesis LG",cost:50,hp:45,str:1,tec:0,wlk:3,fly:0,tgh:1}
+//last:130
 
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
