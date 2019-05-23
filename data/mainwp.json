@@ -382,7 +382,7 @@
 {id:24,name:"B. Mine Shooter Mod",main:{pwr:22,shl:220,rng:270,spd:260,itv:1800},cost:140,str:-2,wlk:-1,fly:-1,size:"L",type:"a",tec:-1}
 {id:18,name:"Squidol Gun",main:{tec:100,pwr:12,shl:450,rng:85,spd:320,itv:100},tunable:{mwp:1,pwp:0},type:"s",size:"M",cost:50}
 {id:23,name:"Squidol Bazooka",main:{tec:100,pwr:15,shl:150,rng:300,spd:270,itv:700},tunable:{mwp:1},size:"M",type:"s",cost:70}
-{id:159,name:"Squidol Bazooka II",main:{pwr:17,shl:260,rng:320,spd:320,itv:700},type:"s",size:"M",cost:90}
+{id:159,name:"Squidol Bazooka II",main:{pwr:24,shl:280,rng:320,spd:420,itv:400},type:"s",size:"M",cost:90}
 {id:19,name:"Pumpkin Burner",type:"lc",size:"M",main:{pwr:15,shl:500,rng:70,spd:360,itv:100},cost:170}
 {id:20,name:"Berg Cluster Gun",main:{pwr:10,shl:200,rng:220,spd:300,itv:600},type:"lc",size:"M",cost:90}
 {id:21,name:"Xmas Bell Hammer",main:{tec:100,pwr:7,shl:300,rng:190,spd:290,itv:600},sub:{str:100,pwr:21,rng:70,spd:80,itv:1500},tunable:{mwp:1},size:"M",cost:65}
