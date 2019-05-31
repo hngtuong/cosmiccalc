@@ -249,7 +249,10 @@
 {id:248,name:"Alba Missile",main:{pwr:12,shl:400,rng:300,spd:350,itv:500},conversion:"BDAS1094WP"}
 {id:249,name:"Love Ball",cost:60,main:{pwr:0,shl:50,rng:300,spd:300,itv:1000},conversion:"BDSS133 BDSS134 BDSS135 BDSS136 BDSS137 BDSS138 BDSS139 BDSS140 BDSS141 BDSS142 BDSS156 BDSS157"}
 {id:250,name:"Manimo Knight",conversion:"BDSS158",joint:{hd:1,am:2,hdac:0,fcac:0}}
-
+{id:251,name:"Nephrinka Dummy Gun",slot:0,main:{str:100,pwr:6,shl:480,rng:250,spd:260,itv:800},conversion:"BDLS206"}
+{id:252,name:"Ivis Scythe@",main:{str:100,pwr:15,shl:45,rng:170,spd:300,itv:200},conversion:"WPCS161"}
+{id:253,name:"Bloody Sword@",main:{str:100,pwr:20,shl:100,rng:200,spd:390,itv:500},conversion:"WPCS162"}
+{id:254,name:"Rouche's Argument",cost:30,main:{shl:10,spd:10,itv:1000},conversion:"BDLS207AM2"}
 
 
 {group:"Conversion-SWP",prefixID:"CS",commonStat:{tunable:{pwp:1}}}
@@ -405,3 +408,13 @@
 {id:150,name:"Trike Blast",cost:30,sub:{str:100,pwr:12,shl:15,rng:75,spd:60,itv:500},type:"s",size:"S",conversion:"Tricyclaser",comment:"Attachable to 'Tricyclaser' parts only"}
 {id:151,name:"Alba Boost",sub:{pwr:0,shl:15,rng:300,spd:200,itv:1000},conversion:"BDAS1094WP",tunable:{pwp:0}}
 {id:152,name:"Alba Missile II",sub:{pwr:7,shl:720,rng:330,spd:280,itv:1000},conversion:"BDAS1094WP",tunable:{pwp:0}}
+{id:153,name:"Gyuin Step",cost:50,slot:0,sub:{rng:150,spd:350,itv:500},conversion:"BDLS206LG"}
+{id:154,name:"Shuta Shuta Step",cost:50,slot:0,sub:{rng:150,spd:350,itv:500},conversion:"BDLS206LG"}
+{id:155,name:"Meije-sama",cost:170,joint:{wp:1},main:{str:100,pwr:27,shl:90,rng:280,spd:430,itv:1000},sub:{str:100,pwr:32,rng:120,spd:85,itv:500},tunable:{mvp:1},conversion:"BDLS206LG"}
+{id:156,name:"Nassie Jukiana",joint:{hd:1,am:2},conversion:"BDLS206LG"}
+{id:157,name:"Divine Spirit",slot:0,conversion:"BDLS206 WPCS155",comment:"Hypershot/Speed Up/Shell Supply/Immune to Golden Veil"}
+{id:158,name:"Nephrinka STR Memory",slot:0,str:15,conversion:"BDLS206"}
+{id:159,name:"Nephrinka TEC Memory",slot:0,tec:15,conversion:"BDLS206"}
+{id:160,name:"Bloody Shield",sub:{str:100,pwr:36,shl:30,rng:250,spd:150,itv:1000},conversion:"BDLS207AM"}
+{id:161,name:"Ivis Scythe",joint:{wp:1},sub:{str:100,pwr:10,rng:70,spd:85,itv:500},conversion:"BDLS207AM2"}
+{id:162,name:"Bloody Sword",joint:{wp:1},sub:{str:100,pwr:20,rng:70,spd:85,itv:500},conversion:"BDLS207AM2"}

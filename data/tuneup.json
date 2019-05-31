@@ -192,9 +192,9 @@
 
 {group:"Special"}
 {id:"SP1",name:"Eternal",cost:15,hp:15,target:"cpt hd am",material:"10*1|33*33|16*19|22*33|34*33",comment:["55%","Part can no longer be destroyed."]}
-{id:"SP2",name:"Capacity (EX)",cost:30,capa:50,target:"ex lg",material:"48*1",comment:["50%","Capacity+50"]}
-{id:"SP3",name:"High Capacity (EX)",cost:45,capa:80,tgh:-1,target:"ex lg",material:"49*1",comment:["100%","Capacity+80"]}
-{id:"SP4",name:"Great Capacity (EX)",cost:60,capa:110,tgh:-2,target:"ex lg",material:"50*1",comment:["100%","Capacity+110"]}
+// {id:"SP2",name:"Capacity (EX)",cost:30,capa:50,target:"ex lg",material:"48*1",comment:["50%","Capacity+50"]}
+// {id:"SP3",name:"High Capacity (EX)",cost:45,capa:80,tgh:-1,target:"ex lg",material:"49*1",comment:["100%","Capacity+80"]}
+// {id:"SP4",name:"Great Capacity (EX)",cost:60,capa:110,tgh:-2,target:"ex lg",material:"50*1",comment:["100%","Capacity+110"]}
 
 {group:"Capacity",prefixID:"C",commonStat:{target:"cpt lg"}}
 {id:1,name:"Capacity",cost:30,capa:50,material:"3*3|16*10|38*20|37*20|35*200|17*200|22*150",comment:["50%","Capacity+50"]}
