@@ -233,7 +233,8 @@
 {id:1073,name:"Gwegg BS",type:"c",cost:130,hp:30,str:-1,tec:3,wlk:1,fly:2,tgh:1,main:{pwr:13,shl:720,rng:340,spd:400,itv:340},tunable:{mwp:1}}
 {id:1074,name:"Ivis BS ",type:"l",cost:40,hp:20,str:2,tec:-2,wlk:0,fly:3,tgh:2}
 {id:1075,name:"Zero Saber BS2",type:"l",cost:130,hp:25,str:2,tec:-1,wlk:1,fly:2,tgh:1,main:{str:100,pwr:14,shl:220,rng:220,spd:420,itv:500},tunable:{mwp:1}}
-//last:1075
+{id:1076,name:"Frog Lander KING BS",type:"l",cost:45,hp:25,str:0,tec:-1,wlk:1,fly:3,tgh:2}
+//last:1076
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Fizalivan BS",type:"l",cost:15,hp:15,fly:1,tgh:1}

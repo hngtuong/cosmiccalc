@@ -55,7 +55,8 @@
 {id:109,name:"G Tetra HD",type:"s",cost:100,hp:15,str:-1,tec:1,wlk:1,fly:0,tgh:2,sub:{pwr:10,shl:15,rng:300,spd:200,itv:500}}
 {id:110,name:"Gwegg HD",cost:20,hp:15,str:1,tec:2,wlk:0,fly:0,tgh:0}
 {id:111,name:"Zero Saber HD3",cost:35,hp:25,str:2,tec:1,wlk:1,fly:0,tgh:1}
-//last:111
+{id:112,name:"Frog Lander KING HD",cost:35,hp:20,str:0,tec:2,wlk:1,fly:-1,tgh:3}
+//last:112
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Steel Rider HD",cost:15,hp:5,str:1,wlk:1,tgh:1}
@@ -435,7 +436,8 @@
 {id:1302,name:"Apollion HD",cost:30,hp:20,str:2,tec:0,wlk:0,fly:1,tgh:2}
 {id:1303,name:"Gurenzalivan HD",type:"l",cost:75,hp:20,str:2,tec:-1,wlk:2,fly:1,tgh:1,main:{pwr:6,shl:430,rng:300,spd:470,itv:1000},tunable:{mwp:1}}
 {id:1304,name:"Gwyain Absol HD2",cost:25,hp:20,str:3,tec:-1,wlk:0,fly:1,tgh:1}
-//last:1304
+{id:1305,name:"Hovermill HD",cost:45,hp:25,str:-1,tec:1,wlk:2,fly:0,tgh:3}
+//last:1305
 
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}

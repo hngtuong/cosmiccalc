@@ -128,7 +128,8 @@
 {id:1107,name:"G Tetra LG",cost:45,hp:25,str:0,tec:2,wlk:3,fly:-1,tgh:1}
 {id:1108,name:"Gwegg LG",cost:20,hp:15,str:-1,tec:1,wlk:2,fly:0,tgh:1}
 {id:1109,name:"Zero Saber LG2",cost:35,hp:25,str:0,tec:0,wlk:2,fly:1,tgh:2}
-//last:1109
+{id:1110,name:"Frog Lander KING LG",type:"l",cost:85,hp:25,str:-1,tec:0,wlk:3,fly:1,tgh:2,sub:{shl:30,rng:200,spd:150,itv:500}}
+//last:1110
 
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
@@ -275,7 +276,8 @@
 {id:1116,name:"Toukimaru LG",cost:35,hp:20,str:1,tec:1,wlk:3,fly:-1,tgh:1}
 {id:1117,name:"Dreiblitz LG",type:"c",cost:40,hp:25,str:0,tec:1,wlk:3,fly:2,tgh:-1}
 {id:1118,name:"Gurenzalivan LG",type:"l",cost:80,hp:20,str:2,tec:-1,wlk:3,fly:0,tgh:1,sub:{str:100,pwr:30,shl:20,rng:150,spd:350,itv:1000}}
-//last:1118
+{id:1119,name:"Hovermill LG",cost:40,hp:25,str:-1,tec:0,wlk:2,fly:3,tgh:1}
+//last:1119
 
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}

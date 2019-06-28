@@ -233,7 +233,8 @@
 {id:202,name:"G Tetra AM",type:"s",cost:85,hp:25,str:-1,tec:2,wlk:1,fly:1,tgh:2,main:{pwr:12,shl:350,rng:280,spd:350,itv:400},tunable:{mwp:1}}
 {id:203,name:"Gwegg AM",cost:20,hp:15,str:1,tec:1,wlk:0,fly:-1,tgh:2}
 {id:204,name:"Zero Saber AM3",cost:35,hp:25,str:3,tec:2,wlk:1,fly:-1,tgh:0}
-//last:204
+{id:205,name:"Frog Lander KING AM",cost:35,hp:15,str:1,tec:3,wlk:2,fly:0,tgh:-1}
+//last:205
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:21,name:"Victory AM",cost:20,hp:15,str:1,fly:1}
@@ -447,7 +448,8 @@
 {id:1022,name:"Gundread AM",type:"l",cost:100,hp:15,str:0,tec:3,wlk:2,fly:-1,tgh:0,fixedParts:{wp:{name:"Gundread AM@",slot:0,main:{pwr:18,shl:300,rng:180,spd:400,itv:140},tunable:{mwp:1}}}}
 {id:1023,name:"Gundread AM2",type:"l",cost:100,hp:15,str:-1,tec:3,wlk:2,fly:0,tgh:0,fixedParts:{wp:{name:"Gundread AM2@",slot:0,sub:{pwr:36,rng:90,spd:80,itv:500},tunable:{pwp:1}}}}
 {id:1024,name:"Windlynx AM2",type:"a",cost:75,hp:20,tec:2,wlk:-1,fly:2,tgh:2,main:{pwr:12,shl:170,rng:300,spd:280,itv:600},tunable:{mwp:1}}
-//last:1024
+{id:1025,name:"Hovermill AM",cost:35,hp:20,str:0,tec:3,wlk:1,fly:-1,tgh:2}
+//last:1025
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:2,name:"Ettion AM",cost:25,hp:25,str:1,tec:1,tgh:1}
