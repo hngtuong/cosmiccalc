@@ -234,7 +234,8 @@
 {id:1074,name:"Ivis BS ",type:"l",cost:40,hp:20,str:2,tec:-2,wlk:0,fly:3,tgh:2}
 {id:1075,name:"Zero Saber BS2",type:"l",cost:130,hp:25,str:2,tec:-1,wlk:1,fly:2,tgh:1,main:{str:100,pwr:14,shl:220,rng:220,spd:420,itv:500},tunable:{mwp:1}}
 {id:1076,name:"Frog Lander KING BS",type:"l",cost:45,hp:25,str:0,tec:-1,wlk:1,fly:3,tgh:2}
-//last:1076
+{id:1077,name:"Seriphris BS",type:"l",cost:35,hp:20,str:2,tec:1,wlk:-1,fly:3,tgh:0}
+//last:1077
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Fizalivan BS",type:"l",cost:15,hp:15,fly:1,tgh:1}
@@ -388,7 +389,7 @@
 {id:142,name:"Istina Bullet BS",type:"a",cost:35,hp:20,str:-1,tec:1,fly:2,tgh:3}
 {id:2112,name:"Istina Bullet BS3",type:"a",cost:35,hp:20,str:2,tec:2,fly:2,tgh:-1}
 {id:143,name:"Ramdiver BS",type:"a",sub:{shl:10,itv:500},cost:90,hp:15,str:-1,tec:1,fly:3}
-{id:144,name:"Valiant BS",main:{tec:100,pwr:14,shl:200,rng:250,spd:280,itv:300},tunable:{mwp:1},type:"a",cost:25,hp:15,str:-1,fly:3,tgh:1}
+{id:144,name:"Valiant BS",main:{tec:100,pwr:15,shl:200,rng:300,spd:280,itv:300},tunable:{mwp:1},type:"a",cost:25,hp:15,str:-1,fly:3,tgh:1}
 {id:146,name:"Vampire Gale BS Beta",joint:{wp:1},cost:35,hp:15,str:1,tec:1,wlk:1,fly:2}
 {id:147,name:"Milky Way BS",joint:{wp:1},cost:35,hp:15,wlk:3,fly:2}
 {id:148,name:"Autumn Cape BS",joint:{wp:1},cost:25,hp:15,str:1,wlk:1,fly:2}

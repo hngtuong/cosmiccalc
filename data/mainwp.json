@@ -174,6 +174,7 @@
 {id:33,name:"Heat Gatling",type:"c",size:"M",main:{pwr:10,shl:600,rng:320,spd:420,itv:200},cost:85,wlk:-1,fly:-1}
 {id:34,name:"Heat Gatling Mod",type:"c",size:"M",main:{pwr:12,shl:400,rng:320,tec:100,spd:420,itv:200},wlk:-1,fly:-1,cost:85}
 {id:38,name:"Adhesive Machinegun",type:"l",size:"M",main:{pwr:9,shl:400,rng:200,spd:430,itv:140},cost:180}
+{id:39,name:"Sentinel Machinegun",type:"l",size:"LL",main:{pwr:18,shl:960,rng:230,spd:420,itv:200},cost:200}
 
 
 {group:"Rifles",prefixID:"LF",commonStat:{tunable:{mwp:1}}}
@@ -465,3 +466,4 @@
 {id:1062,name:"LLB Mine Shooter",size:"LL",type:"a",cost:140,main:{pwr:26,shl:200,rng:330,spd:400,itv:800}}
 {id:1063,name:"Blaze Headcannon",size:"S",type:"c",cost:60,main:{pwr:19,shl:200,rng:320,spd:300,itv:940}}
 {id:1064,name:"Toggle Machinegun",size:"S",type:"l",cost:105,main:{pwr:8,shl:560,rng:170,spd:420,itv:140},sub:{shl:30,spd:200,itv:500}}
+{id:1065,name:"Faith Shield",size:"L",type:"las",cost:100,main:{pwr:15,shl:180,rng:70,spd:360,itv:200}}

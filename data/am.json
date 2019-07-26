@@ -234,7 +234,8 @@
 {id:203,name:"Gwegg AM",cost:20,hp:15,str:1,tec:1,wlk:0,fly:-1,tgh:2}
 {id:204,name:"Zero Saber AM3",cost:35,hp:25,str:3,tec:2,wlk:1,fly:-1,tgh:0}
 {id:205,name:"Frog Lander KING AM",cost:35,hp:15,str:1,tec:3,wlk:2,fly:0,tgh:-1}
-//last:205
+{id:206,name:"Seriphris AM",cost:35,hp:20,str:1,tec:0,wlk:2,fly:0,tgh:2}
+//last:206
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:21,name:"Victory AM",cost:20,hp:15,str:1,fly:1}
@@ -406,7 +407,7 @@
 {id:171,name:"Robin Hunter AM2",main:{tec:100,pwr:12,shl:250,rng:280,spd:380,itv:340},tunable:{mwp:1},joint:{wp:2},type:"l",size:"M",cost:110,hp:15,tec:2,wlk:1}
 {id:152,name:"Ramdiver AM",cost:35,hp:20,str:-1,wlk:2,fly:2,tgh:2}
 {id:153,name:"Ramdiver AM2",joint:{wp:0},main:{pwr:27,shl:170,rng:360,spd:460,itv:700},tunable:{mwp:1},type:"a",cost:135,hp:20,str:-1,tec:3,wlk:1,tgh:2}
-{id:155,name:"Valiant AM",main:{tec:100,pwr:5,shl:160,rng:270,spd:380,itv:340},tunable:{mwp:1},joint:{am:1},fixedParts:{am:{name:"Valiant AM@",main:{tec:100,pwr:13,shl:180,rng:300,spd:220,itv:340},slot:0,joint:{wp:0}}},type:"a",cost:25,hp:15,tec:2,fly:1,tgh:1}
+{id:155,name:"Valiant AM",main:{tec:100,pwr:7,shl:180,rng:270,spd:380,itv:340},tunable:{mwp:1},joint:{am:1},fixedParts:{am:{name:"Valiant AM@",main:{tec:100,pwr:26,shl:150,rng:300,spd:270,itv:340},slot:0,joint:{wp:0}}},type:"a",cost:25,hp:15,tec:2,fly:1,tgh:1}
 {id:180,name:"Gotrun AM",main:{pwr:15,shl:30,rng:200,spd:570,itv:500},sub:{str:100,pwr:24,shl:20,rng:60,spd:80,itv:2000},type:"l",joint:{wp:0},tunable:{mwp:1,pwp:1},cost:180,hp:15,str:3,fly:-1,tgh:2}
 {id:181,name:"Gotrun AM2",main:{pwr:10,shl:150,rng:250,spd:320,itv:600},type:"l",tunable:{mwp:1},cost:90,hp:15,tec:2,wlk:1,fly:-1,tgh:2}
 {id:157,name:"Gotrun AM3",main:{shl:30,spd:10,itv:1000},sub:{str:100,pwr:31,shl:15,rng:150,spd:80,itv:1000},tunable:{mwp:1,pwp:1},type:"l",cost:145,hp:30,str:2,tec:-1,wlk:2,fly:1,tgh:1}
@@ -449,7 +450,8 @@
 {id:1023,name:"Gundread AM2",type:"l",cost:100,hp:15,str:-1,tec:3,wlk:2,fly:0,tgh:0,fixedParts:{wp:{name:"Gundread AM2@",slot:0,sub:{pwr:36,rng:90,spd:80,itv:500},tunable:{pwp:1}}}}
 {id:1024,name:"Windlynx AM2",type:"a",cost:75,hp:20,tec:2,wlk:-1,fly:2,tgh:2,main:{pwr:12,shl:170,rng:300,spd:280,itv:600},tunable:{mwp:1}}
 {id:1025,name:"Hovermill AM",cost:35,hp:20,str:0,tec:3,wlk:1,fly:-1,tgh:2}
-//last:1025
+{id:1026,name:"Valiant AM2",cost:25,hp:15,str:0,tec:2,wlk:0,fly:1,tgh:1,main:{pwr:5,shl:900,rng:320,spd:480,itv:240},tunable:{mwp:1},fixedParts:{wp:{name:"Valiant AM2@",slot:0,main:{pwr:22,shl:240,rng:320,spd:500,itv:600}}}}
+//last:1026
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:2,name:"Ettion AM",cost:25,hp:25,str:1,tec:1,tgh:1}

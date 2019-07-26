@@ -75,8 +75,8 @@
 {id:74,name:"Blue Wing@",main:{tec:100,pwr:6,shl:60,rng:300,spd:280,itv:300},sub:{str:100,pwr:20,shl:10,itv:1000},tunable:{mwp:1},conversion:"BSS1052 BSS126 BSS1053",comment:"Attachable to 'Kaltos Wing'/'Blue Wing' only",cost:90}
 {id:75,name:"Charge Delay Cassette",main:{pwr:22,shl:350,rng:320,spd:370,itv:300},type:"a",size:"S",cost:90,tunable:{mwp:1},conversion:"WPCS55",comment:"Attachable to 'Aurora Cannon' only"}
 {id:76,name:"Auto-Charge Cassette",main:{pwr:40,shl:30,rng:360,spd:520,itv:500},type:"a",size:"S",cost:50,slot:0,conversion:"WPCS55",comment:"Attachable to 'Aurora Cannon' only"}
-{id:77,name:"Beam Crystal",main:{pwr:15,shl:400,rng:330,spd:330,itv:1000},tunable:{mwp:1},type:"a",size:"S",cost:80,conversion:"BDAS77LG BDAS106LG",comment:"Attachable to 'Fractulus Girl LG/LG2' only"}
-{id:78,name:"Crystal Wall",main:{pwr:4,shl:800,rng:240,spd:300,itv:200},tunable:{mwp:1},type:"a",size:"M",cost:40,conversion:"BDAS77 BDAS106",comment:"Attachable to 'Fractulus Girl BD/BD2/BD3/BD4' only"}
+{id:77,name:"Beam Crystal",main:{pwr:20,shl:300,rng:330,spd:480,itv:700},tunable:{mwp:1},type:"a",size:"S",cost:80,conversion:"BDAS77LG BDAS106LG",comment:"Attachable to 'Fractulus Girl LG/LG2' only"}
+{id:78,name:"Crystal Wall",main:{pwr:7,shl:700,rng:330,spd:340,itv:200},tunable:{mwp:1},type:"a",size:"M",cost:40,conversion:"BDAS77 BDAS106",comment:"Attachable to 'Fractulus Girl BD/BD2/BD3/BD4' only"}
 {id:79,name:"Berzel Bazooka",tunable:{mwp:1},cost:90,type:"c",size:"S",main:{pwr:23,shl:350,rng:320,spd:350,itv:500},conversion:"WPCS56",comment:"Attachable to 'Greed Weapon/Greed Weapon II' only"}
 {id:80,name:"Persis Missile",tunable:{mwp:1},cost:90,type:"c",size:"S",main:{pwr:24,shl:300,rng:320,spd:300,itv:400},conversion:"WPCS56",comment:"Attachable to 'Greed Weapon/Greed Weapon II' only"}
 {id:81,name:"Zelius Psygun",main:{pwr:15,shl:420,rng:320,spd:220,itv:300},tunable:{mwp:1},type:"c",size:"S",cost:60,conversion:"WPCS56",comment:"Attachable to 'Greed Weapon/Greed Weapon II' only"}
@@ -188,8 +188,8 @@
 {id:187,name:"Wizamel Wand",type:"a",size:"M",main:{pwr:20,shl:20,rng:410,spd:520,itv:1000},sub:{pwr:9,shl:120,rng:350,spd:320,itv:400},cost:110,slot:0,conversion:"AMM176",comment:"Attachable to 'Wizamel AM' only"}
 {id:188,name:"Mini Shuriken",main:{pwr:5,shl:650,rng:140,spd:200,itv:160},tunable:{mwp:1},type:"s",size:"S",cost:60,conversion:"Tricyclaser",comment:"Attachable to 'Tricyclaser' parts only"}
 {id:189,name:"Mini Stun Arrow",main:{pwr:15,shl:160,rng:230,spd:245,itv:500},size:"S",type:"s",cost:60,conversion:"Tricyclaser",comment:"Attachable to 'Tricyclaser' parts only"}
-{id:190,name:"Beam Crystal Ru",main:{pwr:10,shl:320,rng:330,spd:330,itv:1000},tunable:{mwp:1},size:"S",type:"a",conversion:"BDAS106LG",comment:"Attachable to 'Fractulus Girl LG/LG2' only",cost:80}
-{id:191,name:"Crystal Wall II",main:{pwr:4,shl:800,rng:240,spd:300,itv:200},tunable:{mwp:1},type:"a",size:"M",conversion:"BDAS106",comment:"Attachable to 'Fractulus Girl BD/BD2/BD3/BD4' only",cost:40}
+{id:190,name:"Beam Crystal Ru",main:{pwr:17,shl:300,rng:330,spd:480,itv:700},tunable:{mwp:1},size:"S",type:"a",conversion:"BDAS106LG",comment:"Attachable to 'Fractulus Girl LG/LG2' only",cost:80}
+{id:191,name:"Crystal Wall II",main:{pwr:7,shl:700,rng:330,spd:340,itv:200},tunable:{mwp:1},type:"a",size:"M",conversion:"BDAS106",comment:"Attachable to 'Fractulus Girl BD/BD2/BD3/BD4' only",cost:40}
 {id:192,name:"Wonder Key Rod",main:{pwr:7,shl:840,rng:320,spd:330,itv:300},tunable:{mwp:1},fixedParts:{wp:{main:{pwr:32,shl:30,rng:340,spd:180,itv:500},name:"Cheshire Cannon",slot:0,cost:70}},type:"a",size:"S",cost:100,joint:{wp:1},conversion:"BDAS107AM",comment:"Attachable to 'Alice AM' only"}
 {id:193,name:"Katto Bat",main:{pwr:10,shl:100,rng:250,spd:320,itv:500},sub:{str:100,pwr:39,rng:70,spd:70,itv:1000},tunable:{mwp:1,pwp:1},type:"l",size:"L",cost:170,conversion:"AML2109",comment:"Attachable to 'Katto Baldo AM' only"}
 {id:194,name:"Meteorpfeil",main:{tec:100,pwr:5,shl:200,rng:320,spd:260,itv:600},tunable:{mwp:1},type:"a",size:"S",cost:30,conversion:"BDAS108",comment:"Attachable to 'Celica Hawk BD' only"}
