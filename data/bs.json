@@ -235,7 +235,9 @@
 {id:1075,name:"Zero Saber BS2",type:"l",cost:130,hp:25,str:2,tec:-1,wlk:1,fly:2,tgh:1,main:{str:100,pwr:14,shl:220,rng:220,spd:420,itv:500},tunable:{mwp:1}}
 {id:1076,name:"Frog Lander KING BS",type:"l",cost:45,hp:25,str:0,tec:-1,wlk:1,fly:3,tgh:2}
 {id:1077,name:"Seriphris BS",type:"l",cost:35,hp:20,str:2,tec:1,wlk:-1,fly:3,tgh:0}
-//last:1077
+{id:1078,name:"G.Remoire BS",type:"c",cost:35,hp:20,str:1,tec:2,wlk:0,fly:3,tgh:-1}
+{id:1079,name:"Marinediver BS",type:"c",cost:100,hp:15,str:0,tec:2,wlk:0,fly:2,tgh:-1}
+//last:1079
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Fizalivan BS",type:"l",cost:15,hp:15,fly:1,tgh:1}
@@ -464,7 +466,9 @@
 {id:2130,name:"Dreiblitz BS",type:"c",cost:125,hp:20,str:0,tec:2,wlk:2,fly:2,tgh:-1,main:{pwr:3,shl:30,rng:320,spd:280,itv:600},sub:{pwr:2,shl:15,rng:320,spd:280,itv:500},tunable:{mwp:1}}
 {id:2131,name:"Taiko BS",type:"lcs",cost:60,hp:15,str:0,tec:2,wlk:-1,fly:2,tgh:1,sub:{pwr:10,shl:10,rng:100,spd:120,itv:500}}
 {id:2132,name:"Gurenzalivan BS",type:"l",cost:40,hp:20,str:0,tec:-1,wlk:1,fly:3,tgh:2}
-//last:2132
+{id:2133,name:"S.ActinaG BS",type:"c",cost:85,hp:20,str:0,tec:1,wlk:2,fly:3,tgh:-1,sub:{shl:30,spd:250,itv:500}}
+{id:2134,name:"Paladiknight BS",type:"l",cost:70,hp:25,str:2,tec:-1,wlk:0,fly:2,tgh:2,main:{str:100,pwr:8,shl:60,rng:200,spd:400,itv:500},tunable:{mwp:1}}
+//last:2134
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Steel Rider BS",type:"l",cost:25,hp:10,wlk:1,fly:2}
