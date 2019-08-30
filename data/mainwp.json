@@ -467,3 +467,4 @@
 {id:1063,name:"Blaze Headcannon",size:"S",type:"c",cost:60,main:{pwr:19,shl:200,rng:320,spd:300,itv:940}}
 {id:1064,name:"Toggle Machinegun",size:"S",type:"l",cost:105,main:{pwr:8,shl:560,rng:170,spd:420,itv:140},sub:{shl:30,spd:200,itv:500}}
 {id:1065,name:"Faith Shield",size:"L",type:"las",cost:100,main:{pwr:15,shl:180,rng:70,spd:360,itv:200}}
+{id:1066,name:"Beamlance Shield",size:"L",type:"l",cost:40,main:{shl:60,spd:10,itv:1000}}

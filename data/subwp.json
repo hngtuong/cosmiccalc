@@ -278,3 +278,5 @@
 {id:82,name:"Delta Rocket Launcher",size:"L",type:"a",cost:130,sub:{pwr:16,shl:600,rng:320,spd:85,itv:1000},tunable:{pwp:0}}
 {id:83,name:"End Galateen",size:"L",type:"a",cost:120,sub:{str:100,pwr:30,rng:70,spd:80,itv:1000}}
 {id:84,name:"Photon Rod",size:"S",type:"l",cost:150,sub:{pwr:28,shl:80,rng:250,spd:280,itv:1000}}
+{id:85,name:"Flame Saucer",size:"M",type:"l",cost:120,sub:{str:100,pwr:22,rng:135,spd:300,itv:500}}
+{id:86,name:"Lumiel Blade",size:"M",type:"l",cost:90,sub:{str:100,pwr:30,rng:70,spd:85,itv:500}}

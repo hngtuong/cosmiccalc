@@ -114,7 +114,7 @@
 {id:113,name:"Anti-Personnel Pulse Laser",main:{tec:100,pwr:17,shl:350,rng:300,spd:330,itv:300},sub:{tec:100,pwr:9,shl:40,rng:350,spd:320,itv:400},tunable:{mwp:1},type:"a",size:"S",conversion:"BDAS83",comment:"Attachable to 'Theiamillis BD/BD2' only",cost:100}
 {id:114,name:"Sonic Impact Cannon",main:{tec:100,pwr:40,shl:30,rng:390,spd:450,itv:500},conversion:"BDAS83",comment:"Attachable to 'Theiamillis BD/BD2' only",cost:60,slot:0,type:"a",size:"S"}
 {id:115,name:"Theia's Bracelet",joint:{wp:1},fixedParts:{wp:{name:"Orbital Bombardment",sub:{pwr:50,tec:100,rng:350,spd:100,itv:500},slot:0,cost:20}},type:"a",size:"S",conversion:"BDAS83AM",comment:"Attachable to 'Theiamillis AM2/AM4' only",slot:0}
-{id:116,name:"Kikoutou Kagutsuchi",main:{tec:100,pwr:15,shl:510,rng:280,spd:280,itv:1000},tunable:{mwp:1},type:"c",size:"M",cost:180,conversion:"BDCS71AM",comment:"Attachable to 'Homura AM' only"}
+{id:116,name:"Kikoutou Kagutsuchi",main:{tec:100,pwr:18,shl:510,rng:340,spd:320,itv:1000},tunable:{mwp:1},type:"c",size:"M",cost:180,conversion:"BDCS71AM",comment:"Attachable to 'Homura AM' only"}
 {id:117,name:"Chivalry Aegis",main:{shl:30,spd:10,itv:1000},conversion:"BDLS138AM8",comment:"Attachable to 'Sylvia AM8' only",size:"M",type:"l",cost:20}
 {id:118,name:"Nora Schneid BD@",tunable:{mwp:1},type:"l",size:"S",cost:30,conversion:"BDLS140 BDLS191",comment:"Attachable to 'Nora Schneid BD' only",main:{pwr:5,shl:45,rng:200,spd:280,itv:300}}
 {id:119,name:"Maple Leaf Guard",main:{shl:7,spd:10,itv:1000},conversion:"BSM148 BSM165",comment:"Attachable to 'Autumn Cape BS/Autumn Leaf BS' only",slot:0,size:"M",cost:35}
@@ -150,17 +150,17 @@
 {id:149,name:"Aqua Splasher",main:{tec:100,pwr:30,shl:200,rng:300,spd:300,itv:800},tunable:{mwp:1},type:"l",size:"S",cost:65,conversion:"BDLS40AM BDLS40AM2 BDLS55AM BDLS55AM5 BDLS85AM3 BDLS85AM4 BDLS91AM6 BDLS118AM8 BDLS118AM7 BDLS126AM9 BDLS126AM7 BDLS156AM10",comment:"Attachable to 'Ion AM|2/3/4/5/6/7/8/9/10' only"}
 {id:150,name:"Water Flower Hy",main:{tec:100,pwr:6,shl:900,rng:200,spd:360,itv:200},sub:{tec:100,pwr:35,shl:50,rng:250,spd:400,itv:3000},tunable:{mwp:1},type:"l",size:"S",cost:100,conversion:"BDLS91 BDLS118 BDLS126 BDLS156",comment:"Attachable to 'Ion BD6/7/8/9/10/11' only"}
 {id:151,name:"Driver Cannon",main:{tec:100,pwr:13,shl:420,rng:330,spd:220,itv:340},tunable:{mwp:1,pwp:0},size:"M",type:"c",cost:100,conversion:"BDCS79 BDCS1067",comment:"Attachable to 'Asphe BD' only"}
-{id:152,name:"Denden Cam Pro",main:{tec:100,pwr:15,shl:360,rng:320,spd:330,itv:300},tunable:{mwp:1},type:"a",size:"S",cost:90,conversion:"BDAS98 BDAS1082",comment:"Attachable to 'Minaria BD' only"}
-{id:153,name:"Weather Umbrella",sub:{tec:100,pwr:13,shl:40,rng:10,spd:320,itv:500},joint:{wp:1},cost:45,slot:0,conversion:"BDAS98AM BDAS1082AM",comment:"Attachable to 'Minaria AM2' only"}
-{id:154,name:"Weather Umbrella@",main:{tec:100,pwr:35,shl:30,rng:320,spd:400,itv:1000},sub:{tec:100,shl:15,rng:10,spd:110,itv:500},type:"a",size:"S",slot:0,cost:125,conversion:"WPCM153 WPCM207",comment:"Attachable to 'Weather Umbrella' only"}
+{id:152,name:"Denden Cam Pro",main:{tec:100,pwr:15,shl:450,rng:320,spd:450,itv:300},tunable:{mwp:1},type:"a",size:"S",cost:90,conversion:"BDAS98 BDAS1082 BDAS1098",comment:"Attachable to 'Minaria BD' only"}
+{id:153,name:"Weather Umbrella",sub:{tec:100,pwr:26,shl:40,rng:10,spd:320,itv:500},joint:{wp:1},cost:45,slot:0,conversion:"BDAS98AM BDAS1082AM BDAS1098AM",comment:"Attachable to 'Minaria AM2' only"}
+{id:154,name:"Weather Umbrella@",main:{tec:100,pwr:40,shl:30,rng:360,spd:520,itv:1000},sub:{tec:100,rng:10,spd:110,itv:500},type:"a",size:"S",slot:0,cost:125,conversion:"WPCM153 WPCM207 WPCM255",comment:"Attachable to 'Weather Umbrella' only"}
 {id:155,name:"Dragon Talon",main:{pwr:16,shl:270,rng:250,spd:320,itv:500,str:100},type:"l",size:"S",tunable:{mwp:1},cost:130,conversion:"BDLS157AM",comment:"Attachable to 'Kuten Jikun Long AM7' only"}
 {id:156,name:"Fire Breath",main:{pwr:36,shl:30,rng:320,spd:400,itv:300},type:"c",size:"S",conversion:"BDCS80WP",comment:"Attachable to 'Gii-kun' only",cost:60,slot:0}
 {id:157,name:"Donner Musket",joint:{wp:1},fixedParts:{wp:{name:"Donner Musket@",main:{pwr:32,shl:40,rng:360,spd:400,itv:500},slot:0}},type:"a",size:"S",conversion:"BDAS99AM",comment:"Attachable to 'Nebel AM' only",cost:60}
 {id:158,name:"Blitz B Machinegun",main:{pwr:19,shl:700,rng:320,spd:410,itv:240},tunable:{mwp:1},joint:{wp:1},type:"a",size:"S",conversion:"BDAS99AM2",comment:"Attachable to 'Nebel AM2' only",cost:90}
 {id:159,name:"Connect Blast",main:{pwr:41,shl:160,rng:350,spd:450,itv:500},type:"a",size:"S",slot:0,conversion:"WPCM158",comment:"Attachable to 'Blitz B Machinegun' only",cost:60}
-{id:160,name:"Fin Musket",cost:90,type:"c",size:"S",main:{pwr:17,shl:300,rng:360,spd:420,itv:500},conversion:"BDCS81AM BDCS1064AM",comment:"Attachable to 'Colleti AM' only"}
-{id:161,name:"Fin Cannon SS",cost:90,type:"c",size:"S",slot:0,main:{pwr:9,shl:200,rng:320,spd:260,itv:1400},sub:{pwr:25,shl:15,rng:10,spd:110,itv:500},conversion:"BDCS81 BDCS1064",comment:"Attachable to 'Colleti BD' only"}
-{id:162,name:"Fin Cannon HE",cost:120,type:"c",size:"S",slot:0,main:{pwr:20,shl:80,rng:320,spd:400,itv:800},sub:{pwr:10,shl:300,rng:320,spd:280,itv:500},conversion:"BDCS81 BDCS1064",comment:"Attachable to 'Colleti BD' only"}
+{id:160,name:"Fin Musket",cost:90,type:"c",size:"S",main:{pwr:17,shl:520,rng:360,spd:480,itv:500},conversion:"BDCS81AM BDCS1064AM",comment:"Attachable to 'Colleti AM' only"}
+{id:161,name:"Fin Cannon SS",cost:90,type:"c",size:"S",slot:0,main:{pwr:10,shl:360,rng:320,spd:260,itv:1000},sub:{pwr:25,shl:15,rng:10,spd:110,itv:500},conversion:"BDCS81 BDCS1064",comment:"Attachable to 'Colleti BD' only"}
+{id:162,name:"Fin Cannon HE",cost:120,type:"c",size:"S",slot:0,main:{pwr:28,shl:400,rng:350,spd:520,itv:800},sub:{pwr:10,shl:300,rng:320,spd:280,itv:500},conversion:"BDCS81 BDCS1064",comment:"Attachable to 'Colleti BD' only"}
 {id:163,name:"Bloody Star AM@",main:{tec:100,pwr:28,shl:15,rng:250,spd:570,itv:1200},type:"c",size:"M",cost:25,slot:0,conversion:"AMM172 AMM1013"}
 {id:164,name:"Blood Star AM2@",type:"c",size:"M",slot:0,cost:25,main:{pwr:2,shl:360,rng:280,spd:380,itv:500},conversion:"AMM172 AMM1013"}
 {id:165,name:"Revenant Shield",main:{shl:30,rng:10,spd:10,itv:1000},type:"l",size:"M",slot:0,cost:30,conversion:"AMM173",comment:"Attachable to 'Dark Revenant AM' only"}
@@ -175,7 +175,7 @@
 {id:174,name:"Eisen Faust",main:{shl:10,spd:10,itv:1000},type:"l",size:"S",cost:25,slot:0,conversion:"BDLS132AM BDLS167AM",comment:"Attachable to 'Hanna Fritz AM' only"}
 {id:175,name:"Lise Flak",main:{tec:100,pwr:22,shl:80,rng:300,spd:420,itv:1300},type:"c",size:"S",cost:60,conversion:"BDCS62WP BDCS86WP",comment:"Attachable to 'Lise Launcher' only"}
 {id:176,name:"Polaris",main:{tec:100,pwr:10,shl:30,rng:220,spd:280,itv:500},type:"l",size:"S",cost:40,conversion:"BDLS168WP",comment:"Attachable to 'Mercurio BD@' only",slot:0}
-{id:177,name:"Yurino Style Cloth",main:{tec:100,pwr:15,shl:510,rng:280,spd:280,itv:1000},tunable:{mwp:1},type:"c",size:"M",conversion:"BDCS87AM",comment:"Attachable to 'Yukata Homura AM' only",cost:180}
+{id:177,name:"Yurino Style Cloth",main:{tec:100,pwr:18,shl:510,rng:340,spd:320,itv:1000},tunable:{mwp:1},type:"c",size:"M",conversion:"BDCS87AM",comment:"Attachable to 'Yukata Homura AM' only",cost:180}
 {id:178,name:"Sonic Cannon",main:{tec:100,pwr:30,shl:30,rng:150,spd:380,itv:500},cost:70,type:"l",size:"S",slot:0,conversion:"BDLS170LG",comment:"Attachable to 'Sonic Star' only"}
 {id:179,name:"Box Gatling",main:{tec:100,pwr:4,shl:800,rng:270,spd:360,itv:240},cost:70,type:"l",size:"S",conversion:"BDLS170LG",comment:"Attachable to 'Sonic Star' only"}
 {id:180,name:"Khakkara",main:{pwr:13,shl:840,rng:250,spd:260,itv:300},sub:{pwr:27,shl:100,rng:250,spd:280,itv:500},type:"l",size:"S",cost:150,conversion:"BDLS171AM",comment:"Attachable to 'Nicole Matlice AM8' only"}
@@ -205,12 +205,12 @@
 {id:204,name:"Pepen Girl BD@",sub:{shl:7,rng:300,itv:1000},type:"c",size:"M",cost:20,slot:0,conversion:"BDCS70"}
 {id:205,name:"M1 Ignited",cost:40,type:"c",size:"S",main:{pwr:30,shl:60,rng:360,spd:250,itv:500},tunable:{mwp:1},conversion:"BSS1056"}
 {id:206,name:"D.N.G. Cannon",main:{pwr:25,shl:200,rng:340,spd:230,itv:800},type:"c",cost:70,conversion:"AMS120",comment:"Attachable to 'Anko AM2' only",size:"S"}
-{id:207,name:"Summer Parasol",type:"a",cost:45,slot:0,joint:{wp:1},sub:{pwr:25,shl:40,rng:10,spd:320,itv:500},conversion:"BDAS98AM BDAS1082AM"}
-{id:208,name:"Summer Parasol@",type:"a",cost:135,main:{pwr:3,shl:480,rng:320,spd:330,itv:300},sub:{tec:100,shl:15,rng:10,spd:110,itv:500},conversion:"WPCM153 WPCM207"}
-{id:209,name:"Denden Cam Pro II",type:"a",cost:80,slot:0,main:{pwr:27,shl:50,rng:320,spd:330,itv:300},conversion:"BDAS98 BDAS1082"}
-{id:210,name:"Fin Musket II",cost:90,type:"c",size:"S",main:{pwr:17,shl:300,rng:350,spd:220,itv:300},conversion:"BDCS81AM BDCS1064AM"}
-{id:211,name:"Fin Cannon BU",cost:90,type:"c",size:"S",slot:0,main:{pwr:10,shl:160,rng:320,spd:480,itv:400},sub:{pwr:0,shl:30,rng:150,spd:100,itv:500},conversion:"BDCS81 BDCS1064",comment:"Attachable to 'Colleti BD' only"}
-{id:212,name:"Fin Cannon PS",cost:120,type:"c",size:"S",slot:0,main:{pwr:6,shl:400,rng:300,spd:220,itv:340},sub:{pwr:5,shl:240,rng:320,spd:260,itv:600},conversion:"BDCS81 BDCS1064",comment:"Attachable to 'Colleti BD' only"}
+{id:207,name:"Summer Parasol",type:"a",cost:45,slot:0,joint:{wp:1},sub:{pwr:32,shl:40,rng:10,spd:320,itv:500},conversion:"BDAS98AM BDAS1082AM BDAS1098AM"}
+{id:208,name:"Summer Parasol@",type:"a",cost:135,slot:0,main:{pwr:4,shl:1050,rng:320,spd:330,itv:400},sub:{tec:100,rng:10,spd:110,itv:500},conversion:"WPCM153 WPCM207 WPCM255"}
+{id:209,name:"Denden Cam Pro II",type:"a",cost:80,main:{pwr:39,shl:50,rng:320,spd:520,itv:1000},conversion:"BDAS98 BDAS1082 BDAS1098"}
+{id:210,name:"Fin Musket II",cost:90,type:"c",size:"S",main:{pwr:17,shl:420,rng:350,spd:300,itv:300},conversion:"BDCS81AM BDCS1064AM"}
+{id:211,name:"Fin Cannon BU",cost:90,type:"c",size:"S",slot:0,main:{pwr:15,shl:880,rng:350,spd:570,itv:400},sub:{pwr:0,shl:30,rng:150,spd:100,itv:500},conversion:"BDCS81 BDCS1064",comment:"Attachable to 'Colleti BD' only"}
+{id:212,name:"Fin Cannon PS",cost:120,type:"c",size:"S",slot:0,main:{pwr:12,shl:720,rng:320,spd:320,itv:700},sub:{pwr:5,shl:240,rng:330,spd:260,itv:500},conversion:"BDCS81 BDCS1064",comment:"Attachable to 'Colleti BD' only"}
 {id:213,name:"Liozen AM@",cost:50,slot:0,main:{str:100,pwr:15,shl:12,rng:130,spd:570,itv:1000},conversion:"AML2119"}
 {id:214,name:"Serieux Key Alpha",cost:150,main:{pwr:9,shl:480,rng:350,spd:330,itv:300},sub:{pwr:15,shl:15,rng:350,spd:280,itv:500},conversion:"BDCS1065AM"}
 //{id:215,name:"Prometheus Module",cost:105,type:"c",main:{pwr:18,shl:125,rng:320,spd:380,itv:500},sub:{pwr:35,rng:110,spd:300,itv:1000},tunable:{pwp:1},conversion:"AMS1009 AMS1011 AMS1013"}
@@ -233,7 +233,7 @@
 {id:232,name:"Vice Cannon HD@",cost:80,main:{pwr:8,shl:450,rng:320,spd:300,itv:500},conversion:"HDL14"}
 {id:233,name:"ECM Lightning Buster",main:{tec:100,pwr:17,shl:220,rng:330,spd:350,itv:440},sub:{itv:500},conversion:"BDAS1092AM",cost:100}
 {id:234,name:"Bouclier Cannon",cost:100,main:{pwr:30,shl:260,rng:350,spd:400,itv:600},sub:{itv:500},conversion:"BDCS74AM",joint:{wp:2},fixedParts:{wp:{name:"Bouclier Cannon@",slot:0,cost:60,main:{pwr:30,shl:450,rng:430,spd:370,itv:200}}}}
-{id:235,name:"Apollion HD@",cost:40,main:{str:100,pwr:10,shl:200,rng:340,spd:330,itv:500},conversion:"BDAL61"}
+{id:235,name:"Apollion HD@",cost:40,main:{str:100,pwr:10,shl:200,rng:340,spd:330,itv:500},conversion:"BDAL61 BDAL64"}
 {id:236,name:"Stun Ball",cost:60,main:{pwr:20,shl:80,rng:250,spd:400,itv:500},conversion:"BDSS133 BDSS134 BDSS135 BDSS136 BDSS137 BDSS138 BDSS139 BDSS140 BDSS141 BDSS142 BDSS156 BDSS157"}
 {id:237,name:"Slow Ball",cost:60,main:{pwr:10,shl:100,rng:150,spd:400,itv:500},conversion:"BDSS133 BDSS134 BDSS135 BDSS136 BDSS137 BDSS138 BDSS139 BDSS140 BDSS141 BDSS142 BDSS156 BDSS157"}
 {id:238,name:"Shock Ball",cost:60,main:{pwr:9,shl:150,rng:150,spd:400,itv:300},conversion:"BDSS133 BDSS134 BDSS135 BDSS136 BDSS137 BDSS138 BDSS139 BDSS140 BDSS141 BDSS142 BDSS156 BDSS157"}
@@ -253,6 +253,10 @@
 {id:252,name:"Ivis Scythe@",main:{str:100,pwr:15,shl:45,rng:170,spd:300,itv:200},conversion:"WPCS161"}
 {id:253,name:"Bloody Sword@",main:{str:100,pwr:20,shl:100,rng:200,spd:390,itv:500},conversion:"WPCS162"}
 {id:254,name:"Rouche's Argument",cost:30,main:{shl:10,spd:10,itv:1000},conversion:"BDLS207AM2"}
+{id:255,name:"Tapiota Choco Parasol",cost:90,slot:0,joint:{wp:1},main:{pwr:20,shl:400,rng:320,spd:280,itv:500},conversion:"BDAS98AM BDAS1082AM BDAS1098AM"}
+{id:256,name:"Tapiota Choco Parasol@",cost:90,slot:0,main:{shl:-1,spd:10,itv:500},sub:{pwr:23,shl:140,rng:330,spd:320,itv:500},conversion:"WPCM153 WPCM207 WPCM255"}
+{id:257,name:"Denden Cam Pro III",cost:80,sub:{pwr:16,shl:80,rng:330,spd:280,itv:500},conversion:"BDAS98 BDAS1082 BDAS1098"}
+{id:258,name:"Apollion BD2@",cost:40,main:{str:100,pwr:5,shl:400,rng:340,spd:330,itv:500},conversion:"BDAL61 BDAL64"}
 
 
 {group:"Conversion-SWP",prefixID:"CS",commonStat:{tunable:{pwp:1}}}

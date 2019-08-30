@@ -57,7 +57,9 @@
 {id:111,name:"Zero Saber HD3",cost:35,hp:25,str:2,tec:1,wlk:1,fly:0,tgh:1}
 {id:112,name:"Frog Lander KING HD",cost:35,hp:20,str:0,tec:2,wlk:1,fly:-1,tgh:3}
 {id:113,name:"Seriphris HD",cost:35,hp:20,str:2,tec:-1,wlk:2,fly:1,tgh:1}
-//last:113
+{id:114,name:"G.Remoire HD",cost:35,hp:20,str:-1,tec:3,wlk:2,fly:0,tgh:1}
+{id:115,name:"Marinediver HD",cost:25,hp:15,str:-1,tec:1,wlk:1,fly:0,tgh:2}
+//last:115
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Steel Rider HD",cost:15,hp:5,str:1,wlk:1,tgh:1}
@@ -439,7 +441,10 @@
 {id:1304,name:"Gwyain Absol HD2",cost:25,hp:20,str:3,tec:-1,wlk:0,fly:1,tgh:1}
 {id:1305,name:"Hovermill HD",cost:45,hp:25,str:-1,tec:1,wlk:2,fly:0,tgh:3}
 {id:1306,name:"Valiant HD2",cost:50,hp:15,str:-1,tec:1,wlk:1,fly:0,tgh:2,sub:{shl:15,spd:10,itv:1000}}
-//last:1306
+{id:1307,name:"S.ActinaG HD",cost:30,hp:15,str:2,tec:0,wlk:2,fly:-1,tgh:2}
+{id:1308,name:"Apollion HD2",cost:30,hp:20,str:1,tec:-1,wlk:0,fly:2,tgh:3}
+{id:1309,name:"Paladiknight HD",cost:45,hp:25,str:2,tec:-1,wlk:1,fly:1,tgh:2}
+//last:1309
 
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
