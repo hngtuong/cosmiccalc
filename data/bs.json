@@ -468,7 +468,8 @@
 {id:2132,name:"Gurenzalivan BS",type:"l",cost:40,hp:20,str:0,tec:-1,wlk:1,fly:3,tgh:2}
 {id:2133,name:"S.ActinaG BS",type:"c",cost:85,hp:20,str:0,tec:1,wlk:2,fly:3,tgh:-1,sub:{shl:30,spd:250,itv:500}}
 {id:2134,name:"Paladiknight BS",type:"l",cost:70,hp:25,str:2,tec:-1,wlk:0,fly:2,tgh:2,main:{str:100,pwr:8,shl:60,rng:200,spd:400,itv:500},tunable:{mwp:1}}
-//last:2134
+{id:2135,name:"Jets BS",type:"a",cost:210,hp:10,str:-1,tec:1,wlk:0,fly:2,tgh:0,main:{pwr:27,shl:440,rng:320,spd:450,itv:400},sub:{pwr:7,shl:300,rng:330,spd:450,itv:500},tunable:{mwp:1}}
+//last:2135
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Steel Rider BS",type:"l",cost:25,hp:10,wlk:1,fly:2}
@@ -591,15 +592,16 @@
 {id:112,name:"Teitarotes BS",type:"c",cost:90,hp:25,str:0,tec:2,wlk:0,fly:1,tgh:2,main:{pwr:15,shl:90,rng:320,spd:280,itv:1000},tunable:{mwp:1}}
 {id:113,name:"Zeusnesis BS",type:"l",cost:140,hp:25,str:2,tec:-1,wlk:1,fly:3,tgh:1,main:{str:100,pwr:18,shl:100,rng:260,spd:380,itv:500},sub:{str:100,pwr:25,shl:60,rng:150,spd:200,itv:500},tunable:{mwp:1}}
 {id:114,name:"Big Mountaiz Tri BS",type:"a",cost:45,hp:30,str:2,tec:0,wlk:1,fly:2,tgh:0}
-//last:114
+{id:115,name:"Joste Gunder BS2",type:"l",cost:135,hp:20,str:1,tec:-1,wlk:1,fly:3,tgh:1,sub:{pwr:2,shl:60,rng:150,spd:260,itv:500}}
+//last:115
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
-{id:1,name:"Shaden BS",type:"a",cost:150,hp:5,fly:1,sub:{pwr:1,shl:1,rng:200,spd:110,itv:2000}}
-{id:3,name:"Shaden BS2",sub:{str:100,pwr:1,shl:1,rng:200,spd:110,itv:2000},type:"a",cost:150,hp:5,str:-2,tec:1,fly:1}
+{id:1,name:"Shaden BS",type:"a",cost:85,hp:10,fly:1,sub:{pwr:1,shl:1,rng:200,spd:110,itv:2000}}
+{id:3,name:"Shaden BS2",sub:{str:100,pwr:1,shl:1,rng:200,spd:110,itv:2000},type:"a",cost:85,hp:15,str:-2,tec:1,fly:1}
 {id:2,name:"Grandum BS",type:"c",cost:135,hp:20,tec:1,wlk:1,fly:3,sub:{pwr:20,shl:132,rng:350,spd:160,itv:1600}}
 {id:4,name:"Brigand Baron BS",type:"l",cost:40,hp:20,str:1,tec:-1,wlk:1,fly:2,tgh:2}
 {id:5,name:"Hecatocles BS",main:{tec:100,pwr:11,shl:400,rng:300,spd:220,itv:1000},tunable:{mwp:1},type:"c",cost:115,hp:15,wlk:-1,fly:3,tgh:1}
-{id:6,name:"Shaden BS3",sub:{pwr:1,shl:1,rng:200,spd:110,itv:2000},type:"a",cost:150,hp:5,fly:1}
+{id:6,name:"Shaden BS3",sub:{pwr:1,shl:1,rng:200,spd:110,itv:2000},type:"a",cost:105,hp:10,fly:1}
 
 
 {group:"Joint",prefixID:"J",commonStat:{jointPart:1}}

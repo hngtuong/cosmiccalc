@@ -132,7 +132,8 @@
 {id:1111,name:"Seriphris LG",cost:35,hp:20,str:2,tec:0,wlk:3,fly:-1,tgh:1}
 {id:1112,name:"G.Remoire LG",cost:65,type:"c",hp:20,str:0,tec:1,wlk:3,fly:-1,tgh:2,sub:{shl:15,spd:150,itv:500}}
 {id:1113,name:"Marinediver LG",type:"c",cost:35,hp:25,str:0,tec:0,wlk:2,fly:1,tgh:2}
-//last:1113
+{id:1114,name:"Jets LG",type:"a",cost:45,hp:25,str:1,tec:1,wlk:2,fly:1,tgh:0}
+//last:1114
 
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}

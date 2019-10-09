@@ -36,8 +36,8 @@
 {id:19,name:"Double Magnum",type:"lcs",size:"M",cost:75,fly:1,main:{pwr:14,shl:280,rng:195,spd:320,itv:440}}
 {id:20,name:"Custom Magnum",type:"lc",size:"M",cost:100,wlk:1,fly:1,main:{pwr:16,shl:270,rng:190,spd:320,itv:460}}
 {id:21,name:"Custom Magnum Mod",type:"lc",size:"M",cost:100,main:{pwr:18,shl:250,rng:200,spd:320,itv:500}}
-{id:22,name:"Combat Mag",type:"l",size:"M",cost:120,wlk:2,main:{pwr:15,shl:370,rng:230,spd:300,itv:400}}
-{id:74,name:"Combat Mag Mod",main:{tec:100,pwr:18,shl:290,rng:230,spd:300,itv:400},type:"l",size:"M",cost:120,wlk:2}
+{id:22,name:"Combat Mag",type:"l",size:"M",cost:120,wlk:2,main:{pwr:17,shl:380,rng:230,spd:460,itv:400}}
+{id:74,name:"Combat Mag Mod",main:{tec:100,pwr:19,shl:320,rng:230,spd:460,itv:400},type:"l",size:"M",cost:120,wlk:2}
 {id:23,name:"LL Bulk Mag",type:"l",size:"LL",cost:140,fly:-1,main:{pwr:21,shl:190,rng:190,spd:300,itv:500}}
 {id:100,name:"LL Bulk Mag Mod",type:"l",size:"LL",cost:140,fly:-1,main:{pwr:23,shl:150,rng:190,spd:300,itv:500}}
 {id:67,name:"Estes Magnum",main:{pwr:18,shl:260,rng:230,spd:360,itv:440},size:"M",type:"l",cost:155}
@@ -61,8 +61,8 @@
 {id:79,name:"Limited Plasma Gun Mod",main:{pwr:15,shl:250,rng:260,spd:310,itv:400},type:"a",size:"M",cost:110,str:-2,wlk:-1}
 {id:32,name:"Plasma Gun",type:"a",size:"M",cost:170,str:-1,wlk:-2,main:{pwr:20,shl:400,rng:220,spd:270,itv:440}}
 {id:82,name:"Plasma Gun Mod",type:"a",size:"M",cost:170,str:-1,wlk:-2,main:{pwr:22,shl:350,rng:220,spd:270,itv:440}}
-{id:65,name:"LL Plasma Gun",type:"a",size:"LL",cost:200,fly:2,main:{pwr:30,shl:450,rng:250,spd:270,itv:700}}
-{id:123,name:"LL Plasma Gun Mod",type:"a",size:"LL",cost:200,fly:2,main:{pwr:27,shl:450,rng:300,spd:270,itv:700}}
+{id:65,name:"LL Plasma Gun",type:"a",size:"LL",cost:200,fly:2,main:{pwr:30,shl:450,rng:300,spd:450,itv:400}}
+{id:123,name:"LL Plasma Gun Mod",type:"a",size:"LL",cost:200,fly:2,main:{pwr:27,shl:450,rng:330,spd:450,itv:400}}
 {id:70,name:"Accel Beam Gun",main:{pwr:11,shl:250,rng:270,spd:470,itv:480},type:"a",size:"M",cost:85,tec:-1,wlk:-1}
 {id:80,name:"Accel Beam Gun Mod",main:{pwr:13,shl:160,rng:270,spd:470,itv:480},type:"a",size:"M",cost:85,tec:-1,wlk:-1}
 {id:84,name:"Curve Lightning Gun",main:{pwr:10,shl:640,rng:250,spd:290,itv:800},type:"a",size:"L",cost:140,fly:1,tgh:-1}
@@ -252,6 +252,7 @@
 {id:22,name:"Advanced Shotgun Mod",type:"l",size:"M",cost:160,main:{pwr:8,shl:960,rng:225,spd:380,itv:500}}
 {id:23,name:"Shred Shotgun",main:{pwr:40,shl:240,rng:200,spd:350,itv:340},cost:180,size:"M",type:"l"}
 {id:25,name:"Shred Shotgun Mod",main:{pwr:38,shl:260,rng:200,spd:350,itv:340},cost:180,size:"M",type:"l"}
+{id:26,name:"Force Shotgun",size:"M",type:"l",cost:160,main:{pwr:4,shl:2400,rng:225,spd:420,itv:400}}
 
 
 {group:"Bazookas",prefixID:"BZ",commonStat:{tunable:{mwp:1}}}
@@ -268,8 +269,8 @@
 {id:42,name:"Middle Bazooka Mod",main:{pwr:29,shl:180,rng:270,spd:270,itv:900},type:"c",size:"L",cost:100,str:-1,wlk:-1,fly:-2}
 {id:48,name:"Blow Bazooka",main:{pwr:26,shl:130,rng:245,spd:300,itv:500},cost:100,wlk:-1,fly:-1,size:"M",type:"c"}
 {id:57,name:"Blow Bazooka MOD",main:{pwr:23,shl:180,rng:245,spd:300,itv:500},cost:100,wlk:-1,fly:-1,size:"M",type:"c"}
-{id:6,name:"Blast Bazooka",type:"c",size:"M",cost:105,str:1,wlk:1,main:{pwr:20,shl:140,rng:230,spd:290,itv:900}}
-{id:31,name:"Blast Bazooka Mod",type:"c",size:"M",cost:105,str:1,wlk:1,main:{pwr:17,shl:180,rng:230,spd:290,itv:900}}
+{id:6,name:"Blast Bazooka",type:"c",size:"M",cost:105,str:1,wlk:1,main:{pwr:20,shl:320,rng:330,spd:290,itv:900}}
+{id:31,name:"Blast Bazooka Mod",type:"c",size:"M",cost:105,str:1,wlk:1,main:{pwr:17,shl:400,rng:330,spd:290,itv:900}}
 {id:70,name:"Mini Blast Bazooka",main:{pwr:14,shl:200,rng:230,spd:290,itv:640},type:"c",size:"S",cost:60}
 {id:37,name:"LL Bulk Blast",main:{pwr:27,shl:120,rng:260,spd:290,itv:1000},type:"c",cost:150,wlk:-1,fly:-3,size:"LL"}
 {id:45,name:"Blast Gatling",type:"c",size:"L",cost:210,tgh:2,main:{pwr:16,shl:900,rng:270,spd:360,itv:200}}
@@ -376,7 +377,7 @@
 {id:10,name:"Powered Laser",type:"a",size:"L",cost:110,str:-2,tec:-1,tgh:-1,main:{pwr:13,shl:750,rng:120,spd:380,itv:100}}
 {id:16,name:"Powered Laser Mod",type:"a",size:"L",cost:110,str:-2,tec:-1,tgh:-1,main:{pwr:16,shl:480,rng:120,spd:380,itv:100}}
 {id:11,name:"Proton Laser",type:"as",size:"L",cost:140,str:-2,tec:-2,tgh:-1,main:{pwr:12,shl:800,rng:130,spd:380,itv:100}}
-{id:8,name:"Acid Laser",type:"as",size:"M",cost:110,str:-1,tgh:-1,main:{pwr:10,shl:600,rng:130,spd:380,itv:100}}
+{id:8,name:"Acid Laser",type:"as",size:"M",cost:110,str:-1,tgh:-1,main:{pwr:10,shl:600,rng:250,spd:380,itv:100}}
 {id:12,name:"Cluster Gun",size:"M",cost:60,main:{pwr:10,shl:150,rng:160,spd:260,itv:800}}
 {id:13,name:"Heavy Net Sling",type:"cs",size:"M",cost:90,main:{pwr:6,shl:200,rng:220,spd:265,itv:700}}
 {id:14,name:"Dragon Fang",type:"lac",size:"M",cost:210,main:{pwr:8,shl:1300,rng:250,spd:150,itv:140},sub:{str:100,pwr:28,rng:50,spd:68,itv:800},tunable:{pwp:1}}
@@ -468,3 +469,4 @@
 {id:1064,name:"Toggle Machinegun",size:"S",type:"l",cost:105,main:{pwr:8,shl:560,rng:170,spd:420,itv:140},sub:{shl:30,spd:200,itv:500}}
 {id:1065,name:"Faith Shield",size:"L",type:"las",cost:100,main:{pwr:15,shl:180,rng:70,spd:360,itv:200}}
 {id:1066,name:"Beamlance Shield",size:"L",type:"l",cost:40,main:{shl:60,spd:10,itv:1000}}
+{id:1067,name:"Dual Cluster Gun",size:"M",type:"c",cost:160,main:{pwr:27,shl:400,rng:340,spd:480,itv:700}}

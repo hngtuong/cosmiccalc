@@ -47,7 +47,7 @@
 {id:27,name:"Guilty Punisher",sub:{pwr:32,rng:30,spd:65,itv:1300,str:100},cost:150,tec:-1,fly:-1,type:"la",size:"L"}
 {id:8,name:"Assassin's Edge",type:"la",size:"S",cost:90,tec:-2,fly:-1,sub:{str:100,pwr:24,rng:30,spd:40,itv:1000}}
 {id:26,name:"Oar Edge",type:"la",size:"S",cost:85,fly:1,sub:{str:100,pwr:27,rng:35,spd:70,itv:1000}}
-{id:25,name:"Photon Saber",type:"la",size:"M",cost:110,wlk:1,tgh:-1,sub:{str:100,pwr:30,rng:50,spd:70,itv:1400}}
+{id:25,name:"Photon Saber",type:"la",size:"M",cost:110,wlk:1,tgh:-1,sub:{str:100,pwr:30,rng:80,spd:85,itv:500}}
 {id:30,name:"Kisrill's Scythe Replica",sub:{str:100,pwr:30,rng:51,spd:85,itv:1500},type:"la",size:"M",cost:140,tec:-2,fly:1}
 {id:19,name:"Barbarian Claw",type:"la",size:"S",cost:70,wlk:1,sub:{str:100,pwr:25,rng:51,spd:80,itv:400}}
 {id:16,name:"Beam Blade",type:"la",size:"M",cost:70,tec:-1,wlk:1,sub:{str:100,pwr:27,rng:20,spd:42,itv:500}}

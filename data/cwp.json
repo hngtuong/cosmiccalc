@@ -257,6 +257,8 @@
 {id:256,name:"Tapiota Choco Parasol@",cost:90,slot:0,main:{shl:-1,spd:10,itv:500},sub:{pwr:23,shl:140,rng:330,spd:320,itv:500},conversion:"WPCM153 WPCM207 WPCM255"}
 {id:257,name:"Denden Cam Pro III",cost:80,sub:{pwr:16,shl:80,rng:330,spd:280,itv:500},conversion:"BDAS98 BDAS1082 BDAS1098"}
 {id:258,name:"Apollion BD2@",cost:40,main:{str:100,pwr:5,shl:400,rng:340,spd:330,itv:500},conversion:"BDAL61 BDAL64"}
+{id:259,name:"Battle Frame II ALPHA",cost:100,main:{pwr:8,shl:1200,rng:320,spd:470,itv:400},conversion:"BDCS1076"}
+{id:260,name:"Battle Frame II BETA",cost:100,main:{pwr:8,shl:1200,rng:320,spd:470,itv:400},conversion:"BDAS1099"}
 
 
 {group:"Conversion-SWP",prefixID:"CS",commonStat:{tunable:{pwp:1}}}
