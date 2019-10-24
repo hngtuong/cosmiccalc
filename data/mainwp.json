@@ -396,7 +396,6 @@
 {id:30,name:"Ion's Aqua Pot",main:{pwr:1,shl:3,rng:300,spd:220,itv:1100},tunable:{mwp:1},size:"S",cost:35,wlk:1}
 {id:44,name:"Aqua Parasol",main:{pwr:30,shl:140,rng:390,spd:570,itv:560},type:"lac",size:"M",cost:110,fly:1}
 {id:91,name:"Chocolate Parasol",main:{pwr:14,shl:200,rng:230,spd:280,itv:600},type:"lac",size:"M",cost:100,tgh:-1}
-{id:56,name:"Mega Blood Shooter",main:{tec:100,pwr:33,shl:100,rng:400,spd:500,itv:640},tunable:{mwp:1},type:"a",size:"M",cost:120}
 //{id:52,name:"Kaltos Wing",joint:{wp:1},type:"a",cost:40,hp:20,str:1,tec:1,wlk:2,fly:2,tgh:-1,comment:["Attachable to 'Litia BD' only","Weapon slot for 'Kaltos Wing@'"]}
 {id:84,name:"Flowering Gun",size:"M",main:{pwr:1,shl:300,rng:210,spd:300,itv:300},cost:10,tec:1}
 {id:239,name:"Coffin Bat Gun",size:"M",main:{pwr:1,shl:100,rng:330,spd:220,itv:800},cost:10,tec:1}
@@ -470,3 +469,4 @@
 {id:1065,name:"Faith Shield",size:"L",type:"las",cost:100,main:{pwr:15,shl:180,rng:70,spd:360,itv:200}}
 {id:1066,name:"Beamlance Shield",size:"L",type:"l",cost:40,main:{shl:60,spd:10,itv:1000}}
 {id:1067,name:"Dual Cluster Gun",size:"M",type:"c",cost:160,main:{pwr:27,shl:400,rng:340,spd:480,itv:700}}
+{id:1068,name:"ECM Launcher",size:"L",type:"s",cost:120,main:{pwr:22,shl:200,rng:280,spd:330,itv:800}}

@@ -53,11 +53,11 @@
 {id:52,name:"Galaxy Commando AM2@",main:{pwr:23,shl:50,rng:230,spd:290,itv:1200},auraStat:{main:{pwr:20,shl:50,rng:280,spd:190,itv:1000}},slot:0,cost:50,type:"c",size:"M",conversion:"AMM136",comment:"Attachable to 'Galaxy Commando AM2' only"}
 {id:53,name:"Trump Shield",main:{shl:30,spd:10,itv:1000},cost:45,size:"M",conversion:"AMS131",comment:"Attachable to 'Renny Lop AM6/AM7' only"}
 {id:54,name:"Trump Shooter",main:{pwr:13,shl:312,rng:260,spd:340,itv:440},type:"l",size:"M",cost:90,conversion:"AMS131",comment:"Attachable to 'Renny Lop AM6/AM7' only"}
-{id:55,name:"Blood Shooter",main:{pwr:18,shl:350,rng:350,spd:430,itv:300},type:"la",size:"S",conversion:"BDAS67AM2 BDAS79AM4 BDAS104AM6",comment:"Attachable to 'Amlim AM2/AM4/AM6' only",cost:100}
-{id:56,name:"Grave Shooter",main:{tec:100,pwr:33,shl:30,rng:350,spd:370,itv:500},tunable:{mwp:1},cost:130,size:"S",type:"la",conversion:"BDAS67AM BDAS79AM3 BDAS104AM5",comment:"Attachable to 'Amlim AM/AM3/AM5' only"}
-{id:57,name:"Amlim BD@",main:{pwr:10,shl:650,rng:350,spd:350,itv:500},tunable:{mwp:1},type:"a",size:"S",cost:70,conversion:"BSS116",comment:"Attachable to 'Amlim BS' only"}
-{id:58,name:"Amlim BD2@",main:{pwr:6,shl:650,rng:320,spd:300,itv:500,tec:100},tunable:{mwp:1},type:"a",size:"S",cost:70,conversion:"BSS116",comment:"Attachable to 'Amlim BS' only"}
-{id:59,name:"Amlim BD3@",main:{pwr:6,shl:650,rng:230,spd:300,itv:500,tec:100},tunable:{mwp:1},type:"a",size:"S",cost:70,conversion:"BSS116",comment:"Attachable to 'Amlim BS' only"}
+{id:55,name:"Blood Shooter",main:{pwr:18,shl:350,rng:350,spd:430,itv:300},type:"la",size:"S",conversion:"BDAS67AM2 BDAS79AM4 BDAS104AM6 BDAS1100AM8",comment:"Attachable to 'Amlim AM2/AM4/AM6/AM8' only",cost:100}
+{id:56,name:"Grave Shooter",main:{tec:100,pwr:40,shl:60,rng:350,spd:480,itv:500},tunable:{mwp:1},cost:90,size:"S",type:"la",conversion:"BDAS67AM BDAS79AM3 BDAS104AM5 BDAS1100AM7",comment:"Attachable to 'Amlim AM/AM3/AM5/AM7' only"}
+{id:57,name:"Amlim BS@",main:{pwr:10,shl:650,rng:350,spd:350,itv:500},tunable:{mwp:1},type:"a",size:"S",cost:70,conversion:"BSS116",comment:"Attachable to 'Amlim BS' only"}
+{id:58,name:"Amlim BS2@",main:{pwr:10,shl:650,rng:350,spd:350,itv:500,tec:100},tunable:{mwp:1},type:"a",size:"S",cost:70,conversion:"BSS116",comment:"Attachable to 'Amlim BS' only"}
+{id:59,name:"Amlim BS3@",main:{pwr:13,shl:440,rng:350,spd:350,itv:500,tec:100},tunable:{mwp:1},type:"a",size:"S",cost:70,conversion:"BSS116",comment:"Attachable to 'Amlim BS' only"}
 {id:60,name:"Flame Cartridge",main:{pwr:7,shl:30,spd:10,itv:1000},type:"l",size:"S",cost:20,conversion:"AMS134",comment:"Attachable to 'Lilu AM' only"}
 {id:61,name:"Spice Cartridge",main:{pwr:1,shl:25,rng:150,spd:370,itv:1000},type:"l",size:"S",cost:40,conversion:"AMS135",comment:"Attachable to 'Lilu AM2' only"}
 {id:62,name:"Melody Chord ALPHA",main:{pwr:16,shl:230,rng:170,spd:360,itv:440},sub:{pwr:20,shl:200,rng:300,spd:350,itv:1000},type:"s",size:"S",cost:65,conversion:"BDSS98WP",comment:"Attachable to 'Harp' only"}
@@ -230,7 +230,7 @@
 {id:229,name:"Pursuit Order",cost:50,slot:0,main:{shl:30,rng:300,spd:260,itv:500},conversion:"BDLS199"}
 {id:230,name:"Chullunku",cost:30,main:{pwr:20,shl:30,rng:320,spd:520,itv:500},conversion:"WPCM46 WPCM47 WPCM170 WPCS143"}
 {id:231,name:"Lightning Buster PT",cost:100,main:{pwr:25,shl:220,rng:330,spd:350,itv:400},sub:{itv:500},conversion:"BDAS1092AM"}
-{id:232,name:"Vice Cannon HD@",cost:80,main:{pwr:8,shl:450,rng:320,spd:300,itv:500},conversion:"HDL14"}
+{id:232,name:"Vice Cannon HD@",cost:80,main:{pwr:12,shl:540,rng:360,spd:360,itv:500},conversion:"HDL14"}
 {id:233,name:"ECM Lightning Buster",main:{tec:100,pwr:17,shl:220,rng:330,spd:350,itv:440},sub:{itv:500},conversion:"BDAS1092AM",cost:100}
 {id:234,name:"Bouclier Cannon",cost:100,main:{pwr:30,shl:260,rng:350,spd:400,itv:600},sub:{itv:500},conversion:"BDCS74AM",joint:{wp:2},fixedParts:{wp:{name:"Bouclier Cannon@",slot:0,cost:60,main:{pwr:30,shl:450,rng:430,spd:370,itv:200}}}}
 {id:235,name:"Apollion HD@",cost:40,main:{str:100,pwr:10,shl:200,rng:340,spd:330,itv:500},conversion:"BDAL61 BDAL64"}
@@ -259,6 +259,9 @@
 {id:258,name:"Apollion BD2@",cost:40,main:{str:100,pwr:5,shl:400,rng:340,spd:330,itv:500},conversion:"BDAL61 BDAL64"}
 {id:259,name:"Battle Frame II ALPHA",cost:100,main:{pwr:8,shl:1200,rng:320,spd:470,itv:400},conversion:"BDCS1076"}
 {id:260,name:"Battle Frame II BETA",cost:100,main:{pwr:8,shl:1200,rng:320,spd:470,itv:400},conversion:"BDAS1099"}
+{id:261,name:"Calix Shooter",main:{pwr:11,shl:630,rng:350,spd:480,itv:200},type:"la",size:"S",conversion:"BDAS67AM2 BDAS79AM4 BDAS104AM6 BDAS67AM BDAS79AM3 BDAS104AM5 BDAS1100AM7 BDAS1100AM8",cost:100}
+{id:262,name:"Mega Blood Shooter",main:{pwr:33,shl:210,rng:350,spd:570,itv:500},type:"la",size:"S",conversion:"BDAS67AM2 BDAS79AM4 BDAS104AM6 BDAS1100AM8",comment:"Attachable to 'Amlim AM2/AM4/AM6/AM8' only",cost:120}
+{id:264,name:"Amlim BS4@",main:{pwr:7,shl:1000,rng:350,spd:420,itv:300,tec:100},tunable:{mwp:1},type:"a",size:"S",cost:70,conversion:"BSS116",comment:"Attachable to 'Amlim BS' only"}
 
 
 {group:"Conversion-SWP",prefixID:"CS",commonStat:{tunable:{pwp:1}}}

@@ -102,7 +102,7 @@
 {id:91,name:"Airyad LG",cost:40,hp:25,tec:2,wlk:2,fly:1}
 {id:92,name:"Wanders LG",cost:30,hp:20,str:-1,tec:1,wlk:2,fly:1,tgh:1}
 {id:113,name:"Wanders LG2",cost:15,hp:15,str:1,tec:1,wlk:2,fly:-1}
-{id:94,name:"Amlim LG@",sub:{shl:7,rng:350,itv:1000},conversion:"BDAS67LG BDAS79LG BDAS104LG",comment:"Attachable to 'Amlim LG/LG2/LG3' only",cost:10,type:"a",slot:0}
+{id:94,name:"Amlim LG@",sub:{shl:15,rng:350,itv:1000},conversion:"BDAS67LG BDAS79LG BDAS104LG BDAS1100LG",comment:"Attachable to 'Amlim LG/LG2/LG3/LG4' only",cost:10,type:"a",slot:0}
 {id:95,name:"Orphenous LG",cost:35,hp:20,str:1,tec:1,wlk:3}
 {id:96,name:"Swift LG",cost:40,hp:20,tec:1,wlk:2,fly:2}
 {id:1100,name:"Swift LG2",cost:40,hp:20,tec:1,wlk:2,fly:2}
@@ -133,7 +133,8 @@
 {id:1112,name:"G.Remoire LG",cost:65,type:"c",hp:20,str:0,tec:1,wlk:3,fly:-1,tgh:2,sub:{shl:15,spd:150,itv:500}}
 {id:1113,name:"Marinediver LG",type:"c",cost:35,hp:25,str:0,tec:0,wlk:2,fly:1,tgh:2}
 {id:1114,name:"Jets LG",type:"a",cost:45,hp:25,str:1,tec:1,wlk:2,fly:1,tgh:0}
-//last:1114
+{id:1115,name:"Amlim LG2@",sub:{shl:15,rng:350,itv:1000},conversion:"BDAS67LG BDAS79LG BDAS104LG BDAS1100LG",comment:"Attachable to 'Amlim LG/LG2/LG3/LG4' only",cost:10,type:"a",slot:0}
+//last:1115
 
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}

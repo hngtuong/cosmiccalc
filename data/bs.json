@@ -148,7 +148,7 @@
 {id:146,name:"Chloe BS2",cost:35,hp:20,tec:2,wlk:1,fly:2}
 {id:113,name:"Airyad BS",sub:{shl:20,rng:100,spd:120,itv:1000},type:"a",cost:60,hp:20,str:1,tec:2,wlk:-1,fly:3}
 {id:114,name:"Wanders BS",type:"s",cost:35,hp:15,str:1,tec:1,fly:3,tgh:-1}
-{id:116,name:"Amlim BS",joint:{wp:1},type:"a",size:"S",conversion:"BDAS67 BDAS79 BDAS104",comment:"Attachable to 'Amlim BD/BD2/BD4' only",slot:0}
+{id:116,name:"Amlim BS",joint:{wp:1},type:"a",size:"S",conversion:"BDAS67 BDAS79 BDAS104 BDAS1100",comment:"Attachable to 'Amlim BD/BD2/BD4/BD5' only",slot:0}
 {id:120,name:"Lilu BS",type:"l",cost:35,hp:20,str:1,wlk:-1,fly:3,tgh:1}
 {id:118,name:"Orphenous BS",type:"s",cost:30,hp:15,tec:1,wlk:2,fly:2,tgh:-1}
 {id:138,name:"Orphenous BS2",main:{pwr:8,shl:360,rng:250,spd:300,itv:400},sub:{shl:5,itv:1000},tunable:{mwp:1},type:"s",cost:130,hp:15,wlk:2,fly:3,tgh:-1}
@@ -237,7 +237,9 @@
 {id:1077,name:"Seriphris BS",type:"l",cost:35,hp:20,str:2,tec:1,wlk:-1,fly:3,tgh:0}
 {id:1078,name:"G.Remoire BS",type:"c",cost:35,hp:20,str:1,tec:2,wlk:0,fly:3,tgh:-1}
 {id:1079,name:"Marinediver BS",type:"c",cost:100,hp:15,str:0,tec:2,wlk:0,fly:2,tgh:-1}
-//last:1079
+{id:1080,name:"A. Miral BS2",joint:{bs:1},type:"lc",size:"S",cost:15,hp:10,wlk:2,fly:1,tgh:-1}
+{id:1081,name:"A. Miral BS2@",type:"lc",size:"S",tunable:{mwp:1},main:{tec:100,pwr:9,shl:450,rng:250,spd:280,itv:800},sub:{pwr:7,shl:30,rng:250,spd:480,itv:500},cost:170,conversion:"BSS1080",comment:"Attachable to 'A. Miral BS2' only"}
+//last:1081
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Fizalivan BS",type:"l",cost:15,hp:15,fly:1,tgh:1}

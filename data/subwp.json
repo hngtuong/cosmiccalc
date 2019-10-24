@@ -99,6 +99,7 @@
 {id:10,name:"Pumpkin Mace R",sub:{str:100,pwr:15,rng:55,spd:70,itv:1400},tunable:{pwp:1},type:"s",size:"S",cost:45}
 {id:11,name:"Impact Hammer",sub:{pwr:36,shl:15,rng:70,spd:70,itv:1000},size:"L",type:"l",cost:170,wlk:-1,fly:-1,tgh:1}
 {id:12,name:"Impact Hammer Mod",sub:{str:100,pwr:30,shl:30,rng:70,spd:70,itv:1000},type:"l",size:"L",cost:170,fly:-1,wlk:-1,tgh:1}
+{id:13,name:"Boost Hammer",cost:120,type:"a",size:"L",sub:{str:100,pwr:28,rng:150,spd:110,itv:500}}
 
 
 {group:"Lances",prefixID:"LC",commonStat:{tunable:{pwp:1}}}
