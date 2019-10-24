@@ -262,6 +262,7 @@
 {id:261,name:"Calix Shooter",main:{pwr:11,shl:630,rng:350,spd:480,itv:200},type:"la",size:"S",conversion:"BDAS67AM2 BDAS79AM4 BDAS104AM6 BDAS67AM BDAS79AM3 BDAS104AM5 BDAS1100AM7 BDAS1100AM8",cost:100}
 {id:262,name:"Mega Blood Shooter",main:{pwr:33,shl:210,rng:350,spd:570,itv:500},type:"la",size:"S",conversion:"BDAS67AM2 BDAS79AM4 BDAS104AM6 BDAS1100AM8",comment:"Attachable to 'Amlim AM2/AM4/AM6/AM8' only",cost:120}
 {id:264,name:"Amlim BS4@",main:{pwr:7,shl:1000,rng:350,spd:420,itv:300,tec:100},tunable:{mwp:1},type:"a",size:"S",cost:70,conversion:"BSS116",comment:"Attachable to 'Amlim BS' only"}
+{id:265,name:"Pumpkin Stick",cost:25,main:{pwr:1,shl:240,rng:150,spd:200,itv:500},conversion:"BDSS161 BDSS162"}
 
 
 {group:"Conversion-SWP",prefixID:"CS",commonStat:{tunable:{pwp:1}}}

@@ -468,7 +468,7 @@
 {id:16,name:"Teitarotes HD",cost:35,hp:20,str:0,tec:2,wlk:1,fly:-1,tgh:3}
 {id:17,name:"Zeusnesis HD",cost:45,hp:25,str:2,tec:0,wlk:0,fly:1,tgh:2}
 {id:18,name:"Big Mountaiz Tri HD",type:"a",cost:110,hp:30,str:0,tec:2,wlk:-1,fly:2,tgh:2,main:{pwr:14,shl:280,rng:340,spd:480,itv:300},tunable:{mwp:1}}
-{id:19,name:"Vice Cannnon HD3",cost:220,hp:30,str:0,tec:3,wlk:1,fly:0,tgh:1,main:{pwr:40,shl:300,rng:430,spd:360,itv:800}},tunable:{mwp:1}}
+{id:19,name:"Vice Cannnon HD3",cost:220,hp:30,str:0,tec:3,wlk:1,fly:0,tgh:1,main:{pwr:40,shl:300,rng:430,spd:360,itv:800},tunable:{mwp:1}}
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:1,name:"Joste Gunder HD",type:"l",cost:75,hp:20,str:3,tec:-1,wlk:2,fly:0,tgh:1,sub:{str:100,pwr:30,shl:20,rng:150,spd:350,itv:500}}
