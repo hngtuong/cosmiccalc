@@ -59,7 +59,8 @@
 {id:113,name:"Seriphris HD",cost:35,hp:20,str:2,tec:-1,wlk:2,fly:1,tgh:1}
 {id:114,name:"G.Remoire HD",cost:35,hp:20,str:-1,tec:3,wlk:2,fly:0,tgh:1}
 {id:115,name:"Marinediver HD",cost:25,hp:15,str:-1,tec:1,wlk:1,fly:0,tgh:2}
-//last:115
+{id:116,name:"Shaboon HD",type:"a",cost:160,hp:10,str:-1,tec:3,wlk:1,fly:1,tgh:1,main:{pwr:15,shl:770,rng:300,spd:380,itv:1200},tunable:{mwp:1}}
+//last:116
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Steel Rider HD",cost:15,hp:5,str:1,wlk:1,tgh:1}
@@ -469,6 +470,7 @@
 {id:17,name:"Zeusnesis HD",cost:45,hp:25,str:2,tec:0,wlk:0,fly:1,tgh:2}
 {id:18,name:"Big Mountaiz Tri HD",type:"a",cost:110,hp:30,str:0,tec:2,wlk:-1,fly:2,tgh:2,main:{pwr:14,shl:280,rng:340,spd:480,itv:300},tunable:{mwp:1}}
 {id:19,name:"Vice Cannnon HD3",cost:220,hp:30,str:0,tec:3,wlk:1,fly:0,tgh:1,main:{pwr:40,shl:300,rng:430,spd:360,itv:800},tunable:{mwp:1}}
+{id:20,name:"Garou HD",cost:35,hp:20,str:3,tec:0,wlk:0,fly:-1,tgh:3}
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:1,name:"Joste Gunder HD",type:"l",cost:75,hp:20,str:3,tec:-1,wlk:2,fly:0,tgh:1,sub:{str:100,pwr:30,shl:20,rng:150,spd:350,itv:500}}

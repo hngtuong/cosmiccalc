@@ -49,6 +49,7 @@
 {id:53,name:"Enhance Internal Weapon",comment:"Enhances the core's built in weapon. Raises robot's cost capacity by 75 and HP by 15"}
 {id:54,name:"Enhance Life Taker (Proc Rate)",comment:"Life Taker's probability 30% up"}
 {id:55,name:"Enhance Life Taker (Heal Amount)",comment:"Life Taker's heal amount 10% up"}
+{id:56,name:"九曜縮地",comment:"Garou's custom dash"}
 //
 {id:"EX1",ex:1,name:"Accele Roll",comment:"Adds a Mid-air Dash Action called the [Accele Roll] to the robot.",cost:30}
 {id:"EX2",ex:1,name:"Air Loop",comment:"Adds a Mid-air Dash Action called the [Air Loop] to the robot. AIR TYPE ONLY.",cost:30}

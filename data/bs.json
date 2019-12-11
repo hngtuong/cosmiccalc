@@ -239,7 +239,8 @@
 {id:1079,name:"Marinediver BS",type:"c",cost:100,hp:15,str:0,tec:2,wlk:0,fly:2,tgh:-1}
 {id:1080,name:"A. Miral BS2",joint:{bs:1},type:"lc",size:"S",cost:15,hp:10,wlk:2,fly:1,tgh:-1}
 {id:1081,name:"A. Miral BS2@",type:"lc",size:"S",tunable:{mwp:1},main:{tec:100,pwr:9,shl:450,rng:250,spd:280,itv:800},sub:{pwr:7,shl:30,rng:250,spd:480,itv:500},cost:170,conversion:"BSS1080",comment:"Attachable to 'A. Miral BS2' only"}
-//last:1081
+{id:1082,name:"Shaboon BS",cost:40,hp:25,str:1,tec:0,wlk:-1,fly:3,tgh:2}
+//last:1082
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Fizalivan BS",type:"l",cost:15,hp:15,fly:1,tgh:1}
@@ -534,7 +535,7 @@
 {id:78,name:"Dagomure BS2",joint:{bs:2},fixedParts:{bs:[{main:{pwr:8,shl:450,rng:280,spd:240,itv:340},name:"Dagomure BS2@1",slot:0},{name:"Dagomure BS2@2",main:{pwr:11,shl:350,rng:230,spd:290,itv:300},slot:0}]},type:"c",cost:150,hp:20,tec:1,fly:1,tgh:1}
 {id:52,name:"Dismoke BS",type:"s",cost:45,hp:25,tec:-1,wlk:2,fly:2,tgh:2}
 {id:89,name:"Dismoke BS2",main:{tec:100,pwr:7,shl:210,rng:290,spd:260,itv:800},sub:{shl:10,rng:43,spd:63,itv:1000,str:100},tunable:{mwp:1,pwp:1},type:"s",cost:155,hp:25,str:-1,wlk:2,fly:3,tgh:1}
-{id:53,name:"Featoro BS",cost:70,hp:25,str:-1,tec:2,fly:2,tgh:2,sub:{shl:20,spd:150,itv:1500},type:"a"}
+{id:53,name:"Featoro BS",cost:70,hp:25,str:-1,tec:2,fly:2,tgh:2,sub:{shl:50,spd:180,itv:1000},type:"a"}
 {id:54,name:"Exkeld BS",cost:35,hp:25,tec:-1,wlk:1,fly:2,tgh:2,type:"l"}
 {id:55,name:"Giganberg BS",type:"l",cost:40,hp:25,tec:-1,wlk:2,fly:3,tgh:1}
 {id:56,name:"Berylskid BS",type:"l",cost:40,hp:25,tec:1,wlk:2,fly:2}
@@ -595,7 +596,9 @@
 {id:113,name:"Zeusnesis BS",type:"l",cost:140,hp:25,str:2,tec:-1,wlk:1,fly:3,tgh:1,main:{str:100,pwr:18,shl:100,rng:260,spd:380,itv:500},sub:{str:100,pwr:25,shl:60,rng:150,spd:200,itv:500},tunable:{mwp:1}}
 {id:114,name:"Big Mountaiz Tri BS",type:"a",cost:45,hp:30,str:2,tec:0,wlk:1,fly:2,tgh:0}
 {id:115,name:"Joste Gunder BS2",type:"l",cost:135,hp:20,str:1,tec:-1,wlk:1,fly:3,tgh:1,sub:{pwr:2,shl:60,rng:150,spd:260,itv:500}}
-//last:115
+{id:116,name:"Garou BS",cost:45,hp:25,str:-1,tec:0,wlk:3,fly:2,tgh:2}
+{id:117,name:"Verdita BS",type:"c",cost:35,hp:20,str:-1,tec:1,wlk:0,fly:3,tgh:1}
+//last:117
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:1,name:"Shaden BS",type:"a",cost:85,hp:10,fly:1,sub:{pwr:1,shl:1,rng:200,spd:110,itv:2000}}
