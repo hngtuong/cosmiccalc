@@ -240,7 +240,12 @@
 {id:1080,name:"A. Miral BS2",joint:{bs:1},type:"lc",size:"S",cost:15,hp:10,wlk:2,fly:1,tgh:-1}
 {id:1081,name:"A. Miral BS2@",type:"lc",size:"S",tunable:{mwp:1},main:{tec:100,pwr:9,shl:450,rng:250,spd:280,itv:800},sub:{pwr:7,shl:30,rng:250,spd:480,itv:500},cost:170,conversion:"BSS1080",comment:"Attachable to 'A. Miral BS2' only"}
 {id:1082,name:"Shaboon BS",cost:40,hp:25,str:1,tec:0,wlk:-1,fly:3,tgh:2}
-//last:1082
+{id:1083,name:"Ouka Rep BS",type:"l",cost:40,hp:25,str:-1,tec:1,wlk:1,fly:3,tgh:1}
+{id:1084,name:"Nicole Malice Rep BS",type:"s",cost:85,hp:20,str:0,tec:-1,wlk:2,fly:3,tgh:1,sub:{shl:30,rng:120,spd:300,itv:1200}}
+{id:1085,name:"Delfighter BS",type:"l",cost:35,hp:25,str:-1,tec:2,wlk:1,fly:3,tgh:0}
+{id:1086,name:"Delbeezle BS",type:"a",cost:40,hp:25,str:0,tec:1,wlk:0,fly:4,tgh:0}
+{id:1087,name:"Deluntulic BS",type:"s",cost:35,hp:25,str:1,tec:0,wlk:0,fly:3,tgh:1}
+//last:1087
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Fizalivan BS",type:"l",cost:15,hp:15,fly:1,tgh:1}
@@ -472,7 +477,8 @@
 {id:2133,name:"S.ActinaG BS",type:"c",cost:85,hp:20,str:0,tec:1,wlk:2,fly:3,tgh:-1,sub:{shl:30,spd:250,itv:500}}
 {id:2134,name:"Paladiknight BS",type:"l",cost:70,hp:25,str:2,tec:-1,wlk:0,fly:2,tgh:2,main:{str:100,pwr:8,shl:60,rng:200,spd:400,itv:500},tunable:{mwp:1}}
 {id:2135,name:"Jets BS",type:"a",cost:210,hp:10,str:-1,tec:1,wlk:0,fly:2,tgh:0,main:{pwr:27,shl:440,rng:320,spd:450,itv:400},sub:{pwr:7,shl:300,rng:330,spd:450,itv:500},tunable:{mwp:1}}
-//last:2135
+{id:2136,name:"Deltory BS",type:"c",cost:35,hp:25,str:-1,tec:1,wlk:1,fly:3,tgh:1}
+//last:2136
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Steel Rider BS",type:"l",cost:25,hp:10,wlk:1,fly:2}
@@ -593,12 +599,13 @@
 {id:110,name:"Gozu BS2",type:"l",cost:35,hp:20,str:1,tec:0,wlk:-1,fly:3,tgh:2}
 {id:111,name:"Joste Gunder BS",type:"l",cost:35,hp:20,str:-1,tec:2,wlk:1,fly:3,tgh:0}
 {id:112,name:"Teitarotes BS",type:"c",cost:90,hp:25,str:0,tec:2,wlk:0,fly:1,tgh:2,main:{pwr:15,shl:90,rng:320,spd:280,itv:1000},tunable:{mwp:1}}
-{id:113,name:"Zeusnesis BS",type:"l",cost:140,hp:25,str:2,tec:-1,wlk:1,fly:3,tgh:1,main:{str:100,pwr:18,shl:100,rng:260,spd:380,itv:500},sub:{str:100,pwr:25,shl:60,rng:150,spd:200,itv:500},tunable:{mwp:1}}
+{id:113,name:"Zeunesis BS",type:"l",cost:140,hp:25,str:2,tec:-1,wlk:1,fly:3,tgh:1,main:{str:100,pwr:18,shl:100,rng:260,spd:380,itv:500},sub:{str:100,pwr:25,shl:60,rng:150,spd:200,itv:500},tunable:{mwp:1}}
 {id:114,name:"Big Mountaiz Tri BS",type:"a",cost:45,hp:30,str:2,tec:0,wlk:1,fly:2,tgh:0}
 {id:115,name:"Joste Gunder BS2",type:"l",cost:135,hp:20,str:1,tec:-1,wlk:1,fly:3,tgh:1,sub:{pwr:2,shl:60,rng:150,spd:260,itv:500}}
 {id:116,name:"Garou BS",cost:45,hp:25,str:-1,tec:0,wlk:3,fly:2,tgh:2}
 {id:117,name:"Verdita BS",type:"c",cost:35,hp:20,str:-1,tec:1,wlk:0,fly:3,tgh:1}
-//last:117
+{id:118,name:"Zeunesis BS2",type:"l",cost:140,hp:25,str:3,tec:-1,wlk:0,fly:3,tgh:1,main:{str:100,pwr:9,shl:600,rng:260,spd:420,itv:600},sub:{str:100,pwr:12,shl:30,rng:250,spd:120,itv:1000},tunable:{mwp:1}}
+//last:118
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:1,name:"Shaden BS",type:"a",cost:85,hp:10,fly:1,sub:{pwr:1,shl:1,rng:200,spd:110,itv:2000}}

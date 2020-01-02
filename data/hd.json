@@ -60,7 +60,13 @@
 {id:114,name:"G.Remoire HD",cost:35,hp:20,str:-1,tec:3,wlk:2,fly:0,tgh:1}
 {id:115,name:"Marinediver HD",cost:25,hp:15,str:-1,tec:1,wlk:1,fly:0,tgh:2}
 {id:116,name:"Shaboon HD",type:"a",cost:160,hp:10,str:-1,tec:3,wlk:1,fly:1,tgh:1,main:{pwr:15,shl:770,rng:300,spd:380,itv:1200},tunable:{mwp:1}}
-//last:116
+{id:117,name:"Ouka Rep HD",type:"l",cost:45,hp:25,str:2,tec:-1,wlk:2,fly:0,tgh:2}
+{id:118,name:"Illumis Rep HD",type:"c",cost:35,hp:25,str:0,tec:2,wlk:1,fly:0,tgh:2}
+{id:119,name:"Nicole Malice Rep HD",type:"s",cost:50,hp:30,str:0,tec:2,wlk:1,fly:0,tgh:3}
+{id:120,name:"Delfighter HD",cost:35,hp:25,str:2,tec:2,wlk:1,fly:-1,tgh:1}
+{id:121,name:"Delbeezle HD",cost:40,hp:25,str:2,tec:0,wlk:1,fly:0,tgh:2}
+{id:122,name:"Deluntulic HD",type:"s",cost:165,hp:25,str:-1,tec:3,wlk:2,fly:0,tgh:1,main:{pwr:8,shl:800,rng:250,spd:380,itv:100},tunable:{mwp:1}}
+//last:122
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Steel Rider HD",cost:15,hp:5,str:1,wlk:1,tgh:1}
@@ -447,7 +453,8 @@
 {id:1309,name:"Paladiknight HD",cost:45,hp:25,str:2,tec:-1,wlk:1,fly:1,tgh:2}
 {id:1310,name:"Jets HD",cost:45,hp:25,str:0,tec:2,wlk:0,fly:2,tgh:1}
 {id:1311,name:"A. Miral HD2",type:"l",size:"M",cost:105,hp:20,tec:2,wlk:2,tgh:1,main:{tec:100,pwr:8,shl:250,rng:250,spd:480,itv:240},tunable:{mwp:1}}
-//last:1311
+{id:1312,name:"Deltory HD",cost:35,hp:25,str:2,tec:1,wlk:-1,fly:1,tgh:2}
+//last:1312
 
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
@@ -467,10 +474,12 @@
 {id:14,name:"Vice Cannnon HD",cost:140,hp:30,str:0,tec:3,wlk:0,fly:0,tgh:2,joint:{wp:1},main:{pwr:25,shl:200,rng:430,spd:640,itv:400},auraStat:{main:{pwr:50,shl:200,rng:430,spd:640,itv:400}},tunable:{mwp:1}}
 {id:15,name:"Gozu HD2",cost:35,hp:20,str:2,tec:1,wlk:3,fly:0,tgh:-1}
 {id:16,name:"Teitarotes HD",cost:35,hp:20,str:0,tec:2,wlk:1,fly:-1,tgh:3}
-{id:17,name:"Zeusnesis HD",cost:45,hp:25,str:2,tec:0,wlk:0,fly:1,tgh:2}
+{id:17,name:"Zeunesis HD",cost:45,hp:25,str:2,tec:0,wlk:0,fly:1,tgh:2}
 {id:18,name:"Big Mountaiz Tri HD",type:"a",cost:110,hp:30,str:0,tec:2,wlk:-1,fly:2,tgh:2,main:{pwr:14,shl:280,rng:340,spd:480,itv:300},tunable:{mwp:1}}
 {id:19,name:"Vice Cannnon HD3",cost:220,hp:30,str:0,tec:3,wlk:1,fly:0,tgh:1,main:{pwr:40,shl:300,rng:430,spd:360,itv:800},tunable:{mwp:1}}
 {id:20,name:"Garou HD",cost:35,hp:20,str:3,tec:0,wlk:0,fly:-1,tgh:3}
+{id:21,name:"Zeunesis HD2",cost:45,hp:25,str:2,tec:1,wlk:2,fly:1,tgh:-1}
+
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:1,name:"Joste Gunder HD",type:"l",cost:75,hp:20,str:3,tec:-1,wlk:2,fly:0,tgh:1,sub:{str:100,pwr:30,shl:20,rng:150,spd:350,itv:500}}
@@ -482,4 +491,6 @@
 {id:3,name:"Hero Scarf HDJ",size:"M",cost:5,hp:5,slot:1}
 {id:4,name:"Big Head Cape HDJ",size:"M",cost:5,hp:5,slot:1}
 {id:5,name:"Wild Big Head HDJ",size:"M",cost:5,hp:5,slot:1}
+{id:6,name:"Ouka Rep HDJ",size:"S",slot:1}
+{id:7,name:"Illumis Rep HDJ",size:"S",slot:1}
 // {id:4,name:"Dummy HDJ",comment:"FOR WHAT?",size:"M",slot:1}

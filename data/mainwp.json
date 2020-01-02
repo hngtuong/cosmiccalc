@@ -472,3 +472,5 @@
 {id:1068,name:"ECM Launcher",size:"L",type:"s",cost:120,main:{pwr:22,shl:200,rng:280,spd:330,itv:800}}
 {id:1069,name:"Flame Blaster",size:"M",type:"a",cost:80,main:{pwr:5,shl:800,rng:290,spd:320,itv:500}}
 {id:1070,name:"Machine Rifle",size:"M",type:"lcs",cost:100,main:{pwr:8,shl:50,rng:235,spd:500,itv:140},sub:{shl:15,spd:250,itv:500}}
+{id:1071,name:"B Sniper Rifle",size:"M",type:"a",cost:200,main:{pwr:30,shl:400,rng:300,spd:450,itv:1000},sub:{shl:0,spd:0,itv:1000}}
+{id:1072,name:"Spiral Rifle",size:"M",type:"l",cost:160,main:{pwr:16,shl:320,rng:300,spd:480,itv:600}}
