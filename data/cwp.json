@@ -141,8 +141,8 @@
 {id:140,name:"Sonic Claw",main:{pwr:15,shl:30,rng:300,spd:570,itv:500,str:100},tunable:{mwp:1},type:"l",size:"S",cost:30,conversion:"BDLS149AM",comment:"Attachable to 'Kal Valentine AM2' only"}
 {id:141,name:"Cannon Pack",main:{tec:100,pwr:40,shl:40,rng:250,spd:570,itv:300},tunable:{mwp:1},type:"c",size:"S",cost:120,conversion:"BDCM42WP",comment:"Attachable to 'Toybox Girl BD4@' only"}
 {id:142,name:"Stigma Shield",main:{shl:30,spd:10,itv:1000},type:"l",size:"S",cost:20,conversion:"BDLS150AM BDLS193AM",comment:"Attachable to 'Gisele Noire AM' only",slot:0}
-{id:143,name:"Machinegun (Lunastasia)",main:{pwr:10,shl:240,rng:250,spd:390,itv:240,str:100},tunable:{mwp:1},type:"l",size:"S",cost:50,conversion:"BDLS153",comment:"Attachable to 'Lunastasia BD' only"}
-{id:144,name:"Magnegun",main:{tec:100,pwr:10,shl:520,rng:340,spd:280,itv:1000},tunable:{mwp:1},type:"c",size:"S",cost:60,conversion:"BDCS76",comment:"Attachable to 'Fiona BD' only"}
+{id:143,name:"Machinegun (Lunastasia)",main:{pwr:10,shl:240,rng:250,spd:390,itv:240,str:100},tunable:{mwp:1},type:"l",size:"S",cost:50,conversion:"BDLS153 BDLS217",comment:"Attachable to 'Lunastasia BD' only"}
+{id:144,name:"Magnegun",main:{tec:100,pwr:10,shl:520,rng:340,spd:280,itv:1000},tunable:{mwp:1},type:"c",size:"S",cost:60,conversion:"BDCS76 BDCS1079",comment:"Attachable to 'Fiona BD' only"}
 {id:145,name:"Jupitizer Rifle",main:{pwr:18,tec:100,shl:250,rng:330,spd:370,itv:700},tunable:{mwp:1},type:"a",size:"LL",cost:70,conversion:"BDAL51",comment:"Attachable to 'Thoarla BD11' only"}
 {id:146,name:"Jupitizer Buster",main:{tec:100,pwr:36,shl:15,rng:330,spd:400,itv:1000},type:"a",size:"LL",cost:50,slot:0,conversion:"BDAL51",comment:"Attachable to 'Thoarla BD11' only"}
 {id:147,name:"Fillnaught",type:"c",size:"S",main:{pwr:19,shl:300,rng:300,spd:300,itv:300},sub:{pwr:10,shl:50,rng:300,spd:150,itv:500},tunable:{mwp:1},cost:90,conversion:"AMS182",comment:"Attachable to 'Tristan AM2' only"}
@@ -267,7 +267,8 @@
 {id:267,name:"Rookie TEC Memory",str:-30,tec:30,slot:0,conversion:"BDLS214 BDAS1101"}
 {id:268,name:"Rookie WLK Memory",wlk:30,fly:-9,slot:0,conversion:"BDCS1046 BDSS163"}
 {id:269,name:"Rookie FLY Memory",wlk:-9,fly:30,slot:0,conversion:"BDCS1046 BDSS163"}
-
+{id:270,name:"Homing Shot",cost:60,main:{pwr:6,shl:900,rng:340,spd:320,itv:300},conversion:"BDCS76 BDCS1079"}
+{id:271,name:"Stunmag",cost:30,main:{pwr:10,shl:60,rng:250,spd:500,itv:300},conversion:"BDLS153 BDLS217"}
 
 {group:"Conversion-SWP",prefixID:"CS",commonStat:{tunable:{pwp:1}}}
 {id:1,name:"General Blade",main:{pwr:22,shl:30,rng:285,spd:325,itv:1000},sub:{str:100,pwr:28,rng:80,spd:70,itv:500},tunable:{mwp:1},size:"L",type:"l",cost:120,conversion:"AML1138",comment:"Attachable to 'Generaldo AM2' only"}
