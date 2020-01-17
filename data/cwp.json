@@ -141,7 +141,7 @@
 {id:140,name:"Sonic Claw",main:{pwr:15,shl:30,rng:300,spd:570,itv:500,str:100},tunable:{mwp:1},type:"l",size:"S",cost:30,conversion:"BDLS149AM",comment:"Attachable to 'Kal Valentine AM2' only"}
 {id:141,name:"Cannon Pack",main:{tec:100,pwr:40,shl:40,rng:250,spd:570,itv:300},tunable:{mwp:1},type:"c",size:"S",cost:120,conversion:"BDCM42WP",comment:"Attachable to 'Toybox Girl BD4@' only"}
 {id:142,name:"Stigma Shield",main:{shl:30,spd:10,itv:1000},type:"l",size:"S",cost:20,conversion:"BDLS150AM BDLS193AM",comment:"Attachable to 'Gisele Noire AM' only",slot:0}
-{id:143,name:"Machinegun (Lunastasia)",main:{pwr:10,shl:240,rng:250,spd:390,itv:240,str:100},tunable:{mwp:1},type:"l",size:"S",cost:50,conversion:"BDLS153 BDLS217",comment:"Attachable to 'Lunastasia BD' only"}
+{id:143,name:"Machinegun (Lunastasia)",main:{pwr:14,shl:240,rng:250,spd:500,itv:240,str:100},tunable:{mwp:1},type:"l",size:"S",cost:50,conversion:"BDLS153 BDLS217",comment:"Attachable to 'Lunastasia BD' only"}
 {id:144,name:"Magnegun",main:{tec:100,pwr:10,shl:520,rng:340,spd:280,itv:1000},tunable:{mwp:1},type:"c",size:"S",cost:60,conversion:"BDCS76 BDCS1079",comment:"Attachable to 'Fiona BD' only"}
 {id:145,name:"Jupitizer Rifle",main:{pwr:18,tec:100,shl:250,rng:330,spd:370,itv:700},tunable:{mwp:1},type:"a",size:"LL",cost:70,conversion:"BDAL51",comment:"Attachable to 'Thoarla BD11' only"}
 {id:146,name:"Jupitizer Buster",main:{tec:100,pwr:36,shl:15,rng:330,spd:400,itv:1000},type:"a",size:"LL",cost:50,slot:0,conversion:"BDAL51",comment:"Attachable to 'Thoarla BD11' only"}
@@ -251,7 +251,7 @@
 {id:250,name:"Manimo Knight",conversion:"BDSS158",joint:{hd:1,am:2,hdac:0,fcac:0}}
 {id:251,name:"Nephrinka Dummy Gun",slot:0,main:{str:100,pwr:6,shl:480,rng:250,spd:260,itv:800},conversion:"BDLS206"}
 {id:252,name:"Ivis Scythe@",main:{str:100,pwr:15,shl:45,rng:170,spd:300,itv:200},conversion:"WPCS161"}
-{id:253,name:"Bloody Sword@",main:{str:100,pwr:20,shl:100,rng:200,spd:390,itv:500},conversion:"WPCS162"}
+{id:253,name:"Bloody Blade@",main:{str:100,pwr:20,shl:100,rng:200,spd:390,itv:500},conversion:"WPCS162"}
 {id:254,name:"Rouche's Argument",cost:30,main:{shl:10,spd:10,itv:1000},conversion:"BDLS207AM2"}
 {id:255,name:"Tapiota Choco Parasol",cost:90,slot:0,joint:{wp:1},main:{pwr:20,shl:400,rng:320,spd:280,itv:500},conversion:"BDAS98AM BDAS1082AM BDAS1098AM"}
 {id:256,name:"Tapiota Choco Parasol@",cost:90,slot:0,main:{shl:-1,spd:10,itv:500},sub:{pwr:23,shl:140,rng:330,spd:320,itv:500},conversion:"WPCM153 WPCM207 WPCM255"}
@@ -269,6 +269,8 @@
 {id:269,name:"Rookie FLY Memory",wlk:-9,fly:30,slot:0,conversion:"BDCS1046 BDSS163"}
 {id:270,name:"Homing Shot",cost:60,main:{pwr:6,shl:900,rng:340,spd:320,itv:300},conversion:"BDCS76 BDCS1079"}
 {id:271,name:"Stunmag",cost:30,main:{pwr:10,shl:60,rng:250,spd:500,itv:300},conversion:"BDLS153 BDLS217"}
+{id:272,name:"Mialy's Argument",cost:30,main:{pwr:30,shl:30,rng:320,spd:480,itv:600},conversion:"BDLS207AM2"}
+
 
 {group:"Conversion-SWP",prefixID:"CS",commonStat:{tunable:{pwp:1}}}
 {id:1,name:"General Blade",main:{pwr:22,shl:30,rng:285,spd:325,itv:1000},sub:{str:100,pwr:28,rng:80,spd:70,itv:500},tunable:{mwp:1},size:"L",type:"l",cost:120,conversion:"AML1138",comment:"Attachable to 'Generaldo AM2' only"}
@@ -432,4 +434,4 @@
 {id:159,name:"Nephrinka TEC Memory",slot:0,tec:15,conversion:"BDLS206"}
 {id:160,name:"Bloody Shield",sub:{str:100,pwr:36,shl:30,rng:250,spd:150,itv:1000},conversion:"BDLS207AM"}
 {id:161,name:"Ivis Scythe",joint:{wp:1},sub:{str:100,pwr:10,rng:70,spd:85,itv:500},conversion:"BDLS207AM2"}
-{id:162,name:"Bloody Sword",joint:{wp:1},sub:{str:100,pwr:20,rng:70,spd:85,itv:500},conversion:"BDLS207AM2"}
+{id:162,name:"Bloody Blade",joint:{wp:1},sub:{str:100,pwr:20,rng:70,spd:85,itv:500},conversion:"BDLS207AM2"}

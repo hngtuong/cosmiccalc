@@ -52,7 +52,7 @@
 {id:106,name:"Turtlebacker HD2",cost:40,hp:30,str:1,tec:2,wlk:3,fly:0,tgh:-1}
 {id:107,name:"Medicarest HD2",cost:40,hp:20,str:-1,tec:2,wlk:1,fly:1,tgh:2}
 {id:108,name:"Manimo Knight HD",cost:40,hp:20,str:1,tec:2,wlk:-1,fly:0,tgh:3}
-{id:109,name:"G Tetra HD",type:"s",cost:100,hp:15,str:-1,tec:1,wlk:1,fly:0,tgh:2,sub:{pwr:10,shl:15,rng:300,spd:200,itv:500}}
+{id:109,name:"G Tetra HD",type:"s",cost:70,hp:15,str:-1,tec:1,wlk:1,fly:0,tgh:2,sub:{pwr:10,shl:15,rng:300,spd:200,itv:500}}
 {id:110,name:"Gwegg HD",cost:20,hp:15,str:1,tec:2,wlk:0,fly:0,tgh:0}
 {id:111,name:"Zero Saber HD3",cost:35,hp:25,str:2,tec:1,wlk:1,fly:0,tgh:1}
 {id:112,name:"Frog Lander KING HD",cost:35,hp:20,str:0,tec:2,wlk:1,fly:-1,tgh:3}

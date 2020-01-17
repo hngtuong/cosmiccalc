@@ -230,7 +230,7 @@
 {id:1038,name:"Azoth Module",conversion:"AMS1009 AMS1011 AMS1013",type:"l",cost:105,joint:{wp:0},main:{str:100,pwr:11,shl:300,rng:225,spd:420,itv:400},sub:{str:100,pwr:0,shl:15,rng:10,spd:10,itv:500}}
 {id:200,name:"Manimo Knight AM",cost:40,hp:20,str:0,tec:1,wlk:2,fly:1,tgh:2}
 {id:201,name:"Gurenzalivan AM",cost:45,hp:30,str:2,tec:1,wlk:1,fly:-1,tgh:2}
-{id:202,name:"G Tetra AM",type:"s",cost:85,hp:25,str:-1,tec:2,wlk:1,fly:1,tgh:2,main:{pwr:12,shl:350,rng:280,spd:350,itv:400},tunable:{mwp:1}}
+{id:202,name:"G Tetra AM",type:"s",cost:85,hp:25,str:-1,tec:2,wlk:1,fly:1,tgh:2,main:{pwr:16,shl:350,rng:300,spd:420,itv:400},tunable:{mwp:1}}
 {id:203,name:"Gwegg AM",cost:20,hp:15,str:1,tec:1,wlk:0,fly:-1,tgh:2}
 {id:204,name:"Zero Saber AM3",cost:35,hp:25,str:3,tec:2,wlk:1,fly:-1,tgh:0}
 {id:205,name:"Frog Lander KING AM",cost:35,hp:15,str:1,tec:3,wlk:2,fly:0,tgh:-1}
