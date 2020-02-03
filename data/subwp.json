@@ -282,3 +282,4 @@
 {id:85,name:"Flame Saucer",size:"M",type:"l",cost:120,sub:{str:100,pwr:22,rng:135,spd:300,itv:500}}
 {id:86,name:"Lumiel Blade",size:"M",type:"l",cost:90,sub:{str:100,pwr:30,rng:70,spd:85,itv:500},tunable:{pwp:1}}
 {id:87,name:"Neo Zeunebrand",size:"L",type:"l",cost:120,sub:{str:100,pwr:29,rng:70,spd:95,itv:500},tunable:{pwp:1}}
+{id:88,name:"Mini Pilebunker",size:"M",type:"l",cost:80,sub:{str:100,pwr:28,rng:100,spd:50,itv:500},tunable:{pwp:1}}

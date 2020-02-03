@@ -66,7 +66,9 @@
 {id:120,name:"Delfighter HD",cost:35,hp:25,str:2,tec:2,wlk:1,fly:-1,tgh:1}
 {id:121,name:"Delbeezle HD",cost:40,hp:25,str:2,tec:0,wlk:1,fly:0,tgh:2}
 {id:122,name:"Deluntulic HD",type:"s",cost:165,hp:25,str:-1,tec:3,wlk:2,fly:0,tgh:1,main:{pwr:8,shl:800,rng:250,spd:380,itv:100},tunable:{mwp:1}}
-//last:122
+{id:123,name:"P Lizbeth HD",type:"s",cost:50,hp:30,str:0,tec:2,wlk:3,fly:-1,tgh:1}
+{id:124,name:"Poul HD",type:"a",cost:140,hp:10,str:-1,tec:3,wlk:0,fly:2,tgh:1,main:{pwr:35,shl:200,rng:350,spd:480,itv:1000},tunable:{mwp:1}}
+
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Steel Rider HD",cost:15,hp:5,str:1,wlk:1,tgh:1}
@@ -454,7 +456,8 @@
 {id:1310,name:"Jets HD",cost:45,hp:25,str:0,tec:2,wlk:0,fly:2,tgh:1}
 {id:1311,name:"A. Miral HD2",type:"l",size:"M",cost:105,hp:20,tec:2,wlk:2,tgh:1,main:{tec:100,pwr:8,shl:250,rng:250,spd:480,itv:240},tunable:{mwp:1}}
 {id:1312,name:"Deltory HD",cost:35,hp:25,str:2,tec:1,wlk:-1,fly:1,tgh:2}
-//last:1312
+{id:1313,name:"Albatreos HD2",cost:40,hp:25,str:2,tec:1,wlk:1,fly:0,tgh:1}
+{id:1314,name:"Spada HD2",cost:35,hp:25,str:3,tec:-1,wlk:2,tgh:1}
 
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}

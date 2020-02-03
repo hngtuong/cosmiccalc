@@ -474,3 +474,5 @@
 {id:1070,name:"Machine Rifle",size:"M",type:"lcs",cost:100,main:{pwr:8,shl:50,rng:235,spd:500,itv:140},sub:{shl:15,spd:250,itv:500}}
 {id:1071,name:"B Sniper Rifle",size:"M",type:"a",cost:200,main:{pwr:30,shl:400,rng:300,spd:450,itv:1000},sub:{shl:0,spd:0,itv:1000}}
 {id:1072,name:"Spiral Rifle",size:"M",type:"l",cost:160,main:{pwr:16,shl:320,rng:300,spd:480,itv:600}}
+{id:1073,name:"Gran Rod",size:"S",type:"s",cost:160,main:{pwr:20,shl:350,rng:300,spd:360,itv:600},sub:{shl:20,rng:100,spd:150,itv:10000}}
+{id:1074,name:"Elec Missile Launcher",size:"L",type:"c",cost:180,main:{pwr:13,shl:600,rng:330,spd:340,itv:800}}

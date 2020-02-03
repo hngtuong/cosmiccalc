@@ -246,7 +246,9 @@
 {id:215,name:"Delfighter AM",cost:35,hp:20,str:2,tec:-1,wlk:2,fly:1,tgh:1}
 {id:216,name:"Delbeezle AM",type:"a",cost:95,hp:20,str:-1,tec:3,wlk:1,fly:2,tgh:0,main:{pwr:8,shl:380,rng:320,spd:510,itv:140},tunable:{mwp:1}}
 {id:217,name:"Deluntulic AM",cost:35,hp:20,str:1,tec:2,wlk:2,fly:1,tgh:-1}
-//last:217
+{id:218,name:"P Lizbeth AM",type:"s",cost:35,hp:20,str:0,tec:1,wlk:3,fly:-1,tgh:2}
+{id:219,name:"Poul AM",cost:35,hp:20,str:1,tec:2,wlk:0,fly:1,tgh:1}
+
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:21,name:"Victory AM",cost:20,hp:15,str:1,fly:1}
@@ -465,7 +467,8 @@
 {id:1027,name:"S.ActinaG AM",type:"c",cost:135,hp:20,str:-1,tec:3,wlk:1,fly:0,tgh:2,sub:{pwr:30,shl:180,rng:360,spd:360,itv:500}}
 {id:1028,name:"Paladiknight AM",cost:35,hp:20,str:2,tec:1,wlk:1,fly:-1,tgh:2}
 {id:1029,name:"Deltory AM",type:"c",cost:115,hp:20,str:-1,tec:3,wlk:1,fly:0,tgh:2,main:{pwr:9,shl:540,rng:340,spd:480,itv:140},tunable:{mwp:1}}
-//last:1029
+{id:1030,name:"Spada AM2",joint:{wp:2},type:"l",cost:30,hp:15,str:2,wlk:1,fly:-1,tgh:2}
+
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:2,name:"Ettion AM",cost:25,hp:25,str:1,tec:1,tgh:1}
@@ -675,7 +678,9 @@
 {id:2140,name:"Gwyain Absol AM3",cost:145,joint:{wp:0},hp:20,str:4,tec:-1,wlk:-1,fly:1,tgh:2,main:{pwr:9,shl:600,rng:300,spd:380,itv:800},tunable:{mwp:1}}
 {id:2141,name:"Apollion AM2",type:"a",cost:110,hp:25,str:3,tec:0,wlk:-1,fly:1,tgh:2,joint:{wp:0},sub:{str:100,pwr:32,rng:120,spd:110,itv:500},tunable:{pwp:1}}
 {id:2142,name:"Garou AM",type:"l",cost:25,hp:15,str:3,tec:0,wlk:0,fly:0,tgh:0,fixedParts:{wp:{name:"Garou AM@",cost:50,slot:0,main:{str:100,pwr:6,shl:90,rng:300,spd:440,itv:500},sub:{str:100,pwr:28,rng:80,spd:85,itv:500}}}}
-//last:2142
+{id:2143,name:"Albatreos AM2",type:"c",cost:70,hp:25,str:-1,tec:2,wlk:1,fly:1,tgh:2,joint:{wp:0},sub:{pwr:28,shl:30,rng:150,spd:350,itv:500},tunable:{pwp:1}}
+{id:2144,name:"Albatreos AM3",type:"c",cost:140,hp:25,str:-1,tec:3,wlk:1,fly:0,tgh:3,joint:{wp:0},main:{pwr:14,shl:800,rng:350,spd:600,itv:100},tunable:{mwp:1}}
+
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:11,name:"Brigand Baron AM",cost:50,hp:35,str:2,tgh:3}
