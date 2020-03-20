@@ -270,6 +270,7 @@
 {id:270,name:"Homing Shot",cost:60,main:{pwr:6,shl:900,rng:340,spd:320,itv:300},conversion:"BDCS76 BDCS1079"}
 {id:271,name:"Stunmag",cost:30,main:{pwr:10,shl:60,rng:250,spd:500,itv:300},conversion:"BDLS153 BDLS217"}
 {id:272,name:"Mialy's Argument",cost:30,main:{pwr:30,shl:30,rng:320,spd:480,itv:600},conversion:"BDLS207AM2"}
+{id:273,name:"Action Bit",cost:80,main:{str:100,pwr:16,shl:340,rng:250,spd:570,itv:400},conversion:"BDLS218"}
 
 
 {group:"Conversion-SWP",prefixID:"CS",commonStat:{tunable:{pwp:1}}}
@@ -437,3 +438,5 @@
 {id:162,name:"Bloody Blade",joint:{wp:1},sub:{str:100,pwr:20,rng:70,spd:85,itv:500},conversion:"BDLS207AM2"}
 {id:163,name:"Spada AM2@",cost:80,main:{pwr:10,shl:120,rng:250,spd:250,itv:200},sub:{str:100,pwr:28,shl:240,rng:85,spd:85,itv:500},auraStat:{main:{pwr:15,shl:120,rng:250,spd:250,itv:200},sub:{str:100,pwr:30,shl:240,rng:85,spd:85,itv:500}},tunable:{mwp:1},conversion:"AMM1030"}
 {id:164,name:"Spada BD2@",cost:60,sub:{str:100,pwr:30,rng:150,spd:350,itv:500},auraStat:{sub:{str:100,pwr:32,rng:150,spd:350,itv:500}},conversion:"BDLM49"}
+{id:165,name:"Action Bit II",cost:30,sub:{str:100,pwr:32,rng:200,spd:570,itv:500},tunable:{pwp:0},conversion:"BDLS218"}
+{id:166,name:"KAPPA - SWITCH",slot:0,sub:{pwr:20,rng:380,spd:520,itv:500},conversion:"BDCL55"}
