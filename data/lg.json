@@ -439,6 +439,7 @@
 {id:134,name:"Albatreos LG3",cost:50,hp:35,str:-1,tec:1,wlk:3,fly:2,tgh:1}
 {id:135,name:"Kappa Officer LG",type:"c",cost:50,hp:80,str:2,tec:0,wlk:3,fly:2,tgh:-1}
 {id:136,name:"Hergreygar LG",cost:50,hp:80,str:0,tec:0,wlk:2,fly:1,tgh:3}
+{id:137,name:"Haku LG",type:"a",cost:100,hp:50,str:0,tec:0,wlk:3,fly:2,tgh:0,sub:{shl:40,spd:150,itv:1000}}
 
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
@@ -486,3 +487,4 @@
 {id:22,name:"Swim Ring LGJ",size:"M",cost:5,hp:5,wlk:1,slot:1}
 {id:23,name:"Beam Launcher LGJ",size:"M",type:"a",cost:50,slot:1,main:{pwr:12,shl:400,rng:320,spd:300,itv:600},tunable:{mwp:1}}
 {id:24,name:"P Lizbeth LGJ",size:"S",slot:1}
+{id:25,name:"Fractulus LGJ",size:"S",slot:1,comment:"S-L is the same"}
