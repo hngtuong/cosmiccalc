@@ -8,8 +8,6 @@
  *
  *  Licensed under the MIT(MIT-LICENSE.txt) license.
  *
- *  Version: 3.4.3
- *  LastModified: 2015-01-26
  */
 
 /*  Naming Rules
@@ -457,7 +455,7 @@ $.fn.extend({
 /* CosmiCalc Init処理 */
 $(function(){
 
-$("#VERSION").text("CosmiCalc Ver."+VERSION);
+$("#VERSION").text("CosmiCalc Ver." + VERSION + "(Not updated for CBUNI)");
 $("#LAST_MODIFIED").text(LAST_MODIFIED);
 
 $.extend(Settings, {
