@@ -93,7 +93,7 @@
 {id:12,name:"High Run Beta",cost:5,str:-1,wlk:2,fly:-1,material:"2*1|19*12|30*10|14*5",comment:"60%"}
 {id:5,name:"High Run Gamma",cost:5,tec:-1,wlk:2,fly:-1,material:"2*1|19*12|30*10|14*5",comment:"60%"}
 {id:6,name:"Great Run",cost:30,wlk:3,material:"3*1|19*18|30*12|32*10|14*8",comment:"60%"}
-{id:7,name:"Great Run Alpha",cost:20,str:-1,wlk:3,fly:-10,material:"3*1|19*18|30*12|32*10|14*8",comment:"60%"}
+{id:7,name:"Great Run Alpha",cost:20,str:-1,wlk:3,fly:-1,material:"3*1|19*18|30*12|32*10|14*8",comment:"60%"}
 {id:8,name:"Great Run Beta",cost:20,tec:-1,wlk:3,fly:-1,material:"3*1|19*18|30*12|32*10|14*8",comment:"60%"}
 {id:9,name:"Great Run Gamma",cost:10,str:-1,tec:-1,wlk:3,fly:-1,tgh:-1,material:"3*1|19*18|30*12|32*10|14*8",comment:"60%"}
 {id:10,name:"Tank",cost:15,hp:15,wlk:1,material:"3*1|19*15|22*6|34*3|35*10|36*10|14*5",comment:"60%"}
