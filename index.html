@@ -5,24 +5,23 @@
 <html>
 
 <head>
-	<title>CosmiCalc (Updated)</title>
+	<title>CosmiCalc (Not updated for CBUNI)</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<meta http-equiv="content-style-type" content="text/css" />
 	<meta http-equiv="Content-Script-Type" content="text/javascript; charset=UTF-8" />
 	<link type="text/css" href="cosmicalc.css" rel="stylesheet" />
 	<link rel="shortcut icon" href="img/favicon.ico" />
 	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/lz-string.min.js"></script>
 	<script type="text/javascript" src="js/cosmicalc.js"></script>
 </head>
 
 <body>
 	<div id="HEADER">
-		<div id="VERSION">CosmiCalc</div>
+		<div id="VERSION">CosmiCalc (Not updated for CBUNI)</div>
 		<div id="LINK_CONTAINER">
-			<a href="https://momoki4592.web.fc2.com/cosmicalc3cp/" target="_blank">_ CBJP's Calc _</a>
-			<a href="varies.html" target="_blank">_BD varies_</a>
 			<a href="http://www.cosmicbreakfanforum.com/t15375-" target="_blank">_CBFF Thread_</a>
-			<a href="http://www.cosmicbreak.cyberstep.com/home/" target="_blank">_ CB Website _</a>
+			<a href="https://cosmicbreak-universal.com/" target="_blank">_CBUNI Home Page_</a>
 		</div>
 	</div>
 
@@ -259,6 +258,11 @@
 		</div>
 
 		<div id="PARTS_DATA_VIEW">
+			<div id="PDV_HEADER_CONTAINER">
+				<div id="PDV_NAME"></div>
+				<button id="DATA_EDIT_BUTTON" disabled="disabled">Edit</button>
+			</div>
+			
 			<div id="PDV_COMMENT"></div>
 
 			<div id="PDV_TYPE" class="pdv_item_container"><div class="pdv_item_name">TYPE</div><div class="pdv_val">-</div></div>
@@ -339,17 +343,23 @@
 		</div>
 	</div>
 
+	<div class="transparent_field">
+		<div id="DATA_EDIT_CONTAINER">
+			<div id="DATA_EDIT_CLOSE">X</div><div id="DATA_EDIT_TOP"></div>
+			<textarea id="DATA_EDIT_TEXTAREA"></textarea>
+			<div id="DATA_EDIT_BOTTOM" disabled><button id="DATA_EDIT_APPLY">Apply</button> <button id="DATA_EDIT_RESET">Reset</button></div>
+		</div>
+	</div>
+
 	<div id="OVERLAY" class="loading">
 		<br><br><br>Now loading, please wait...<br>
 			If it loads forever, try to refresh the page.<br><br>
 			
 			Please note that CosmiCalc requires a modern browser to work.<br>
 			Don't try to load it with Internet Explorer unless you're using IE10 Platform Preview or anything higher. It won't work.<br><br>
-			This is koi's CosmiCalc updated with jp's translated data.<br>
-			<a href="https://github.com/hngtuong/cosmiccalc/archive/master.zip" target="_blank">CosmiCalc OFFLINE - Credit to koi-sama</a><br>
 			<noscript>
 			<div style="opacity:1.0; filter:alpha(opacity:100); position:absolute; top:110px; left:20%; height:100px; width:60%; color:red; background-color:white; font-weight:bold; font-size:16px"><br>
-				CosmiCalc - the build calculator and manager for CB aka CosmicBreak (www.cosmicbreak.com, www.cosmicbreak.jp, www.cosmicbreak.com.tw)<br>
+				CosmiCalc - the build calculator and manager for CB aka CosmicBreak<br>
 				This page needs JavaScript in order to work. Please enable JS in your browser.<br><br><br><br>
 			</div>
 			</noscript>
