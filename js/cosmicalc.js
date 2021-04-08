@@ -2155,26 +2155,23 @@ function calc(){
 			var prp = this.ccd;
 			Result.cost += prp.cst;
 			switch(prp.cid){
-			case "1":
-			case "2":
-			case "3":
-			case "4":
-			case "5":
-				Result.capa += (prp.cid-0) * 10 + 40;
+			case "150":
+			case "155":
+			case "160":
+			case "165":
+			case "170":
+			case "175":
+			case "180":
+			case "185":
+			case "190":
+				Result.capa += prp.cid-100;
 				Result.hp += Assembly.cartridge.hpup;
 				break;
-			case "6":
-				Result.capa += 55;
-				Result.hp += 15;
-				Result.reinforce++;
-				break;
-			case "52":
-				Result.capa += 65;
-				Result.hp += 15;
-				Result.reinforce++;
-				break;
-			case "53":
-				Result.capa += 75;
+			case "255":
+			case "260":
+			case "265":
+			case "275":
+				Result.capa += prp.cid-200;
 				Result.hp += 15;
 				Result.reinforce++;
 				break;

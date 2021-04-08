@@ -1,12 +1,18 @@
-﻿{id:1,name:"Capacity +50",comment:"Raises robot's cost capacity by 50 and HP by #hp."}
-{id:2,name:"Capacity +60",comment:"Raises robot's cost capacity by 60 and HP by #hp."}
-{id:3,name:"Capacity +70",comment:"Raises robot's cost capacity by 70 and HP by #hp."}
-{id:4,name:"Capacity +80",comment:"Raises robot's cost capacity by 80 and HP by #hp."}
-{id:5,name:"Capacity +90",comment:"Raises robot's cost capacity by 90 and HP by #hp."}
-{id:6,name:"Enhance Internal Weapon",comment:"Enhances the core's built in weapon. Raises robot's cost capacity by 55 and HP by 15"}
+﻿{id:150,name:"Capacity +50",comment:"Raises robot's cost capacity by 50 and HP by #hp."}
+{id:160,name:"Capacity +60",comment:"Raises robot's cost capacity by 60 and HP by #hp."}
+{id:170,name:"Capacity +70",comment:"Raises robot's cost capacity by 70 and HP by #hp."}
+{id:175,name:"Capacity +75",comment:"Raises robot's cost capacity by 75 and HP by #hp."}
+{id:180,name:"Capacity +80",comment:"Raises robot's cost capacity by 80 and HP by #hp."}
+{id:190,name:"Capacity +90",comment:"Raises robot's cost capacity by 90 and HP by #hp."}
+//
+{id:255,name:"Enhance Internal Weapon",comment:"Enhances the core's built in weapon. Raises robot's cost capacity by 55 and HP by 15"}
+{id:260,name:"Enhance Internal Weapon",comment:"Enhances the core's built in weapon. Raises robot's cost capacity by 60 and HP by 15"}
+{id:265,name:"Enhance Internal Weapon",comment:"Enhances the core's built in weapon. Raises robot's cost capacity by 65 and HP by 15"}
+{id:275,name:"Enhance Internal Weapon",comment:"Enhances the core's built in weapon. Raises robot's cost capacity by 75 and HP by 15"}
+//
 {id:7,name:"Shell Guard",comment:"Decreases damage from bullet type projectiles by 15%."}
-{id:8,name:"Beam Guard",comment:"Decreases damage from beam type projectiles by 30% (55% for ART bots)."}
-{id:9,name:"Sword Guard",comment:"Decreases damage from melee attacks by 40% (50% for AIR bots)."}
+{id:8,name:"Sword Guard",comment:"Decreases damage from melee attacks by 40% (50% for AIR bots)."}
+{id:9,name:"Beam Guard",comment:"Decreases damage from beam type projectiles by 30% (55% for ART bots)."}
 {id:10,name:"Blast Guard",comment:"Decreases damage from explosive projectiles by 50% (55% for LND bots)."}
 {id:11,name:"Anti Burning",comment:"Allows robot to move normally even when on fire."}
 {id:12,name:"Anti Slow",comment:"Effects of slow traps will be reduced."}
@@ -19,10 +25,10 @@
 {id:19,name:"Float Dash",comment:"Allows you to use the custom dash action 'Float Dash'. Instead of dashing, you will move by flying close to the ground."}
 {id:20,name:"Boost Run",comment:"Allows you to use the custom running action 'Boost Run'. Uses boost gauge to increase running speed."}
 {id:21,name:"Quick Boost",comment:"Boost gauge will recharge 30% faster."}
-{id:22,name:"Quick Jump",comment:"Allows you to reach maximum altitude quicker."}
-{id:23,name:"Quick Land",comment:"Allows you to make a quicker landing from the air."}
+{id:22,name:"Quick Land",comment:"Allows you to make a quicker landing from the air."}
+{id:23,name:"Quick Jump",comment:"Allows you to reach maximum altitude quicker."}
 {id:24,name:"Quick Swim",comment:"Allows you to move quickly through water."}
-{id:25,name:"Revenge Shot",comment:"Allows robot to occasionally attack without using up ammo when HP is below 50."}
+{id:25,name:"Revenge Shot",comment:"Attacks using main weapon (excluding Alpha Strike) have a chance not consume ammo, lower HP higher chance"}
 {id:26,name:"Moving Burst",comment:"Allows you to move for a short period of time while firing all weapons."}
 {id:27,name:"Soul Eater",comment:"Restores a small amount of HP whenever you destroy a robot in the Arena."}
 {id:28,name:"Wonder Rate Up",comment:"WB gauge's increase rate will grow when robot is damaged."}
@@ -44,13 +50,8 @@
 {id:48,name:"483",comment:"Increase Shell type attack by 15%."}
 {id:49,name:"484",comment:"Increase Blast type attack by 15%."}
 {id:50,name:"485",comment:"Increase Beam type attack by 15%."}
-{id:51,name:"Sword Attack",comment:"Increase Physical type attack by 15%."}
-{id:52,name:"Enhance Internal Weapon",comment:"Enhances the core's built in weapon. Raises robot's cost capacity by 65 and HP by 15"}
-{id:53,name:"Enhance Internal Weapon",comment:"Enhances the core's built in weapon. Raises robot's cost capacity by 75 and HP by 15"}
-{id:54,name:"Enhance Life Taker (Proc Rate)",comment:"Life Taker's probability 30% up"}
-{id:55,name:"Enhance Life Taker (Heal Amount)",comment:"Life Taker's heal amount 10% up"}
-{id:56,name:"九曜縮地",comment:"Garou's custom dash"}
-{id:57,name:"Ultimate Roll",comment:"S.P. Nippa custom dash"}
+{id:51,name:"486",comment:"Increase Physical type attack by 15%."}
+{id:52,name:"Asending Force",comment:""}
 //
 {id:"EX1",ex:1,name:"Accele Roll",comment:"Adds a Mid-air Dash Action called the [Accele Roll] to the robot.",cost:30}
 {id:"EX2",ex:1,name:"Air Loop",comment:"Adds a Mid-air Dash Action called the [Air Loop] to the robot. AIR TYPE ONLY.",cost:30}
