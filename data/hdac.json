@@ -1,11 +1,11 @@
 ﻿{group:"Hats",commonStat:{slot:1}}
-{id:1001,name:"+1 str +5 capa",capa:5,str:1}
-{id:1002,name:"+1 tec +5 capa",capa:5,tec:1}
-{id:1003,name:"+1 wlk +5 capa",capa:5,wlk:1}
-{id:1004,name:"+1 fly +5 capa",capa:5,fly:1}
-{id:1005,name:"+1 tgh +5 capa",capa:5,tgh:1}
-{id:2001,name:"+5 hp +1 str +5 capa",capa:5,str:1,hp:5}
-{id:2002,name:"+5 hp +1 tec +5 capa",capa:5,tec:1,hp:5}
-{id:2003,name:"+5 hp +1 wlk +5 capa",capa:5,wlk:1,hp:5}
-{id:2004,name:"+5 hp +1 fly +5 capa",capa:5,fly:1,hp:5}
-{id:2005,name:"+5 hp +1 tgh +5 capa",capa:5,tgh:1,hp:5}
+{id:1001,name:"+1 str +5 capa ",capa:5,str:1}
+{id:1002,name:"+1 tec +5 capa ",capa:5,tec:1}
+{id:1003,name:"+1 wlk +5 capa ",capa:5,wlk:1}
+{id:1004,name:"+1 fly +5 capa ",capa:5,fly:1}
+{id:1005,name:"+1 tgh +5 capa ",capa:5,tgh:1}
+{id:2001,name:"+5 hp +1 str +5 capa ",capa:5,str:1,hp:5}
+{id:2002,name:"+5 hp +1 tec +5 capa ",capa:5,tec:1,hp:5}
+{id:2003,name:"+5 hp +1 wlk +5 capa ",capa:5,wlk:1,hp:5}
+{id:2004,name:"+5 hp +1 fly +5 capa ",capa:5,fly:1,hp:5}
+{id:2005,name:"+5 hp +1 tgh +5 capa ",capa:5,tgh:1,hp:5}
