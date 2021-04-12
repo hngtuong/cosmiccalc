@@ -1,10 +1,19 @@
 ﻿{group:"SS Size",prefixID:"SS",commonStat:{size:"SS"}}
+{id:1,name:"Build Arm BS",type:"c",cost:140,hp:25,str:-1,tec:3,wlk:0,fly:2,tgh:1,main:{pwr:15,shl:280,rng:330,spd:380,itv:580},tunable:{mwp:1}}
 
 {group:"S Size",prefixID:"S",commonStat:{size:"S"}}
 {id:1,name:"Zero Saber BS",type:"l",cost:40,hp:25,str:1,tec:1,wlk:1,fly:2,tgh:0}
 {id:2,name:"Zero Saber Girl BS",type:"l",cost:40,hp:20,str:1,tec:1,wlk:0,fly:1,tgh:2}
 {id:3,name:"Mecha Jetter Girl BS",type:"a",cost:40,hp:20,str:1,tec:0,wlk:1,fly:2,tgh:1}
 {id:4,name:"Destructor Girl BS",type:"c",cost:40,hp:20,str:0,tec:0,wlk:0,fly:2,tgh:3}
+{id:5,name:"Zero Fighter BS",type:"l",cost:35,hp:20,str:1,tec:0,wlk:0,fly:3,tgh:1}
+{id:6,name:"Frog Lander BS",type:"l",cost:35,hp:20,str:1,tec:1,wlk:0,fly:3,tgh:0}
+{id:7,name:"Sword Wing BS",type:"a",cost:35,hp:20,str:0,tec:0,wlk:1,fly:4,tgh:0}
+{id:8,name:"Taranulic BS",type:"s",cost:35,hp:20,str:0,tec:0,wlk:1,fly:3,tgh:1}
+{id:9,name:"Cannon Baller BS",type:"c",cost:35,hp:20,str:1,tec:0,wlk:0,fly:3,tgh:1}
+{id:10,name:"Dikaros BS",type:"a",cost:40,hp:25,str:0,tec:1,wlk:0,fly:4,tgh:0}
+{id:11,name:"Ace Braver BS",type:"l",cost:40,hp:25,str:0,tec:0,wlk:1,fly:3,tgh:1}
+{id:12,name:"Misside BS",type:"c",cost:40,hp:25,str:0,tec:2,wlk:0,fly:3,tgh:0}
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Axion BS",type:"l",cost:45,hp:25,str:0,tec:2,wlk:1,fly:3,tgh:-1}
@@ -14,6 +23,8 @@
 {id:5,name:"Ramdiver BS",type:"a",cost:70,hp:25,str:0,tec:0,wlk:0,fly:4,tgh:1,sub:{pwr:0,itv:500}}
 {id:6,name:"Amateus BS",type:"c",cost:40,hp:25,str:1,tec:2,wlk:-1,fly:3,tgh:0}
 {id:7,name:"Bugsycait BS",type:"s",cost:140,hp:25,str:0,tec:1,wlk:-1,fly:3,tgh:2,sub:{pwr:20,shl:240,rng:275,spd:250,itv:1000}}
+{id:8,name:"Lupette BS",type:"l",cost:40,hp:25,str:-1,tec:1,wlk:1,fly:3,tgh:1}
+{id:9,name:"Katana Max BS",type:"l",cost:40,hp:25,str:2,tec:0,wlk:0,fly:2,tgh:1}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Gwyain BS",type:"a",cost:40,hp:25,str:0,tec:2,wlk:-1,fly:3,tgh:1}
@@ -25,6 +36,7 @@
 {id:7,name:"Aquila BS",type:"a",cost:50,hp:30,str:1,tec:2,wlk:-1,fly:3,tgh:1}
 {id:8,name:"Toybox BS",type:"c",cost:40,hp:20,str:1,tec:0,wlk:0,fly:3,tgh:1}
 {id:9,name:"Buff Devastator BS",type:"s",cost:40,hp:25,str:-1,tec:0,wlk:1,fly:3,tgh:2}
+{id:10,name:"Wild Vehic BS",type:"l",cost:40,hp:25,str:0,tec:1,wlk:1,fly:3,tgh:0}
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 

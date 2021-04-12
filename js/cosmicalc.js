@@ -2164,12 +2164,14 @@ function calc(){
 			case "180":
 			case "185":
 			case "190":
+			case "195":
 				Result.capa += prp.cid-100;
 				Result.hp += Assembly.cartridge.hpup;
 				break;
 			case "255":
 			case "260":
 			case "265":
+			case "270":
 			case "275":
 				Result.capa += prp.cid-200;
 				Result.hp += 15;

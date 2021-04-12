@@ -2,6 +2,13 @@
 
 {group:"S Size",prefixID:"S",commonStat:{size:"S"}}
 {id:1,name:"Zero Saber HD",cost:40,hp:25,str:2,tec:2,wlk:0,fly:0,tgh:1}
+{id:2,name:"Frog Lander HD",cost:35,hp:20,str:1,tec:1,wlk:1,fly:2,tgh:0}
+{id:3,name:"Sword Wing HD",type:"a",cost:100,hp:20,str:-1,tec:3,wlk:0,fly:2,tgh:1,main:{pwr:7,shl:600,rng:200,spd:480,itv:140},tunable:{mwp:1}}
+{id:4,name:"Cannon Baller HD",cost:35,hp:20,str:0,tec:2,wlk:1,fly:0,tgh:2}
+{id:5,name:"Build Arm HD",cost:40,hp:25,str:1,tec:2,wlk:1,fly:0,tgh:1}
+{id:6,name:"Dikaros HD",cost:40,hp:25,str:1,tec:0,wlk:2,fly:1,tgh:1}
+{id:7,name:"Ace Braver HD",cost:40,hp:25,str:1,tec:1,wlk:1,fly:0,tgh:2}
+{id:8,name:"Misside HD",cost:40,hp:25,str:0,tec:2,wlk:1,fly:0,tgh:2}
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Gwyain HD",cost:40,hp:25,str:2,tec:1,wlk:2,fly:0,tgh:0}
@@ -19,6 +26,9 @@
 {id:13,name:"Toybox HD",cost:40,hp:25,str:2,tec:0,wlk:1,fly:1,tgh:1}
 {id:14,name:"Buff Devastator HD",cost:45,hp:25,str:1,tec:-1,wlk:2,fly:0,tgh:3}
 {id:15,name:"Bugsycait HD",cost:40,hp:20,str:-1,tec:3,wlk:1,fly:2,tgh:0}
+{id:16,name:"Zero Fighter HD",cost:35,hp:20,str:0,tec:2,wlk:2,fly:0,tgh:1}
+{id:17,name:"Snailbot HD",type:"c",cost:75,hp:25,str:0,tec:2,wlk:2,fly:0,tgh:1,main:{pwr:3,shl:1600,rng:160,spd:480,itv:140},tunable:{mwp:1}}
+{id:18,name:"Katana Max HD",cost:40,hp:25,str:0,tec:2,wlk:1,fly:0,tgh:2}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Aquila HD",cost:35,hp:20,str:1,tec:1,wlk:2,fly:1,tgh:0}
