@@ -35,8 +35,8 @@
 {id:28,name:"Wonder Rate Up",comment:"WB gauge's increase rate will grow when robot is damaged."}
 {id:29,name:"Absorb Bump",comment:"Robot will not move when bumped into by other robots."}
 {id:30,name:"Sniper Sight",comment:"Enemies will not be alerted when you have locked on to them."}
-{id:31,name:"Stealth System",comment:"Makes robot invisible to enemy radar."}
-{id:32,name:"Broad Radar",comment:"Allows robot to view all enemies on radar."}
+{id:31,name:"Broad Radar",comment:"Allows robot to view all enemies on radar."}
+{id:32,name:"Stealth System",comment:"Makes robot invisible to enemy radar."}
 {id:33,name:"Growing Wonder",comment:"Your WB gauge will slowly increase automatically."}
 {id:34,name:"Assault Step",comment:"Allows you to use the custom dash action 'Assault Step'. Steps quickly forward, and jumps left and right."}
 {id:35,name:"Zero Cartridge",comment:"Other special carts for 'Zero' type."}
@@ -52,7 +52,7 @@
 {id:49,name:"484",comment:"Increase Blast type attack by 15%."}
 {id:50,name:"485",comment:"Increase Beam type attack by 15%."}
 {id:51,name:"486",comment:"Increase Physical type attack by 15%."}
-{id:52,name:"Asending Force",comment:""}
+{id:52,name:"Ascending Force",comment:""}
 {id:53,name:"Fall Charge",comment:""}
 //
 {id:"EX1",ex:1,name:"Accele Roll",comment:"Adds a Mid-air Dash Action called the [Accele Roll] to the robot.",cost:30}

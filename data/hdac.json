@@ -9,3 +9,5 @@
 {id:2003,name:"+5 hp +1 wlk +5 capa ",capa:5,wlk:1,hp:5}
 {id:2004,name:"+5 hp +1 fly +5 capa ",capa:5,fly:1,hp:5}
 {id:2005,name:"+5 hp +1 tgh +5 capa ",capa:5,tgh:1,hp:5}
+{id:1,name:"Zero Saber Girl Gear T",hp:5,wlk:1,capa:5}
+{id:2,name:"Mecha Jetter Girl Gear",hp:5,str:1,fly:1}

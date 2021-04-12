@@ -14,6 +14,11 @@
 {id:8,name:"Estes HD",cost:40,hp:25,str:1,tec:3,wlk:-1,fly:1,tgh:1}
 {id:9,name:"Baltheon HD",cost:40,hp:25,str:1,tec:1,wlk:0,fly:1,tgh:2}
 {id:10,name:"Psycho Cluster HD",cost:40,hp:25,str:1,tec:2,wlk:1,fly:2,tgh:-1}
+{id:11,name:"Ramdiver HD",cost:40,hp:20,str:1,tec:2,wlk:-1,fly:1,tgh:2}
+{id:12,name:"Amateus HD",cost:45,hp:25,str:2,tec:0,wlk:2,fly:1,tgh:0}
+{id:13,name:"Toybox HD",cost:40,hp:25,str:2,tec:0,wlk:1,fly:1,tgh:1}
+{id:14,name:"Buff Devastator HD",cost:45,hp:25,str:1,tec:-1,wlk:2,fly:0,tgh:3}
+{id:15,name:"Bugsycait HD",cost:40,hp:20,str:-1,tec:3,wlk:1,fly:2,tgh:0}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Aquila HD",cost:35,hp:20,str:1,tec:1,wlk:2,fly:1,tgh:0}
