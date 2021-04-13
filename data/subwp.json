@@ -6,6 +6,7 @@
 {id:3,name:"Cutter",size:"SS",cost:25,sub:{str:100,pwr:26,rng:105,spd:128,itv:500}}
 {id:4,name:"Rapier",size:"S",type:"a",cost:40,sub:{str:100,pwr:23,rng:100,spd:200,itv:1000}}
 {id:5,name:"Metal Slayer",size:"M",type:"l",cost:120,sub:{str:100,pwr:32,rng:77,spd:94,itv:500}}
+{id:6,name:"Sonic Blade",size:"M",type:"a",cost:100,sub:{str:100,pwr:30,rng:70,spd:85,itv:500}}
 
 {group:"Axe",prefixID:"AX",commonStat:{tunable:{pwp:1}}}
 {id:1,name:"Club",size:"M",type:"lcs",cost:40,sub:{str:100,pwr:31,rng:49,spd:60,itv:1000}}

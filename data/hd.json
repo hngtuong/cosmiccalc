@@ -35,5 +35,5 @@
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 
-{group:"Joint",prefixID:"J",commonStat:{jointPart:1}}
-{id:1,name:"Generic HDJ",size:"M",slot:1}
+{group:"Joint",prefixID:"J",commonStat:{jointPart:1,slot:1,size:"M"}}
+{id:1,name:"Generic HDJ"}

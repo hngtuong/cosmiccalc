@@ -9,4 +9,9 @@
 {id:2003,name:"+5 hp +1 wlk +5 capa ",capa:5,wlk:1,hp:5}
 {id:2004,name:"+5 hp +1 fly +5 capa ",capa:5,fly:1,hp:5}
 {id:2005,name:"+5 hp +1 tgh +5 capa ",capa:5,tgh:1,hp:5}
-{id:3,name:"+5 hp +1 str +1 fly",hp:5,str:1,fly:1}
+{id:3001,name:"AC Memory (STR) ",capa:5,str:1,hp:5,joint:{hdac:1}}
+{id:3002,name:"AC Memory (TEC) ",capa:5,tec:1,hp:5,joint:{hdac:1}}
+{id:3003,name:"AC Memory (WLK) ",capa:5,wlk:1,hp:5,joint:{hdac:1}}
+{id:3004,name:"AC Memory (FLY) ",capa:5,fly:1,hp:5,joint:{hdac:1}}
+{id:3005,name:"AC Memory (TGH) ",capa:5,tgh:1,hp:5,joint:{hdac:1}}
+{id:3,name:"+5 hp +1 str +1 fly ",hp:5,str:1,fly:1}
