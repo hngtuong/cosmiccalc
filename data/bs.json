@@ -14,6 +14,9 @@
 {id:10,name:"Dikaros BS",type:"a",cost:40,hp:25,str:0,tec:1,wlk:0,fly:4,tgh:0}
 {id:11,name:"Ace Braver BS",type:"l",cost:40,hp:25,str:0,tec:0,wlk:1,fly:3,tgh:1}
 {id:12,name:"Misside BS",type:"c",cost:40,hp:25,str:0,tec:2,wlk:0,fly:3,tgh:0}
+{id:13,name:"Pawnger BS",type:"l",cost:35,hp:20,str:1,tec:0,wlk:1,fly:3,tgh:0}
+{id:14,name:"Daruma Star BS",type:"s",cost:35,hp:20,str:1,tec:0,wlk:0,fly:3,tgh:1}
+{id:15,name:"Forcedriver BS",type:"l",cost:40,hp:25,str:0,tec:-1,wlk:1,fly:3,tgh:2}
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Axion BS",type:"l",cost:45,hp:25,str:0,tec:2,wlk:1,fly:3,tgh:-1}
@@ -32,6 +35,15 @@
 {id:14,name:"Aqua Jet BS",cost:60,hp:25,str:1,tec:0,wlk:2,fly:2,tgh:0,sub:{pwr:0,rng:150,spd:350,itv:1000}}
 {id:15,name:"Brave Drive BS",cost:60,hp:25,str:1,tec:0,wlk:2,fly:2,tgh:0,sub:{pwr:0,rng:150,spd:350,itv:1000}}
 {id:16,name:"Reignition BS",type:"a",cost:70,hp:25,str:0,tec:0,wlk:0,fly:4,tgh:1,sub:{pwr:1,shl:100,rng:10,spd:150,itv:1000}}
+{id:17,name:"Chimaki-chan Flag BS",cost:30,hp:15,str:0,tec:0,wlk:2,fly:2,tgh:0}
+{id:18,name:"Gun Arms BS",type:"c",cost:70,hp:25,str:-1,tec:2,wlk:0,fly:3,tgh:1,joint:{bs:1},fixedParts:{bs:{name:"Gun Arms BS@",slot:0,main:{pwr:16,shl:200,rng:350,spd:520,itv:900}}}}
+{id:19,name:"Mediger BS",type:"s",cost:40,hp:25,str:1,tec:0,wlk:0,fly:3,tgh:1}
+{id:20,name:"Byakkou BS",type:"l",cost:40,hp:25,str:-1,tec:1,wlk:1,fly:2,tgh:2}
+{id:21,name:"Seiron BS",type:"a",cost:40,hp:25,str:1,tec:1,wlk:0,fly:3,tgh:0}
+{id:22,name:"Suzeku BS",type:"a",cost:120,hp:25,str:2,tec:0,wlk:-1,fly:4,tgh:0,auraStat:{str:2,tec:0,wlk:-1,fly:4,tgh:0,main:{str:100,pwr:5,shl:460,rng:275,spd:350,itv:900},sub:{str:100,pwr:26,rng:90,spd:200,itv:1000}},tunable:{mwp:1,pwp:1}}
+{id:23,name:"Genbura BS",type:"c",cost:40,hp:25,str:1,tec:1,wlk:-1,fly:2,tgh:2}
+{id:24,name:"Double Star Edge BS-G",cost:35,hp:20,str:0,tec:0,wlk:1,fly:3,tgh:1}
+{id:25,name:"Star Edge BS-G",cost:35,hp:20,str:0,tec:0,wlk:2,fly:2,tgh:1}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Gwyain BS",type:"a",cost:40,hp:25,str:0,tec:2,wlk:-1,fly:3,tgh:1}
@@ -45,6 +57,8 @@
 {id:9,name:"Buff Devastator BS",type:"s",cost:40,hp:25,str:-1,tec:0,wlk:1,fly:3,tgh:2}
 {id:10,name:"Wild Vehic BS",type:"l",cost:40,hp:25,str:0,tec:1,wlk:1,fly:3,tgh:0}
 {id:11,name:"Medicball BS",type:"s",cost:40,hp:25,str:0,tec:1,wlk:0,fly:3,tgh:1}
+{id:12,name:"Sturbanger BS",type:"c",cost:35,hp:20,str:2,tec:0,wlk:1,fly:2,tgh:0}
+{id:13,name:"Blazed Baron BS",type:"l",cost:45,hp:25,str:2,tec:1,wlk:0,fly:3,tgh:-1}
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 

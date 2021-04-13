@@ -9,6 +9,8 @@
 {id:6,name:"Dikaros HD",cost:40,hp:25,str:1,tec:0,wlk:2,fly:1,tgh:1}
 {id:7,name:"Ace Braver HD",cost:40,hp:25,str:1,tec:1,wlk:1,fly:0,tgh:2}
 {id:8,name:"Misside HD",cost:40,hp:25,str:0,tec:2,wlk:1,fly:0,tgh:2}
+{id:9,name:"Pawnger HD",cost:35,hp:20,str:2,tec:0,wlk:1,fly:0,tgh:2}
+{id:10,name:"Forcedriver HD",cost:40,hp:25,str:-1,tec:2,wlk:1,fly:1,tgh:2}
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Gwyain HD",cost:40,hp:25,str:2,tec:1,wlk:2,fly:0,tgh:0}
@@ -29,6 +31,15 @@
 {id:16,name:"Zero Fighter HD",cost:35,hp:20,str:0,tec:2,wlk:2,fly:0,tgh:1}
 {id:17,name:"Snailbot HD",type:"c",cost:75,hp:25,str:0,tec:2,wlk:2,fly:0,tgh:1,main:{pwr:3,shl:1600,rng:160,spd:480,itv:140},tunable:{mwp:1}}
 {id:18,name:"Katana Max HD",cost:40,hp:25,str:0,tec:2,wlk:1,fly:0,tgh:2}
+{id:19,name:"Sturbanger HD",cost:40,hp:25,str:2,tec:-1,wlk:0,fly:1,tgh:3}
+{id:20,name:"Blazed Baron HD",cost:40,hp:25,str:2,tec:-1,wlk:1,fly:1,tgh:2}
+{id:21,name:"Tonitrus HD",cost:40,hp:25,str:2,tec:3,wlk:1,fly:0,tgh:-1}
+{id:22,name:"Gun Arms HD",cost:40,hp:20,str:0,tec:1,wlk:2,fly:0,tgh:2}
+{id:23,name:"Mediger HD",cost:35,hp:20,str:2,tec:2,wlk:-1,fly:1,tgh:1}
+{id:24,name:"Byakkou HD",cost:40,hp:25,str:2,tec:-1,wlk:1,fly:1,tgh:2}
+{id:25,name:"Seiron HD",type:"a",cost:80,hp:25,str:-1,tec:3,wlk:0,fly:2,tgh:1,auraStat:{str:-1,tec:3,wlk:0,fly:2,tgh:1,main:{pwr:26,shl:140,rng:275,spd:440,itv:800}},tunable:{mwp:1}}
+{id:26,name:"Suzeku HD",cost:40,hp:25,str:2,tec:0,wlk:-1,fly:2,tgh:2}
+{id:27,name:"Genbura HD",cost:40,hp:25,str:1,tec:2,wlk:0,fly:1,tgh:1}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Aquila HD",cost:35,hp:20,str:1,tec:1,wlk:2,fly:1,tgh:0}

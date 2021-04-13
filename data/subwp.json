@@ -1,21 +1,47 @@
 ﻿{group:"Daggers",prefixID:"DG"}
 
 {group:"Swords",prefixID:"SW",commonStat:{tunable:{pwp:1}}}
-{id:1,name:"Long Sword",size:"M",cost:70,sub:{str:100,pwr:30,rng:77,spd:94,itv:500}}
-{id:2,name:"Beam Blade",size:"M",type:"a",cost:70,sub:{str:100,pwr:28,rng:70,spd:85,itv:500}}
-{id:3,name:"Cutter",size:"SS",cost:25,sub:{str:100,pwr:26,rng:105,spd:128,itv:500}}
-{id:4,name:"Rapier",size:"S",type:"a",cost:40,sub:{str:100,pwr:23,rng:100,spd:200,itv:1000}}
-{id:5,name:"Metal Slayer",size:"M",type:"l",cost:120,sub:{str:100,pwr:32,rng:77,spd:94,itv:500}}
-{id:6,name:"Sonic Blade",size:"M",type:"a",cost:100,sub:{str:100,pwr:30,rng:70,spd:85,itv:500}}
+{id:1,name:"Short Sword",size:"M",cost:40,sub:{str:100,pwr:28,rng:77,spd:94,itv:500}}
+{id:2,name:"Long Sword",size:"M",cost:70,sub:{str:100,pwr:30,rng:77,spd:94,itv:500}}
+{id:3,name:"Broad Sword",size:"M",type:"ls",cost:100,sub:{str:100,pwr:32,rng:77,spd:94,itv:500}}
+{id:4,name:"Great Sword",size:"L",type:"l",cost:120,sub:{str:100,pwr:33,rng:77,spd:94,itv:500}}
+{id:5,name:"Orge Sword",size:"LL",type:"l",cost:160,sub:{str:100,pwr:35,rng:77,spd:94,itv:500}}
+{id:6,name:"Metal Slayer",size:"M",type:"l",cost:120,sub:{str:100,pwr:32,rng:77,spd:94,itv:500}}
+{id:7,name:"Doom Slayer",size:"L",type:"l",cost:150,sub:{str:100,pwr:34,rng:84,spd:102,itv:500}}
+{id:8,name:"Reaper Scythe",size:"M",type:"la",cost:160,sub:{str:100,pwr:32,rng:70,spd:85,itv:1000}}
+{id:9,name:"Omnious Scythe",size:"M",type:"las",cost:200,sub:{str:100,pwr:34,rng:70,spd:85,itv:1000}}
+{id:10,name:"Beam Blade",size:"M",type:"a",cost:70,sub:{str:100,pwr:28,rng:70,spd:85,itv:500}}
+{id:11,name:"Sonic Blade",size:"M",type:"a",cost:100,sub:{str:100,pwr:30,rng:70,spd:85,itv:500}}
+{id:12,name:"Slash Blade",size:"M",type:"a",cost:160,sub:{str:100,pwr:28,rng:70,spd:85,itv:500}}
+{id:13,name:"Divine Blade",size:"M",type:"a",cost:160,sub:{str:100,pwr:30,rng:70,spd:85,itv:500}}
+{id:14,name:"Cutter",size:"SS",cost:25,sub:{str:100,pwr:26,rng:105,spd:128,itv:500}}
+{id:15,name:"Survival Knife",size:"S",cost:55,sub:{str:100,pwr:28,rng:105,spd:128,itv:500}}
+{id:16,name:"Integral Knife",size:"M",cost:100,sub:{str:100,pwr:31,rng:105,spd:128,itv:500}}
+{id:17,name:"Rapier",size:"S",type:"a",cost:40,sub:{str:100,pwr:23,rng:100,spd:200,itv:1000}}
+{id:18,name:"Duel Rapier",size:"M",type:"a",cost:100,sub:{str:100,pwr:27,rng:100,spd:200,itv:1000}}
 
-{group:"Axe",prefixID:"AX",commonStat:{tunable:{pwp:1}}}
-{id:1,name:"Club",size:"M",type:"lcs",cost:40,sub:{str:100,pwr:31,rng:49,spd:60,itv:1000}}
+{group:"Axes",prefixID:"AX",commonStat:{tunable:{pwp:1}}}
+{id:1,name:"Hand Axe",size:"S",type:"lcs",cost:40,sub:{str:100,pwr:30,rng:56,spd:68,itv:1000}}
+{id:2,name:"Battle Axe",size:"M",type:"ls",cost:70,sub:{str:100,pwr:32,rng:56,spd:68,itv:1000}}
+{id:3,name:"Viking Axe",size:"L",type:"l",cost:100,sub:{str:100,pwr:34,rng:56,spd:68,itv:1000}}
+{id:4,name:"Gigantic Axe",size:"LL",type:"l",cost:160,sub:{str:100,pwr:37,rng:56,spd:68,itv:1000}}
+{id:5,name:"Blaze Axe",size:"L",type:"l",cost:120,sub:{str:100,pwr:33,rng:70,spd:85,itv:500}}
+{id:6,name:"Club",size:"M",type:"lcs",cost:40,sub:{str:100,pwr:31,rng:49,spd:60,itv:1000}}
+{id:7,name:"Hammer",size:"L",type:"ls",cost:70,sub:{str:100,pwr:33,rng:49,spd:60,itv:1000}}
+{id:8,name:"War Hammer",size:"L",type:"l",cost:110,sub:{str:100,pwr:36,rng:49,spd:60,itv:1000}}
+{id:9,name:"Jet Hammer",size:"L",type:"l",cost:130,sub:{str:100,pwr:39,shl:30,rng:70,spd:85,itv:1000}}
 
 {group:"Lances",prefixID:"LC",commonStat:{tunable:{pwp:1}}}
+{id:1,name:"Spear",size:"M",type:"ls",cost:100,sub:{str:100,pwr:32,rng:84,spd:102,itv:1000}}
+{id:2,name:"Lance",size:"M",type:"l",cost:130,sub:{str:100,pwr:28,rng:100,spd:200,itv:2000}}
+{id:3,name:"Assault Beam Lance",size:"M",type:"a",cost:120,sub:{str:100,pwr:27,rng:120,spd:200,itv:500}}
 
 {group:"Staffs",prefixID:"SF"}
 
 {group:"Shields",prefixID:"SL"}
+{id:1,name:"Viper Shield",size:"L",cost:40}
+{id:2,name:"Shield Shotgun",size:"LL",type:"lc",cost:90,main:{pwr:7,shl:1170,rng:150,spd:400,itv:680},tunable:{mwp:1}}
+{id:3,name:"Spike Shield",size:"LL",type:"l",cost:90,sub:{pwr:28,rng:120,spd:400,itv:500},tunable:{pwp:1}}
 //{id:16,name:"-",slot:0}
 
 {group:"Others",prefixID:"SO"}
