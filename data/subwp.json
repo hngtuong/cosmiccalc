@@ -19,6 +19,9 @@
 {id:16,name:"Integral Knife",size:"M",cost:100,sub:{str:100,pwr:31,rng:105,spd:128,itv:500}}
 {id:17,name:"Rapier",size:"S",type:"a",cost:40,sub:{str:100,pwr:23,rng:100,spd:200,itv:1000}}
 {id:18,name:"Duel Rapier",size:"M",type:"a",cost:100,sub:{str:100,pwr:27,rng:100,spd:200,itv:1000}}
+{id:19,name:"Wooden Sword",size:"M",cost:70,sub:{str:100,pwr:28,rng:70,spd:85,itv:600}}
+{id:20,name:"Lightning Edge",size:"M",type:"l",cost:100,sub:{str:100,pwr:32,rng:70,spd:85,itv:500},auraStat:{sub:{str:100,pwr:34,rng:77,spd:93,itv:500}},comment:"AURA"}
+{id:21,name:"Evil Halberd",size:"M",type:"la",cost:180,sub:{str:100,pwr:33,rng:91,spd:110,itv:500}}
 
 {group:"Axes",prefixID:"AX",commonStat:{tunable:{pwp:1}}}
 {id:1,name:"Hand Axe",size:"S",type:"lcs",cost:40,sub:{str:100,pwr:30,rng:56,spd:68,itv:1000}}
@@ -42,6 +45,9 @@
 {id:1,name:"Viper Shield",size:"L",cost:40}
 {id:2,name:"Shield Shotgun",size:"LL",type:"lc",cost:90,main:{pwr:7,shl:1170,rng:150,spd:400,itv:680},tunable:{mwp:1}}
 {id:3,name:"Spike Shield",size:"LL",type:"l",cost:90,sub:{pwr:28,rng:120,spd:400,itv:500},tunable:{pwp:1}}
+{id:4,name:"Crystalight Shield BETA",size:"M",cost:35}
+{id:5,name:"Buckler",size:"SS",cost:40}
+{id:6,name:"Canvas Shield",size:"M",cost:40}
 //{id:16,name:"-",slot:0}
 
 {group:"Others",prefixID:"SO"}

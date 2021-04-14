@@ -40,6 +40,7 @@
 {id:32,name:"Lightning Cannon",size:"L",type:"a",cost:150,main:{pwr:12,shl:520,rng:275,spd:440,itv:300}}
 {id:33,name:"Thunder Shooter",size:"M",type:"a",cost:140,main:{pwr:11,shl:520,rng:275,spd:440,itv:300}}
 {id:34,name:"Double Magnum",size:"M",type:"l",cost:140,main:{pwr:14,shl:400,rng:225,spd:440,itv:460}}
+{id:35,name:"AURA Lightning Gun",size:"S",type:"a",cost:70,main:{pwr:15,shl:240,rng:250,spd:440,itv:700},auraStat:{main:{pwr:18,shl:240,rng:250,spd:440,itv:700}},comment:"AURA"}
 
 {group:"Machineguns",prefixID:"MG",commonStat:{tunable:{mwp:1}}}
 {id:1,name:"Nano Machinegun",size:"SS",cost:30,main:{pwr:4,shl:880,rng:160,spd:480,itv:140}}
@@ -89,6 +90,7 @@
 {id:5,name:"Cruel Railgun",size:"M",type:"c",cost:140,main:{pwr:20,shl:260,rng:330,spd:520,itv:300}}
 {id:6,name:"Blast Railgun",size:"M",type:"c",cost:140,main:{pwr:36,shl:140,rng:330,spd:520,itv:500}}
 {id:7,name:"Linear Cannon",size:"L",type:"c",cost:140,main:{pwr:52,shl:140,rng:350,spd:520,itv:500}}
+{id:8,name:"Aqua Parasol",size:"M",type:"lac",cost:110,main:{pwr:28,shl:210,rng:250,spd:360,itv:560}}
 
 {group:"Bazookas",prefixID:"BZ",commonStat:{tunable:{mwp:1}}}
 {id:1,name:"Micro Bazooka",size:"SS",type:"cs",cost:40,main:{pwr:11,shl:180,rng:330,spd:480,itv:400}}
@@ -111,6 +113,7 @@
 {id:18,name:"Mega Beam Gun",size:"L",type:"a",cost:110,main:{pwr:31,shl:150,rng:250,spd:440,itv:1000}}
 {id:19,name:"Mega Beam Cannon",size:"M",type:"a",cost:180,main:{pwr:34,shl:220,rng:275,spd:400,itv:740}}
 {id:20,name:"Charge Beam Cannon",size:"L",type:"a",cost:120,main:{pwr:37,shl:120,rng:250,spd:440,itv:1000}}
+{id:21,name:"Beam Pump Bazooka",size:"M",type:"a",cost:100,main:{pwr:23,shl:190,rng:275,spd:400,itv:900}}
 
 {group:"Misslies",prefixID:"MS",commonStat:{tunable:{mwp:1}}}
 {id:1,name:"Compact Launcher",size:"S",type:"c",cost:60,main:{pwr:13,shl:240,rng:330,spd:290,itv:600}}
@@ -129,6 +132,7 @@
 {id:14,name:"Little Grenade",size:"M",type:"cs",cost:40,main:{pwr:9,shl:340,rng:300,spd:400,itv:500}}
 {id:15,name:"Grenade",size:"L",type:"c",cost:90,main:{pwr:25,shl:190,rng:300,spd:400,itv:700}}
 {id:16,name:"Volcano Grenade Gun",size:"LL",type:"c",cost:150,main:{pwr:42,shl:190,rng:300,spd:400,itv:900}}
+{id:17,name:"V-2 Way Missile",size:"L",type:"c",cost:160,main:{pwr:17,shl:330,rng:330,spd:480,itv:1000}}
 
 {group:"Shotguns",prefixID:"SG",commonStat:{tunable:{mwp:1}}}
 {id:1,name:"Shotgun",size:"M",cost:50,main:{pwr:6,shl:1090,rng:150,spd:400,itv:560}}
