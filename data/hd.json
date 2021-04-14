@@ -40,6 +40,8 @@
 {id:25,name:"Seiron HD",type:"a",cost:80,hp:25,str:-1,tec:3,wlk:0,fly:2,tgh:1,auraStat:{str:-1,tec:3,wlk:0,fly:2,tgh:1,main:{pwr:26,shl:140,rng:275,spd:440,itv:800}},tunable:{mwp:1}}
 {id:26,name:"Suzeku HD",cost:40,hp:25,str:2,tec:0,wlk:-1,fly:2,tgh:2}
 {id:27,name:"Genbura HD",cost:40,hp:25,str:1,tec:2,wlk:0,fly:1,tgh:1}
+{id:28,name:"Cosmo Kaiser HD2",cost:40,hp:25,str:0,tec:2,wlk:2,fly:0,tgh:1}
+{id:29,name:"Crescent Saint HD",cost:40,hp:25,str:1,tec:2,wlk:1,fly:1,tgh:0}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Aquila HD",cost:35,hp:20,str:1,tec:1,wlk:2,fly:1,tgh:0}
