@@ -15,6 +15,8 @@
 {id:14,name:"Jikun Long Alpha LG",type:"l",cost:145,hp:25,str:2,tec:-1,wlk:3,fly:0,tgh:1,sub:{str:100,pwr:30,rng:98,spd:119,itv:1000},tunable:{pwp:1}}
 {id:15,name:"Winberrl Alpha LG",cost:45,hp:25,str:0,tec:0,wlk:3,fly:1,tgh:1}
 {id:16,name:"Ouka LG",type:"l",cost:45,hp:25,str:1,tec:0,wlk:3,fly:0,tgh:2,joint:{bs:1}}
+{id:17,name:"Sol Volca Wing LG",cost:45,hp:25,str:-1,tec:1,wlk:3,fly:1,tgh:1}
+{id:18,name:"Cannonballer HL LG",cost:45,hp:25,str:0,tec:2,wlk:2,fly:-1,tgh:2}
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Axion LG",type:"l",cost:45,hp:25,str:1,tec:1,wlk:3,fly:2,tgh:-1}
@@ -50,6 +52,7 @@
 {id:13,name:"Sturbanger LG",cost:40,hp:45,str:0,tec:1,wlk:2,fly:1,tgh:2}
 {id:14,name:"Blazed Baron LG",cost:40,hp:65,str:1,tec:1,wlk:3,fly:1,tgh:0}
 {id:15,name:"Cosmo Kaiser LG2",cost:50,hp:35,str:-1,tec:1,wlk:3,fly:1,tgh:2}
+{id:16,name:"Cosmo Kaiser LG",cost:45,hp:25,str:1,tec:1,wlk:3,fly:0,tgh:1}
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 

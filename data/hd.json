@@ -42,6 +42,10 @@
 {id:27,name:"Genbura HD",cost:40,hp:25,str:1,tec:2,wlk:0,fly:1,tgh:1}
 {id:28,name:"Cosmo Kaiser HD2",cost:40,hp:25,str:0,tec:2,wlk:2,fly:0,tgh:1}
 {id:29,name:"Crescent Saint HD",cost:40,hp:25,str:1,tec:2,wlk:1,fly:1,tgh:0}
+{id:30,name:"Sol Volca Wing HD",cost:40,hp:25,str:3,tec:-1,wlk:0,fly:2,tgh:1}
+{id:31,name:"Cosmo Kaiser HD",cost:40,hp:25,str:-1,tec:2,wlk:1,fly:1,tgh:2}
+{id:32,name:"Cannonballer HL HD",cost:40,hp:25,str:0,tec:2,wlk:2,fly:-1,tgh:2}
+{id:33,name:"Volcanics HD",cost:120,hp:20,str:0,tec:2,wlk:0,fly:2,tgh:1,main:{pwr:5,shl:800,rng:110,spd:480,itv:100},tunable:{mwp:1}}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Aquila HD",cost:35,hp:20,str:1,tec:1,wlk:2,fly:1,tgh:0}

@@ -21,6 +21,7 @@
 {id:15,name:"Forcedriver BS",type:"l",cost:40,hp:25,str:0,tec:-1,wlk:1,fly:3,tgh:2}
 {id:16,name:"Jikun Alpha BS",type:"l",cost:40,hp:25,str:2,tec:-1,wlk:0,fly:3,tgh:1}
 {id:17,name:"Ouka BS",type:"l",cost:40,hp:25,str:1,tec:-1,wlk:1,fly:3,tgh:1}
+{id:17,name:"Cannonballer HL BS",type:"c",cost:40,hp:25,str:1,tec:-1,wlk:1,fly:3,tgh:1}
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Axion BS",type:"l",cost:45,hp:25,str:0,tec:2,wlk:1,fly:3,tgh:-1}
@@ -54,7 +55,8 @@
 {id:29,name:"Crim Rucksack BS",cost:35,hp:20,str:0,tec:1,wlk:1,fly:3,tgh:0}
 {id:30,name:"Lily Backpack BS",cost:35,hp:20,str:0,tec:1,wlk:0,fly:3,tgh:1}
 {id:31,name:"Red Randoresu BS",cost:35,hp:20,str:0,tec:0,wlk:1,fly:3,tgh:1}
-{id:32,name:"Crescent Saint BS",cost:40,hp:25,str:-1,tec:1,wlk:0,fly:3,tgh:2}
+{id:32,name:"Crescent Saint BS",type:"a",cost:40,hp:25,str:-1,tec:1,wlk:0,fly:3,tgh:2}
+{id:33,name:"Sol Volca Wing BS",cost:60,hp:25,str:0,tec:0,wlk:1,fly:3,tgh:1,sub:{str:100,pwr:20,rng:100,spd:120,itv:1000}}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Gwyain BS",type:"a",cost:40,hp:25,str:0,tec:2,wlk:-1,fly:3,tgh:1}
@@ -71,6 +73,7 @@
 {id:12,name:"Sturbanger BS",type:"c",cost:35,hp:20,str:2,tec:0,wlk:1,fly:2,tgh:0}
 {id:13,name:"Blazed Baron BS",type:"l",cost:45,hp:25,str:2,tec:1,wlk:0,fly:3,tgh:-1}
 {id:14,name:"Cosmo Kaiser BS2",type:"l",cost:40,hp:25,str:2,tec:-1,wlk:1,fly:3,tgh:0}
+{id:15,name:"Cosmo Kaiser BS",type:"l",cost:35,hp:20,str:1,tec:-1,wlk:1,fly:3,tgh:1}
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 

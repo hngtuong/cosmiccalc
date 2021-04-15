@@ -1,5 +1,6 @@
 {group:"Conversion-MWP",prefixID:"CM",commonStat:{tunable:{mwp:1}}}
 
 {group:"Conversion-SWP",prefixID:"CS",commonStat:{tunable:{pwp:1}}}
-{id:1,name:"Gradd Chainsaw",cost:60,sub:{str:100,pwr:32,rng:70,spd:85,itv:500},conversion:"BD3SAM"}
-{id:2,name:"Spike Shooter",cost:60,main:{str:100,pwr:5,shl:700,rng:225,spd:400,itv:140},sub:{str:100,pwr:32,rng:70,spd:85,itv:500},tunable:{mwp:1},conversion:"BD3SAM"}
+{id:1,name:"Gradd Chainsaw",cost:60,sub:{str:100,pwr:32,rng:70,spd:85,itv:500},conversion:"BDLS3AM"}
+{id:2,name:"Spike Shooter",cost:60,main:{str:100,pwr:5,shl:700,rng:225,spd:400,itv:140},sub:{str:100,pwr:32,rng:70,spd:85,itv:500},tunable:{mwp:1},conversion:"BDLS3AM"}
+{id:3,name:"Petit Ouraikiri",cost:140,main:{str:100,pwr:15,shl:220,rng:225,spd:400,itv:500},sub:{str:100,pwr:28,rng:81,spd:98,itv:500},tunable:{mwp:1},conversion:"BDSS5 BDSS8"}

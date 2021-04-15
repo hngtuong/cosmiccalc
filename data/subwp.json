@@ -22,6 +22,7 @@
 {id:19,name:"Wooden Sword",size:"M",cost:70,sub:{str:100,pwr:28,rng:70,spd:85,itv:600}}
 {id:20,name:"Lightning Edge",size:"M",type:"l",cost:100,sub:{str:100,pwr:32,rng:70,spd:85,itv:500},auraStat:{sub:{str:100,pwr:34,rng:77,spd:93,itv:500}},comment:"AURA"}
 {id:21,name:"Evil Halberd",size:"M",type:"la",cost:180,sub:{str:100,pwr:33,rng:91,spd:110,itv:500}}
+{id:22,name:"Misty's Scythe R",size:"S",type:"l",cost:120,sub:{str:100,pwr:32,rng:70,spd:10,itv:500}}
 
 {group:"Axes",prefixID:"AX",commonStat:{tunable:{pwp:1}}}
 {id:1,name:"Hand Axe",size:"S",type:"lcs",cost:40,sub:{str:100,pwr:30,rng:56,spd:68,itv:1000}}
