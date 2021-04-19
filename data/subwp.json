@@ -1,4 +1,6 @@
 ﻿{group:"Daggers",prefixID:"DG"}
+{id:1,name:"Garud Dagger",size:"S",type:"l",cost:120,sub:{str:100,pwr:28,rng:100,spd:250,itv:500}}
+{id:2,name:"Combination Dagger",size:"S",type:"la",cost:120,sub:{str:100,pwr:24,rng:80,spd:180,itv:500}}
 
 {group:"Swords",prefixID:"SW",commonStat:{tunable:{pwp:1}}}
 {id:1,name:"Short Sword",size:"M",cost:40,sub:{str:100,pwr:28,rng:77,spd:94,itv:500}}
@@ -23,6 +25,8 @@
 {id:20,name:"Lightning Edge",size:"M",type:"l",cost:100,sub:{str:100,pwr:32,rng:70,spd:85,itv:500},auraStat:{sub:{str:100,pwr:34,rng:77,spd:93,itv:500}},comment:"AURA"}
 {id:21,name:"Evil Halberd",size:"M",type:"la",cost:180,sub:{str:100,pwr:33,rng:91,spd:110,itv:500}}
 {id:22,name:"Misty's Scythe R",size:"S",type:"l",cost:120,sub:{str:100,pwr:32,rng:70,spd:10,itv:500}}
+{id:23,name:"Kageuchi Ouraikiri",size:"S",type:"l",cost:100,sub:{str:100,pwr:30,rng:81,spd:98,itv:500}}
+{id:24,name:"Poyn Blade",size:"M",type:"a",cost:160,sub:{str:100,pwr:33,rng:70,spd:85,itv:500}}
 
 {group:"Axes",prefixID:"AX",commonStat:{tunable:{pwp:1}}}
 {id:1,name:"Hand Axe",size:"S",type:"lcs",cost:40,sub:{str:100,pwr:30,rng:56,spd:68,itv:1000}}
@@ -34,6 +38,8 @@
 {id:7,name:"Hammer",size:"L",type:"ls",cost:70,sub:{str:100,pwr:33,rng:49,spd:60,itv:1000}}
 {id:8,name:"War Hammer",size:"L",type:"l",cost:110,sub:{str:100,pwr:36,rng:49,spd:60,itv:1000}}
 {id:9,name:"Jet Hammer",size:"L",type:"l",cost:130,sub:{str:100,pwr:39,shl:30,rng:70,spd:85,itv:1000}}
+{id:10,name:"Gernia Hammer",size:"L",type:"l",cost:120,sub:{str:100,pwr:28,rng:100,spd:85,itv:1000}}
+{id:11,name:"Dego Axe",size:"L",type:"a",cost:160,sub:{str:100,pwr:28,rng:100,spd:180,itv:1000}}
 
 {group:"Lances",prefixID:"LC",commonStat:{tunable:{pwp:1}}}
 {id:1,name:"Spear",size:"M",type:"ls",cost:100,sub:{str:100,pwr:32,rng:84,spd:102,itv:1000}}
@@ -52,3 +58,5 @@
 //{id:16,name:"-",slot:0}
 
 {group:"Others",prefixID:"SO"}
+{id:1,name:"Crystal Pilebunker",size:"L",type:"l",cost:70,sub:{str:100,pwr:28,rng:100,spd:200,itv:1000}}
+{id:2,name:"SB Trick Missile",size:"M",type:"a",cost:60,sub:{pwr:9,shl:270,rng:275,spd:280,itv:1000}}
