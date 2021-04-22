@@ -69,6 +69,9 @@
 {id:36,name:"Mantiscythe BS",type:"l",cost:40,hp:20,str:1,tec:1,wlk:1,fly:3,tgh:-1}
 {id:37,name:"Fizalivan BS",type:"l",cost:40,hp:25,str:0,tec:0,wlk:1,fly:3,tgh:1}
 {id:38,name:"Tonasama Lander BS",type:"l",cost:40,hp:25,str:0,tec:0,wlk:1,fly:3,tgh:1}
+{id:39,name:"Izuna Kamui Alpha BS2",type:"a",cost:90,hp:25,str:-1,tec:3,wlk:0,fly:3,tgh:0,sub:{pwr:8,shl:300,rng:275,spd:290,itv:1000}}
+{id:40,name:"Izuna Kamui Alpha BS",type:"a",cost:90,hp:25,str:-1,tec:2,wlk:0,fly:3,tgh:1,sub:{pwr:6,shl:400,rng:275,spd:290,itv:1000}}
+{id:41,name:"Lancelot BS",type:"l",cost:40,hp:25,str:0,tec:0,wlk:1,fly:3,tgh:1}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Gwyain BS",type:"a",cost:40,hp:25,str:0,tec:2,wlk:-1,fly:3,tgh:1}

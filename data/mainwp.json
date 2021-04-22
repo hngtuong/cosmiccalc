@@ -170,3 +170,4 @@
 {id:16,name:"Blade Gun",size:"M",type:"l",cost:150,main:{pwr:10,shl:460,rng:250,spd:320,itv:300}}
 {id:17,name:"Shield Gun",size:"M",type:"l",cost:180,main:{pwr:17,shl:430,rng:225,spd:400,itv:340}}
 {id:18,name:"Gernia Rod",size:"M",type:"c",cost:100,sub:{pwr:32,shl:160,rng:330,spd:440,itv:900}}
+{id:19,name:"Berzelius Anima",size:"M",type:"c",cost:200,sub:{pwr:21,shl:880,rng:330,spd:330,itv:500}}
