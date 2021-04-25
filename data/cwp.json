@@ -1,4 +1,5 @@
 {group:"Conversion-MWP",prefixID:"CM",commonStat:{tunable:{mwp:1}}}
+{id:1,name:"Bloody Star AM@",cost:25,slot:0,main:{pwr:17,shl:50,rng:250,spd:400,itv:500},conversion:"AMM37"}
 
 {group:"Conversion-SWP",prefixID:"CS",commonStat:{tunable:{pwp:1}}}
 {id:1,name:"Gradd Chainsaw",cost:60,sub:{str:100,pwr:32,rng:70,spd:85,itv:500},conversion:"BDLS3AM"}

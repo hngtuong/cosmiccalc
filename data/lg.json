@@ -28,6 +28,7 @@
 {id:27,name:"Tonosama Lander LG",cost:45,hp:25,str:0,tec:-1,wlk:3,fly:2,tgh:1}
 {id:28,name:"Tentrion LG",cost:40,hp:20,str:2,tec:1,wlk:2,fly:-1,tgh:1}
 {id:29,name:"Nuttz Bombrisu LG",cost:40,hp:20,str:0,tec:2,wlk:3,fly:1,tgh:-1}
+{id:30,name:"Zero Saber NEXT LG",cost:45,hp:25,str:-1,tec:1,wlk:3,fly:1,tgh:2}
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Axion LG",type:"l",cost:45,hp:25,str:1,tec:1,wlk:3,fly:2,tgh:-1}
@@ -51,6 +52,8 @@
 {id:19,name:"Fizalivan LG",cost:45,hp:25,str:1,tec:1,wlk:3,fly:0,tgh:0}
 {id:20,name:"Izuna Kamui Alpha LG2",type:"a",cost:45,hp:25,str:0,tec:1,wlk:3,fly:1,tgh:1,joint:{bs:1}}
 {id:21,name:"Izuna Kamui Alpha LG",type:"a",cost:45,hp:25,str:1,tec:0,wlk:3,fly:1,tgh:1,joint:{bs:1}}
+{id:22,name:"Sigma Clock LG",cost:45,hp:25,str:2,tec:0,wlk:3,fly:0,tgh:0}
+{id:23,name:"Bloody Star LG",type:"lc",cost:70,hp:25,str:0,tec:2,wlk:2,fly:1,tgh:1,sub:{pwr:0,shl:25,rng:100,spd:200,itv:600}}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Gwyain LG",cost:50,hp:40,str:1,tec:1,wlk:3,fly:0,tgh:1}
@@ -73,6 +76,11 @@
 {id:18,name:"Crocodagger LG",cost:45,hp:45,str:0,tec:-1,wlk:3,fly:2,tgh:1}
 {id:19,name:"Demonfox Haku LG",type:"a",cost:105,hp:50,str:0,tec:0,wlk:2,fly:3,tgh:1,sub:{pwr:0,shl:40,rng:0,spd:150,itv:1000}}
 {id:20,name:"Lancelot LG",cost:50,hp:50,str:1,tec:1,wlk:4,fly:0,tgh:0}
+{id:21,name:"Pacifar LG",type:"a",cost:45,hp:25,str:0,tec:1,wlk:1,fly:4,tgh:0}
+{id:22,name:"Dismoke LG",cost:45,hp:25,str:0,tec:0,wlk:3,fly:-1,tgh:3}
+{id:23,name:"Albatreos LG",cost:50,hp:30,str:1,tec:1,wlk:3,fly:2,tgh:-1}
+{id:24,name:"Vector LG",type:"a",cost:85,hp:45,str:0,tec:2,wlk:3,fly:2,tgh:-1,sub:{pwr:0,shl:60,rng:100,spd:160,itv:1000}}
+{id:25,name:"Shaden LG",cost:45,hp:45,str:1,tec:2,wlk:2,fly:0,tgh:1}
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 

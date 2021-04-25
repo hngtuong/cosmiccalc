@@ -29,6 +29,7 @@
 {id:23,name:"Turtlebacker BS",type:"l",cost:35,hp:20,str:0,tec:1,wlk:1,fly:2,tgh:1}
 {id:24,name:"Tentrion BS",type:"a",cost:35,hp:20,str:0,tec:1,wlk:-1,fly:3,tgh:2}
 {id:25,name:"Nuttz Bombrisu BS",type:"s",cost:105,hp:20,str:-1,tec:2,wlk:0,fly:3,tgh:1,sub:{pwr:20,shl:180,rng:275,spd:290,itv:1000}}
+{id:26,name:"Zero Saber NEXT BS",type:"l",cost:70,hp:25,str:2,tec:1,wlk:-1,fly:3,tgh:0,sub:{pwr:1,shl:30,rng:10,spd:150,itv:1000}}
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Axion BS",type:"l",cost:45,hp:25,str:0,tec:2,wlk:1,fly:3,tgh:-1}
@@ -72,6 +73,12 @@
 {id:39,name:"Izuna Kamui Alpha BS2",type:"a",cost:90,hp:25,str:-1,tec:3,wlk:0,fly:3,tgh:0,sub:{pwr:8,shl:300,rng:275,spd:290,itv:1000}}
 {id:40,name:"Izuna Kamui Alpha BS",type:"a",cost:90,hp:25,str:-1,tec:2,wlk:0,fly:3,tgh:1,sub:{pwr:6,shl:400,rng:275,spd:290,itv:1000}}
 {id:41,name:"Lancelot BS",type:"l",cost:40,hp:25,str:0,tec:0,wlk:1,fly:3,tgh:1}
+{id:42,name:"Pacifar BS",type:"a",cost:40,hp:25,str:1,tec:1,wlk:0,fly:3,tgh:0}
+{id:43,name:"Sigma Clock BS",type:"s",cost:40,hp:20,str:2,tec:1,wlk:0,fly:2,tgh:0}
+{id:44,name:"Bloody Star BS",type:"c",cost:40,hp:20,str:1,tec:0,wlk:2,fly:2,tgh:0}
+{id:45,name:"Double Star Edge BS-B",cost:35,hp:20,str:1,tec:0,wlk:1,fly:3,tgh:0}
+{id:46,name:"Crystalight Wing BS ALPHA",cost:35,hp:20,str:2,tec:0,wlk:0,fly:3,tgh:0}
+{id:47,name:"Star Edge BS-B",cost:35,hp:20,str:1,tec:0,wlk:2,fly:2,tgh:0}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Gwyain BS",type:"a",cost:40,hp:25,str:0,tec:2,wlk:-1,fly:3,tgh:1}
@@ -91,8 +98,11 @@
 {id:15,name:"Cosmo Kaiser BS",type:"l",cost:35,hp:20,str:1,tec:-1,wlk:1,fly:3,tgh:1}
 {id:16,name:"Garulabird BS",type:"a",cost:40,hp:25,str:0,tec:0,wlk:1,fly:2,tgh:2}
 {id:17,name:"Crocodagger BS",type:"l",cost:40,hp:25,str:-1,tec:1,wlk:2,fly:2,tgh:1}
+{id:18,name:"Dismoke BS",type:"s",cost:40,hp:25,str:0,tec:-1,wlk:2,fly:2,tgh:2}
+{id:19,name:"Vector BS",type:"a",cost:40,hp:25,str:-1,tec:2,wlk:1,fly:3,tgh:0}
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
+{id:1,name:"Shaden BS",type:"a",cost:125,hp:25,str:0,tec:0,wlk:0,fly:5,tgh:0,sub:{pwr:1,shl:1,rng:200,spd:110,itv:2000}}
 
 {group:"Joint",prefixID:"J",commonStat:{jointPart:1,slot:1,size:"M"}}
 {id:1,name:"Generic BSJ"}
