@@ -3,8 +3,18 @@
 {id:2,name:"Melody Chord ALPHA",cost:65,main:{pwr:9,shl:380,rng:250,spd:400,itv:500},sub:{pwr:11,shl:240,rng:250,spd:320,itv:1000},conversion:"BDSS12WP"}
 {id:3,name:"Melody Chord GAMMA",cost:90,main:{pwr:6,shl:260,rng:250,spd:360,itv:600},sub:{pwr:10,shl:120,rng:260,spd:300,itv:500},conversion:"BDSS12WP"}
 {id:4,name:"Melody Chord BETA",cost:100,main:{pwr:0,shl:80,rng:300,spd:300,itv:500},sub:{pwr:0,shl:50,rng:300,spd:300,itv:1000},conversion:"BDSS12WP"}
+{id:5,name:"Suzaku Bow",cost:50,main:{str:100,pwr:20,shl:50,rng:200,spd:570,itv:500},sub:{str:100,pwr:10,rng:150,spd:85,itv:2000},tunable:{mwp:1,pwp:0},conversion:"WPCS4"}
+{id:6,name:"Kabura Bow",cost:70,main:{str:100,pwr:10,shl:120,rng:200,spd:570,itv:400},sub:{str:100,pwr:24,rng:150,spd:85,itv:2000},tunable:{mwp:1,pwp:0},conversion:"WPCS4"}
 
 {group:"Conversion-SWP",prefixID:"CS",commonStat:{tunable:{pwp:1}}}
 {id:1,name:"Gradd Chainsaw",cost:60,sub:{str:100,pwr:32,rng:70,spd:85,itv:500},conversion:"BDLS3AM"}
 {id:2,name:"Spike Shooter",cost:60,main:{str:100,pwr:5,shl:700,rng:225,spd:400,itv:140},sub:{str:100,pwr:32,rng:70,spd:85,itv:500},tunable:{mwp:1},conversion:"BDLS3AM"}
 {id:3,name:"Petit Ouraikiri",cost:140,main:{str:100,pwr:15,shl:220,rng:225,spd:400,itv:500},sub:{str:100,pwr:28,rng:81,spd:98,itv:500},tunable:{mwp:1},conversion:"BDSS5 BDSS8"}
+{id:4,name:"Gokusou Magatama",slot:0,joint:{wp:4},conversion:"BDLS22AM2"}
+{id:5,name:"Sukedachi Sword",cost:50,sub:{str:100,pwr:28,rng:70,spd:85,itv:2000},conversion:"WPCS4"}
+{id:6,name:"Cedar Spear",cost:50,sub:{str:100,pwr:25,rng:90,spd:110,itv:2000},conversion:"WPCS4"}
+{id:7,name:"Monjyu Talisman",cost:50,sub:{str:100,pwr:25,rng:150,spd:85,itv:2000},tunable:{pwp:0},conversion:"WPCS4"}
+{id:8,name:"Third Eye Magatama",conversion:"WPCS4"}
+{id:9,name:"Kanemitsu",cost:70,sub:{str:100,pwr:30,rng:70,spd:85,itv:2000},conversion:"WPCS4"}
+{id:10,name:"Otegine",cost:70,sub:{str:100,pwr:25,rng:90,spd:110,itv:2000},conversion:"WPCS4"}
+{id:11,name:"Sunlight Talisman",cost:70,sub:{str:100,pwr:22,rng:150,spd:85,itv:2000},tunable:{pwp:0},conversion:"WPCS4"}

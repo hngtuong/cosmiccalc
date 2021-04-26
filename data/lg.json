@@ -33,6 +33,7 @@
 {id:32,name:"Orphenous LG",cost:45,hp:25,str:1,tec:1,wlk:3,fly:0,tgh:0}
 {id:33,name:"A.L.E. Crimrose LG",type:"a",cost:85,hp:50,str:1,tec:2,wlk:0,fly:4,tgh:3,joint:{bs:2},fixedParts:{bs:[{name:"A.L.E. Crimrose BS2",slot:0},{name:"A.L.E. Crimrose BS2",slot:0}]}}
 {id:34,name:"A.L.E. LazFlamme LG",cost:45,hp:25,str:-1,tec:1,wlk:4,fly:0,tgh:1,joint:{bs:1}}
+{id:35,name:"Zero Fighter NEXT LG",cost:45,hp:25,str:0,tec:2,wlk:3,fly:-1,tgh:2}
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Axion LG",type:"l",cost:45,hp:25,str:1,tec:1,wlk:3,fly:2,tgh:-1}
@@ -59,6 +60,7 @@
 {id:22,name:"Sigma Clock LG",cost:45,hp:25,str:2,tec:0,wlk:3,fly:0,tgh:0}
 {id:23,name:"Bloody Star LG",type:"lc",cost:70,hp:25,str:0,tec:2,wlk:2,fly:1,tgh:1,sub:{pwr:0,shl:25,rng:100,spd:200,itv:600}}
 {id:24,name:"Lios LG",cost:45,hp:25,str:1,tec:0,wlk:3,fly:0,tgh:2}
+{id:25,name:"RAM Soljeter LG",type:"a",cost:105,hp:25,str:2,tec:-1,wlk:2,fly:2,tgh:1,sub:{str:100,pwr:26,shl:50,rng:120,spd:250,itv:1000},tunable:{pwp:1}}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Gwyain LG",cost:50,hp:40,str:1,tec:1,wlk:3,fly:0,tgh:1}
@@ -88,6 +90,8 @@
 {id:25,name:"Shaden LG",cost:45,hp:45,str:1,tec:2,wlk:2,fly:0,tgh:1}
 {id:26,name:"Persecius LG",type:"a",cost:70,hp:65,str:0,tec:0,wlk:2,fly:2,tgh:2,sub:{pwr:0,shl:50,rng:100,spd:135,itv:1000}}
 {id:27,name:"Hecatocles LG",type:"c",cost:70,hp:55,str:0,tec:1,wlk:2,fly:2,tgh:1,sub:{pwr:0,shl:30,rng:100,spd:150,itv:1000}}
+{id:28,name:"Zero Breaker LG",cost:45,hp:30,str:0,tec:-1,wlk:4,fly:1,tgh:2}
+{id:29,name:"Destructor MAX LG",cost:50,hp:45,str:1,tec:1,wlk:2,fly:-1,tgh:3}
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 

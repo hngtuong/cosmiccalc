@@ -77,6 +77,10 @@
 {id:57,name:"Persecius HD",cost:40,hp:25,str:0,tec:2,wlk:-1,fly:3,tgh:1}
 {id:58,name:"Hecatocles HD",cost:35,hp:20,str:2,tec:1,wlk:1,fly:-1,tgh:2}
 {id:59,name:"Orphenous HD",cost:40,hp:25,str:2,tec:1,wlk:-1,fly:2,tgh:1}
+{id:60,name:"Zero Breaker HD",cost:40,hp:25,str:2,tec:2,wlk:2,fly:0,tgh:-1}
+{id:61,name:"Zero Fighter NEXT HD",cost:40,hp:25,str:2,tec:0,wlk:2,fly:1,tgh:0}
+{id:62,name:"Destructor MAX HD",cost:40,hp:25,str:-1,tec:2,wlk:0,fly:1,tgh:3}
+{id:63,name:"RAM Soljeter HD",cost:40,hp:25,str:1,tec:-1,wlk:1,fly:2,tgh:2}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Aquila HD",cost:35,hp:20,str:1,tec:1,wlk:2,fly:1,tgh:0}
