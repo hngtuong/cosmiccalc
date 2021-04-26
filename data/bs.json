@@ -30,6 +30,11 @@
 {id:24,name:"Tentrion BS",type:"a",cost:35,hp:20,str:0,tec:1,wlk:-1,fly:3,tgh:2}
 {id:25,name:"Nuttz Bombrisu BS",type:"s",cost:105,hp:20,str:-1,tec:2,wlk:0,fly:3,tgh:1,sub:{pwr:20,shl:180,rng:275,spd:290,itv:1000}}
 {id:26,name:"Zero Saber NEXT BS",type:"l",cost:70,hp:25,str:2,tec:1,wlk:-1,fly:3,tgh:0,sub:{pwr:1,shl:30,rng:10,spd:150,itv:1000}}
+{id:27,name:"Arteris BS",type:"l",cost:40,hp:25,str:0,tec:-1,wlk:1,fly:3,tgh:2}
+{id:28,name:"Orphenous BS",type:"s",cost:40,hp:25,str:0,tec:1,wlk:2,fly:3,tgh:-1}
+{id:29,name:"A.L.E. LazFlamme BS",type:"l",cost:70,hp:25,str:-1,tec:2,wlk:2,fly:2,tgh:0,sub:{pwr:20,shl:30,rng:150,spd:200,itv:500},conversion:"LGS34"}
+{id:30,name:"A.L.E. Lily Rain BS",type:"c",cost:40,hp:25,str:-1,tec:0,wlk:1,fly:3,tgh:2}
+{id:31,name:"A.L.E. Jikun Long BS",type:"l",cost:40,hp:25,str:2,tec:0,wlk:1,fly:2,tgh:0}
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Axion BS",type:"l",cost:45,hp:25,str:0,tec:2,wlk:1,fly:3,tgh:-1}
@@ -79,6 +84,11 @@
 {id:45,name:"Double Star Edge BS-B",cost:35,hp:20,str:1,tec:0,wlk:1,fly:3,tgh:0}
 {id:46,name:"Crystalight Wing BS ALPHA",cost:35,hp:20,str:2,tec:0,wlk:0,fly:3,tgh:0}
 {id:47,name:"Star Edge BS-B",cost:35,hp:20,str:1,tec:0,wlk:2,fly:2,tgh:0}
+{id:48,name:"Lios BS",type:"l",cost:40,hp:25,str:1,tec:0,wlk:0,fly:3,tgh:1}
+{id:49,name:"Persecius BS",type:"a",cost:40,hp:25,str:0,tec:2,wlk:0,fly:2,tgh:1}
+{id:50,name:"Cyberstep BS ALPHA",cost:30,hp:15,str:0,tec:1,wlk:0,fly:3,tgh:0}
+{id:51,name:"Cyberstep BS BETA",cost:30,hp:15,str:0,tec:0,wlk:1,fly:3,tgh:0}
+{id:52,name:"Cyberstep BS GAMMA",cost:30,hp:15,str:1,tec:0,wlk:0,fly:3,tgh:0}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Gwyain BS",type:"a",cost:40,hp:25,str:0,tec:2,wlk:-1,fly:3,tgh:1}
@@ -103,9 +113,11 @@
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:1,name:"Shaden BS",type:"a",cost:125,hp:25,str:0,tec:0,wlk:0,fly:5,tgh:0,sub:{pwr:1,shl:1,rng:200,spd:110,itv:2000}}
+{id:2,name:"Hecatocles BS",type:"c",cost:125,hp:20,str:0,tec:2,wlk:-1,fly:3,tgh:1,main:{pwr:11,shl:700,rng:330,spd:290,itv:1000},tunable:{mwp:1}}
 
 {group:"Joint",prefixID:"J",commonStat:{jointPart:1,slot:1,size:"M"}}
 {id:1,name:"Generic BSJ"}
 {id:2,name:"Rear Wing BSJ",size:"S",cost:20,hp:0,str:0,tec:-1,wlk:2,fly:0,tgh:0}
 {id:3,name:"Prop BSJ",cost:30,hp:0,str:0,tec:-1,wlk:3,fly:-1,tgh:0}
 {id:4,name:"Moulin BSJ",cost:40,hp:15,str:0,tec:0,wlk:2,fly:0,tgh:-1}
+{id:5,name:"Hecatocles BSJ",size:"LL",type:"c",cost:40,main:{pwr:6,shl:360,rng:330,spd:290,itv:600},tunable:{mwp:1}}

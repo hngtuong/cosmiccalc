@@ -15,6 +15,7 @@
 {id:12,name:"Shine Battler HD",cost:40,hp:25,str:-1,tec:2,wlk:1,fly:1,tgh:2}
 {id:13,name:"Turtlebacker HD",cost:35,hp:20,str:1,tec:2,wlk:0,fly:0,tgh:2}
 {id:14,name:"Zero Saber NEXT HD",cost:40,hp:25,str:1,tec:0,wlk:3,fly:-1,tgh:2}
+{id:15,name:"Arteris HD",cost:80,hp:25,str:0,tec:2,wlk:1,fly:2,tgh:0,main:{pwr:5,shl:1200,rng:110,spd:400,itv:200},tunable:{mwp:1}}
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Gwyain HD",cost:40,hp:25,str:2,tec:1,wlk:2,fly:0,tgh:0}
@@ -72,6 +73,10 @@
 {id:53,name:"Shaden HD",cost:40,hp:25,str:1,tec:1,wlk:1,fly:0,tgh:2}
 {id:54,name:"Hatigarm HD",cost:40,hp:25,str:2,tec:1,wlk:0,fly:2,tgh:0}
 {id:55,name:"Bloody Star HD",cost:40,hp:25,str:0,tec:2,wlk:1,fly:1,tgh:1}
+{id:56,name:"Lios HD",cost:35,hp:20,str:1,tec:1,wlk:1,fly:1,tgh:1}
+{id:57,name:"Persecius HD",cost:40,hp:25,str:0,tec:2,wlk:-1,fly:3,tgh:1}
+{id:58,name:"Hecatocles HD",cost:35,hp:20,str:2,tec:1,wlk:1,fly:-1,tgh:2}
+{id:59,name:"Orphenous HD",cost:40,hp:25,str:2,tec:1,wlk:-1,fly:2,tgh:1}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Aquila HD",cost:35,hp:20,str:1,tec:1,wlk:2,fly:1,tgh:0}

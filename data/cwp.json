@@ -1,5 +1,8 @@
 {group:"Conversion-MWP",prefixID:"CM",commonStat:{tunable:{mwp:1}}}
 {id:1,name:"Bloody Star AM@",cost:25,slot:0,main:{pwr:17,shl:50,rng:250,spd:400,itv:500},conversion:"AMM37"}
+{id:2,name:"Melody Chord ALPHA",cost:65,main:{pwr:9,shl:380,rng:250,spd:400,itv:500},sub:{pwr:11,shl:240,rng:250,spd:320,itv:1000},conversion:"BDSS12WP"}
+{id:3,name:"Melody Chord GAMMA",cost:90,main:{pwr:6,shl:260,rng:250,spd:360,itv:600},sub:{pwr:10,shl:120,rng:260,spd:300,itv:500},conversion:"BDSS12WP"}
+{id:4,name:"Melody Chord BETA",cost:100,main:{pwr:0,shl:80,rng:300,spd:300,itv:500},sub:{pwr:0,shl:50,rng:300,spd:300,itv:1000},conversion:"BDSS12WP"}
 
 {group:"Conversion-SWP",prefixID:"CS",commonStat:{tunable:{pwp:1}}}
 {id:1,name:"Gradd Chainsaw",cost:60,sub:{str:100,pwr:32,rng:70,spd:85,itv:500},conversion:"BDLS3AM"}
