@@ -31,7 +31,7 @@
 {id:26,name:"Kamui Staff",size:"M",cost:160,sub:{str:100,pwr:32,rng:91,spd:110,itv:500}}
 {id:27,name:"Damascus Knife",size:"M",type:"l",cost:140,sub:{str:100,pwr:31,rng:105,spd:128,itv:1000}}
 {id:28,name:"Blank Staff",size:"S",cost:40,sub:{str:100,pwr:28,rng:77,spd:94,itv:500}}
-{id:29,name:"Crim Blade",size:"S",cost:100,sub:{pwr:28,rng:70,spd:85,itv:1000}}
+{id:29,name:"Crim Blade",size:"S",type:"a",cost:100,sub:{pwr:28,rng:70,spd:85,itv:1000}}
 
 {group:"Axes",prefixID:"AX",commonStat:{tunable:{pwp:1}}}
 {id:1,name:"Hand Axe",size:"S",type:"lcs",cost:40,sub:{str:100,pwr:30,rng:56,spd:68,itv:1000}}
@@ -65,5 +65,6 @@
 //{id:16,name:"-",slot:0}
 
 {group:"Others",prefixID:"SO"}
-{id:1,name:"Crystal Pilebunker",size:"L",type:"l",cost:70,sub:{str:100,pwr:28,rng:100,spd:200,itv:1000}}
+{id:1,name:"Crystal Pilebunker",size:"L",type:"l",cost:70,sub:{str:100,pwr:28,rng:100,spd:200,itv:1000},tunable:{pwp:1}}
 {id:2,name:"SB Trick Missile",size:"M",type:"a",cost:60,sub:{pwr:9,shl:270,rng:275,spd:280,itv:1000}}
+{id:3,name:"Geso Whip",size:"S",type:"s",cost:80,sub:{pwr:26,rng:70,spd:85,itv:500},tunable:{pwp:1}}

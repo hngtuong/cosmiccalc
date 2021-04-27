@@ -189,3 +189,4 @@
 {id:22,name:"Fractulus Anima",size:"M",cost:200,type:"a",main:{pwr:8,shl:800,rng:275,spd:400,itv:200}}
 {id:23,name:"Rapid Pulse Missile",size:"M",type:"a",cost:110,main:{pwr:11,shl:350,rng:275,spd:350,itv:320}}
 {id:24,name:"Powered Laser",size:"L",type:"a",cost:110,main:{pwr:17,shl:430,rng:225,spd:480,itv:100}}
+{id:25,name:"Squidol Gun",size:"S",type:"s",cost:50,main:{pwr:4,shl:900,rng:90,spd:480,itv:100}}

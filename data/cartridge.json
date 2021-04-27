@@ -54,9 +54,10 @@
 {id:49,name:"484",comment:"Increase Blast type attack by 15%."}
 {id:50,name:"485",comment:"Increase Beam type attack by 15%."}
 {id:51,name:"486",comment:"Increase Physical type attack by 15%."}
-{id:52,name:"Ascending Force",comment:""}
-{id:53,name:"Fall Charge",comment:""}
-{id:54,name:"Aqua Walk",comment:""}
+{id:52,name:"Ascending Force",comment:"During normal flight, your altitude will gradually increase until limit. Speed of the ascent varies ty type"}
+{id:53,name:"Fall Charge",comment:"Boost gauge will gradually charge when falling"}
+{id:54,name:"Aqua Walk",comment:"Allows you to walk normally through water."}
+{id:55,name:"Unique Cartridge",comment:"Other special carts for specific robots."}
 //
 {id:"EX1",ex:1,name:"Accele Roll",comment:"Adds a Mid-air Dash Action called the [Accele Roll] to the robot.",cost:30}
 {id:"EX2",ex:1,name:"Air Loop",comment:"Adds a Mid-air Dash Action called the [Air Loop] to the robot. AIR TYPE ONLY.",cost:30}

@@ -16,6 +16,8 @@
 {id:13,name:"Turtlebacker HD",cost:35,hp:20,str:1,tec:2,wlk:0,fly:0,tgh:2}
 {id:14,name:"Zero Saber NEXT HD",cost:40,hp:25,str:1,tec:0,wlk:3,fly:-1,tgh:2}
 {id:15,name:"Arteris HD",cost:80,hp:25,str:0,tec:2,wlk:1,fly:2,tgh:0,main:{pwr:5,shl:1200,rng:110,spd:400,itv:200},tunable:{mwp:1}}
+{id:16,name:"Zero Saber HD2",cost:40,hp:25,str:0,tec:2,wlk:2,fly:-1,tgh:2}
+{id:17,name:"Wanders HD",type:"s",cost:135,hp:20,str:0,tec:2,wlk:2,fly:1,tgh:0,sub:{pwr:13,shl:420,rng:275,spd:290,itv:1000}}
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Gwyain HD",cost:40,hp:25,str:2,tec:1,wlk:2,fly:0,tgh:0}
@@ -80,11 +82,22 @@
 {id:60,name:"Zero Breaker HD",cost:40,hp:25,str:2,tec:2,wlk:2,fly:0,tgh:-1}
 {id:61,name:"Zero Fighter NEXT HD",cost:40,hp:25,str:2,tec:0,wlk:2,fly:1,tgh:0}
 {id:62,name:"Destructor MAX HD",cost:40,hp:25,str:-1,tec:2,wlk:0,fly:1,tgh:3}
-{id:63,name:"RAM Soljeter HD",cost:40,hp:25,str:1,tec:-1,wlk:1,fly:2,tgh:2}
+{id:63,name:"RAM Soljetter HD",cost:40,hp:25,str:1,tec:-1,wlk:1,fly:2,tgh:2}
+{id:64,name:"Destructor HD",cost:40,hp:25,str:1,tec:2,wlk:0,fly:0,tgh:2}
+{id:65,name:"Contradict HD",cost:40,hp:25,str:1,tec:2,wlk:2,fly:1,tgh:-1}
+{id:66,name:"Mecha Jetter HD",cost:35,hp:20,str:0,tec:2,wlk:0,fly:2,tgh:1}
+{id:67,name:"Soljetter HD",cost:40,hp:25,str:1,tec:1,wlk:0,fly:2,tgh:1}
+{id:68,name:"Victorl HD",cost:40,hp:25,str:0,tec:2,wlk:-1,fly:1,tgh:3}
+{id:69,name:"Hoverion HD",cost:30,hp:15,str:1,tec:2,wlk:0,fly:0,tgh:1}
+{id:70,name:"Mach Knight HD",cost:40,hp:25,str:1,tec:1,wlk:2,fly:0,tgh:1}
+{id:71,name:"Blitzelt HD",cost:40,hp:25,str:2,tec:-1,wlk:2,fly:1,tgh:1}
+{id:72,name:"Cross Raptor HD",cost:40,hp:25,str:-1,tec:2,wlk:0,fly:2,tgh:2}
+{id:73,name:"Ghost Rider HD",cost:40,hp:25,str:1,tec:2,wlk:0,fly:1,tgh:1}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Aquila HD",cost:35,hp:20,str:1,tec:1,wlk:2,fly:1,tgh:0}
 {id:2,name:"Demonfox Haku HD",cost:40,hp:25,str:2,tec:0,wlk:1,fly:0,tgh:2}
+{id:3,name:"Daedalian HD",cost:40,hp:25,str:1,tec:0,wlk:1,fly:0,tgh:3}
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 
