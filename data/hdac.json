@@ -10,7 +10,7 @@
 {id:2004,name:"AC Memory (FLY) ",capa:5,fly:1,hp:5,joint:{hdac:1}}
 {id:2005,name:"AC Memory (TGH) ",capa:5,tgh:1,hp:5,joint:{hdac:1}}
 {id:0,name:"No stats "}
-{id:1,name:"+2 str ",str:2,tec:1}
+{id:1,name:"+2 str ",str:2}
 {id:2,name:"+1 str +1 tec ",str:1,tec:1}
 {id:3,name:"+1 str +1 wlk ",str:1,wlk:1}
 {id:4,name:"+1 str +1 fly ",str:1,fly:1}

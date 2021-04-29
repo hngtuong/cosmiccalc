@@ -42,6 +42,9 @@
 {id:36,name:"Hoverion BS",type:"c",cost:40,hp:25,str:0,tec:1,wlk:0,fly:3,tgh:1}
 {id:37,name:"Cross Raptor BS",type:"a",cost:40,hp:25,str:1,tec:0,wlk:1,fly:3,tgh:0}
 {id:38,name:"Squidol Girl Alpha BS",type:"s",cost:40,hp:25,str:2,tec:1,wlk:-1,fly:3,tgh:0}
+{id:39,name:"Natascha BS",type:"c",cost:40,hp:25,str:0,tec:0,wlk:-1,fly:3,tgh:3}
+{id:40,name:"Sylvia BS",type:"l",cost:40,hp:25,str:1,tec:-1,wlk:1,fly:2,tgh:2}
+{id:41,name:"Alestar BS",type:"s",cost:40,hp:25,str:1,tec:0,wlk:2,fly:2,tgh:0}
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Axion BS",type:"l",cost:45,hp:25,str:0,tec:2,wlk:1,fly:3,tgh:-1}
@@ -102,6 +105,26 @@
 {id:56,name:"Victorl BS",type:"c",cost:40,hp:25,str:1,tec:-1,wlk:1,fly:2,tgh:2}
 {id:57,name:"Blitzelt BS",type:"a",cost:55,hp:25,str:1,tec:1,wlk:0,fly:4,tgh:-1,auraStat:{str:1,tec:1,wlk:0,fly:4,tgh:-1,sub:{pwr:0,rng:150,spd:200,itv:1000}}}
 {id:58,name:"Shino Exroad BS",type:"l",cost:40,hp:25,str:0,tec:2,wlk:0,fly:3,tgh:0}
+{id:59,name:"Landoss BS",type:"c",cost:120,hp:25,str:-1,tec:2,wlk:2,fly:2,tgh:0,sub:{pwr:7,shl:500,rng:250,spd:290,itv:1000}}
+{id:60,name:"Cydron BS",type:"l",cost:40,hp:25,str:0,tec:-1,wlk:2,fly:3,tgh:1}
+{id:61,name:"Hoplites BS",type:"c",cost:40,hp:25,str:0,tec:2,wlk:-1,fly:3,tgh:1}
+{id:62,name:"AchtSieben BS",type:"c",cost:40,hp:25,str:2,tec:1,wlk:1,fly:2,tgh:-1}
+{id:63,name:"Voltis BS",type:"a",cost:40,hp:25,str:0,tec:0,wlk:2,fly:3,tgh:0}
+{id:64,name:"Ancient BS",cost:35,hp:20,str:0,tec:0,wlk:1,fly:3,tgh:1}
+{id:65,name:"Cherub Wing BS",cost:35,hp:20,str:0,tec:0,wlk:1,fly:3,tgh:1}
+{id:66,name:"Trinity BS",cost:35,hp:20,str:0,tec:1,wlk:0,fly:3,tgh:1}
+{id:67,name:"Saint Gear Wing BS",cost:35,hp:20,str:0,tec:0,wlk:1,fly:3,tgh:1}
+{id:68,name:"Evil Gear Wing BS",cost:35,hp:20,str:0,tec:0,wlk:1,fly:3,tgh:1}
+{id:69,name:"Valkyrie Wing BS",cost:35,hp:20,str:0,tec:0,wlk:2,fly:3,tgh:0}
+{id:70,name:"Dunamis Wing BS",cost:35,hp:20,str:2,tec:0,wlk:0,fly:3,tgh:0}
+{id:71,name:"Honest Wing BS ALPHA",cost:35,hp:20,str:0,tec:1,wlk:0,fly:3,tgh:1}
+{id:72,name:"Honest Wing BS BETA",cost:35,hp:20,str:1,tec:0,wlk:0,fly:3,tgh:1}
+{id:73,name:"Izuna Kamui Alpha BS3",type:"a",cost:85,hp:25,str:-1,tec:1,wlk:1,fly:4,tgh:0,main:{pwr:4,shl:520,rng:275,spd:335,itv:1000},tunable:{mwp:1}}
+{id:74,name:"Fairys BS",type:"a",cost:40,hp:25,str:0,tec:0,wlk:2,fly:3,tgh:0,joint:{bs:1}}
+{id:75,name:"Fairys BS@",cost:20,sub:{pwr:0,shl:40,rng:0,spd:160,itv:1000},conversion:"BSM74"}
+{id:76,name:"Vanguard BS",type:"l",cost:40,hp:20,str:-1,tec:2,wlk:0,fly:3,tgh:1}
+{id:77,name:"Gathima BS",type:"c",cost:40,hp:20,str:-1,tec:1,wlk:0,fly:3,tgh:2}
+{id:78,name:"Lux BS",type:"a",cost:40,hp:25,str:1,tec:1,wlk:0,fly:4,tgh:-1}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Gwyain BS",type:"a",cost:40,hp:25,str:0,tec:2,wlk:-1,fly:3,tgh:1}
@@ -128,6 +151,7 @@
 {id:22,name:"Contradict BS",type:"c",cost:40,hp:25,str:1,tec:0,wlk:-1,fly:3,tgh:2}
 {id:23,name:"Daedalian BS",type:"l",cost:40,hp:25,str:1,tec:1,wlk:0,fly:2,tgh:1}
 {id:24,name:"Thoarla BS",type:"a",cost:40,hp:25,str:0,tec:0,wlk:1,fly:2,tgh:2}
+{id:25,name:"Wardus BS2",type:"l",cost:40,hp:25,str:-1,tec:0,wlk:2,fly:3,tgh:1}
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:1,name:"Shaden BS",type:"a",cost:125,hp:25,str:0,tec:0,wlk:0,fly:5,tgh:0,sub:{pwr:1,shl:1,rng:200,spd:110,itv:2000}}

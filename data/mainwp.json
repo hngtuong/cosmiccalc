@@ -190,3 +190,4 @@
 {id:23,name:"Rapid Pulse Missile",size:"M",type:"a",cost:110,main:{pwr:11,shl:350,rng:275,spd:350,itv:320}}
 {id:24,name:"Powered Laser",size:"L",type:"a",cost:110,main:{pwr:17,shl:430,rng:225,spd:480,itv:100}}
 {id:25,name:"Squidol Gun",size:"S",type:"s",cost:50,main:{pwr:4,shl:900,rng:90,spd:480,itv:100}}
+{id:26,name:"Squidol Bazooka",size:"S",type:"s",cost:70,main:{pwr:12,shl:220,rng:275,spd:290,itv:700}}

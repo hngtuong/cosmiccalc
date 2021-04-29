@@ -18,6 +18,7 @@
 {id:15,name:"Arteris HD",cost:80,hp:25,str:0,tec:2,wlk:1,fly:2,tgh:0,main:{pwr:5,shl:1200,rng:110,spd:400,itv:200},tunable:{mwp:1}}
 {id:16,name:"Zero Saber HD2",cost:40,hp:25,str:0,tec:2,wlk:2,fly:-1,tgh:2}
 {id:17,name:"Wanders HD",type:"s",cost:135,hp:20,str:0,tec:2,wlk:2,fly:1,tgh:0,sub:{pwr:13,shl:420,rng:275,spd:290,itv:1000}}
+{id:18,name:"Alestar HD2",cost:40,hp:25,str:1,tec:3,wlk:-1,fly:0,tgh:2}
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Gwyain HD",cost:40,hp:25,str:2,tec:1,wlk:2,fly:0,tgh:0}
@@ -93,11 +94,24 @@
 {id:71,name:"Blitzelt HD",cost:40,hp:25,str:2,tec:-1,wlk:2,fly:1,tgh:1}
 {id:72,name:"Cross Raptor HD",cost:40,hp:25,str:-1,tec:2,wlk:0,fly:2,tgh:2}
 {id:73,name:"Ghost Rider HD",cost:40,hp:25,str:1,tec:2,wlk:0,fly:1,tgh:1}
+{id:74,name:"Landoss HD",cost:40,hp:25,str:0,tec:1,wlk:2,fly:0,tgh:2}
+{id:75,name:"Cydron HD2",cost:40,hp:25,str:1,tec:-1,wlk:3,fly:0,tgh:2}
+{id:76,name:"Wardus HD2",cost:40,hp:25,str:0,tec:3,wlk:1,fly:-1,tgh:2}
+{id:77,name:"Hoplites HD",cost:40,hp:20,str:2,tec:3,wlk:-1,fly:1,tgh:0}
+{id:78,name:"AchtSieben HD2",cost:40,hp:25,str:0,tec:1,wlk:2,fly:1,tgh:1}
+{id:79,name:"Might Bomber HD2",cost:40,hp:25,str:-1,tec:1,wlk:1,fly:2,tgh:2}
+{id:80,name:"Voltis HD",cost:40,hp:25,str:0,tec:2,wlk:-1,fly:2,tgh:2}
+{id:81,name:"Mighty Byne HD2",cost:40,hp:25,str:2,tec:0,wlk:2,fly:1,tgh:0}
+{id:82,name:"Fairys HD",cost:40,hp:25,str:1,tec:2,wlk:1,fly:2,tgh:-1}
+{id:83,name:"Vanguard HD",cost:40,hp:25,str:0,tec:1,wlk:1,fly:1,tgh:2}
+{id:84,name:"Gathima HD",cost:40,hp:25,str:1,tec:2,wlk:1,fly:1,tgh:0}
+{id:85,name:"Lux HD",cost:40,hp:25,str:1,tec:1,wlk:1,fly:1,tgh:3}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Aquila HD",cost:35,hp:20,str:1,tec:1,wlk:2,fly:1,tgh:0}
 {id:2,name:"Demonfox Haku HD",cost:40,hp:25,str:2,tec:0,wlk:1,fly:0,tgh:2}
 {id:3,name:"Daedalian HD",cost:40,hp:25,str:1,tec:0,wlk:1,fly:0,tgh:3}
+{id:4,name:"Aquila HD2",cost:35,hp:20,str:0,tec:1,wlk:1,fly:1,tgh:2}
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 
