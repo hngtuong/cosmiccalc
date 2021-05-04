@@ -21,3 +21,5 @@
 {id:10,name:"Otegine",cost:70,sub:{str:100,pwr:25,rng:90,spd:110,itv:2000},conversion:"WPCS4"}
 {id:11,name:"Sunlight Talisman",cost:70,sub:{str:100,pwr:22,rng:150,spd:85,itv:2000},tunable:{pwp:0},conversion:"WPCS4"}
 {id:12,name:"Chivary Guard",cost:50,slot:0,sub:{rng:10,itv:500},conversion:"BDCS15AM2"}
+{id:13,name:"Wolken Lance",cost:160,sub:{str:100,pwr:32,rng:90,spd:180,itv:2000},conversion:"AMS50"}
+{id:14,name:"Wolken Shield",cost:70,main:{str:100,pwr:14,shl:100,rng:225,spd:320,itv:500},sub:{str:100,pwr:28,rng:100,spd:250,itv:2000},tunable:{mwp:1},conversion:"AMS51"}

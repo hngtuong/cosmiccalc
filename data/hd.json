@@ -19,6 +19,7 @@
 {id:16,name:"Zero Saber HD2",cost:40,hp:25,str:0,tec:2,wlk:2,fly:-1,tgh:2}
 {id:17,name:"Wanders HD",type:"s",cost:135,hp:20,str:0,tec:2,wlk:2,fly:1,tgh:0,sub:{pwr:13,shl:420,rng:275,spd:290,itv:1000}}
 {id:18,name:"Alestar HD2",cost:40,hp:25,str:1,tec:3,wlk:-1,fly:0,tgh:2}
+{id:19,name:"Wanders HD2",type:"s",cost:75,hp:20,str:0,tec:2,wlk:0,fly:2,tgh:1,sub:{pwr:30,shl:150,rng:250,spd:250,itv:1000}}
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Gwyain HD",cost:40,hp:25,str:2,tec:1,wlk:2,fly:0,tgh:0}
@@ -106,6 +107,17 @@
 {id:83,name:"Vanguard HD",cost:40,hp:25,str:0,tec:1,wlk:1,fly:1,tgh:2}
 {id:84,name:"Gathima HD",cost:40,hp:25,str:1,tec:2,wlk:1,fly:1,tgh:0}
 {id:85,name:"Lux HD",cost:40,hp:25,str:1,tec:1,wlk:1,fly:1,tgh:3}
+{id:86,type:"c",name:"Psycho Formula HD2",cost:100,hp:25,str:-1,tec:3,wlk:0,fly:1,tgh:2,main:{pwr:15,shl:280,rng:330,spd:290,itv:740},tunable:{mwp:1}}
+{id:87,name:"Cross Raptor HD2",cost:40,hp:25,str:2,tec:-1,wlk:0,fly:2,tgh:2}
+{id:88,name:"Ghost Rider HD2",cost:40,hp:25,str:2,tec:1,wlk:-1,fly:1,tgh:2}
+{id:89,name:"Geograsis HD2",cost:40,hp:25,str:2,tec:1,wlk:2,fly:1,tgh:-1}
+{id:90,name:"Kuschelb HD",cost:35,hp:20,str:2,tec:-1,wlk:0,fly:2,tgh:2}
+{id:91,name:"Knightger HD2",cost:40,hp:25,str:3,tec:0,wlk:0,fly:0,tgh:2}
+{id:92,name:"Bugsycait HD2",cost:40,hp:20,str:2,tec:-1,wlk:3,fly:1,tgh:0}
+{id:93,name:"Sturbanger HD2",cost:40,hp:25,str:-1,tec:2,wlk:1,fly:1,tgh:2}
+{id:94,name:"Cinbydion HD",cost:40,hp:25,str:3,tec:2,wlk:0,fly:0,tgh:0}
+{id:95,name:"Initone HD",cost:40,hp:25,str:2,tec:-1,wlk:1,fly:3,tgh:0}
+{id:96,name:"Chrotacs HD2",cost:40,hp:25,str:0,tec:0,wlk:2,fly:2,tgh:1}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Aquila HD",cost:35,hp:20,str:1,tec:1,wlk:2,fly:1,tgh:0}

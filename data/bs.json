@@ -45,6 +45,8 @@
 {id:39,name:"Natascha BS",type:"c",cost:40,hp:25,str:0,tec:0,wlk:-1,fly:3,tgh:3}
 {id:40,name:"Sylvia BS",type:"l",cost:40,hp:25,str:1,tec:-1,wlk:1,fly:2,tgh:2}
 {id:41,name:"Alestar BS",type:"s",cost:40,hp:25,str:1,tec:0,wlk:2,fly:2,tgh:0}
+{id:42,name:"Knightger BS",type:"l",cost:40,hp:25,str:2,tec:-1,wlk:0,fly:3,tgh:1}
+{id:43,name:"Chrotacs BS",type:"l",cost:40,hp:25,str:1,tec:-1,wlk:1,fly:3,tgh:1}
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Axion BS",type:"l",cost:45,hp:25,str:0,tec:2,wlk:1,fly:3,tgh:-1}
@@ -125,6 +127,10 @@
 {id:76,name:"Vanguard BS",type:"l",cost:40,hp:20,str:-1,tec:2,wlk:0,fly:3,tgh:1}
 {id:77,name:"Gathima BS",type:"c",cost:40,hp:20,str:-1,tec:1,wlk:0,fly:3,tgh:2}
 {id:78,name:"Lux BS",type:"a",cost:40,hp:25,str:1,tec:1,wlk:0,fly:4,tgh:-1}
+{id:79,name:"Mighty Byne Girl BS",type:"l",cost:40,hp:25,str:0,tec:0,wlk:1,fly:2,tgh:2}
+{id:80,name:"Melfi BS",type:"s",cost:40,hp:25,str:1,tec:2,wlk:-1,fly:3,tgh:0}
+{id:81,name:"Psycho Formula BS",type:"c",cost:40,hp:25,str:0,tec:1,wlk:0,fly:3,tgh:1}
+{id:82,name:"Initone BS",type:"a",cost:40,hp:20,str:-1,tec:1,wlk:2,fly:3,tgh:0}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Gwyain BS",type:"a",cost:40,hp:25,str:0,tec:2,wlk:-1,fly:3,tgh:1}
@@ -152,6 +158,8 @@
 {id:23,name:"Daedalian BS",type:"l",cost:40,hp:25,str:1,tec:1,wlk:0,fly:2,tgh:1}
 {id:24,name:"Thoarla BS",type:"a",cost:40,hp:25,str:0,tec:0,wlk:1,fly:2,tgh:2}
 {id:25,name:"Wardus BS2",type:"l",cost:40,hp:25,str:-1,tec:0,wlk:2,fly:3,tgh:1}
+{id:26,name:"Geograsis BS2",type:"a",cost:40,hp:25,str:-1,tec:1,wlk:1,fly:3,tgh:1}
+{id:27,name:"Kuschelb BS",type:"l",cost:35,hp:20,str:-1,tec:1,wlk:0,fly:3,tgh:2}
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:1,name:"Shaden BS",type:"a",cost:125,hp:25,str:0,tec:0,wlk:0,fly:5,tgh:0,sub:{pwr:1,shl:1,rng:200,spd:110,itv:2000}}
