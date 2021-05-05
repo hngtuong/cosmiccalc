@@ -7,6 +7,9 @@
 {id:6,name:"Kabura Bow",cost:70,main:{str:100,pwr:10,shl:120,rng:200,spd:570,itv:400},sub:{str:100,pwr:24,rng:150,spd:85,itv:2000},conversion:"WPCS4"}
 {id:7,name:"Chivary Cannon",cost:110,main:{pwr:17,shl:350,rng:330,spd:290,itv:600},joint:{wp:1},conversion:"BDCS15AM",fixedParts:{wp:{name:"Chivary Cannon@",cost:50,slot:0,main:{pwr:40,shl:30,rng:300,spd:400,itv:500}}}}
 {id:8,name:"Gloom Rod",cost:100,joint:{wp:1},main:{pwr:9,shl:540,rng:275,spd:440,itv:300},sub:{pwr:26,shl:40,rng:0,spd:150,itv:1000},conversion:"BDAS13AM"}
+{id:9,name:"Pepen Twin Gun",cost:70,main:{pwr:7,shl:700,rng:330,spd:220,itv:360},conversion:"AMS53"}
+{id:10,name:"Pepen Gunners",cost:100,main:{pwr:9,shl:600,rng:330,spd:350,itv:500},conversion:"BDCS17"}
+{id:11,name:"Manimo Wing@",cost:40,main:{str:100,pwr:3,shl:800,rng:300,spd:400,itv:440},conversion:"WPCS15"}
 
 {group:"Conversion-SWP",prefixID:"CS",commonStat:{tunable:{pwp:1}}}
 {id:1,name:"Gradd Chainsaw",cost:60,sub:{str:100,pwr:32,rng:70,spd:85,itv:500},conversion:"BDLS3AM"}
@@ -23,3 +26,4 @@
 {id:12,name:"Chivary Guard",cost:50,slot:0,sub:{rng:10,itv:500},conversion:"BDCS15AM2"}
 {id:13,name:"Wolken Lance",cost:160,sub:{str:100,pwr:32,rng:90,spd:180,itv:2000},conversion:"AMS50"}
 {id:14,name:"Wolken Shield",cost:70,main:{str:100,pwr:14,shl:100,rng:225,spd:320,itv:500},sub:{str:100,pwr:28,rng:100,spd:250,itv:2000},tunable:{mwp:1},conversion:"AMS51"}
+{id:15,name:"Manimo Wing",cost:70,slot:0,hp:25,str:1,fly:2,tgh:2,joint:{wp:1},sub:{pwr:0,shl:60,rng:0,spd:160,itv:1000},conversion:"BDAS17"}
