@@ -54,11 +54,11 @@
 {id:4,name:"Gladiator",cost:20,effect:{rng:5,spd:5},material:"9*1|23*10|32*10|36*4|38*1|16*3",comment:["50%","Range+5%、Speed+5%"]}
 {id:5,name:"High Gladiator",cost:45,effect:{rng:10,spd:10},material:"10*1|23*20|32*20|36*10|38*3|16*4",comment:["50%","Range+10%、Speed+10%"]}
 
-{group:"Sub Weapon Special Effects",prefixID:"PS"}
-{id:1,name:"Burning",cost:20,target:"pwp",material:"10*1|29*31|32*10|35*7|37*2|15*3",comment:["50%","5% chance to inflict Burn"]}
-{id:2,name:"Light Slow",cost:20,target:"pwp",material:"10*1|30*31|32*10|35*7|37*2|15*3",comment:["50%","5% chance to inflict Light Slow"]}
-{id:3,name:"Disorder",cost:20,target:"pwp",material:"10*1|28*31|32*10|35*7|37*2|15*3",comment:["50%","5% chance to inflict Disorder"]}
-{id:4,name:"Drain",cost:20,target:"pwp",material:"10*1|26*31|32*10|35*7|37*2|15*3",comment:["50%","5% chance to inflict Shell Drain"]}
+// {group:"Sub Weapon Special Effects",prefixID:"PS"}
+// {id:1,name:"Burning",cost:20,target:"pwp",material:"10*1|29*31|32*10|35*7|37*2|15*3",comment:["50%","5% chance to inflict Burn"]}
+// {id:2,name:"Light Slow",cost:20,target:"pwp",material:"10*1|30*31|32*10|35*7|37*2|15*3",comment:["50%","5% chance to inflict Light Slow"]}
+// {id:3,name:"Disorder",cost:20,target:"pwp",material:"10*1|28*31|32*10|35*7|37*2|15*3",comment:["50%","5% chance to inflict Disorder"]}
+// {id:4,name:"Drain",cost:20,target:"pwp",material:"10*1|26*31|32*10|35*7|37*2|15*3",comment:["50%","5% chance to inflict Shell Drain"]}
 
 {group:"Strength",prefixID:"P",commonStat:{target:"cpt"}}
 {id:1,name:"Power",cost:5,str:1,material:"1*1|17*5",comment:"100%"}
@@ -70,8 +70,8 @@
 {id:7,name:"Great Power Alpha",cost:20,str:3,tec:-1,wlk:-1,material:"3*1|17*18|27*12|23*10|12*8",comment:"60%"}
 {id:8,name:"Great Power Beta",cost:20,str:3,tec:-1,fly:-1,material:"3*1|17*18|27*12|23*10|12*8",comment:"60%"}
 {id:9,name:"Great Power Gamma",cost:10,str:3,tec:-1,wlk:-1,fly:-1,tgh:-1,material:"3*1|17*18|27*12|23*10|12*8",comment:"60%"}
-{id:10,name:"Beast",cost:15,hp:15,str:1,material:"3*1|17*15|22*6|34*3|35*10|36*10|12*5",comment:"60%"}
-{id:11,name:"High Beast",cost:35,hp:25,str:2,tec:-1,material:"4*1|17*25|22*8|34*5|35*12|36*12|37*7|38*7|12*10|16*5",comment:"60%"}
+{id:10,name:"Beast",cost:15,hp:8,str:1,material:"3*1|17*15|22*6|34*3|35*10|36*10|12*5",comment:"60%"}
+{id:11,name:"High Beast",cost:35,hp:20,str:2,tec:-1,material:"4*1|17*25|22*8|34*5|35*12|36*12|37*7|38*7|12*10|16*5",comment:"60%"}
 
 {group:"Tech",prefixID:"T",commonStat:{target:"cpt"}}
 {id:1,name:"Tech",cost:5,tec:1,material:"1*1|18*5",comment:"100%"}
@@ -83,8 +83,8 @@
 {id:7,name:"Great Tech Alpha",cost:20,str:-1,tec:3,wlk:-1,material:"3*1|18*18|28*12|24*10|11*8",comment:"60%"}
 {id:8,name:"Great Tech Beta",cost:20,str:-1,tec:3,fly:-1,material:"3*1|18*18|28*12|24*10|11*8",comment:"60%"}
 {id:9,name:"Great Tech Gamma",cost:10,str:-1,tec:3,wlk:-1,fly:-1,tgh:-1,material:"3*1|18*18|28*12|24*10|11*8",comment:"60%"}
-{id:10,name:"Ranger",cost:15,hp:15,tec:1,material:"3*1|18*15|22*6|34*3|35*10|36*10|11*5",comment:"60%"}
-{id:11,name:"High Ranger",cost:35,hp:25,str:-1,tec:2,material:"4*1|18*25|22*8|34*5|35*12|36*12|37*7|38*7|11*10|16*5",comment:"60%"}
+{id:10,name:"Ranger",cost:15,hp:8,tec:1,material:"3*1|18*15|22*6|34*3|35*10|36*10|11*5",comment:"60%"}
+{id:11,name:"High Ranger",cost:35,hp:20,str:-1,tec:2,material:"4*1|18*25|22*8|34*5|35*12|36*12|37*7|38*7|11*10|16*5",comment:"60%"}
 
 {group:"Run",prefixID:"R",commonStat:{target:"cpt"}}
 {id:1,name:"Run",cost:5,wlk:1,material:"1*1|19*5",comment:"100%"}
@@ -96,8 +96,8 @@
 {id:7,name:"Great Run Alpha",cost:20,str:-1,wlk:3,fly:-1,material:"3*1|19*18|30*12|32*10|14*8",comment:"60%"}
 {id:8,name:"Great Run Beta",cost:20,tec:-1,wlk:3,fly:-1,material:"3*1|19*18|30*12|32*10|14*8",comment:"60%"}
 {id:9,name:"Great Run Gamma",cost:10,str:-1,tec:-1,wlk:3,fly:-1,tgh:-1,material:"3*1|19*18|30*12|32*10|14*8",comment:"60%"}
-{id:10,name:"Tank",cost:15,hp:15,wlk:1,material:"3*1|19*15|22*6|34*3|35*10|36*10|14*5",comment:"60%"}
-{id:11,name:"High Tank",cost:35,hp:25,wlk:2,fly:-1,material:"4*1|19*25|22*8|34*5|35*12|36*12|37*7|38*7|14*10|16*5",comment:"60%"}
+{id:10,name:"Tank",cost:15,hp:8,wlk:1,material:"3*1|19*15|22*6|34*3|35*10|36*10|14*5",comment:"60%"}
+{id:11,name:"High Tank",cost:35,hp:20,wlk:2,fly:-1,material:"4*1|19*25|22*8|34*5|35*12|36*12|37*7|38*7|14*10|16*5",comment:"60%"}
 
 {group:"Boost",prefixID:"B",commonStat:{target:"cpt"}}
 {id:1,name:"Boost",cost:5,fly:1,material:"1*1|20*5",comment:"100%"}
@@ -109,8 +109,8 @@
 {id:8,name:"Great Boost Alpha",cost:20,str:-1,wlk:-1,fly:3,material:"3*1|20*18|26*12|25*10|13*8",comment:"60%"}
 {id:13,name:"Great Boost Beta",cost:20,tec:-1,wlk:-1,fly:3,material:"3*1|20*18|26*12|25*10|13*8",comment:"60%"}
 {id:9,name:"Great Boost Gamma",cost:10,str:-1,tec:-1,wlk:-1,fly:3,tgh:-1,material:"3*1|20*18|26*12|25*10|13*8",comment:"60%"}
-{id:10,name:"Eagle",cost:15,hp:15,fly:1,material:"3*1|20*15|22*6|34*3|35*10|36*10|13*5",comment:"60%"}
-{id:11,name:"High Eagle",cost:35,hp:25,wlk:-1,fly:2,material:"4*1|20*25|22*8|34*5|35*12|36*12|37*7|38*7|13*10|16*5",comment:"60%"}
+{id:10,name:"Eagle",cost:15,hp:8,fly:1,material:"3*1|20*15|22*6|34*3|35*10|36*10|13*5",comment:"60%"}
+{id:11,name:"High Eagle",cost:35,hp:20,wlk:-1,fly:2,material:"4*1|20*25|22*8|34*5|35*12|36*12|37*7|38*7|13*10|16*5",comment:"60%"}
 
 {group:"Tough",prefixID:"S",commonStat:{target:"cpt"}}
 {id:1,name:"Tough",cost:5,tgh:1,material:"1*1|21*5",comment:"100%"}
@@ -121,8 +121,8 @@
 {id:6,name:"Great Tough",cost:30,tgh:3,material:"3*1|21*16|29*11|31*6|33*5|15*8",comment:"60%"}
 {id:8,name:"Great Tough Alpha",cost:20,wlk:-1,fly:-1,tgh:3,material:"3*1|21*16|29*11|31*6|33*5|15*8",comment:"60%"}
 {id:9,name:"Great Tough Beta",cost:10,str:-1,tec:-1,wlk:-1,fly:-1,tgh:3,material:"3*1|21*16|29*11|31*6|33*5|15*8",comment:"60%"}
-{id:10,name:"Sentinel",cost:15,hp:15,tgh:1,material:"3*1|21*15|22*6|34*3|35*10|36*10|15*5",comment:"60%"}
-{id:11,name:"High Sentinel",cost:35,hp:30,wlk:-1,fly:-1,tgh:2,material:"4*1|21*25|22*8|34*5|35*12|36*12|37*7|38*7|15*10|16*5",comment:"60%"}
+{id:10,name:"Sentinel",cost:15,hp:8,tgh:1,material:"3*1|21*15|22*6|34*3|35*10|36*10|15*5",comment:"60%"}
+{id:11,name:"High Sentinel",cost:40,hp:25,wlk:0,fly:0,tgh:2,material:"4*1|21*25|22*8|34*5|35*12|36*12|37*7|38*7|15*10|16*5",comment:"60%"}
 
 {group:"Life",prefixID:"L",commonStat:{target:"cpt"}}
 {id:2,name:"Life",cost:10,hp:15,material:"1*1|22*14",comment:"60%"}
@@ -136,4 +136,5 @@
 {id:10,name:"High Assault",cost:35,str:2,tec:2,material:"4*1|17*26|18*26|27*12|28*12|12*5|11*5|16*5",comment:"60%"}
 
 {group:"Special"}
-{id:"SP1",name:"Eternal",cost:15,hp:15,target:"cpt hd am",material:"10*1|22*15|33*12|34*8|35*20|36*20|37*10|38*10|16*5",comment:["60%","Part cannot be broken"]}
+{id:"SP1",name:"Eternal",cost:5,hp:5,target:"cpt hd am",material:"7*1|22*4",comment:["100%","Part cannot be broken"]}
+{id:"SP2",name:"High Eternal",cost:15,hp:8,target:"cpt hd am",material:"10*1|22*15|33*12|34*8|35*20|36*20|37*10|38*10|16*5",comment:["60%","Part cannot be broken"]}

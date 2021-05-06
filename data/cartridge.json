@@ -1,17 +1,6 @@
-﻿{id:150,name:"Capacity +50",comment:"Raises robot's cost capacity by 50 and HP by #hp."}
-{id:160,name:"Capacity +60",comment:"Raises robot's cost capacity by 60 and HP by #hp."}
-{id:170,name:"Capacity +70",comment:"Raises robot's cost capacity by 70 and HP by #hp."}
-{id:175,name:"Capacity +75",comment:"Raises robot's cost capacity by 75 and HP by #hp."}
-{id:180,name:"Capacity +80",comment:"Raises robot's cost capacity by 80 and HP by #hp."}
-{id:185,name:"Capacity +85",comment:"Raises robot's cost capacity by 85 and HP by #hp."}
-{id:190,name:"Capacity +90",comment:"Raises robot's cost capacity by 90 and HP by #hp."}
-{id:195,name:"Capacity +95",comment:"Raises robot's cost capacity by 95 and HP by #hp."}
+﻿{id:1,name:"Capacity (Custom)",comment:"Raises robot's cost capacity by #capa and HP by #hp."}
+{id:2,name:"Enhance Internal Weapon",comment:"Enhances the core's built in weapon. Raises robot's cost capacity and 15 HP"}
 //
-{id:255,name:"Enhance Internal Weapon",comment:"Enhances the core's built in weapon. Raises robot's cost capacity by 55 and HP by 15"}
-{id:260,name:"Enhance Internal Weapon",comment:"Enhances the core's built in weapon. Raises robot's cost capacity by 60 and HP by 15"}
-{id:265,name:"Enhance Internal Weapon",comment:"Enhances the core's built in weapon. Raises robot's cost capacity by 65 and HP by 15"}
-{id:270,name:"Enhance Internal Weapon",comment:"Enhances the core's built in weapon. Raises robot's cost capacity by 70 and HP by 15"}
-{id:275,name:"Enhance Internal Weapon",comment:"Enhances the core's built in weapon. Raises robot's cost capacity by 75 and HP by 15"}
 //
 {id:7,name:"Shell Guard",comment:"Decreases damage from bullet type projectiles."}
 {id:8,name:"Sword Guard",comment:"Decreases damage from melee attacks."}

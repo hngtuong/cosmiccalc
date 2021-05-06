@@ -22,8 +22,8 @@
 (function($, undefined){
 
 /* CONST VARS */
-var VERSION = "3.5.0",
-	LAST_MODIFIED = "2021.01.22",
+var VERSION = "3.6.0",
+	LAST_MODIFIED = "2021.04.17",
 	LOCALSTORAGE_CONFIG_KEY = "_COSMICCALC",
 	LOCALSTORAGE_VERSION_KEY = LOCALSTORAGE_CONFIG_KEY + "_VERSION",
 
@@ -78,7 +78,7 @@ var VERSION = "3.5.0",
 		fixed: {slot: 3},
 		bd: {
 			wbid: 0,
-			cartridge: {hpup:0,lv1:"",lv6:"",lv9:""}
+			cartridge: {hpup:0,capaup:0,ecapaup:0,lv1:"",lv6:"",lv9:""}
 		},
 		wb: {type:"lacs",size:"-"},
 		hd: {
@@ -141,7 +141,7 @@ var Parts_none = {
 		fly: 0,
 		tgh: 0,
 		slot: 0,
-		cartridge: {hpup:0}
+		cartridge: {hpup:0,capaup:0,ecapaup:0}
 	},
 	Parts_data = {
 		fixed: [],
@@ -269,7 +269,7 @@ $.extend(UnRedo, {
 				Assembly.cartridge = ccd[0].ref.cartridge;
 				makeCartridgeLst();
 			}else{
-				Assembly.cartridge = {hpup:0};
+				Assembly.cartridge = {hpup:0,capaup:0,ecapaup:0};
 				$("#CTRG_LIST_CONTAINER").empty();
 				$("#CURRENT_LV").text(ADDLEVEL+"/"+MAXLEVEL);
 				Result.lv = ADDLEVEL;
@@ -944,7 +944,7 @@ $("#UNSET_PARTS").mouseenter(function(){
 		lineCalc();
 		if(Prop.target.ccd.part == "wb") Prop.target.value = Assembly.wb.def;
 		if(Prop.target.ccd.part == "bd"){
-			Assembly.cartridge = {hpup:0};
+			Assembly.cartridge = {hpup:0,capaup:0,ecapaup:0};
 			$("#CTRG_LIST_CONTAINER").empty();
 			$("#CURRENT_LV").text(ADDLEVEL+"/"+MAXLEVEL);
 			Result.lv = ADDLEVEL;
@@ -2154,26 +2154,14 @@ function calc(){
 		if($(this).hasClass("selected")){
 			var prp = this.ccd;
 			Result.cost += prp.cst;
+			const x = prp.cid
 			switch(prp.cid){
-			case "150":
-			case "155":
-			case "160":
-			case "165":
-			case "170":
-			case "175":
-			case "180":
-			case "185":
-			case "190":
-			case "195":
-				Result.capa += prp.cid-100;
+			case "1":
+				Result.capa += Assembly.cartridge.capaup || 0;
 				Result.hp += Assembly.cartridge.hpup;
 				break;
-			case "255":
-			case "260":
-			case "265":
-			case "270":
-			case "275":
-				Result.capa += prp.cid-200;
+			case "2":
+				Result.capa += Assembly.cartridge.ecapaup || 0;
 				Result.hp += 15;
 				Result.reinforce++;
 				break;
@@ -2307,10 +2295,10 @@ function makeCartridgeLst(){
 	$.each(Assembly.cartridge.prp, function(i){
 		var cm = Master.cartridge[this.cid];
 		var ctrg = $("#CTRG_TEMPLATE>.cartridge").clone();
-		var ccd = {cid:this.cid, cst:this.cst, rqlv:this.rqlv, cmt:cm.comment.replace(/#hp/, Assembly.cartridge.hpup)+' ('+this.rqlv+'～)'};
+		var ccd = {cid:this.cid, cst:this.cst, rqlv:this.rqlv, cmt:cm.comment.replace(/#hp/, Assembly.cartridge.hpup).replace(/#capa/, Assembly.cartridge.capaup || 0)+' ('+this.rqlv+'～)'};
 			
 		ctrg[0].ccd = ccd;
-		ctrg.children(".ctrg_name").text(cm.name);
+		ctrg.children(".ctrg_name").text(cm.name.replace(/\(Custom\)/, "+" + Assembly.cartridge.capaup || 0));
 		ctrg.children(".cost").text(this.cst);
 		ctrg.appendTo("#CTRG_LIST_CONTAINER");
 		for(var j=1; j<this.num; j++)
