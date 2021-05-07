@@ -2154,7 +2154,6 @@ function calc(){
 		if($(this).hasClass("selected")){
 			var prp = this.ccd;
 			Result.cost += prp.cst;
-			const x = prp.cid
 			switch(prp.cid){
 			case "1":
 				Result.capa += Assembly.cartridge.capaup || 0;
