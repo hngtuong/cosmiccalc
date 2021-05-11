@@ -45,6 +45,7 @@
 {id:9,name:"Jet Hammer",size:"L",type:"l",cost:130,sub:{str:100,pwr:39,shl:30,rng:70,spd:85,itv:1000}}
 {id:10,name:"Gernia Hammer",size:"L",type:"l",cost:120,sub:{str:100,pwr:28,rng:100,spd:85,itv:1000}}
 {id:11,name:"Dego Axe",size:"L",type:"a",cost:160,sub:{str:100,pwr:28,rng:100,spd:180,itv:1000}}
+{id:12,name:"Brigand Axe",size:"LL",type:"l",cost:180,sub:{str:100,pwr:30,rng:49,spd:60,itv:2000}}
 
 {group:"Lances",prefixID:"LC",commonStat:{tunable:{pwp:1}}}
 {id:1,name:"Spear",size:"M",type:"ls",cost:100,sub:{str:100,pwr:32,rng:84,spd:102,itv:1000}}

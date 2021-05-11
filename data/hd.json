@@ -122,12 +122,22 @@
 {id:97,name:"Rosso Aspide HD",cost:40,hp:25,str:-1,tec:1,wlk:2,fly:1,tgh:2}
 {id:98,name:"A. Miral HD",type:"l",cost:115,hp:20,str:0,tec:3,wlk:2,fly:-1,tgh:1,main:{pwr:3,shl:1200,rng:250,spd:440,itv:200},tunable:{mwp:1}}
 {id:99,name:"Ragna Barret HD",cost:40,hp:25,str:-1,tec:3,wlk:1,fly:1,tgh:1}
+{id:100,name:"Pulsardio HD2",cost:40,hp:25,str:0,tec:1,wlk:1,fly:1,tgh:2}
+{id:101,name:"Steel Burn HD",cost:40,hp:25,str:1,tec:0,wlk:2,fly:-1,tgh:3}
+{id:102,name:"Cataloss HD2",cost:40,hp:25,str:0,tec:2,wlk:0,fly:2,tgh:1}
+{id:103,name:"Antlion HD",cost:40,hp:25,str:0,tec:2,wlk:0,fly:1,tgh:2}
+{id:104,name:"Blazed Baron HD2",cost:40,hp:25,str:-1,tec:3,wlk:1,fly:0,tgh:2}
+{id:105,name:"Gotrun HD",cost:40,hp:25,str:2,tec:2,wlk:-1,fly:1,tgh:1}
+{id:106,name:"Geograsis HD",cost:40,hp:25,str:2,tec:1,wlk:0,fly:1,tgh:1}
+{id:107,name:"Hatigarm HD2",cost:40,hp:25,str:2,tec:0,wlk:2,fly:0,tgh:1}
+{id:108,name:"Brigand Baron HD",cost:30,hp:15,str:1,tec:2,wlk:1,fly:-1,tgh:1}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Aquila HD",cost:35,hp:20,str:1,tec:1,wlk:2,fly:1,tgh:0}
 {id:2,name:"Demonfox Haku HD",cost:40,hp:25,str:2,tec:0,wlk:1,fly:0,tgh:2}
 {id:3,name:"Daedalian HD",cost:40,hp:25,str:1,tec:0,wlk:1,fly:0,tgh:3}
 {id:4,name:"Aquila HD2",cost:35,hp:20,str:0,tec:1,wlk:1,fly:1,tgh:2}
+{id:5,name:"Degomure HD",cost:40,hp:25,str:1,tec:1,wlk:2,fly:0,tgh:1}
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 

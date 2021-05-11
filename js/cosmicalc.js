@@ -23,7 +23,7 @@
 
 /* CONST VARS */
 var VERSION = "3.6.0",
-	LAST_MODIFIED = "2021.04.17",
+	LAST_MODIFIED = "2021.05.21",
 	LOCALSTORAGE_CONFIG_KEY = "_COSMICCALC",
 	LOCALSTORAGE_VERSION_KEY = LOCALSTORAGE_CONFIG_KEY + "_VERSION",
 
@@ -481,7 +481,7 @@ $.fn.extend({
 /* CosmiCalc Init処理 */
 $(function(){
 
-$("#VERSION").text("CosmiCalc Ver." + VERSION + " (Not updated for CBUNI)");
+$("#VERSION").text("CosmiCalc Ver." + VERSION + " (Updated)");
 $("#LAST_MODIFIED").text(LAST_MODIFIED);
 
 $.extend(Settings, {

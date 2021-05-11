@@ -87,6 +87,7 @@
 {id:39,name:"Ghost Rider LG2",type:"a",cost:45,hp:25,str:0,tec:1,wlk:2,fly:2,tgh:0}
 {id:40,name:"Cinbydion LG2",cost:40,hp:25,str:0,tec:2,wlk:3,fly:1,tgh:0}
 {id:41,name:"Initone LG",type:"a",cost:45,hp:25,str:0,tec:1,wlk:3,fly:1,tgh:0}
+{id:42,name:"Gotrun LG",type:"l",cost:65,hp:25,str:1,tec:-1,wlk:3,fly:2,tgh:1,sub:{pwr:0,rng:120,spd:200,itv:1000}}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Gwyain LG",cost:50,hp:40,str:1,tec:1,wlk:3,fly:0,tgh:1}
@@ -129,12 +130,18 @@
 {id:38,name:"Geograsis LG2",type:"a",cost:45,hp:25,str:0,tec:2,wlk:1,fly:3,tgh:0}
 {id:39,name:"Kuschelb LG",type:"l",cost:145,hp:50,str:1,tec:0,wlk:4,fly:-1,tgh:1,sub:{str:100,pwr:28,rng:84,spd:102,itv:1000},tunable:{pwp:1}}
 {id:40,name:"Hecatocles LG2",type:"c",cost:70,hp:65,str:0,tec:0,wlk:3,fly:1,tgh:2,sub:{pwr:0,shl:30,rng:100,spd:260,itv:1000}}
+{id:41,name:"Steel Burn LG",type:"a",cost:45,hp:40,str:-1,tec:1,wlk:2,fly:1,tgh:3,joint:{bs:1}}
+{id:42,name:"Cataloss LG",type:"a",cost:75,hp:70,str:0,tec:0,wlk:2,fly:2,tgh:2,sub:{pwr:0,shl:30,rng:0,spd:0,itv:1000}}
+{id:43,name:"Antlion LG2",type:"c",cost:95,hp:60,str:-1,tec:0,wlk:4,fly:1,tgh:1,sub:{pwr:20,rng:100,spd:100,itv:1000}}
+{id:44,name:"Geograsis LG",cost:45,hp:25,str:1,tec:1,wlk:4,fly:0,tgh:0}
+{id:45,name:"Degomure LG",cost:45,hp:25,str:0,tec:0,wlk:4,fly:-1,tgh:2}
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:1,name:"Shino Exroad LG",type:"l",cost:145,hp:55,str:2,tec:-1,wlk:4,fly:0,tgh:1,joint:{bs:1},sub:{str:100,pwr:28,rng:150,spd:150,itv:1000},tunable:{pwp:1}}
 {id:2,name:"Shino Exroad LG3",type:"l",cost:225,hp:55,str:2,tec:-1,wlk:3,fly:0,tgh:2,joint:{bs:1},sub:{str:100,pwr:32,rng:77,spd:94,itv:1000},tunable:{pwp:1}}
 {id:3,name:"Rosso Aspide LG",type:"a",cost:115,hp:80,str:-1,tec:2,wlk:2,fly:6,tgh:2,sub:{pwr:0,shl:60,rng:150,spd:150,itv:1000}}
 {id:4,name:"Ragna Barret LG",cost:50,hp:60,str:0,tec:0,wlk:4,fly:0,tgh:2}
+{id:5,name:"Brigand Baron LG",cost:50,hp:70,str:1,tec:-1,wlk:3,fly:0,tgh:3}
 
 {group:"Joint",prefixID:"J",commonStat:{jointPart:1,slot:1,size:"M"}}
 {id:1,name:"Generic LGJ"}
