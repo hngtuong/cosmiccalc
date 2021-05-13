@@ -43,6 +43,7 @@
 {id:35,name:"AURA Lightning Gun",size:"S",type:"a",cost:70,main:{pwr:15,shl:240,rng:250,spd:440,itv:700},auraStat:{main:{pwr:18,shl:240,rng:250,spd:440,itv:700}},comment:"AURA"}
 {id:36,name:"Swallow Beam Gun",size:"M",type:"a",cost:80,main:{pwr:12,shl:320,rng:275,spd:440,itv:540}}
 {id:37,name:"Crystal Beam Gun",size:"M",type:"a",cost:110,main:{pwr:20,shl:250,rng:275,spd:440,itv:700}}
+{id:38,name:"Heracles Beetlegun",size:"M",type:"lc",cost:160,main:{pwr:23,shl:340,rng:225,spd:440,itv:500}}
 
 {group:"Machineguns",prefixID:"MG",commonStat:{tunable:{mwp:1}}}
 {id:1,name:"Nano Machinegun",size:"SS",cost:30,main:{pwr:4,shl:880,rng:160,spd:480,itv:140}}
@@ -191,3 +192,5 @@
 {id:24,name:"Powered Laser",size:"L",type:"a",cost:110,main:{pwr:17,shl:430,rng:225,spd:480,itv:100}}
 {id:25,name:"Squidol Gun",size:"S",type:"s",cost:50,main:{pwr:4,shl:900,rng:90,spd:480,itv:100}}
 {id:26,name:"Squidol Bazooka",size:"S",type:"s",cost:70,main:{pwr:12,shl:220,rng:275,spd:290,itv:700}}
+{id:27,name:"Brink Mace",size:"M",type:"c",cost:190,main:{pwr:12,shl:390,rng:330,spd:330,itv:1000},sub:{pwr:30,rng:75,spd:100,itv:1000},tunable:{pwp:1}}
+{id:28,name:"Brink Shield",size:"M",type:"c",cost:30,main:{pwr:0,shl:50,rng:0,spd:10,itv:1000}}

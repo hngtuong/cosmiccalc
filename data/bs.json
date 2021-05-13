@@ -52,6 +52,9 @@
 {id:46,name:"A. Miral BS@",type:"l",cost:100,main:{pwr:8,shl:500,rng:250,spd:360,itv:440},tunable:{pwp:1}}
 {id:47,name:"Pepen Girl BS",type:"c",cost:40,hp:25,str:-1,tec:2,wlk:2,fly:2,tgh:0}
 {id:48,name:"Feng Mei ALPHA BS2",type:"a",cost:30,hp:15,str:0,tec:0,wlk:1,fly:2,tgh:1}
+{id:49,name:"Liefy BS",type:"s",cost:110,hp:25,str:-1,tec:0,wlk:1,fly:2,tgh:2,main:{pwr:0,shl:80,rng:300,spd:300,itv:500},tunable:{mwp:1}}
+{id:50,name:"Shana BS",type:"a",cost:40,hp:25,str:-1,tec:2,wlk:1,fly:2,tgh:1}
+{id:51,name:"Stella BS",type:"a",cost:40,hp:25,str:0,tec:3,wlk:1,fly:2,tgh:-1}
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Axion BS",type:"l",cost:45,hp:25,str:0,tec:2,wlk:1,fly:3,tgh:-1}
@@ -137,6 +140,9 @@
 {id:81,name:"Psycho Formula BS",type:"c",cost:40,hp:25,str:0,tec:1,wlk:0,fly:3,tgh:1}
 {id:82,name:"Initone BS",type:"a",cost:40,hp:20,str:-1,tec:1,wlk:2,fly:3,tgh:0}
 {id:83,name:"Gotrun BS",type:"l",cost:40,hp:25,str:0,tec:-1,wlk:2,fly:3,tgh:1}
+{id:84,name:"Brink BS",type:"c",cost:40,hp:25,str:1,tec:1,wlk:0,fly:3,tgh:0}
+{id:85,name:"Saber Raystag BS",type:"a",cost:40,hp:25,str:2,tec:1,wlk:0,fly:3,tgh:1}
+{id:86,name:"Heracles Beetlander BS",type:"l",cost:40,hp:25,str:0,tec:1,wlk:0,fly:3,tgh:1}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Gwyain BS",type:"a",cost:40,hp:25,str:0,tec:2,wlk:-1,fly:3,tgh:1}
