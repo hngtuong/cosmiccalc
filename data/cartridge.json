@@ -49,7 +49,6 @@
 {id:3,name:"Capacity +70",comment:"Raises robot's cost capacity by 70 and HP by #hp."}
 {id:4,name:"Capacity +80",comment:"Raises robot's cost capacity by 80 and HP by #hp."}
 {id:5,name:"Capacity +90",comment:"Raises robot's cost capacity by 90 and HP by #hp."}
-{id:54,name:"Capacity (Custom)",comment:"Raises robot's cost capacity by #capa and HP by #hp."}
 {id:6,name:"Enhance Internal Weapon",comment:"Enhances the core's built in weapon. Raises robot's cost capacity by 55 and HP by 15"}
 //
 {id:"EX1",ex:1,name:"Accele Roll",comment:"Adds a Mid-air Dash Action called the [Accele Roll] to the robot.",cost:30}

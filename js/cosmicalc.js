@@ -2164,10 +2164,6 @@ function calc(){
 				Result.hp += 15;
 				Result.reinforce++;
 				break;
-			case "54":
-				Result.capa += Assembly.cartridge.capaup || 0;
-				Result.hp += Assembly.cartridge.hpup;
-				break;
 			default:
 				break;
 			}
