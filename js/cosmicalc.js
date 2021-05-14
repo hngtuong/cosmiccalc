@@ -22,8 +22,8 @@
 (function($, undefined){
 
 /* CONST VARS */
-var VERSION = "3.6.0",
-	LAST_MODIFIED = "2021.04.17",
+var VERSION = "4.0.0",
+	LAST_MODIFIED = "2021.05.13",
 	LOCALSTORAGE_CONFIG_KEY = "_COSMICCALC",
 	LOCALSTORAGE_VERSION_KEY = LOCALSTORAGE_CONFIG_KEY + "_VERSION",
 
@@ -78,7 +78,7 @@ var VERSION = "3.6.0",
 		fixed: {slot: 3},
 		bd: {
 			wbid: 0,
-			cartridge: {hpup:0,capaup:0,lv1:"",lv6:"",lv9:""}
+			cartridge: {hpup:0,capaup:0,ecapaup:0,lv1:"",lv6:"",lv9:""}
 		},
 		wb: {type:"lacs",size:"-"},
 		hd: {
@@ -141,7 +141,7 @@ var Parts_none = {
 		fly: 0,
 		tgh: 0,
 		slot: 0,
-		cartridge: {hpup:0,capaup:0}
+		cartridge: {hpup:0,capaup:0,ecapaup:0}
 	},
 	Parts_data = {
 		fixed: [],
@@ -269,7 +269,7 @@ $.extend(UnRedo, {
 				Assembly.cartridge = ccd[0].ref.cartridge;
 				makeCartridgeLst();
 			}else{
-				Assembly.cartridge = {hpup:0,capaup:0};
+				Assembly.cartridge = {hpup:0,capaup:0,ecapaup:0};
 				$("#CTRG_LIST_CONTAINER").empty();
 				$("#CURRENT_LV").text(ADDLEVEL+"/"+MAXLEVEL);
 				Result.lv = ADDLEVEL;
@@ -481,7 +481,7 @@ $.fn.extend({
 /* CosmiCalc Init処理 */
 $(function(){
 
-$("#VERSION").text("CosmiCalc Ver." + VERSION + " (Not updated for CBUNI)");
+$("#VERSION").text("CosmiCalc Ver." + VERSION + " (Updated for CBUNI)");
 $("#LAST_MODIFIED").text(LAST_MODIFIED);
 
 $.extend(Settings, {
@@ -944,7 +944,7 @@ $("#UNSET_PARTS").mouseenter(function(){
 		lineCalc();
 		if(Prop.target.ccd.part == "wb") Prop.target.value = Assembly.wb.def;
 		if(Prop.target.ccd.part == "bd"){
-			Assembly.cartridge = {hpup:0,capaup:0};
+			Assembly.cartridge = {hpup:0,capaup:0,ecapaup:0};
 			$("#CTRG_LIST_CONTAINER").empty();
 			$("#CURRENT_LV").text(ADDLEVEL+"/"+MAXLEVEL);
 			Result.lv = ADDLEVEL;
@@ -2156,25 +2156,11 @@ function calc(){
 			Result.cost += prp.cst;
 			switch(prp.cid){
 			case "1":
-			case "2":
-			case "3":
-			case "4":
-			case "5":
-				Result.capa += (prp.cid-0) * 10 + 40;
+				Result.capa += Assembly.cartridge.capaup || 0;
 				Result.hp += Assembly.cartridge.hpup;
 				break;
-			case "6":
-				Result.capa += 55;
-				Result.hp += 15;
-				Result.reinforce++;
-				break;
-			case "52":
-				Result.capa += 65;
-				Result.hp += 15;
-				Result.reinforce++;
-				break;
-			case "53":
-				Result.capa += 75;
+			case "2":
+				Result.capa += Assembly.cartridge.ecapaup || 0;
 				Result.hp += 15;
 				Result.reinforce++;
 				break;

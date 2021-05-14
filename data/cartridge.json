@@ -1,14 +1,9 @@
-﻿{id:1,name:"Capacity +50",comment:"Raises robot's cost capacity by 50 and HP by #hp."}
-{id:2,name:"Capacity +60",comment:"Raises robot's cost capacity by 60 and HP by #hp."}
-{id:3,name:"Capacity +70",comment:"Raises robot's cost capacity by 70 and HP by #hp."}
-{id:4,name:"Capacity +80",comment:"Raises robot's cost capacity by 80 and HP by #hp."}
-{id:5,name:"Capacity +90",comment:"Raises robot's cost capacity by 90 and HP by #hp."}
-{id:54,name:"Capacity (Custom)",comment:"Raises robot's cost capacity by #capa and HP by #hp."}
-{id:6,name:"Enhance Internal Weapon",comment:"Enhances the core's built in weapon. Raises robot's cost capacity by 55 and HP by 15"}
-{id:7,name:"Shell Guard",comment:"Decreases damage from bullet type projectiles by 15%."}
-{id:8,name:"Beam Guard",comment:"Decreases damage from beam type projectiles by 30% (55% for ART bots)."}
-{id:9,name:"Sword Guard",comment:"Decreases damage from melee attacks by 40% (50% for AIR bots)."}
-{id:10,name:"Blast Guard",comment:"Decreases damage from explosive projectiles by 50% (55% for LND bots)."}
+{id:1,name:"Capacity (Custom)",comment:"Raises robot's cost capacity by #capa and HP by #hp."}
+{id:2,name:"Enhance Internal Weapon",comment:"Enhances the core's built in weapon. Raises robot's cost capacity and 15 HP"}
+{id:7,name:"Shell Guard",comment:"Decreases damage from bullet type projectiles."}
+{id:8,name:"Sword Guard",comment:"Decreases damage from melee attacks."}
+{id:9,name:"Beam Guard",comment:"Decreases damage from beam type projectiles."}
+{id:10,name:"Blast Guard",comment:"Decreases damage from explosive projectiles."}
 {id:11,name:"Anti Burning",comment:"Allows robot to move normally even when on fire."}
 {id:12,name:"Anti Slow",comment:"Effects of slow traps will be reduced."}
 {id:13,name:"Fast Recovery",comment:"Status effects will only last half as long as usual."}
@@ -20,34 +15,42 @@
 {id:19,name:"Float Dash",comment:"Allows you to use the custom dash action 'Float Dash'. Instead of dashing, you will move by flying close to the ground."}
 {id:20,name:"Boost Run",comment:"Allows you to use the custom running action 'Boost Run'. Uses boost gauge to increase running speed."}
 {id:21,name:"Quick Boost",comment:"Boost gauge will recharge 30% faster."}
-{id:22,name:"Quick Jump",comment:"Allows you to reach maximum altitude quicker."}
-{id:23,name:"Quick Land",comment:"Allows you to make a quicker landing from the air."}
+{id:22,name:"Quick Land",comment:"Allows you to make a quicker landing from the air."}
+{id:23,name:"Quick Jump",comment:"Allows you to reach maximum altitude quicker."}
 {id:24,name:"Quick Swim",comment:"Allows you to move quickly through water."}
-{id:25,name:"Revenge Shot",comment:"Allows robot to occasionally attack without using up ammo when HP is below 50."}
+{id:25,name:"Revenge Shot",comment:"Attacks using main weapon (excluding Alpha Strike) have a chance not consume ammo, lower HP higher chance"}
 {id:26,name:"Moving Burst",comment:"Allows you to move for a short period of time while firing all weapons."}
 {id:27,name:"Soul Eater",comment:"Restores a small amount of HP whenever you destroy a robot in the Arena."}
 {id:28,name:"Wonder Rate Up",comment:"WB gauge's increase rate will grow when robot is damaged."}
 {id:29,name:"Absorb Bump",comment:"Robot will not move when bumped into by other robots."}
 {id:30,name:"Sniper Sight",comment:"Enemies will not be alerted when you have locked on to them."}
-{id:31,name:"Stealth System",comment:"Makes robot invisible to enemy radar."}
-{id:32,name:"Broad Radar",comment:"Allows robot to view all enemies on radar."}
+{id:31,name:"Broad Radar",comment:"Allows robot to view all enemies on radar."}
+{id:32,name:"Stealth System",comment:"Makes robot invisible to enemy radar."}
 {id:33,name:"Growing Wonder",comment:"Your WB gauge will slowly increase automatically."}
 {id:34,name:"Assault Step",comment:"Allows you to use the custom dash action 'Assault Step'. Steps quickly forward, and jumps left and right."}
 {id:35,name:"Zero Cartridge",comment:"Other special carts for 'Zero' type."}
 {id:36,name:"Accele Roll",comment:"Adds a Mid-air Dash Action called the [Accele Roll] to the robot."}
 {id:37,name:"Air Loop",comment:"Adds a Mid-air Dash Action called the [Air Loop] to the robot."}
-{id:38,name:"Ninja Run",comment:"Allows you to use the custom running action [Ninja Run]. Uses boost gauge to hide while running. Note: Cannot be used with Boost Run."}
+//{id:38,name:"Ninja Run",comment:"Allows you to use the custom running action [Ninja Run]. Uses boost gauge to hide while running. Note: Cannot be used with Boost Run."}
 {id:39,name:"Glide Boost",comment:"Allows you to use the custom aerial dash action [Glide Boost]"}
 {id:42,name:"Boost Step",comment:"Allows you to use the custom dash action [Boost Step]. By flying just above the ground, allows for quick turns and rapid evasion."}
 {id:43,name:"Hyper Radiator",comment:"Reduces damage from Burning and Melt status, also reduces Slow from Melt status into Light Slow."}
 //{id:44,ex:1,name:"エクスラズ用ダミーカートリッジ",comment:"エクスラズフラム用ダミーカートッジ",cost:180}
 {id:47,name:"Air Step",comment:"Adds a Mid-air Dash Action called the [Air Step] to the robot."}
-{id:48,name:"483",comment:"Increase Shell type attack by 15%."}
-{id:49,name:"484",comment:"Increase Blast type attack by 15%."}
-{id:50,name:"485",comment:"Increase Beam type attack by 15%."}
-{id:51,name:"486",comment:"Increase Physical type attack by 15%."}
-{id:52,name:"Enhance Internal Weapon",comment:"Enhances the core's built in weapon. Raises robot's cost capacity by 65 and HP by 15"}
-{id:53,name:"Enhance Internal Weapon",comment:"Enhances the core's built in weapon. Raises robot's cost capacity by 75 and HP by 15"}
+// {id:48,name:"483",comment:"Increase Shell type attack by 15%."}
+// {id:49,name:"484",comment:"Increase Blast type attack by 15%."}
+// {id:50,name:"485",comment:"Increase Beam type attack by 15%."}
+// {id:51,name:"486",comment:"Increase Physical type attack by 15%."}
+{id:52,name:"Ascending Force",comment:"During normal flight, your altitude will gradually increase until limit. Speed of the ascent varies ty type"}
+{id:53,name:"Fall Charge",comment:"Boost gauge will gradually charge when falling"}
+{id:54,name:"Aqua Walk",comment:"Allows you to walk normally through water."}
+{id:55,name:"Unique Cartridge",comment:"Other special carts for specific robots."}
+// legacy cartridges for at least some semblence of backward compatibility
+{id:3,name:"Capacity +70",comment:"Raises robot's cost capacity by 70 and HP by #hp."}
+{id:4,name:"Capacity +80",comment:"Raises robot's cost capacity by 80 and HP by #hp."}
+{id:5,name:"Capacity +90",comment:"Raises robot's cost capacity by 90 and HP by #hp."}
+{id:54,name:"Capacity (Custom)",comment:"Raises robot's cost capacity by #capa and HP by #hp."}
+{id:6,name:"Enhance Internal Weapon",comment:"Enhances the core's built in weapon. Raises robot's cost capacity by 55 and HP by 15"}
 //
 {id:"EX1",ex:1,name:"Accele Roll",comment:"Adds a Mid-air Dash Action called the [Accele Roll] to the robot.",cost:30}
 {id:"EX2",ex:1,name:"Air Loop",comment:"Adds a Mid-air Dash Action called the [Air Loop] to the robot. AIR TYPE ONLY.",cost:30}
