@@ -1,4 +1,4 @@
-{id:1,name:"Capacity (Custom)",comment:"Raises robot's cost capacity by #capa and HP by #hp."}
+﻿{id:1,name:"Capacity (Custom)",comment:"Raises robot's cost capacity by #capa and HP by #hp."}
 {id:2,name:"Enhance Internal Weapon",comment:"Enhances the core's built in weapon. Raises robot's cost capacity and 15 HP"}
 {id:7,name:"Shell Guard",comment:"Decreases damage from bullet type projectiles."}
 {id:8,name:"Sword Guard",comment:"Decreases damage from melee attacks."}

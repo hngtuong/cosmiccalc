@@ -92,6 +92,9 @@
 {id:43,name:"Brink LG",type:"c",cost:45,hp:25,str:0,tec:2,wlk:3,fly:1,tgh:0}
 {id:44,name:"Saber Raystag LG",cost:45,hp:25,str:0,tec:2,wlk:3,fly:0,tgh:1}
 {id:45,name:"Heracles Beetlander LG",cost:45,hp:25,str:1,tec:1,wlk:2,fly:0,tgh:2}
+{id:46,name:"Cyberoid LG",cost:45,hp:25,str:2,tec:0,wlk:3,fly:0,tgh:1}
+{id:47,name:"Scorpton LG",cost:45,hp:25,str:1,tec:1,wlk:3,fly:0,tgh:0}
+{id:48,name:"Victory LG",cost:40,hp:20,str:1,tec:0,wlk:3,fly:0,tgh:1}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Gwyain LG",cost:50,hp:40,str:1,tec:1,wlk:3,fly:0,tgh:1}
@@ -139,6 +142,10 @@
 {id:43,name:"Antlion LG2",type:"c",cost:95,hp:60,str:-1,tec:0,wlk:4,fly:1,tgh:1,sub:{pwr:20,rng:100,spd:100,itv:1000}}
 {id:44,name:"Geograsis LG",cost:45,hp:25,str:1,tec:1,wlk:4,fly:0,tgh:0}
 {id:45,name:"Degomure LG",cost:45,hp:25,str:0,tec:0,wlk:4,fly:-1,tgh:2}
+{id:46,name:"Steel Rider LG2",cost:45,hp:45,str:0,tec:1,wlk:5,fly:-1,tgh:0}
+{id:47,name:"King Megaton LG",cost:40,hp:20,str:1,tec:0,wlk:2,fly:0,tgh:2}
+{id:48,name:"King Gigaton LG",cost:45,hp:25,str:2,tec:0,wlk:3,fly:-1,tgh:2}
+{id:49,name:"Big Mountaiz LG2",type:"a",cost:90,hp:70,str:0,tec:1,wlk:3,fly:2,tgh:0,sub:{pwr:0,shl:100,rng:0,spd:60,itv:1000}}
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:1,name:"Shino Exroad LG",type:"l",cost:145,hp:55,str:2,tec:-1,wlk:4,fly:0,tgh:1,joint:{bs:1},sub:{str:100,pwr:28,rng:150,spd:150,itv:1000},tunable:{pwp:1}}
