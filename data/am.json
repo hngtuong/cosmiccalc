@@ -17,7 +17,7 @@
 {id:12,name:"Crimrose Alpha AM2",type:"a",cost:105,hp:20,str:3,tec:0,wlk:0,fly:1,tgh:1,joint:{wp:0},sub:{pwr:30,rng:70,spd:85,itv:500},tunable:{pwp:1}}
 {id:13,name:"Lily Rain Alpha AM",cost:35,hp:20,str:1,tec:2,wlk:0,fly:1,tgh:1}
 {id:14,name:"Jikun Alpha AM",cost:35,hp:20,str:1,tec:1,wlk:2,fly:0,tgh:1}
-{id:15,name:"Winberrl Alpha AM",type:"s",cost:75,hp:20,str:0,tec:2,wlk:0,fly:0,tgh:3,main:{pwr:5,shl:200,rng:200,spd:480,itv:500},tunable:{mwp:1}}
+{id:15,name:"Winberrl Alpha AM",type:"s",cost:75,hp:20,str:0,tec:2,wlk:0,fly:0,tgh:3,main:{pwr:7,shl:280,rng:250,spd:480,itv:500},tunable:{mwp:1}}
 {id:16,name:"Sol Volca Wing AM",cost:35,hp:20,str:0,tec:1,wlk:1,fly:2,tgh:1}
 {id:17,name:"Shine Buster AM",cost:40,hp:25,str:1,tec:2,wlk:1,fly:1,tgh:0}
 {id:18,name:"Shine Battler AM",cost:40,hp:25,str:2,tec:0,wlk:1,fly:1,tgh:1}
@@ -37,7 +37,7 @@
 {id:32,name:"A.L.E. LazFlamme AM2",type:"l",cost:105,hp:20,str:0,tec:3,wlk:1,fly:-1,tgh:2,joint:{wp:0},main:{pwr:9,shl:600,rng:225,spd:440,itv:200},tunable:{mwp:1}}
 {id:33,name:"A.L.E. Lily Rain AM",cost:35,hp:20,str:1,tec:3,wlk:0,fly:1,tgh:0}
 {id:34,name:"A.L.E. Jikun Long AM",type:"l",cost:75,hp:20,str:2,tec:-1,wlk:2,fly:0,tgh:2,sub:{pwr:26,rng:70,spd:85,itv:500},tunable:{pwp:1}}
-{id:35,name:"A.L.E. Winberrl AM",type:"s",cost:75,hp:20,str:0,tec:3,wlk:1,fly:-1,tgh:2,main:{pwr:2,shl:200,rng:200,spd:480,itv:300},tunable:{mwp:1}}
+{id:35,name:"A.L.E. Winberrl AM",type:"s",cost:75,hp:20,str:0,tec:3,wlk:1,fly:-1,tgh:2,main:{pwr:5,shl:300,rng:250,spd:480,itv:300},tunable:{mwp:1}}
 {id:36,name:"Zero Fighter NEXT AM",cost:35,hp:20,str:1,tec:2,wlk:1,fly:-1,tgh:2}
 {id:37,name:"LazFlamme Alpha AM",cost:35,hp:20,str:1,tec:1,wlk:1,fly:0,tgh:2}
 {id:38,name:"Zero Saber AM2",cost:35,hp:20,str:0,tec:3,wlk:1,fly:1,tgh:0}
@@ -132,6 +132,9 @@
 {id:70,name:"Brink AM",cost:40,hp:25,str:0,tec:1,wlk:1,fly:1,tgh:2}
 {id:71,name:"Saber Raystag AM",cost:40,hp:25,str:-1,tec:2,wlk:0,fly:2,tgh:2}
 {id:72,name:"Heracles Beetlander AM",cost:40,hp:25,str:3,tec:-1,wlk:0,fly:0,tgh:3}
+{id:73,name:"Cyberoid AM",cost:40,hp:25,str:1,tec:1,wlk:1,fly:1,tgh:1}
+{id:74,name:"Scorpton AM2",cost:35,hp:20,str:2,tec:0,wlk:1,fly:0,tgh:2}
+{id:75,name:"Victory AM",cost:35,hp:20,str:1,tec:2,wlk:0,fly:1,tgh:1}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Gwyain AM",type:"a",cost:40,hp:25,str:0,tec:1,wlk:0,fly:1,tgh:3,joint:{am:1},fixedParts:{am:{name:"Gwyain AM@",slot:0,joint:{wp:0}}}}
@@ -189,6 +192,9 @@
 {id:53,name:"Geograsis AM",cost:35,hp:20,str:2,tec:1,wlk:2,fly:-1,tgh:1}
 {id:54,name:"Geograsis AM3",type:"l",cost:105,hp:20,str:3,tec:0,wlk:3,fly:-1,tgh:0,sub:{pwr:30,rng:80,spd:150,itv:2000},tunable:{pwp:1}}
 {id:55,name:"Degomure AM2",type:"c",cost:65,hp:20,str:0,tec:3,wlk:1,fly:1,tgh:0,main:{pwr:13,shl:180,rng:330,spd:250,itv:1000},tunable:{mwp:1}}
+{id:56,name:"Steel Rider AM2",type:"l",cost:135,hp:20,str:-1,tec:3,wlk:1,fly:0,tgh:2,joint:{wp:0},main:{pwr:5,shl:1400,rng:225,spd:400,itv:180},tunable:{mwp:1}}
+{id:57,name:"King Megaton AM",cost:35,hp:20,str:2,tec:1,wlk:0,fly:0,tgh:2}
+{id:58,name:"King Gigaton AM",cost:40,hp:25,str:2,tec:2,wlk:0,fly:0,tgh:1}
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:1,name:"Persecius AM2",cost:80,hp:25,str:1,tec:1,wlk:0,fly:0,tgh:3}
@@ -196,6 +202,8 @@
 {id:3,name:"Thoarla AM2",type:"a",cost:190,hp:25,str:-1,tec:3,wlk:0,fly:1,tgh:2,joint:{wp:0},main:{pwr:33,shl:190,rng:275,spd:440,itv:600},tunable:{mwp:1}}
 {id:4,name:"Brigand Baron AM",cost:40,hp:25,str:2,tec:-1,wlk:1,fly:0,tgh:3}
 {id:5,name:"Brigand Baron LAM",cost:40,hp:25,str:2,tec:-1,wlk:1,fly:0,tgh:3,fixedParts:{wp:{name:"Brigand Shield",cost:30,slot:0,sub:{pwr:0,shl:10,itv:1000}}},conversion:"BDLL22",comment:"No Asura AMJ and its clone"}
+{id:6,name:"King Gigaton AM2",type:"c",cost:200,hp:25,str:-1,tec:4,wlk:0,fly:-1,tgh:3,joint:{wp:0},main:{pwr:37,shl:220,rng:330,spd:360,itv:800},sub:{pwr:30,shl:90,rng:350,spd:240,itv:1000},tunable:{mwp:1}}
+{id:7,name:"Big Mountaiz AM2",type:"a",cost:135,hp:20,str:-1,tec:3,wlk:0,fly:0,tgh:3,joint:{wp:0},main:{pwr:7,shl:1000,rng:275,spd:350,itv:900},tunable:{mwp:1}}
 
 {group:"Joint",prefixID:"J",commonStat:{size:"M",jointPart:1,slot:1}}
 {id:1,name:"Generic AMJ"}
@@ -209,7 +217,7 @@
 {id:9,name:"S.U. Barrier Shooter AMJ",type:"c",cost:60,hp:0,str:0,tec:-1,wlk:0,fly:0,tgh:2,main:{pwr:11,shl:180,rng:300,spd:260,itv:500},tunable:{mwp:1}}
 {id:10,name:"Beam Cannon Canceler AMJ",type:"c",cost:60,hp:0,str:0,tec:-1,wlk:0,fly:0,tgh:2,main:{pwr:16,shl:220,rng:300,spd:320,itv:800},tunable:{mwp:1}}
 {id:11,name:"Lateral Laser AMJ",type:"as",cost:60,hp:0,str:0,tec:2,wlk:0,fly:1,tgh:0,main:{pwr:3,shl:1560,rng:225,spd:480,itv:100},tunable:{mwp:1}}
-{id:12,name:"Draw Gun AMJ",type:"s",cost:60,hp:0,str:1,tec:1,wlk:0,fly:0,tgh:-1,main:{pwr:2,shl:150,rng:200,spd:480,itv:500},tunable:{mwp:1}}
+{id:12,name:"Draw Gun AMJ",type:"s",cost:60,hp:0,str:1,tec:1,wlk:0,fly:0,tgh:-1,main:{pwr:6,shl:200,rng:250,spd:480,itv:500},tunable:{mwp:1}}
 {id:13,name:"Wing Plus AMJ",size:"S",builtin:{bs:1},cost:20,hp:0,str:0,tec:0,wlk:-1,fly:2,tgh:0}
 {id:14,name:"Howitzer AMJ",size:"L",type:"c",cost:70,hp:0,str:0,tec:2,wlk:-1,fly:0,tgh:0,sub:{pwr:33,shl:60,rng:350,spd:210,itv:1000}}
 {id:15,name:"Asura AMJ",type:"lac",cost:40,hp:-25,str:0,tec:-2,wlk:-1,fly:0,tgh:0,joint:{am:2}}

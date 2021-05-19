@@ -31,3 +31,7 @@
 {id:15,name:"Manimo Wing",cost:70,slot:0,hp:25,str:1,fly:2,tgh:2,joint:{wp:1},sub:{pwr:0,shl:60,rng:0,spd:160,itv:1000},conversion:"BDAS17"}
 {id:16,name:"Aurora Cannon",slot:0,joint:{wp:2},conversion:"BDAS20AM"}
 {id:17,name:"Krieger Shield",cost:120,joint:{wp:1},main:{pwr:0,shl:50,rng:0,spd:10,itv:1000},sub:{str:100,pwr:30,rng:70,spd:85,itv:500},tunable:{mwp:1},conversion:"BDLS33AM",fixedParts:{wp:{name:"Krieger Shield@",cost:50,slot:0,sub:{str:100,pwr:28,rng:120,spd:250,itv:2500}}}}
+{id:18,name:"Chain Blade",cost:130,main:{pwr:0,shl:50,rng:0,spd:10,itv:1000},sub:{str:100,pwr:28,rng:77,spd:102,itv:500},conversion:"BDLS34AM"}
+{id:19,name:"Chain Blade Sheath",cost:60,slot:0,main:{pwr:0,shl:-1,rng:0,spd:150,itv:1000},sub:{str:100,pwr:28,rng:120,spd:250,itv:500},conversion:"BDLS34"}
+{id:20,name:"Captain Anchor",cost:110,slot:0,joint:{wp:1},sub:{str:100,pwr:30,rng:0,spd:100,itv:500},auraStat:{main:{str:100,pwr:20,shl:50,rng:200,spd:400,itv:500},sub:{str:100,pwr:28,itv:1000}},conversion:"BDLS35AM"}
+{id:21,name:"Captain Anchor@",cost:120,main:{pwr:0,shl:50,rng:0,spd:10,itv:1000},sub:{str:100,pwr:30,rng:70,spd:85,itv:500},conversion:"WPCS20"}

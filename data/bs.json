@@ -143,6 +143,9 @@
 {id:84,name:"Brink BS",type:"c",cost:40,hp:25,str:1,tec:1,wlk:0,fly:3,tgh:0}
 {id:85,name:"Saber Raystag BS",type:"a",cost:40,hp:25,str:2,tec:1,wlk:0,fly:3,tgh:1}
 {id:86,name:"Heracles Beetlander BS",type:"l",cost:40,hp:25,str:0,tec:1,wlk:0,fly:3,tgh:1}
+{id:87,name:"Cyberoid BS",type:"s",cost:40,hp:25,str:0,tec:2,wlk:0,fly:3,tgh:0}
+{id:88,name:"Scorpton BS",type:"s",cost:35,hp:20,str:0,tec:2,wlk:0,fly:3,tgh:0}
+{id:89,name:"Victory BS",type:"c",cost:35,hp:20,str:0,tec:1,wlk:1,fly:2,tgh:1}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Gwyain BS",type:"a",cost:40,hp:25,str:0,tec:2,wlk:-1,fly:3,tgh:1}
@@ -177,6 +180,10 @@
 {id:30,name:"Cataloss BS",type:"a",cost:40,hp:25,str:1,tec:1,wlk:-1,fly:3,tgh:1}
 {id:41,name:"Antlion BS",type:"c",cost:90,hp:25,str:-1,tec:2,wlk:0,fly:2,tgh:2,sub:{pwr:7,shl:360,rng:350,spd:290,itv:1000}}
 {id:42,name:"Degomure BS",type:"c",cost:40,hp:25,str:-1,tec:3,wlk:0,fly:2,tgh:1,joint:{bs:2},fixedParts:{bs:[{name:"Degomure BS@1",cost:60,slot:0,main:{pwr:23,shl:120,rng:330,spd:350,itv:800}},{name:"Degomure BS@2",cost:60,slot:0,main:{pwr:10,shl:300,rng:380,spd:500,itv:300}}]}}
+{id:43,name:"Steel Rider BS",type:"l",cost:40,hp:25,str:0,tec:1,wlk:1,fly:3,tgh:0}
+{id:44,name:"King Megaton BS",type:"c",cost:35,hp:20,str:0,tec:1,wlk:0,fly:3,tgh:1}
+{id:45,name:"King Gigaton BS",type:"c",cost:40,hp:25,str:-1,tec:1,wlk:0,fly:3,tgh:2}
+{id:46,name:"Big Mountaiz BS",type:"a",cost:40,hp:25,str:0,tec:1,wlk:0,fly:2,tgh:2}
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:1,name:"Shaden BS",type:"a",cost:125,hp:25,str:0,tec:0,wlk:0,fly:5,tgh:0,sub:{pwr:1,shl:1,rng:200,spd:110,itv:2000}}
