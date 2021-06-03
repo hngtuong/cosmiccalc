@@ -14,6 +14,7 @@
 {id:13,name:"Auto-Charge Cassette",cost:30,slot:0,main:{pwr:28,shl:60,rng:300,spd:480,itv:500},conversion:"WPCS16"}
 {id:14,name:"Impact Arrow",cost:30,slot:0,main:{pwr:22,shl:230,rng:225,spd:480,itv:600},conversion:"AMM83"}
 {id:15,name:"Homing Arrow",cost:50,slot:0,main:{pwr:13,shl:180,rng:250,spd:320,itv:800},conversion:"AMM83"}
+{id:16,name:"Labyrinthaxe",cost:225,main:{pwr:13,shl:320,rng:330,spd:330,itv:340},sub:{pwr:30,shl:120,rng:350,spd:290,itv:1000},conversion:"BDCS21AM"}
 
 {group:"Conversion-SWP",prefixID:"CS",commonStat:{tunable:{pwp:1}}}
 {id:1,name:"Gradd Chainsaw",cost:60,sub:{str:100,pwr:32,rng:70,spd:85,itv:500},conversion:"BDLS3AM"}
@@ -37,3 +38,4 @@
 {id:19,name:"Chain Blade Sheath",cost:60,slot:0,main:{pwr:0,shl:-1,rng:0,spd:150,itv:1000},sub:{str:100,pwr:28,rng:120,spd:250,itv:500},conversion:"BDLS34"}
 {id:20,name:"Captain Anchor",cost:110,slot:0,joint:{wp:1},sub:{str:100,pwr:30,rng:0,spd:100,itv:500},auraStat:{main:{str:100,pwr:20,shl:50,rng:200,spd:400,itv:500},sub:{str:100,pwr:28,itv:1000}},conversion:"BDLS35AM"}
 {id:21,name:"Captain Anchor@",cost:120,main:{pwr:0,shl:50,rng:0,spd:10,itv:1000},sub:{str:100,pwr:30,rng:70,spd:85,itv:500},conversion:"WPCS20"}
+{id:22,name:"Transform",cost:50,slot:0,sub:{spd:150,itv:500},conversion:"BDAM28"}

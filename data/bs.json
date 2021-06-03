@@ -2,6 +2,7 @@
 {id:1,name:"A.L.E. LazFlamme BS",type:"l",cost:70,hp:25,str:-1,tec:2,wlk:2,fly:2,tgh:0,sub:{pwr:20,shl:30,rng:150,spd:200,itv:500},tunable:{pwp:1},conversion:"LGS34"}
 {id:2,name:"Fairys BS@",cost:20,sub:{pwr:0,shl:40,rng:0,spd:160,itv:1000},conversion:"BSM74"}
 {id:3,name:"Shadow Kinesis BS@",type:"a",cost:20,slot:0,sub:{pwr:0,rng:275,spd:10,itv:1000},conversion:"BSM93"}
+{id:4,name:"K Nonna BS@",cost:160,slot:0,main:{pwr:15,shl:450,rng:350,spd:500,itv:400},sub:{pwr:28,shl:100,rng:350,spd:500,itv:1000},conversion:"BSS29"}
 
 {group:"SS Size",prefixID:"SS",commonStat:{size:"SS"}}
 {id:1,name:"Build Arm BS",type:"c",cost:140,hp:25,str:-1,tec:3,wlk:0,fly:2,tgh:1,main:{pwr:15,shl:280,rng:330,spd:380,itv:580},tunable:{mwp:1}}
@@ -37,7 +38,7 @@
 {id:26,name:"Zero Saber NEXT BS",type:"l",cost:70,hp:25,str:2,tec:1,wlk:-1,fly:3,tgh:0,sub:{pwr:1,shl:30,rng:10,spd:150,itv:1000}}
 {id:27,name:"Arteris BS",type:"l",cost:40,hp:25,str:0,tec:-1,wlk:1,fly:3,tgh:2}
 {id:28,name:"Orphenous BS",type:"s",cost:40,hp:25,str:0,tec:1,wlk:2,fly:3,tgh:-1}
-//
+{id:29,name:"K Nonna BS",cost:35,hp:20,str:-1,tec:3,wlk:0,fly:3,tgh:0,joint:{bs:1}}
 {id:30,name:"A.L.E. Lily Rain BS",type:"c",cost:40,hp:25,str:-1,tec:0,wlk:1,fly:3,tgh:2}
 {id:31,name:"A.L.E. Jikun Long BS",type:"l",cost:40,hp:25,str:2,tec:0,wlk:1,fly:2,tgh:0}
 {id:32,name:"A.L.E. Winberrl BS",type:"s",cost:40,hp:25,str:-1,tec:0,wlk:1,fly:3,tgh:2}
@@ -66,7 +67,7 @@
 {id:1,name:"Axion BS",type:"l",cost:45,hp:25,str:0,tec:2,wlk:1,fly:3,tgh:-1}
 {id:2,name:"Estes BS",type:"l",cost:40,hp:25,str:0,tec:2,wlk:2,fly:2,tgh:-1}
 {id:3,name:"Baltheon BS",type:"a",cost:40,hp:25,str:-1,tec:1,wlk:0,fly:3,tgh:2}
-{id:4,name:"Psycho Cluster BS",type:"a",cost:40,hp:20,str:1,tec:2,wlk:0,fly:3,tgh:-1}
+{id:4,name:"Psycho Cluster BS",type:"a",cost:40,hp:25,str:1,tec:2,wlk:0,fly:3,tgh:-1}
 {id:5,name:"Ramdiver BS",type:"a",cost:70,hp:25,str:0,tec:0,wlk:0,fly:4,tgh:1,sub:{pwr:0,itv:500}}
 {id:6,name:"Amateus BS",type:"c",cost:40,hp:25,str:1,tec:2,wlk:-1,fly:3,tgh:0}
 {id:7,name:"Bugsycait BS",type:"s",cost:140,hp:25,str:0,tec:1,wlk:-1,fly:3,tgh:2,sub:{pwr:20,shl:240,rng:275,spd:250,itv:1000}}
@@ -105,7 +106,7 @@
 {id:40,name:"Izuna Kamui Alpha BS",type:"a",cost:90,hp:25,str:-1,tec:2,wlk:0,fly:3,tgh:1,sub:{pwr:6,shl:400,rng:275,spd:290,itv:1000}}
 {id:41,name:"Lancelot BS",type:"l",cost:40,hp:25,str:0,tec:0,wlk:1,fly:3,tgh:1}
 {id:42,name:"Pacifar BS",type:"a",cost:40,hp:25,str:1,tec:1,wlk:0,fly:3,tgh:0}
-{id:43,name:"Sigma Clock BS",type:"s",cost:40,hp:20,str:2,tec:1,wlk:0,fly:2,tgh:0}
+{id:43,name:"Sigma Clock BS",type:"s",cost:40,hp:25,str:2,tec:1,wlk:0,fly:2,tgh:0}
 {id:44,name:"Bloody Star BS",type:"c",cost:40,hp:20,str:1,tec:0,wlk:2,fly:2,tgh:0}
 {id:45,name:"Double Star Edge BS-B",cost:35,hp:20,str:1,tec:0,wlk:1,fly:3,tgh:0}
 {id:46,name:"Crystalight Wing BS ALPHA",cost:35,hp:20,str:2,tec:0,wlk:0,fly:3,tgh:0}
@@ -137,8 +138,8 @@
 {id:72,name:"Honest Wing BS BETA",cost:35,hp:20,str:1,tec:0,wlk:0,fly:3,tgh:1}
 {id:73,name:"Izuna Kamui Alpha BS3",type:"a",cost:85,hp:25,str:-1,tec:1,wlk:1,fly:4,tgh:0,main:{pwr:4,shl:520,rng:275,spd:335,itv:1000},tunable:{mwp:1}}
 {id:74,name:"Fairys BS",type:"a",cost:40,hp:25,str:0,tec:0,wlk:2,fly:3,tgh:0,joint:{bs:1}}
-//
-{id:76,name:"Vanguard BS",type:"l",cost:40,hp:20,str:-1,tec:2,wlk:0,fly:3,tgh:1}
+{id:75,name:"Wizamel BS",type:"a",cost:65,hp:20,str:0,tec:2,wlk:1,fly:3,tgh:-1,sub:{str:100,pwr:1,shl:35,rng:150,spd:180,itv:1000}}
+{id:76,name:"Vanguard BS",type:"l",cost:40,hp:25,str:-1,tec:2,wlk:0,fly:3,tgh:1}
 {id:77,name:"Gathima BS",type:"c",cost:40,hp:20,str:-1,tec:1,wlk:0,fly:3,tgh:2}
 {id:78,name:"Lux BS",type:"a",cost:40,hp:25,str:1,tec:1,wlk:0,fly:4,tgh:-1}
 {id:79,name:"Mighty Byne Girl BS",type:"l",cost:40,hp:25,str:0,tec:0,wlk:1,fly:2,tgh:2}
@@ -157,6 +158,7 @@
 {id:92,name:"Synoris BS2",type:"l",cost:65,hp:20,str:-1,tec:1,wlk:2,fly:3,tgh:0,sub:{pwr:13,shl:180,rng:250,spd:300,itv:1000}}
 {id:93,name:"Shadow Kinesis BS",type:"a",cost:160,hp:20,str:-1,tec:2,wlk:0,fly:3,tgh:1,joint:{bs:1},main:{pwr:6,shl:1020,rng:275,spd:440,itv:1000},tunable:{mwp:1}}
 {id:94,name:"Robin Hunter BS",type:"l",cost:50,hp:20,str:-1,tec:2,wlk:1,fly:3,tgh:0,sub:{str:100,pwr:10,shl:20,rng:100,spd:340,itv:1000}}
+{id:95,name:"Vanguard BS2",type:"l",cost:40,hp:25,str:-1,tec:1,wlk:1,fly:2,tgh:2}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Gwyain BS",type:"a",cost:40,hp:25,str:0,tec:2,wlk:-1,fly:3,tgh:1}
@@ -197,6 +199,7 @@
 {id:46,name:"Big Mountaiz BS",type:"a",cost:40,hp:25,str:0,tec:1,wlk:0,fly:2,tgh:2}
 {id:47,name:"Domiclown BS",type:"l",cost:35,hp:20,str:2,tec:-1,wlk:0,fly:3,tgh:1}
 {id:48,name:"Zarid BS",type:"l",cost:40,hp:25,str:0,tec:2,wlk:-1,fly:3,tgh:1}
+{id:49,name:"Raclaboros BS",type:"s",cost:40,hp:25,str:-1,tec:2,wlk:1,fly:3,tgh:0}
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:1,name:"Shaden BS",type:"a",cost:125,hp:25,str:0,tec:0,wlk:0,fly:5,tgh:0,sub:{pwr:1,shl:1,rng:200,spd:110,itv:2000}}
