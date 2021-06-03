@@ -45,6 +45,8 @@
 {id:44,name:"Blume LG",type:"s",cost:95,hp:25,str:2,tec:-1,wlk:3,fly:0,tgh:1,sub:{str:100,pwr:28,shl:30,rng:80,spd:70,itv:1000},tunable:{pwp:1}}
 {id:45,name:"A. Miral LG",cost:45,hp:25,str:-1,tec:2,wlk:3,fly:0,tgh:1}
 {id:46,name:"Liefy LG",cost:45,hp:25,str:-1,tec:-1,wlk:3,fly:2,tgh:2}
+{id:47,name:"Meteora LG",type:"a",cost:145,hp:25,str:-1,tec:3,wlk:2,fly:2,tgh:0,sub:{pwr:7,shl:600,rng:275,spd:300,itv:1000}}
+{id:48,name:"K Nonna LG",type:"c",cost:40,hp:20,str:0,tec:0,wlk:2,fly:2,tgh:1}
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Axion LG",type:"l",cost:45,hp:25,str:1,tec:1,wlk:3,fly:2,tgh:-1}
@@ -82,7 +84,7 @@
 {id:33,name:"Cydron LG",cost:45,hp:25,str:2,tec:0,wlk:2,fly:-1,tgh:2}
 {id:34,name:"Hoplites LG",cost:45,hp:25,str:1,tec:1,wlk:2,fly:1,tgh:0}
 {id:35,name:"Voltis LG",cost:45,hp:30,str:1,tec:1,wlk:3,fly:2,tgh:-1}
-{id:36,name:"Vanguard LG",cost:45,hp:25,str:2,tec:-1,wlk:3,fly:0,tgh:1}
+{id:36,name:"Vanguard LG",cost:45,hp:25,str:2,tec:-1,wlk:3,fly:0,tgh:2}
 {id:37,name:"Gathima LG",cost:45,hp:25,str:1,tec:1,wlk:3,fly:0,tgh:1}
 {id:38,name:"Lux LG",cost:45,hp:25,str:1,tec:0,wlk:2,fly:2,tgh:1}
 {id:39,name:"Ghost Rider LG2",type:"a",cost:45,hp:25,str:0,tec:1,wlk:2,fly:2,tgh:0}
@@ -95,6 +97,14 @@
 {id:46,name:"Cyberoid LG",cost:45,hp:25,str:2,tec:0,wlk:3,fly:0,tgh:1}
 {id:47,name:"Scorpton LG",cost:45,hp:25,str:1,tec:1,wlk:3,fly:0,tgh:0}
 {id:48,name:"Victory LG",cost:40,hp:20,str:1,tec:0,wlk:3,fly:0,tgh:1}
+{id:49,name:"Maril March Alpha LG",cost:45,hp:25,str:0,tec:2,wlk:2,fly:0,tgh:1}
+{id:50,name:"Ogreil LG",cost:45,hp:25,str:-1,tec:0,wlk:2,fly:2,tgh:3,joint:{bs:1}}
+{id:51,name:"Synoris LG2",type:"l",cost:95,hp:25,str:1,tec:0,wlk:4,fly:-1,tgh:2,sub:{str:100,pwr:25,rng:80,spd:180,itv:400},tunable:{pwp:1}}
+{id:52,name:"Shadow Kinesis LG",cost:45,hp:25,str:2,tec:1,wlk:2,fly:-1,tgh:2}
+{id:53,name:"Robin Hunter LG",cost:45,hp:25,str:0,tec:2,wlk:2,fly:2,tgh:0}
+{id:54,name:"Wizamel LG",cost:45,hp:25,str:0,tec:1,wlk:2,fly:2,tgh:1}
+{id:55,name:"Flapjack LG",cost:115,hp:25,str:0,tec:1,wlk:3,fly:1,tgh:1,main:{pwr:8,shl:530,rng:275,spd:280,itv:760},sub:{pwr:0,shl:100,rng:100,spd:180,itv:1000},tunable:{mwp:1}}
+{id:56,name:"Vanguard LG2",cost:45,hp:25,str:1,tec:0,wlk:3,fly:-1,tgh:3}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Gwyain LG",cost:50,hp:40,str:1,tec:1,wlk:3,fly:0,tgh:1}
@@ -146,6 +156,10 @@
 {id:47,name:"King Megaton LG",cost:40,hp:20,str:1,tec:0,wlk:2,fly:0,tgh:2}
 {id:48,name:"King Gigaton LG",cost:45,hp:25,str:2,tec:0,wlk:3,fly:-1,tgh:2}
 {id:49,name:"Big Mountaiz LG2",type:"a",cost:90,hp:70,str:0,tec:1,wlk:3,fly:2,tgh:0,sub:{pwr:0,shl:100,rng:0,spd:60,itv:1000}}
+{id:50,name:"Shaden LG2",cost:45,hp:45,str:-1,tec:2,wlk:2,fly:2,tgh:1}
+{id:51,name:"Domiclown LG",cost:50,hp:40,str:2,tec:1,wlk:3,fly:-1,tgh:1}
+{id:52,name:"Sturbanger LG2",type:"c",cost:135,hp:50,str:-1,tec:2,wlk:3,fly:0,tgh:2,sub:{pwr:15,shl:30,rng:350,spd:290,itv:1000}}
+{id:53,name:"Zarid LG",cost:45,hp:50,str:0,tec:0,wlk:4,fly:-1,tgh:3}
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:1,name:"Shino Exroad LG",type:"l",cost:145,hp:55,str:2,tec:-1,wlk:4,fly:0,tgh:1,joint:{bs:1},sub:{str:100,pwr:28,rng:150,spd:150,itv:1000},tunable:{pwp:1}}
@@ -153,6 +167,7 @@
 {id:3,name:"Rosso Aspide LG",type:"a",cost:115,hp:80,str:-1,tec:2,wlk:2,fly:6,tgh:2,sub:{pwr:0,shl:60,rng:150,spd:150,itv:1000}}
 {id:4,name:"Ragna Barret LG",cost:50,hp:60,str:0,tec:0,wlk:4,fly:0,tgh:2}
 {id:5,name:"Brigand Baron LG",cost:50,hp:70,str:1,tec:-1,wlk:3,fly:0,tgh:3}
+{id:6,name:"Raclaboros LG",type:"s",cost:245,hp:60,str:2,tec:2,wlk:3,fly:0,tgh:-1,joint:{wp:1},fixedParts:{wp:{name:"Raclaboros LG@",slot:0,main:{pwr:15,shl:400,rng:250,spd:440,itv:500},sub:{str:100,pwr:27,rng:70,spd:85,itv:1000}}}}
 
 {group:"Joint",prefixID:"J",commonStat:{jointPart:1,slot:1,size:"M"}}
 {id:1,name:"Generic LGJ"}
@@ -160,3 +175,4 @@
 {id:3,name:"Snail Bomb LGJ",type:"s",cost:80,hp:0,str:0,tec:2,wlk:0,fly:0,tgh:-1,sub:{pwr:20,shl:400,rng:100,spd:100,itv:1000}}
 {id:4,name:"Force Barrier LGJ",size:"S",cost:50,hp:0,str:0,tec:2,wlk:0,fly:0,tgh:-1,sub:{pwr:0,shl:35,rng:600,spd:100,itv:1000}}
 {id:5,name:"Nine Tailed LGJ",cost:10,hp:5}
+{id:6,name:"Zarid LGJ",size:"L"}
