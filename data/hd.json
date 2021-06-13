@@ -56,7 +56,7 @@
 {id:31,name:"Cosmo Kaiser HD",cost:40,hp:25,str:-1,tec:2,wlk:1,fly:1,tgh:2}
 {id:32,name:"Cannonballer HL HD",cost:40,hp:25,str:0,tec:2,wlk:2,fly:-1,tgh:2}
 {id:33,name:"Volcanics HD",cost:120,hp:20,str:0,tec:2,wlk:0,fly:2,tgh:1,main:{pwr:5,shl:800,rng:110,spd:480,itv:100},tunable:{mwp:1}}
-{id:34,name:"Sword Wing HD2",cost:35,hp:20,str:2,tec:-1,wlk:1,fly:2,tgh:2}
+{id:34,name:"Sword Wing HD2",cost:35,hp:20,str:2,tec:-1,wlk:0,fly:2,tgh:1}
 {id:35,name:"Garulabird HD",cost:40,hp:25,str:1,tec:2,wlk:0,fly:2,tgh:0}
 {id:36,name:"Sea Turtlebacker HD",cost:40,hp:20,str:0,tec:1,wlk:0,fly:2,tgh:2}
 {id:37,name:"Butterflea HD",cost:40,hp:25,str:1,tec:0,wlk:2,fly:1,tgh:1}
@@ -160,6 +160,7 @@
 {id:135,name:"Flapjack HD",type:"a",cost:100,hp:25,str:0,tec:2,wlk:-1,fly:2,tgh:2,main:{pwr:4,shl:900,rng:275,spd:350,itv:720},tunable:{mwp:1},auraStat:{str:0,tec:2,wlk:-1,fly:2,tgh:2,main:{pwr:4,shl:900,rng:275,spd:350,itv:240}}}
 {id:136,name:"Vanguard HD3",cost:40,hp:25,str:2,tec:-1,wlk:1,fly:0,tgh:3}
 {id:137,name:"Raclaboros HD",cost:40,hp:25,str:3,tec:-1,wlk:1,fly:1,tgh:1}
+{id:1001,name:"Lucca Decho HD",cost:40,hp:25,str:2,tec:-1,wlk:0,fly:2,tgh:2}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Aquila HD",cost:35,hp:20,str:1,tec:1,wlk:2,fly:1,tgh:0}
