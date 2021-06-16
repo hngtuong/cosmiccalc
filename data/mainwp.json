@@ -60,10 +60,10 @@
 {id:12,name:"Rage Machinegun",size:"M",type:"l",cost:120,main:{pwr:12,shl:440,rng:160,spd:480,itv:140}}
 {id:13,name:"Eight Vulcan",size:"LL",type:"lc",cost:130,main:{pwr:8,shl:1640,rng:110,spd:480,itv:220}}
 {id:14,name:"LL Bulk Gatling",size:"LL",type:"l",cost:220,main:{pwr:13,shl:1200,rng:200,spd:400,itv:140}}
-{id:15,name:"Beam Machinegun",size:"S",type:"as",cost:90,main:{pwr:8,shl:580,rng:200,spd:480,itv:140}}
+{id:15,name:"Beam Machinegun",size:"S",type:"as",cost:90,main:{pwr:9,shl:580,rng:200,spd:480,itv:140}}
 {id:16,name:"Beam Gatling",size:"LL",type:"a",cost:140,main:{pwr:7,shl:1020,rng:250,spd:440,itv:140}}
 {id:17,name:"Double Beam Gatling",size:"LL",type:"a",cost:200,main:{pwr:6,shl:1620,rng:250,spd:440,itv:140}}
-{id:18,name:"Heat Gatling",size:"M",type:"c",cost:160,main:{pwr:10,shl:1200,rng:330,spd:440,itv:200}}
+{id:18,name:"Heat Gatling",size:"M",type:"c",cost:160,main:{pwr:10,shl:1200,rng:330,spd:440,itv:140}}
 {id:19,name:"Double Beam Machinegun",size:"S",type:"a",cost:130,main:{pwr:6,shl:1170,rng:200,spd:480,itv:140}}
 
 {group:"Rifles",prefixID:"LF",commonStat:{tunable:{mwp:1}}}
@@ -187,7 +187,7 @@
 {id:19,name:"Berzelius Anima",size:"M",type:"c",cost:200,sub:{pwr:21,shl:880,rng:330,spd:330,itv:500}}
 {id:20,name:"Blast Magnet Gun",size:"S",type:"c",cost:120,main:{pwr:23,shl:230,rng:330,spd:290,itv:800}}
 {id:21,name:"Long Burner",size:"M",cost:150,type:"cs",main:{pwr:9,shl:840,rng:160,spd:480,itv:100}}
-{id:22,name:"Fractulus Anima",size:"M",cost:200,type:"a",main:{pwr:8,shl:800,rng:275,spd:400,itv:200}}
+{id:22,name:"Fractulus Anima",size:"M",cost:200,type:"a",main:{pwr:7,shl:800,rng:275,spd:400,itv:200}}
 {id:23,name:"Rapid Pulse Missile",size:"M",type:"a",cost:110,main:{pwr:11,shl:350,rng:275,spd:350,itv:320}}
 {id:24,name:"Powered Laser",size:"L",type:"a",cost:110,main:{pwr:17,shl:430,rng:225,spd:480,itv:100}}
 {id:25,name:"Squidol Gun",size:"S",type:"s",cost:50,main:{pwr:4,shl:900,rng:90,spd:480,itv:100}}
