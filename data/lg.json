@@ -107,6 +107,7 @@
 {id:55,name:"Flapjack LG",cost:115,hp:25,str:0,tec:1,wlk:3,fly:1,tgh:1,main:{pwr:8,shl:530,rng:275,spd:280,itv:760},sub:{pwr:0,shl:100,rng:100,spd:180,itv:1000},tunable:{mwp:1}}
 {id:56,name:"Vanguard LG2",cost:45,hp:25,str:1,tec:0,wlk:3,fly:-1,tgh:3}
 {id:57,name:"Synoris LG",cost:45,hp:25,str:-1,tec:1,wlk:4,fly:0,tgh:2}
+{id:58,name:"Lucca Decho LG",cost:45,hp:25,str:-1,tec:1,wlk:3,fly:0,tgh:3}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Gwyain LG",cost:50,hp:40,str:1,tec:1,wlk:3,fly:0,tgh:1}
