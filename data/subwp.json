@@ -64,6 +64,7 @@
 {id:5,name:"Buckler",size:"SS",cost:40}
 {id:6,name:"Canvas Shield",size:"M",cost:40}
 {id:7,name:"Crystalight Shield ALPHA",size:"M",cost:35}
+{id:8,name:"Riot Shield",size:"L",cost:40}
 //{id:16,name:"-",slot:0}
 
 {group:"Others",prefixID:"SO"}
