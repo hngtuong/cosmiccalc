@@ -196,7 +196,7 @@
 {id:38,name:"Might Bomber AM",type:"a",cost:85,hp:20,str:-1,tec:2,wlk:1,fly:2,tgh:1,joint:{wp:0},main:{pwr:5,shl:900,rng:250,spd:440,itv:140},tunable:{mwp:1}}
 {id:39,name:"Might Bomber AM3",type:"a",cost:115,hp:20,str:-1,tec:3,wlk:0,fly:1,tgh:2,joint:{wp:0},main:{pwr:9,shl:500,rng:275,spd:350,itv:680},tunable:{mwp:1}}
 {id:40,name:"Mighty Byne AM2",cost:80,hp:25,str:1,tec:0,wlk:1,fly:0,tgh:3}
-{id:41,name:"Mighty Byne AM3",type:"l",cost:155,hp:25,str:4,tec:0,wlk:2,fly:-1,tgh:0,joint:{wp:0},main:{str:100,pwr:9,shl:780,rng:150,spd:400,itv:500},sub:{str:100,pwr:38,shl:30,rng:70,spd:85,itv:500},tunable:{mwp:1,pwp:1}}
+{id:41,name:"Wolf Rayet AM",cost:40,hp:25,str:0,tec:3,wlk:1,fly:1,tgh:0}
 {id:42,name:"Toybox AM2",type:"c",cost:95,hp:25,str:0,tec:2,wlk:0,fly:0,tgh:3,main:{pwr:10,shl:480,rng:330,spd:480,itv:300},tunable:{mwp:1}}
 {id:43,name:"Victorl AM3",type:"c",cost:185,hp:20,str:-1,tec:3,wlk:0,fly:1,tgh:2,joint:{wp:0},main:{pwr:32,shl:220,rng:330,spd:360,itv:800},tunable:{mwp:1}}
 {id:44,name:"Kuschelb AM",type:"l",cost:90,hp:20,str:3,tec:0,wlk:1,fly:2,tgh:-1,sub:{str:100,pwr:33,rng:35,spd:43,itv:2000},tunable:{pwp:1}}
@@ -222,6 +222,7 @@
 {id:64,name:"Raclaboros AM",cost:40,hp:25,str:1,tec:2,wlk:-1,fly:1,tgh:2}
 {id:65,name:"Domiclown AM",type:"l",cost:220,hp:25,str:4,tec:-1,wlk:1,fly:0,tgh:1,joint:{wp:0},main:{str:100,pwr:22,shl:150,rng:200,spd:400,itv:560},sub:{str:100,pwr:30,rng:70,spd:85,itv:2000},tunable:{mwp:1,pwp:1}}
 {id:66,name:"Boiledeck AM",type:"c",cost:95,hp:20,str:-1,tec:2,wlk:1,fly:1,tgh:2,joint:{wp:0},main:{pwr:7,shl:1050,rng:330,spd:440,itv:140},tunable:{mwp:1}}
+{id:67,name:"Might Bomber AM2",type:"a",cost:115,hp:20,str:-1,tec:3,wlk:0,fly:2,tgh:1,joint:{wp:0},main:{pwr:25,shl:240,rng:275,spd:400,itv:720},tunable:{mwp:1}}
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:1,name:"Persecius AM2",cost:80,hp:25,str:1,tec:1,wlk:0,fly:0,tgh:3}
@@ -232,6 +233,7 @@
 {id:6,name:"King Gigaton AM2",type:"c",cost:200,hp:25,str:-1,tec:4,wlk:0,fly:-1,tgh:3,joint:{wp:0},main:{pwr:37,shl:220,rng:330,spd:360,itv:800},sub:{pwr:30,shl:90,rng:350,spd:240,itv:1000},tunable:{mwp:1}}
 {id:7,name:"Big Mountaiz AM2",type:"a",cost:135,hp:20,str:-1,tec:3,wlk:0,fly:0,tgh:3,joint:{wp:0},main:{pwr:7,shl:1000,rng:275,spd:350,itv:900},tunable:{mwp:1}}
 {id:8,name:"Shaden AM2",type:"a",cost:205,hp:25,str:-1,tec:3,wlk:0,fly:1,tgh:2,joint:{wp:0},main:{pwr:20,shl:330,rng:275,spd:520,itv:240},tunable:{mwp:1}}
+{id:9,name:"Mighty Byne AM3",type:"l",cost:155,hp:25,str:4,tec:0,wlk:2,fly:-1,tgh:0,joint:{wp:0},main:{str:100,pwr:9,shl:780,rng:150,spd:400,itv:500},sub:{str:100,pwr:38,shl:30,rng:70,spd:85,itv:500},tunable:{mwp:1,pwp:1}}
 
 {group:"Joint",prefixID:"J",commonStat:{size:"M",jointPart:1,slot:1}}
 {id:1,name:"Generic AMJ"}
