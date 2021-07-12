@@ -1,5 +1,5 @@
 {group:"S Size",prefixID:"S",commonStat:{size:"S"}}
-{id:1,name:"Zero Saber LG",cost:45,hp:25,str:0,tec:1,wlk:2,fly:0,tgh:2}
+{id:1,name:"Zero Saber LG",cost:45,hp:25,str:0,tec:1,wlk:3,fly:0,tgh:2}
 {id:2,name:"Zero Fighter LG",cost:40,hp:20,str:0,tec:1,wlk:3,fly:0,tgh:1}
 {id:3,name:"Frog Lander LG",cost:40,hp:20,str:0,tec:1,wlk:3,fly:1,tgh:0}
 {id:4,name:"Sword Wing LG",cost:40,hp:20,str:0,tec:0,wlk:3,fly:1,tgh:1}
@@ -108,7 +108,7 @@
 {id:52,name:"Shadow Kinesis LG",cost:45,hp:25,str:2,tec:1,wlk:2,fly:-1,tgh:2}
 {id:53,name:"Robin Hunter LG",cost:45,hp:25,str:0,tec:2,wlk:2,fly:2,tgh:0}
 {id:54,name:"Wizamel LG",cost:45,hp:25,str:0,tec:1,wlk:2,fly:2,tgh:1}
-{id:55,name:"Flapjack LG",cost:115,hp:25,str:0,tec:1,wlk:3,fly:1,tgh:1,main:{pwr:8,shl:530,rng:275,spd:280,itv:760},sub:{pwr:0,shl:100,rng:100,spd:180,itv:1000},tunable:{mwp:1}}
+{id:55,name:"Flapjack LG",cost:115,hp:25,str:0,tec:1,wlk:3,fly:1,tgh:1,main:{pwr:10,shl:530,rng:275,spd:280,itv:760},sub:{pwr:0,shl:100,rng:100,spd:180,itv:1000},tunable:{mwp:1}}
 {id:56,name:"Vanguard LG2",cost:45,hp:25,str:1,tec:0,wlk:3,fly:-1,tgh:3}
 {id:57,name:"Synoris LG",cost:45,hp:25,str:-1,tec:1,wlk:4,fly:0,tgh:2}
 {id:58,name:"Lucca Decho LG",cost:45,hp:25,str:-1,tec:1,wlk:3,fly:0,tgh:3}
@@ -178,7 +178,7 @@
 {id:57,name:"Cordyceps LG",cost:45,hp:35,str:0,tec:2,wlk:2,fly:0,tgh:2}
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
-{id:1,name:"Shino Exroad LG",type:"l",cost:145,hp:55,str:2,tec:-1,wlk:4,fly:0,tgh:1,joint:{bs:1},sub:{str:100,pwr:28,rng:150,spd:150,itv:1000},tunable:{pwp:1}}
+{id:1,name:"Shino Exroad LG",type:"l",cost:145,hp:55,str:2,tec:-1,wlk:4,fly:0,tgh:1,joint:{bs:1},sub:{str:100,pwr:28,rng:150,spd:150,itv:2500},tunable:{pwp:1}}
 {id:2,name:"Shino Exroad LG3",type:"l",cost:225,hp:55,str:2,tec:-1,wlk:3,fly:0,tgh:2,joint:{bs:1},sub:{str:100,pwr:32,rng:77,spd:94,itv:1000},tunable:{pwp:1}}
 {id:3,name:"Rosso Aspide LG",type:"a",cost:115,hp:80,str:-1,tec:2,wlk:2,fly:6,tgh:2,sub:{pwr:0,shl:60,rng:150,spd:150,itv:1000}}
 {id:4,name:"Ragna Barret LG",cost:50,hp:60,str:0,tec:0,wlk:4,fly:0,tgh:2}
