@@ -82,6 +82,12 @@
 {id:13,name:"Scouts Rifle",size:"M",type:"lc",cost:140,main:{pwr:13,shl:470,rng:250,spd:400,itv:340}}
 {id:14,name:"Device Breaker",size:"M",type:"c",cost:90,main:{pwr:33,shl:150,rng:330,spd:480,itv:1000}}
 {id:15,name:"Saber Rifle",size:"M",type:"l",cost:170,main:{pwr:25,shl:280,rng:250,spd:440,itv:640}}
+{id:16,name:"Pierce Breaker",size:"M",type:"c",cost:170,main:{pwr:43,shl:140,rng:350,spd:480,itv:1000}}
+{id:17,name:"Circuit Breaker",size:"SS",type:"cs",cost:45,main:{pwr:14,shl:200,rng:330,spd:480,itv:540}}
+{id:18,name:"Armor Breaker",size:"M",type:"c",cost:60,main:{pwr:38,shl:80,rng:330,spd:480,itv:1000}}
+{id:19,name:"Core Breaker",size:"M",type:"c",cost:140,main:{pwr:39,shl:150,rng:350,spd:480,itv:1000}}
+{id:20,name:"Structure Breaker",size:"L",type:"c",cost:200,main:{pwr:50,shl:120,rng:350,spd:480,itv:1000}}
+{id:21,name:"Gatling Breaker",size:"L",type:"c",cost:210,main:{pwr:13,shl:1000,rng:350,spd:480,itv:200}}
 
 {group:"Shooter",prefixID:"ST",commonStat:{tunable:{mwp:1}}}
 {id:1,name:"Cross Shooter",size:"S",type:"las",cost:60,main:{pwr:14,shl:430,rng:250,spd:440,itv:400}}
@@ -195,4 +201,5 @@
 {id:27,name:"Brink Mace",size:"M",type:"c",cost:190,main:{pwr:12,shl:390,rng:330,spd:330,itv:1000},sub:{pwr:30,rng:75,spd:100,itv:1000},tunable:{pwp:1}}
 {id:28,name:"Brink Shield",size:"M",type:"c",cost:30,main:{pwr:0,shl:50,rng:0,spd:10,itv:1000}}
 {id:29,name:"Wizamel Wand",size:"M",type:"a",cost:150,main:{pwr:7,shl:840,rng:275,spd:340,itv:900},sub:{pwr:32,shl:50,rng:250,spd:400,itv:1000}}
-//Some weapons missing: Dragonail, Armor Breaker, Core Breaker, Structure Breaker, Blow Bazooka
+{id:30,name:"Laser Rifle",size:"M",type:"a",cost:130,main:{pwr:11,shl:420,rng:275,spd:480,itv:100}}
+//Some weapons missing: Dragonail, Blow Bazooka

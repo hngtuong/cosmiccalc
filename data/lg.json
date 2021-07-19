@@ -1,3 +1,6 @@
+{group:"Conversion",prefixID:"O"}
+{id:1,name:"Rampernel LG@",cost:70,hp:20,str:2,tec:-1,wlk:1,fly:2,tgh:1,sub:{pwr:0,rng:90,spd:200,itv:1000},conversion:"LGLL8"}
+
 {group:"S Size",prefixID:"S",commonStat:{size:"S"}}
 {id:1,name:"Zero Saber LG",cost:45,hp:25,str:0,tec:1,wlk:3,fly:0,tgh:2}
 {id:2,name:"Zero Fighter LG",cost:40,hp:20,str:0,tec:1,wlk:3,fly:0,tgh:1}
@@ -117,6 +120,8 @@
 {id:61,name:"Hoverion Magna LG",cost:50,hp:35,str:-1,tec:1,wlk:2,fly:2,tgh:2}
 {id:62,name:"Valiant LG",type:"a",cost:65,hp:25,str:0,tec:2,wlk:3,fly:2,tgh:-1,sub:{shl:50,spd:150,itv:1000}}
 {id:63,name:"Sovlancer LG",cost:45,hp:25,str:2,tec:0,wlk:3,fly:2,tgh:-1}
+{id:64,name:"Insernect LG",type:"a",cost:45,hp:25,str:0,tec:1,wlk:3,fly:2,tgh:0}
+{id:65,name:"Gaster LG",cost:45,hp:25,str:0,tec:2,wlk:3,fly:-1,tgh:2}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Gwyain LG",cost:50,hp:40,str:1,tec:1,wlk:3,fly:0,tgh:1}
@@ -185,6 +190,8 @@
 {id:5,name:"Brigand Baron LG",cost:50,hp:70,str:1,tec:-1,wlk:3,fly:0,tgh:3}
 {id:6,name:"Raclaboros LG",type:"s",cost:245,hp:60,str:2,tec:2,wlk:3,fly:0,tgh:-1,joint:{wp:1},fixedParts:{wp:{name:"Raclaboros LG@",slot:0,main:{pwr:15,shl:400,rng:250,spd:440,itv:500},sub:{str:100,pwr:27,rng:70,spd:85,itv:1000}}}}
 {id:7,name:"Cyclotes LG2",type:"l",cost:160,hp:75,str:2,tec:0,wlk:2,fly:-1,tgh:3,sub:{str:100,pwr:30,rng:100,spd:250,itv:3000},tunable:{pwp:1}}
+{id:8,name:"Rampernel LG",type:"l",cost:160,hp:70,str:2,tec:-1,wlk:3,fly:0,tgh:2,sub:{str:100,pwr:32,rng:90,spd:85,itv:1000},tunable:{pwp:1}}
+{id:9,name:"Titancoil LG",cost:50,hp:60,str:0,tec:2,wlk:3,fly:2,tgh:-1}
 
 {group:"Joint",prefixID:"J",commonStat:{jointPart:1,slot:1,size:"M"}}
 {id:1,name:"Generic LGJ"}
