@@ -190,7 +190,7 @@
 {id:5,name:"Brigand Baron LG",cost:50,hp:70,str:1,tec:-1,wlk:3,fly:0,tgh:3}
 {id:6,name:"Raclaboros LG",type:"s",cost:245,hp:60,str:2,tec:2,wlk:3,fly:0,tgh:-1,joint:{wp:1},fixedParts:{wp:{name:"Raclaboros LG@",slot:0,main:{pwr:15,shl:400,rng:250,spd:440,itv:500},sub:{str:100,pwr:27,rng:70,spd:85,itv:1000}}}}
 {id:7,name:"Cyclotes LG2",type:"l",cost:160,hp:75,str:2,tec:0,wlk:2,fly:-1,tgh:3,sub:{str:100,pwr:30,rng:100,spd:250,itv:3000},tunable:{pwp:1}}
-{id:8,name:"Rampernel LG",type:"l",cost:160,hp:70,str:2,tec:-1,wlk:3,fly:0,tgh:2,sub:{str:100,pwr:32,rng:90,spd:85,itv:1000},tunable:{pwp:1}}
+{id:8,name:"Rampernel LG",type:"l",cost:160,hp:70,str:2,tec:-1,wlk:3,fly:0,tgh:2,joint:{lg:1},sub:{str:100,pwr:32,rng:90,spd:85,itv:1000},tunable:{pwp:1}}
 {id:9,name:"Titancoil LG",cost:50,hp:60,str:0,tec:2,wlk:3,fly:2,tgh:-1}
 
 {group:"Joint",prefixID:"J",commonStat:{jointPart:1,slot:1,size:"M"}}
