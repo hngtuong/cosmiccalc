@@ -23,6 +23,7 @@
 {id:22,name:"Crystal Wall",cost:90,slot:0,main:{pwr:2,shl:1740,rng:275,spd:340,itv:200},conversion:"BDAS27"}
 {id:23,name:"Berzel Bazooka",cost:90,main:{pwr:19,shl:420,rng:330,spd:400,itv:400},conversion:"WPCS28"}
 {id:24,name:"Zelius Psygun",cost:60,main:{pwr:10,shl:540,rng:330,spd:220,itv:300},conversion:"WPCS28"}
+{id:25,name:"Aqua Shot",cost:70,main:{pwr:19,shl:340,rng:250,spd:400,itv:500},conversion:"BDLS39AM2"}
 
 {group:"Conversion-SWP",prefixID:"CS",commonStat:{tunable:{pwp:1}}}
 {id:1,name:"Gradd Chainsaw",cost:60,sub:{str:100,pwr:32,rng:70,spd:85,itv:500},conversion:"BDLS3AM"}
