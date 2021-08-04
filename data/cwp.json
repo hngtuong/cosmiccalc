@@ -24,6 +24,8 @@
 {id:23,name:"Berzel Bazooka",cost:90,main:{pwr:19,shl:420,rng:330,spd:400,itv:400},conversion:"WPCS28"}
 {id:24,name:"Zelius Psygun",cost:60,main:{pwr:10,shl:540,rng:330,spd:220,itv:300},conversion:"WPCS28"}
 {id:25,name:"Aqua Shot",cost:70,main:{pwr:19,shl:340,rng:250,spd:400,itv:500},conversion:"BDLS39AM2"}
+{id:26,name:"Kaiser Gewitter",cost:70,main:{pwr:10,shl:390,rng:300,spd:480,itv:300},sub:{str:100,pwr:20,rng:75,spd:200,itv:1000},conversion:"AML77"}
+{id:27,name:"Longinus",cost:100,main:{pwr:32,shl:280,rng:330,spd:440,itv:700},conversion:"BDCS24AM"}
 
 {group:"Conversion-SWP",prefixID:"CS",commonStat:{tunable:{pwp:1}}}
 {id:1,name:"Gradd Chainsaw",cost:60,sub:{str:100,pwr:32,rng:70,spd:85,itv:500},conversion:"BDLS3AM"}
@@ -54,3 +56,4 @@
 {id:26,name:"Brave Sword",cost:100,sub:{str:100,pwr:32,rng:70,spd:85,itv:500},conversion:"WPCS25"}
 {id:27,name:"Brave Lance",cost:50,slot:0,sub:{str:100,pwr:28,rng:120,spd:250,itv:500},conversion:"WPCS25"}
 {id:28,name:"Greed Weapon",slot:0,joint:{wp:2},conversion:"BDCS22AM"}
+{id:29,name:"Grave Paddle",cost:100,sub:{str:100,pwr:32,rng:77,spd:94,itv:500},conversion:"BDLS42AM"}

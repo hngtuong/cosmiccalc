@@ -180,6 +180,13 @@
 {id:153,name:"Insernect HD",cost:35,hp:20,str:0,tec:1,wlk:1,fly:0,tgh:3}
 {id:154,name:"Gaster HD",type:"c",cost:135,hp:20,str:-1,tec:2,wlk:2,fly:1,tgh:1,main:{pwr:30,shl:160,rng:330,spd:360,itv:1000},tunable:{mwp:1}}
 {id:155,name:"Titancoil HD",cost:40,hp:25,str:1,tec:1,wlk:2,fly:2,tgh:-1}
+{id:156,name:"Dragonail HD2",cost:40,hp:25,str:2,tec:-1,wlk:2,fly:1,tgh:1}
+{id:157,name:"Theoreigne HD",cost:35,hp:20,str:1,tec:-1,wlk:1,fly:2,tgh:2}
+{id:158,name:"Satyx HD",cost:35,hp:20,str:-1,tec:0,wlk:1,fly:2,tgh:3}
+{id:159,name:"Gun Drill HD",cost:40,hp:25,str:-1,tec:2,wlk:2,fly:1,tgh:1,joint:{hdac:0,fcac:0}}
+{id:160,name:"Crystas HD",cost:35,hp:20,str:-1,tec:1,wlk:2,fly:2,tgh:1}
+{id:162,name:"Vanguard HD2",cost:40,hp:25,str:0,tec:1,wlk:0,fly:1,tgh:3}
+{id:163,name:"Ilgryps HD",cost:35,hp:20,str:-1,tec:2,wlk:0,fly:1,tgh:3}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Aquila HD",cost:35,hp:20,str:1,tec:1,wlk:2,fly:1,tgh:0}
@@ -189,6 +196,7 @@
 {id:5,name:"Degomure HD",cost:40,hp:25,str:1,tec:1,wlk:2,fly:0,tgh:1}
 {id:6,name:"Cyclotes HD2",type:"l",cost:70,hp:25,str:2,tec:-1,wlk:1,fly:1,tgh:2,main:{str:100,pwr:30,shl:50,rng:200,spd:570,itv:1000},tunable:{mwp:1}}
 {id:7,name:"Cordyceps HD",cost:35,hp:20,str:0,tec:2,wlk:1,fly:1,tgh:1}
+{id:8,name:"Heldtkaiser HD",cost:35,hp:20,str:0,tec:-1,wlk:2,fly:2,tgh:2}
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 
