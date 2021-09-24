@@ -26,6 +26,15 @@
 {id:25,name:"Aqua Shot",cost:70,main:{pwr:19,shl:340,rng:250,spd:400,itv:500},conversion:"BDLS39AM2"}
 {id:26,name:"Kaiser Gewitter",cost:70,main:{pwr:10,shl:390,rng:300,spd:480,itv:300},sub:{str:100,pwr:20,rng:75,spd:200,itv:1000},conversion:"AML77"}
 {id:27,name:"Longinus",cost:100,main:{pwr:32,shl:280,rng:330,spd:440,itv:700},conversion:"BDCS24AM"}
+{id:28,name:"D.N.G Cannon",cost:70,main:{pwr:28,shl:220,rng:330,spd:230,itv:700},conversion:"AMO2"}
+{id:29,name:"Talis Shooter",cost:70,slot:0,main:{pwr:10,shl:1050,rng:250,spd:400,itv:600},conversion:"AMM97",comment:"Land / Art only"}
+{id:30,name:"Harp Shield",cost:40,slot:0,main:{pwr:0,shl:50,rng:0,spd:10,itv:1000},conversion:"AMS69",comment:"Art only"}
+{id:31,name:"Fillnaught",cost:130,slot:0,main:{pwr:14,shl:390,rng:350,spd:340,itv:300},sub:{pwr:10,shl:240,rng:300,spd:220,itv:1000},conversion:"AMS70",comment:"Art only"}
+{id:32,name:"Monokeras Rod",cost:170,main:{pwr:38,shl:280,rng:330,spd:400,itv:800},sub:{pwr:9,shl:300,rng:300,spd:280,itv:1000},conversion:"BDCS30AM"}
+{id:33,name:"Flare Tail",cost:60,main:{pwr:7,shl:660,rng:275,spd:300,itv:500},joint:{wp:1},fixedParts:{wp:{name:"Flare Tail@1",cost:50,slot:0,sub:{pwr:1,shl:60,rng:0,spd:200,itv:1000}}},conversion:"BDAM32LG"}
+{id:34,name:"Expiation @1",cost:120,slot:0,main:{pwr:26,shl:270,rng:450,spd:500,itv:800},conversion:"WPCS32"}
+{id:35,name:"Expiation @2",slot:0,main:{pwr:40,shl:60,rng:450,spd:420,itv:500},conversion:"WPCS32"}
+{id:36,name:"Relic Orbs",cost:140,main:{pwr:10,shl:880,rng:250,spd:400,itv:500},sub:{pwr:34,rng:70,spd:85,itv:500},tunable:{pwp:1},conversion:"BDLS46"}
 
 {group:"Conversion-SWP",prefixID:"CS",commonStat:{tunable:{pwp:1}}}
 {id:1,name:"Gradd Chainsaw",cost:60,sub:{str:100,pwr:32,rng:70,spd:85,itv:500},conversion:"BDLS3AM"}
@@ -57,3 +66,7 @@
 {id:27,name:"Brave Lance",cost:50,slot:0,sub:{str:100,pwr:28,rng:120,spd:250,itv:500},conversion:"WPCS25"}
 {id:28,name:"Greed Weapon",slot:0,joint:{wp:2},conversion:"BDCS22AM"}
 {id:29,name:"Grave Paddle",cost:100,sub:{str:100,pwr:32,rng:77,spd:94,itv:500},conversion:"BDLS42AM"}
+{id:30,name:"Serpent Whip",cost:90,sub:{str:100,pwr:32,rng:90,spd:110,itv:1000},conversion:"BDLS44AM"}
+{id:31,name:"Banish Striker",cost:80,main:{str:100,pwr:20,shl:50,rng:200,spd:200,itv:1000},sub:{str:100,pwr:35,rng:90,spd:250,itv:2000},tunable:{mwp:1},conversion:"BDLS44AM2"}
+{id:32,name:"Expiation",slot:0,joint:{wp:2},conversion:"BDAM32AM"}
+{id:33,name:"Lunar Ring (New Moon)",cost:20,slot:0,conversion:"BDLS46"}
