@@ -1,5 +1,6 @@
 {group:"Conversion",prefixID:"O"}
 {id:1,name:"Rampernel LG@",cost:70,hp:20,str:2,tec:-1,wlk:1,fly:2,tgh:1,sub:{pwr:0,rng:90,spd:200,itv:1000},conversion:"LGLL8"}
+{id:2,name:"Amlim LG@",slot:0,sub:{pwr:0,rng:300,spd:0,itv:1000},conversion:"BDAS36LG"}
 
 {group:"S Size",prefixID:"S",commonStat:{size:"S"}}
 {id:1,name:"Zero Saber LG",cost:45,hp:25,str:0,tec:1,wlk:3,fly:0,tgh:2}
@@ -38,7 +39,7 @@
 {id:34,name:"A.L.E. LazFlamme LG",cost:45,hp:25,str:-1,tec:1,wlk:4,fly:0,tgh:1,joint:{bs:1}}
 {id:35,name:"Zero Fighter NEXT LG",cost:45,hp:25,str:0,tec:2,wlk:3,fly:-1,tgh:2}
 {id:36,name:"LazFlamme Alpha LG",cost:45,hp:25,str:0,tec:1,wlk:3,fly:-1,tgh:2,joint:{bs:1}}
-{id:37,name:"Wanders LG",cost:45,hp:25,str:-1,tec:1,wlk:2,fly:1,tgh:2}
+{id:37,name:"Wanders LG",cost:45,hp:25,str:-1,tec:1,wlk:3,fly:1,tgh:2}
 {id:38,name:"Cross Raptor LG",cost:45,hp:25,str:0,tec:1,wlk:3,fly:1,tgh:1}
 {id:39,name:"Alestar LG",type:"s",cost:95,hp:25,str:1,tec:-1,wlk:3,fly:0,tgh:2,sub:{pwr:18,shl:80,rng:300,spd:100,itv:1000}}
 {id:40,name:"Fairys LG",cost:45,hp:25,str:-1,tec:0,wlk:3,fly:2,tgh:1}
@@ -46,7 +47,7 @@
 {id:42,name:"Knightger LG",cost:45,hp:25,str:1,tec:0,wlk:3,fly:1,tgh:1}
 {id:43,name:"Chrotacs LG",cost:45,hp:25,str:-1,tec:2,wlk:3,fly:0,tgh:2}
 {id:44,name:"Blume LG",type:"s",cost:95,hp:25,str:2,tec:-1,wlk:3,fly:0,tgh:1,sub:{str:100,pwr:28,shl:30,rng:80,spd:70,itv:1000},tunable:{pwp:1}}
-{id:45,name:"A. Miral LG",cost:45,hp:25,str:-1,tec:2,wlk:3,fly:0,tgh:1}
+{id:45,name:"A. Miral LG",cost:45,hp:25,str:-1,tec:2,wlk:4,fly:0,tgh:1}
 {id:46,name:"Liefy LG",cost:45,hp:25,str:-1,tec:-1,wlk:3,fly:2,tgh:2}
 {id:47,name:"Meteora LG",type:"a",cost:145,hp:25,str:-1,tec:3,wlk:2,fly:2,tgh:0,sub:{pwr:7,shl:600,rng:275,spd:300,itv:1000}}
 {id:48,name:"K Nonna LG",type:"c",cost:40,hp:20,str:0,tec:0,wlk:2,fly:2,tgh:1}
@@ -60,6 +61,8 @@
 {id:56,name:"Psycho Formula LG2",cost:45,hp:25,str:-1,tec:2,wlk:2,fly:2,tgh:1}
 {id:57,name:"Tristan LG",cost:40,hp:20,str:0,tec:2,wlk:2,fly:0,tgh:1}
 {id:58,name:"F Ruhl LG",cost:40,hp:20,str:0,tec:1,wlk:2,fly:2,tgh:0}
+{id:59,name:"Rayminious LG",cost:45,hp:25,str:-1,tec:2,wlk:2,fly:2,tgh:1}
+{id:60,name:"Fulcrum LG",cost:40,hp:20,str:2,tec:1,wlk:3,fly:0,tgh:-1}
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Axion LG",type:"l",cost:45,hp:25,str:1,tec:1,wlk:3,fly:2,tgh:-1}
@@ -132,6 +135,12 @@
 {id:68,name:"Gun Drill LG",type:"l",cost:175,hp:25,str:2,tec:-1,wlk:3,fly:0,tgh:2,sub:{str:100,pwr:35,rng:100,spd:150,itv:2000},tunable:{pwp:1}}
 {id:69,name:"Orobomaru LG",cost:45,hp:25,str:2,tec:2,wlk:2,fly:0,tgh:0}
 {id:70,name:"Growldian LG2",cost:45,hp:25,str:0,tec:2,wlk:3,fly:0,tgh:1}
+{id:71,name:"Solfrost LG",type:"a",cost:65,hp:25,str:-1,tec:1,wlk:2,fly:2,tgh:2,sub:{pwr:0,shl:50,rng:0,spd:180,itv:1000}}
+{id:72,name:"Shroomash LG",cost:45,hp:25,str:2,tec:1,wlk:2,fly:1,tgh:0}
+{id:73,name:"Scaraboss LG",cost:45,hp:25,str:1,tec:1,wlk:3,fly:1,tgh:0}
+{id:74,name:"Sieg LG",cost:45,hp:25,str:1,tec:0,wlk:3,fly:0,tgh:2}
+{id:75,name:"Genesion LG",type:"a",cost:65,hp:25,str:-1,tec:1,wlk:2,fly:3,tgh:1,sub:{pwr:10,shl:20,rng:0,spd:220,itv:1000}}
+{id:76,name:"Dartanis LG",cost:40,hp:20,str:1,tec:1,wlk:3,fly:1,tgh:-1}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Gwyain LG",cost:50,hp:40,str:1,tec:1,wlk:3,fly:0,tgh:1}
@@ -197,6 +206,11 @@
 {id:61,name:"Crystas LG",type:"a",cost:75,hp:25,str:-1,tec:2,wlk:2,fly:2,tgh:1,sub:{pwr:2,shl:420,rng:275,spd:570,itv:1000}}
 {id:62,name:"Combat Freed LG",type:"l",cost:45,hp:35,str:2,tec:0,wlk:3,fly:-1,tgh:2}
 {id:63,name:"Yatano Oguna LG",type:"l",cost:45,hp:25,str:0,tec:1,wlk:4,fly:-1,tgh:2}
+{id:64,name:"Generaldo LG",cost:45,hp:25,str:1,tec:-1,wlk:4,fly:0,tgh:2}
+{id:65,name:"Flash Bomber LG",cost:45,hp:65,str:1,tec:1,wlk:3,fly:0,tgh:1}
+{id:66,name:"Albatreos LG2",cost:50,hp:30,str:-1,tec:1,wlk:3,fly:1,tgh:2}
+{id:67,name:"Gyallanbard LG",cost:50,hp:55,str:0,tec:0,wlk:2,fly:0,tgh:4}
+{id:68,name:"Domiclown LG2",cost:50,hp:40,str:-1,tec:2,wlk:3,fly:1,tgh:1}
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:1,name:"Shino Exroad LG",type:"l",cost:145,hp:55,str:2,tec:-1,wlk:4,fly:0,tgh:1,joint:{bs:1},sub:{str:100,pwr:28,rng:150,spd:150,itv:2500},tunable:{pwp:1}}
