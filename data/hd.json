@@ -25,6 +25,8 @@
 {id:22,name:"Zero Knight HD",cost:40,hp:25,str:-1,tec:1,wlk:1,fly:3,tgh:1}
 {id:23,name:"Tristan HD",cost:30,hp:15,str:0,tec:2,wlk:0,fly:0,tgh:2}
 {id:24,name:"F Ruhl HD",cost:35,hp:20,str:0,tec:1,wlk:0,fly:3,tgh:1}
+{id:25,name:"Rayminious HD",cost:35,hp:20,str:1,tec:2,wlk:-1,fly:3,tgh:0}
+{id:26,name:"Wanders HD4",type:"s",cost:135,hp:20,str:1,tec:2,wlk:1,fly:2,tgh:-1,sub:{pwr:0,shl:5,rng:0,spd:0,itv:1000}}
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Gwyain HD",cost:40,hp:25,str:2,tec:1,wlk:2,fly:0,tgh:0}
@@ -198,6 +200,20 @@
 {id:170,name:"Orobomaru HD",cost:35,hp:20,str:3,tec:1,wlk:1,fly:1,tgh:-1}
 {id:171,name:"Combat Freed HD2",type:"l",cost:65,hp:20,str:2,tec:-1,wlk:2,fly:1,tgh:1,main:{pwr:10,shl:100,rng:200,spd:570,itv:500},tunable:{mwp:1}}
 {id:172,name:"Growldian HD2",cost:35,hp:20,str:2,tec:-1,wlk:3,fly:0,tgh:1}
+{id:173,name:"Generaldo HD",cost:35,hp:20,str:1,tec:1,wlk:2,fly:1,tgh:0}
+{id:174,name:"Solfrost HD",cost:35,hp:20,str:1,tec:1,wlk:1,fly:3,tgh:-1}
+{id:175,name:"Flash Bomber HD",cost:35,hp:20,str:-1,tec:2,wlk:0,fly:1,tgh:3}
+{id:176,name:"Shroomash HD",cost:35,hp:20,str:0,tec:2,wlk:0,fly:1,tgh:2}
+{id:177,name:"Scaraboss HD",type:"c",cost:60,hp:20,str:-1,tec:2,wlk:1,fly:1,tgh:2,sub:{str:100,pwr:20,itv:1000}}
+{id:178,name:"Sieg HD",cost:35,hp:20,str:-1,tec:2,wlk:1,fly:1,tgh:2}
+{id:179,name:"Brickgale HD2",cost:40,hp:25,str:-1,tec:2,wlk:1,fly:2,tgh:1}
+{id:180,name:"Gyallanbard HD2",cost:40,hp:25,str:2,tec:-1,wlk:2,fly:1,tgh:1}
+{id:181,name:"Fulcrum HD",cost:35,hp:20,str:2,tec:0,wlk:-1,fly:2,tgh:2}
+{id:182,name:"Genesion HD",cost:35,hp:20,str:1,tec:1,wlk:-1,fly:3,tgh:1}
+{id:183,name:"Dartanis HD2",cost:35,hp:20,str:2,tec:-1,wlk:3,fly:1,tgh:0}
+{id:184,name:"Theoreigne HD3",cost:35,hp:20,str:2,tec:0,wlk:1,fly:0,tgh:2}
+{id:185,name:"Domiclown HD4",type:"l",cost:70,hp:25,str:2,tec:1,wlk:0,fly:-1,tgh:3,sub:{pwr:0,shl:5,rng:0,spd:0,itv:3000}}
+{id:186,name:"A. Miral HD2",type:"l",cost:80,hp:20,str:0,tec:2,wlk:1,fly:1,tgh:1,main:{pwr:6,shl:440,rng:225,spd:440,itv:260},tunable:{mwp:1}}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Aquila HD",cost:35,hp:20,str:1,tec:1,wlk:2,fly:1,tgh:0}
