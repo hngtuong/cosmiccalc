@@ -35,8 +35,9 @@
 {id:34,name:"Expiation @1",cost:120,slot:0,main:{pwr:26,shl:270,rng:450,spd:500,itv:800},conversion:"WPCS32"}
 {id:35,name:"Expiation @2",slot:0,main:{pwr:40,shl:60,rng:450,spd:420,itv:500},conversion:"WPCS32"}
 {id:36,name:"Relic Orbs",cost:140,main:{pwr:10,shl:880,rng:250,spd:400,itv:500},sub:{pwr:34,rng:70,spd:85,itv:500},tunable:{pwp:1},conversion:"BDLS46"}
-{id:37,name:"Flash Bomber AM@",cost:60,slot:0,main:{pwr:11,shl:570,rng:350,spd:480,itv:340},conversion:"AML85",comment:"Art only"}
-{id:38,name:"Blood Shooter",cost:100,main:{pwr:14,shl:560,rng:275,spd:360,itv:300},conversion:"BDAS36AM2"}
+{id:37,name:"Blood Shooter",cost:100,main:{pwr:14,shl:560,rng:275,spd:360,itv:300},conversion:"BDAS36AM2"}
+{id:38,name:"Battleship DNAM",cost:45,slot:0,main:{pwr:6,shl:840,rng:330,spd:480,itv:740},conversion:"AML91"}
+{id:39,name:"Battleship DNAM2",cost:45,slot:0,main:{pwr:6,shl:780,rng:330,spd:480,itv:1000},conversion:"AML91"}
 
 {group:"Conversion-SWP",prefixID:"CS",commonStat:{tunable:{pwp:1}}}
 {id:1,name:"Gradd Chainsaw",cost:60,sub:{str:100,pwr:32,rng:70,spd:85,itv:500},conversion:"BDLS3AM"}
