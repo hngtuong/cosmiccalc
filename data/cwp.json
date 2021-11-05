@@ -38,6 +38,9 @@
 {id:37,name:"Blood Shooter",cost:100,main:{pwr:14,shl:560,rng:275,spd:360,itv:300},conversion:"BDAS36AM2"}
 {id:38,name:"Battleship DNAM",cost:45,slot:0,main:{pwr:6,shl:840,rng:330,spd:480,itv:740},conversion:"AML91"}
 {id:39,name:"Battleship DNAM2",cost:45,slot:0,main:{pwr:6,shl:780,rng:330,spd:480,itv:1000},conversion:"AML91"}
+{id:40,name:"Kuschelb AM2@",cost:15,slot:0,main:{str:100,pwr:5,shl:60,rng:200,spd:500,itv:300},conversion:"AML93"}
+{id:41,name:"Hunt Gewehr",cost:60,main:{str:100,pwr:13,shl:540,rng:225,spd:400,itv:300},conversion:"BDLS51AMR"}
+{id:42,name:"Lisel Gatling",cost:45,slot:0,main:{pwr:4,shl:1600,rng:350,spd:480,itv:200},conversion:"BDCS34AMS"}
 
 {group:"Conversion-SWP",prefixID:"CS",commonStat:{tunable:{pwp:1}}}
 {id:1,name:"Gradd Chainsaw",cost:60,sub:{str:100,pwr:32,rng:70,spd:85,itv:500},conversion:"BDLS3AM"}
@@ -74,6 +77,11 @@
 {id:32,name:"Expiation",slot:0,joint:{wp:2},conversion:"BDAM32AM"}
 {id:33,name:"Lunar Ring (New Moon)",cost:20,slot:0,conversion:"BDLS46"}
 {id:34,name:"General Shield",cost:40,slot:0,conversion:"AML83"}
-{id:35,name:"General Blade",cost:200,main:{str:100,pwr:19,shl:180,rng:225,spd:440,itv:600},sub:{str:100,pwr:32,rng:77,spd:94,itv:1000},conversion:"AML84"}
+{id:35,name:"General Blade",cost:200,main:{str:100,pwr:19,shl:180,rng:225,spd:440,itv:600},sub:{str:100,pwr:32,rng:77,spd:94,itv:1000},tunable:{mwp:1},conversion:"AML84"}
 {id:36,name:"Nemlim Slot",conversion:"BDLS49 BDLS49AM"}
 {id:37,name:"Peppo Slot",conversion:"BDSS31WP"}
+{id:38,name:"Kuhl Slot",conversion:"Kuhl"}
+{id:39,name:"Voltic Power",cost:220,slot:0,sub:{itv:1000},conversion:"BDLS50"}
+{id:40,name:"Spitz Eizen",cost:130,main:{str:100,pwr:20,shl:50,rng:200,spd:570,itv:500},sub:{str:100,pwr:34,rng:70,spd:85,itv:1000},tunable:{mwp:1},conversion:"BDLS51AML"}
+{id:41,name:"Hanna Fritz Slot",conversion:"BDLS51AMR"}
+{id:42,name:"Zwei Kanone",cost:30,slot:0,sub:{str:100,pwr:10,shl:30,rng:150,spd:250,itv:1000},conversion:"BDLS51"}

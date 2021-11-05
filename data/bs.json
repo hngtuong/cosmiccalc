@@ -87,6 +87,10 @@
 {id:71,name:"Lilu BS",type:"l",cost:45,hp:25,str:2,tec:0,wlk:-1,fly:3,tgh:1}
 {id:72,name:"Pepo Pucci BS",type:"s",cost:35,hp:20,str:-1,tec:2,wlk:1,fly:2,tgh:1}
 {id:73,name:"P. Mona BS",type:"c",cost:60,hp:20,str:-1,tec:2,wlk:0,fly:2,tgh:2,sub:{pwr:25,shl:30,rng:0,spd:0,itv:1000}}
+{id:74,name:"Hard Bomber BS",type:"c",cost:135,hp:20,str:-1,tec:3,wlk:0,fly:2,tgh:1,main:{pwr:8,shl:740,rng:330,spd:280,itv:1000},tunable:{mwp:1}}
+{id:75,name:"G. Remoire BS",type:"c",cost:35,hp:20,str:0,tec:2,wlk:0,fly:3,tgh:0}
+{id:76,name:"Hanna Fritz BS",type:"l",cost:35,hp:20,str:2,tec:-1,wlk:2,fly:2,tgh:0}
+{id:77,name:"Lisel BS",type:"c",cost:35,hp:20,str:0,tec:2,wlk:0,fly:3,tgh:0}
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Axion BS",type:"l",cost:45,hp:25,str:0,tec:2,wlk:1,fly:3,tgh:-1}
@@ -207,6 +211,9 @@
 {id:116,name:"Dartanis BS",type:"l",cost:55,hp:20,str:-1,tec:0,wlk:2,fly:2,tgh:2}
 {id:117,name:"Theoreigne BS2",type:"c",cost:35,hp:20,str:0,tec:2,wlk:1,fly:3,tgh:-1}
 {id:118,name:"Dimension FBS",type:"a",cost:40,hp:25,str:-1,tec:2,wlk:0,fly:3,tgh:1,joint:{bs:2},fixedParts:{bs:[{name:"Dimension Flyer BS@",cost:100,slot:0,main:{pwr:3,shl:1600,rng:275,spd:350,itv:140}},{name:"Dimension Flyer BS@2",cost:60,slot:0,sub:{pwr:5,shl:550,rng:275,spd:350,itv:140}}]}}
+{id:119,name:"Griest BS2",type:"a",cost:135,hp:20,str:-1,tec:1,wlk:1,fly:3,tgh:1,sub:{pwr:15,shl:300,rng:275,spd:350,itv:1000}}
+{id:120,name:"Dreblitz BS",type:"c",cost:105,hp:20,str:-1,tec:2,wlk:2,fly:2,tgh:0,sub:{pwr:10,shl:300,rng:350,spd:320,itv:1000}}
+{id:121,name:"Tierouge BS",type:"a",cost:40,hp:25,str:-1,tec:2,wlk:0,fly:3,tgh:1}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Gwyain BS",type:"a",cost:40,hp:25,str:0,tec:2,wlk:-1,fly:3,tgh:1}
@@ -262,6 +269,8 @@
 {id:61,name:"Generaldo BS",type:"l",cost:35,hp:20,str:-1,tec:1,wlk:1,fly:3,tgh:1}
 {id:62,name:"Flash Bomber BS",type:"c",cost:35,hp:20,str:0,tec:2,wlk:0,fly:2,tgh:1}
 {id:63,name:"Wolf Rayet BS2",type:"a",cost:40,hp:25,str:-1,tec:1,wlk:0,fly:4,tgh:1,joint:{bs:1},fixedParts:{bs:{name:"Wolf Rayet BS2@",cost:45,slot:0,main:{pwr:8,shl:500,rng:275,spd:320,itv:700},sub:{pwr:1,shl:15,rng:10,spd:150,itv:1000}}}}
+{id:64,name:"Sturbanger BS2",type:"c",cost:40,hp:25,str:-1,tec:2,wlk:1,fly:3,tgh:0,joint:{bs:1},fixedParts:{bs:{name:"Sturbanger BS2@",cost:70,slot:0,main:{pwr:18,shl:220,rng:300,spd:280,itv:700}}}}
+{id:65,name:"Crugis BS",type:"a",cost:30,hp:15,str:0,tec:1,wlk:0,fly:2,tgh:1}
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:1,name:"Shaden BS",type:"a",cost:125,hp:25,str:0,tec:0,wlk:0,fly:5,tgh:0,sub:{pwr:1,shl:1,rng:200,spd:110,itv:2000}}
