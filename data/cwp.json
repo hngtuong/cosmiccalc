@@ -41,6 +41,8 @@
 {id:40,name:"Kuschelb AM2@",cost:15,slot:0,main:{str:100,pwr:5,shl:60,rng:200,spd:500,itv:300},conversion:"AML93"}
 {id:41,name:"Hunt Gewehr",cost:60,main:{str:100,pwr:13,shl:540,rng:225,spd:400,itv:300},conversion:"BDLS51AMR"}
 {id:42,name:"Lisel Gatling",cost:45,slot:0,main:{pwr:4,shl:1600,rng:350,spd:480,itv:200},conversion:"BDCS34AMS"}
+{id:43,name:"Nora Schneid@",cost:30,slot:0,main:{pwr:5,shl:90,rng:200,spd:300,itv:500},conversion:"BDLS52"}
+{id:44,name:"Storen Gewehr",cost:70,main:{pwr:17,shl:540,rng:250,spd:400,itv:340},conversion:"BDLS52AM"}
 
 {group:"Conversion-SWP",prefixID:"CS",commonStat:{tunable:{pwp:1}}}
 {id:1,name:"Gradd Chainsaw",cost:60,sub:{str:100,pwr:32,rng:70,spd:85,itv:500},conversion:"BDLS3AM"}
