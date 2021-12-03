@@ -89,4 +89,8 @@
 {id:40,name:"Spitz Eizen",cost:130,main:{str:100,pwr:20,shl:50,rng:200,spd:570,itv:500},sub:{str:100,pwr:34,rng:70,spd:85,itv:1000},tunable:{mwp:1},conversion:"BDLS51AML"}
 //
 {id:42,name:"Zwei Kanone",cost:30,slot:0,sub:{str:100,pwr:10,shl:30,rng:150,spd:250,itv:1000},conversion:"BDLS51"}
+{id:43,name:"Rookie STR Memory",cost:50,slot:0,str:30,tec:-22,conversion:"BDLS55 BDAS39 BDAS40"}
+{id:44,name:"Rookie TEC Memory",cost:50,slot:0,str:-22,tec:30,conversion:"BDLS55 BDAS39 BDAS40"}
+{id:45,name:"Rookie WLK Memory",cost:50,slot:0,str:25,tec:-14,conversion:"BDCM31 BDSS33"}
+{id:46,name:"Rookie FLY Memory",cost:50,slot:0,str:-14,tec:25,conversion:"BDCM31 BDSS33"}
 {id:999,name:"Specific Memory Slot",conversion:"Slot BDLS49 BDCS37AM2 BDLS53 BDLS53AM BDLS53AM2"}
