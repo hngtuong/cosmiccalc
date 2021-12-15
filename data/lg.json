@@ -190,7 +190,7 @@
 {id:30,name:"Destructor LG",cost:45,hp:40,str:1,tec:1,wlk:2,fly:0,tgh:2}
 {id:31,name:"Contradict LG",cost:50,hp:30,str:1,tec:-1,wlk:3,fly:1,tgh:2}
 {id:32,name:"Daedalian LG",cost:50,hp:35,str:2,tec:-1,wlk:3,fly:1,tgh:1}
-{id:33,name:"Victorl LG",cost:45,hp:25,str:-1,tec:2,wlk:3,fly:0,tgh:1}
+{id:33,name:"Victorl LG",cost:45,hp:25,str:-1,tec:3,wlk:3,fly:0,tgh:1}
 {id:34,name:"Thoarla LG",cost:45,hp:30,str:0,tec:1,wlk:1,fly:1,tgh:3,joint:{bs:1}}
 {id:35,name:"Wardus LG",cost:45,hp:25,str:2,tec:1,wlk:3,fly:-1,tgh:0}
 {id:36,name:"AchtSieben LG",cost:45,hp:70,str:0,tec:1,wlk:5,fly:-2,tgh:1}
