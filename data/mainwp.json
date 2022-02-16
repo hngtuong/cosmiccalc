@@ -108,6 +108,7 @@
 {id:7,name:"Linear Cannon",size:"L",type:"c",cost:140,main:{pwr:52,shl:140,rng:350,spd:520,itv:500}}
 {id:8,name:"Aqua Parasol",size:"M",type:"lac",cost:110,main:{pwr:28,shl:210,rng:250,spd:360,itv:560}}
 {id:9,name:"Military Railgun",size:"M",type:"c",cost:160,main:{pwr:33,shl:270,rng:330,spd:480,itv:520}}
+{id:10,name:"B Quad Railgun",size:"M",type:"a",cost:160,main:{pwr:10,shl:760,rng:275,spd:480,itv:800}}
 
 {group:"Bazookas",prefixID:"BZ",commonStat:{tunable:{mwp:1}}}
 {id:1,name:"Micro Bazooka",size:"SS",type:"cs",cost:40,main:{pwr:13,shl:340,rng:330,spd:520,itv:400}}
@@ -135,6 +136,7 @@
 {id:23,name:"Might Bazooka",size:"M",type:"c",cost:160,main:{pwr:24,shl:340,rng:330,spd:400,itv:500}}
 {id:24,name:"Stardust Cannon",size:"LL",type:"a",cost:130,main:{pwr:38,shl:240,rng:275,spd:400,itv:900}}
 {id:25,name:"Pumpkin Rod",size:"S",type:"c",cost:120,main:{pwr:23,shl:360,rng:330,spd:360,itv:500}}
+{id:26,name:"Gigantic Cannon",size:"LL",type:"c",cost:200,main:{pwr:50,shl:200,rng:350,spd:320,itv:1400}}
 
 {group:"Misslies",prefixID:"MS",commonStat:{tunable:{mwp:1}}}
 {id:1,name:"Compact Launcher",size:"S",type:"c",cost:60,main:{pwr:13,shl:240,rng:330,spd:290,itv:600}}
@@ -205,4 +207,6 @@
 {id:28,name:"Brink Shield",size:"M",type:"c",cost:30,main:{pwr:0,shl:50,rng:0,spd:10,itv:1000}}
 {id:29,name:"Wizamel Wand",size:"M",type:"a",cost:150,main:{pwr:7,shl:840,rng:275,spd:340,itv:900},sub:{pwr:32,shl:50,rng:250,spd:400,itv:1000}}
 {id:30,name:"Laser Rifle",size:"M",type:"a",cost:130,main:{pwr:11,shl:420,rng:275,spd:480,itv:100}}
+{id:31,name:"Beam Bomb Launcher",size:"M",type:"a",cost:80,main:{pwr:30,shl:360,rng:100,spd:300,itv:1000}}
+{id:32,name:"Hadron Shooter",size:"M",type:"lc",cost:160,main:{pwr:12,shl:1180,rng:180,spd:480,itv:100}}
 //Some weapons missing: Blow Bazooka, Pierce Gun
