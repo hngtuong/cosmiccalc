@@ -77,6 +77,7 @@
 {id:71,name:"Sithina LG",cost:45,hp:25,str:1,tec:1,wlk:3,fly:0,tgh:1}
 {id:72,name:"Geminion LG2",cost:45,hp:25,str:1,tec:2,wlk:3,fly:1,tgh:-1}
 {id:73,name:"Yunessa LG",type:"s",cost:70,hp:20,str:-1,tec:1,wlk:3,fly:0,tgh:2,sub:{shl:30,spd:180,itv:500}}
+{id:74,name:"Pietta LG",type:"a",cost:90,hp:20,str:0,tec:1,wlk:2,fly:2,tgh:0,sub:{shl:40,rng:100,spd:160,itv:1000}}
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Axion LG",type:"l",cost:45,hp:25,str:1,tec:1,wlk:3,fly:2,tgh:-1}
@@ -147,7 +148,7 @@
 {id:66,name:"Theoreigne LG",cost:45,hp:25,str:-1,tec:2,wlk:2,fly:2,tgh:1,joint:{bs:1}}
 {id:67,name:"Satyx LG",cost:45,hp:25,str:0,tec:1,wlk:3,fly:1,tgh:1}
 {id:68,name:"Gun Drill LG",type:"l",cost:175,hp:25,str:2,tec:-1,wlk:3,fly:0,tgh:2,sub:{str:100,pwr:35,rng:100,spd:150,itv:2000},tunable:{pwp:1}}
-{id:69,name:"Orobomaru LG",cost:45,hp:25,str:2,tec:2,wlk:2,fly:0,tgh:0}
+{id:69,name:"Oboromaru LG",cost:45,hp:25,str:2,tec:2,wlk:2,fly:0,tgh:0}
 {id:70,name:"Growldian LG2",cost:45,hp:25,str:0,tec:2,wlk:3,fly:0,tgh:1}
 {id:71,name:"Solfrost LG",type:"a",cost:65,hp:25,str:-1,tec:1,wlk:2,fly:2,tgh:2,sub:{pwr:0,shl:50,rng:0,spd:180,itv:1000}}
 {id:72,name:"Shroomash LG",cost:45,hp:25,str:2,tec:1,wlk:2,fly:1,tgh:0}
@@ -171,6 +172,9 @@
 {id:90,name:"Suzeku LG2",type:"a",cost:95,hp:25,str:2,tec:-1,wlk:2,fly:2,tgh:1,auraStat:{str:2,tec:-1,wlk:2,fly:2,tgh:1,sub:{str:100,pwr:28,rng:150,spd:160,itv:2000}},tunable:{pwp:1}}
 {id:91,name:"Mach Knight Ace LG",type:"a",cost:95,hp:25,str:-1,tec:3,wlk:1,fly:2,tgh:1,sub:{pwr:32,shl:70,rng:300,spd:240,itv:1000}}
 {id:92,name:"Shadow Flow LG",cost:45,hp:25,str:0,tec:2,wlk:2,fly:0,tgh:2}
+{id:93,name:"Gotrun LG2",type:"l",cost:45,hp:25,str:1,tec:-1,wlk:3,fly:2,tgh:1}
+{id:94,name:"Spada LG",type:"l",cost:45,hp:25,str:3,tec:-1,wlk:3,fly:0,tgh:1}
+{id:95,name:"S Actina GLG",cost:45,hp:25,str:-1,tec:1,wlk:3,fly:2,tgh:1}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Gwyain LG",cost:50,hp:40,str:1,tec:1,wlk:3,fly:0,tgh:1}
@@ -253,6 +257,8 @@
 {id:78,name:"Hadelos LG",type:"l",cost:45,hp:45,str:2,tec:-1,wlk:3,fly:1,tgh:1}
 {id:79,name:"C. Barossa LG",type:"a",cost:165,hp:50,str:2,tec:-1,wlk:2,fly:2,tgh:1,sub:{str:100,pwr:26,shl:130,rng:70,spd:85,itv:1000},tunable:{pwp:1}}
 {id:80,name:"Gwyain Absol LG",cost:45,hp:50,str:0,tec:0,wlk:2,fly:2,tgh:2}
+{id:81,name:"Protos LG",cost:45,hp:50,str:-1,tec:1,wlk:2,fly:1,tgh:3}
+{id:82,name:"Predatobytez LG",cost:45,hp:70,str:0,tec:0,wlk:3,fly:2,tgh:1}
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:1,name:"Shino Exroad LG",type:"l",cost:145,hp:55,str:2,tec:-1,wlk:4,fly:0,tgh:1,joint:{bs:1},sub:{str:100,pwr:28,rng:150,spd:150,itv:2500},tunable:{pwp:1}}
@@ -275,3 +281,4 @@
 {id:4,name:"Force Barrier LGJ",size:"S",cost:50,hp:0,str:0,tec:2,wlk:0,fly:0,tgh:-1,sub:{pwr:0,shl:35,rng:600,spd:100,itv:1000}}
 {id:5,name:"Nine Tailed LGJ",cost:10,hp:5}
 {id:6,name:"Zarid LGJ",size:"L"}
+{id:7,name:"Pietta LGJ",size:"S"}

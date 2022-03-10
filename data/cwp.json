@@ -6,7 +6,7 @@
 {id:5,name:"Suzaku Bow",cost:50,main:{str:100,pwr:20,shl:50,rng:200,spd:570,itv:500},sub:{str:100,pwr:10,rng:150,spd:85,itv:2000},conversion:"WPCS4"}
 {id:6,name:"Kabura Bow",cost:70,main:{str:100,pwr:10,shl:120,rng:200,spd:570,itv:400},sub:{str:100,pwr:24,rng:150,spd:85,itv:2000},conversion:"WPCS4"}
 {id:7,name:"Chivary Cannon",cost:110,main:{pwr:17,shl:350,rng:330,spd:290,itv:600},joint:{wp:1},conversion:"BDCS15AM BDCS42AM",fixedParts:{wp:{name:"Chivary Cannon@",cost:50,slot:0,main:{pwr:40,shl:30,rng:300,spd:400,itv:500}}}}
-{id:8,name:"Gloom Rod",cost:100,joint:{wp:1},main:{pwr:9,shl:540,rng:275,spd:440,itv:300},sub:{pwr:26,shl:40,rng:0,spd:150,itv:1000},conversion:"BDAS13AM"}
+{id:8,name:"Gloom Rod",cost:100,joint:{wp:1},main:{pwr:9,shl:540,rng:275,spd:440,itv:300},sub:{pwr:26,shl:40,rng:0,spd:150,itv:1000},conversion:"BDAS13AM BDAS46AM"}
 {id:9,name:"Pepen Twin Gun",cost:70,main:{pwr:8,shl:980,rng:330,spd:220,itv:360},conversion:"AMS53"}
 {id:10,name:"Pepen Gunners",cost:100,main:{pwr:9,shl:750,rng:350,spd:350,itv:500},conversion:"BDCS17"}
 {id:11,name:"Manimo Wing@",cost:40,main:{str:100,pwr:3,shl:800,rng:300,spd:400,itv:440},conversion:"WPCS15"}
@@ -59,6 +59,10 @@
 {id:58,name:"Fin Cannon HE",cost:80,main:{pwr:17,shl:540,rng:330,spd:400,itv:700},sub:{pwr:10,shl:320,rng:350,spd:280,itv:1000},conversion:"BDCS43"}
 {id:59,name:"Donor Musket",cost:30,joint:{wp:1},conversion:"BDAS44AM",fixedParts:{wp:{name:"Donor Musket@",slot:0,main:{pwr:25,shl:50,rng:275,spd:400,itv:1000}}}}
 {id:60,name:"Blitz B Machinegun",cost:120,joint:{wp:1},main:{pwr:14,shl:720,rng:275,spd:440,itv:240},conversion:"BDAS44AM2",fixedParts:{wp:{name:"Connect Blast",slot:0,main:{pwr:20,shl:430,rng:350,spd:400,itv:500}}}}
+{id:61,name:"Gale Rod",cost:120,joint:{wp:1},main:{pwr:24,shl:340,rng:275,spd:400,itv:500},sub:{pwr:10,shl:60,rng:0,spd:150,itv:1000},conversion:"BDAS13AM BDAS46AM"}
+{id:62,name:"Guardian Rook L/R",cost:60,main:{pwr:10,shl:700,rng:275,spd:330,itv:300},conversion:"BDAS48"}
+{id:63,name:"Mega Rook Cannon",cost:30,slot:0,main:{pwr:35,shl:100,rng:300,spd:440,itv:1000},conversion:"BDAS48"}
+{id:64,name:"Guardian Bishop",cost:190,main:{pwr:7,shl:450,rng:300,spd:260,itv:1200},sub:{pwr:8,shl:1020,rng:350,spd:320,itv:1000},conversion:"BDCS44"}
 
 {group:"Conversion-SWP",prefixID:"CS",commonStat:{tunable:{pwp:1}}}
 {id:1,name:"Gradd Chainsaw",cost:60,sub:{str:100,pwr:32,rng:70,spd:85,itv:500},conversion:"BDLS3AM"}
@@ -112,4 +116,6 @@
 {id:49,name:"Minute Reaper",cost:120,main:{pwr:0,shl:50,rng:0,spd:10,itv:1000},sub:{str:100,pwr:32,rng:84,spd:102,itv:500},conversion:"BDLS57AM"}
 {id:50,name:"Hour Dagger",cost:80,slot:0,main:{str:100,pwr:20,shl:50,rng:200,spd:570,itv:500},sub:{str:100,pwr:0,rng:150,spd:350,itv:1000},conversion:"BDLS57AM2"}
 {id:51,name:"Needle Star",cost:130,main:{str:100,pwr:20,shl:50,rng:200,spd:500,itv:500},sub:{str:100,pwr:32,rng:56,spd:68,itv:1500},tunable:{mwp:1},conversion:"BDLS61AM2"}
-{id:999,name:"Specific Memory Slot",conversion:"Slot BDLS49 BDCS37AM2 BDLS53 BDLS53AM BDLS53AM2 BDLS57AM BDLS57AM2 BDLS61AM2 BDLS61WP BDCS43"}
+{id:52,name:"Spada BD@",cost:20,slot:0,sub:{str:100,pwr:30,rng:100,spd:150,itv:2000},conversion:"BDLM7"}
+{id:53,name:"Guardian Knight",cost:30,sub:{pwr:30,shl:30,rng:0,spd:100,itv:1000},tunable:{pwp:0},conversion:"BDCS44"}
+{id:999,name:"Specific Memory Slot",conversion:"Slot BDLS49 BDCS37AM2 BDLS53 BDLS53AM BDLS53AM2 BDLS57AM BDLS57AM2 BDLS61AM2 BDLS61WP BDCS43 BDAS46 BDAS46AM BDLS63 BDLS64 BDCS44"}

@@ -78,7 +78,7 @@
 {id:62,name:"Abyss Jikun Hu BS",cost:35,hp:20,str:3,tec:-1,wlk:0,fly:2,tgh:1}
 {id:63,name:"Armed Build Arm BS",type:"c",cost:65,hp:20,str:0,tec:2,wlk:-1,fly:2,tgh:2,main:{pwr:10,shl:450,rng:330,spd:190,itv:820},tunable:{mwp:1}}
 {id:64,name:"Recipro BS",type:"a",cost:135,hp:20,str:0,tec:2,wlk:0,fly:4,tgh:-1,main:{pwr:12,shl:580,rng:275,spd:320,itv:900},tunable:{mwp:1}}
-{id:65,name:"Orobomaru BS",type:"a",cost:35,hp:20,str:2,tec:2,wlk:-1,fly:2,tgh:0}
+{id:65,name:"Oboromaru BS",type:"a",cost:35,hp:20,str:2,tec:2,wlk:-1,fly:2,tgh:0}
 {id:66,name:"Tristan BS",type:"c",cost:30,hp:15,str:0,tec:1,wlk:0,fly:2,tgh:1}
 {id:67,name:"Brickgale BS2",type:"a",cost:60,hp:25,str:0,tec:0,wlk:1,fly:4,tgh:0,sub:{pwr:0,shl:50,rng:0,spd:150,itv:1000}}
 {id:68,name:"Rayminious BS",type:"c",cost:35,hp:20,str:-1,tec:2,wlk:0,fly:3,tgh:1,joint:{bs:1},fixedParts:{bs:{name:"Rayminious BS@",cost:130,slot:0,main:{pwr:13,shl:540,rng:350,spd:480,itv:700}}}}
@@ -105,6 +105,8 @@
 {id:89,name:"Yunessa BS",type:"s",cost:35,hp:20,str:0,tec:-1,wlk:1,fly:3,tgh:2}
 {id:90,name:"Shadow Flow BS",type:"l",cost:35,hp:20,str:-1,tec:2,wlk:1,fly:2,tgh:1}
 {id:91,name:"Nebel BS",type:"a",cost:35,hp:20,str:-1,tec:1,wlk:0,fly:4,tgh:1}
+{id:92,name:"Pietta BS",type:"a",cost:95,hp:20,str:-1,tec:2,wlk:0,fly:3,tgh:1,joint:{wp:1},fixedParts:{wp:{name:"Pietta BS@",slot:0,main:{pwr:5,shl:1120,rng:275,spd:280,itv:1300}}}}
+{id:93,name:"Saber Elisalotte BS",type:"l",cost:40,hp:25,str:3,tec:-1,wlk:1,fly:2,tgh:0}
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Axion BS",type:"l",cost:45,hp:25,str:0,tec:2,wlk:1,fly:3,tgh:-1}
@@ -241,6 +243,9 @@
 {id:132,name:"Yngvi BS",type:"a",cost:115,hp:20,str:-1,tec:2,wlk:1,fly:3,tgh:0,joint:{bs:1},fixedParts:{bs:{name:"Yngvi BS@",slot:0,main:{pwr:11,shl:460,rng:275,spd:280,itv:780}}}}
 {id:133,name:"Suzeku BS2",type:"a",cost:170,hp:25,str:-1,tec:3,wlk:0,fly:3,tgh:0,main:{pwr:8,shl:900,rng:275,spd:320,itv:600},sub:{pwr:0,shl:60,rng:0,spd:180,itv:1000},auraStat:{str:-1,tec:3,wlk:0,fly:3,tgh:0,main:{pwr:9,shl:900,rng:275,spd:320,itv:400},sub:{pwr:0,shl:60,rng:0,spd:180,itv:1000}},tunable:{mwp:1,pwp:1}}
 {id:134,name:"Scyllon BS",type:"c",cost:95,hp:20,str:0,tec:2,wlk:1,fly:2,tgh:0,main:{pwr:15,shl:250,rng:330,spd:290,itv:1000},tunable:{mwp:1}}
+{id:135,name:"Gotrun BS2",type:"l",cost:40,hp:25,str:0,tec:1,wlk:2,fly:3,tgh:-1}
+{id:136,name:"Spada BS",type:"l",cost:35,hp:20,str:0,tec:2,wlk:-1,fly:2,tgh:2}
+{id:137,name:"S Actina GBS",type:"c",cost:65,hp:20,str:0,tec:1,wlk:2,fly:3,tgh:-1,sub:{pwr:0,shl:30,rng:0,spd:220,itv:1000}}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Gwyain BS",type:"a",cost:40,hp:25,str:0,tec:2,wlk:-1,fly:3,tgh:1}
@@ -305,6 +310,8 @@
 {id:70,name:"Hadelos BS",type:"l",cost:135,hp:20,str:2,tec:-1,wlk:0,fly:3,tgh:1,main:{str:100,pwr:6,shl:1440,rng:225,spd:400,itv:140},tunable:{pwp:1}}
 {id:71,name:"C. Barossa BS",type:"a",cost:55,hp:20,str:0,tec:1,wlk:-1,fly:4,tgh:1,sub:{pwr:0,shl:40,rng:0,spd:200,itv:1000}}
 {id:72,name:"Gwyain Absol BS",type:"a",cost:35,hp:20,str:0,tec:0,wlk:0,fly:3,tgh:2}
+{id:73,name:"Protos BS",type:"c",cost:50,hp:15,str:-1,tec:1,wlk:0,fly:2,tgh:2}
+{id:74,name:"Predatobytez BS",type:"c",cost:40,hp:25,str:1,tec:1,wlk:0,fly:0,tgh:3}
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:1,name:"Shaden BS",type:"a",cost:125,hp:25,str:0,tec:0,wlk:0,fly:5,tgh:0,sub:{pwr:1,shl:1,rng:200,spd:110,itv:2000}}
