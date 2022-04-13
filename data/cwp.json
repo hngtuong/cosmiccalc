@@ -63,6 +63,8 @@
 {id:62,name:"Guardian Rook L/R",cost:60,main:{pwr:10,shl:700,rng:275,spd:330,itv:300},conversion:"BDAS48"}
 {id:63,name:"Mega Rook Cannon",cost:30,slot:0,main:{pwr:35,shl:100,rng:300,spd:440,itv:1000},conversion:"BDAS48"}
 {id:64,name:"Guardian Bishop",cost:190,main:{pwr:7,shl:450,rng:300,spd:260,itv:1200},sub:{pwr:8,shl:1020,rng:350,spd:320,itv:1000},conversion:"BDCS44"}
+{id:65,name:"Revenant Dart",cost:30,main:{str:100,pwr:15,shl:50,rng:200,spd:500,itv:1000},conversion:"AMM137"}
+{id:66,name:"Revenant Shield",cost:20,slot:0,main:{pwr:0,shl:50,rng:0,spd:10,itv:1000},conversion:"AMM137"}
 
 {group:"Conversion-SWP",prefixID:"CS",commonStat:{tunable:{pwp:1}}}
 {id:1,name:"Gradd Chainsaw",cost:60,sub:{str:100,pwr:32,rng:70,spd:85,itv:500},conversion:"BDLS3AM"}
@@ -118,4 +120,5 @@
 {id:51,name:"Needle Star",cost:130,main:{str:100,pwr:20,shl:50,rng:200,spd:500,itv:500},sub:{str:100,pwr:32,rng:56,spd:68,itv:1500},tunable:{mwp:1},conversion:"BDLS61AM2"}
 {id:52,name:"Spada BD@",cost:20,slot:0,sub:{str:100,pwr:30,rng:100,spd:150,itv:2000},conversion:"BDLM7"}
 {id:53,name:"Guardian Knight",cost:30,sub:{pwr:30,shl:30,rng:0,spd:100,itv:1000},tunable:{pwp:0},conversion:"BDCS44"}
+{id:54,name:"Revenant Sword",cost:120,sub:{str:100,pwr:32,rng:70,spd:85,itv:1000},conversion:"AMM137"}
 {id:999,name:"Specific Memory Slot",conversion:"Slot BDLS49 BDCS37AM2 BDLS53 BDLS53AM BDLS53AM2 BDLS57AM BDLS57AM2 BDLS61AM2 BDLS61WP BDCS43 BDAS46 BDAS46AM BDLS63 BDLS64 BDCS44"}

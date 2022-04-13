@@ -105,6 +105,10 @@
 {id:89,name:"Sithina AM2",type:"l",cost:145,hp:20,str:3,tec:-1,wlk:2,fly:0,tgh:1,joint:{wp:0},main:{str:100,pwr:20,shl:50,rng:200,spd:570,itv:500},tunable:{mwp:1}}
 {id:90,name:"Mach Knight Ace AM",cost:35,hp:20,str:-1,tec:1,wlk:1,fly:2,tgh:2}
 {id:91,name:"Pietta AM",cost:35,hp:20,str:0,tec:2,wlk:-1,fly:2,tgh:2}
+{id:92,name:"Wanders AM3",type:"s",cost:75,hp:20,str:0,tec:3,wlk:1,fly:1,tgh:0,main:{pwr:10,shl:240,rng:275,spd:290,itv:900},tunable:{mwp:1}}
+{id:93,name:"Psycho Formula AM3",type:"c",cost:100,hp:25,str:-1,tec:3,wlk:1,fly:1,tgh:1,joint:{wp:0},main:{pwr:9,shl:810,rng:330,spd:290,itv:200},tunable:{mwp:1}}
+{id:94,name:"Pawnger AM3",cost:35,hp:20,str:1,tec:-1,wlk:1,fly:2,tgh:2}
+{id:95,name:"Cyllene AM",cost:35,hp:20,str:-1,tec:1,wlk:1,fly:2,tgh:2}
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Baltheon AM",type:"a",cost:120,hp:25,str:-1,tec:3,wlk:0,fly:1,tgh:2,joint:{wp:0},main:{pwr:10,shl:800,rng:225,spd:480,itv:140},tunable:{mwp:1}}
@@ -243,6 +247,8 @@
 {id:134,name:"Gotrun AM4",type:"l",cost:65,hp:25,str:2,tec:-1,wlk:2,fly:1,tgh:1,main:{str:100,pwr:20,shl:50,rng:200,spd:570,itv:500},tunable:{mwp:1}}
 {id:135,name:"Spada AM",type:"l",cost:130,hp:20,str:2,tec:-1,wlk:2,fly:0,tgh:2,main:{pwr:0,shl:25,rng:0,spd:10,itv:1000},sub:{str:100,pwr:31,rng:70,spd:85,itv:1000},auraStat:{str:2,tec:-1,wlk:2,fly:0,tgh:2,main:{pwr:0,shl:30,rng:0,spd:10,itv:1000},sub:{str:100,pwr:34,rng:77,spd:94,itv:1000}},tunable:{mwp:1,pwp:1}}
 {id:136,name:"S Actina GAM",type:"c",cost:135,hp:20,str:-1,tec:3,wlk:1,fly:0,tgh:2,sub:{pwr:25,shl:180,rng:350,spd:350,itv:1000}}
+{id:137,name:"Dark Revenant AM",type:"l",cost:45,hp:20,str:2,tec:-1,wlk:2,fly:0,tgh:2,joint:{wp:3},slot:0}
+{id:138,name:"V. Unken AM",cost:35,hp:20,str:2,tec:-1,wlk:1,fly:1,tgh:2}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Gwyain AM",type:"a",cost:40,hp:25,str:0,tec:1,wlk:0,fly:1,tgh:3,joint:{am:1},fixedParts:{am:{name:"Gwyain AM@",slot:0,joint:{wp:0}}}}
@@ -361,6 +367,7 @@
 {id:114,name:"Protos AM",type:"c",cost:120,hp:15,str:-1,tec:2,wlk:0,fly:1,tgh:2,joint:{wp:0},main:{pwr:9,shl:420,rng:330,spd:280,itv:840},sub:{pwr:20,shl:150,rng:350,spd:280,itv:1000},tunable:{mwp:1}}
 {id:115,name:"Predatobytez AM2",type:"c",cost:65,hp:20,str:-1,tec:2,wlk:2,fly:1,tgh:1,joint:{wp:2},main:{pwr:10,shl:330,rng:330,spd:280,itv:600},tunable:{mwp:1}}
 {id:116,name:"Transonic AM2",type:"a",cost:105,hp:20,str:-1,tec:2,wlk:0,fly:3,tgh:1,main:{pwr:11,shl:360,rng:275,spd:400,itv:500},tunable:{mwp:1},fixedParts:{wp:{name:"Transonic AM2@",slot:0,sub:{pwr:6,shl:200,rng:275,spd:320,itv:1000}}}}
+{id:117,name:"Gozu AM",cost:35,hp:20,str:2,tec:-1,wlk:2,fly:0,tgh:2}
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:1,name:"Persecius AM2",cost:80,hp:25,str:1,tec:1,wlk:0,fly:0,tgh:3}
