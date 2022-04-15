@@ -82,6 +82,7 @@
 {id:76,name:"Psycho Formula LG3",type:"c",cost:145,hp:25,str:-1,tec:2,wlk:2,fly:2,tgh:1,sub:{pwr:13,shl:360,rng:350,spd:290,itv:1000}}
 {id:77,name:"Pawnger LG3",cost:45,hp:25,str:1,tec:1,wlk:2,fly:0,tgh:2}
 {id:78,name:"Cyllene LG",cost:45,hp:25,str:-1,tec:1,wlk:3,fly:1,tgh:2}
+{id:79,name:"Medicarest LG",cost:45,hp:25,str:0,tec:1,wlk:3,fly:0,tgh:2}
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Axion LG",type:"l",cost:45,hp:25,str:1,tec:1,wlk:3,fly:2,tgh:-1}
@@ -181,6 +182,10 @@
 {id:95,name:"S Actina GLG",cost:45,hp:25,str:-1,tec:1,wlk:3,fly:2,tgh:1}
 {id:96,name:"Dark Revenant LG",type:"l",cost:45,hp:45,str:2,tec:-1,wlk:3,fly:1,tgh:1}
 {id:97,name:"Scaraboss LG2",type:"c",cost:75,hp:25,str:-1,tec:1,wlk:4,fly:0,tgh:2,sub:{pwr:28,shl:50,rng:300,spd:80,itv:1000}}
+{id:98,name:"Flapjack LG2",cost:100,hp:25,str:0,tec:2,wlk:3,fly:2,tgh:-1,main:{pwr:9,shl:450,rng:275,spd:280,itv:900},sub:{pwr:0,shl:100,rng:100,spd:180,itv:1000},tunable:{mwp:1}}
+{id:99,name:"Wolfguy LG",cost:45,hp:25,str:2,tec:1,wlk:3,fly:-1,tgh:1}
+{id:100,name:"Alvete LG",cost:45,hp:25,str:-1,tec:1,wlk:3,fly:1,tgh:2}
+{id:101,name:"Bioron LG",cost:45,hp:25,str:0,tec:0,wlk:3,fly:1,tgh:2}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Gwyain LG",cost:50,hp:40,str:1,tec:1,wlk:3,fly:0,tgh:1}
@@ -266,6 +271,8 @@
 {id:81,name:"Protos LG",cost:45,hp:50,str:-1,tec:1,wlk:2,fly:1,tgh:3}
 {id:82,name:"Predatobytez LG",cost:45,hp:70,str:0,tec:0,wlk:3,fly:2,tgh:1}
 {id:83,name:"Gozu LG",cost:45,hp:40,str:1,tec:0,wlk:3,fly:0,tgh:2}
+{id:84,name:"Red Squealer DRIVE LG",cost:45,hp:50,str:1,tec:0,wlk:2,fly:-1,tgh:4}
+{id:85,name:"Tsuchigata LG",cost:45,hp:25,str:0,tec:1,wlk:2,fly:2,tgh:1}
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:1,name:"Shino Exroad LG",type:"l",cost:145,hp:55,str:2,tec:-1,wlk:4,fly:0,tgh:1,joint:{bs:1},sub:{str:100,pwr:28,rng:150,spd:150,itv:2500},tunable:{pwp:1}}

@@ -109,6 +109,8 @@
 {id:92,name:"Pietta BS",type:"a",cost:95,hp:20,str:-1,tec:2,wlk:0,fly:3,tgh:1,joint:{wp:1},fixedParts:{wp:{name:"Pietta BS@",slot:0,main:{pwr:5,shl:1120,rng:275,spd:280,itv:1300}}}}
 {id:93,name:"Saber Elisalotte BS",type:"l",cost:40,hp:25,str:3,tec:-1,wlk:1,fly:2,tgh:0}
 {id:94,name:"Pawnger BS2",type:"l",cost:35,hp:20,str:1,tec:-1,wlk:1,fly:3,tgh:1}
+{id:95,name:"Medicarest BS",type:"s",cost:200,hp:20,str:-1,tec:2,wlk:1,fly:2,tgh:1,joint:{bs:1},main:{pwr:20,shl:50,rng:200,spd:400,itv:500},sub:{pwr:11,shl:270,rng:275,spd:320,itv:1000},tunable:{mwp:1},fixedParts:{bs:{name:"Medicarest BS@",slot:0,main:{pwr:1,shl:30,rng:300,spd:300,itv:500},sub:{pwr:0,shl:50,rng:300,spd:300,itv:1000}}}}
+{id:96,name:"Matoi BS",type:"l",cost:35,hp:20,str:1,tec:-1,wlk:1,fly:3,tgh:1}
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Axion BS",type:"l",cost:45,hp:25,str:0,tec:2,wlk:1,fly:3,tgh:-1}
@@ -249,6 +251,9 @@
 {id:136,name:"Spada BS",type:"l",cost:35,hp:20,str:0,tec:2,wlk:-1,fly:2,tgh:2}
 {id:137,name:"S Actina GBS",type:"c",cost:65,hp:20,str:0,tec:1,wlk:2,fly:3,tgh:-1,sub:{pwr:0,shl:30,rng:0,spd:220,itv:1000}}
 {id:138,name:"Dark Revenant BS",type:"l",cost:40,hp:25,str:2,tec:-1,wlk:0,fly:3,tgh:1}
+{id:139,name:"Wolfguy BS",type:"l",cost:40,hp:25,str:1,tec:-1,wlk:2,fly:3,tgh:0,auraStat:{str:1,tec:-1,wlk:2,fly:3,tgh:0,sub:{str:100,pwr:28,rng:100,spd:80,itv:1000}},tunable:{pwp:1}}
+{id:140,name:"Alvete BS",type:"a",cost:55,hp:20,str:0,tec:1,wlk:1,fly:3,tgh:0,sub:{pwr:0,shl:40,rng:150,spd:150,itv:1000}}
+{id:141,name:"Bioron BS",type:"s",cost:35,hp:20,str:-1,tec:2,wlk:0,fly:3,tgh:1}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Gwyain BS",type:"a",cost:40,hp:25,str:0,tec:2,wlk:-1,fly:3,tgh:1}
