@@ -33,6 +33,9 @@
 {id:30,name:"Swift HD",cost:35,hp:20,str:0,tec:2,wlk:2,fly:1,tgh:0}
 {id:31,name:"Sithina HD",cost:35,hp:20,str:-1,tec:1,wlk:2,fly:1,tgh:2}
 {id:32,name:"Pietta HD",cost:35,hp:20,str:-1,tec:3,wlk:0,fly:1,tgh:2}
+{id:33,name:"Dark Revenant HD",type:"l",cost:40,hp:25,str:1,tec:-1,wlk:1,fly:1,tgh:3}
+{id:34,name:"Wanders HD3",type:"s",cost:105,hp:20,str:-1,tec:2,wlk:1,fly:2,tgh:1,main:{pwr:18,shl:260,rng:275,spd:500,itv:700},sub:{pwr:1,shl:10,rng:60,spd:70,itv:1000},tunable:{mwp:1}}
+{id:35,name:"Medicarest HD",cost:35,hp:20,str:1,tec:0,wlk:2,fly:0,tgh:2}
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Gwyain HD",cost:40,hp:25,str:2,tec:1,wlk:2,fly:0,tgh:0}
@@ -270,6 +273,15 @@
 {id:234,name:"Spada HD",cost:35,hp:20,str:3,tec:-1,wlk:2,fly:0,tgh:1}
 {id:235,name:"S Actina GHD",cost:35,hp:20,str:2,tec:0,wlk:2,fly:-1,tgh:2}
 {id:236,name:"Zarid HD3",cost:40,hp:25,str:2,tec:0,wlk:1,fly:0,tgh:2}
+{id:237,name:"V. Unken HD",cost:35,hp:20,str:-1,tec:2,wlk:1,fly:1,tgh:2}
+{id:238,name:"Pawnger HD3",cost:35,hp:20,str:2,tec:-1,wlk:2,fly:0,tgh:2}
+{id:239,name:"Scaraboss HD2",cost:35,hp:20,str:-1,tec:1,wlk:1,fly:2,tgh:2}
+{id:240,name:"Cyllene HD",type:"a",cost:85,hp:20,str:0,tec:2,wlk:1,fly:1,tgh:1,main:{pwr:11,shl:320,rng:275,spd:300,itv:600},tunable:{mwp:1}}
+{id:241,name:"Flash Bomber HD2",cost:35,hp:20,str:3,tec:-1,wlk:0,fly:0,tgh:3}
+{id:242,name:"Red Squealer DRIVE HD",cost:40,hp:25,str:2,tec:0,wlk:1,fly:-1,tgh:3}
+{id:243,name:"Wolfguy HD",type:"l",cost:40,hp:25,str:1,tec:-1,wlk:3,fly:1,tgh:1,auraStat:{str:1,tec:-1,wlk:3,fly:1,tgh:1,sub:{str:100,pwr:30,rng:100,spd:180,itv:1000}},tunable:{pwp:1}}
+{id:244,name:"Alvete HD",cost:35,hp:20,str:-1,tec:1,wlk:0,fly:2,tgh:3}
+{id:245,name:"Bioron HD",type:"s",cost:65,hp:20,str:0,tec:1,wlk:2,fly:1,tgh:1,main:{pwr:0,shl:150,rng:300,spd:300,itv:500},tunable:{mwp:1}}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Aquila HD",cost:35,hp:20,str:1,tec:1,wlk:2,fly:1,tgh:0}
@@ -284,6 +296,8 @@
 {id:10,name:"Knightgear HF HD",type:"c",cost:40,hp:25,str:0,tec:2,wlk:1,fly:0,tgh:2}
 {id:11,name:"Teitarotes HD",cost:30,hp:15,str:0,tec:2,wlk:1,fly:-1,tgh:2}
 {id:12,name:"Truck Mighty Byne HD",type:"l",cost:70,hp:25,str:2,tec:1,wlk:1,fly:1,tgh:0,main:{pwr:0,shl:50,rng:0,spd:10,itv:1000},tunable:{mwp:1}}
+{id:13,name:"Gozu HD",cost:35,hp:20,str:3,tec:-1,wlk:0,fly:1,tgh:2}
+{id:14,name:"Tsuchigata HD",type:"c",cost:105,hp:20,str:-1,tec:3,wlk:1,fly:0,tgh:2,main:{pwr:12,shl:480,rng:330,spd:320,itv:800},tunable:{mwp:1}}
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 
