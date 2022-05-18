@@ -36,6 +36,7 @@
 {id:33,name:"Dark Revenant HD",type:"l",cost:40,hp:25,str:1,tec:-1,wlk:1,fly:1,tgh:3}
 {id:34,name:"Wanders HD3",type:"s",cost:105,hp:20,str:-1,tec:2,wlk:1,fly:2,tgh:1,main:{pwr:18,shl:260,rng:275,spd:500,itv:700},sub:{pwr:1,shl:10,rng:60,spd:70,itv:1000},tunable:{mwp:1}}
 {id:35,name:"Medicarest HD",cost:35,hp:20,str:1,tec:0,wlk:2,fly:0,tgh:2}
+{id:36,name:"Cloria HD",cost:35,hp:20,str:2,tec:-1,wlk:2,fly:0,tgh:2}
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Gwyain HD",cost:40,hp:25,str:2,tec:1,wlk:2,fly:0,tgh:0}
@@ -149,7 +150,7 @@
 {id:109,name:"Liefy HD",cost:40,hp:25,str:-1,tec:1,wlk:2,fly:2,tgh:1}
 {id:110,name:"Brink HD",cost:40,hp:25,str:1,tec:3,wlk:0,fly:-1,tgh:2}
 {id:111,name:"Saber Raystag HD",type:"a",cost:180,hp:25,str:-1,tec:3,wlk:0,fly:1,tgh:2,main:{pwr:6,shl:900,rng:275,spd:350,itv:1000},tunable:{mwp:1}}
-{id:112,name:"Heracles Beetlander HD",type:"l",cost:200,hp:25,str:3,tec:-1,wlk:1,fly:0,tgh:2,sub:{str:100,pwr:34,rng:0,spd:320,itv:4500},tunable:{pwp:1}}
+{id:112,name:"Heracles Beetlander HD",type:"l",cost:200,hp:25,str:3,tec:-1,wlk:1,fly:0,tgh:2,sub:{str:100,pwr:36,rng:0,spd:320,itv:1000},tunable:{pwp:1}}
 {id:113,name:"Steel Rider HD2",cost:40,hp:25,str:0,tec:2,wlk:2,fly:-1,tgh:2}
 {id:114,name:"Cyberoid HD",cost:40,hp:25,str:1,tec:1,wlk:1,fly:1,tgh:1}
 {id:115,name:"Scorpton HD2",cost:35,hp:20,str:0,tec:2,wlk:2,fly:0,tgh:1}
@@ -222,7 +223,7 @@
 {id:183,name:"Dartanis HD2",cost:35,hp:20,str:2,tec:-1,wlk:3,fly:1,tgh:0}
 {id:184,name:"Theoreigne HD3",cost:35,hp:20,str:2,tec:0,wlk:1,fly:0,tgh:2}
 {id:185,name:"Domiclown HD4",type:"l",cost:70,hp:25,str:2,tec:1,wlk:0,fly:-1,tgh:3,sub:{pwr:0,shl:5,rng:0,spd:0,itv:3000}}
-{id:186,name:"A. Miral HD2",type:"l",cost:80,hp:20,str:0,tec:2,wlk:1,fly:1,tgh:1,main:{pwr:6,shl:440,rng:225,spd:440,itv:260},tunable:{mwp:1}}
+{id:186,name:"A. Miral HD2",type:"l",cost:80,hp:20,str:0,tec:2,wlk:1,fly:1,tgh:1,main:{pwr:7,shl:440,rng:250,spd:440,itv:260},tunable:{mwp:1}}
 {id:187,name:"P. Mona HD",cost:35,hp:20,str:0,tec:2,wlk:1,fly:2,tgh:0}
 {id:188,name:"Knightgear PF HD",type:"a",cost:40,hp:25,str:-1,tec:2,wlk:1,fly:1,tgh:2}
 {id:189,name:"Knightgear RF HD",type:"a",cost:40,hp:25,str:-1,tec:2,wlk:2,fly:2,tgh:0}
@@ -282,6 +283,16 @@
 {id:243,name:"Wolfguy HD",type:"l",cost:40,hp:25,str:1,tec:-1,wlk:3,fly:1,tgh:1,auraStat:{str:1,tec:-1,wlk:3,fly:1,tgh:1,sub:{str:100,pwr:30,rng:100,spd:180,itv:1000}},tunable:{pwp:1}}
 {id:244,name:"Alvete HD",cost:35,hp:20,str:-1,tec:1,wlk:0,fly:2,tgh:3}
 {id:245,name:"Bioron HD",type:"s",cost:65,hp:20,str:0,tec:1,wlk:2,fly:1,tgh:1,main:{pwr:0,shl:150,rng:300,spd:300,itv:500},tunable:{mwp:1}}
+{id:246,name:"Elme Sary HD",type:"s",cost:105,hp:20,str:-1,tec:2,wlk:2,fly:2,tgh:0,main:{pwr:6,shl:800,rng:275,spd:280,itv:400},tunable:{mwp:1}}
+{id:247,name:"Quadra HD",type:"c",cost:135,hp:20,str:-1,tec:3,wlk:1,fly:0,tgh:2,main:{pwr:6,shl:2660,rng:330,spd:480,itv:200},tunable:{mwp:1}}
+{id:248,name:"Royal Beezle HD",cost:35,hp:20,str:1,tec:1,wlk:1,fly:2,tgh:0}
+{id:249,name:"Accel Saber HD",cost:35,hp:20,str:1,tec:1,wlk:1,fly:2,tgh:0}
+{id:250,name:"Gathima HD2",cost:40,hp:25,str:0,tec:2,wlk:2,fly:0,tgh:1}
+{id:251,name:"Persecius HD2",cost:40,hp:25,str:0,tec:3,wlk:-1,fly:2,tgh:1}
+{id:252,name:"Lobguyz HD",cost:35,hp:20,str:1,tec:0,wlk:1,fly:1,tgh:2}
+{id:253,name:"Liozen HD",cost:40,hp:25,str:3,tec:-1,wlk:1,fly:0,tgh:2}
+{id:254,name:"Pacifar HD2",cost:40,hp:25,str:2,tec:-1,wlk:2,fly:2,tgh:0}
+{id:255,name:"Tyrant Destructor HD",cost:40,hp:25,str:0,tec:3,wlk:-1,fly:1,tgh:2}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Aquila HD",cost:35,hp:20,str:1,tec:1,wlk:2,fly:1,tgh:0}

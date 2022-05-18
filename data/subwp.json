@@ -84,7 +84,7 @@
 //{id:16,name:"-",slot:0}
 
 {group:"Others",prefixID:"SO"}
-{id:1,name:"Crystal Pilebunker",size:"L",type:"l",cost:70,sub:{str:100,pwr:28,rng:100,spd:200,itv:1000},tunable:{pwp:1}}
+{id:1,name:"Crystal Pilebunker",size:"L",type:"l",cost:70,sub:{str:100,pwr:34,rng:100,spd:150,itv:1000},tunable:{pwp:1}}
 {id:2,name:"SB Trick Missile",size:"M",type:"a",cost:60,sub:{pwr:9,shl:270,rng:275,spd:280,itv:1000}}
 {id:3,name:"Geso Whip",size:"S",type:"s",cost:80,sub:{pwr:26,rng:70,spd:85,itv:500},tunable:{pwp:1}}
 {id:4,name:"Impact Knuckle",size:"M",type:"l",cost:100,sub:{str:100,pwr:30,rng:70,spd:30,itv:1000},tunable:{pwp:1}}
