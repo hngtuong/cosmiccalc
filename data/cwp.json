@@ -3,26 +3,26 @@
 {id:2,name:"Melody Chord ALPHA",cost:65,main:{pwr:9,shl:380,rng:250,spd:400,itv:500},sub:{pwr:11,shl:240,rng:250,spd:320,itv:1000},conversion:"BDSS12WP"}
 {id:3,name:"Melody Chord GAMMA",cost:90,main:{pwr:6,shl:260,rng:250,spd:360,itv:600},sub:{pwr:10,shl:120,rng:260,spd:300,itv:500},conversion:"BDSS12WP"}
 {id:4,name:"Melody Chord BETA",cost:100,main:{pwr:0,shl:80,rng:300,spd:300,itv:500},sub:{pwr:0,shl:50,rng:300,spd:300,itv:1000},conversion:"BDSS12WP"}
-{id:5,name:"Suzaku Bow",cost:50,main:{str:100,pwr:20,shl:50,rng:200,spd:570,itv:500},sub:{str:100,pwr:10,rng:150,spd:85,itv:2000},conversion:"WPCS4"}
-{id:6,name:"Kabura Bow",cost:70,main:{str:100,pwr:10,shl:120,rng:200,spd:570,itv:400},sub:{str:100,pwr:24,rng:150,spd:85,itv:2000},conversion:"WPCS4"}
+{id:5,name:"Suzaku Bow",cost:50,main:{str:100,pwr:20,shl:50,rng:200,spd:570,itv:500},sub:{str:100,pwr:10,rng:150,spd:85,itv:2000},conversion:"WPCO2"}
+{id:6,name:"Kabura Bow",cost:70,main:{str:100,pwr:10,shl:120,rng:200,spd:570,itv:400},sub:{str:100,pwr:24,rng:150,spd:85,itv:2000},conversion:"WPCO2"}
 {id:7,name:"Chivary Cannon",cost:110,main:{pwr:17,shl:350,rng:330,spd:290,itv:600},joint:{wp:1},conversion:"BDCS15AM BDCS42AM",fixedParts:{wp:{name:"Chivary Cannon@",cost:50,slot:0,main:{pwr:40,shl:30,rng:300,spd:400,itv:500}}}}
 {id:8,name:"Gloom Rod",cost:100,joint:{wp:1},main:{pwr:9,shl:540,rng:275,spd:440,itv:300},sub:{pwr:26,shl:40,rng:0,spd:150,itv:1000},conversion:"BDAS13AM BDAS46AM"}
 {id:9,name:"Pepen Twin Gun",cost:70,main:{pwr:8,shl:980,rng:330,spd:220,itv:360},conversion:"AMS53"}
 {id:10,name:"Pepen Gunners",cost:100,main:{pwr:9,shl:750,rng:350,spd:350,itv:500},conversion:"BDCS17"}
 {id:11,name:"Manimo Wing@",cost:40,main:{str:100,pwr:6,shl:880,rng:300,spd:400,itv:440},conversion:"WPCS15"}
-{id:12,name:"Beam Shot Cassette",cost:70,main:{pwr:18,shl:510,rng:275,spd:440,itv:300},conversion:"WPCS16 WPCS38"}
-{id:13,name:"Auto-Charge Cassette",cost:30,slot:0,main:{pwr:32,shl:100,rng:300,spd:480,itv:500},conversion:"WPCS16 WPCS38"}
+{id:12,name:"Beam Shot Cassette",cost:70,main:{pwr:18,shl:510,rng:275,spd:440,itv:300},conversion:"WPCO4 WPCO13"}
+{id:13,name:"Auto-Charge Cassette",cost:30,slot:0,main:{pwr:32,shl:100,rng:300,spd:480,itv:500},conversion:"WPCO4 WPCO13"}
 {id:14,name:"Impact Arrow",cost:30,slot:0,main:{pwr:22,shl:230,rng:225,spd:480,itv:600},conversion:"AMM83 AMM91"}
 {id:15,name:"Homing Arrow",cost:50,slot:0,main:{pwr:13,shl:180,rng:250,spd:320,itv:800},conversion:"AMM83 AMM91"}
 {id:16,name:"Labyrinthaxe",cost:225,main:{pwr:14,shl:600,rng:350,spd:330,itv:340},sub:{pwr:30,shl:120,rng:350,spd:290,itv:1000},conversion:"BDCS21AM"}
 {id:17,name:"Power Arrow",cost:30,slot:0,main:{pwr:28,shl:320,rng:225,spd:480,itv:700},conversion:"AMM83 AMM91"}
-{id:18,name:"Airyad Bit ALPHA",cost:70,slot:0,main:{pwr:4,shl:840,rng:275,spd:440,itv:900},conversion:"WPCS24"}
-{id:19,name:"Airyad Bit BETA",cost:100,slot:0,main:{pwr:6,shl:920,rng:275,spd:440,itv:380},conversion:"WPCS24"}
-{id:20,name:"Brave Axe",cost:30,slot:0,main:{str:100,pwr:20,shl:50,rng:200,spd:570,itv:500},conversion:"WPCS25"}
+{id:18,name:"Airyad Bit ALPHA",cost:70,slot:0,main:{pwr:4,shl:840,rng:275,spd:440,itv:900},conversion:"WPCO7"}
+{id:19,name:"Airyad Bit BETA",cost:100,slot:0,main:{pwr:6,shl:920,rng:275,spd:440,itv:380},conversion:"WPCO7"}
+{id:20,name:"Brave Axe",cost:30,slot:0,main:{str:100,pwr:20,shl:50,rng:200,spd:570,itv:500},conversion:"WPCO8"}
 {id:21,name:"Beam Crystal",cost:70,main:{pwr:11,shl:500,rng:275,spd:440,itv:700},conversion:"BDAS27LG"}
 {id:22,name:"Crystal Wall",cost:90,slot:0,main:{pwr:2,shl:1740,rng:275,spd:340,itv:200},conversion:"BDAS27"}
-{id:23,name:"Berzel Bazooka",cost:90,main:{pwr:19,shl:420,rng:330,spd:400,itv:400},conversion:"WPCS28"}
-{id:24,name:"Zelius Psygun",cost:60,main:{pwr:10,shl:540,rng:330,spd:220,itv:300},conversion:"WPCS28"}
+{id:23,name:"Berzel Bazooka",cost:90,main:{pwr:19,shl:420,rng:330,spd:400,itv:400},conversion:"WPCO9"}
+{id:24,name:"Zelius Psygun",cost:60,main:{pwr:10,shl:540,rng:330,spd:220,itv:300},conversion:"WPCO9"}
 {id:25,name:"Aqua Shot",cost:70,main:{pwr:19,shl:340,rng:250,spd:400,itv:500},conversion:"BDLS39AM2"}
 {id:26,name:"Kaiser Gewitter",cost:70,main:{pwr:10,shl:390,rng:300,spd:480,itv:300},sub:{str:100,pwr:20,rng:75,spd:200,itv:1000},conversion:"AML77"}
 {id:27,name:"Longinus",cost:100,main:{pwr:32,shl:280,rng:330,spd:440,itv:700},conversion:"BDCS24AM"}
@@ -32,8 +32,8 @@
 {id:31,name:"Fillnaught",cost:130,slot:0,main:{pwr:14,shl:390,rng:350,spd:340,itv:300},sub:{pwr:10,shl:240,rng:300,spd:220,itv:1000},conversion:"AMS70",comment:"Art only"}
 {id:32,name:"Monokeras Rod",cost:170,main:{pwr:38,shl:280,rng:330,spd:400,itv:800},sub:{pwr:9,shl:300,rng:300,spd:280,itv:1000},conversion:"BDCS30AM"}
 {id:33,name:"Flare Tail",cost:60,main:{pwr:7,shl:660,rng:275,spd:300,itv:500},joint:{wp:1},fixedParts:{wp:{name:"Flare Tail@1",cost:50,slot:0,sub:{pwr:1,shl:60,rng:0,spd:200,itv:1000}}},conversion:"BDAM32LG"}
-{id:34,name:"Expiation @1",cost:120,slot:0,main:{pwr:26,shl:270,rng:450,spd:500,itv:800},conversion:"WPCS32"}
-{id:35,name:"Expiation @2",slot:0,main:{pwr:40,shl:60,rng:450,spd:420,itv:500},conversion:"WPCS32"}
+{id:34,name:"Expiation @1",cost:120,slot:0,main:{pwr:26,shl:270,rng:450,spd:500,itv:800},conversion:"WPCO10"}
+{id:35,name:"Expiation @2",slot:0,main:{pwr:40,shl:60,rng:450,spd:420,itv:500},conversion:"WPCO10"}
 {id:36,name:"Relic Orbs",cost:140,main:{pwr:11,shl:880,rng:250,spd:400,itv:500},sub:{pwr:37,rng:70,spd:85,itv:500},tunable:{pwp:1},conversion:"BDLS46"}
 {id:37,name:"Blood Shooter",cost:100,main:{pwr:14,shl:560,rng:275,spd:360,itv:300},conversion:"BDAS36AM2"}
 {id:38,name:"Battleship DNAM",cost:45,slot:0,main:{pwr:6,shl:840,rng:330,spd:480,itv:740},conversion:"AML91"}
@@ -47,10 +47,10 @@
 {id:46,name:"Stigma Shield",cost:20,slot:0,main:{pwr:0,shl:50,rng:0,spd:10,itv:1000},conversion:"BDLS53AM"}
 {id:47,name:"Payrocket",cost:160,main:{pwr:23,shl:520,rng:330,spd:400,itv:500},conversion:"BDCS40AM"}
 {id:48,name:"Galaxy Commando AM2@",cost:80,slot:0,main:{pwr:35,shl:220,rng:330,spd:400,itv:500},auraStat:{main:{pwr:25,shl:240,rng:380,spd:220,itv:600}},conversion:"AMM124"}
-{id:49,name:"Beam Missile Cassette",cost:70,main:{pwr:15,shl:480,rng:275,spd:300,itv:500},conversion:"WPCS16 WPCS38"}
-{id:50,name:"Charge Delay Cassette II",cost:30,slot:0,main:{pwr:30,shl:80,rng:275,spd:480,itv:500},conversion:"WPCS16 WPCS38"}
-{id:51,name:"Fire Breath",cost:50,slot:0,main:{pwr:35,shl:100,rng:350,spd:400,itv:1000},conversion:"WPCS47"}
-{id:52,name:"Dragoon Sword@",cost:90,main:{pwr:28,shl:400,rng:330,spd:440,itv:700},conversion:"WPCS48"}
+{id:49,name:"Beam Missile Cassette",cost:70,main:{pwr:15,shl:480,rng:275,spd:300,itv:500},conversion:"WPCO4 WPCO13"}
+{id:50,name:"Charge Delay Cassette II",cost:30,slot:0,main:{pwr:30,shl:80,rng:275,spd:480,itv:500},conversion:"WPCO4 WPCO13"}
+{id:51,name:"Fire Breath",cost:50,slot:0,main:{pwr:35,shl:100,rng:350,spd:400,itv:1000},conversion:"WPCO27"}
+{id:52,name:"Dragoon Sword@",cost:90,main:{pwr:28,shl:400,rng:330,spd:440,itv:700},conversion:"WPCO28"}
 {id:53,name:"Bloody Star AM2@",cost:30,slot:0,main:{pwr:9,shl:420,rng:350,spd:440,itv:960},conversion:"AMM37 AMM131"}
 {id:54,name:"Chivary Cannon II",cost:110,main:{pwr:10,shl:730,rng:330,spd:320,itv:300},joint:{wp:1},conversion:"BDCS15AM BDCS42AM",fixedParts:{wp:{name:"Chivary Cannon II ",cost:50,slot:0,main:{pwr:32,shl:40,rng:330,spd:400,itv:1000}}}}
 {id:55,name:"Polaris",cost:50,slot:0,main:{str:100,pwr:20,shl:50,rng:200,spd:280,itv:1000},conversion:"BDLS61WP"}
@@ -72,66 +72,78 @@
 {id:71,name:"Tyrant Destructor BD@",cost:120,slot:0,main:{pwr:13,shl:540,rng:350,spd:290,itv:800},conversion:"BDCL39"}
 {id:72,name:"Gathima Missile",cost:100,main:{pwr:12,shl:640,rng:330,spd:260,itv:300},conversion:"BDCS46AM"}
 {id:73,name:"Gathima Breaker",cost:80,main:{pwr:20,shl:440,rng:350,spd:440,itv:900},conversion:"BDCS46AM"}
+{id:74,name:"Forbidden Lance",cost:30,main:{str:100,pwr:20,shl:50,rng:200,spd:280,itv:500},conversion:"WPCO20"}
+{id:75,name:"Fluffy Cape",cost:50,slot:0,joint:{wp:1},main:{str:100,pwr:20,shl:50,rng:200,spd:500,itv:1000},conversion:"BDLS72"}
+{id:76,name:"Weather Umbrella@",cost:80,main:{pwr:5,shl:1110,rng:275,spd:280,itv:1000},sub:{pwr:0,rng:10,spd:110,itv:1000},conversion:"WPCS47"}
+{id:77,name:"Denden Cam Pro",cost:90,main:{pwr:11,shl:620,rng:275,spd:350,itv:300},conversion:"BDAS53",auraStat:{main:{pwr:11,shl:720,rng:275,spd:350,itv:300}}}
 
 {group:"Conversion-SWP",prefixID:"CS",commonStat:{tunable:{pwp:1}}}
 {id:1,name:"Gradd Chainsaw",cost:60,sub:{str:100,pwr:32,rng:70,spd:85,itv:500},conversion:"BDLS3AM"}
 {id:2,name:"Spike Shooter",cost:60,main:{str:100,pwr:5,shl:700,rng:225,spd:400,itv:140},sub:{str:100,pwr:32,rng:70,spd:85,itv:500},tunable:{mwp:1},conversion:"BDLS3AM"}
 {id:3,name:"Petit Ouraikiri",cost:140,main:{str:100,pwr:15,shl:220,rng:225,spd:400,itv:500},sub:{str:100,pwr:28,rng:81,spd:98,itv:500},tunable:{mwp:1},conversion:"BDSS5 BDSS8"}
-{id:4,name:"Gokusou Magatama",slot:0,joint:{wp:4},conversion:"BDLS22AM2"}
-{id:5,name:"Sukedachi Sword",cost:50,sub:{str:100,pwr:28,rng:70,spd:85,itv:2000},conversion:"WPCS4"}
-{id:6,name:"Cedar Spear",cost:50,sub:{str:100,pwr:25,rng:90,spd:110,itv:2000},conversion:"WPCS4"}
-{id:7,name:"Monjyu Talisman",cost:50,sub:{str:100,pwr:25,rng:150,spd:85,itv:2000},tunable:{pwp:0},conversion:"WPCS4"}
-{id:8,name:"Third Eye Magatama",conversion:"WPCS4"}
-{id:9,name:"Kanemitsu",cost:70,sub:{str:100,pwr:30,rng:70,spd:85,itv:2000},conversion:"WPCS4"}
-{id:10,name:"Otegine",cost:70,sub:{str:100,pwr:25,rng:90,spd:110,itv:2000},conversion:"WPCS4"}
-{id:11,name:"Sunlight Talisman",cost:70,sub:{str:100,pwr:22,rng:150,spd:85,itv:2000},tunable:{pwp:0},conversion:"WPCS4"}
-{id:12,name:"Chivary Guard",cost:50,slot:0,sub:{rng:10,itv:500},conversion:"BDCS15AM2 BDCS42AM2"}
-{id:13,name:"Wolken Lance",cost:160,sub:{str:100,pwr:32,rng:90,spd:180,itv:2000},conversion:"AMS50"}
-{id:14,name:"Wolken Shield",cost:70,main:{str:100,pwr:14,shl:100,rng:225,spd:320,itv:500},sub:{str:100,pwr:28,rng:100,spd:250,itv:2000},tunable:{mwp:1},conversion:"AMS51"}
-{id:15,name:"Manimo Wing",cost:70,slot:0,hp:25,str:1,fly:2,tgh:2,joint:{wp:1},sub:{pwr:0,shl:60,rng:0,spd:160,itv:1000},conversion:"BDAS17"}
-{id:16,name:"Aurora Cannon",slot:0,joint:{wp:2},conversion:"BDAS20AM BDAS43AM"}
-{id:17,name:"Krieger Shield",cost:120,joint:{wp:1},main:{pwr:0,shl:50,rng:0,spd:10,itv:1000},sub:{str:100,pwr:32,rng:70,spd:85,itv:500},tunable:{mwp:1},conversion:"BDLS33AM",fixedParts:{wp:{name:"Krieger Shield@",cost:50,slot:0,sub:{str:100,pwr:30,rng:120,spd:200,itv:1000}}}}
-{id:18,name:"Chain Blade",cost:130,main:{pwr:0,shl:50,rng:0,spd:10,itv:1000},sub:{str:100,pwr:32,rng:77,spd:102,itv:500},conversion:"BDLS34AM"}
-{id:19,name:"Chain Blade Stealth",cost:60,slot:0,main:{pwr:0,shl:-1,rng:0,spd:150,itv:1000},sub:{str:100,pwr:32,rng:120,spd:250,itv:500},conversion:"BDLS34"}
-{id:20,name:"Captain Anchor",cost:110,slot:0,joint:{wp:1},sub:{str:100,pwr:30,rng:0,spd:100,itv:500},auraStat:{main:{str:100,pwr:20,shl:50,rng:200,spd:400,itv:500},sub:{str:100,pwr:28,itv:1000}},conversion:"BDLS35AM"}
-{id:21,name:"Captain Anchor@",cost:120,main:{pwr:0,shl:50,rng:0,spd:10,itv:1000},sub:{str:100,pwr:30,rng:70,spd:85,itv:500},conversion:"WPCS20"}
-{id:22,name:"Transform",cost:50,slot:0,sub:{spd:150,itv:500},conversion:"BDAM28 BDAM42"}
-{id:23,name:"Valiant BD@",cost:230,slot:0,sub:{spd:150,itv:500},conversion:"BDAM29"}
-{id:24,name:"Bit Holder",slot:0,joint:{wp:2},conversion:"BDAS26"}
-{id:25,name:"Brave Arts",slot:0,joint:{wp:3},conversion:"AMM93",comment:"Type restriction applies"}
-{id:26,name:"Brave Sword",cost:100,sub:{str:100,pwr:32,rng:70,spd:85,itv:500},conversion:"WPCS25"}
-{id:27,name:"Brave Lance",cost:50,slot:0,sub:{str:100,pwr:28,rng:120,spd:250,itv:500},conversion:"WPCS25"}
-{id:28,name:"Greed Weapon",slot:0,joint:{wp:2},conversion:"BDCS22AM"}
-{id:29,name:"Grave Paddle",cost:100,sub:{str:100,pwr:34,rng:77,spd:94,itv:500},conversion:"BDLS42AM"}
-{id:30,name:"Serpent Whip",cost:90,sub:{str:100,pwr:32,rng:90,spd:110,itv:1000},conversion:"BDLS44AM"}
-{id:31,name:"Banish Striker",cost:80,main:{str:100,pwr:20,shl:50,rng:200,spd:200,itv:1000},sub:{str:100,pwr:35,rng:90,spd:250,itv:2000},tunable:{mwp:1},conversion:"BDLS44AM2"}
-{id:32,name:"Expiation",slot:0,joint:{wp:2},conversion:"BDAM32AM"}
-{id:33,name:"Lunar Ring (New Moon)",cost:20,slot:0,conversion:"BDLS46"}
-{id:34,name:"General Shield",cost:40,slot:0,conversion:"AML83"}
-{id:35,name:"General Blade",cost:200,main:{str:100,pwr:19,shl:180,rng:225,spd:440,itv:600},sub:{str:100,pwr:32,rng:77,spd:94,itv:1000},tunable:{mwp:1},conversion:"AML84"}
-{id:36,name:"Serment Noire",cost:190,sub:{str:100,pwr:32,rng:70,spd:85,itv:1000},conversion:"BDLS53AM2"}
-{id:37,name:"Diable Catcher",cost:50,slot:0,sub:{pwr:11,shl:300,rng:350,spd:280,itv:1000},conversion:"WPCM45"}
-{id:38,name:"Aurora Cannon MkII",slot:0,joint:{wp:2},conversion:"BDAS20AM BDAS43AM"}
-{id:39,name:"Voltic Power",cost:220,slot:0,sub:{itv:1000},conversion:"BDLS50"}
-{id:40,name:"Spitz Eizen",cost:130,main:{str:100,pwr:20,shl:50,rng:200,spd:570,itv:500},sub:{str:100,pwr:36,rng:70,spd:85,itv:1000},tunable:{mwp:1},conversion:"BDLS51AML"}
-{id:41,name:"Chivary Guard II",cost:50,slot:0,sub:{rng:10,itv:500},joint:{wp:1},conversion:"BDCS15AM2 BDCS42AM2",fixedParts:{wp:{name:"Chivary Guard II@",cost:20,slot:0,sub:{pwr:0,shl:30,rng:0,spd:170,itv:1000}}}}
-{id:42,name:"Zwei Kanone",cost:30,slot:0,sub:{str:100,pwr:16,shl:30,rng:150,spd:250,itv:1000},conversion:"BDLS51"}
-{id:43,name:"Rookie STR Memory",cost:50,slot:0,str:30,tec:-22,conversion:"BDLS55 BDAS39 BDAS40"}
-{id:44,name:"Rookie TEC Memory",cost:50,slot:0,str:-22,tec:30,conversion:"BDLS55 BDAS39 BDAS40"}
-{id:45,name:"Rookie WLK Memory",cost:50,slot:0,str:25,tec:-14,conversion:"BDCM31 BDSS33"}
-{id:46,name:"Rookie FLY Memory",cost:50,slot:0,str:-14,tec:25,conversion:"BDCM31 BDSS33"}
-{id:47,name:"Gii-kun",slot:0,joint:{wp:1},conversion:"BDCS41"}
-{id:48,name:"Dragoon Sword",cost:90,slot:0,joint:{wp:1},sub:{pwr:18,shl:300,rng:350,spd:280,itv:1000},conversion:"BDCS41"}
-{id:49,name:"Minute Reaper",cost:120,main:{pwr:0,shl:50,rng:0,spd:10,itv:1000},sub:{str:100,pwr:32,rng:84,spd:102,itv:500},conversion:"BDLS57AM"}
-{id:50,name:"Hour Dagger",cost:80,slot:0,main:{str:100,pwr:20,shl:50,rng:200,spd:570,itv:500},sub:{str:100,pwr:0,rng:150,spd:350,itv:1000},conversion:"BDLS57AM2"}
-{id:51,name:"Needle Star",cost:130,main:{str:100,pwr:20,shl:50,rng:200,spd:500,itv:500},sub:{str:100,pwr:32,rng:56,spd:68,itv:1500},tunable:{mwp:1},conversion:"BDLS61AM2"}
-{id:52,name:"Spada BD@",cost:20,slot:0,sub:{str:100,pwr:30,rng:100,spd:150,itv:2000},conversion:"BDLM7"}
-{id:53,name:"Guardian Knight",cost:30,sub:{pwr:30,shl:30,rng:0,spd:100,itv:1000},tunable:{pwp:0},conversion:"BDCS44"}
-{id:54,name:"Revenant Sword",cost:120,sub:{str:100,pwr:32,rng:70,spd:85,itv:1000},conversion:"AMM137"}
-{id:55,name:"Axion Sword Bit",cost:30,sub:{str:100,pwr:30,rng:150,spd:500,itv:1000},conversion:"BDLS66"}
-{id:56,name:"Tyrant Destructor BD@2",cost:120,slot:0,main:{pwr:9,shl:400,rng:350,spd:290,itv:1000},conversion:"BDCL39"}
-{id:57,name:"Gathima Howzer",cost:20,slot:0,sub:{pwr:26,shl:90,rng:300,spd:200,itv:1000},tunable:{pwp:0},conversion:"BDCS46"}
-{id:58,name:"Adone Trance",slot:0,sub:{itv:1000},conversion:"BDAM45"}
-{id:59,name:"Rush Gauntlet",cost:80,conversion:"BDAM46AM"}
+{id:5,name:"Sukedachi Sword",cost:50,sub:{str:100,pwr:28,rng:70,spd:85,itv:2000},conversion:"WPCO2"}
+{id:6,name:"Cedar Spear",cost:50,sub:{str:100,pwr:25,rng:90,spd:110,itv:2000},conversion:"WPCO2"}
+{id:7,name:"Monjyu Talisman",cost:50,sub:{str:100,pwr:25,rng:150,spd:85,itv:2000},tunable:{pwp:0},conversion:"WPCO2"}
+{id:8,name:"Kanemitsu",cost:70,sub:{str:100,pwr:30,rng:70,spd:85,itv:2000},conversion:"WPCO2"}
+{id:9,name:"Otegine",cost:70,sub:{str:100,pwr:25,rng:90,spd:110,itv:2000},conversion:"WPCO2"}
+{id:10,name:"Sunlight Talisman",cost:70,sub:{str:100,pwr:22,rng:150,spd:85,itv:2000},tunable:{pwp:0},conversion:"WPCO2"}
+{id:11,name:"Chivary Guard",cost:50,slot:0,sub:{rng:10,itv:500},conversion:"BDCS15AM2 BDCS42AM2"}
+{id:12,name:"Wolken Lance",cost:160,sub:{str:100,pwr:32,rng:90,spd:180,itv:2000},conversion:"AMS50"}
+{id:13,name:"Wolken Shield",cost:70,main:{str:100,pwr:14,shl:100,rng:225,spd:320,itv:500},sub:{str:100,pwr:28,rng:100,spd:250,itv:2000},tunable:{mwp:1},conversion:"AMS51"}
+{id:14,name:"Manimo Wing",cost:70,slot:0,hp:25,str:1,fly:2,tgh:2,joint:{wp:1},sub:{pwr:0,shl:60,rng:0,spd:160,itv:1000},conversion:"BDAS17"}
+{id:15,name:"Krieger Shield",cost:120,joint:{wp:1},main:{pwr:0,shl:50,rng:0,spd:10,itv:1000},sub:{str:100,pwr:32,rng:70,spd:85,itv:500},tunable:{mwp:1},conversion:"BDLS33AM",fixedParts:{wp:{name:"Krieger Shield@",cost:50,slot:0,sub:{str:100,pwr:30,rng:120,spd:200,itv:1000}}}}
+{id:16,name:"Chain Blade",cost:130,main:{pwr:0,shl:50,rng:0,spd:10,itv:1000},sub:{str:100,pwr:32,rng:77,spd:102,itv:500},conversion:"BDLS34AM"}
+{id:17,name:"Chain Blade Stealth",cost:60,slot:0,main:{pwr:0,shl:-1,rng:0,spd:150,itv:1000},sub:{str:100,pwr:32,rng:120,spd:250,itv:500},conversion:"BDLS34"}
+{id:18,name:"Captain Anchor",cost:110,slot:0,joint:{wp:1},sub:{str:100,pwr:30,rng:0,spd:100,itv:500},auraStat:{main:{str:100,pwr:20,shl:50,rng:200,spd:400,itv:500},sub:{str:100,pwr:28,itv:1000}},conversion:"BDLS35AM"}
+{id:19,name:"Captain Anchor@",cost:120,main:{pwr:0,shl:50,rng:0,spd:10,itv:1000},sub:{str:100,pwr:30,rng:70,spd:85,itv:500},conversion:"WPCS20"}
+{id:20,name:"Brave Sword",cost:100,sub:{str:100,pwr:32,rng:70,spd:85,itv:500},conversion:"WPCO8"}
+{id:21,name:"Brave Lance",cost:50,slot:0,sub:{str:100,pwr:28,rng:120,spd:250,itv:500},conversion:"WPCO8"}
+{id:22,name:"Grave Paddle",cost:100,sub:{str:100,pwr:34,rng:77,spd:94,itv:500},conversion:"BDLS42AM"}
+{id:23,name:"Serpent Whip",cost:90,sub:{str:100,pwr:32,rng:90,spd:110,itv:1000},conversion:"BDLS44AM"}
+{id:24,name:"Banish Striker",cost:80,main:{str:100,pwr:20,shl:50,rng:200,spd:200,itv:1000},sub:{str:100,pwr:35,rng:90,spd:250,itv:2000},tunable:{mwp:1},conversion:"BDLS44AM2"}
+{id:25,name:"General Blade",cost:200,main:{str:100,pwr:19,shl:180,rng:225,spd:440,itv:600},sub:{str:100,pwr:32,rng:77,spd:94,itv:1000},tunable:{mwp:1},conversion:"AML84"}
+{id:26,name:"Serment Noire",cost:190,sub:{str:100,pwr:32,rng:70,spd:85,itv:1000},conversion:"BDLS53AM2"}
+{id:27,name:"Diable Catcher",cost:50,slot:0,sub:{pwr:11,shl:300,rng:350,spd:280,itv:1000},tunable:{pwp:0},conversion:"WPCM45"}
+{id:28,name:"Spitz Eizen",cost:130,main:{str:100,pwr:20,shl:50,rng:200,spd:570,itv:500},sub:{str:100,pwr:36,rng:70,spd:85,itv:1000},tunable:{mwp:1},conversion:"BDLS51AML"}
+{id:29,name:"Chivary Guard II",cost:50,slot:0,sub:{rng:10,itv:500},tunable:{pwp:0},joint:{wp:1},conversion:"BDCS15AM2 BDCS42AM2",fixedParts:{wp:{name:"Chivary Guard II@",cost:20,slot:0,sub:{pwr:0,shl:30,rng:0,spd:170,itv:1000}}}}
+{id:30,name:"Zwei Kanone",cost:30,slot:0,sub:{str:100,pwr:16,shl:30,rng:150,spd:250,itv:1000},conversion:"BDLS51"}
+{id:31,name:"Dragoon Sword",cost:90,slot:0,joint:{wp:1},sub:{pwr:18,shl:300,rng:350,spd:280,itv:1000},tunable:{pwp:0},conversion:"BDCS41"}
+{id:32,name:"Minute Reaper",cost:120,main:{pwr:0,shl:50,rng:0,spd:10,itv:1000},sub:{str:100,pwr:32,rng:84,spd:102,itv:500},conversion:"BDLS57AM"}
+{id:33,name:"Hour Dagger",cost:80,slot:0,main:{str:100,pwr:20,shl:50,rng:200,spd:570,itv:500},sub:{str:100,pwr:0,rng:150,spd:350,itv:1000},conversion:"BDLS57AM2"}
+{id:34,name:"Needle Star",cost:130,main:{str:100,pwr:20,shl:50,rng:200,spd:500,itv:500},sub:{str:100,pwr:32,rng:56,spd:68,itv:1500},tunable:{mwp:1},conversion:"BDLS61AM2"}
+{id:35,name:"Spada BD@",cost:20,slot:0,sub:{str:100,pwr:30,rng:100,spd:150,itv:2000},conversion:"BDLM7"}
+{id:36,name:"Guardian Knight",cost:30,sub:{pwr:30,shl:30,rng:0,spd:100,itv:1000},tunable:{pwp:0},conversion:"BDCS44"}
+{id:37,name:"Revenant Sword",cost:120,sub:{str:100,pwr:32,rng:70,spd:85,itv:1000},conversion:"AMM137"}
+{id:38,name:"Axion Sword Bit",cost:30,sub:{str:100,pwr:30,rng:150,spd:500,itv:1000},conversion:"BDLS66"}
+{id:39,name:"Tyrant Destructor BD@2",cost:120,slot:0,sub:{pwr:9,shl:400,rng:350,spd:290,itv:1000},tunable:{pwp:0},conversion:"BDCL39"}
+{id:40,name:"Gathima Howzer",cost:20,slot:0,sub:{pwr:26,shl:90,rng:300,spd:200,itv:1000},tunable:{pwp:0},conversion:"BDCS46"}
+{id:41,name:"Adone Trance",slot:0,sub:{itv:1000},tunable:{pwp:0},conversion:"BDAM45"}
+{id:42,name:"Forbidden Sword",cost:100,sub:{str:100,pwr:32,rng:100,spd:150,itv:2000},conversion:"WPCO20"}
+{id:43,name:"Forbidden Axe",cost:50,sub:{str:100,pwr:28,shl:30,rng:200,spd:290,itv:1000},conversion:"WPCO20"}
+{id:44,name:"Pina Tail",cost:100,joint:{wp:1},tunable:{pwp:0},conversion:"BDLS71LG",fixedParts:{wp:{name:"Dig Drill",slot:0,main:{str:100,pwr:25,shl:50,rng:200,spd:500,itv:1000},sub:{str:100,pwr:18,shl:50,rng:200,spd:300,itv:500}}}}
+{id:45,name:"Drill Power",cost:140,sub:{str:100,pwr:32,rng:77,spd:94,itv:1000},conversion:"BDLS71"}
+{id:46,name:"Snow Bear",cost:130,main:{str:100,pwr:15,shl:50,rng:200,spd:570,itv:500},sub:{str:100,pwr:32,rng:77,spd:94,itv:1000},tunable:{mwp:1},conversion:"WPCM72"}
+{id:47,name:"Weather Umbrella",cost:60,slot:0,joint:{wp:1},sub:{pwr:10,shl:100,rng:10,spd:320,itv:1000},tunable:{pwp:0},conversion:"BDAS53AM2"}
 
-{id:999,name:"Specific Memory Slot",conversion:"Slot BDLS49 BDCS37AM2 BDLS53 BDLS53AM BDLS53AM2 BDLS57AM BDLS57AM2 BDLS61AM2 BDLS61WP BDCS43 BDAS46 BDAS46AM BDLS63 BDLS64 BDCS44 BDLS67 BDAS50 BDCS45 BDAM45 AMS99 BDAM46LG"}
+{group:"Conversion-Other",prefixID:"CO"}
+{id:1,name:"Specific Memory Slot",conversion:"Slot BDLS49 BDCS37AM2 BDLS53 BDLS53AM BDLS53AM2 BDLS57AM BDLS57AM2 BDLS61AM2 BDLS61WP BDCS43 BDAS46 BDAS46AM BDLS63 BDLS64 BDCS44 BDLS67 BDAS50 BDCS45 BDAM45 AMS99 BDAM46LG BDLS72 BDAS53 AMS104"}
+{id:2,name:"Gokusou Magatama",slot:0,joint:{wp:4},conversion:"BDLS22AM2"}
+{id:3,name:"Third Eye Magatama",conversion:"WPCO2"}
+{id:4,name:"Aurora Cannon",slot:0,joint:{wp:2},conversion:"BDAS20AM BDAS43AM"}
+{id:5,name:"Transform",cost:50,slot:0,sub:{spd:150,itv:500},conversion:"BDAM28 BDAM42"}
+{id:6,name:"Valiant BD@",cost:230,slot:0,sub:{spd:150,itv:500},conversion:"BDAM29"}
+{id:7,name:"Bit Holder",slot:0,joint:{wp:2},conversion:"BDAS26"}
+{id:8,name:"Brave Arts",slot:0,joint:{wp:3},conversion:"AMM93",comment:"Type restriction applies"}
+{id:9,name:"Greed Weapon",slot:0,joint:{wp:2},conversion:"BDCS22AM"}
+{id:10,name:"Expiation",slot:0,joint:{wp:2},conversion:"BDAM32AM"}
+{id:11,name:"Lunar Ring (New Moon)",cost:20,slot:0,conversion:"BDLS46"}
+{id:12,name:"General Shield",cost:40,slot:0,conversion:"AML83"}
+{id:13,name:"Aurora Cannon MkII",slot:0,joint:{wp:2},conversion:"BDAS20AM BDAS43AM"}
+{id:14,name:"Voltic Power",cost:220,slot:0,sub:{itv:1000},conversion:"BDLS50"}
+{id:15,name:"Rookie STR Memory",cost:50,slot:0,str:30,tec:-22,conversion:"BDLS55 BDAS39 BDAS40"}
+{id:16,name:"Rookie TEC Memory",cost:50,slot:0,str:-22,tec:30,conversion:"BDLS55 BDAS39 BDAS40"}
+{id:17,name:"Rookie WLK Memory",cost:50,slot:0,str:25,tec:-14,conversion:"BDCM31 BDSS33"}
+{id:18,name:"Rookie FLY Memory",cost:50,slot:0,str:-14,tec:25,conversion:"BDCM31 BDSS33"}
+{id:19,name:"Gii-kun",slot:0,joint:{wp:1},conversion:"BDCS41"}
+{id:20,name:"Forbidden Art",slot:0,joint:{wp:3},conversion:"AMM153"}
+{id:21,name:"Rush Gauntlet",cost:80,conversion:"BDAM46AM"}
