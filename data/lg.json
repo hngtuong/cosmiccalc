@@ -90,6 +90,9 @@
 {id:84,name:"Arte Maid LG",type:"s",cost:75,hp:25,str:2,tec:0,wlk:3,fly:0,tgh:1,sub:{str:100,pwr:26,rng:70,spd:85,itv:1000},tunable:{pwp:1}}
 {id:85,name:"Toy Khan LG",type:"acs",cost:45,hp:25,str:-1,tec:2,wlk:3,fly:2,tgh:0}
 {id:86,name:"S Irene LG",type:"a",cost:125,hp:25,str:2,tec:-1,wlk:3,fly:2,tgh:0,sub:{str:100,pwr:30,shl:30,rng:200,spd:350,itv:1000},tunable:{pwp:1}}
+{id:87,name:"Tesladonna Alpha LG",type:"a",cost:75,hp:25,str:-1,tec:2,wlk:2,fly:2,tgh:1,sub:{pwr:20,shl:60,rng:100,spd:120,itv:1000},tunable:{pwp:1}}
+{id:88,name:"Connie Sheriff Alpha LG",cost:45,hp:25,str:-1,tec:2,wlk:3,fly:0,tgh:2}
+{id:89,name:"Nicole Malice LG",cost:45,hp:25,str:-1,tec:2,wlk:3,fly:1,tgh:1}
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Axion LG",type:"l",cost:45,hp:25,str:1,tec:1,wlk:3,fly:2,tgh:-1}
@@ -198,6 +201,12 @@
 {id:104,name:"Assault Ox M2 LG",cost:45,hp:25,str:-1,tec:2,wlk:2,fly:1,tgh:2}
 {id:105,name:"Crys Horn LG",type:"l",cost:75,hp:25,str:-1,tec:2,wlk:3,fly:0,tgh:2,sub:{pwr:11,shl:180,rng:225,spd:400,itv:1000}}
 {id:106,name:"Nightfear LG",cost:45,hp:25,str:3,tec:0,wlk:2,fly:-1,tgh:2}
+{id:107,name:"Squidol LG",type:"s",cost:85,hp:50,str:1,tec:1,wlk:4,fly:3,tgh:2}
+{id:108,name:"Tem Pole LG",cost:45,hp:25,str:1,tec:1,wlk:4,fly:-1,tgh:1}
+{id:109,name:"Helingal MK-2LG",cost:45,hp:25,str:-1,tec:2,wlk:3,fly:1,tgh:1}
+{id:110,name:"Victory FB LG",cost:45,hp:25,str:0,tec:2,wlk:3,fly:0,tgh:1}
+{id:111,name:"Heavy Jaguar Arm LG",cost:45,hp:25,str:2,tec:-1,wlk:3,fly:0,tgh:2}
+{id:112,name:"Wild Fizalivan LG",cost:45,hp:25,str:0,tec:1,wlk:3,fly:1,tgh:1}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Gwyain LG",cost:50,hp:40,str:1,tec:1,wlk:3,fly:0,tgh:1}
@@ -291,6 +300,7 @@
 {id:89,name:"Tyrant Destructor LG",cost:50,hp:45,str:0,tec:2,wlk:3,fly:-1,tgh:2}
 {id:90,name:"Poseidon LG",type:"a",cost:75,hp:60,str:0,tec:1,wlk:3,fly:2,tgh:0,sub:{pwr:0,shl:60,rng:0,spd:150,itv:1000}}
 {id:91,name:"Aresis LG",type:"l",cost:65,hp:65,str:2,tec:-1,wlk:3,fly:1,tgh:1,sub:{pwr:0,rng:0,spd:200,itv:1000}}
+{id:92,name:"Centaur X LG",type:"l",cost:135,hp:45,str:2,tec:-1,wlk:4,fly:0,tgh:1,sub:{str:100,pwr:32,rng:70,spd:85,itv:2000},tunable:{pwp:1}}
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:1,name:"Shino Exroad LG",type:"l",cost:145,hp:55,str:2,tec:-1,wlk:4,fly:0,tgh:1,joint:{bs:1},sub:{str:100,pwr:28,rng:150,spd:150,itv:2500},tunable:{pwp:1}}
@@ -306,6 +316,7 @@
 {id:11,name:"Gaderoga LG2",type:"c",cost:55,hp:65,str:0,tec:1,wlk:4,fly:-1,tgh:2,joint:{bs:1},sub:{pwr:24,rng:100,spd:150,itv:2000},tunable:{pwp:1}}
 {id:12,name:"Teitarotes LG",type:"c",cost:105,hp:70,str:-1,tec:2,wlk:2,fly:0,tgh:3,sub:{pwr:8,shl:400,rng:350,spd:350,itv:1000}}
 {id:13,name:"Snailbokswagen LG",cost:45,hp:70,str:0,tec:0,wlk:3,fly:2,tgh:1}
+{id:14,name:"Aquila Airs LG",type:"a",cost:90,hp:60,str:-1,tec:2,wlk:3,fly:0,tgh:2,joint:{bs:1},sub:{pwr:25,shl:60,rng:275,spd:300,itv:1000}}
 
 {group:"Joint",prefixID:"J",commonStat:{jointPart:1,slot:1,size:"M"}}
 {id:1,name:"Generic LGJ"}

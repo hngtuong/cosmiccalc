@@ -76,6 +76,9 @@
 {id:75,name:"Fluffy Cape",cost:50,slot:0,joint:{wp:1},main:{str:100,pwr:20,shl:50,rng:200,spd:500,itv:1000},conversion:"BDLS72"}
 {id:76,name:"Weather Umbrella@",cost:80,main:{pwr:5,shl:1110,rng:275,spd:280,itv:1000},sub:{pwr:0,rng:10,spd:110,itv:1000},conversion:"WPCS47"}
 {id:77,name:"Denden Cam Pro",cost:90,main:{pwr:11,shl:620,rng:275,spd:350,itv:300},conversion:"BDAS53",auraStat:{main:{pwr:11,shl:720,rng:275,spd:350,itv:300}}}
+{id:78,name:"Tem Pole BD@2",cost:70,slot:0,joint:{wp:1},main:{pwr:12,shl:520,rng:350,spd:440,itv:700},conversion:"BDLL41BD2 WPCM78 WPCM79 WPCO22"}
+{id:79,name:"Tem Pole BD@3",cost:70,slot:0,joint:{wp:1},main:{pwr:9,shl:560,rng:350,spd:280,itv:660},conversion:"BDLL41BD2 WPCM78 WPCM79 WPCO22"}
+{id:80,name:"Olkwaffe",cost:150,slot:0,joint:{wp:1},main:{pwr:28,shl:260,rng:455,spd:500,itv:800},conversion:"BDCS49AM2",fixedParts:{wp:{name:"Magne ESP Sight",slot:0,sub:{itv:500}}}}
 
 {group:"Conversion-SWP",prefixID:"CS",commonStat:{tunable:{pwp:1}}}
 {id:1,name:"Gradd Chainsaw",cost:60,sub:{str:100,pwr:32,rng:70,spd:85,itv:500},conversion:"BDLS3AM"}
@@ -126,7 +129,7 @@
 {id:47,name:"Weather Umbrella",cost:60,slot:0,joint:{wp:1},sub:{pwr:10,shl:100,rng:10,spd:320,itv:1000},tunable:{pwp:0},conversion:"BDAS53AM2"}
 
 {group:"Conversion-Other",prefixID:"CO"}
-{id:1,name:"Specific Memory Slot",conversion:"Slot BDLS49 BDCS37AM2 BDLS53 BDLS53AM BDLS53AM2 BDLS57AM BDLS57AM2 BDLS61AM2 BDLS61WP BDCS43 BDAS46 BDAS46AM BDLS63 BDLS64 BDCS44 BDLS67 BDAS50 BDCS45 BDAM45 AMS99 BDAM46LG BDLS72 BDAS53 AMS104"}
+{id:1,name:"Specific Memory Slot",conversion:"Slot BDLS49 BDCS37AM2 BDLS53 BDLS53AM BDLS53AM2 BDLS57AM BDLS57AM2 BDLS61AM2 BDLS61WP BDCS43 BDAS46 BDAS46AM BDLS63 BDLS64 BDCS44 BDLS67 BDAS50 BDCS45 BDAM45 AMS99 BDAM46LG BDLS72 BDAS53 AMS104 BDCS49 BDCS49AM2"}
 {id:2,name:"Gokusou Magatama",slot:0,joint:{wp:4},conversion:"BDLS22AM2"}
 {id:3,name:"Third Eye Magatama",conversion:"WPCO2"}
 {id:4,name:"Aurora Cannon",slot:0,joint:{wp:2},conversion:"BDAS20AM BDAS43AM"}
@@ -147,3 +150,5 @@
 {id:19,name:"Gii-kun",slot:0,joint:{wp:1},conversion:"BDCS41"}
 {id:20,name:"Forbidden Art",slot:0,joint:{wp:3},conversion:"AMM153"}
 {id:21,name:"Rush Gauntlet",cost:80,conversion:"BDAM46AM"}
+{id:22,name:"Tem Pole BD@",slot:0,joint:{hd:1,bs:1,am:2},conversion:"BDLL41BD2 WPCM78 WPCM79 WPCO22"}
+{id:23,name:"Air Running",cost:20,conversion:"BDLM37"}

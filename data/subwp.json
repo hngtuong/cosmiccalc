@@ -42,6 +42,7 @@
 {id:37,name:"Gozu Cleaver",size:"L",type:"l",cost:120,sub:{str:100,pwr:36,rng:63,spd:77,itv:1800}}
 {id:38,name:"Yaegaki",size:"M",type:"c",cost:40,sub:{pwr:32,rng:70,spd:85,itv:500}}
 {id:39,name:"Aresis Sword",size:"L",type:"l",cost:150,main:{str:100,pwr:20,shl:50,rng:200,spd:570,itv:500},sub:{str:100,pwr:33,rng:70,spd:85,itv:1000},tunable:{mwp:1},auraStat:{main:{str:100,pwr:20,shl:50,rng:200,spd:570,itv:500},sub:{str:100,pwr:35,rng:77,spd:94,itv:1000}}}
+{id:40,name:"Byron Balde",size:"M",type:"l",cost:130,sub:{str:100,pwr:32,rng:77,spd:94,itv:1000}}
 
 {group:"Axes",prefixID:"AX",commonStat:{tunable:{pwp:1}}}
 {id:1,name:"Hand Axe",size:"S",type:"lcs",cost:40,sub:{str:100,pwr:30,rng:56,spd:68,itv:1000}}

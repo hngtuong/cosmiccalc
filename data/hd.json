@@ -303,6 +303,14 @@
 {id:259,name:"Crys Horn HD",type:"l",cost:70,hp:15,str:0,tec:1,wlk:1,fly:0,tgh:2,main:{pwr:12,shl:320,rng:250,spd:320,itv:720},tunable:{mwp:1}}
 {id:260,name:"Aresis HD",cost:40,hp:25,str:2,tec:0,wlk:1,fly:-1,tgh:3}
 {id:261,name:"Nightfear HD",cost:40,hp:25,str:-1,tec:1,wlk:1,fly:2,tgh:2}
+{id:262,name:"Squidol HD",cost:35,hp:20,str:2,tec:2,wlk:0,fly:0,tgh:1}
+{id:263,name:"Tem Pole HD",cost:35,hp:20,str:1,tec:2,wlk:1,fly:2,tgh:-1}
+{id:264,name:"Helingal MK-2HD",cost:35,hp:20,str:-1,tec:1,wlk:0,fly:3,tgh:2}
+{id:265,name:"Centaur X HD",cost:35,hp:20,str:1,tec:1,wlk:2,fly:1,tgh:0}
+{id:266,name:"Sharhead HD",cost:35,hp:20,str:1,tec:-1,wlk:2,fly:1,tgh:2}
+{id:267,name:"Victory FB HD",cost:35,hp:20,str:0,tec:1,wlk:2,fly:2,tgh:0}
+{id:268,name:"Heavy Jaguar Arm HD",type:"l",cost:105,hp:20,str:2,tec:-1,wlk:1,fly:1,tgh:2,sub:{str:100,pwr:30,rng:77,spd:94,itv:1000},tunable:{pwp:1}}
+{id:269,name:"Wild Fizalivan HD",type:"l",cost:135,hp:20,str:-1,tec:3,wlk:2,fly:1,tgh:0,main:{pwr:19,shl:510,rng:225,spd:440,itv:340},tunable:{mwp:1}}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Aquila HD",cost:35,hp:20,str:1,tec:1,wlk:2,fly:1,tgh:0}
@@ -320,6 +328,7 @@
 {id:13,name:"Gozu HD",cost:35,hp:20,str:3,tec:-1,wlk:0,fly:1,tgh:2}
 {id:14,name:"Tsuchigata HD",type:"c",cost:105,hp:20,str:-1,tec:3,wlk:1,fly:0,tgh:2,main:{pwr:12,shl:480,rng:330,spd:320,itv:800},tunable:{mwp:1}}
 {id:15,name:"Snailbokswagen HD",type:"c",cost:70,hp:15,str:0,tec:2,wlk:1,fly:1,tgh:0,main:{pwr:7,shl:900,rng:300,spd:400,itv:400},tunable:{mwp:1}}
+{id:16,name:"Aquila Airs HD",cost:35,hp:20,str:-1,tec:2,wlk:1,fly:2,tgh:1}
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 
