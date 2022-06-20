@@ -123,6 +123,9 @@
 {id:106,name:"S Irene BS",type:"a",cost:40,hp:25,str:1,tec:0,wlk:1,fly:3,tgh:0}
 {id:107,name:"Pina Rueberry BS",type:"l",cost:35,hp:20,str:1,tec:0,wlk:0,fly:2,tgh:2}
 {id:108,name:"Asphe BS",type:"c",cost:35,hp:20,str:0,tec:2,wlk:1,fly:3,tgh:-1}
+{id:109,name:"Connie Sheriff Alpha BS",type:"l",cost:40,hp:25,str:-1,tec:2,wlk:1,fly:3,tgh:0}
+{id:110,name:"Alcy BS",type:"a",cost:40,hp:25,str:-1,tec:1,wlk:0,fly:3,tgh:2}
+{id:111,name:"Nicole Malice BS",type:"s",cost:35,hp:20,str:-1,tec:1,wlk:1,fly:3,tgh:1}
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Axion BS",type:"l",cost:45,hp:25,str:0,tec:2,wlk:1,fly:3,tgh:-1}
@@ -275,6 +278,13 @@
 {id:148,name:"Assault Ox M2 BS",type:"l",cost:35,hp:20,str:2,tec:-1,wlk:1,fly:2,tgh:1}
 {id:150,name:"Crys Horn BS",type:"l",cost:30,hp:15,str:0,tec:1,wlk:0,fly:2,tgh:1}
 {id:151,name:"Nightfear BS",type:"l",cost:40,hp:25,str:1,tec:0,wlk:1,fly:2,tgh:1}
+{id:152,name:"Tem Pole BS",type:"c",cost:35,hp:20,str:-1,tec:1,wlk:0,fly:3,tgh:2}
+{id:153,name:"Helingal MK-2BS",type:"a",cost:165,hp:20,str:2,tec:-1,wlk:0,fly:4,tgh:0,sub:{str:100,pwr:30,shl:150,rng:70,spd:85,itv:1000},tunable:{pwp:1}}
+{id:154,name:"Sharhead BS",type:"l",cost:35,hp:20,str:0,tec:2,wlk:-1,fly:3,tgh:1}
+{id:155,name:"Victory FB BS",cost:35,hp:20,str:0,tec:1,wlk:1,fly:2,tgh:1}
+{id:156,name:"Heavy Jaguar Arm BS",type:"l",cost:35,hp:20,str:2,tec:-1,wlk:1,fly:2,tgh:1}
+{id:157,name:"Wild Fizalivan BS",type:"l",cost:155,hp:20,str:-1,tec:3,wlk:1,fly:2,tgh:0,main:{pwr:12,shl:580,rng:250,spd:280,itv:880},sub:{str:100,pwr:25,shl:30,rng:50,spd:300,itv:1000},tunable:{mwp:1}}
+{id:158,name:"Persenachia BS",type:"s",cost:35,hp:20,str:-1,tec:1,wlk:2,fly:2,tgh:1}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Gwyain BS",type:"a",cost:40,hp:25,str:0,tec:2,wlk:-1,fly:3,tgh:1}
@@ -348,6 +358,9 @@
 {id:79,name:"Tyrant Destructor BS",type:"c",cost:40,hp:25,str:0,tec:1,wlk:0,fly:3,tgh:1}
 {id:80,name:"Poseidon BS",type:"a",cost:35,hp:20,str:1,tec:-1,wlk:1,fly:3,tgh:1}
 {id:81,name:"Aresis BS",type:"l",cost:40,hp:25,str:2,tec:0,wlk:-1,fly:3,tgh:1}
+{id:82,name:"Centaur X BS",type:"l",cost:35,hp:20,str:-1,tec:2,wlk:0,fly:3,tgh:1}
+{id:83,name:"Aquila Airs BS",type:"a",cost:40,hp:25,str:0,tec:2,wlk:0,fly:4,tgh:-1}
+{id:84,name:"Aquila Airs BS2",type:"a",cost:35,hp:20,str:1,tec:0,wlk:0,fly:2,tgh:1}
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:1,name:"Shaden BS",type:"a",cost:125,hp:25,str:0,tec:0,wlk:0,fly:5,tgh:0,sub:{pwr:1,shl:1,rng:200,spd:110,itv:2000}}
