@@ -43,6 +43,7 @@
 {id:38,name:"Yaegaki",size:"M",type:"c",cost:40,sub:{pwr:32,rng:70,spd:85,itv:500}}
 {id:39,name:"Aresis Sword",size:"L",type:"l",cost:150,main:{str:100,pwr:20,shl:50,rng:200,spd:570,itv:500},sub:{str:100,pwr:33,rng:70,spd:85,itv:1000},tunable:{mwp:1},auraStat:{main:{str:100,pwr:20,shl:50,rng:200,spd:570,itv:500},sub:{str:100,pwr:35,rng:77,spd:94,itv:1000}}}
 {id:40,name:"Byron Balde",size:"M",type:"l",cost:130,sub:{str:100,pwr:32,rng:77,spd:94,itv:1000}}
+{id:41,name:"Oar Edge",size:"S",type:"l",cost:140,sub:{str:100,pwr:32,rng:100,spd:200,itv:2000}}
 
 {group:"Axes",prefixID:"AX",commonStat:{tunable:{pwp:1}}}
 {id:1,name:"Hand Axe",size:"S",type:"lcs",cost:40,sub:{str:100,pwr:30,rng:56,spd:68,itv:1000}}
@@ -90,3 +91,4 @@
 {id:2,name:"SB Trick Missile",size:"M",type:"a",cost:60,sub:{pwr:9,shl:270,rng:275,spd:280,itv:1000}}
 {id:3,name:"Geso Whip",size:"S",type:"s",cost:80,sub:{pwr:26,rng:70,spd:85,itv:500},tunable:{pwp:1}}
 {id:4,name:"Impact Knuckle",size:"M",type:"l",cost:100,sub:{str:100,pwr:30,rng:70,spd:30,itv:1000},tunable:{pwp:1}}
+{id:5,name:"Kagura Ougi",size:"S",type:"s",cost:85,sub:{pwr:30,shl:150,rng:300,spd:240,itv:1000}}

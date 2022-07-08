@@ -41,6 +41,7 @@
 {id:38,name:"Rayminious HD2",cost:35,hp:15,str:1,tec:2,wlk:0,fly:2,tgh:-1}
 {id:39,name:"Toy Khan HD",cost:35,hp:20,str:0,tec:2,wlk:1,fly:1,tgh:1}
 {id:40,name:"S Irene HD",cost:40,hp:25,str:0,tec:0,wlk:1,fly:3,tgh:1}
+{id:41,name:"Syverion HD",cost:30,hp:15,str:0,tec:2,wlk:1,fly:1,tgh:0}
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Gwyain HD",cost:40,hp:25,str:2,tec:1,wlk:2,fly:0,tgh:0}
@@ -311,6 +312,18 @@
 {id:267,name:"Victory FB HD",cost:35,hp:20,str:0,tec:1,wlk:2,fly:2,tgh:0}
 {id:268,name:"Heavy Jaguar Arm HD",type:"l",cost:105,hp:20,str:2,tec:-1,wlk:1,fly:1,tgh:2,sub:{str:100,pwr:30,rng:77,spd:94,itv:1000},tunable:{pwp:1}}
 {id:269,name:"Wild Fizalivan HD",type:"l",cost:135,hp:20,str:-1,tec:3,wlk:2,fly:1,tgh:0,main:{pwr:19,shl:510,rng:225,spd:440,itv:340},tunable:{mwp:1}}
+{id:270,name:"Herianzus HD",cost:35,hp:20,str:3,tec:1,wlk:0,fly:0,tgh:1}
+{id:271,name:"Galsteel HD2",cost:30,hp:20,str:0,tec:2,wlk:2,fly:0,tgh:0}
+{id:272,name:"Brickgale HD4",cost:30,hp:15,str:0,tec:1,wlk:0,fly:2,tgh:1}
+{id:273,name:"Sharhead HD2",cost:35,hp:20,str:2,tec:-1,wlk:1,fly:1,tgh:2}
+{id:274,name:"Theoreigne HD2",cost:35,hp:20,str:0,tec:2,wlk:1,fly:0,tgh:2}
+{id:275,name:"Mecha Jetter OMG HD",cost:40,hp:25,str:0,tec:2,wlk:1,fly:3,tgh:-1}
+{id:276,name:"CAPTAIN X HD2",cost:35,hp:20,str:2,tec:1,wlk:2,fly:0,tgh:0}
+{id:277,name:"Amateus HD3",cost:40,hp:25,str:0,tec:2,wlk:2,fly:2,tgh:-1}
+{id:278,name:"Genesion HD2",cost:35,hp:20,str:-1,tec:3,wlk:1,fly:1,tgh:1}
+{id:279,name:"Air Raider HD",cost:30,hp:15,str:0,tec:2,wlk:-1,fly:1,tgh:2}
+{id:280,name:"Locomotive X HD2",cost:35,hp:20,str:-1,tec:1,wlk:2,fly:1,tgh:1}
+{id:281,name:"Mizuha HD",cost:30,hp:15,str:0,tec:1,wlk:1,fly:0,tgh:2}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Aquila HD",cost:35,hp:20,str:1,tec:1,wlk:2,fly:1,tgh:0}
