@@ -126,6 +126,9 @@
 {id:109,name:"Connie Sheriff Alpha BS",type:"l",cost:40,hp:25,str:-1,tec:2,wlk:1,fly:3,tgh:0}
 {id:110,name:"Alcy BS",type:"a",cost:40,hp:25,str:-1,tec:1,wlk:0,fly:3,tgh:2}
 {id:111,name:"Nicole Malice BS",type:"s",cost:35,hp:20,str:-1,tec:1,wlk:1,fly:3,tgh:1}
+{id:112,name:"Brickgale BS4",type:"a",cost:60,hp:25,str:-1,tec:1,wlk:1,fly:3,tgh:1,sub:{pwr:0,shl:50,rng:0,spd:150,itv:1000}}
+{id:113,name:"Syverion BS",type:"l",cost:30,hp:15,str:1,tec:0,wlk:1,fly:3,tgh:-1}
+{id:114,name:"Mizuha BS",type:"s",cost:30,hp:15,str:0,tec:0,wlk:1,fly:2,tgh:1}
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Axion BS",type:"l",cost:45,hp:25,str:0,tec:2,wlk:1,fly:3,tgh:-1}
@@ -285,6 +288,11 @@
 {id:156,name:"Heavy Jaguar Arm BS",type:"l",cost:35,hp:20,str:2,tec:-1,wlk:1,fly:2,tgh:1}
 {id:157,name:"Wild Fizalivan BS",type:"l",cost:155,hp:20,str:-1,tec:3,wlk:1,fly:2,tgh:0,main:{pwr:12,shl:580,rng:250,spd:280,itv:880},sub:{str:100,pwr:25,shl:30,rng:50,spd:300,itv:1000},tunable:{mwp:1}}
 {id:158,name:"Persenachia BS",type:"s",cost:35,hp:20,str:-1,tec:1,wlk:2,fly:2,tgh:1}
+{id:159,name:"Sharhead BS2",type:"l",cost:35,hp:20,str:1,tec:0,wlk:1,fly:3,tgh:0}
+{id:160,name:"Mecha Jetter OMG BS",type:"a",cost:40,hp:25,str:2,tec:-1,wlk:0,fly:3,tgh:1}
+{id:161,name:"CAPTAIN X BS2",type:"l",cost:35,hp:20,str:1,tec:1,wlk:-1,fly:2,tgh:2}
+{id:162,name:"Genesion BS2",type:"a",cost:65,hp:20,str:0,tec:0,wlk:1,fly:4,tgh:0,sub:{str:100,pwr:1,shl:35,rng:150,spd:120,itv:1000}}
+{id:163,name:"Locomotive X BS",type:"c",cost:30,hp:15,str:1,tec:0,wlk:0,fly:2,tgh:1}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Gwyain BS",type:"a",cost:40,hp:25,str:0,tec:2,wlk:-1,fly:3,tgh:1}
@@ -340,7 +348,7 @@
 {id:61,name:"Generaldo BS",type:"l",cost:35,hp:20,str:-1,tec:1,wlk:1,fly:3,tgh:1}
 {id:62,name:"Flash Bomber BS",type:"c",cost:35,hp:20,str:0,tec:2,wlk:0,fly:2,tgh:1}
 {id:63,name:"Wolf Rayet BS2",type:"a",cost:40,hp:25,str:-1,tec:1,wlk:0,fly:4,tgh:1,joint:{bs:1},fixedParts:{bs:{name:"Wolf Rayet BS2@",cost:45,slot:0,main:{pwr:8,shl:500,rng:275,spd:320,itv:700},sub:{pwr:1,shl:15,rng:10,spd:150,itv:1000}}}}
-{id:64,name:"Sturbanger BS2",type:"c",cost:40,hp:25,str:-1,tec:2,wlk:1,fly:3,tgh:0,joint:{bs:1},fixedParts:{bs:{name:"Sturbanger BS2@",cost:70,slot:0,main:{pwr:18,shl:220,rng:300,spd:280,itv:700}}}}
+{id:64,name:"Sturbanger BS2",type:"c",cost:40,hp:25,str:-1,tec:2,wlk:1,fly:3,tgh:0,joint:{bs:1},fixedParts:{bs:{name:"Sturbanger BS2@",cost:70,slot:0,main:{pwr:18,shl:280,rng:300,spd:280,itv:700}}}}
 {id:65,name:"Crugis BS",type:"a",cost:30,hp:15,str:0,tec:1,wlk:0,fly:2,tgh:1}
 {id:66,name:"Teitarotes BS",type:"c",cost:70,hp:15,str:-1,tec:2,wlk:0,fly:2,tgh:1,main:{pwr:14,shl:260,rng:330,spd:240,itv:1400},tunable:{mwp:1}}
 {id:67,name:"Truck Mighty Byne BS",type:"l",cost:40,hp:25,str:1,tec:0,wlk:0,fly:2,tgh:2}
@@ -361,6 +369,8 @@
 {id:82,name:"Centaur X BS",type:"l",cost:35,hp:20,str:-1,tec:2,wlk:0,fly:3,tgh:1}
 {id:83,name:"Aquila Airs BS",type:"a",cost:40,hp:25,str:0,tec:2,wlk:0,fly:4,tgh:-1}
 {id:84,name:"Aquila Airs BS2",type:"a",cost:35,hp:20,str:1,tec:0,wlk:0,fly:2,tgh:1}
+{id:85,name:"Herianzus BS",type:"c",cost:185,hp:20,str:1,tec:2,wlk:0,fly:2,tgh:0,joint:{bs:1},fixedParts:{bs:{name:"Herianzus BS@",slot:0,main:{pwr:11,shl:1000,rng:250,spd:480,itv:100}}}}
+{id:86,name:"Galsteel BS",type:"c",cost:40,hp:25,str:-1,tec:1,wlk:1,fly:3,tgh:1}
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:1,name:"Shaden BS",type:"a",cost:125,hp:25,str:0,tec:0,wlk:0,fly:5,tgh:0,sub:{pwr:1,shl:1,rng:200,spd:110,itv:2000}}
