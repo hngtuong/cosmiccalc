@@ -133,7 +133,7 @@
 {id:45,name:"Drill Power",cost:140,sub:{str:100,pwr:32,rng:77,spd:94,itv:1000},conversion:"BDLS71"}
 {id:46,name:"Snow Bear",cost:130,main:{str:100,pwr:15,shl:50,rng:200,spd:570,itv:500},sub:{str:100,pwr:32,rng:77,spd:94,itv:1000},tunable:{mwp:1},conversion:"WPCM72"}
 {id:47,name:"Weather Umbrella",cost:60,slot:0,joint:{wp:1},sub:{pwr:10,shl:100,rng:10,spd:320,itv:1000},tunable:{pwp:0},conversion:"BDAS53AM2"}
-{id:48,name:"Seraphim Rune R",cost:170,main:{str:100,pwr:16,shl:-1,rng:10,spd:10,itv:500},sub:{str:100,pwr:33,rng:77,spd:94,itv:1000},conversion:"BDLS76AM2"}
+{id:48,name:"Seraphim Rune R",cost:170,main:{str:100,pwr:25,shl:-1,rng:10,spd:10,itv:500},sub:{str:100,pwr:33,rng:77,spd:94,itv:1000},conversion:"BDLS76AM2"}
 {id:49,name:"Wheel Tackle",cost:100,sub:{pwr:34,rng:100,spd:150,itv:1000},conversion:"BDLS78LG"}
 
 {group:"Conversion-Other",prefixID:"CO"}
