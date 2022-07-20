@@ -125,10 +125,10 @@
 {id:9,name:"Mini Blast Bazooka",size:"S",type:"c",cost:60,main:{pwr:21,shl:280,rng:330,spd:400,itv:640}}
 {id:10,name:"Blast Bazooka",size:"M",type:"c",cost:105,main:{pwr:29,shl:260,rng:330,spd:360,itv:700}}
 {id:11,name:"Mini Might Bazooka",size:"M",type:"c",cost:90,main:{pwr:19,shl:340,rng:330,spd:400,itv:500}}
-{id:12,name:"Gatling Bazooka",size:"LL",type:"c",cost:210,main:{pwr:11,shl:1400,rng:330,spd:480,itv:200}}
+{id:12,name:"Gatling Bazooka",size:"LL",type:"c",cost:200,main:{pwr:12,shl:1400,rng:350,spd:480,itv:200}}
 {id:13,name:"Shock Bazooka",size:"M",type:"s",cost:100,main:{pwr:20,shl:240,rng:250,spd:325,itv:800}}
 {id:14,name:"Explosive Bazooka",size:"L",type:"c",cost:160,main:{pwr:28,shl:290,rng:330,spd:360,itv:600}}
-{id:15,name:"Blast Gatling",size:"LL",type:"c",cost:210,main:{pwr:11,shl:1300,rng:360,spd:330,itv:200}}
+{id:15,name:"Blast Gatling",size:"LL",type:"c",cost:200,main:{pwr:12,shl:1300,rng:350,spd:400,itv:200}}
 {id:16,name:"Charge Delay Bazooka",size:"M",type:"s",cost:100,main:{pwr:16,shl:240,rng:250,spd:325,itv:800}}
 {id:17,name:"BT Bazooka",size:"M",type:"cs",cost:100,main:{pwr:20,shl:240,rng:275,spd:360,itv:500}}
 {id:18,name:"Mega Beam Gun",size:"L",type:"a",cost:110,main:{pwr:33,shl:150,rng:275,spd:400,itv:1000}}
