@@ -324,6 +324,7 @@
 {id:279,name:"Air Raider HD",cost:30,hp:15,str:0,tec:2,wlk:-1,fly:1,tgh:2}
 {id:280,name:"Locomotive X HD2",cost:35,hp:20,str:-1,tec:1,wlk:2,fly:1,tgh:1}
 {id:281,name:"Mizuha HD",cost:30,hp:15,str:0,tec:1,wlk:1,fly:0,tgh:2}
+{id:282,name:"Cannon Baller DRHD",cost:35,hp:20,str:1,tec:1,wlk:2,fly:0,tgh:1}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Aquila HD",cost:35,hp:20,str:1,tec:1,wlk:2,fly:1,tgh:0}
