@@ -181,6 +181,7 @@
 {id:12,name:"Septuple Launcher",size:"LL",type:"c",cost:150,main:{pwr:6,shl:1260,rng:330,spd:250,itv:900}}
 {id:13,name:"Custom Shotgun",size:"M",cost:70,main:{pwr:6,shl:1090,rng:150,spd:400,itv:560}}
 {id:14,name:"Barrage Heat Gun",size:"M",type:"c",cost:120,main:{pwr:19,shl:630,rng:330,spd:400,itv:800}}
+{id:15,name:"Berg Cluster Gun",size:"M",type:"l",cost:120,main:{pwr:22,shl:310,rng:250,spd:400,itv:600}}
 
 {group:"Others",prefixID:"MO",commonStat:{tunable:{mwp:1}}}
 {id:1,name:"Glass Burner",size:"S",cost:40,type:"lcs",main:{pwr:5,shl:760,rng:120,spd:480,itv:100}}
@@ -216,4 +217,5 @@
 {id:31,name:"Beam Bomb Launcher",size:"M",type:"a",cost:80,main:{pwr:30,shl:360,rng:100,spd:300,itv:1000}}
 {id:32,name:"Hadron Shooter",size:"M",type:"lc",cost:160,main:{pwr:12,shl:1180,rng:180,spd:480,itv:100}}
 {id:33,name:"Bioron Bow",size:"M",type:"s",cost:120,main:{pwr:16,shl:330,rng:250,spd:250,itv:500},sub:{pwr:20,rng:0,spd:150,itv:1000}}
+{id:34,name:"Tornado Fan",size:"L",type:"a",cost:120,main:{pwr:20,shl:320,rng:275,spd:260,itv:600},tunable:{mwp:1}}
 //Some weapons missing: Blow Bazooka, Pierce Gun

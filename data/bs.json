@@ -13,6 +13,8 @@
 {id:1,name:"Build Arm BS",type:"c",cost:110,hp:25,str:-1,tec:3,wlk:0,fly:2,tgh:1,main:{pwr:15,shl:320,rng:330,spd:380,itv:580},tunable:{mwp:1}}
 {id:2,name:"Lily Rain Alpha BS",type:"c",cost:40,hp:25,str:0,tec:0,wlk:2,fly:2,tgh:1}
 {id:3,name:"Winberrl Alpha BS",type:"s",cost:40,hp:25,str:0,tec:0,wlk:1,fly:3,tgh:1}
+{id:4,name:"Parasector Asis BS",type:"l",cost:115,hp:20,str:2,tec:-1,wlk:2,fly:2,tgh:0,main:{str:100,pwr:10,shl:300,rng:200,spd:480,itv:500},sub:{str:100,pwr:30,shl:"-",rng:150,spd:90,itv:1000},tunable:{mwp:1}}
+{id:5,name:"Hilti BS",type:"s",cost:35,hp:20,str:0,tec:1,wlk:-1,fly:3,tgh:2}
 
 {group:"S Size",prefixID:"S",commonStat:{size:"S"}}
 {id:1,name:"Zero Saber BS",type:"l",cost:40,hp:25,str:1,tec:1,wlk:1,fly:2,tgh:0}
@@ -294,6 +296,8 @@
 {id:162,name:"Genesion BS2",type:"a",cost:65,hp:20,str:0,tec:0,wlk:1,fly:4,tgh:0,sub:{str:100,pwr:1,shl:35,rng:150,spd:120,itv:1000}}
 {id:163,name:"Locomotive X BS",type:"c",cost:30,hp:15,str:1,tec:0,wlk:0,fly:2,tgh:1}
 {id:164,name:"Cannon Baller DRBS",type:"l",cost:35,hp:20,str:0,tec:1,wlk:2,fly:2,tgh:0}
+{id:165,name:"Cyburning BS",type:"l",cost:35,hp:20,str:2,tec:1,wlk:-1,fly:2,tgh:1}
+{id:166,name:"Psycho Formula BS3",type:"c",cost:35,hp:20,str:0,tec:2,wlk:-1,fly:2,tgh:2}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Gwyain BS",type:"a",cost:40,hp:25,str:0,tec:2,wlk:-1,fly:3,tgh:1}
@@ -372,6 +376,9 @@
 {id:84,name:"Aquila Airs BS2",type:"a",cost:35,hp:20,str:1,tec:0,wlk:0,fly:2,tgh:1}
 {id:85,name:"Herianzus BS",type:"c",cost:185,hp:20,str:1,tec:2,wlk:0,fly:2,tgh:0,joint:{bs:1},fixedParts:{bs:{name:"Herianzus BS@",slot:0,main:{pwr:11,shl:1000,rng:250,spd:480,itv:100}}}}
 {id:86,name:"Galsteel BS",type:"c",cost:40,hp:25,str:-1,tec:1,wlk:1,fly:3,tgh:1}
+{id:87,name:"Kotengu BS",type:"a",cost:150,hp:20,str:-1,tec:2,wlk:0,fly:4,tgh:0,main:{pwr:10,shl:560,rng:275,spd:280,itv:700},sub:{pwr:0,shl:60,rng:100,spd:120,itv:1000},tunable:{mwp:1}}
+{id:88,name:"Gozu BS2",type:"l",cost:35,hp:20,str:0,tec:1,wlk:0,fly:2,tgh:2}
+{id:89,name:"Giganberg BS",type:"l",cost:35,hp:20,str:0,tec:-1,wlk:2,fly:3,tgh:1}
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:1,name:"Shaden BS",type:"a",cost:125,hp:25,str:0,tec:0,wlk:0,fly:5,tgh:0,sub:{pwr:1,shl:1,rng:200,spd:110,itv:2000}}

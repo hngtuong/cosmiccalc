@@ -42,6 +42,7 @@
 {id:39,name:"Toy Khan HD",cost:35,hp:20,str:0,tec:2,wlk:1,fly:1,tgh:1}
 {id:40,name:"S Irene HD",cost:40,hp:25,str:0,tec:0,wlk:1,fly:3,tgh:1}
 {id:41,name:"Syverion HD",cost:30,hp:15,str:0,tec:2,wlk:1,fly:1,tgh:0}
+{id:42,name:"Parasector Asis HD",cost:35,hp:20,str:1,tec:0,wlk:2,fly:1,tgh:1}
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Gwyain HD",cost:40,hp:25,str:2,tec:1,wlk:2,fly:0,tgh:0}
@@ -325,6 +326,12 @@
 {id:280,name:"Locomotive X HD2",cost:35,hp:20,str:-1,tec:1,wlk:2,fly:1,tgh:1}
 {id:281,name:"Mizuha HD",cost:30,hp:15,str:0,tec:1,wlk:1,fly:0,tgh:2}
 {id:282,name:"Cannon Baller DRHD",cost:35,hp:20,str:1,tec:1,wlk:2,fly:0,tgh:1}
+{id:283,name:"Meteora HD2",cost:35,hp:20,str:1,tec:1,wlk:0,fly:1,tgh:2}
+{id:284,name:"Kotengu HD",cost:35,hp:20,str:0,tec:1,wlk:1,fly:2,tgh:1}
+{id:285,name:"Cyburning HD",cost:35,hp:20,str:1,tec:0,wlk:2,fly:1,tgh:1}
+{id:286,name:"Psycho Formula HD4",type:"c",cost:85,hp:20,str:-1,tec:2,wlk:0,fly:2,tgh:2,main:{pwr:21,shl:140,rng:330,spd:280,itv:600},tunable:{mwp:1}}
+{id:287,name:"Cetusion HD",cost:35,hp:20,str:0,tec:2,wlk:1,fly:1,tgh:1,auraStat:{str:0,tec:2,wlk:1,fly:1,tgh:1,main:{pwr:8,shl:820,rng:275,spd:320,itv:500},tunable:{mwp:1}}}
+{id:288,name:"Giganberg HD",cost:35,hp:20,str:0,tec:2,wlk:1,fly:2,tgh:0}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Aquila HD",cost:35,hp:20,str:1,tec:1,wlk:2,fly:1,tgh:0}
@@ -343,9 +350,11 @@
 {id:14,name:"Tsuchigata HD",type:"c",cost:105,hp:20,str:-1,tec:3,wlk:1,fly:0,tgh:2,main:{pwr:12,shl:480,rng:330,spd:320,itv:800},tunable:{mwp:1}}
 {id:15,name:"Snailbokswagen HD",type:"c",cost:70,hp:15,str:0,tec:2,wlk:1,fly:1,tgh:0,main:{pwr:7,shl:900,rng:300,spd:400,itv:400},tunable:{mwp:1}}
 {id:16,name:"Aquila Airs HD",cost:35,hp:20,str:-1,tec:2,wlk:1,fly:2,tgh:1}
+{id:17,name:"Gozu HD2",cost:35,hp:20,str:0,tec:2,wlk:2,fly:0,tgh:1}
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 
 {group:"Joint",prefixID:"J",commonStat:{jointPart:1,slot:1,size:"M"}}
 {id:1,name:"Generic HDJ"}
+{id:2,name:"Parasector Asis HDJ",size:"S"}
 //Missing: Gaderoga HD2
