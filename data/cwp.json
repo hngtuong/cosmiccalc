@@ -85,6 +85,11 @@
 {id:84,name:"Ricochet Gatling",cost:60,main:{pwr:5,shl:1500,rng:250,spd:400,itv:240},conversion:"BDLS77LG"}
 {id:85,name:"Sonic Claw",cost:30,main:{pwr:23,shl:50,rng:200,spd:570,itv:500},conversion:"BDLS78AM2"}
 {id:86,name:"Kikoutou Kagutsuchi",cost:130,main:{pwr:11,shl:750,rng:350,spd:280,itv:1000},conversion:"BDCS50AM"}
+{id:87,conversion:"BDLS82",name:"Parasector Asis BD@",cost:60,slot:0,main:{str:100,pwr:25,shl:15,rng:0,spd:10,itv:700}}
+{id:88,conversion:"BDSS43LG",name:"Battle Frame R BETA",cost:40,slot:0,main:{pwr:0,shl:20,rng:300,spd:300,itv:1000}}
+{id:89,conversion:"BDSS43",name:"Battle Frame R ALPHA",cost:140,main:{pwr:7,shl:720,rng:300,spd:360,itv:1000},sub:{pwr:16,shl:300,rng:300,spd:260,itv:1000},tunable:{mwp:1}}
+{id:90,conversion:"BDAS57LG",name:"Battle Frame I BETA",cost:170,main:{pwr:7,shl:360,rng:275,spd:260,itv:1000},sub:{pwr:0,shl:60,rng:0,spd:180,itv:1000},tunable:{mwp:1}}
+{id:91,conversion:"BDAS57",name:"Battle Frame I ALPHA",cost:70,main:{pwr:7,shl:960,rng:275,spd:280,itv:400},sub:{pwr:0,shl:60,rng:0,spd:180,itv:1000},tunable:{mwp:1}}
 
 {group:"Conversion-SWP",prefixID:"CS",commonStat:{tunable:{pwp:1}}}
 {id:1,name:"Gradd Chainsaw",cost:60,sub:{str:100,pwr:32,rng:70,spd:85,itv:500},conversion:"BDLS3AM"}
@@ -137,7 +142,7 @@
 {id:49,name:"Wheel Tackle",cost:100,sub:{pwr:34,rng:100,spd:150,itv:1000},conversion:"BDLS78LG"}
 
 {group:"Conversion-Other",prefixID:"CO"}
-{id:1,name:"Specific Memory Slot",conversion:"Slot BDLS49 BDCS37AM2 BDLS53 BDLS53AM BDLS53AM2 BDLS57AM BDLS57AM2 BDLS61AM2 BDLS61WP BDCS43 BDAS46 BDAS46AM BDLS63 BDLS64 BDCS44 BDLS67 BDAS50 BDCS45 BDAM45 AMS99 BDAM46LG BDLS72 BDAS53 AMS104 BDCS49 BDCS49AM2 BDLS75 BDLS76 BDLS77 BDLS78 BDLS78AM2 BDCS50 BDCS50AM BDLS81"}
+{id:1,name:"Specific Memory Slot",conversion:"Slot BDLS49 BDCS37AM2 BDLS53 BDLS53AM BDLS53AM2 BDLS57AM BDLS57AM2 BDLS61AM2 BDLS61WP BDCS43 BDAS46 BDAS46AM BDLS63 BDLS64 BDCS44 BDLS67 BDAS50 BDCS45 BDAM45 AMS99 BDAM46LG BDLS72 BDAS53 AMS104 BDCS49 BDCS49AM2 BDLS75 BDLS76 BDLS77 BDLS78 BDLS78AM2 BDCS50 BDCS50AM BDLS81 BDSS43 BDAS57 BDSS44 BDCS52 BDCS53"}
 {id:2,name:"Gokusou Magatama",slot:0,joint:{wp:4},conversion:"BDLS22AM2"}
 {id:3,name:"Third Eye Magatama",conversion:"WPCO2"}
 {id:4,name:"Aurora Cannon",slot:0,joint:{wp:2},conversion:"BDAS20AM BDAS43AM"}
@@ -160,8 +165,9 @@
 {id:21,name:"Rush Gauntlet",cost:80,conversion:"BDAM46AM"}
 {id:22,name:"Tem Pole BD@",slot:0,joint:{hd:1,bs:1,am:2},conversion:"BDLL41BD2 WPCM78 WPCM79 WPCO22"}
 {id:23,name:"Air Running",cost:20,conversion:"BDLM37 BDLM40"}
-{id:24,name:"Battle Whistle",slot:0,sub:{itv:1000},conversion:"BDLS75 BDLS76"}
+{id:24,name:"Battle Whistle",slot:0,sub:{itv:1000},conversion:"BDLS75 BDLS76 BDSS43 BDAS57"}
 {id:25,name:"Battle Frame L Alpha",cost:30,slot:0,sub:{shl:1000,itv:1000},conversion:"BDLS75"}
 {id:26,name:"Battle Frame C",cost:20,sub:{rng:150,spd:350,itv:1000},conversion:"BDLS76LG"}
 {id:27,name:"Outsider Key",cost:75,slot:0,sub:{rng:10,spd:10,itv:500},conversion:"BDLS77"}
 {id:28,name:"Glory Key",cost:115,slot:0,sub:{rng:10,spd:10,itv:500},conversion:"BDLS78"}
+{id:29,conversion:"BDAL38",name:"Transform ",cost:50,slot:0,sub:{pwr:0,shl:"-",rng:0,spd:150,itv:1000}}
