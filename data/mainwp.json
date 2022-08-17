@@ -15,9 +15,9 @@
 {id:7,name:"Single Gun",size:"M",type:"lcs",cost:35,main:{pwr:14,shl:260,rng:250,spd:570,itv:400}}
 {id:8,name:"Accelerated Gun",size:"M",type:"lcs",cost:100,main:{pwr:20,shl:400,rng:250,spd:570,itv:400}}
 {id:9,name:"Peace Maker",size:"M",type:"l",cost:130,main:{pwr:16,shl:600,rng:250,spd:570,itv:280}}
-{id:10,name:"Military Gun",size:"S",cost:60,main:{pwr:12,shl:300,rng:225,spd:400,itv:240}}
-{id:11,name:"Drum Gun",size:"M",type:"l",cost:90,main:{pwr:15,shl:260,rng:225,spd:400,itv:240}}
-{id:12,name:"High Cap Drum Gun",size:"M",type:"l",cost:130,main:{pwr:12,shl:530,rng:225,spd:400,itv:240}}
+{id:10,name:"Military Gun",size:"S",cost:60,main:{pwr:12,shl:440,rng:200,spd:400,itv:240}}
+{id:11,name:"Drum Gun",size:"M",type:"l",cost:90,main:{pwr:15,shl:480,rng:200,spd:400,itv:240}}
+{id:12,name:"High Cap Drum Gun",size:"M",type:"l",cost:130,main:{pwr:13,shl:750,rng:200,spd:400,itv:240}}
 {id:13,name:"Motorized Gun",size:"M",type:"l",cost:180,main:{pwr:11,shl:760,rng:225,spd:440,itv:140}}
 {id:14,name:"Boosted Gun",size:"M",type:"l",cost:160,main:{pwr:13,shl:560,rng:250,spd:570,itv:200}}
 {id:15,name:"Estes Magnum",size:"M",type:"l",cost:180,main:{pwr:29,shl:380,rng:225,spd:440,itv:500}}
