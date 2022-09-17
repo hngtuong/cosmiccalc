@@ -332,6 +332,14 @@
 {id:286,name:"Psycho Formula HD4",type:"c",cost:85,hp:20,str:-1,tec:2,wlk:0,fly:2,tgh:2,main:{pwr:21,shl:140,rng:330,spd:280,itv:600},tunable:{mwp:1}}
 {id:287,name:"Cetusion HD",cost:35,hp:20,str:0,tec:2,wlk:1,fly:1,tgh:1,auraStat:{str:0,tec:2,wlk:1,fly:1,tgh:1,main:{pwr:8,shl:820,rng:275,spd:320,itv:500},tunable:{mwp:1}}}
 {id:288,name:"Giganberg HD",cost:35,hp:20,str:0,tec:2,wlk:1,fly:2,tgh:0}
+{id:289,name:"Captain X HD",cost:35,hp:20,str:0,tec:1,wlk:2,fly:1,tgh:1}
+{id:290,name:"Tristar HD",cost:35,hp:20,str:0,tec:1,wlk:1,fly:2,tgh:1}
+{id:291,name:"Geograsis HD3",cost:35,hp:20,str:1,tec:2,wlk:1,fly:0,tgh:1}
+{id:292,name:"Jets HD",cost:35,hp:20,str:-1,tec:2,wlk:1,fly:2,tgh:1}
+//
+{id:294,name:"Lancelot HD3",cost:40,hp:25,str:3,tec:0,wlk:1,fly:-1,tgh:2}
+{id:295,name:"Crystas HD2",cost:35,hp:20,str:0,tec:1,wlk:0,fly:2,tgh:2}
+{id:296,name:"Katto Baldo HD",type:"l",cost:35,hp:20,str:1,tec:-1,wlk:2,fly:1,tgh:2}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Aquila HD",cost:35,hp:20,str:1,tec:1,wlk:2,fly:1,tgh:0}
