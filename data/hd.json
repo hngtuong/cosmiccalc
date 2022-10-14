@@ -43,6 +43,10 @@
 {id:40,name:"S Irene HD",cost:40,hp:25,str:0,tec:0,wlk:1,fly:3,tgh:1}
 {id:41,name:"Syverion HD",cost:30,hp:15,str:0,tec:2,wlk:1,fly:1,tgh:0}
 {id:42,name:"Parasector Asis HD",cost:35,hp:20,str:1,tec:0,wlk:2,fly:1,tgh:1}
+{id:43,name:"Mechled HD",cost:30,hp:15,str:0,tec:2,wlk:1,fly:0,tgh:1}
+{id:44,name:"A. Maid HD",cost:35,hp:20,str:1,tec:2,wlk:0,fly:1,tgh:1}
+{id:45,name:"Butterflea HD2",type:"as",cost:125,hp:20,str:-1,tec:2,wlk:1,fly:2,tgh:1,main:{pwr:5,shl:840,rng:200,spd:480,itv:140},tunable:{mwp:1}}
+{id:46,name:"Serpilis HD",cost:35,hp:20,str:3,tec:-1,wlk:1,fly:1,tgh:1}
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Gwyain HD",cost:40,hp:25,str:2,tec:1,wlk:2,fly:0,tgh:0}
@@ -336,10 +340,18 @@
 {id:290,name:"Tristar HD",cost:35,hp:20,str:0,tec:1,wlk:1,fly:2,tgh:1}
 {id:291,name:"Geograsis HD3",cost:35,hp:20,str:1,tec:2,wlk:1,fly:0,tgh:1}
 {id:292,name:"Jets HD",cost:35,hp:20,str:-1,tec:2,wlk:1,fly:2,tgh:1}
-//
+{id:293,name:"Aero Raider HD",cost:35,hp:20,str:1,tec:1,wlk:2,fly:-1,tgh:2}
 {id:294,name:"Lancelot HD3",cost:40,hp:25,str:3,tec:0,wlk:1,fly:-1,tgh:2}
 {id:295,name:"Crystas HD2",cost:35,hp:20,str:0,tec:1,wlk:0,fly:2,tgh:2}
 {id:296,name:"Katto Baldo HD",type:"l",cost:35,hp:20,str:1,tec:-1,wlk:2,fly:1,tgh:2}
+{id:297,name:"Antlion HD2",cost:35,hp:20,str:0,tec:1,wlk:0,fly:2,tgh:2}
+{id:298,name:"Twin Towered HD",type:"c",cost:115,hp:20,str:-1,tec:3,wlk:1,fly:1,tgh:1,main:{pwr:10,shl:760,rng:280,spd:480,itv:100},tunable:{mwp:1}}
+{id:299,name:"Mirage Raid HD",cost:35,hp:20,str:1,tec:0,wlk:1,fly:2,tgh:1}
+{id:300,name:"Lucca Decho HD2",cost:40,hp:25,str:0,tec:2,wlk:1,fly:0,tgh:2}
+{id:301,name:"Lux HD2",cost:40,hp:25,str:1,tec:-1,wlk:2,fly:1,tgh:2}
+{id:302,name:"Hatigarm HD3",cost:40,hp:25,str:-1,tec:3,wlk:1,fly:0,tgh:2}
+{id:303,name:"Hatigarm HD4",type:"l",cost:75,hp:20,str:0,tec:2,wlk:2,fly:0,tgh:1,main:{pwr:20,shl:360,rng:225,spd:400,itv:500},tunable:{mwp:1}}
+{id:304,name:"Zeta Arsenal HD",cost:35,hp:20,str:0,tec:2,wlk:1,fly:1,tgh:1}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Aquila HD",cost:35,hp:20,str:1,tec:1,wlk:2,fly:1,tgh:0}
@@ -359,6 +371,7 @@
 {id:15,name:"Snailbokswagen HD",type:"c",cost:70,hp:15,str:0,tec:2,wlk:1,fly:1,tgh:0,main:{pwr:7,shl:900,rng:300,spd:400,itv:400},tunable:{mwp:1}}
 {id:16,name:"Aquila Airs HD",cost:35,hp:20,str:-1,tec:2,wlk:1,fly:2,tgh:1}
 {id:17,name:"Gozu HD2",cost:35,hp:20,str:0,tec:2,wlk:2,fly:0,tgh:1}
+{id:18,name:"Heavy Flechas HD",cost:35,hp:20,str:1,tec:0,wlk:1,fly:1,tgh:2}
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 
