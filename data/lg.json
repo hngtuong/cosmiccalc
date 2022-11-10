@@ -104,6 +104,8 @@
 {id:95,name:"Mechled LG",cost:45,hp:25,str:0,tec:1,wlk:3,fly:1,tgh:1}
 {id:96,name:"A. Maid LG",type:"s",cost:75,hp:25,str:1,tec:0,wlk:3,fly:1,tgh:1,sub:{str:100,pwr:26,shl:"-",rng:70,spd:85,itv:1000},tunable:{pwp:1}}
 {id:97,name:"Serpilis LG",cost:45,hp:25,str:2,tec:0,wlk:3,fly:0,tgh:1}
+{id:98,name:"Lepscepter LG",cost:45,hp:25,str:1,tec:2,wlk:2,fly:0,tgh:1}
+{id:99,name:"Poul LG",cost:45,hp:25,str:1,tec:1,wlk:2,fly:2,tgh:0}
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Axion LG",type:"l",cost:45,hp:25,str:1,tec:1,wlk:3,fly:2,tgh:-1}
@@ -226,6 +228,7 @@
 {id:118,name:"Captain X LG",type:"l",cost:95,hp:25,str:3,tec:-1,wlk:3,fly:0,tgh:1,sub:{str:100,pwr:38,shl:"-",rng:120,spd:10,itv:1000},tunable:{pwp:1}}
 {id:119,name:"Aero Raider LG",type:"lc",cost:45,hp:25,str:0,tec:0,wlk:4,fly:0,tgh:2,sub:{pwr:0,shl:30,rng:0,spd:200,itv:100}}
 {id:120,name:"Mirage Raid LG",cost:45,hp:25,str:2,tec:0,wlk:2,fly:1,tgh:1}
+{id:121,name:"Hovermill LG",cost:45,hp:25,str:-1,tec:1,wlk:2,fly:2,tgh:2}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Gwyain LG",cost:50,hp:40,str:1,tec:1,wlk:3,fly:0,tgh:1}
@@ -333,6 +336,8 @@
 {id:103,name:"Dismoke LG2",type:"s",cost:45,hp:25,str:2,tec:0,wlk:3,fly:0,tgh:1}
 {id:104,name:"Mountos Homura LG",cost:45,hp:25,str:0,tec:1,wlk:3,fly:0,tgh:2}
 {id:105,name:"Twin Towered LG",cost:40,hp:40,str:0,tec:1,wlk:2,fly:0,tgh:2}
+{id:106,name:"Cordyceps LG2",type:"c",cost:65,hp:35,str:0,tec:2,wlk:3,fly:1,tgh:0,sub:{pwr:0,shl:"-",rng:0,spd:200,itv:1000}}
+{id:107,name:"Gatomare LG",type:"l",cost:115,hp:25,str:3,tec:-1,wlk:3,fly:0,tgh:1,sub:{str:100,pwr:26,shl:"-",rng:150,spd:300,itv:1000},tunable:{pwp:1}}
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:1,name:"Shino Exroad LG",type:"l",cost:145,hp:55,str:2,tec:-1,wlk:4,fly:0,tgh:1,joint:{bs:1},sub:{str:100,pwr:28,rng:150,spd:150,itv:2500},tunable:{pwp:1}}
@@ -351,6 +356,7 @@
 {id:14,name:"Aquila Airs LG",type:"a",cost:90,hp:60,str:-1,tec:2,wlk:3,fly:0,tgh:2,joint:{bs:1},sub:{pwr:25,shl:60,rng:275,spd:300,itv:1000}}
 {id:15,name:"Giganberg LG",cost:45,hp:70,str:-1,tec:2,wlk:3,fly:0,tgh:2}
 {id:16,name:"Mountos Homura AM",type:"l",cost:110,hp:25,str:3,tec:-1,wlk:0,fly:0,tgh:3,sub:{str:100,pwr:32,shl:"-",rng:120,spd:250,itv:500},tunable:{pwp:1}}
+{id:17,name:"Vellsneil LG",type:"a",cost:90,hp:30,str:-1,tec:1,wlk:2,fly:2,tgh:2,sub:{pwr:0,shl:60,rng:0,spd:200,itv:1000}}
 
 {group:"Joint",prefixID:"J",commonStat:{jointPart:1,slot:1,size:"M"}}
 {id:1,name:"Generic LGJ"}
