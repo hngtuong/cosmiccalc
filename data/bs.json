@@ -141,6 +141,9 @@
 {id:119,name:"Mechled BS",type:"c",cost:30,hp:15,str:0,tec:1,wlk:0,fly:3,tgh:0}
 {id:120,name:"Butterflea BS2",type:"a",cost:90,hp:25,str:0,tec:1,wlk:0,fly:3,tgh:1,sub:{pwr:30,shl:40,rng:100,spd:200,itv:1000}}
 {id:121,name:"Serpilis BS",type:"l",cost:35,hp:20,str:2,tec:1,wlk:-1,fly:3,tgh:0}
+{id:122,name:"Lepscepter BS",type:"l",cost:35,hp:20,str:1,tec:1,wlk:-1,fly:3,tgh:1}
+{id:123,name:"Poul BS",type:"a",cost:85,hp:20,str:-1,tec:2,wlk:0,fly:3,tgh:1,main:{pwr:9,shl:460,rng:275,spd:260,itv:900},tunable:{mwp:1}}
+{id:124,name:"Lino Falcon BS",type:"a",cost:40,hp:25,str:2,tec:-1,wlk:1,fly:3,tgh:0}
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Axion BS",type:"l",cost:45,hp:25,str:0,tec:2,wlk:1,fly:3,tgh:-1}
@@ -316,7 +319,7 @@
 {id:1,name:"Gwyain BS",type:"a",cost:40,hp:25,str:0,tec:2,wlk:-1,fly:3,tgh:1}
 {id:2,name:"Saggitary Maxis BS",type:"c",cost:40,hp:20,str:2,tec:0,wlk:0,fly:3,tgh:0}
 {id:3,name:"Pulsardio BS",type:"s",cost:40,hp:25,str:0,tec:0,wlk:2,fly:2,tgh:1}
-{id:4,name:"Hound Dog BS",type:"l",cost:40,hp:20,str:0,tec:1,wlk:0,fly:3,tgh:1}
+{id:4,name:"Hound Dog BS",type:"l",cost:40,hp:25,str:0,tec:1,wlk:0,fly:3,tgh:1}
 {id:5,name:"Scaregant BS",type:"l",cost:40,hp:25,str:0,tec:0,wlk:0,fly:2,tgh:3}
 {id:6,name:"Mighty Byne BS",type:"l",cost:40,hp:25,str:1,tec:-1,wlk:0,fly:3,tgh:2}
 {id:7,name:"Aquila BS",type:"a",cost:50,hp:30,str:1,tec:2,wlk:-1,fly:3,tgh:1}
@@ -399,6 +402,9 @@
 {id:94,name:"Heavy Flechas BS",type:"a",cost:55,hp:20,str:1,tec:-1,wlk:1,fly:3,tgh:1,sub:{pwr:0,shl:"-",rng:150,spd:350,itv:1000}}
 {id:95,name:"Antlion BS2",type:"c",cost:190,hp:25,str:-1,tec:3,wlk:0,fly:2,tgh:1,main:{pwr:17,shl:400,rng:330,spd:300,itv:400},sub:{pwr:15,shl:30,rng:150,spd:150,itv:1000},tunable:{mwp:1}}
 {id:96,name:"Twin Towered BS",type:"c",cost:35,hp:20,str:1,tec:2,wlk:0,fly:2,tgh:0}
+{id:97,name:"Hovermill BS",type:"c",cost:235,hp:20,str:0,tec:3,wlk:0,fly:2,tgh:0,main:{pwr:11,shl:660,rng:330,spd:300,itv:300},sub:{pwr:21,shl:210,rng:350,spd:300,itv:1000},tunable:{mwp:1}}
+{id:98,name:"Cordyceps BS2",type:"c",cost:105,hp:20,str:-1,tec:3,wlk:0,fly:2,tgh:1,main:{pwr:7,shl:760,rng:330,spd:280,itv:900},tunable:{mwp:1}}
+{id:99,name:"Margrethe BS",type:"l",cost:40,hp:25,str:0,tec:-1,wlk:1,fly:3,tgh:2}
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:1,name:"Shaden BS",type:"a",cost:125,hp:25,str:0,tec:0,wlk:0,fly:5,tgh:0,sub:{pwr:1,shl:1,rng:200,spd:110,itv:2000}}
@@ -411,6 +417,7 @@
 {id:8,name:"Battleship DNBS",type:"c",cost:220,hp:25,str:-1,tec:3,wlk:1,fly:2,tgh:0,main:{pwr:5,shl:1080,rng:330,spd:330,itv:200},sub:{pwr:6,shl:480,rng:350,spd:260,itv:1000},tunable:{mwp:1}}
 {id:9,name:"Zeta Arsenal BS",type:"c",cost:35,hp:20,str:0,tec:1,wlk:0,fly:3,tgh:1}
 {id:10,name:"Zeta Arsenal BS2",type:"c",cost:35,hp:20,str:0,tec:1,wlk:0,fly:2,tgh:2}
+{id:11,name:"Vellsneil BS",type:"a",cost:190,hp:25,str:-1,tec:2,wlk:0,fly:4,tgh:0,main:{pwr:6,shl:1200,rng:275,spd:280,itv:1200},tunable:{mwp:1}}
 
 {group:"Joint",prefixID:"J",commonStat:{jointPart:1,slot:1,size:"M"}}
 {id:1,name:"Generic BSJ"}

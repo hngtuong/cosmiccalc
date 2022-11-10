@@ -95,6 +95,7 @@
 {id:94,conversion:"BDCL47AM",name:"Zeta Arsenal AMEX2",cost:70,slot:0,main:{pwr:26,shl:240,rng:350,spd:350,itv:1000}}
 {id:95,conversion:"BDAS61AM2",name:"Lightning Buster W",cost:230,main:{pwr:17,shl:440,rng:275,spd:400,itv:900}}
 {id:96,conversion:"BDAS62AM2",name:"Lightning Buster",cost:230,main:{pwr:29,shl:240,rng:275,spd:400,itv:800}}
+{id:97,conversion:"BDAS65",name:"Meteorpfeil",cost:20,main:{pwr:0,shl:15,rng:0,spd:10,itv:1000}}
 
 {group:"Conversion-SWP",prefixID:"CS",commonStat:{tunable:{pwp:1}}}
 {id:1,name:"Gradd Chainsaw",cost:60,sub:{str:100,pwr:32,rng:70,spd:85,itv:500},conversion:"BDLS3AM"}
@@ -181,4 +182,4 @@
 {id:27,name:"Outsider Key",cost:75,slot:0,sub:{rng:10,spd:10,itv:500},conversion:"BDLS77"}
 {id:28,name:"Glory Key",cost:115,slot:0,sub:{rng:10,spd:10,itv:500},conversion:"BDLS78"}
 {id:29,conversion:"BDAL38",name:"Transform ",cost:50,slot:0,sub:{pwr:0,shl:"-",rng:0,spd:150,itv:1000}}
-{id:999,name:"Specific Memory Slot ",conversion:"BDLS87LG BDAS61AM BDAS61AM2 BDAS62AM2"}
+{id:999,name:"Specific Memory Slot ",conversion:"BDLS87LG BDAS61AM BDAS61AM2 BDAS62AM2 BDLL54 BDSS47"}
