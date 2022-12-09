@@ -27,7 +27,7 @@
 {id:26,name:"Kaiser Gewitter",cost:70,main:{pwr:10,shl:390,rng:300,spd:480,itv:300},sub:{str:100,pwr:20,rng:75,spd:200,itv:1000},conversion:"AML77"}
 {id:27,name:"Longinus",cost:100,main:{pwr:32,shl:280,rng:330,spd:440,itv:700},conversion:"BDCS24AM"}
 {id:28,name:"D.N.G Cannon",cost:70,main:{pwr:28,shl:220,rng:330,spd:230,itv:700},conversion:"AMO2"}
-{id:29,name:"Talis Shooter",cost:70,slot:0,main:{pwr:10,shl:1050,rng:250,spd:400,itv:600},conversion:"AMM97",comment:"Land / Art only"}
+{id:29,name:"Talis Shooter",cost:70,slot:0,main:{pwr:10,shl:1050,rng:275,spd:440,itv:600},conversion:"AMM97",comment:"Land / Art only"}
 {id:30,name:"Harp Shield",cost:40,slot:0,main:{pwr:0,shl:50,rng:0,spd:10,itv:1000},conversion:"AMS69",comment:"Art only"}
 {id:31,name:"Fillnaught",cost:130,slot:0,main:{pwr:14,shl:390,rng:350,spd:340,itv:300},sub:{pwr:10,shl:240,rng:300,spd:220,itv:1000},conversion:"AMS70",comment:"Art only"}
 {id:32,name:"Monokeras Rod",cost:170,main:{pwr:38,shl:280,rng:330,spd:400,itv:800},sub:{pwr:9,shl:300,rng:300,spd:280,itv:1000},conversion:"BDCS30AM"}
@@ -96,6 +96,9 @@
 {id:95,conversion:"BDAS61AM2",name:"Lightning Buster W",cost:230,main:{pwr:17,shl:440,rng:275,spd:400,itv:900}}
 {id:96,conversion:"BDAS62AM2",name:"Lightning Buster",cost:230,main:{pwr:29,shl:240,rng:275,spd:400,itv:800}}
 {id:97,conversion:"BDAS65",name:"Meteorpfeil",cost:20,main:{pwr:0,shl:15,rng:0,spd:10,itv:1000}}
+{id:98,conversion:"BDLS91AM2",name:"Trinity Blade",cost:210,main:{str:100,pwr:19,shl:340,rng:250,spd:440,itv:400},sub:{str:100,pwr:32,shl:"-",rng:70,spd:85,itv:1000},tunable:{mwp:1,pwp:1}}
+{id:99,conversion:"BDAS66AM",name:"E.V.E. Archetype",cost:100,main:{pwr:30,shl:100,rng:275,spd:360,itv:1000},tunable:{mwp:1}}
+{id:100,conversion:"BDAS66AM2",name:"E.V.E. Archetype ",cost:130,main:{pwr:28,shl:420,rng:275,spd:440,itv:500},tunable:{mwp:1}}
 
 {group:"Conversion-SWP",prefixID:"CS",commonStat:{tunable:{pwp:1}}}
 {id:1,name:"Gradd Chainsaw",cost:60,sub:{str:100,pwr:32,rng:70,spd:85,itv:500},conversion:"BDLS3AM"}
@@ -182,4 +185,4 @@
 {id:27,name:"Outsider Key",cost:75,slot:0,sub:{rng:10,spd:10,itv:500},conversion:"BDLS77"}
 {id:28,name:"Glory Key",cost:115,slot:0,sub:{rng:10,spd:10,itv:500},conversion:"BDLS78"}
 {id:29,conversion:"BDAL38",name:"Transform ",cost:50,slot:0,sub:{pwr:0,shl:"-",rng:0,spd:150,itv:1000}}
-{id:999,name:"Specific Memory Slot ",conversion:"BDLS87LG BDAS61AM BDAS61AM2 BDAS62AM2 BDLL54 BDSS47"}
+{id:999,name:"Specific Memory Slot ",conversion:"BDLS87LG BDAS61AM BDAS61AM2 BDAS62AM2 BDLL54 BDSS47 BDSS48 BDSS49 BDLS91 BDLS91AM2"}
