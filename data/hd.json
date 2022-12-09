@@ -319,7 +319,7 @@
 {id:268,name:"Heavy Jaguar Arm HD",type:"l",cost:105,hp:20,str:2,tec:-1,wlk:1,fly:1,tgh:2,sub:{str:100,pwr:30,rng:77,spd:94,itv:1000},tunable:{pwp:1}}
 {id:269,name:"Wild Fizalivan HD",type:"l",cost:135,hp:20,str:-1,tec:3,wlk:2,fly:1,tgh:0,main:{pwr:19,shl:510,rng:225,spd:440,itv:340},tunable:{mwp:1}}
 {id:270,name:"Herianzus HD",cost:35,hp:20,str:3,tec:1,wlk:0,fly:0,tgh:1}
-{id:271,name:"Galsteel HD2",cost:30,hp:20,str:0,tec:2,wlk:2,fly:0,tgh:0}
+{id:271,name:"Galsteel HD2",cost:30,hp:15,str:0,tec:2,wlk:2,fly:0,tgh:0}
 {id:272,name:"Brickgale HD4",cost:30,hp:15,str:0,tec:1,wlk:0,fly:2,tgh:1}
 {id:273,name:"Sharhead HD2",cost:35,hp:20,str:2,tec:-1,wlk:1,fly:1,tgh:2}
 {id:274,name:"Theoreigne HD2",cost:35,hp:20,str:0,tec:2,wlk:1,fly:0,tgh:2}
@@ -360,6 +360,15 @@
 {id:309,name:"Hound Dog HD2",cost:30,hp:15,str:2,tec:0,wlk:1,fly:-1,tgh:2}
 {id:310,name:"Vellsneil HD",type:"a",cost:105,hp:20,str:-1,tec:3,wlk:0,fly:2,tgh:1,main:{pwr:18,shl:260,rng:275,spd:480,itv:700},tunable:{mwp:1}}
 {id:311,name:"Gatomare HD",cost:40,hp:25,str:1,tec:1,wlk:2,fly:0,tgh:1}
+{id:312,name:"Arte Maid HD2",cost:35,hp:20,str:0,tec:1,wlk:2,fly:1,tgh:1}
+{id:313,name:"Quadra HD2",type:"c",cost:85,hp:25,str:0,tec:3,wlk:0,fly:-1,tgh:3,sub:{pwr:31,shl:70,rng:300,spd:80,itv:1000}}
+{id:314,name:"Date Max HD",cost:40,hp:25,str:2,tec:0,wlk:1,fly:-1,tgh:3}
+{id:315,name:"Artilus HD",cost:40,hp:25,str:1,tec:2,wlk:1,fly:2,tgh:-1}
+{id:316,name:"Armada HD",cost:40,hp:25,str:1,tec:3,wlk:1,fly:1,tgh:-1}
+{id:317,name:"Kagetama HD",cost:35,hp:20,str:1,tec:2,wlk:2,fly:-1,tgh:1}
+{id:318,name:"Growldian HD",cost:35,hp:20,str:-1,tec:1,wlk:2,fly:1,tgh:2}
+{id:319,name:"K Nonna HD2",cost:35,hp:20,str:0,tec:3,wlk:-1,fly:1,tgh:2}
+{id:320,name:"Shadow Kinesis HD2",cost:40,hp:25,str:0,tec:2,wlk:0,fly:2,tgh:1}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Aquila HD",cost:35,hp:20,str:1,tec:1,wlk:2,fly:1,tgh:0}

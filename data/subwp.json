@@ -45,6 +45,7 @@
 {id:40,name:"Byron Balde",size:"M",type:"l",cost:130,sub:{str:100,pwr:32,rng:77,spd:94,itv:1000}}
 {id:41,name:"Oar Edge",size:"S",type:"l",cost:140,sub:{str:100,pwr:32,rng:100,spd:200,itv:2000}}
 {id:42,name:"Avalanche Sword",size:"L",type:"l",cost:160,sub:{str:100,pwr:36,rng:70,spd:90,itv:1000}}
+{id:43,name:"Kurenai Edge",size:"M",type:"l",cost:160,sub:{str:100,pwr:34,shl:"-",rng:77,spd:84,itv:1000}}
 
 {group:"Axes",prefixID:"AX",commonStat:{tunable:{pwp:1}}}
 {id:1,name:"Hand Axe",size:"S",type:"lcs",cost:40,sub:{str:100,pwr:30,rng:56,spd:68,itv:1000}}
