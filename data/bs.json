@@ -148,6 +148,7 @@
 {id:124,name:"Lino Falcon BS",type:"a",cost:40,hp:25,str:2,tec:-1,wlk:1,fly:3,tgh:0}
 {id:125,name:"Kagetama BS",type:"l",cost:35,hp:20,str:1,tec:2,wlk:0,fly:3,tgh:-1}
 {id:126,name:"Hiverion BS",type:"c",cost:40,hp:20,str:1,tec:-1,wlk:2,fly:2,tgh:1}
+{id:127,name:"Ravi Chronom BS",type:"s",cost:35,hp:20,str:-1,tec:2,wlk:0,fly:3,tgh:1}
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Axion BS",type:"l",cost:45,hp:25,str:0,tec:2,wlk:1,fly:3,tgh:-1}
