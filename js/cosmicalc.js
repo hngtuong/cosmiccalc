@@ -23,7 +23,7 @@
 
 /* CONST VARS */
 var VERSION = "4.0.0",
-	LAST_MODIFIED = "2022.12.10",
+	LAST_MODIFIED = "2022.12.12",
 	LOCALSTORAGE_CONFIG_KEY = "_COSMICCALC",
 	LOCALSTORAGE_VERSION_KEY = LOCALSTORAGE_CONFIG_KEY + "_VERSION",
 
@@ -2638,15 +2638,15 @@ function initCookieRead(){
 
 })(jQuery);
 
-$(function Ex_count(){ //
-   	var x = setInterval(function(){
-   	var ex_node = document.querySelectorAll('#ASSEMBLE .tuneex').length;
-   	document.getElementById("EX_displayCount").innerHTML = ex_node;
-   	if (ex_node > 10) {
-   		$("#RES_EX.res_item_container").addClass("ng");
-   	}
-   	if (ex_node <= 10) {
-   		$("#RES_EX.res_item_container").removeClass("ng");
-   	};
-   }, 2500);
-});
+// $(function Ex_count(){ //
+//    	var x = setInterval(function(){
+//    	var ex_node = document.querySelectorAll('#ASSEMBLE .tuneex').length;
+//    	document.getElementById("EX_displayCount").innerHTML = ex_node;
+//    	if (ex_node > 10) {
+//    		$("#RES_EX.res_item_container").addClass("ng");
+//    	}
+//    	if (ex_node <= 10) {
+//    		$("#RES_EX.res_item_container").removeClass("ng");
+//    	};
+//    }, 2500);
+// });
