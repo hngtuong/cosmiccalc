@@ -2,6 +2,7 @@
 {id:1,name:"Rampernel LG@",cost:70,hp:20,str:2,tec:-1,wlk:1,fly:2,tgh:1,sub:{pwr:0,rng:90,spd:200,itv:1000},conversion:"LGLL8"}
 {id:2,name:"Amlim LG@",slot:0,sub:{pwr:0,rng:300,spd:0,itv:1000},conversion:"BDAS36LG"}
 {id:3,name:"Tierouge LG@",sub:{itv:3000},conversion:"LGL74"}
+{id:4,conversion:"LGL120",name:"Dieranarcam LG@2",cost:65,main:{pwr:11,shl:540,rng:275,spd:320,itv:760},sub:{pwr:0,shl:60,rng:0,spd:180,itv:1000},tunable:{mwp:1}}
 
 {group:"SS Size",prefixID:"SS",commonStat:{size:"SS"}}
 {id:1,name:"Tristar LG",cost:45,hp:25,str:1,tec:1,wlk:2,fly:2,tgh:0}
@@ -108,6 +109,9 @@
 {id:99,name:"Poul LG",cost:45,hp:25,str:1,tec:1,wlk:2,fly:2,tgh:0}
 {id:100,name:"Kagetama LG",cost:45,hp:25,str:0,tec:1,wlk:4,fly:0,tgh:1}
 {id:101,name:"Pawnger LG2",cost:40,hp:20,str:1,tec:0,wlk:2,fly:0,tgh:2}
+{id:102,name:"Shadow Master LG",cost:45,hp:25,str:0,tec:2,wlk:3,fly:1,tgh:0}
+{id:103,name:"Zero Saber LG2",cost:45,hp:25,str:1,tec:0,wlk:2,fly:1,tgh:2}
+{id:104,name:"F Ruhl LG2",cost:40,hp:20,str:0,tec:1,wlk:2,fly:3,tgh:-1}
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Axion LG",type:"l",cost:45,hp:25,str:1,tec:1,wlk:3,fly:2,tgh:-1}
@@ -124,7 +128,7 @@
 {id:12,name:"Suzeku LG",cost:45,hp:25,str:0,tec:2,wlk:2,fly:1,tgh:1}
 {id:13,name:"Genbura LG",cost:45,hp:25,str:1,tec:2,wlk:3,fly:-1,tgh:1}
 {id:14,name:"Crimrose Alpha LG",type:"a",cost:85,hp:50,str:1,tec:2,wlk:3,fly:3,tgh:1,builtin:{bs:1}}
-{id:15,name:"Lily Rain Alpha LG",cost:45,hp:25,str:0,tec:1,wlk:2,fly:1,tgh:1}
+{id:15,name:"Lily Rain Alpha LG",cost:45,hp:25,str:0,tec:2,wlk:2,fly:1,tgh:1}
 {id:16,name:"Crescent Saint LG",cost:45,hp:30,str:0,tec:0,wlk:3,fly:1,tgh:2}
 {id:17,name:"Sea Turtlebacker LG",cost:45,hp:25,str:2,tec:1,wlk:3,fly:1,tgh:-1}
 {id:18,name:"Mantiscythe LG",cost:45,hp:25,str:1,tec:0,wlk:3,fly:2,tgh:-1,joint:{bs:1}}
@@ -258,7 +262,7 @@
 {id:14,name:"Blazed Baron LG",cost:45,hp:65,str:1,tec:1,wlk:3,fly:1,tgh:0}
 {id:15,name:"Cosmo Kaiser LG2",cost:50,hp:35,str:-1,tec:1,wlk:3,fly:1,tgh:2}
 {id:16,name:"Cosmo Kaiser LG",cost:45,hp:25,str:1,tec:1,wlk:3,fly:0,tgh:1}
-{id:17,name:"Garulabird LG",type:"a",cost:100,hp:25,str:-1,tec:2,wlk:3,fly:1,tgh:1,sub:{pwr:32,rng:120,spd:250,itv:1000},tunable:{pwp:1}}
+{id:17,name:"Garulabird LG",type:"a",cost:100,hp:30,str:-1,tec:2,wlk:3,fly:1,tgh:1,sub:{pwr:32,rng:120,spd:250,itv:1000},tunable:{pwp:1}}
 {id:18,name:"Crocodagger LG",cost:45,hp:45,str:0,tec:-1,wlk:3,fly:2,tgh:1}
 {id:19,name:"Demonfox Haku LG",type:"a",cost:105,hp:50,str:0,tec:0,wlk:2,fly:3,tgh:1,sub:{pwr:0,shl:40,rng:0,spd:150,itv:1000}}
 {id:20,name:"Lancelot LG",cost:50,hp:50,str:1,tec:1,wlk:4,fly:0,tgh:0}
@@ -359,6 +363,9 @@
 {id:115,name:"Antlion LG",type:"lc",cost:45,hp:60,str:0,tec:1,wlk:3,fly:-1,tgh:2}
 {id:116,name:"Artilus LG",type:"c",cost:90,hp:30,str:-1,tec:3,wlk:3,fly:0,tgh:1,sub:{pwr:23,rng:120,spd:250,itv:1000},tunable:{pwp:1}}
 {id:117,name:"Rotten Lemures LG",cost:45,hp:25,str:2,tec:2,wlk:2,fly:-1,tgh:0}
+{id:118,name:"Garulabird LG2",type:"a",cost:120,hp:30,str:3,tec:-1,wlk:2,fly:2,tgh:0,sub:{str:100,pwr:28,rng:77,spd:94,itv:1000},tunable:{pwp:1}}
+{id:119,name:"Astro Trooper LG",type:"l",cost:65,hp:55,str:0,tec:1,wlk:4,fly:0,tgh:1,sub:{pwr:0,shl:"-",rng:100,spd:200,itv:1000}}
+{id:120,name:"Dieranarcam LG",type:"a",cost:50,hp:70,str:-1,tec:1,wlk:2,fly:2,tgh:2,joint:{lg:2},fixedParts:{lg:{name:"Dieranarcam LG@",slot:0,main:{pwr:36,shl:30,rng:300,spd:480,itv:1000},sub:{pwr:0,shl:5,rng:0,spd:180,itv:1000}}}}
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:1,name:"Shino Exroad LG",type:"l",cost:145,hp:55,str:2,tec:-1,wlk:4,fly:0,tgh:1,joint:{bs:1},sub:{str:100,pwr:28,rng:150,spd:150,itv:2500},tunable:{pwp:1}}
@@ -380,6 +387,7 @@
 {id:17,name:"Vellsneil LG",type:"a",cost:90,hp:30,str:-1,tec:1,wlk:2,fly:2,tgh:2,sub:{pwr:0,shl:60,rng:0,spd:200,itv:1000}}
 {id:18,name:"Machintlet LG",cost:50,hp:70,str:2,tec:0,wlk:3,fly:-1,tgh:2}
 {id:19,name:"Gaderoga LG",cost:45,hp:65,str:-1,tec:-1,wlk:4,fly:1,tgh:3,joint:{bs:1}}
+{id:20,name:"Saggitary Maxis C LG",cost:90,hp:60,str:0,tec:2,wlk:2,fly:0,tgh:2}
 
 {group:"Joint",prefixID:"J",commonStat:{jointPart:1,slot:1,size:"M"}}
 {id:1,name:"Generic LGJ"}
