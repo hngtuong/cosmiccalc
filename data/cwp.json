@@ -97,8 +97,12 @@
 {id:96,conversion:"BDAS62AM2",name:"Lightning Buster",cost:230,main:{pwr:29,shl:240,rng:275,spd:400,itv:800}}
 {id:97,conversion:"BDAS65",name:"Meteorpfeil",cost:20,main:{pwr:0,shl:15,rng:0,spd:10,itv:1000}}
 {id:98,conversion:"BDLS91AM2",name:"Trinity Blade",cost:210,main:{str:100,pwr:19,shl:340,rng:250,spd:440,itv:400},sub:{str:100,pwr:32,shl:"-",rng:70,spd:85,itv:1000},tunable:{mwp:1,pwp:1}}
-{id:99,conversion:"BDAS66AM",name:"E.V.E. Archetype",cost:100,main:{pwr:30,shl:100,rng:275,spd:360,itv:1000},tunable:{mwp:1}}
-{id:100,conversion:"BDAS66AM2",name:"E.V.E. Archetype ",cost:130,main:{pwr:28,shl:420,rng:275,spd:440,itv:500},tunable:{mwp:1}}
+{id:99,conversion:"BDAS66AM",name:"E.V.E. Archetype",cost:100,main:{pwr:30,shl:100,rng:275,spd:360,itv:1000}}
+{id:100,conversion:"BDAS66AM2",name:"E.V.E. Archetype ",cost:130,main:{pwr:28,shl:420,rng:275,spd:440,itv:500}}
+{id:101,conversion:"BDSS51AM2",name:"Announcer's Mic",cost:40,main:{pwr:20,shl:50,rng:200,spd:500,itv:500}}
+{id:102,conversion:"WPCO31",name:"Full Power Drive",cost:20,slot:0,main:{pwr:0,shl:50,rng:0,spd:10,itv:1000}}
+{id:103,conversion:"BDLS94LG",name:"Sonic Cannon",cost:110,main:{pwr:46,shl:100,rng:150,spd:400,itv:1000}}
+{id:104,conversion:"BDLS94LG",name:"Box Gatling",cost:60,main:{pwr:5,shl:1500,rng:250,spd:400,itv:240}}
 
 {group:"Conversion-SWP",prefixID:"CS",commonStat:{tunable:{pwp:1}}}
 {id:1,name:"Gradd Chainsaw",cost:60,sub:{str:100,pwr:32,rng:70,spd:85,itv:500},conversion:"BDLS3AM"}
@@ -154,6 +158,7 @@
 {id:52,conversion:"BDLS84AM",name:"Shiniouchi Ranouraikiri",cost:140,sub:{str:100,pwr:32,shl:"-",rng:84,spd:102,itv:1000}}
 {id:53,conversion:"BDLS84AM2",name:"Shiniouchi Ranouraikiri ",cost:70,main:{pwr:0,shl:50,rng:0,spd:10,itv:1000},sub:{str:100,pwr:32,shl:"-",rng:120,spd:250,itv:1000},tunable:{mwp:1,pwp:1}}
 {id:54,conversion:"BDAS60AM",name:"Wonder Key Rod",cost:150,joint:{wp:1},fixedParts:{wp:{name:"Cheshire Cannon",slot:0,main:{pwr:32,shl:80,rng:275,spd:180,itv:1000}}},main:{pwr:6,shl:2000,rng:275,spd:320,itv:400},tunable:{mwp:1}}
+{id:55,conversion:"WPCO30",name:"Shovel Claw",cost:160,main:{str:100,pwr:25,shl:50,rng:200,spd:500,itv:500},sub:{str:100,pwr:34,shl:5,rng:70,spd:85,itv:1000},tunable:{mwp:1}}
 
 {group:"Conversion-Other",prefixID:"CO"}
 {id:1,name:"Specific Memory Slot",conversion:"Slot BDLS49 BDCS37AM2 BDLS53 BDLS53AM BDLS53AM2 BDLS57AM BDLS57AM2 BDLS61AM2 BDLS61WP BDCS43 BDAS46 BDAS46AM BDLS63 BDLS64 BDCS44 BDLS67 BDAS50 BDCS45 BDAM45 AMS99 BDAM46LG BDLS72 BDAS53 AMS104 BDCS49 BDCS49AM2 BDLS75 BDLS76 BDLS77 BDLS78 BDLS78AM2 BDCS50 BDCS50AM BDLS81 BDSS43 BDAS57 BDSS44 BDCS52 BDCS53 BDCS54 BDLS84AM BDLS84AM2 BDLS84 BDLL51 BDCL47AM"}
@@ -185,4 +190,6 @@
 {id:27,name:"Outsider Key",cost:75,slot:0,sub:{rng:10,spd:10,itv:500},conversion:"BDLS77"}
 {id:28,name:"Glory Key",cost:115,slot:0,sub:{rng:10,spd:10,itv:500},conversion:"BDLS78"}
 {id:29,conversion:"BDAL38",name:"Transform ",cost:50,slot:0,sub:{pwr:0,shl:"-",rng:0,spd:150,itv:1000}}
-{id:999,name:"Specific Memory Slot ",conversion:"BDLS87LG BDAS61AM BDAS61AM2 BDAS62AM2 BDLL54 BDSS47 BDSS48 BDSS49 BDLS91 BDLS91AM2"}
+{id:30,conversion:"BSO14",name:"Drag Shovel Arm",slot:0,joint:{wp:1}}
+{id:31,conversion:"BSO14",name:"Drag Engine",slot:0,joint:{wp:1}}
+{id:999,name:"Specific Memory Slot ",conversion:"BDLS87LG BDAS61AM BDAS61AM2 BDAS62AM2 BDLL54 BDSS47 BDSS48 BDSS49 BDLS91 BDLS91AM2 BDLS94"}
