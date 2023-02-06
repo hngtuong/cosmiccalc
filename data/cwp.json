@@ -103,6 +103,12 @@
 {id:102,conversion:"WPCO31",name:"Full Power Drive",cost:20,slot:0,main:{pwr:0,shl:50,rng:0,spd:10,itv:1000}}
 {id:103,conversion:"BDLS94LG",name:"Sonic Cannon",cost:110,main:{pwr:46,shl:100,rng:150,spd:400,itv:1000}}
 {id:104,conversion:"BDLS94LG",name:"Box Gatling",cost:60,main:{pwr:5,shl:1500,rng:250,spd:400,itv:240}}
+{id:105,conversion:"BDAS72AM2",name:"Azraq Lamp",cost:200,joint:{wp:1},fixedParts:{wp:{name:"Azraq Lamp@",slot:0,main:{pwr:25,shl:50,rng:275,spd:400,itv:1000}}},main:{pwr:8,shl:400,rng:275,spd:280,itv:500},sub:{pwr:0,shl:"-",rng:0,spd:0,itv:1000}}
+{id:106,conversion:"BDSS53",name:"Dancing Throw",cost:30,slot:0,main:{pwr:5,shl:270,rng:200,spd:570,itv:500}}
+{id:107,conversion:"BDSS53",name:"Dancing Shield",cost:30,slot:0,main:{pwr:0,shl:50,rng:0,spd:10,itv:1000}}
+{id:108,conversion:"BDSS54",name:"Divine Seer Orb",cost:230,main:{pwr:14,shl:600,rng:300,spd:300,itv:400},sub:{pwr:30,shl:30,rng:0,spd:0,itv:1000}}
+{id:109,conversion:"WPCS58",name:"Tsukishiro Style: Barrier",cost:30,slot:0,main:{pwr:0,shl:30,rng:0,spd:10,itv:1000}}
+{id:110,conversion:"BDLS95AM2",name:"Tsukishiro Style: Mortar",cost:30,main:{str:100,pwr:20,shl:50,rng:200,spd:500,itv:1000}}
 
 {group:"Conversion-SWP",prefixID:"CS",commonStat:{tunable:{pwp:1}}}
 {id:1,name:"Gradd Chainsaw",cost:60,sub:{str:100,pwr:32,rng:70,spd:85,itv:500},conversion:"BDLS3AM"}
@@ -159,6 +165,10 @@
 {id:53,conversion:"BDLS84AM2",name:"Shiniouchi Ranouraikiri ",cost:70,main:{pwr:0,shl:50,rng:0,spd:10,itv:1000},sub:{str:100,pwr:32,shl:"-",rng:120,spd:250,itv:1000},tunable:{mwp:1,pwp:1}}
 {id:54,conversion:"BDAS60AM",name:"Wonder Key Rod",cost:150,joint:{wp:1},fixedParts:{wp:{name:"Cheshire Cannon",slot:0,main:{pwr:32,shl:80,rng:275,spd:180,itv:1000}}},main:{pwr:6,shl:2000,rng:275,spd:320,itv:400},tunable:{mwp:1}}
 {id:55,conversion:"WPCO30",name:"Shovel Claw",cost:160,main:{str:100,pwr:25,shl:50,rng:200,spd:500,itv:500},sub:{str:100,pwr:34,shl:5,rng:70,spd:85,itv:1000},tunable:{mwp:1}}
+{id:56,conversion:"AMS130",name:"Onitachii",cost:130,main:{str:100,pwr:20,shl:50,rng:200,spd:570,itv:500},sub:{str:100,pwr:32,shl:"-",rng:77,spd:94,itv:1000},tunable:{mwp:1}}
+{id:57,conversion:"AMS131",name:"Orge Shield",cost:100,slot:0,main:{str:100,pwr:10,shl:100,rng:150,spd:350,itv:500},sub:{str:100,pwr:30,shl:"-",rng:120,spd:280,itv:1000}}
+{id:58,conversion:"BDLS95AM",name:"Relic: Gattenmaru",cost:100,joint:{wp:2},sub:{str:100,pwr:34,shl:"-",rng:70,spd:85,itv:1000}}
+{id:59,conversion:"WPCS58",name:"Ougi: Lunar Drive",cost:70,slot:0,sub:{str:100,pwr:30,shl:30,rng:120,spd:250,itv:1000}}
 
 {group:"Conversion-Other",prefixID:"CO"}
 {id:1,name:"Specific Memory Slot",conversion:"Slot BDLS49 BDCS37AM2 BDLS53 BDLS53AM BDLS53AM2 BDLS57AM BDLS57AM2 BDLS61AM2 BDLS61WP BDCS43 BDAS46 BDAS46AM BDLS63 BDLS64 BDCS44 BDLS67 BDAS50 BDCS45 BDAM45 AMS99 BDAM46LG BDLS72 BDAS53 AMS104 BDCS49 BDCS49AM2 BDLS75 BDLS76 BDLS77 BDLS78 BDLS78AM2 BDCS50 BDCS50AM BDLS81 BDSS43 BDAS57 BDSS44 BDCS52 BDCS53 BDCS54 BDLS84AM BDLS84AM2 BDLS84 BDLL51 BDCL47AM"}
@@ -192,4 +202,4 @@
 {id:29,conversion:"BDAL38",name:"Transform ",cost:50,slot:0,sub:{pwr:0,shl:"-",rng:0,spd:150,itv:1000}}
 {id:30,conversion:"BSO14",name:"Drag Shovel Arm",slot:0,joint:{wp:1}}
 {id:31,conversion:"BSO14",name:"Drag Engine",slot:0,joint:{wp:1}}
-{id:999,name:"Specific Memory Slot ",conversion:"BDLS87LG BDAS61AM BDAS61AM2 BDAS62AM2 BDLL54 BDSS47 BDSS48 BDSS49 BDLS91 BDLS91AM2 BDLS94"}
+{id:999,name:"Specific Memory Slot ",conversion:"BDLS87LG BDAS61AM BDAS61AM2 BDAS62AM2 BDLL54 BDSS47 BDSS48 BDSS49 BDLS91 BDLS91AM2 BDLS94 AMS131 BDAS72AM2 BDSS53 BDLS95 BDLS95AM"}
