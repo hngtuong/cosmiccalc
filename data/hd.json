@@ -53,6 +53,8 @@
 {id:50,name:"Shadow Master HD",cost:35,hp:20,str:2,tec:0,wlk:2,fly:2,tgh:-1}
 {id:51,name:"Zero Saber HD3",cost:35,hp:20,str:1,tec:-1,wlk:3,fly:1,tgh:1}
 {id:52,name:"F Ruhl HD2",type:"a",cost:130,hp:20,str:-1,tec:2,wlk:1,fly:2,tgh:1,main:{pwr:1,shl:1120,rng:200,spd:440,itv:140},tunable:{mwp:1}}
+{id:53,name:"Turn Air 1080 HD",cost:35,hp:20,str:2,tec:0,wlk:1,fly:2,tgh:0}
+{id:54,name:"Elme S. HD",type:"s",cost:100,hp:20,str:-1,tec:2,wlk:2,fly:1,tgh:1,main:{pwr:7,shl:720,rng:275,spd:150,itv:200},tunable:{mwp:1}}
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Gwyain HD",cost:40,hp:25,str:2,tec:1,wlk:2,fly:0,tgh:0}
@@ -399,6 +401,14 @@
 {id:343,name:"Saggitary Maxis C HD",cost:40,hp:25,str:-1,tec:3,wlk:1,fly:1,tgh:1}
 {id:344,name:"Astro Trooper HD",cost:30,hp:25,str:0,tec:2,wlk:1,fly:1,tgh:1}
 {id:345,name:"Dieranarcam HD",cost:40,hp:25,str:0,tec:1,wlk:1,fly:1,tgh:2}
+{id:346,name:"Armor Met HD",cost:35,hp:20,str:1,tec:1,wlk:0,fly:0,tgh:3}
+{id:347,name:"Blastoid HD",cost:35,hp:20,str:1,tec:1,wlk:1,fly:1,tgh:1}
+{id:348,name:"King Megaton HD2",cost:35,hp:20,str:0,tec:1,wlk:1,fly:1,tgh:2}
+{id:349,name:"Cross Raptor HD3",cost:35,hp:20,str:-1,tec:1,wlk:2,fly:2,tgh:1}
+{id:350,name:"Gundread HD",type:"l",cost:35,hp:20,str:-1,tec:3,wlk:1,fly:0,tgh:2,main:{pwr:50,shl:100,rng:200,spd:400,itv:1000},tunable:{mwp:1}}
+{id:351,name:"Toukimaru HD",cost:35,hp:20,str:1,tec:-1,wlk:2,fly:1,tgh:2}
+{id:352,name:"Shaden RIN HD",cost:35,hp:20,str:0,tec:2,wlk:1,fly:3,tgh:-1}
+{id:353,name:"Sithina HD3",cost:35,hp:20,str:-1,tec:1,wlk:2,fly:1,tgh:2}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Aquila HD",cost:35,hp:20,str:1,tec:1,wlk:2,fly:1,tgh:0}
