@@ -55,6 +55,9 @@
 {id:52,name:"F Ruhl HD2",type:"a",cost:130,hp:20,str:-1,tec:2,wlk:1,fly:2,tgh:1,main:{pwr:1,shl:1120,rng:200,spd:440,itv:140},tunable:{mwp:1}}
 {id:53,name:"Turn Air 1080 HD",cost:35,hp:20,str:2,tec:0,wlk:1,fly:2,tgh:0}
 {id:54,name:"Elme S. HD",type:"s",cost:100,hp:20,str:-1,tec:2,wlk:2,fly:1,tgh:1,main:{pwr:7,shl:720,rng:275,spd:150,itv:200},tunable:{mwp:1}}
+{id:55,name:"Pelena HD",type:"s",cost:80,hp:25,str:0,tec:2,wlk:1,fly:1,tgh:1,sub:{pwr:0,shl:10,rng:43,spd:63,itv:1000}}
+{id:56,name:"Shadow Hunter HD",cost:30,hp:15,str:0,tec:1,wlk:2,fly:0,tgh:1}
+{id:57,name:"Tina HD",cost:35,hp:20,str:-1,tec:2,wlk:2,fly:2,tgh:0}
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Gwyain HD",cost:40,hp:25,str:2,tec:1,wlk:2,fly:0,tgh:0}
@@ -191,7 +194,7 @@
 {id:132,name:"Robin Hunter HD",cost:35,hp:20,str:1,tec:3,wlk:1,fly:-1,tgh:1}
 {id:133,name:"K Nonna HD",cost:35,hp:20,str:-1,tec:2,wlk:0,fly:2,tgh:2}
 {id:134,name:"Wizamel HD",cost:35,hp:20,str:0,tec:2,wlk:2,fly:2,tgh:-1}
-{id:135,name:"Flapjack HD",type:"a",cost:100,hp:25,str:0,tec:2,wlk:-1,fly:2,tgh:2,main:{pwr:6,shl:900,rng:275,spd:350,itv:720},tunable:{mwp:1},auraStat:{str:0,tec:2,wlk:-1,fly:2,tgh:2,main:{pwr:6,shl:900,rng:275,spd:350,itv:240}}}
+{id:135,name:"Flapjack HD",type:"a",cost:100,hp:25,str:0,tec:2,wlk:-1,fly:2,tgh:2,main:{pwr:6,shl:900,rng:275,spd:350,itv:720},tunable:{mwp:1},auraStat:{str:0,tec:2,wlk:-1,fly:2,tgh:2,main:{pwr:8,shl:900,rng:275,spd:350,itv:240}}}
 {id:136,name:"Vanguard HD3",cost:40,hp:25,str:2,tec:-1,wlk:1,fly:0,tgh:3}
 {id:137,name:"Raclaboros HD",cost:40,hp:25,str:3,tec:-1,wlk:1,fly:1,tgh:1}
 {id:138,name:"Domiclown HD",cost:40,hp:25,str:1,tec:0,wlk:2,fly:0,tgh:2}
@@ -409,6 +412,10 @@
 {id:351,name:"Toukimaru HD",cost:35,hp:20,str:1,tec:-1,wlk:2,fly:1,tgh:2}
 {id:352,name:"Shaden RIN HD",cost:35,hp:20,str:0,tec:2,wlk:1,fly:3,tgh:-1}
 {id:353,name:"Sithina HD3",cost:35,hp:20,str:-1,tec:1,wlk:2,fly:1,tgh:2}
+{id:354,name:"Mach Knight HD2",cost:40,hp:25,str:0,tec:2,wlk:0,fly:2,tgh:1}
+{id:355,name:"Misside HD2",type:"c",cost:110,hp:25,str:0,tec:3,wlk:0,fly:0,tgh:2,main:{pwr:22,shl:200,rng:330,spd:280,itv:800},tunable:{mwp:1}}
+{id:356,name:"Flapjack HD2",type:"a",cost:35,hp:20,str:0,tec:2,wlk:0,fly:2,tgh:1}
+{id:357,name:"Sieg HD2",cost:35,hp:20,str:0,tec:3,wlk:1,fly:0,tgh:1}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Aquila HD",cost:35,hp:20,str:1,tec:1,wlk:2,fly:1,tgh:0}
@@ -431,6 +438,7 @@
 {id:18,name:"Heavy Flechas HD",cost:35,hp:20,str:1,tec:0,wlk:1,fly:1,tgh:2}
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
+{id:1,name:"Joste Gunder HD",type:"l",cost:85,hp:20,str:2,tec:-1,wlk:2,fly:1,tgh:1,sub:{str:100,pwr:25,shl:30,rng:150,spd:350,itv:1000}}
 
 {group:"Joint",prefixID:"J",commonStat:{jointPart:1,slot:1,size:"M"}}
 {id:1,name:"Generic HDJ"}

@@ -100,3 +100,4 @@
 {id:3,name:"Geso Whip",size:"S",type:"s",cost:80,sub:{pwr:26,rng:70,spd:85,itv:500},tunable:{pwp:1}}
 {id:4,name:"Impact Knuckle",size:"M",type:"l",cost:100,sub:{str:100,pwr:30,rng:70,spd:30,itv:1000},tunable:{pwp:1}}
 {id:5,name:"Kagura Ougi",size:"S",type:"s",cost:85,sub:{pwr:30,shl:150,rng:300,spd:240,itv:1000}}
+{id:6,name:"Shinobi Dagger",size:"S",type:"l",cost:60,sub:{pwr:15,shl:270,rng:250,spd:480,itv:1000}}
