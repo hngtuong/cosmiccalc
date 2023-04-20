@@ -36,7 +36,7 @@
 {id:8,name:"Taranulic BS",type:"s",cost:35,hp:20,str:0,tec:0,wlk:1,fly:3,tgh:1}
 {id:9,name:"Cannon Baller BS",type:"c",cost:35,hp:20,str:1,tec:0,wlk:0,fly:3,tgh:1}
 {id:10,name:"Dikaros BS",type:"a",cost:40,hp:25,str:0,tec:1,wlk:0,fly:4,tgh:0}
-{id:11,name:"Ace Braver BS",type:"l",cost:40,hp:25,str:0,tec:0,wlk:1,fly:3,tgh:1}
+{id:11,name:"Ace Braver BS",cost:40,hp:25,str:0,tec:0,wlk:1,fly:3,tgh:1}
 {id:12,name:"Misside BS",type:"c",cost:40,hp:25,str:0,tec:2,wlk:0,fly:3,tgh:0}
 {id:13,name:"Pawnger BS",type:"l",cost:35,hp:20,str:1,tec:0,wlk:1,fly:3,tgh:0}
 {id:14,name:"Daruma Star BS",type:"s",cost:35,hp:20,str:1,tec:0,wlk:0,fly:3,tgh:1}
@@ -167,6 +167,8 @@
 {id:139,name:"LazFlamme Alpha BS2",type:"l",cost:140,hp:25,str:2,tec:-1,wlk:2,fly:2,tgh:0,sub:{str:100,pwr:31,shl:"-",rng:100,spd:140,itv:1000},tunable:{pwp:1}}
 {id:140,name:"Renny Lop BS",type:"l",cost:35,hp:20,str:0,tec:1,wlk:1,fly:3,tgh:0}
 {id:141,name:"Patty Lop BS",type:"l",cost:40,hp:25,str:0,tec:0,wlk:1,fly:3,tgh:1}
+{id:142,name:"Ace Braver BS ",cost:35,hp:20,str:1,tec:1,wlk:0,fly:3,tgh:0}
+{id:143,name:"Melfi BS2",type:"s",cost:40,hp:25,str:1,tec:1,wlk:0,fly:3,tgh:0}
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Axion BS",type:"l",cost:45,hp:25,str:0,tec:2,wlk:1,fly:3,tgh:-1}
@@ -354,6 +356,7 @@
 {id:184,name:"Gundread BS",type:"l",cost:35,hp:20,str:0,tec:0,wlk:2,fly:3,tgh:0}
 {id:185,name:"Toukimaru BS",type:"l",cost:35,hp:20,str:1,tec:-1,wlk:2,fly:3,tgh:0}
 {id:186,name:"Misside BS2",type:"c",cost:135,hp:20,str:-1,tec:3,wlk:0,fly:2,tgh:1,main:{pwr:17,shl:330,rng:330,spd:350,itv:900},tunable:{mwp:1}}
+{id:187,name:"Knight Fear BS",type:"l",cost:40,hp:25,str:1,tec:0,wlk:1,fly:2,tgh:1}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Gwyain BS",type:"a",cost:40,hp:25,str:0,tec:2,wlk:-1,fly:3,tgh:1}
