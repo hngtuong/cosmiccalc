@@ -111,11 +111,12 @@
 {id:110,conversion:"BDLS95AM2",name:"Tsukishiro Style: Mortar",cost:30,main:{str:100,pwr:20,shl:50,rng:200,spd:500,itv:1000}}
 {id:111,conversion:"BDAS59AM2",name:"ECM Lightning Buster",cost:100,main:{pwr:17,shl:440,rng:275,spd:400,itv:440},sub:{pwr:0,shl:"-",rng:0,spd:0,itv:500}}
 {id:112,conversion:"BDAS60AM",name:"Twin Recurve Bow",cost:100,main:{pwr:12,shl:680,rng:275,spd:300,itv:300}}
-{id:113,conversion:"AMO10",name:"Spade Gadget (TEC)",cost:70,main:{pwr:20,shl:270,rng:250,spd:220,itv:800}}
-{id:114,conversion:"AMO10",name:"Spade Gadget (STR)",cost:70,main:{str:100,pwr:20,shl:270,rng:250,spd:220,itv:800}}
+{id:113,conversion:"AMO10",name:"Spade Gadget (TEC)",cost:70,main:{pwr:20,shl:270,rng:250,spd:250,itv:800}}
+{id:114,conversion:"AMO10",name:"Spade Gadget (STR)",cost:70,main:{str:100,pwr:20,shl:270,rng:250,spd:250,itv:800}}
 {id:115,conversion:"AMO10",name:"Four-Of-A-Kind Gadget (TEC)",cost:80,main:{pwr:9,shl:1080,rng:250,spd:400,itv:800}}
 {id:116,conversion:"AMO10",name:"Four-Of-A-Kind Gadget (STR)",cost:80,main:{str:100,pwr:9,shl:1080,rng:250,spd:400,itv:800}}
 {id:117,conversion:"BDLS98WP",name:"Gadget Shield",cost:20,slot:0,main:{pwr:0,shl:15,rng:0,spd:10,itv:1000}}
+{id:118,conversion:"WPCO33",name:"Phobia Lance",cost:30,slot:0,main:{str:100,pwr:20,shl:50,rng:200,spd:280,itv:500}}
 
 {group:"Conversion-SWP",prefixID:"CS",commonStat:{tunable:{pwp:1}}}
 {id:1,name:"Gradd Chainsaw",cost:60,sub:{str:100,pwr:32,rng:70,spd:85,itv:500},conversion:"BDLS3AM"}
@@ -177,6 +178,8 @@
 {id:58,conversion:"BDLS95AM",name:"Relic: Gattenmaru",cost:100,joint:{wp:2},sub:{str:100,pwr:34,shl:"-",rng:70,spd:85,itv:1000}}
 {id:59,conversion:"WPCS58",name:"Ougi: Lunar Drive",cost:70,slot:0,sub:{str:100,pwr:30,shl:30,rng:120,spd:250,itv:1000}}
 {id:60,conversion:"BDLS98WP",name:"Rabbit Missile",cost:50,slot:0,sub:{pwr:16,shl:60,rng:250,spd:320,itv:1000},tunable:{pwp:0}}
+{id:61,conversion:"WPCO33",name:"Phobia Sword",cost:100,sub:{str:100,pwr:32,shl:"-",rng:100,spd:150,itv:2000}}
+{id:62,conversion:"WPCO33",name:"Phobian Axe",cost:50,slot:0,sub:{str:100,pwr:28,shl:30,rng:200,spd:290,itv:1000}}
 
 {group:"Conversion-Other",prefixID:"CO"}
 {id:1,name:"Specific Memory Slot",conversion:"Slot BDLS49 BDCS37AM2 BDLS53 BDLS53AM BDLS53AM2 BDLS57AM BDLS57AM2 BDLS61AM2 BDLS61WP BDCS43 BDAS46 BDAS46AM BDLS63 BDLS64 BDCS44 BDLS67 BDAS50 BDCS45 BDAM45 AMS99 BDAM46LG BDLS72 BDAS53 AMS104 BDCS49 BDCS49AM2 BDLS75 BDLS76 BDLS77 BDLS78 BDLS78AM2 BDCS50 BDCS50AM BDLS81 BDSS43 BDAS57 BDSS44 BDCS52 BDCS53 BDCS54 BDLS84AM BDLS84AM2 BDLS84 BDLL51 BDCL47AM"}
@@ -195,8 +198,8 @@
 {id:14,name:"Voltic Power",cost:220,slot:0,sub:{itv:1000},conversion:"BDLS50"}
 {id:15,name:"Rookie STR Memory",cost:50,slot:0,str:30,tec:-22,conversion:"BDLS55 BDAS39 BDAS40"}
 {id:16,name:"Rookie TEC Memory",cost:50,slot:0,str:-22,tec:30,conversion:"BDLS55 BDAS39 BDAS40"}
-{id:17,name:"Rookie WLK Memory",cost:50,slot:0,str:25,tec:-14,conversion:"BDCM31 BDSS33"}
-{id:18,name:"Rookie FLY Memory",cost:50,slot:0,str:-14,tec:25,conversion:"BDCM31 BDSS33"}
+{id:17,name:"Rookie WLK Memory",cost:50,slot:0,str:25,tec:-14,conversion:"BDCM31 BDSS33 BDCL57"}
+{id:18,name:"Rookie FLY Memory",cost:50,slot:0,str:-14,tec:25,conversion:"BDCM31 BDSS33 BDCL57"}
 {id:19,name:"Gii-kun",slot:0,joint:{wp:1},conversion:"BDCS41"}
 {id:20,name:"Forbidden Art",slot:0,joint:{wp:3},conversion:"AMM153"}
 {id:21,name:"Rush Gauntlet",cost:80,conversion:"BDAM46AM"}
@@ -211,4 +214,5 @@
 {id:30,conversion:"BSO14",name:"Drag Shovel Arm",slot:0,joint:{wp:1}}
 {id:31,conversion:"BSO14",name:"Drag Engine",slot:0,joint:{wp:1}}
 {id:32,conversion:"BDAS60AM2",name:"Twin Recurve Bow II",sub:{pwr:0,shl:"-",rng:0,spd:0,itv:500}}
-{id:999,name:"Specific Memory Slot ",conversion:"BDLS87LG BDAS61AM BDAS61AM2 BDAS62AM2 BDLL54 BDSS47 BDSS48 BDSS49 BDLS91 BDLS91AM2 BDLS94 AMS131 BDAS72AM2 BDSS53 BDLS95 BDLS95AM BDLS97 AMO10 BDLS98 AMS138"}
+{id:33,conversion:"AMM200",name:"Phobian Art",slot:0,joint:{wp:3}}
+{id:999,name:"Specific Memory Slot ",conversion:"BDLS87LG BDAS61AM BDAS61AM2 BDAS62AM2 BDLL54 BDSS47 BDSS48 BDSS49 BDLS91 BDLS91AM2 BDLS94 AMS131 BDAS72AM2 BDSS53 BDLS95 BDLS95AM BDLS97 AMO10 BDLS98 AMS138 BDLS100"}
