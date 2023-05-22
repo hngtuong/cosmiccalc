@@ -1,8 +1,8 @@
 {group:"Conversion-MWP",prefixID:"CM",commonStat:{tunable:{mwp:1}}}
 {id:1,name:"Bloody Star AM@",cost:25,slot:0,main:{pwr:17,shl:50,rng:250,spd:400,itv:500},conversion:"AMM37 AMM131"}
-{id:2,name:"Melody Chord ALPHA",cost:65,main:{pwr:9,shl:380,rng:250,spd:400,itv:500},sub:{pwr:11,shl:240,rng:250,spd:320,itv:1000},conversion:"BDSS12WP"}
-{id:3,name:"Melody Chord GAMMA",cost:90,main:{pwr:6,shl:260,rng:250,spd:360,itv:600},sub:{pwr:10,shl:120,rng:260,spd:300,itv:500},conversion:"BDSS12WP"}
-{id:4,name:"Melody Chord BETA",cost:100,main:{pwr:0,shl:80,rng:300,spd:300,itv:500},sub:{pwr:0,shl:50,rng:300,spd:300,itv:1000},conversion:"BDSS12WP"}
+{id:2,name:"Melody Chord ALPHA",cost:65,main:{pwr:16,shl:360,rng:300,spd:400,itv:500},sub:{pwr:11,shl:280,rng:300,spd:320,itv:1000},conversion:"BDSS12WP BDSS59AM2"}
+{id:3,name:"Melody Chord GAMMA",cost:70,main:{pwr:19,shl:300,rng:250,spd:400,itv:600},sub:{pwr:15,shl:120,rng:300,spd:300,itv:500},conversion:"BDSS12WP BDSS59AM2"}
+{id:4,name:"Melody Chord BETA",cost:100,main:{pwr:0,shl:80,rng:300,spd:300,itv:500},sub:{pwr:0,shl:20,rng:300,spd:300,itv:1000},conversion:"BDSS12WP BDSS59AM2"}
 {id:5,name:"Suzaku Bow",cost:50,main:{str:100,pwr:20,shl:50,rng:200,spd:570,itv:500},sub:{str:100,pwr:10,rng:150,spd:85,itv:2000},conversion:"WPCO2"}
 {id:6,name:"Kabura Bow",cost:70,main:{str:100,pwr:10,shl:120,rng:200,spd:570,itv:400},sub:{str:100,pwr:24,rng:150,spd:85,itv:2000},conversion:"WPCO2"}
 {id:7,name:"Chivary Cannon",cost:110,main:{pwr:17,shl:350,rng:330,spd:290,itv:600},joint:{wp:1},conversion:"BDCS15AM BDCS42AM",fixedParts:{wp:{name:"Chivary Cannon@",cost:50,slot:0,main:{pwr:40,shl:30,rng:300,spd:400,itv:500}}}}
@@ -93,8 +93,8 @@
 {id:92,conversion:"BDCS54",name:"Battle Frame P ALPHA",cost:180,main:{pwr:7,shl:1200,rng:330,spd:280,itv:800},sub:{pwr:20,shl:30,rng:0,spd:200,itv:1000}}
 {id:93,conversion:"BDCL47AM",name:"Zeta Arsenal AMEX",cost:70,slot:0,main:{pwr:9,shl:600,rng:350,spd:240,itv:900}}
 {id:94,conversion:"BDCL47AM",name:"Zeta Arsenal AMEX2",cost:70,slot:0,main:{pwr:26,shl:240,rng:350,spd:350,itv:1000}}
-{id:95,conversion:"BDAS61AM2",name:"Lightning Buster W",cost:230,main:{pwr:17,shl:440,rng:275,spd:400,itv:900}}
-{id:96,conversion:"BDAS62AM2",name:"Lightning Buster",cost:230,main:{pwr:29,shl:240,rng:275,spd:400,itv:800}}
+{id:95,conversion:"BDAS61AM2",name:"Lightning Buster W",cost:230,main:{pwr:18,shl:440,rng:275,spd:440,itv:900}}
+{id:96,conversion:"BDAS62AM2",name:"Lightning Buster",cost:230,main:{pwr:30,shl:240,rng:275,spd:440,itv:800}}
 {id:97,conversion:"BDAS65",name:"Meteorpfeil",cost:20,main:{pwr:0,shl:15,rng:0,spd:10,itv:1000}}
 {id:98,conversion:"BDLS91AM2",name:"Trinity Blade",cost:210,main:{str:100,pwr:19,shl:340,rng:250,spd:440,itv:400},sub:{str:100,pwr:32,shl:"-",rng:70,spd:85,itv:1000},tunable:{mwp:1,pwp:1}}
 {id:99,conversion:"BDAS66AM",name:"E.V.E. Archetype",cost:100,main:{pwr:30,shl:100,rng:275,spd:360,itv:1000}}
@@ -117,6 +117,11 @@
 {id:116,conversion:"AMO10",name:"Four-Of-A-Kind Gadget (STR)",cost:80,main:{str:100,pwr:9,shl:1080,rng:250,spd:400,itv:800}}
 {id:117,conversion:"BDLS98WP",name:"Gadget Shield",cost:20,slot:0,main:{pwr:0,shl:15,rng:0,spd:10,itv:1000}}
 {id:118,conversion:"WPCO33",name:"Phobia Lance",cost:30,slot:0,main:{str:100,pwr:20,shl:50,rng:200,spd:280,itv:500}}
+{id:119,conversion:"AML191",name:"Jet Falcon AM@",cost:60,main:{pwr:18,shl:280,rng:275,spd:530,itv:800},tunable:{mwp:1},auraStat:{main:{pwr:19,shl:340,rng:275,spd:530,itv:500}}}
+{id:120,conversion:"AMO11",name:"Pluck Bazooka",cost:90,main:{pwr:24,shl:400,rng:330,spd:400,itv:500},tunable:{mwp:1}}
+{id:121,conversion:"AML194",name:"S.U Barrier Gun Type.R",cost:70,main:{pwr:22,shl:80,rng:300,spd:400,itv:1000},tunable:{mwp:1}}
+{id:122,conversion:"AML195",name:"C Mialy Gun Type.I",cost:160,main:{pwr:7,shl:450,rng:250,spd:400,itv:400},tunable:{mwp:1}}
+{id:123,conversion:"AML196",name:"B Railgun Type M",cost:140,main:{pwr:41,shl:190,rng:350,spd:530,itv:900},tunable:{mwp:1},comment:"Type / Size restriction applies"}
 
 {group:"Conversion-SWP",prefixID:"CS",commonStat:{tunable:{pwp:1}}}
 {id:1,name:"Gradd Chainsaw",cost:60,sub:{str:100,pwr:32,rng:70,spd:85,itv:500},conversion:"BDLS3AM"}
@@ -215,4 +220,6 @@
 {id:31,conversion:"BSO14",name:"Drag Engine",slot:0,joint:{wp:1}}
 {id:32,conversion:"BDAS60AM2",name:"Twin Recurve Bow II",sub:{pwr:0,shl:"-",rng:0,spd:0,itv:500}}
 {id:33,conversion:"AMM200",name:"Phobian Art",slot:0,joint:{wp:3}}
-{id:999,name:"Specific Memory Slot ",conversion:"BDLS87LG BDAS61AM BDAS61AM2 BDAS62AM2 BDLL54 BDSS47 BDSS48 BDSS49 BDLS91 BDLS91AM2 BDLS94 AMS131 BDAS72AM2 BDSS53 BDLS95 BDLS95AM BDLS97 AMO10 BDLS98 AMS138 BDLS100"}
+{id:34,conversion:"BDCS20WP BDCS58WP",name:"Illumis BD2@2",cost:20,sub:{pwr:0,shl:30,rng:0,spd:150,itv:1000}}
+{id:35,conversion:"AML195",name:"R Shield Type I",cost:30,sub:{pwr:0,shl:15,rng:0,spd:0,itv:1000}}
+{id:999,name:"Specific Memory Slot ",conversion:"BDLS87LG BDAS61AM BDAS61AM2 BDAS62AM2 BDLL54 BDSS47 BDSS48 BDSS49 BDLS91 BDLS91AM2 BDLS94 AMS131 BDAS72AM2 BDSS53 BDLS95 BDLS95AM BDLS97 AMO10 BDLS98 AMS138 BDLS100 BDCS59AM"}

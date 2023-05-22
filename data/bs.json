@@ -13,6 +13,9 @@
 {id:12,conversion:"BSM93 BSM174",name:"Shadow Kinesis BS@2",cost:20,slot:0,sub:{pwr:0,shl:"-",rng:275,spd:10,itv:1000}}
 {id:13,conversion:"BDSS51",name:"Anna BS",cost:215,hp:20,str:0,tec:0,wlk:1,fly:3,tgh:1,joint:{wp:2},main:{pwr:13,shl:560,rng:300,spd:400,itv:300},tunable:{mwp:1},fixedParts:{wp:[{name:"Shoothing Commentary",slot:0,sub:{pwr:0,shl:12,rng:100,spd:150,itv:100}},{name:"Rousing Commentary",slot:0,sub:{pwr:0,shl:12,rng:100,spd:150,itv:100}}]}}
 {id:14,conversion:"BDLM49",name:"Ciel BS",cost:35,hp:20,str:2,tec:-1,wlk:1,fly:2,tgh:1,joint:{wp:2}}
+{id:15,conversion:"BDSL17",name:"Fireman Nacchin BS",cost:105,hp:20,str:1,tec:1,wlk:0,fly:3,tgh:0,joint:{bs:1},sub:{pwr:0,shl:30,rng:0,spd:0,itv:1000}}
+{id:16,conversion:"BSO15",name:"Fireman Nacchin BS@",cost:50,sub:{pwr:0,shl:30,rng:0,spd:0,itv:1000}}
+{id:17,conversion:"BDLL63",name:"Patrol Nacchin BS",cost:65,hp:20,str:-1,tec:1,wlk:2,fly:3,tgh:0,sub:{pwr:30,shl:50,rng:250,spd:320,itv:1000}}
 
 {group:"SS Size",prefixID:"SS",commonStat:{size:"SS"}}
 {id:1,name:"Build Arm BS",type:"c",cost:110,hp:25,str:-1,tec:3,wlk:0,fly:2,tgh:1,main:{pwr:15,shl:320,rng:330,spd:380,itv:580},tunable:{mwp:1}}
@@ -169,6 +172,7 @@
 {id:141,name:"Patty Lop BS",type:"l",cost:40,hp:25,str:0,tec:0,wlk:1,fly:3,tgh:1}
 {id:142,name:"Ace Braver BS ",cost:35,hp:20,str:1,tec:1,wlk:0,fly:3,tgh:0}
 {id:143,name:"Melfi BS2",type:"s",cost:40,hp:25,str:1,tec:1,wlk:0,fly:3,tgh:0}
+{id:144,name:"Orphenous BS2",type:"s",cost:135,hp:20,str:-1,tec:2,wlk:1,fly:3,tgh:0,main:{pwr:14,shl:360,rng:300,spd:280,itv:600},sub:{pwr:0,shl:10,rng:0,spd:0,itv:1000},tunable:{mwp:1}}
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Axion BS",type:"l",cost:45,hp:25,str:0,tec:2,wlk:1,fly:3,tgh:-1}
@@ -357,6 +361,8 @@
 {id:185,name:"Toukimaru BS",type:"l",cost:35,hp:20,str:1,tec:-1,wlk:2,fly:3,tgh:0}
 {id:186,name:"Misside BS2",type:"c",cost:135,hp:20,str:-1,tec:3,wlk:0,fly:2,tgh:1,main:{pwr:17,shl:330,rng:330,spd:350,itv:900},tunable:{mwp:1}}
 {id:187,name:"Knight Fear BS",type:"l",cost:40,hp:25,str:1,tec:0,wlk:1,fly:2,tgh:1}
+{id:188,name:"Griest BS",type:"a",cost:115,hp:20,str:2,tec:-1,wlk:0,fly:4,tgh:0,sub:{str:100,pwr:30,shl:100,rng:120,spd:220,itv:1000},tunable:{pwp:1}}
+{id:189,name:"Bellvere BS",type:"l",cost:35,hp:20,str:0,tec:0,wlk:2,fly:3,tgh:0}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Gwyain BS",type:"a",cost:40,hp:25,str:0,tec:2,wlk:-1,fly:3,tgh:1}
@@ -460,6 +466,8 @@
 {id:109,name:"Blastoid BS",type:"c",cost:30,hp:15,str:0,tec:1,wlk:-1,fly:2,tgh:2}
 {id:110,name:"King Megaton BS2",type:"c",cost:30,hp:15,str:0,tec:1,wlk:1,fly:2,tgh:0}
 {id:111,name:"Joste Gunder BS",type:"l",cost:35,hp:20,str:1,tec:0,wlk:1,fly:3,tgh:0}
+{id:112,name:"Jet Falcon BS",type:"a",cost:35,hp:20,str:-1,tec:0,wlk:1,fly:3,tgh:2,sub:{pwr:0,shl:"-",rng:0,spd:150,itv:500}}
+{id:113,name:"GSDF Nacchin BS",type:"l",cost:110,hp:20,str:-1,tec:3,wlk:0,fly:2,tgh:1,main:{pwr:8,shl:450,rng:330,spd:480,itv:1000},tunable:{mwp:1}}
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:1,name:"Shaden BS",type:"a",cost:100,hp:25,str:0,tec:0,wlk:0,fly:5,tgh:0,sub:{pwr:1,shl:1,rng:200,spd:110,itv:2000}}

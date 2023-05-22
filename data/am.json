@@ -9,6 +9,7 @@
 {id:8,conversion:"BDLL50",name:"Katto Baldo AM2",cost:35,hp:20,str:2,tec:0,wlk:0,fly:0,tgh:3,joint:{wp:0},main:{pwr:0,shl:80,rng:0,spd:10,itv:1000},tunable:{mwp:1}}
 {id:9,conversion:"AML186",name:"Dieranarcam AM@",cost:30,slot:0,joint:{wp:0},main:{pwr:14,shl:390,rng:300,spd:400,itv:500}}
 {id:10,conversion:"BDLS97",name:"Renny Lop AM",cost:40,hp:25,str:0,tec:2,wlk:1,fly:1,tgh:1,slot:0,joint:{wp:2}}
+{id:11,conversion:"BDCS20 BDCS58",name:"Illumis AM2",cost:40,hp:25,str:0,tec:3,wlk:1,fly:1,tgh:0}
 
 {group:"SS Size",prefixID:"SS",commonStat:{size:"SS"}}
 {id:1,name:"Dikaros AM",cost:35,hp:20,str:1,tec:2,wlk:0,fly:1,tgh:1}
@@ -462,7 +463,7 @@
 {id:93,name:"Kuschelb AM2",type:"l",cost:75,hp:20,str:4,tec:-1,wlk:1,fly:0,tgh:1,joint:{wp:2},sub:{str:100,pwr:26,rng:70,spd:85,itv:1000},tunable:{pwp:1}}
 {id:94,name:"Sturbanger AM3",type:"c",cost:140,hp:25,str:-1,tec:4,wlk:0,fly:-1,tgh:3,main:{pwr:9,shl:1000,rng:330,spd:440,itv:200},tunable:{mwp:1}}
 {id:95,name:"Sturbanger AM4",type:"c",cost:40,hp:25,str:0,tec:3,wlk:2,fly:1,tgh:-1}
-{id:96,name:"Griest AM2",type:"a",cost:85,hp:20,str:-1,tec:2,wlk:1,fly:2,tgh:1,main:{pwr:7,shl:510,rng:275,spd:350,itv:900},tunable:{mwp:1}}
+{id:96,name:"Griest AM2",type:"a",cost:85,hp:20,str:-1,tec:2,wlk:1,fly:2,tgh:1,main:{pwr:8,shl:510,rng:275,spd:350,itv:900},tunable:{mwp:1}}
 {id:97,name:"Crugis AM",type:"a",cost:105,hp:20,str:0,tec:3,wlk:-1,fly:2,tgh:1,joint:{wp:0},main:{pwr:16,shl:540,rng:275,spd:320,itv:6000},tunable:{mwp:1}}
 {id:98,name:"Tierouge AM",type:"a",cost:40,hp:25,str:-1,tec:2,wlk:0,fly:3,tgh:1,main:{pwr:17,shl:250,rng:275,spd:400,itv:700},sub:{pwr:28,rng:70,spd:85,itv:1500},tunable:{mwp:1,pwp:1},comment:"Transform only"}
 {id:99,name:"Scaregant AM6",cost:40,hp:25,str:2,tec:-1,wlk:2,fly:0,tgh:2}
@@ -546,6 +547,13 @@
 {id:187,name:"Blastoid AM",type:"c",cost:75,hp:20,str:-1,tec:3,wlk:0,fly:0,tgh:3,joint:{wp:0},main:{pwr:22,shl:210,rng:330,spd:250,itv:700},tunable:{mwp:1}}
 {id:188,name:"Shaden RIN AM",type:"a",cost:105,hp:20,str:-1,tec:2,wlk:1,fly:2,tgh:1,main:{pwr:15,shl:330,rng:275,spd:300,itv:600},tunable:{mwp:1}}
 {id:189,name:"Cosmic Card Game AM",type:"l",cost:240,hp:25,str:2,tec:-1,wlk:2,fly:1,tgh:1,main:{str:100,pwr:11,shl:1000,rng:250,spd:400,itv:880},sub:{str:100,pwr:28,shl:"-",rng:70,spd:85,itv:500},tunable:{mwp:1,pwp:1}}
+{id:190,name:"Griest AM",type:"a",cost:75,hp:20,str:0,tec:2,wlk:0,fly:2,tgh:1,main:{pwr:9,shl:360,rng:275,spd:350,itv:800},tunable:{mwp:1}}
+{id:191,name:"Jet Falcon AM",type:"a",cost:65,hp:20,str:-1,tec:2,wlk:1,fly:2,tgh:1,main:{pwr:15,shl:180,rng:250,spd:260,itv:800},tunable:{mwp:1},auraStat:{str:-1,tec:2,wlk:1,fly:2,tgh:1,main:{pwr:9,shl:570,rng:275,spd:300,itv:340}}}
+{id:192,name:"Bellvere AM",type:"l",cost:155,hp:20,str:4,tec:-1,wlk:0,fly:0,tgh:2,sub:{str:100,pwr:34,shl:20,rng:70,spd:85,itv:1000},tunable:{pwp:1}}
+{id:193,name:"Bellvere AM2",type:"l",cost:115,hp:20,str:2,tec:0,wlk:2,fly:-1,tgh:2,joint:{wp:0},main:{str:100,pwr:5,shl:250,rng:200,spd:400,itv:1000},sub:{str:100,pwr:10,shl:30,rng:150,spd:570,itv:1000},tunable:{mwp:1}}
+{id:194,name:"Fireman Nacchin AM",cost:35,hp:20,str:-1,tec:2,wlk:1,fly:1,tgh:2}
+{id:195,name:"Patrol Nacchin AM",cost:35,hp:20,str:0,tec:2,wlk:2,fly:0,tgh:1}
+{id:196,name:"GSDF Nacchin AM",cost:55,hp:20,str:0,tec:2,wlk:1,fly:0,tgh:2}
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:1,name:"Persecius AM2",cost:80,hp:25,str:1,tec:1,wlk:0,fly:0,tgh:3}
