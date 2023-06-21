@@ -19,8 +19,8 @@
 {id:18,name:"Airyad Bit ALPHA",cost:70,slot:0,main:{pwr:4,shl:840,rng:275,spd:440,itv:900},conversion:"WPCO7"}
 {id:19,name:"Airyad Bit BETA",cost:100,slot:0,main:{pwr:6,shl:920,rng:275,spd:440,itv:380},conversion:"WPCO7"}
 {id:20,name:"Brave Axe",cost:30,slot:0,main:{str:100,pwr:20,shl:50,rng:200,spd:570,itv:500},conversion:"WPCO8"}
-{id:21,name:"Beam Crystal",cost:70,main:{pwr:11,shl:500,rng:275,spd:440,itv:700},conversion:"BDAS27LG"}
-{id:22,name:"Crystal Wall",cost:90,slot:0,main:{pwr:2,shl:1740,rng:275,spd:340,itv:200},conversion:"BDAS27"}
+{id:21,name:"Beam Crystal",cost:70,main:{pwr:11,shl:500,rng:275,spd:440,itv:700},conversion:"BDAS27LG BDAS77LG"}
+{id:22,name:"Crystal Wall",cost:90,slot:0,main:{pwr:2,shl:1740,rng:275,spd:340,itv:200},conversion:"BDAS27 BDAS77"}
 {id:23,name:"Berzel Bazooka",cost:90,main:{pwr:19,shl:420,rng:330,spd:400,itv:400},conversion:"WPCO9"}
 {id:24,name:"Zelius Psygun",cost:60,main:{pwr:10,shl:540,rng:330,spd:220,itv:300},conversion:"WPCO9"}
 {id:25,name:"Aqua Shot",cost:70,main:{pwr:19,shl:340,rng:250,spd:400,itv:500},conversion:"BDLS39AM2"}
@@ -85,7 +85,7 @@
 {id:84,name:"Ricochet Gatling",cost:60,main:{pwr:5,shl:1500,rng:250,spd:400,itv:240},conversion:"BDLS77LG"}
 {id:85,name:"Sonic Claw",cost:30,main:{pwr:23,shl:50,rng:200,spd:570,itv:500},conversion:"BDLS78AM2"}
 {id:86,name:"Kikoutou Kagutsuchi",cost:130,main:{pwr:11,shl:750,rng:350,spd:280,itv:1000},conversion:"BDCS50AM"}
-{id:87,conversion:"BDLS82",name:"Parasector Asis BD@",cost:60,slot:0,main:{str:100,pwr:25,shl:15,rng:0,spd:10,itv:700}}
+{id:87,conversion:"BDLS82",name:"Parasector Asis BD@",cost:50,slot:0,main:{str:100,pwr:32,shl:15,rng:0,spd:10,itv:700}}
 {id:88,conversion:"BDSS43LG",name:"Battle Frame R BETA",cost:40,slot:0,main:{pwr:0,shl:20,rng:300,spd:300,itv:1000}}
 {id:89,conversion:"BDSS43",name:"Battle Frame R ALPHA",cost:140,main:{pwr:7,shl:720,rng:300,spd:360,itv:1000},sub:{pwr:16,shl:300,rng:300,spd:260,itv:1000}}
 {id:90,conversion:"BDAS57LG",name:"Battle Frame I BETA",cost:170,main:{pwr:7,shl:360,rng:275,spd:260,itv:1000},sub:{pwr:0,shl:60,rng:0,spd:180,itv:1000}}
@@ -110,7 +110,7 @@
 {id:109,conversion:"WPCS58",name:"Tsukishiro Style: Barrier",cost:30,slot:0,main:{pwr:0,shl:30,rng:0,spd:10,itv:1000}}
 {id:110,conversion:"BDLS95AM2",name:"Tsukishiro Style: Mortar",cost:30,main:{str:100,pwr:20,shl:50,rng:200,spd:500,itv:1000}}
 {id:111,conversion:"BDAS59AM2",name:"ECM Lightning Buster",cost:100,main:{pwr:17,shl:440,rng:275,spd:400,itv:440},sub:{pwr:0,shl:"-",rng:0,spd:0,itv:500}}
-{id:112,conversion:"BDAS60AM",name:"Twin Recurve Bow",cost:100,main:{pwr:12,shl:680,rng:275,spd:300,itv:300}}
+{id:112,conversion:"BDAS75AM",name:"Twin Recurve Bow",cost:100,main:{pwr:12,shl:680,rng:275,spd:300,itv:300}}
 {id:113,conversion:"AMO10",name:"Spade Gadget (TEC)",cost:70,main:{pwr:20,shl:270,rng:250,spd:250,itv:800}}
 {id:114,conversion:"AMO10",name:"Spade Gadget (STR)",cost:70,main:{str:100,pwr:20,shl:270,rng:250,spd:250,itv:800}}
 {id:115,conversion:"AMO10",name:"Four-Of-A-Kind Gadget (TEC)",cost:80,main:{pwr:9,shl:1080,rng:250,spd:400,itv:800}}
@@ -122,6 +122,12 @@
 {id:121,conversion:"AML194",name:"S.U Barrier Gun Type.R",cost:70,main:{pwr:22,shl:80,rng:300,spd:400,itv:1000},tunable:{mwp:1}}
 {id:122,conversion:"AML195",name:"C Mialy Gun Type.I",cost:160,main:{pwr:7,shl:450,rng:250,spd:400,itv:400},tunable:{mwp:1}}
 {id:123,conversion:"AML196",name:"B Railgun Type M",cost:140,main:{pwr:41,shl:190,rng:350,spd:530,itv:900},tunable:{mwp:1},comment:"Type / Size restriction applies"}
+{id:124,conversion:"AMO12",name:"Repair Syringe",cost:70,main:{pwr:0,shl:200,rng:300,spd:300,itv:760}}
+{id:125,conversion:"AMO13",name:"ELC Gun",cost:70,main:{str:100,pwr:20,shl:460,rng:225,spd:440,itv:400}}
+{id:126,conversion:"BDAS27LG BDAS77LG",name:"Beam Crystal RU",cost:70,main:{pwr:13,shl:580,rng:250,spd:440,itv:700}}
+{id:127,conversion:"BDAS27 BDAS77",name:"Crystal Wall II",cost:90,slot:0,main:{pwr:7,shl:840,rng:300,spd:370,itv:700}}
+{id:128,conversion:"BDCS60AM",name:"Hyper Barrier Burst",cost:130,main:{pwr:16,shl:530,rng:330,spd:290,itv:340}}
+{id:129,conversion:"BDCS60AM",name:"Improved Barrier Ball",cost:70,main:{pwr:27,shl:80,rng:330,spd:400,itv:1000}}
 
 {group:"Conversion-SWP",prefixID:"CS",commonStat:{tunable:{pwp:1}}}
 {id:1,name:"Gradd Chainsaw",cost:60,sub:{str:100,pwr:32,rng:70,spd:85,itv:500},conversion:"BDLS3AM"}
@@ -185,9 +191,10 @@
 {id:60,conversion:"BDLS98WP",name:"Rabbit Missile",cost:50,slot:0,sub:{pwr:16,shl:60,rng:250,spd:320,itv:1000},tunable:{pwp:0}}
 {id:61,conversion:"WPCO33",name:"Phobia Sword",cost:100,sub:{str:100,pwr:32,shl:"-",rng:100,spd:150,itv:2000}}
 {id:62,conversion:"WPCO33",name:"Phobian Axe",cost:50,slot:0,sub:{str:100,pwr:28,shl:30,rng:200,spd:290,itv:1000}}
+{id:63,conversion:"BDAS76AM2",name:"Kaltos Sword",cost:120,sub:{str:100,pwr:30,shl:"-",rng:77,spd:94,itv:1000}}
 
 {group:"Conversion-Other",prefixID:"CO"}
-{id:1,name:"Specific Memory Slot",conversion:"Slot BDLS49 BDCS37AM2 BDLS53 BDLS53AM BDLS53AM2 BDLS57AM BDLS57AM2 BDLS61AM2 BDLS61WP BDCS43 BDAS46 BDAS46AM BDLS63 BDLS64 BDCS44 BDLS67 BDAS50 BDCS45 BDAM45 AMS99 BDAM46LG BDLS72 BDAS53 AMS104 BDCS49 BDCS49AM2 BDLS75 BDLS76 BDLS77 BDLS78 BDLS78AM2 BDCS50 BDCS50AM BDLS81 BDSS43 BDAS57 BDSS44 BDCS52 BDCS53 BDCS54 BDLS84AM BDLS84AM2 BDLS84 BDLL51 BDCL47AM"}
+{id:1,name:"Memory Slot",conversion:"Slot BDLS49 BDCS37AM2 BDLS53 BDLS53AM BDLS53AM2 BDLS57AM BDLS57AM2 BDLS61AM2 BDLS61WP BDCS43 BDAS46 BDAS46AM BDLS63 BDLS64 BDCS44 BDLS67 BDAS50 BDCS45 BDAM45 AMS99 BDAM46LG BDLS72 BDAS53 AMS104 BDCS49 BDCS49AM2 BDLS75 BDLS76 BDLS77 BDLS78 BDLS78AM2 BDCS50 BDCS50AM BDLS81 BDSS43 BDAS57 BDSS44 BDCS52 BDCS53 BDCS54 BDLS84AM BDLS84AM2 BDLS84 BDLL51 BDCL47AM"}
 {id:2,name:"Gokusou Magatama",slot:0,joint:{wp:4},conversion:"BDLS22AM2"}
 {id:3,name:"Third Eye Magatama",conversion:"WPCO2"}
 {id:4,name:"Aurora Cannon",slot:0,joint:{wp:2},conversion:"BDAS20AM BDAS43AM"}
@@ -218,8 +225,10 @@
 {id:29,conversion:"BDAL38",name:"Transform ",cost:50,slot:0,sub:{pwr:0,shl:"-",rng:0,spd:150,itv:1000}}
 {id:30,conversion:"BSO14",name:"Drag Shovel Arm",slot:0,joint:{wp:1}}
 {id:31,conversion:"BSO14",name:"Drag Engine",slot:0,joint:{wp:1}}
-{id:32,conversion:"BDAS60AM2",name:"Twin Recurve Bow II",sub:{pwr:0,shl:"-",rng:0,spd:0,itv:500}}
+{id:32,conversion:"BDAS75AM2",name:"Twin Recurve Bow II",sub:{pwr:0,shl:"-",rng:0,spd:0,itv:500}}
 {id:33,conversion:"AMM200",name:"Phobian Art",slot:0,joint:{wp:3}}
 {id:34,conversion:"BDCS20WP BDCS58WP",name:"Illumis BD2@2",cost:20,sub:{pwr:0,shl:30,rng:0,spd:150,itv:1000}}
 {id:35,conversion:"AML195",name:"R Shield Type I",cost:30,sub:{pwr:0,shl:15,rng:0,spd:0,itv:1000}}
-{id:999,name:"Specific Memory Slot ",conversion:"BDLS87LG BDAS61AM BDAS61AM2 BDAS62AM2 BDLL54 BDSS47 BDSS48 BDSS49 BDLS91 BDLS91AM2 BDLS94 AMS131 BDAS72AM2 BDSS53 BDLS95 BDLS95AM BDLS97 AMO10 BDLS98 AMS138 BDLS100 BDCS59AM"}
+{id:36,conversion:"BDAS76LG",name:"Kaltos Tail",cost:50,sub:{pwr:0,shl:60,rng:200,spd:350,itv:1000}}
+{id:37,conversion:"BDCM56",name:"Ogreil BD2@",cost:30,slot:0,sub:{pwr:10,shl:20,rng:300,spd:250,itv:500}}
+{id:999,name:"Memory Slot ",conversion:"BDLS87LG BDAS61AM BDAS61AM2 BDAS62AM2 BDLL54 BDSS47 BDSS48 BDSS49 BDLS91 BDLS91AM2 BDLS94 AMS131 BDAS72AM2 BDSS53 BDLS95 BDLS95AM BDLS97 AMO10 BDLS98 AMS138 BDLS100 BDCS59AM LGS114 AMS143 AMO13 BSJ6 BDAS77 BDCS60AM"}
