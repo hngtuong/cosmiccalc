@@ -78,6 +78,8 @@
 {id:7,name:"Jumper Halberd",size:"M",type:"a",cost:60,sub:{str:100,pwr:23,rng:120,spd:200,itv:500}}
 {id:8,name:"Stag Claw",size:"M",type:"a",cost:100,sub:{str:100,pwr:26,rng:100,spd:200,itv:500}}
 {id:9,name:"Knight Lance",size:"S",type:"l",cost:130,sub:{str:100,pwr:28,rng:150,spd:80,itv:1000}}
+{id:10,name:"Halberd",size:"M",type:"l",cost:120,sub:{str:100,pwr:32,rng:77,spd:94,itv:1000}}
+{id:11,name:"Zeus Brand",size:"LL",type:"l",cost:150,sub:{str:100,pwr:28,shl:"-",rng:150,spd:80,itv:500},auraStat:{sub:{str:100,pwr:30,shl:"-",rng:150,spd:80,itv:500}},tunable:{pwp:1}}
 
 {group:"Staffs",prefixID:"SF"}
 {id:1,name:"Homura Staff",size:"M",cost:90,sub:{pwr:25,shl:180,rng:250,spd:290,itv:1000}}
@@ -102,3 +104,4 @@
 {id:4,name:"Impact Knuckle",size:"M",type:"l",cost:100,sub:{str:100,pwr:30,rng:70,spd:30,itv:1000},tunable:{pwp:1}}
 {id:5,name:"Kagura Ougi",size:"S",type:"s",cost:85,sub:{pwr:30,shl:150,rng:300,spd:240,itv:1000}}
 {id:6,name:"Shinobi Dagger",size:"S",type:"l",cost:60,sub:{pwr:15,shl:270,rng:250,spd:480,itv:1000}}
+{id:7,name:"Centurion Stern",size:"L",type:"l",cost:180,main:{str:100,pwr:20,shl:50,rng:200,spd:500,itv:500},sub:{str:100,pwr:36,shl:"-",rng:70,spd:85,itv:3000},auraStat:{main:{str:100,pwr:10,shl:120,rng:200,spd:500,itv:300},sub:{str:100,pwr:30,shl:"-",rng:100,spd:200,itv:2000}},tunable:{mwp:1,pwp:1}}
