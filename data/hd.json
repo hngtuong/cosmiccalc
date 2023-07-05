@@ -61,6 +61,7 @@
 {id:58,name:"Ace Braver HD2",cost:35,hp:20,str:2,tec:1,wlk:2,fly:-1,tgh:1}
 {id:59,name:"Staggeed HD",cost:35,hp:20,str:-1,tec:2,wlk:1,fly:2,tgh:1}
 {id:60,name:"Beatram HD",cost:35,hp:20,str:1,tec:-1,wlk:1,fly:1,tgh:3}
+{id:61,name:"Arteris HD2",type:"lcs",cost:80,hp:25,str:-1,tec:1,wlk:2,fly:1,tgh:2,main:{pwr:5,shl:1000,rng:250,spd:400,itv:340},tunable:{mwp:1}}
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Gwyain HD",cost:40,hp:25,str:2,tec:1,wlk:2,fly:0,tgh:0}
@@ -424,6 +425,9 @@
 {id:360,name:"Crugis HD2",cost:35,hp:20,str:-1,tec:2,wlk:1,fly:2,tgh:1}
 {id:361,name:"Centurion HD",cost:35,hp:20,str:1,tec:0,wlk:2,fly:1,tgh:1}
 {id:362,name:"Garulabird HD3",cost:40,hp:25,str:-1,tec:1,wlk:2,fly:1,tgh:2}
+{id:363,name:"Jack Gadget LC HD (STR)",type:"ac",cost:65,hp:20,str:0,tec:0,wlk:1,fly:2,tgh:2,main:{str:100,pwr:10,shl:100,rng:250,spd:400,itv:1000},tunable:{mwp:1}}
+{id:364,name:"Jack Gadget LC HD (TEC)",type:"ac",cost:65,hp:20,str:0,tec:0,wlk:1,fly:2,tgh:2,main:{pwr:10,shl:100,rng:250,spd:400,itv:1000},tunable:{mwp:1}}
+{id:365,name:"Chrotacs HD3",cost:40,hp:25,str:0,tec:2,wlk:2,fly:0,tgh:1}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Aquila HD",cost:35,hp:20,str:1,tec:1,wlk:2,fly:1,tgh:0}

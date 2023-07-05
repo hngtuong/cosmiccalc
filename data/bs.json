@@ -180,6 +180,7 @@
 {id:146,name:"Beatram BS",type:"l",cost:35,hp:20,str:2,tec:0,wlk:0,fly:3,tgh:0}
 {id:147,name:"Medi Aide BS",type:"s",cost:35,hp:20,str:0,tec:1,wlk:1,fly:3,tgh:0}
 {id:148,name:"Rouche BS",type:"c",cost:35,hp:20,str:0,tec:2,wlk:-1,fly:3,tgh:1}
+{id:149,name:"Jack Gadget LC BS",type:"cs",cost:145,hp:20,str:-1,tec:2,wlk:0,fly:2,tgh:2,main:{pwr:13,shl:340,rng:300,spd:220,itv:1000},sub:{pwr:38,shl:40,rng:77,spd:94,itv:1000},tunable:{mwp:1,pwp:1}}
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Axion BS",type:"l",cost:45,hp:25,str:0,tec:2,wlk:1,fly:3,tgh:-1}
