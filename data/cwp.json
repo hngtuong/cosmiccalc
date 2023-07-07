@@ -39,7 +39,7 @@
 {id:38,name:"Battleship DNAM",cost:45,slot:0,main:{pwr:6,shl:840,rng:330,spd:480,itv:740},conversion:"AML91"}
 {id:39,name:"Battleship DNAM2",cost:45,slot:0,main:{pwr:6,shl:780,rng:330,spd:480,itv:1000},conversion:"AML91"}
 {id:40,name:"Kuschelb AM2@",cost:15,slot:0,main:{str:100,pwr:5,shl:60,rng:200,spd:500,itv:300},conversion:"AML93"}
-{id:41,name:"Hunt Gewehr",cost:60,main:{str:100,pwr:13,shl:540,rng:225,spd:400,itv:300},conversion:"BDLS51AMR"}
+{id:41,name:"Hunt Gewehr",cost:60,main:{str:100,pwr:16,shl:540,rng:225,spd:440,itv:300},conversion:"BDLS51AMR"}
 {id:42,name:"Lisel Gatling",cost:45,slot:0,main:{pwr:4,shl:1600,rng:350,spd:480,itv:200},conversion:"BDCS34AMS"}
 {id:43,name:"Nora Schneid@",cost:30,slot:0,main:{pwr:5,shl:90,rng:200,spd:300,itv:500},conversion:"BDLS52"}
 {id:44,name:"Storen Gewehr",cost:70,main:{pwr:17,shl:540,rng:250,spd:400,itv:340},conversion:"BDLS52AM"}
@@ -86,7 +86,7 @@
 {id:85,name:"Sonic Claw",cost:30,main:{pwr:23,shl:50,rng:200,spd:570,itv:500},conversion:"BDLS78AM2"}
 {id:86,name:"Kikoutou Kagutsuchi",cost:130,main:{pwr:11,shl:750,rng:350,spd:280,itv:1000},conversion:"BDCS50AM"}
 {id:87,conversion:"BDLS82",name:"Parasector Asis BD@",cost:50,slot:0,main:{str:100,pwr:32,shl:15,rng:0,spd:10,itv:700}}
-{id:88,conversion:"BDSS43LG",name:"Battle Frame R BETA",cost:40,slot:0,main:{pwr:0,shl:20,rng:300,spd:300,itv:1000}}
+{id:88,conversion:"BDSS43LG",name:"Battle Frame R BETA",cost:40,slot:0,main:{pwr:0,shl:40,rng:300,spd:300,itv:1000}}
 {id:89,conversion:"BDSS43",name:"Battle Frame R ALPHA",cost:140,main:{pwr:7,shl:720,rng:300,spd:360,itv:1000},sub:{pwr:16,shl:300,rng:300,spd:260,itv:1000}}
 {id:90,conversion:"BDAS57LG",name:"Battle Frame I BETA",cost:170,main:{pwr:7,shl:360,rng:275,spd:260,itv:1000},sub:{pwr:0,shl:60,rng:0,spd:180,itv:1000}}
 {id:91,conversion:"BDAS57",name:"Battle Frame I ALPHA",cost:70,main:{pwr:7,shl:960,rng:275,spd:280,itv:400},sub:{pwr:0,shl:60,rng:0,spd:180,itv:1000}}
@@ -107,7 +107,7 @@
 {id:106,conversion:"BDSS53",name:"Dancing Throw",cost:30,slot:0,main:{pwr:5,shl:270,rng:200,spd:570,itv:500}}
 {id:107,conversion:"BDSS53",name:"Dancing Shield",cost:30,slot:0,main:{pwr:0,shl:50,rng:0,spd:10,itv:1000}}
 {id:108,conversion:"BDSS54",name:"Divine Seer Orb",cost:230,main:{pwr:14,shl:600,rng:300,spd:300,itv:400},sub:{pwr:30,shl:30,rng:0,spd:0,itv:1000}}
-{id:109,conversion:"WPCS58",name:"Tsukishiro Style: Barrier",cost:30,slot:0,main:{pwr:0,shl:30,rng:0,spd:10,itv:1000}}
+{id:109,conversion:"WPCS58",name:"Tsukishiro Style: Barrier",cost:30,slot:0,main:{pwr:0,shl:20,rng:0,spd:10,itv:1000}}
 {id:110,conversion:"BDLS95AM2",name:"Tsukishiro Style: Mortar",cost:30,main:{str:100,pwr:20,shl:50,rng:200,spd:500,itv:1000}}
 {id:111,conversion:"BDAS59AM2",name:"ECM Lightning Buster",cost:100,main:{pwr:17,shl:440,rng:275,spd:400,itv:440},sub:{pwr:0,shl:"-",rng:0,spd:0,itv:500}}
 {id:112,conversion:"BDAS75AM",name:"Twin Recurve Bow",cost:100,main:{pwr:12,shl:680,rng:275,spd:300,itv:300}}
