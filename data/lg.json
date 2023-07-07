@@ -244,7 +244,7 @@
 {id:116,name:"Locomotive X LG2",cost:45,hp:25,str:0,tec:2,wlk:3,fly:-1,tgh:2}
 {id:117,name:"Cyburning LG",cost:45,hp:25,str:1,tec:1,wlk:3,fly:-1,tgh:2}
 {id:118,name:"Captain X LG",type:"l",cost:95,hp:25,str:3,tec:-1,wlk:3,fly:0,tgh:1,sub:{str:100,pwr:38,shl:"-",rng:120,spd:10,itv:1000},tunable:{pwp:1}}
-{id:119,name:"Aero Raider LG",type:"lc",cost:45,hp:25,str:0,tec:0,wlk:4,fly:0,tgh:2,sub:{pwr:0,shl:30,rng:0,spd:200,itv:100}}
+{id:119,name:"Aero Raider LG",type:"lc",cost:45,hp:25,str:0,tec:0,wlk:4,fly:0,tgh:2,sub:{pwr:0,shl:"-",rng:0,spd:200,itv:100}}
 {id:120,name:"Mirage Raid LG",cost:45,hp:25,str:2,tec:0,wlk:2,fly:1,tgh:1}
 {id:121,name:"Hovermill LG",cost:45,hp:25,str:-1,tec:1,wlk:2,fly:2,tgh:2}
 {id:122,name:"Quadra LG2",cost:45,hp:25,str:0,tec:2,wlk:4,fly:-1,tgh:1}

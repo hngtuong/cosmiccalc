@@ -586,7 +586,7 @@
 {id:18,name:"Teitarotes AM",type:"c",cost:120,hp:15,str:0,tec:3,wlk:0,fly:-1,tgh:2,joint:{wp:2},fixedParts:{wp:{name:"Teitarotes AM@",slot:0,main:{pwr:10,shl:720,rng:350,spd:350,itv:140}}}}
 {id:19,name:"Truck Mighty Byne AM",type:"l",cost:155,hp:25,str:2,tec:-1,wlk:2,fly:0,tgh:2,joint:{wp:0},main:{str:100,pwr:20,shl:30,rng:200,spd:500,itv:500},sub:{str:100,pwr:36,shl:30,rng:70,spd:85,itv:2000},tunable:{mwp:1,pwp:1}}
 {id:20,name:"Truck Mighty Byne AM2",type:"l",cost:115,hp:25,str:2,tec:-1,wlk:2,fly:0,tgh:2,sub:{str:100,pwr:34,shl:30,rng:80,spd:300,itv:1000},tunable:{pwp:1}}
-{id:21,name:"Blazed Baron AM5",type:"l",cost:200,hp:25,str:4,tec:-1,wlk:1,fly:0,tgh:1,joint:{wp:0},sub:{str:100,pwr:33,shl:5,rng:70,spd:85,itv:1000},tunable:{pwp:1}}
+{id:21,name:"Blazed Baron AM5",type:"l",cost:200,hp:25,str:4,tec:-1,wlk:1,fly:0,tgh:1,joint:{wp:0},sub:{str:100,pwr:33,shl:10,rng:70,spd:85,itv:1000},tunable:{pwp:1}}
 {id:22,name:"Zarid AM3",type:"l",cost:110,hp:25,str:2,tec:-1,wlk:1,fly:0,tgh:3,main:{str:100,pwr:12,shl:540,rng:150,spd:440,itv:1000},tunable:{mwp:1}}
 {id:23,name:"Centaur X AM2",type:"l",cost:175,hp:20,str:2,tec:-1,wlk:2,fly:0,tgh:2,joint:{wp:0},sub:{str:100,pwr:24,shl:20,rng:77,spd:94,itv:1000},tunable:{pwp:1}}
 {id:24,name:"Giganberg AM",cost:65,hp:20,str:0,tec:2,wlk:1,fly:0,tgh:2}
