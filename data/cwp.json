@@ -128,6 +128,7 @@
 {id:127,conversion:"BDAS27 BDAS77",name:"Crystal Wall II",cost:90,slot:0,main:{pwr:7,shl:840,rng:300,spd:370,itv:700}}
 {id:128,conversion:"BDCS60AM",name:"Hyper Barrier Burst",cost:130,main:{pwr:16,shl:530,rng:330,spd:290,itv:340}}
 {id:129,conversion:"BDCS60AM",name:"Improved Barrier Ball",cost:70,main:{pwr:27,shl:80,rng:330,spd:400,itv:1000}}
+{id:130,conversion:"BDAS80AM BDAS80AM2",name:"Dual Buster",cost:215,main:{pwr:17,shl:630,rng:275,spd:440,itv:300}}
 
 {group:"Conversion-SWP",prefixID:"CS",commonStat:{tunable:{pwp:1}}}
 {id:1,name:"Gradd Chainsaw",cost:60,sub:{str:100,pwr:32,rng:70,spd:85,itv:500},conversion:"BDLS3AM"}
@@ -231,4 +232,4 @@
 {id:35,conversion:"AML195",name:"R Shield Type I",cost:30,sub:{pwr:0,shl:15,rng:0,spd:0,itv:1000}}
 {id:36,conversion:"BDAS76LG",name:"Kaltos Tail",cost:50,sub:{pwr:0,shl:60,rng:200,spd:350,itv:1000}}
 {id:37,conversion:"BDCM56",name:"Ogreil BD2@",cost:30,slot:0,sub:{pwr:10,shl:20,rng:300,spd:250,itv:500}}
-{id:999,name:"Memory Slot ",conversion:"BDLS87LG BDAS61AM BDAS61AM2 BDAS62AM2 BDLL54 BDSS47 BDSS48 BDSS49 BDLS91 BDLS91AM2 BDLS94 AMS131 BDAS72AM2 BDSS53 BDLS95 BDLS95AM BDLS97 AMO10 BDLS98 AMS138 BDLS100 BDCS59AM LGS114 AMS143 AMO13 BSJ6 BDAS77 BDCS60AM BDAS78 BDAS79"}
+{id:999,name:"Memory Slot ",conversion:"BDLS87LG BDAS61AM BDAS61AM2 BDAS62AM2 BDLL54 BDSS47 BDSS48 BDSS49 BDLS91 BDLS91AM2 BDLS94 AMS131 BDAS72AM2 BDSS53 BDLS95 BDLS95AM BDLS97 AMO10 BDLS98 AMS138 BDLS100 BDCS59AM LGS114 AMS143 AMO13 BSJ6 BDAS77 BDCS60AM BDAS78 BDAS79 BDAS80AM BDAS80AM2"}
