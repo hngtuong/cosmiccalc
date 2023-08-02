@@ -78,7 +78,7 @@
 {id:77,name:"Denden Cam Pro",cost:90,main:{pwr:11,shl:620,rng:275,spd:350,itv:300},conversion:"BDAS53",auraStat:{main:{pwr:11,shl:720,rng:275,spd:350,itv:300}}}
 {id:78,name:"Tem Pole BD@2",cost:70,slot:0,joint:{wp:1},main:{pwr:12,shl:520,rng:350,spd:440,itv:700},conversion:"BDLL41BD2 WPCM78 WPCM79 WPCO22"}
 {id:79,name:"Tem Pole BD@3",cost:70,slot:0,joint:{wp:1},main:{pwr:9,shl:560,rng:350,spd:280,itv:660},conversion:"BDLL41BD2 WPCM78 WPCM79 WPCO22"}
-{id:80,name:"Olkwaffe",cost:150,slot:0,joint:{wp:1},main:{pwr:28,shl:260,rng:455,spd:500,itv:800},conversion:"BDCS49AM2",fixedParts:{wp:{name:"Magne ESP Sight",slot:0,sub:{itv:500}}}}
+{id:80,name:"Olkwaffe",cost:150,slot:0,joint:{wp:1},main:{pwr:[30,31,32],shl:260,rng:455,spd:[500,520,540],itv:800},conversion:"BDCS49AM2",fixedParts:{wp:{name:"Magne ESP Sight",slot:0,sub:{itv:500}}}}
 {id:81,name:"Battle Frame O Beta",cost:190,main:{pwr:9,shl:1500,rng:250,spd:320,itv:800},sub:{pwr:19,shl:260,rng:250,spd:400,itv:1000},conversion:"BDLS75LG"}
 {id:82,name:"Seraphim Rune L",cost:30,main:{str:100,pwr:20,shl:50,rng:200,spd:500,itv:500},conversion:"BDLS76AM"}
 {id:83,name:"Rhino Cannon",cost:110,main:{pwr:46,shl:100,rng:150,spd:400,itv:1000},conversion:"BDLS77LG"}
@@ -129,6 +129,9 @@
 {id:128,conversion:"BDCS60AM",name:"Hyper Barrier Burst",cost:130,main:{pwr:16,shl:530,rng:330,spd:290,itv:340}}
 {id:129,conversion:"BDCS60AM",name:"Improved Barrier Ball",cost:70,main:{pwr:27,shl:80,rng:330,spd:400,itv:1000}}
 {id:130,conversion:"BDAS80AM BDAS80AM2",name:"Dual Buster",cost:215,main:{pwr:17,shl:630,rng:275,spd:440,itv:300}}
+{id:131,conversion:"BDAS82LG",name:"Battle Frame E BETA",cost:180,main:{pwr:9,shl:1280,rng:275,spd:440,itv:640},sub:{pwr:11,shl:40,rng:275,spd:300,itv:1000}}
+{id:132,conversion:"BDLS105LG",name:"Battle Frame I BETA ",cost:40,main:{pwr:0,shl:20,rng:0,spd:10,itv:1000}}
+{id:133,conversion:"BDLS105",name:"Battle Frame I ALPHA ",cost:30,main:{str:100,pwr:10,shl:50,rng:200,spd:570,itv:500}}
 
 {group:"Conversion-SWP",prefixID:"CS",commonStat:{tunable:{pwp:1}}}
 {id:1,name:"Gradd Chainsaw",cost:60,sub:{str:100,pwr:32,rng:70,spd:85,itv:500},conversion:"BDLS3AM"}
@@ -144,7 +147,7 @@
 {id:12,name:"Wolken Lance",cost:160,sub:{str:100,pwr:32,rng:90,spd:180,itv:2000},conversion:"AMS50"}
 {id:13,name:"Wolken Shield",cost:70,main:{str:100,pwr:14,shl:100,rng:225,spd:320,itv:500},sub:{str:100,pwr:28,rng:100,spd:250,itv:2000},tunable:{mwp:1},conversion:"AMS51"}
 {id:14,name:"Manimo Wing",cost:70,slot:0,hp:25,str:1,fly:2,tgh:2,joint:{wp:1},sub:{pwr:0,shl:60,rng:0,spd:160,itv:1000},conversion:"BDAS17"}
-{id:15,name:"Krieger Shield",cost:120,joint:{wp:1},main:{pwr:0,shl:50,rng:0,spd:10,itv:1000},sub:{str:100,pwr:32,rng:70,spd:85,itv:500},tunable:{mwp:1},conversion:"BDLS33AM",fixedParts:{wp:{name:"Krieger Shield@",cost:50,slot:0,sub:{str:100,pwr:30,rng:120,spd:200,itv:1000}}}}
+{id:15,name:"Krieger Shield",cost:120,joint:{wp:1},main:{pwr:0,shl:50,rng:0,spd:10,itv:1000},sub:{str:100,pwr:32,rng:70,spd:85,itv:1000},tunable:{mwp:1},conversion:"BDLS33AM BDLS106AM",fixedParts:{wp:{name:"Krieger Shield@",cost:50,slot:0,sub:{str:100,pwr:30,rng:120,spd:200,itv:1000}}}}
 {id:16,name:"Chain Blade",cost:130,main:{pwr:0,shl:50,rng:0,spd:10,itv:1000},sub:{str:100,pwr:32,rng:77,spd:102,itv:500},conversion:"BDLS34AM"}
 {id:17,name:"Chain Blade Stealth",cost:60,slot:0,main:{pwr:0,shl:-1,rng:0,spd:150,itv:1000},sub:{str:100,pwr:32,rng:120,spd:250,itv:500},conversion:"BDLS34"}
 {id:18,name:"Captain Anchor",cost:110,slot:0,joint:{wp:1},sub:{str:100,pwr:30,rng:0,spd:100,itv:500},auraStat:{main:{str:100,pwr:20,shl:50,rng:200,spd:400,itv:500},sub:{str:100,pwr:28,itv:1000}},conversion:"BDLS35AM"}
@@ -193,6 +196,7 @@
 {id:61,conversion:"WPCO33",name:"Phobia Sword",cost:100,sub:{str:100,pwr:32,shl:"-",rng:100,spd:150,itv:2000}}
 {id:62,conversion:"WPCO33",name:"Phobian Axe",cost:50,slot:0,sub:{str:100,pwr:28,shl:30,rng:200,spd:290,itv:1000}}
 {id:63,conversion:"BDAS76AM2",name:"Kaltos Sword",cost:120,sub:{str:100,pwr:30,shl:"-",rng:77,spd:94,itv:1000}}
+{id:64,conversion:"BDLS33AM BDLS106AM",name:"Jager Shield",cost:140,joint:{wp:1},fixedParts:{wp:{name:"Jager Shield@",cost:30,slot:0,main:{str:100,pwr:25,shl:80,rng:200,spd:400,itv:500}}},main:{pwr:0,shl:50,rng:0,spd:10,itv:1000},sub:{str:100,pwr:35,shl:"-",rng:63,spd:77,itv:1000},tunable:{mwp:1}}
 
 {group:"Conversion-Other",prefixID:"CO"}
 {id:1,name:"Memory Slot",conversion:"Slot BDLS49 BDCS37AM2 BDLS53 BDLS53AM BDLS53AM2 BDLS57AM BDLS57AM2 BDLS61AM2 BDLS61WP BDCS43 BDAS46 BDAS46AM BDLS63 BDLS64 BDCS44 BDLS67 BDAS50 BDCS45 BDAM45 AMS99 BDAM46LG BDLS72 BDAS53 AMS104 BDCS49 BDCS49AM2 BDLS75 BDLS76 BDLS77 BDLS78 BDLS78AM2 BDCS50 BDCS50AM BDLS81 BDSS43 BDAS57 BDSS44 BDCS52 BDCS53 BDCS54 BDLS84AM BDLS84AM2 BDLS84 BDLL51 BDCL47AM"}
@@ -218,7 +222,7 @@
 {id:21,name:"Rush Gauntlet",cost:80,conversion:"BDAM46AM"}
 {id:22,name:"Tem Pole BD@",slot:0,joint:{hd:1,bs:1,am:2},conversion:"BDLL41BD2 WPCM78 WPCM79 WPCO22"}
 {id:23,name:"Air Running",cost:20,conversion:"BDLM37 BDLM40"}
-{id:24,name:"Battle Whistle",slot:0,sub:{itv:1000},conversion:"BDLS75 BDLS76 BDSS43 BDAS57 BDCS54 BDLS84"}
+{id:24,name:"Battle Whistle",slot:0,sub:{itv:1000},conversion:"BDLS75 BDLS76 BDSS43 BDAS57 BDCS54 BDLS84 BDAS82 BDLS105"}
 {id:25,name:"Battle Frame L Alpha",cost:30,slot:0,sub:{shl:1000,itv:1000},conversion:"BDLS75"}
 {id:26,name:"Battle Frame C",cost:20,sub:{rng:150,spd:350,itv:1000},conversion:"BDLS76LG"}
 {id:27,name:"Outsider Key",cost:75,slot:0,sub:{rng:10,spd:10,itv:500},conversion:"BDLS77"}
@@ -232,4 +236,5 @@
 {id:35,conversion:"AML195",name:"R Shield Type I",cost:30,sub:{pwr:0,shl:15,rng:0,spd:0,itv:1000}}
 {id:36,conversion:"BDAS76LG",name:"Kaltos Tail",cost:50,sub:{pwr:0,shl:60,rng:200,spd:350,itv:1000}}
 {id:37,conversion:"BDCM56",name:"Ogreil BD2@",cost:30,slot:0,sub:{pwr:10,shl:20,rng:300,spd:250,itv:500}}
-{id:999,name:"Memory Slot ",conversion:"BDLS87LG BDAS61AM BDAS61AM2 BDAS62AM2 BDLL54 BDSS47 BDSS48 BDSS49 BDLS91 BDLS91AM2 BDLS94 AMS131 BDAS72AM2 BDSS53 BDLS95 BDLS95AM BDLS97 AMO10 BDLS98 AMS138 BDLS100 BDCS59AM LGS114 AMS143 AMO13 BSJ6 BDAS77 BDCS60AM BDAS78 BDAS79 BDAS80AM BDAS80AM2"}
+{id:38,conversion:"BDAS82",name:"Battle Frame E ALPHA",slot:50,sub:{pwr:0,shl:"-",rng:0,spd:180,itv:1000}}
+{id:999,name:"Memory Slot ",conversion:"BDLS87LG BDAS61AM BDAS61AM2 BDAS62AM2 BDLL54 BDSS47 BDSS48 BDSS49 BDLS91 BDLS91AM2 BDLS94 AMS131 BDAS72AM2 BDSS53 BDLS95 BDLS95AM BDLS97 AMO10 BDLS98 AMS138 BDLS100 BDCS59AM LGS114 AMS143 AMO13 BSJ6 BDAS77 BDCS60AM BDAS78 BDAS79 BDAS80AM BDAS80AM2 BDAS82 BDLS105 BDLS106 AML199"}
