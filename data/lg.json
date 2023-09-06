@@ -265,6 +265,8 @@
 {id:135,name:"Toukimaru LG",cost:45,hp:25,str:1,tec:1,wlk:3,fly:0,tgh:1}
 {id:136,name:"Sieg LG2",cost:45,hp:25,str:0,tec:2,wlk:2,fly:0,tgh:2}
 {id:137,name:"Knight Fear LG",cost:45,hp:25,str:3,tec:0,wlk:2,fly:-1,tgh:2}
+{id:138,name:"Marine Diver LG",type:"c",cost:65,hp:25,str:0,tec:0,wlk:3,fly:1,tgh:2,sub:{pwr:0,shl:30,rng:0,spd:200,itv:1000}}
+{id:139,name:"Harrier Accel LG2",type:"a",cost:85,hp:25,str:-1,tec:2,wlk:2,fly:2,tgh:1,sub:{pwr:5,shl:320,rng:275,spd:320,itv:1000},auraStat:{str:-1,tec:2,wlk:2,fly:2,tgh:1,sub:{pwr:7,shl:320,rng:300,spd:320,itv:1000}}}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Gwyain LG",cost:50,hp:40,str:1,tec:1,wlk:3,fly:0,tgh:1}
@@ -401,6 +403,7 @@
 {id:142,name:"Zeunesis LG",cost:50,hp:55,str:2,tec:0,wlk:3,fly:0,tgh:1}
 {id:143,name:"Torque Mighty Byne LG",type:"l",cost:80,hp:65,str:1,tec:0,wlk:3,fly:-1,tgh:3}
 {id:144,name:"Naiah Serval LG",type:"c",cost:70,hp:55,str:-1,tec:1,wlk:2,fly:1,tgh:3,sub:{pwr:0,shl:30,rng:100,spd:260,itv:1000}}
+{id:145,name:"Crayguyz LG",type:"l",cost:175,hp:35,str:3,tec:-1,wlk:4,fly:0,tgh:0,sub:{str:100,pwr:34,shl:"-",rng:56,spd:68,itv:1000},tunable:{pwp:1}}
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:1,name:"Shino Exroad LG",type:"l",cost:145,hp:55,str:2,tec:-1,wlk:4,fly:0,tgh:1,joint:{bs:1},sub:{str:100,pwr:28,rng:150,spd:150,itv:2500},tunable:{pwp:1}}
