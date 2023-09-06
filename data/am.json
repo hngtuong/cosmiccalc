@@ -377,6 +377,8 @@
 {id:200,name:"Knight Fear AM",cost:40,hp:25,str:3,tec:-1,wlk:1,fly:0,tgh:2}
 {id:201,name:"Garulabird AM2",type:"a",cost:80,hp:25,str:0,tec:2,wlk:0,fly:2,tgh:1,main:{pwr:11,shl:380,rng:275,spd:350,itv:500},tunable:{mwp:1}}
 {id:202,name:"Ogreil AM3",type:"c",cost:75,hp:20,str:-1,tec:2,wlk:1,fly:2,tgh:1,joint:{wp:2},fixedParts:{wp:{name:"Ogreil AM3@",slot:0,main:{pwr:14,shl:380,rng:350,spd:305,itv:520}}}}
+{id:203,name:"Crayguyz AM",cost:35,hp:20,str:1,tec:1,wlk:1,fly:0,tgh:2}
+{id:204,name:"Marine Diver AM",type:"c",cost:35,hp:20,str:0,tec:2,wlk:1,fly:1,tgh:1}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Gwyain AM",type:"a",cost:40,hp:25,str:0,tec:1,wlk:0,fly:1,tgh:3,joint:{am:1},fixedParts:{am:{name:"Gwyain AM@",slot:0,joint:{wp:0}}}}
@@ -568,6 +570,8 @@
 {id:197,name:"Centurion AM",cost:35,hp:20,str:1,tec:-1,wlk:2,fly:1,tgh:2}
 {id:198,name:"Zeunesis AM",cost:40,hp:25,str:2,tec:1,wlk:1,fly:-1,tgh:2}
 {id:199,name:"Naiah Serval AM",type:"c",cost:125,hp:20,str:0,tec:2,wlk:2,fly:-1,tgh:2,main:{pwr:17,shl:460,rng:330,spd:400,itv:400},tunable:{mwp:1}}
+{id:200,name:"Crayguyz AM2",type:"l",cost:75,hp:20,str:3,tec:-1,wlk:2,fly:0,tgh:1,sub:{str:100,pwr:30,shl:"-",rng:77,spd:94,itv:1000},tunable:{pwp:1}}
+{id:201,name:"Harrier Accel AM2",type:"a",cost:95,hp:20,str:0,tec:2,wlk:0,fly:1,tgh:2,main:{pwr:6,shl:760,rng:275,spd:350,itv:500},auraStat:{str:0,tec:2,wlk:0,fly:1,tgh:2,main:{pwr:6,shl:920,rng:275,spd:350,itv:900}},tunable:{mwp:1}}
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:1,name:"Persecius AM2",cost:80,hp:25,str:1,tec:1,wlk:0,fly:0,tgh:3}

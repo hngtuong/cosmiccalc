@@ -132,6 +132,8 @@
 {id:131,conversion:"BDAS82LG",name:"Battle Frame E BETA",cost:180,main:{pwr:9,shl:1280,rng:275,spd:440,itv:640},sub:{pwr:11,shl:40,rng:275,spd:300,itv:1000}}
 {id:132,conversion:"BDLS105LG",name:"Battle Frame I BETA ",cost:40,main:{pwr:0,shl:20,rng:0,spd:10,itv:1000}}
 {id:133,conversion:"BDLS105",name:"Battle Frame I ALPHA ",cost:30,main:{str:100,pwr:10,shl:50,rng:200,spd:570,itv:500}}
+{id:134,conversion:"BDCS62AM",name:"Pretty Rabbit Bazooka",cost:100,main:{pwr:34,shl:280,rng:225,spd:340,itv:700},tunable:{mwp:1}}
+{id:135,conversion:"BDCS62AM",name:"Pretty Ninja Missile",cost:55,main:{pwr:11,shl:630,rng:330,spd:260,itv:300},tunable:{mwp:1}}
 
 {group:"Conversion-SWP",prefixID:"CS",commonStat:{tunable:{pwp:1}}}
 {id:1,name:"Gradd Chainsaw",cost:60,sub:{str:100,pwr:32,rng:70,spd:85,itv:500},conversion:"BDLS3AM"}
@@ -195,7 +197,7 @@
 {id:60,conversion:"BDLS98WP",name:"Rabbit Missile",cost:50,slot:0,sub:{pwr:16,shl:60,rng:250,spd:320,itv:1000},tunable:{pwp:0}}
 {id:61,conversion:"WPCO33",name:"Phobia Sword",cost:100,sub:{str:100,pwr:32,shl:"-",rng:100,spd:150,itv:2000}}
 {id:62,conversion:"WPCO33",name:"Phobian Axe",cost:50,slot:0,sub:{str:100,pwr:28,shl:30,rng:200,spd:290,itv:1000}}
-{id:63,conversion:"BDAS76AM2",name:"Kaltos Sword",cost:120,sub:{str:100,pwr:30,shl:"-",rng:77,spd:94,itv:1000}}
+{id:63,conversion:"BDAS76AM2",name:"Kaltos Sword",cost:120,sub:{str:100,pwr:28,shl:"-",rng:77,spd:94,itv:1000}}
 {id:64,conversion:"BDLS33AM BDLS106AM",name:"Jager Shield",cost:140,joint:{wp:1},fixedParts:{wp:{name:"Jager Shield@",cost:30,slot:0,main:{str:100,pwr:25,shl:80,rng:200,spd:400,itv:500}}},main:{pwr:0,shl:50,rng:0,spd:10,itv:1000},sub:{str:100,pwr:35,shl:"-",rng:63,spd:77,itv:1000},tunable:{mwp:1}}
 
 {group:"Conversion-Other",prefixID:"CO"}
@@ -237,4 +239,4 @@
 {id:36,conversion:"BDAS76LG",name:"Kaltos Tail",cost:50,sub:{pwr:0,shl:60,rng:200,spd:350,itv:1000}}
 {id:37,conversion:"BDCM56",name:"Ogreil BD2@",cost:30,slot:0,sub:{pwr:10,shl:20,rng:300,spd:250,itv:500}}
 {id:38,conversion:"BDAS82",name:"Battle Frame E ALPHA",slot:50,sub:{pwr:0,shl:"-",rng:0,spd:180,itv:1000}}
-{id:999,name:"Memory Slot ",conversion:"BDLS87LG BDAS61AM BDAS61AM2 BDAS62AM2 BDLL54 BDSS47 BDSS48 BDSS49 BDLS91 BDLS91AM2 BDLS94 AMS131 BDAS72AM2 BDSS53 BDLS95 BDLS95AM BDLS97 AMO10 BDLS98 AMS138 BDLS100 BDCS59AM LGS114 AMS143 AMO13 BSJ6 BDAS77 BDCS60AM BDAS78 BDAS79 BDAS80AM BDAS80AM2 BDAS82 BDLS105 BDLS106 AML199"}
+{id:999,name:"Memory Slot ",conversion:"BDLS87LG BDAS61AM BDAS61AM2 BDAS62AM2 BDLL54 BDSS47 BDSS48 BDSS49 BDLS91 BDLS91AM2 BDLS94 AMS131 BDAS72AM2 BDSS53 BDLS95 BDLS95AM BDLS97 AMO10 BDLS98 AMS138 BDLS100 BDCS59AM LGS114 AMS143 AMO13 BSJ6 BDAS77 BDCS60AM BDAS78 BDAS79 BDAS80AM BDAS80AM2 BDAS82 BDLS105 BDLS106 AML199 BDCS62AM BDLS107"}
