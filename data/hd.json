@@ -434,6 +434,9 @@
 {id:365,name:"Chrotacs HD3",cost:40,hp:25,str:0,tec:2,wlk:2,fly:0,tgh:1}
 {id:366,name:"Mach Knight HD3",cost:40,hp:25,str:2,tec:0,wlk:0,fly:2,tgh:1}
 {id:367,name:"Harrier Accel HD2",cost:35,hp:20,str:0,tec:2,wlk:-1,fly:3,tgh:1}
+{id:368,name:"Brachirus HD",type:"a",cost:50,hp:20,str:3,tec:-1,wlk:0,fly:2,tgh:1,auraStat:{str:3,tec:-1,wlk:0,fly:2,tgh:1,sub:{pwr:0,shl:30,rng:150,spd:350,itv:1000}}}
+{id:369,name:"Hard Bomber HD2",cost:35,hp:20,str:0,tec:2,wlk:1,fly:0,tgh:2}
+{id:370,name:"Gorevelut HD",cost:35,hp:20,str:2,tec:0,wlk:0,fly:1,tgh:2}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Aquila HD",cost:35,hp:20,str:1,tec:1,wlk:2,fly:1,tgh:0}
