@@ -68,7 +68,7 @@
 {id:67,name:"Axion Gun Bit",cost:50,main:{str:100,pwr:13,shl:600,rng:250,spd:570,itv:300},conversion:"BDLS66"}
 {id:68,name:"Machinegun (Lunastasia)",cost:50,main:{str:100,pwr:11,shl:720,rng:225,spd:440,itv:260},conversion:"BDLS67"}
 {id:69,name:"Stun Homing Beam",cost:35,main:{str:100,pwr:5,shl:100,rng:275,spd:320,itv:500},conversion:"BDAS50"}
-{id:70,name:"Magnegun",cost:50,main:{pwr:9,shl:480,rng:300,spd:280,itv:500},conversion:"BDCS45"}
+{id:70,name:"Magnegun",cost:50,main:{pwr:9,shl:480,rng:330,spd:280,itv:500},conversion:"BDCS45 BDCS63"}
 {id:71,name:"Tyrant Destructor BD@",cost:120,slot:0,main:{pwr:13,shl:540,rng:350,spd:290,itv:800},conversion:"BDCL39"}
 {id:72,name:"Gathima Missile",cost:100,main:{pwr:13,shl:720,rng:330,spd:260,itv:300},conversion:"BDCS46AM"}
 {id:73,name:"Gathima Breaker",cost:80,main:{pwr:22,shl:440,rng:350,spd:440,itv:900},conversion:"BDCS46AM"}
@@ -132,8 +132,10 @@
 {id:131,conversion:"BDAS82LG",name:"Battle Frame E BETA",cost:180,main:{pwr:9,shl:1280,rng:275,spd:440,itv:640},sub:{pwr:11,shl:40,rng:275,spd:300,itv:1000}}
 {id:132,conversion:"BDLS105LG",name:"Battle Frame I BETA ",cost:40,main:{pwr:0,shl:20,rng:0,spd:10,itv:1000}}
 {id:133,conversion:"BDLS105",name:"Battle Frame I ALPHA ",cost:30,main:{str:100,pwr:10,shl:50,rng:200,spd:570,itv:500}}
-{id:134,conversion:"BDCS62AM",name:"Pretty Rabbit Bazooka",cost:100,main:{pwr:34,shl:280,rng:225,spd:340,itv:700},tunable:{mwp:1}}
-{id:135,conversion:"BDCS62AM",name:"Pretty Ninja Missile",cost:55,main:{pwr:11,shl:630,rng:330,spd:260,itv:300},tunable:{mwp:1}}
+{id:134,conversion:"BDCS62AM",name:"Pretty Rabbit Bazooka",cost:100,main:{pwr:34,shl:280,rng:225,spd:340,itv:700}}
+{id:135,conversion:"BDCS62AM",name:"Pretty Ninja Missile",cost:55,main:{pwr:11,shl:630,rng:330,spd:260,itv:300}}
+{id:136,conversion:"BDCS45 BDCS63",name:"Heat Rifle",cost:50,main:{pwr:16,shl:500,rng:330,spd:480,itv:700}}
+{id:137,conversion:"BDLS108",name:"Gatling",cost:50,main:{str:100,pwr:8,shl:600,rng:225,spd:440,itv:140}}
 
 {group:"Conversion-SWP",prefixID:"CS",commonStat:{tunable:{pwp:1}}}
 {id:1,name:"Gradd Chainsaw",cost:60,sub:{str:100,pwr:32,rng:70,spd:85,itv:500},conversion:"BDLS3AM"}
@@ -239,4 +241,4 @@
 {id:36,conversion:"BDAS76LG",name:"Kaltos Tail",cost:50,sub:{pwr:0,shl:60,rng:200,spd:350,itv:1000}}
 {id:37,conversion:"BDCM56",name:"Ogreil BD2@",cost:30,slot:0,sub:{pwr:10,shl:20,rng:300,spd:250,itv:500}}
 {id:38,conversion:"BDAS82",name:"Battle Frame E ALPHA",slot:50,sub:{pwr:0,shl:"-",rng:0,spd:180,itv:1000}}
-{id:999,name:"Memory Slot ",conversion:"BDLS87LG BDAS61AM BDAS61AM2 BDAS62AM2 BDLL54 BDSS47 BDSS48 BDSS49 BDLS91 BDLS91AM2 BDLS94 AMS131 BDAS72AM2 BDSS53 BDLS95 BDLS95AM BDLS97 AMO10 BDLS98 AMS138 BDLS100 BDCS59AM LGS114 AMS143 AMO13 BSJ6 BDAS77 BDCS60AM BDAS78 BDAS79 BDAS80AM BDAS80AM2 BDAS82 BDLS105 BDLS106 AML199 BDCS62AM BDLS107"}
+{id:999,name:"Memory Slot ",conversion:"BDLS87LG BDAS61AM BDAS61AM2 BDAS62AM2 BDLL54 BDSS47 BDSS48 BDSS49 BDLS91 BDLS91AM2 BDLS94 AMS131 BDAS72AM2 BDSS53 BDLS95 BDLS95AM BDLS97 AMO10 BDLS98 AMS138 BDLS100 BDCS59AM LGS114 AMS143 AMO13 BSJ6 BDAS77 BDCS60AM BDAS78 BDAS79 BDAS80AM BDAS80AM2 BDAS82 BDLS105 BDLS106 AML199 BDCS62AM BDLS107 BDCS63"}
