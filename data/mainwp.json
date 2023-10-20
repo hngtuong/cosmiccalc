@@ -212,8 +212,8 @@
 {id:11,name:"Chain Draw Gun",size:"S",type:"s",cost:80,main:{pwr:5,shl:500,rng:250,spd:480,itv:200}}
 {id:12,name:"Bayonet",size:"S",type:"ls",cost:130,main:{pwr:15,shl:360,rng:225,spd:440,itv:340},sub:{pwr:32,rng:70,spd:85,itv:1000},tunable:{pwp:1}}
 {id:13,name:"M-9 Bayonet",size:"M",type:"ls",cost:145,main:{pwr:12,shl:600,rng:250,spd:480,itv:140},sub:{pwr:32,rng:70,spd:85,itv:1000},tunable:{pwp:1}}
-{id:14,name:"Shuriken Gun",size:"S",type:"ls",cost:80,main:{pwr:7,shl:680,rng:175,spd:400,itv:160}}
-{id:15,name:"Dai Shuriken Gun",size:"M",type:"l",cost:110,main:{pwr:12,shl:480,rng:175,spd:400,itv:220}}
+{id:14,name:"Shuriken Gun",size:"S",type:"ls",cost:80,main:{pwr:9,shl:880,rng:225,spd:480,itv:160}}
+{id:15,name:"Dai Shuriken Gun",size:"M",type:"l",cost:110,main:{pwr:13,shl:800,rng:225,spd:440,itv:220}}
 {id:16,name:"Blade Gun",size:"M",type:"l",cost:150,main:{pwr:11,shl:780,rng:250,spd:320,itv:300}}
 {id:17,name:"Shield Gun",size:"M",type:"l",cost:180,main:{pwr:17,shl:430,rng:225,spd:400,itv:340}}
 {id:18,name:"Gernia Rod",size:"M",type:"c",cost:100,sub:{pwr:32,shl:160,rng:330,spd:440,itv:900}}

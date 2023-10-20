@@ -4,11 +4,11 @@
 {id:3,name:"Shadow Kinesis BS@",cost:20,slot:0,sub:{pwr:0,rng:275,spd:10,itv:1000},conversion:"BSM93 BSM174"}
 {id:4,name:"K Nonna BS@",cost:160,slot:0,main:{pwr:15,shl:450,rng:350,spd:500,itv:400},sub:{pwr:28,shl:100,rng:350,spd:500,itv:3000},conversion:"BSS29"}
 {id:5,name:"Meteora BS2@",cost:20,slot:0,sub:{pwr:0,shl:40,rng:100,spd:150,itv:1000},conversion:"BSS54"}
-{id:6,name:"A. Miral BS2@",cost:160,main:{pwr:7,shl:660,rng:275,spd:280,itv:900},sub:{pwr:13,shl:150,rng:225,spd:360,itv:1000},tunable:{pwp:1},conversion:"BSS70"}
+{id:6,name:"A. Miral BS2@",cost:160,main:{pwr:8,shl:520,rng:300,spd:300,itv:900},sub:{pwr:13,shl:150,rng:225,spd:360,itv:1000},tunable:{pwp:1},conversion:"BSS70"}
 {id:7,name:"Amlim BS",cost:35,hp:20,str:0,tec:2,wlk:0,fly:3,tgh:0,slot:0,joint:{bs:1},conversion:"BDAS36"}
-{id:8,name:"Amlim BS@",cost:70,main:{pwr:8,shl:630,rng:275,spd:380,itv:580},tunable:{mwp:1},conversion:"BSO7"}
+{id:8,name:"Amlim BS@",cost:70,main:{pwr:9,shl:680,rng:275,spd:380,itv:580},tunable:{mwp:1},conversion:"BSO7"}
 {id:9,name:"Scaraboss BS2@",cost:30,sub:{pwr:1,shl:30,rng:0,spd:200,itv:1000},conversion:"BSL75"}
-{id:10,conversion:"BDLS88",name:"Thermes BS",cost:55,hp:20,str:-1,tec:2,wlk:1,fly:3,tgh:0,sub:{pwr:22,shl:150,rng:200,spd:250,itv:1000}}
+{id:10,conversion:"BDLS88",name:"Thermes BS",cost:55,hp:20,str:-1,tec:2,wlk:1,fly:3,tgh:0,sub:{pwr:22,shl:150,rng:250,spd:250,itv:1000}}
 {id:11,conversion:"BSS29",name:"K Nonna BS@2",cost:160,slot:0,main:{pwr:24,shl:300,rng:330,spd:360,itv:300},sub:{pwr:25,shl:50,rng:330,spd:220,itv:1000}}
 {id:12,conversion:"BSM93 BSM174",name:"Shadow Kinesis BS@2",cost:20,slot:0,sub:{pwr:0,shl:"-",rng:275,spd:10,itv:1000}}
 {id:13,conversion:"BDSS51",name:"Anna BS",cost:215,hp:20,str:0,tec:0,wlk:1,fly:3,tgh:1,joint:{wp:2},main:{pwr:13,shl:560,rng:300,spd:400,itv:300},tunable:{mwp:1},fixedParts:{wp:[{name:"Shoothing Commentary",slot:0,sub:{pwr:0,shl:12,rng:100,spd:150,itv:100}},{name:"Rousing Commentary",slot:0,sub:{pwr:0,shl:12,rng:100,spd:150,itv:100}}]}}
@@ -30,6 +30,7 @@
 {id:7,name:"A. Maid BS",type:"s",cost:35,hp:20,str:-1,tec:1,wlk:2,fly:3,tgh:0}
 {id:8,name:"Turn Air 1080 BS",type:"a",cost:30,hp:15,str:1,tec:1,wlk:1,fly:2,tgh:-1}
 {id:9,name:"Tina BS",type:"s",cost:35,hp:20,str:0,tec:1,wlk:1,fly:3,tgh:0}
+{id:10,name:"P. Juana BS",type:"c",cost:30,hp:15,str:0,tec:1,wlk:1,fly:2,tgh:0}
 
 {group:"S Size",prefixID:"S",commonStat:{size:"S"}}
 {id:1,name:"Zero Saber BS",type:"l",cost:40,hp:25,str:1,tec:1,wlk:1,fly:2,tgh:0}
@@ -188,6 +189,9 @@
 {id:154,name:"Flareleon BS",type:"l",cost:35,hp:20,str:2,tec:-1,wlk:1,fly:2,tgh:1}
 {id:155,name:"Brachirus BS",type:"a",cost:35,hp:20,str:2,tec:0,wlk:1,fly:3,tgh:-1}
 {id:156,name:"Hard Bomber BS2",type:"c",cost:65,hp:20,str:-1,tec:1,wlk:2,fly:3,tgh:0,sub:{pwr:0,shl:30,rng:0,spd:180,itv:1000}}
+{id:157,name:"Beezle BS",type:"a",cost:30,hp:15,str:1,tec:0,wlk:0,fly:3,tgh:0}
+{id:158,name:"Crabberoid BS",type:"l",cost:35,hp:20,str:0,tec:1,wlk:1,fly:3,tgh:0}
+{id:159,name:"Dharma Star BS",type:"s",cost:35,hp:20,str:1,tec:0,wlk:0,fly:3,tgh:1}
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Axion BS",type:"l",cost:45,hp:25,str:0,tec:2,wlk:1,fly:3,tgh:-1}
@@ -383,6 +387,8 @@
 {id:192,name:"Crayguyz BS",type:"l",cost:35,hp:20,str:0,tec:0,wlk:2,fly:3,tgh:0}
 {id:193,name:"Marine Diver BS",type:"c",cost:35,hp:20,str:0,tec:2,wlk:1,fly:3,tgh:0}
 {id:194,name:"Gorevelut BS",type:"a",cost:35,hp:20,str:1,tec:0,wlk:0,fly:2,tgh:2}
+{id:195,name:"Brisgandr Pawn BS",type:"l",cost:40,hp:25,str:-1,tec:1,wlk:1,fly:3,tgh:1}
+{id:196,name:"Jaguar Arm BS",type:"l",cost:35,hp:20,str:0,tec:0,wlk:2,fly:2,tgh:1}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Gwyain BS",type:"a",cost:40,hp:25,str:0,tec:2,wlk:-1,fly:3,tgh:1}
@@ -494,6 +500,7 @@
 {id:117,name:"Naiah Serval BS",type:"c",cost:35,hp:20,str:0,tec:2,wlk:-1,fly:3,tgh:1}
 {id:118,name:"Harrier Accel BS2",type:"a",cost:115,hp:20,str:-1,tec:3,wlk:0,fly:3,tgh:0,main:{pwr:8,shl:700,rng:275,spd:440,itv:540},sub:{pwr:14,shl:80,rng:275,spd:480,itv:1000},auraStat:{str:-1,tec:3,wlk:0,fly:3,tgh:0,main:{pwr:8,shl:900,rng:275,spd:480,itv:300},sub:{pwr:20,shl:80,rng:300,spd:520,itv:1000}},tunable:{mwp:1}}
 {id:119,name:"Machintlet BS2",type:"l",cost:35,hp:20,str:2,tec:-1,wlk:0,fly:2,tgh:2}
+{id:120,name:"Tengu BS",type:"a",cost:175,hp:20,str:-1,tec:2,wlk:0,fly:3,tgh:1,main:{pwr:14,shl:420,rng:275,spd:280,itv:900},sub:{pwr:0,shl:60,rng:100,spd:120,itv:1000},tunable:{mwp:1}}
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:1,name:"Shaden BS",type:"a",cost:100,hp:25,str:0,tec:0,wlk:0,fly:5,tgh:0,sub:{pwr:1,shl:1,rng:200,spd:110,itv:2000}}
