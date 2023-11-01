@@ -68,6 +68,8 @@
 {id:65,name:"Marine Diver HD",cost:95,hp:20,str:-1,tec:2,wlk:2,fly:0,tgh:2,main:{pwr:15,shl:280,rng:330,spd:280,itv:680},auraStat:{str:-1,tec:2,wlk:2,fly:0,tgh:2,main:{pwr:16,shl:340,rng:330,spd:280,itv:580}},tunable:{mwp:1}}
 {id:66,name:"Beezle HD",cost:30,hp:15,str:1,tec:1,wlk:0,fly:2,tgh:0}
 {id:67,name:"Crabberoid HD",cost:35,hp:20,str:1,tec:2,wlk:1,fly:1,tgh:0}
+{id:68,name:"Shadow Hunter HD3",type:"l",cost:75,hp:20,str:-1,tec:2,wlk:3,fly:0,tgh:1,main:{pwr:6,shl:1260,rng:225,spd:440,itv:300},tunable:{mwp:1}}
+{id:69,name:"Leveil HD",cost:35,hp:20,str:-1,tec:3,wlk:1,fly:1,tgh:1}
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Gwyain HD",cost:40,hp:25,str:2,tec:1,wlk:2,fly:0,tgh:0}
@@ -472,11 +474,12 @@
 {id:24,name:"Naiah Serval HD2",type:"c",cost:65,hp:20,str:0,tec:2,wlk:-1,fly:2,tgh:2,main:{pwr:15,shl:240,rng:330,spd:290,itv:600},tunable:{mwp:1}}
 {id:25,name:"Crayguyz HD",cost:35,hp:20,str:3,tec:0,wlk:1,fly:0,tgh:1}
 {id:26,name:"Tengu HD",cost:35,hp:20,str:2,tec:0,wlk:2,fly:2,tgh:-1}
+{id:27,name:"Sledge Helm HD",type:"c",cost:75,hp:20,str:-1,tec:3,wlk:1,fly:1,tgh:1,main:{pwr:25,shl:210,rng:330,spd:400,itv:500},tunable:{mwp:1}}
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:1,name:"Joste Gunder HD",type:"l",cost:85,hp:20,str:2,tec:-1,wlk:2,fly:1,tgh:1,sub:{str:100,pwr:25,shl:30,rng:150,spd:350,itv:1000}}
 
 {group:"Joint",prefixID:"J",commonStat:{jointPart:1,slot:1,size:"M"}}
 {id:1,name:"Generic HDJ"}
-{id:2,name:"Parasector Asis HDJ",size:"S"}
-{id:3,name:"Vellsneil HDJ",size:"L"}
+{id:2,name:"Generic HDJ (S)",size:"S"}
+{id:3,name:"Generic HDJ (L)",size:"L"}
