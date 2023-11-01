@@ -192,6 +192,8 @@
 {id:157,name:"Beezle BS",type:"a",cost:30,hp:15,str:1,tec:0,wlk:0,fly:3,tgh:0}
 {id:158,name:"Crabberoid BS",type:"l",cost:35,hp:20,str:0,tec:1,wlk:1,fly:3,tgh:0}
 {id:159,name:"Dharma Star BS",type:"s",cost:35,hp:20,str:1,tec:0,wlk:0,fly:3,tgh:1}
+{id:160,name:"Shadow Hunter BS3",type:"l",cost:135,hp:20,str:-1,tec:3,wlk:1,fly:2,tgh:0,main:{pwr:13,shl:450,rng:250,spd:320,itv:240},tunable:{mwp:1}}
+{id:161,name:"Leveil BS",type:"c",cost:35,hp:20,str:0,tec:1,wlk:1,fly:3,tgh:0}
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Axion BS",type:"l",cost:45,hp:25,str:0,tec:2,wlk:1,fly:3,tgh:-1}
@@ -501,6 +503,7 @@
 {id:118,name:"Harrier Accel BS2",type:"a",cost:115,hp:20,str:-1,tec:3,wlk:0,fly:3,tgh:0,main:{pwr:8,shl:700,rng:275,spd:440,itv:540},sub:{pwr:14,shl:80,rng:275,spd:480,itv:1000},auraStat:{str:-1,tec:3,wlk:0,fly:3,tgh:0,main:{pwr:8,shl:900,rng:275,spd:480,itv:300},sub:{pwr:20,shl:80,rng:300,spd:520,itv:1000}},tunable:{mwp:1}}
 {id:119,name:"Machintlet BS2",type:"l",cost:35,hp:20,str:2,tec:-1,wlk:0,fly:2,tgh:2}
 {id:120,name:"Tengu BS",type:"a",cost:175,hp:20,str:-1,tec:2,wlk:0,fly:3,tgh:1,main:{pwr:14,shl:420,rng:275,spd:280,itv:900},sub:{pwr:0,shl:60,rng:100,spd:120,itv:1000},tunable:{mwp:1}}
+{id:121,name:"Sledge Helm BS",type:"c",cost:35,hp:20,str:0,tec:1,wlk:-1,fly:3,tgh:2}
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:1,name:"Shaden BS",type:"a",cost:100,hp:25,str:0,tec:0,wlk:0,fly:5,tgh:0,sub:{pwr:1,shl:1,rng:200,spd:110,itv:2000}}

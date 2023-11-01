@@ -1,7 +1,8 @@
-﻿{group:"Daggers",prefixID:"DG"}
+﻿{group:"Daggers",prefixID:"DG",commonStat:{tunable:{pwp:1}}}
 {id:1,name:"Garud Dagger",size:"S",type:"l",cost:120,sub:{str:100,pwr:28,rng:100,spd:250,itv:500}}
 {id:2,name:"Combination Dagger",size:"S",type:"la",cost:120,sub:{str:100,pwr:24,rng:80,spd:180,itv:500}}
 {id:3,name:"Cydron Knife",size:"M",type:"l",cost:80,sub:{str:100,pwr:28,rng:84,spd:102,itv:2000}}
+{id:4,name:"Assasin Edge",size:"SS",type:"l",cost:60,sub:{str:100,pwr:30,shl:"-",rng:150,spd:250,itv:1000}}
 
 {group:"Swords",prefixID:"SW",commonStat:{tunable:{pwp:1}}}
 {id:1,name:"Short Sword",size:"M",cost:40,sub:{str:100,pwr:28,rng:77,spd:94,itv:500}}
