@@ -194,6 +194,7 @@
 {id:159,name:"Dharma Star BS",type:"s",cost:35,hp:20,str:1,tec:0,wlk:0,fly:3,tgh:1}
 {id:160,name:"Shadow Hunter BS3",type:"l",cost:135,hp:20,str:-1,tec:3,wlk:1,fly:2,tgh:0,main:{pwr:13,shl:450,rng:250,spd:320,itv:240},tunable:{mwp:1}}
 {id:161,name:"Leveil BS",type:"c",cost:35,hp:20,str:0,tec:1,wlk:1,fly:3,tgh:0}
+{id:162,name:"Ray BS",type:"l",cost:35,hp:20,str:2,tec:0,wlk:0,fly:3,tgh:0}
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Axion BS",type:"l",cost:45,hp:25,str:0,tec:2,wlk:1,fly:3,tgh:-1}
