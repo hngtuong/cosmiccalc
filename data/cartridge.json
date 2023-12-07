@@ -51,13 +51,13 @@
 {id:5,name:"Capacity +90",comment:"Raises robot's cost capacity by 90 and HP by #hp."}
 {id:6,name:"Enhance Internal Weapon",comment:"Enhances the core's built in weapon. Raises robot's cost capacity by 55 and HP by 15"}
 //
-{id:"EX1",ex:1,name:"Accele Roll",comment:"Adds a Mid-air Dash Action called the [Accele Roll] to the robot.",cost:30}
-{id:"EX2",ex:1,name:"Air Loop",comment:"Adds a Mid-air Dash Action called the [Air Loop] to the robot. AIR TYPE ONLY.",cost:30}
-{id:"EX3",ex:1,name:"Assault Step",comment:"Allows you to use the custom dash action [Assault Step]. Steps quickly forward, and jumps left and right.",cost:30}
-{id:"EX4",ex:1,name:"Glide Boost",comment:"Allows you to use the custom aerial dash action [Glide Boost]",cost:30}
-{id:"EX5",ex:1,name:"Air Step",comment:"Adds a Mid-air Dash Action called the [Air Step] to the robot.",cost:30}
-{id:"EX6",ex:1,name:"Boost Step",comment:"Allows you to use the custom dash action [Boost Step].",cost:30}
-{id:"EX7",ex:1,name:"Sway",comment:"",cost:30}
-{id:"EX8",ex:1,name:"Short Boost",comment:"",cost:30}
-{id:"EX9",ex:1,name:"Float Dash",comment:"",cost:30}
-{id:"EX10",ex:1,name:"Slide Boost",comment:"",cost:30}
+{id:"EX1",ex:1,name:"Accele Roll",comment:"Adds the custom Dash cartridge [Accele Roll]. Can be equipped by AIR, ART and SUP.",cost:30}
+{id:"EX2",ex:1,name:"Air Loop",comment:"Adds the custom Dash cartridge [Air Loop]. AIR type only.",cost:30}
+{id:"EX3",ex:1,name:"Assault Step",comment:"Adds the custom Dash cartridge [Assault Step]. LND type only.",cost:30}
+{id:"EX4",ex:1,name:"Glide Boost",comment:"Adds the custom Dash cartridge [Glide Boost]. AIR type only.",cost:30}
+{id:"EX5",ex:1,name:"Air Step",comment:"Adds the custom Dash cartridge [Air Step]. Can be equipped by LND, AIR, ART and SUP.",cost:30}
+{id:"EX6",ex:1,name:"Boost Step",comment:"Adds the custom Dash cartridge [Boost Step]. ART type only.",cost:30}
+{id:"EX7",ex:1,name:"Sway",comment:"Adds the custom Dash cartridge [Sway]. Can be equipped by LND, ART and SUP.",cost:30}
+{id:"EX8",ex:1,name:"Short Boost",comment:"Adds the custom Dash cartridge [Short Boost]. Can be equipped by LND, AIR, ART and SUP.",cost:30}
+{id:"EX9",ex:1,name:"Float Dash",comment:"Adds the custom Dash cartridge [Float Dash]. Can be equipped by AIR, ART and SUP.",cost:30}
+{id:"EX10",ex:1,name:"Slide Boost",comment:"Adds the custom Dash cartridge [Slide Boost]. AIR type only.",cost:30}
