@@ -12,7 +12,7 @@
 {id:5,name:"Orge Sword",size:"LL",type:"l",cost:160,sub:{str:100,pwr:35,rng:77,spd:94,itv:500}}
 {id:6,name:"Metal Slayer",size:"M",type:"l",cost:120,sub:{str:100,pwr:32,rng:77,spd:94,itv:500}}
 {id:7,name:"Doom Slayer",size:"L",type:"l",cost:150,sub:{str:100,pwr:34,rng:84,spd:102,itv:500}}
-{id:8,name:"Reaper Scythe",size:"M",type:"la",cost:160,sub:{str:100,pwr:32,rng:70,spd:85,itv:1000}}
+{id:8,name:"Reaper Scythe",size:"M",type:"la",cost:160,sub:{str:100,pwr:34,rng:70,spd:85,itv:1000}}
 {id:9,name:"Omnious Scythe",size:"M",type:"las",cost:200,sub:{str:100,pwr:34,rng:70,spd:85,itv:1000}}
 {id:10,name:"Beam Blade",size:"M",type:"a",cost:70,sub:{str:100,pwr:28,rng:70,spd:85,itv:500}}
 {id:11,name:"Sonic Blade",size:"M",type:"a",cost:100,sub:{str:100,pwr:30,rng:70,spd:85,itv:500}}
@@ -50,6 +50,7 @@
 {id:43,name:"Kurenai Edge",size:"M",type:"l",cost:160,sub:{str:100,pwr:34,shl:"-",rng:77,spd:84,itv:1000}}
 {id:44,name:"Kodachi",size:"S",type:"l",cost:40,sub:{str:100,pwr:32,shl:"-",rng:10,spd:10,itv:1000}}
 {id:45,name:"Brave Blade",size:"S",type:"l",cost:130,sub:{str:100,pwr:30,shl:"-",rng:77,spd:94,itv:1000}}
+{id:46,name:"Blitz Blade",size:"M",type:"a",cost:140,sub:{str:100,pwr:33,shl:100,rng:0,spd:10,itv:1000},auraStat:{sub:{str:100,pwr:35,shl:100,rng:150,spd:300,itv:1000}}}
 
 {group:"Axes",prefixID:"AX",commonStat:{tunable:{pwp:1}}}
 {id:1,name:"Hand Axe",size:"S",type:"lcs",cost:40,sub:{str:100,pwr:30,rng:56,spd:68,itv:1000}}
