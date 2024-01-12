@@ -281,6 +281,8 @@
 {id:142,name:"Jaguar Arm LG",cost:45,hp:25,str:1,tec:1,wlk:3,fly:-1,tgh:2}
 {id:143,name:"Locomotive X LG",cost:45,hp:25,str:0,tec:1,wlk:4,fly:-1,tgh:2}
 {id:144,name:"Priestol LG",cost:45,hp:25,str:1,tec:0,wlk:3,fly:1,tgh:1}
+{id:145,name:"R Duke LG",cost:45,hp:25,str:-1,tec:2,wlk:3,fly:1,tgh:1}
+{id:146,name:"Blitzelt TB LG",cost:45,hp:25,str:1,tec:-1,wlk:3,fly:2,tgh:1}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Gwyain LG",cost:50,hp:40,str:1,tec:1,wlk:3,fly:0,tgh:1}
@@ -423,6 +425,8 @@
 {id:148,name:"Sledge Helm LG",type:"c",cost:50,hp:75,str:0,tec:0,wlk:4,fly:1,tgh:1}
 {id:149,name:"Toybox LG2",type:"c",cost:70,hp:60,str:0,tec:1,wlk:4,fly:-1,tgh:2,sub:{pwr:0,shl:30,rng:0,spd:250,itv:1000}}
 {id:150,name:"Geograsis LG4",type:"l",cost:115,hp:25,str:2,tec:-1,wlk:4,fly:0,tgh:1,sub:{str:100,pwr:32,shl:"-",rng:77,spd:94,itv:1000},tunable:{pwp:1}}
+{id:151,name:"Ettion LG",cost:45,hp:25,str:1,wlk:3,tgh:2}
+{id:152,name:"Shingen LG",cost:50,hp:50,str:1,tec:-1,wlk:3,fly:0,tgh:3}
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:1,name:"Shino Exroad LG",type:"l",cost:145,hp:55,str:2,tec:-1,wlk:4,fly:0,tgh:1,joint:{bs:1},sub:{str:100,pwr:28,rng:150,spd:150,itv:1500},tunable:{pwp:1}}
