@@ -414,6 +414,8 @@
 {id:206,name:"Jaguar Arm BS2",type:"l",cost:35,hp:20,str:1,tec:-1,wlk:2,fly:3}
 {id:207,name:"Bloody Star BS2",type:"c",cost:30,hp:15,tec:1,wlk:1,fly:2}
 {id:208,name:"Istina Bullet BS3",type:"a",cost:35,hp:20,str:-1,tec:2,fly:3,tgh:2}
+{id:209,name:"ExCreR BS3",type:"l",cost:35,hp:20,str:1,fly:2,tgh:2}
+{id:210,name:"ExCreR BS4",type:"c",cost:115,hp:20,str:-1,tec:3,fly:2,tgh:1,main:{pwr:13,shl:380,rng:330,spd:290,itv:1000},tunable:{mwp:1}}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Gwyain BS",type:"a",cost:40,hp:25,str:0,tec:2,wlk:-1,fly:3,tgh:1}

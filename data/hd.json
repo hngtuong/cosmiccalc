@@ -478,6 +478,8 @@
 {id:411,name:"Valiant HD2",type:"a",cost:35,hp:20,str:1,tec:1,wlk:1,fly:2}
 {id:412,name:"Scaregant HD4",cost:40,hp:25,str:2,tec:-1,wlk:3,tgh:1}
 {id:413,name:"Jaguar Arm HD2",cost:35,hp:20,str:3,tec:-1,fly:1,tgh:2}
+{id:414,name:"ExCreR HD3",cost:35,hp:20,str:3,tec:-1,wlk:1,fly:1,tgh:1}
+{id:415,name:"ExCreR HD4",cost:35,hp:20,str:-1,tec:3,wlk:1,fly:1,tgh:1}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Aquila HD",cost:35,hp:20,str:1,tec:1,wlk:2,fly:1,tgh:0}
