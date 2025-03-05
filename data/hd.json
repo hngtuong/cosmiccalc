@@ -499,6 +499,9 @@
 {id:429,name:"Yngvi HD2",type:"a",cost:75,hp:20,str:-1,tec:3,wlk:1,fly:1,tgh:1,main:{pwr:7,shl:980,rng:160,spd:480,itv:140},tunable:{mwp:1}}
 {id:430,name:"Mururugaru HD2",cost:35,hp:20,str:-1,tec:2,wlk:2,tgh:2}
 {id:431,name:"Raclaboros HD2",cost:40,hp:25,str:-1,tec:3,wlk:1,fly:1,tgh:1}
+{id:432,name:"Sheeno HD",cost:35,hp:20,str:2,tec:-1,wlk:2,tgh:2}
+{id:433,name:"Falke Armor HD",cost:35,hp:20,str:-1,tec:2,wlk:1,fly:1,tgh:2}
+{id:434,name:"Dreiblitz HD2",cost:35,hp:20,str:-1,tec:3,wlk:1,fly:1,tgh:1}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Aquila HD",cost:35,hp:20,str:1,tec:1,wlk:2,fly:1,tgh:0}
@@ -539,6 +542,7 @@
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:1,name:"Joste Gunder HD",type:"l",cost:85,hp:20,str:2,tec:-1,wlk:2,fly:1,tgh:1,sub:{str:100,pwr:25,shl:30,rng:150,spd:350,itv:1000}}
+{id:2,name:"Joste Gunder HD2",cost:35,hp:20,str:1,wlk:1,tgh:3}
 
 {group:"Joint",prefixID:"J",commonStat:{jointPart:1,slot:1,size:"M"}}
 {id:1,name:"Generic HDJ"}
