@@ -502,6 +502,7 @@
 {id:432,name:"Sheeno HD",cost:35,hp:20,str:2,tec:-1,wlk:2,tgh:2}
 {id:433,name:"Falke Armor HD",cost:35,hp:20,str:-1,tec:2,wlk:1,fly:1,tgh:2}
 {id:434,name:"Dreiblitz HD2",cost:35,hp:20,str:-1,tec:3,wlk:1,fly:1,tgh:1}
+{id:435,name:"Grand Dugdriver HD",type:"c",cost:55,hp:20,str:-1,tec:2,wlk:2,tgh:2,sub:{pwr:30,shl:"-",rng:150,spd:80,itv:1000},tunable:{pwp:1}}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Aquila HD",cost:35,hp:20,str:1,tec:1,wlk:2,fly:1,tgh:0}
@@ -539,6 +540,7 @@
 {id:33,name:"Beeportarius HD2",type:"l",cost:85,hp:20,str:3,tec:-1,wlk:1,tgh:2,sub:{str:100,pwr:30,rng:100,spd:250,itv:1000},tunable:{pwp:1}}
 {id:34,name:"Blumechius HD",cost:35,hp:20,str:3,tec:-1,wlk:3}
 {id:35,name:"Zild Gigas HD",type:"c",cost:35,hp:20,str:-1,tec:2,wlk:1,fly:2,tgh:2}
+{id:36,name:"Swell HD",cost:35,hp:20,tec:2,wlk:1,fly:1,tgh:1}
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:1,name:"Joste Gunder HD",type:"l",cost:85,hp:20,str:2,tec:-1,wlk:2,fly:1,tgh:1,sub:{str:100,pwr:25,shl:30,rng:150,spd:350,itv:1000}}

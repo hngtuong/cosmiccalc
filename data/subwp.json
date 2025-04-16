@@ -10,8 +10,8 @@
 {id:3,name:"Broad Sword",size:"M",type:"ls",cost:100,sub:{str:100,pwr:32,rng:77,spd:94,itv:500}}
 {id:4,name:"Great Sword",size:"L",type:"l",cost:120,sub:{str:100,pwr:33,rng:77,spd:94,itv:500}}
 {id:5,name:"Orge Sword",size:"LL",type:"l",cost:160,sub:{str:100,pwr:35,rng:77,spd:94,itv:500}}
-{id:6,name:"Metal Slayer",size:"M",type:"l",cost:120,sub:{str:100,pwr:32,rng:77,spd:94,itv:500}}
-{id:7,name:"Doom Slayer",size:"L",type:"l",cost:150,sub:{str:100,pwr:34,rng:84,spd:102,itv:500}}
+{id:6,name:"Metal Slayer",size:"M",type:"l",cost:160,sub:{str:100,pwr:34,rng:77,spd:94,itv:1000}}
+{id:7,name:"Doom Slayer",size:"L",type:"l",cost:200,sub:{str:100,pwr:36,rng:80,spd:102,itv:500}}
 {id:8,name:"Reaper Scythe",size:"M",type:"la",cost:160,sub:{str:100,pwr:34,rng:70,spd:85,itv:1000}}
 {id:9,name:"Omnious Scythe",size:"M",type:"las",cost:200,sub:{str:100,pwr:34,rng:70,spd:85,itv:1000}}
 {id:10,name:"Beam Blade",size:"M",type:"a",cost:70,sub:{str:100,pwr:28,rng:70,spd:85,itv:500}}

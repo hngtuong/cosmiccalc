@@ -163,12 +163,12 @@
 {id:3,name:"Missile Launcher",size:"L",type:"c",cost:130,main:{pwr:20,shl:190,rng:330,spd:290,itv:900}}
 {id:4,name:"Box Missile",size:"L",type:"c",cost:150,main:{pwr:20,shl:220,rng:330,spd:290,itv:1000}}
 {id:5,name:"Ramjet Launcher",size:"LL",type:"c",cost:160,main:{pwr:30,shl:280,rng:330,spd:250,itv:900}}
-{id:6,name:"Micromissile Gun",size:"SS",type:"c",cost:50,main:{pwr:8,shl:130,rng:330,spd:290,itv:800}}
-{id:7,name:"Burst Missile Gun",size:"M",type:"c",cost:130,main:{pwr:11,shl:180,rng:330,spd:290,itv:900}}
+{id:6,name:"Micromissile Gun",size:"SS",type:"c",cost:50,main:{pwr:9,shl:180,rng:330,spd:290,itv:800}}
+{id:7,name:"Burst Missile Gun",size:"M",type:"c",cost:130,main:{pwr:13,shl:180,rng:330,spd:290,itv:900}}
 {id:8,name:"2 Way Missile",size:"LL",type:"c",cost:180,main:{pwr:24,shl:220,rng:330,spd:290,itv:1100}}
 {id:9,name:"Ballistic Launcher",size:"LL",type:"c",cost:200,main:{pwr:33,shl:300,rng:350,spd:250,itv:900}}
 {id:10,name:"Scram Launcher",size:"L",type:"c",cost:140,main:{pwr:28,shl:270,rng:330,spd:290,itv:800}}
-{id:11,name:"Missile Cluster",size:"M",type:"c",cost:160,main:{pwr:9,shl:320,rng:330,spd:290,itv:1200}}
+{id:11,name:"Missile Cluster",size:"M",type:"c",cost:160,main:{pwr:10,shl:320,rng:330,spd:290,itv:1200}}
 {id:12,name:"Blast Missile Gun",size:"M",type:"c",cost:160,main:{pwr:20,shl:280,rng:330,spd:290,itv:800}}
 {id:13,name:"Beam Launcher",size:"L",type:"a",cost:100,main:{pwr:27,shl:180,rng:275,spd:280,itv:1000}}
 {id:14,name:"Little Grenade",size:"M",type:"cs",cost:40,main:{pwr:9,shl:340,rng:300,spd:400,itv:500}}
