@@ -505,6 +505,9 @@
 {id:434,name:"Dreiblitz HD2",cost:35,hp:20,str:-1,tec:3,wlk:1,fly:1,tgh:1}
 {id:435,name:"Grand Dugdriver HD",type:"c",cost:55,hp:20,str:-1,tec:2,wlk:2,tgh:2,sub:{pwr:30,rng:150,spd:80,itv:1000},tunable:{pwp:1}}
 {id:436,name:"Astro Marine HD",cost:35,hp:20,str:-1,tec:2,wlk:2,fly:1,tgh:1}
+{id:437,name:"Big Mountaiz HD3",cost:35,hp:20,str:-1,tec:2,fly:2,tgh:2}
+{id:438,name:"Fairys HD2",cost:35,hp:20,str:-1,tec:1,wlk:1,fly:3,tgh:1}
+{id:439,name:"Albireon HD",cost:35,hp:20,tec:2,wlk:2,tgh:1}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Aquila HD",cost:35,hp:20,str:1,tec:1,wlk:2,fly:1}
@@ -545,6 +548,7 @@
 {id:36,name:"Swell HD",cost:35,hp:20,tec:2,wlk:1,fly:1,tgh:1}
 {id:37,name:"Cyclotes HD",type:"l",cost:55,hp:20,str:3,tec:-1,wlk:2,tgh:1,main:{str:100,pwr:40,shl:50,rng:250,spd:570,itv:1000},tunable:{mwp:1}}
 {id:38,name:"HUNDRED EDGE HD0",cost:35,hp:20,str:3,tec:-1,wlk:2,tgh:1}
+{id:39,name:"Belphego HD",cost:35,hp:20,str:3,tec:-1,wlk:2,tgh:1}
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:1,name:"Joste Gunder HD",type:"l",cost:85,hp:20,str:2,tec:-1,wlk:2,fly:1,tgh:1,sub:{str:100,pwr:25,shl:30,rng:150,spd:350,itv:1000}}

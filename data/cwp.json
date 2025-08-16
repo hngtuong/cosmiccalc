@@ -36,8 +36,8 @@
 {id:35,name:"Expiation @2",slot:0,main:{pwr:44,shl:60,rng:450,spd:420,itv:500},conversion:"WPCO10 WPCO40"}
 {id:36,name:"Relic Orbs",cost:140,main:{pwr:11,shl:880,rng:250,spd:400,itv:500},sub:{pwr:37,rng:70,spd:85,itv:500},tunable:{pwp:1},conversion:"BDLS46"}
 {id:37,name:"Blood Shooter",cost:100,main:{pwr:15,shl:680,rng:275,spd:400,itv:300},conversion:"BDAS36AM2"}
-{id:38,name:"Battleship DNAM",cost:45,slot:0,main:{pwr:6,shl:840,rng:330,spd:480,itv:740},conversion:"AML91"}
-{id:39,name:"Battleship DNAM2",cost:45,slot:0,main:{pwr:6,shl:780,rng:330,spd:480,itv:1000},conversion:"AML91"}
+{id:38,name:"Battleship DNAM",cost:45,slot:0,main:{pwr:16,shl:540,rng:350,spd:570,itv:740},conversion:"AML91"}
+{id:39,name:"Battleship DNAM2",cost:45,slot:0,main:{pwr:7,shl:900,rng:350,spd:480,itv:140},conversion:"AML91"}
 {id:40,name:"Kuschelb AM2@",cost:15,slot:0,main:{str:100,pwr:5,shl:60,rng:200,spd:500,itv:300},conversion:"AML93"}
 {id:41,name:"Hunt Gewehr",cost:60,main:{str:100,pwr:16,shl:540,rng:225,spd:440,itv:300},conversion:"BDLS51AMR"}
 {id:42,name:"Lisel Gatling",cost:45,slot:0,main:{pwr:5,shl:2000,rng:350,spd:480,itv:200},conversion:"BDCS34AMS BDCS71AMS"}
@@ -70,8 +70,8 @@
 {id:69,name:"Stun Homing Beam",cost:35,main:{str:100,pwr:5,shl:100,rng:275,spd:320,itv:500},conversion:"BDAS50"}
 {id:70,name:"Magnegun",cost:50,main:{pwr:9,shl:480,rng:330,spd:280,itv:500},conversion:"BDCS45 BDCS63"}
 {id:71,name:"Tyrant Destructor BD@",cost:120,slot:0,main:{pwr:13,shl:540,rng:350,spd:290,itv:800},conversion:"BDCL39"}
-{id:72,name:"Gathima Missile",cost:100,main:{pwr:13,shl:720,rng:330,spd:260,itv:300},conversion:"BDCS46AM"}
-{id:73,name:"Gathima Breaker",cost:80,main:{pwr:22,shl:440,rng:350,spd:440,itv:900},conversion:"BDCS46AM"}
+{id:72,name:"Gathima Missile",cost:100,main:{pwr:13,shl:720,rng:330,spd:280,itv:300},conversion:"BDCS46AM"}
+{id:73,name:"Gathima Breaker",cost:80,main:{pwr:22,shl:440,rng:350,spd:480,itv:900},conversion:"BDCS46AM"}
 {id:74,name:"Forbidden Lance",cost:30,main:{str:100,pwr:20,shl:50,rng:200,spd:280,itv:500},conversion:"WPCO20"}
 {id:75,name:"Fluffy Cape",cost:50,slot:0,joint:{wp:1},main:{str:100,pwr:20,shl:50,rng:200,spd:500,itv:1000},conversion:"BDLS72"}
 {id:76,name:"Weather Umbrella@",cost:80,main:{pwr:5,shl:1110,rng:275,spd:280,itv:1000},sub:{pwr:0,rng:10,spd:110,itv:1000},conversion:"WPCS47"}
@@ -165,6 +165,9 @@
 {id:174,conversion:"AMM228",name:"CB Launcher",cost:130,main:{pwr:29,shl:330,rng:350,spd:400,itv:600},comment:"Type/Size restriction applies"}
 {id:175,conversion:"BDCL66 BDCL70",name:"Mururugaru BD2@2",cost:130,main:{pwr:16,shl:1200,rng:350,spd:440,itv:200}}
 {id:176,conversion:"BDLL82AM AML240",name:"LEO STRAH",cost:20,main:{pwr:33,shl:5,rng:225,spd:500,itv:500},tunable:{mwp:1}}
+{id:177,conversion:"AML244",name:"Albireon RAM@",cost:130,main:{pwr:32,shl:280,rng:330,spd:480,itv:800},auraStat:{main:{pwr:32,shl:320,rng:350,spd:320,itv:800}}}
+{id:178,conversion:"BDLS129",name:"Signal Whistle SR",cost:30,main:{pwr:27,shl:340,rng:250,spd:440,itv:500}}
+{id:179,conversion:"BDLS129",name:"Signal Flag SR",cost:20,auraStat:{main:{pwr:30,shl:20,rng:250,spd:400,itv:1000}}}
 
 {group:"Conversion-SWP",prefixID:"CS",commonStat:{tunable:{pwp:1}}}
 {id:1,name:"Gradd Chainsaw",cost:60,sub:{str:100,pwr:32,rng:70,spd:85,itv:500},conversion:"BDLS3AM"}
@@ -205,7 +208,7 @@
 {id:37,name:"Revenant Sword",cost:120,sub:{str:100,pwr:32,rng:70,spd:85,itv:1000},conversion:"AMM137"}
 {id:38,name:"Axion Sword Bit",cost:30,sub:{str:100,pwr:30,rng:150,spd:500,itv:1000},conversion:"BDLS66"}
 {id:39,name:"Tyrant Destructor BD@2",cost:120,slot:0,sub:{pwr:9,shl:400,rng:350,spd:290,itv:1000},tunable:{pwp:0},conversion:"BDCL39"}
-{id:40,name:"Gathima Howzer",cost:20,slot:0,sub:{pwr:26,shl:90,rng:300,spd:200,itv:1000},tunable:{pwp:0},conversion:"BDCS46"}
+{id:40,name:"Gathima Howzer",cost:20,slot:0,sub:{pwr:40,shl:60,rng:350,spd:240,itv:1000},tunable:{pwp:0},conversion:"BDCS46"}
 {id:41,name:"Adone Trance",slot:0,sub:{itv:1000},tunable:{pwp:0},conversion:"BDAM45"}
 {id:42,name:"Forbidden Sword",cost:100,sub:{str:100,pwr:32,rng:100,spd:150,itv:2000},conversion:"WPCO20"}
 {id:43,name:"Forbidden Axe",cost:50,sub:{str:100,pwr:28,shl:30,rng:200,spd:290,itv:1000},conversion:"WPCO20"}

@@ -52,7 +52,7 @@
 {id:37,name:"Wanders LG",cost:45,hp:25,str:-1,tec:1,wlk:3,fly:1,tgh:2}
 {id:38,name:"Cross Raptor LG",cost:45,hp:25,tec:1,wlk:3,fly:1,tgh:1}
 {id:39,name:"Alestar LG",type:"s",cost:95,hp:25,str:1,tec:-1,wlk:3,tgh:2,sub:{pwr:18,shl:80,rng:300,spd:100,itv:1000}}
-{id:40,name:"Fairys LG",cost:45,hp:25,str:-1,wlk:3,fly:2,tgh:1}
+{id:40,name:"Fairys LG",cost:45,hp:25,str:-1,tec:1,wlk:3,fly:2,tgh:1}
 {id:41,name:"Psycho Formula LG",cost:45,hp:25,tec:2,wlk:3,tgh:1}
 {id:42,name:"Knightger LG",cost:45,hp:25,str:1,wlk:3,fly:1,tgh:1}
 {id:43,name:"Chrotacs LG",cost:45,hp:25,str:-1,tec:2,wlk:3,tgh:2}
@@ -471,6 +471,9 @@
 {id:181,name:"Falke Armor LG",type:"a",cost:90,hp:55,wlk:2,fly:2,tgh:2,sub:{pwr:30,shl:100,spd:200,itv:1000},tunable:{pwp:1}}
 {id:182,name:"Swell LG",cost:45,hp:35,str:-1,tec:2,wlk:3,tgh:2}
 {id:183,name:"HUNDRED EDGE LG0",joint:{wp:1},cost:50,hp:60,str:1,tec:-1,wlk:3,fly:1,tgh:2}
+{id:184,name:"Victorl LG2",cost:45,hp:25,str:-1,tec:2,wlk:2,fly:1,tgh:2}
+{id:185,name:"Belphego LG",cost:45,hp:25,str:2,wlk:3,tgh:1}
+{id:186,name:"Albireon LG",type:"c",cost:120,hp:70,str:-1,tec:2,wlk:4,tgh:1,main:{pwr:11,shl:660,rng:350,spd:240,itv:700},sub:{pwr:14,shl:240,rng:350,spd:280,itv:1000},tunable:{mwp:1},auraStat:{hp:70,str:-1,tec:2,wlk:4,tgh:1,main:{pwr:12,shl:540,rng:350,spd:240,itv:700},sub:{pwr:16,shl:240,rng:350,spd:320,itv:1000}}}
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:1,name:"Shino Exroad LG",type:"l",cost:145,hp:55,str:2,tec:-1,wlk:4,tgh:1,joint:{bs:1},sub:{str:100,pwr:28,rng:150,spd:150,itv:1500},tunable:{pwp:1}}
@@ -496,6 +499,7 @@
 {id:21,name:"Big Mountaiz Tri LG",type:"a",cost:80,hp:70,str:-1,tec:1,wlk:2,fly:2,tgh:2,sub:{shl:150,spd:100,itv:1000}}
 {id:22,name:"Raclaboros LG2",type:"s",cost:200,hp:60,str:-1,tec:3,wlk:3,tgh:1,main:{pwr:7,shl:1380,rng:300,spd:400,itv:300},sub:{pwr:7,shl:1600,spd:160,itv:1000},tunable:{mwp:1,pwp:1}}
 {id:23,name:"Cyclotes LG",cost:50,hp:75,str:2,tec:-1,wlk:3,tgh:2}
+{id:24,name:"Big Mountaiz LG3",type:"a",cost:100,hp:70,str:-1,tec:1,wlk:1,fly:2,tgh:3,sub:{shl:20,spd:100,itv:1000}}
 
 {group:"Joint",prefixID:"J",commonStat:{jointPart:1,slot:1,size:"M"}}
 {id:1,name:"Generic LGJ"}
