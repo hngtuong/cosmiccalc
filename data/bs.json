@@ -1,6 +1,6 @@
 ﻿{group:"Conversion",prefixID:"O"}
 {id:1,name:"A.L.E. LazFlamme BS",type:"l",cost:70,hp:25,str:-1,tec:2,wlk:2,fly:2,sub:{pwr:20,shl:30,rng:150,spd:200,itv:500},tunable:{pwp:1},conversion:"LGS34"}
-{id:2,name:"Fairys BS@",cost:20,alot:0,sub:{shl:40,spd:160,itv:1000},conversion:"BSM74 BSM227"}
+{id:2,name:"Fairys BS@",cost:20,slot:0,sub:{shl:40,spd:160,itv:1000},conversion:"BSM74 BSM227"}
 {id:3,name:"Shadow Kinesis BS@",cost:20,slot:0,sub:{rng:275,spd:10,itv:1000},conversion:"BSM93 BSM174"}
 {id:4,name:"K Nonna BS@",cost:160,slot:0,main:{pwr:15,shl:450,rng:350,spd:500,itv:400},sub:{pwr:28,shl:100,rng:350,spd:500,itv:3000},conversion:"BSS29"}
 {id:5,name:"Meteora BS2@",cost:20,slot:0,sub:{shl:40,rng:100,spd:150,itv:1000},conversion:"BSS54"}
