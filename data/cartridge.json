@@ -41,10 +41,16 @@
 // {id:49,name:"484",comment:"Increase Blast type attack by 15%."}
 // {id:50,name:"485",comment:"Increase Beam type attack by 15%."}
 // {id:51,name:"486",comment:"Increase Physical type attack by 15%."}
-{id:52,name:"Ascending Force",comment:"During normal flight, your altitude will gradually increase until limit. Speed of the ascent varies ty type"}
+{id:52,name:"Ascending Force",comment:"During normal flight, your altitude will gradually increase until limit. Speed of the ascent varies by type"}
 {id:53,name:"Fall Charge",comment:"Boost gauge will gradually charge when falling"}
 {id:54,name:"Aqua Walk",comment:"Allows you to walk normally through water."}
 {id:55,name:"Unique Cartridge",comment:"Other special carts for specific robots."}
+{id:56,name:"Break Counter",comment:"When a part is destroyed, damage done to opponent is increased by 10% for 10 seconds."}
+{id:57,name:"Burst Supply",comment:"2% chance number of bullets for all weapons will be restored by 1% of max ammo when firing."}
+{id:58,name:"Lifetaker",comment:"50% chance to absorb 10% dealt melee damage."}
+{id:59,name:"Healing Fighter",comment:"Attack boost whenever HP is recovered."}
+{id:60,name:"Air Run",comment:"Run quickly Mid-air from the edge of a cliff."}
+{id:61,name:"Custom Link Shot",comment:"Weapons will be able to use with Linkshot if allowed."}
 // legacy cartridges for at least some semblence of backward compatibility
 {id:3,name:"Capacity +70",comment:"Raises robot's cost capacity by 70 and HP by #hp."}
 {id:4,name:"Capacity +80",comment:"Raises robot's cost capacity by 80 and HP by #hp."}
