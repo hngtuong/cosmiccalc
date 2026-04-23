@@ -2455,20 +2455,37 @@ function autoSetup(ccd){
 };
 
 function restrictCheck(trg){
-	if(trg.ccd.part != "bd"){
-		$(trg.ccd.list).children(".riku,.ku,.hou,.ho,.hidden").hide();
-		$(TYPE_TO_CLASS[Result.type]).show();
-		$(SIZE_TO_CLASS[Result.size]).hide();
+	var $list = $(trg.ccd.list);
+	var $all = $list.children(".prtlst");
+	if(trg.ccd.part == "bd"){
+		$all.show();
+		return;
+	}
 
-		$(trg.ccd.list).children(".conversion").hide();
-		var parentPart = trg.parentNode.parentNode.children[1];
-		if($(parentPart).hasClass('fixed'))
-			$("."+parentPart.ccd.parts_ref.id).show();
-		else
-			$("."+parentPart.ccd.part.toUpperCase()+parentPart.ccd.parts_ref.id).show();
+	// Start from a clean slate: hide everything
+	// Base candidates: exclude hard-hidden rows
+	$all.hide();
+	var $cand = $all.not(".hidden");
+	// Type restriction (riku/ku/hou/ho classes)
+	var typeSel = TYPE_TO_CLASS[Result.type];
+	if(typeSel) $cand = $cand.filter(typeSel);
+	// Size restriction (siz_* classes). SIZE_TO_CLASS stores "incompatible sizes" selectors
+	var sizeHideSel = SIZE_TO_CLASS[Result.size];
+	if(sizeHideSel) $cand = $cand.not(sizeHideSel);
+	// Conversion restriction: conversion parts must match the parent part ID token
+	var parentPart = trg.parentNode.parentNode.children[1];
+	var convToken = "";
+	if(parentPart && parentPart.ccd && parentPart.ccd.parts_ref && parentPart.ccd.parts_ref.id){
+		if($(parentPart).hasClass("fixed")) convToken = "." + parentPart.ccd.parts_ref.id;
+		else convToken = "." + parentPart.ccd.part.toUpperCase() + parentPart.ccd.parts_ref.id;
+	}
+	// Show allowed items only
+	var $nonConv = $cand.not(".conversion");
+	var $conv = convToken ? $cand.filter(".conversion").filter(convToken) : $cand.filter(".conversion").slice(0, 0);
+	$nonConv.show();
+	$conv.show();
 
-		if($(trg.parentNode).is(".except_joint")) $(trg.ccd.list).children(".joint").hide();
-	}else $(trg.ccd.list).children(".prtlst").show();
+	if($(trg.parentNode).is(".except_joint")) $list.children(".joint:visible").hide();
 }
 
 function renewRes(){
@@ -2568,7 +2585,7 @@ function renewPdv(callerRef, data, sdat, f){
 				tec = tec<0 ? 0 : (tec>40 ? 40 : tec);
 				str = wpd.str ? parseInt(str * wpd.str / 100) : 0;
 				tec = wpd.tec ? parseInt(tec * wpd.tec / 100) : 0;
-				var dmg = parseInt(pwr * (1000+k*(str+tec-10))+000) / 1000; //000 was 500, fixed since squish thought its wrong
+				var dmg = parseInt(pwr * (1000+k*(str+tec-10)) + 0) / 1000; //000 was 500, fixed since squish thought its wrong
 				PDV_elms[ms].dmg.current.text(dmg);
 				if(pwr>0){
 					var obj = $("[pwr="+pwr+"]", PDV_elms.damage_map[st]);
