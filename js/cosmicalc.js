@@ -267,6 +267,7 @@ $.extend(UnRedo, {
 				Assembly.wb.def = Master.defaultwb[ccd[0].ref.wbid]+"(default)";
 				Assembly.wb.sb.value = Assembly.wb.def;
 				Assembly.cartridge = ccd[0].ref.cartridge;
+				Result.type = ccd[0].ref.type;
 				makeCartridgeLst();
 			}else{
 				Assembly.cartridge = {hpup:0,capaup:0,ecapaup:0};
@@ -638,6 +639,13 @@ ajaxManager.set([
 		file: CARTRIDGE_MASTER_FILE_NAME,
 		callback: function(){
 			if(Master.cartridge[this.id]) throw "Duplicate ID @605";
+			if(this.type){
+				var typ = this.type.match(/[l陸]/) ? "陸" : "－";
+				typ += this.type.match(/[a空]/) ? "空" : "－";
+				typ += this.type.match(/[c砲]/) ? "砲" : "－";
+				typ += this.type.match(/[s補]/) ? "補" : "－";
+				this.type = typ;
+			}
 			Master.cartridge[this.id] = $.extend({}, this);
 			Master.cartridge[this.name] = this.id;
 			if(this.ex) Master.cartridge.ex.push(Master.cartridge[this.id]);
@@ -1150,6 +1158,7 @@ $(List_elms.bd).click(function(e){
 	Assembly.wb.def = def_wb;
 	Assembly.wb.sb.value = def_wb;
 	Assembly.cartridge = pd.cartridge;
+	Result.type = pd.type;
 	makeCartridgeLst();
 	$("#ASSEMBLE .branch>.select_box:visible").each(function(){
 		var current_pd = this.ccd.parts_ref;
@@ -2305,6 +2314,7 @@ function makeCartridgeLst(){
 	});
 
 	$.each(Master.cartridge.ex, function(i){
+		if(this.type && this.type.indexOf(Result.type)<0) return;
 		var ctrg = $("#CTRG_TEMPLATE>.cartridge").clone().addClass("ex");
 		ctrg[0].ccd = {cid:this.id, cst:this.cost, cmt:this.comment};
 		ctrg.children(".ctrg_name").text(this.name);
@@ -2371,6 +2381,7 @@ function autoSetup(ccd){
 			Assembly.wb.def = Master.defaultwb[pd.wbid]+"(default)";
 			Assembly.wb.sb.value = Assembly.wb.def;
 			Assembly.cartridge = pd.cartridge;
+			Result.type = pd.type;
 			makeCartridgeLst();
 			
 			if(pd.maxlevel == undefined){
