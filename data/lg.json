@@ -143,6 +143,8 @@
 {id:128,name:"Turtlebacker LG2",cost:45,hp:25,str:2,wlk:2,fly:-1,tgh:3}
 {id:129,name:"Sheeno LG",cost:45,hp:25,str:1,tec:-1,wlk:4,tgh:2}
 {id:130,name:"Syverion LG2",type:"l",cost:65,hp:25,str:-1,tec:2,wlk:4,tgh:1,sub:{shl:30,spd:200,itv:1000}}
+{id:131,name:"Gadel LG",cost:45,hp:25,str:-1,tec:3,wlk:2,fly:1}
+{id:132,name:"P. Lizbed LG",cost:45,hp:25,str:-1,tec:2,wlk:3,fly:2}
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Axion LG",type:"l",cost:45,hp:25,str:1,tec:1,wlk:3,fly:2,tgh:-1}
@@ -477,6 +479,8 @@
 {id:185,name:"Belphego LG",cost:45,hp:25,str:2,wlk:3,tgh:1}
 {id:186,name:"Albireon LG",type:"c",cost:120,hp:70,str:-1,tec:2,wlk:4,tgh:1,main:{pwr:11,shl:660,rng:350,spd:240,itv:700},sub:{pwr:14,shl:240,rng:350,spd:280,itv:1000},tunable:{mwp:1},auraStat:{hp:70,str:-1,tec:2,wlk:4,tgh:1,main:{pwr:12,shl:540,rng:350,spd:240,itv:700},sub:{pwr:16,shl:240,rng:350,spd:320,itv:1000}}}
 {id:187,name:"Garamusya LG",cost:50,hp:75,str:1,wlk:3,fly:-1,tgh:3}
+{id:188,name:"Trumpetter LG",type:"a",cost:50,hp:30,wlk:2,fly:2,tgh:2}
+{id:189,name:"Abadhorn LG",type:"l",cost:50,hp:30,wlk:2,fly:2,tgh:2}
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:1,name:"Shino Exroad LG",type:"l",cost:145,hp:55,str:2,tec:-1,wlk:4,tgh:1,joint:{bs:1},sub:{str:100,pwr:28,rng:150,spd:150,itv:1500},tunable:{pwp:1}}

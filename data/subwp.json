@@ -54,6 +54,7 @@
 {id:47,name:"Zephyr Blade",size:"M",type:"a",cost:50,sub:{str:100,pwr:30,shl:60,rng:77,spd:94,itv:1000}}
 {id:48,name:"Cyber Saber",size:"M",type:"l",cost:160,sub:{str:100,pwr:34,rng:77,spd:94,itv:1000}}
 {id:49,name:"Long Blade",size:"L",type:"l",cost:150,sub:{str:100,pwr:30,shl:100,rng:77,spd:94,itv:1000}}
+{id:50,name:"Gadel Saber",size:"S",type:"l",cost:110,sub:{str:100,pwr:32,rng:77,spd:94,itv:1000}}
 
 {group:"Axes",prefixID:"AX",commonStat:{tunable:{pwp:1}}}
 {id:1,name:"Hand Axe",size:"S",type:"lcs",cost:40,sub:{str:100,pwr:30,rng:56,spd:68,itv:1000}}

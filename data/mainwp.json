@@ -242,4 +242,9 @@
 {id:34,name:"Tornado Fan",size:"L",type:"a",cost:120,main:{pwr:20,shl:320,rng:275,spd:260,itv:600}}
 {id:35,name:"Beam SB Pitcher",size:"M",type:"a",cost:150,main:{pwr:20,shl:360,rng:275,spd:100,itv:600}}
 {id:36,name:"Throwing Edge",size:"S",type:"l",cost:200,main:{str:100,pwr:17,shl:480,rng:250,spd:440,itv:340},sub:{str:100,pwr:28,shl:"-",rng:77,spd:94,itv:1000},tunable:{mwp:1,pwp:1}}
+{id:37,name:"Gadel Shield",size:"S",type:"l",cost:80,main:{str:100,pwr:25,shl:500,rng:250,spd:300,itv:200}}
+{id:38,name:"Crown Rod",size:"S",type:"s",cost:180,main:{pwr:20,shl:420,rng:300,spd:290,itv:600},sub:{pwr:35,rng:70,spd:85,itv:100},tunable:{pwp:1}}
+{id:39,name:"Brink Hammer",size:"M",type:"c",cost:150,main:{pwr:12,shl:800,rng:280,spd:480,itv:100},sub:{pwr:55,shl:30,rng:150,spd:350,itv:1000},tunable:{pwp:1}}
+{id:40,name:"Brink Greatshield",size:"M",type:"c",cost:80,main:{pwr:30,shl:500,rng:350,spd:320,itv:200}}
+
 //Some weapons missing: Blow Bazooka, Pierce Gun, Shield Shotgun, Snowman Pitcher

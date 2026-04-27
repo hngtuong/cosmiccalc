@@ -80,6 +80,7 @@
 {id:76,name:"Setsuka HD2",cost:35,hp:20,str:-1,tec:1,wlk:2,fly:1,tgh:2}
 {id:77,name:"Syverion HD2",cost:30,hp:15,tec:1,wlk:2,fly:2,tgh:-1}
 {id:78,name:"Glasha HD",cost:35,hp:20,str:-1,tec:2,wlk:2,fly:2}
+{id:79,name:"P. Lizbed HD",cost:35,hp:20,wlk:2,fly:1,tgh:2}
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Gwyain HD",cost:40,hp:25,str:2,tec:1,wlk:2}
@@ -511,6 +512,8 @@
 {id:438,name:"Fairys HD2",cost:35,hp:20,str:-1,tec:1,wlk:1,fly:3,tgh:1}
 {id:439,name:"Albireon HD",cost:35,hp:20,tec:2,wlk:2,tgh:1}
 {id:440,name:"Ragna Barret HD2",cost:35,hp:20,str:-1,tec:2,wlk:2,fly:1,tgh:1}
+{id:441,name:"V.Unken HD2",cost:35,hp:20,tec:1,wlk:1,fly:1,tgh:2}
+{id:442,name:"Brink HD2",cost:40,hp:25,tec:3,wlk:1,fly:-1,tgh:2}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Aquila HD",cost:35,hp:20,str:1,tec:1,wlk:2,fly:1}

@@ -15,6 +15,9 @@
 {id:14,conversion:"AML125 AML214",name:"Liozen AM@2",slot:0,cost:30,main:{shl:50,spd:10,itv:1000}}
 {id:15,conversion:"BDCM2",name:"Gun Arms AM3",joint:{wp:2},cost:60,str:-1,tec:2,tgh:2}
 {id:16,conversion:"BSO24",name:"Astro Marine AM2",joint:{wp:0},cost:65,hp:20,str:-1,tec:3,fly:1,tgh:2,main:{pwr:7,shl:1530,rng:275,spd:350,itv:140},tunable:{mwp:1}}
+{id:17,conversion:"BDAL65 AMJ33",name:"Trumpetter AM",joint:{wp:2},cost:40,hp:25,tec:1,wlk:1,fly:1,tgh:2,fixedParts:{wp:{name:"Trumpetter AM@",cost:60,slot:0,main:{pwr:14,shl:440,rng:275,spd:350,itv:300}}}}
+{id:18,conversion:"BDLL86 AMJ34",name:"Abadhorn LAM",cost:40,hp:25,str:1,wlk:1,fly:1,tgh:2}
+{id:19,conversion:"BDLL86 AMJ34",name:"Abadhorn RAM",cost:40,hp:25,str:1,wlk:1,fly:1,tgh:2}
 
 {group:"SS Size",prefixID:"SS",commonStat:{size:"SS"}}
 {id:1,name:"Dikaros AM",cost:35,hp:20,str:1,tec:2,fly:1,tgh:1}
@@ -197,6 +200,8 @@
 {id:164,name:"Sheeno AM",cost:35,hp:20,str:1,wlk:2,fly:1,tgh:1}
 {id:165,name:"Oboromaru AM2",type:"a",cost:85,hp:20,str:-1,tec:2,fly:2,tgh:2,main:{pwr:8,shl:540,rng:275,spd:320,itv:900},tunable:{mwp:1}}
 {id:166,name:"Syverion AM3",type:"l",cost:115,hp:20,str:-1,tec:3,wlk:2,tgh:1,main:{pwr:14,shl:360,rng:275,spd:350,itv:500},tunable:{mwp:1}}
+{id:167,name:"Gadel AM",cost:35,hp:20,str:2,tec:-1,wlk:1,tgh:3}
+{id:168,name:"P. Lizbed AM",cost:35,hp:20,str:-1,tec:2,wlk:3,tgh:1}
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Baltheon AM",type:"a",cost:120,hp:25,str:-1,tec:3,fly:1,tgh:2,joint:{wp:0},main:{pwr:12,shl:960,rng:200,spd:480,itv:140},tunable:{mwp:1}}
@@ -440,6 +445,7 @@
 {id:239,name:"Astro Marine AM",cost:35,hp:20,str:-1,tec:2,wlk:1,fly:2,tgh:1}
 {id:240,name:"Glasha AM",cost:35,hp:20,tec:2,wlk:1,fly:1,tgh:1}
 {id:241,name:"Glasha AM2",type:"c",cost:80,hp:20,str:-1,tec:3,wlk:1,fly:1,tgh:1,sub:{pwr:18,shl:150,rng:330,spd:300,itv:1000}}
+{id:242,name:"Brink AM2",cost:40,hp:25,tec:1,wlk:1,fly:1,tgh:2}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Gwyain AM",type:"a",cost:40,hp:25,tec:1,fly:1,tgh:3,joint:{am:1},fixedParts:{am:{name:"Gwyain AM@",slot:0,joint:{wp:0}}}}
@@ -757,7 +763,7 @@
 {id:22,name:"Burst Missile AMJ",type:"c",cost:50,main:{pwr:10,shl:146,rng:330,spd:320,itv:1200},tunable:{mwp:1}}
 {id:23,name:"Mikoto AMJ",type:"lc",cost:15,main:{pwr:12,shl:270,rng:250,spd:400,itv:620},tunable:{mwp:1}}
 {id:24,name:"Tierouge AMJ",type:"a",cost:40,main:{pwr:6,shl:500,rng:275,spd:320,itv:340},tunable:{mwp:1}}
-{id:25,name:"Teitarotes AMJ",type:"c",size:"L",cost:20,main:{pwr:17,shl:120,rng:300,spd:220,itv:600},tunable:{mwp:1}}
+{id:25,name:"Teitarotes AMJ",type:"c",cost:20,main:{pwr:17,shl:120,rng:300,spd:220,itv:600},tunable:{mwp:1}}
 {id:26,name:"Generic AMJ (L)",size:"L"}
 {id:27,name:"Driver Cannon AMJ",size:"S",type:"c",cost:60,main:{pwr:10,shl:600,rng:330,spd:280,itv:340},tunable:{mwp:1}}
 {id:28,name:"Psycho Formula AMJ",size:"S",type:"c",cost:40,main:{pwr:7,shl:560,rng:330,spd:300,itv:740},tunable:{mwp:1}}
@@ -765,3 +771,5 @@
 {id:30,conversion:"BDLL75",name:"Berylskid AMJ",joint:{wp:1},cost:25,hp:-20,wlk:-1,fly:-1}
 {id:31,name:"Raclaboros AMJ2",type:"s",cost:40,main:{pwr:13,shl:360,rng:300,spd:350,itv:500},tunable:{mwp:1}}
 {id:32,name:"Grand Dugdriver AMJ",type:"c",cost:40,main:{pwr:20,shl:240,rng:350,spd:570,itv:800},tunable:{mwp:1}}
+{id:33,conversion:"BDAL65",name:"Trumpetter AMJ",type:"a",size:"L"}
+{id:34,conversion:"BDLL86",name:"Demolition Horn AMJ",type:"l",size:"L",cost:10,main:{str:100,pwr:49,shl:40,rng:250,spd:440,itv:1000},tunable:{mwp:1}}
