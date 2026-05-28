@@ -58,6 +58,7 @@
 {id:50,name:"Beryl Striker",size:"M",type:"l",cost:110,main:{pwr:15,shl:720,rng:250,spd:440,itv:200},sub:{pwr:30,shl:"-",rng:120,spd:250,itv:1000},tunable:{pwp:1}}
 {id:51,name:"Crest Rifle",size:"M",type:"l",cost:130,main:{pwr:27,shl:360,rng:225,spd:400,itv:500}}
 {id:52,name:"Astro STG",cost:60,main:{pwr:13,shl:360,rng:275,spd:400,itv:500}}
+{id:53,name:"Wizamel Wand II",size:"S",type:"a",cost:160,main:{pwr:12,shl:720,rng:275,spd:320,itv:900}}
 
 {group:"Machineguns",prefixID:"MG",commonStat:{tunable:{mwp:1}}}
 {id:1,name:"Nano Machinegun",size:"SS",cost:30,main:{pwr:8,shl:840,rng:160,spd:480,itv:140}}
@@ -246,5 +247,6 @@
 {id:38,name:"Crown Rod",size:"S",type:"s",cost:180,main:{pwr:20,shl:420,rng:300,spd:290,itv:600},sub:{pwr:35,rng:70,spd:85,itv:100},tunable:{pwp:1}}
 {id:39,name:"Brink Hammer",size:"M",type:"c",cost:150,main:{pwr:12,shl:800,rng:280,spd:480,itv:100},sub:{pwr:55,shl:30,rng:150,spd:350,itv:1000},tunable:{pwp:1}}
 {id:40,name:"Brink Greatshield",size:"M",type:"c",cost:80,main:{pwr:30,shl:500,rng:350,spd:320,itv:200}}
-
+{id:41,name:"Khakkhara Rod",size:"L",type:"a",cost:50,main:{pwr:13,shl:240,rng:275,spd:320,itv:800}}
+{id:42,name:"Conch Gun",size:"L",type:"a",cost:130,main:{pwr:22,shl:240,rng:275,spd:280,itv:800},sub:{pwr:20,shl:60,rng:275,spd:180,itv:1000}}
 //Some weapons missing: Blow Bazooka, Pierce Gun, Shield Shotgun, Snowman Pitcher
