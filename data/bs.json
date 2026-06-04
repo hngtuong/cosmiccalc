@@ -612,6 +612,7 @@
 {id:153,name:"Vice Spino BS",type:"l",cost:35,hp:20,tec:-1,wlk:1,fly:3,tgh:2}
 {id:154,name:"Jet Vern BS",type:"a",cost:35,hp:20,tec:3,fly:2}
 {id:155,name:"Hound Dog BS2",type:"l",cost:35,hp:20,str:-1,tec:1,wlk:1,fly:3,tgh:1}
+{id:156,name:"Joste Gunder BS3",type:"l",cost:35,hp:20,wlk:1,fly:3,tgh:1}
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:1,name:"Shaden BS",type:"a",cost:100,hp:25,fly:5,sub:{pwr:1,shl:1,rng:200,spd:110,itv:2000}}
