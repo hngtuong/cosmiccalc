@@ -505,6 +505,8 @@
 {id:198,name:"Gelrick LG",type:"c",cost:80,hp:50,wlk:4,tgh:2,sub:{shl:30,spd:200,itv:1000}}
 {id:199,name:"Poseidon LG2",type:"a",cost:75,hp:60,str:1,wlk:3,fly:2,sub:{shl:60,spd:150,itv:1000}}
 {id:200,name:"AchtSieben LG3",type:"c",cost:75,hp:70,tec:2,wlk:4,sub:{pwr:30,spd:100,itv:1000}}
+{id:201,name:"Protos LG2",type:"c",cost:75,hp:50,str:-1,tec:2,wlk:1,fly:1,tgh:3,sub:{shl:30,itv:1000}}
+{id:202,name:"Twin Towered LG2",type:"c",cost:70,hp:40,tec:2,wlk:2,tgh:1,sub:{shl:30,spd:180,itv:1000}}
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:1,name:"Shino Exroad LG",type:"l",cost:145,hp:55,str:2,tec:-1,wlk:4,tgh:1,joint:{bs:1},sub:{str:100,pwr:28,rng:150,spd:150,itv:1500},tunable:{pwp:1}}

@@ -14,7 +14,7 @@
 {id:13,name:"Auto-Charge Cassette",cost:30,slot:0,main:{pwr:32,shl:100,rng:300,spd:480,itv:500},conversion:"WPCO4 WPCO13"}
 {id:14,name:"Impact Arrow",cost:30,slot:0,main:{pwr:22,shl:230,rng:225,spd:480,itv:600},conversion:"AMM83 AMM91"}
 {id:15,name:"Homing Arrow",cost:50,slot:0,main:{pwr:13,shl:180,rng:250,spd:320,itv:800},conversion:"AMM83 AMM91"}
-{id:16,name:"Labyrinthaxe",cost:225,main:{pwr:18,shl:720,rng:350,spd:330,itv:340},sub:{pwr:34,shl:120,rng:350,spd:320,itv:1000},conversion:"BDCS21AM BDCS82AM3"}
+{id:16,name:"Labyrinthaxe",cost:225,main:{pwr:22,shl:720,rng:350,spd:330,itv:340},sub:{pwr:34,shl:120,rng:350,spd:320,itv:1000},conversion:"BDCS21AM BDCS82AM3"}
 {id:17,name:"Power Arrow",cost:30,slot:0,main:{pwr:28,shl:320,rng:225,spd:480,itv:700},conversion:"AMM83 AMM91"}
 {id:18,name:"Airyad Bit ALPHA",cost:70,slot:0,main:{pwr:4,shl:840,rng:275,spd:440,itv:900},conversion:"WPCO7"}
 {id:19,name:"Airyad Bit BETA",cost:100,slot:0,main:{pwr:6,shl:920,rng:275,spd:440,itv:380},conversion:"WPCO7"}
@@ -57,8 +57,8 @@
 {id:56,name:"Fin Musket",cost:60,main:{pwr:24,shl:350,rng:350,spd:440,itv:600},conversion:"BDCS43AM2"}
 {id:57,name:"Fin Cannon SS",cost:70,main:{pwr:6,shl:420,rng:330,spd:280,itv:900},sub:{pwr:30,rng:0,spd:100,itv:1000},conversion:"BDCS43"}
 {id:58,name:"Fin Cannon HE",cost:80,main:{pwr:21,shl:540,rng:330,spd:400,itv:700},sub:{pwr:10,shl:320,rng:350,spd:280,itv:1000},conversion:"BDCS43"}
-{id:59,conversion:"BDCS21AM BDCS82AM3",name:"Labyrinthhammer",cost:100,joint:{wp:1},main:{pwr:23,shl:26,rng:350,spd:280,itv:1200},sub:{pwr:40,shl:100,rng:350,spd:320,itv:1000}}
-{id:60,name:"Blitz B Machinegun",cost:120,joint:{wp:1},main:{pwr:14,shl:720,rng:275,spd:440,itv:240},conversion:"BDAS44AM2 BDAS100AM2",fixedParts:{wp:{name:"Connect Blast",slot:0,main:{pwr:20,shl:430,rng:350,spd:400,itv:500}}}}
+{id:59,conversion:"BDCS21AM BDCS82AM3",name:"Labyrinthhammer",cost:100,joint:{wp:1},main:{pwr:23,shl:52,rng:350,spd:280,itv:1200},sub:{pwr:40,shl:100,rng:350,spd:320,itv:1000}}
+{id:60,name:"Blitz B Machinegun",cost:120,joint:{wp:1},main:{pwr:21,shl:720,rng:275,spd:480,itv:240},conversion:"BDAS44AM2 BDAS100AM2",fixedParts:{wp:{name:"Connect Blast",slot:0,main:{pwr:25,shl:430,rng:350,spd:400,itv:500}}}}
 {id:61,name:"Gale Rod",cost:120,joint:{wp:1},main:{pwr:24,shl:340,rng:275,spd:400,itv:500},sub:{pwr:10,shl:60,rng:0,spd:150,itv:1000},conversion:"BDAS13AM BDAS46AM"}
 {id:62,name:"Guardian Rook L/R",cost:60,main:{pwr:12,shl:700,rng:275,spd:330,itv:300},conversion:"BDAS48"}
 {id:63,name:"Mega Rook Cannon",cost:30,slot:0,main:{pwr:42,shl:60,rng:300,spd:480,itv:1000},conversion:"BDAS48"}
@@ -150,7 +150,7 @@
 {id:149,conversion:"AMM217",name:"Gustclaw Shield",size:"M",type:"a",cost:30,main:{pwr:0,shl:100,rng:0,spd:10,itv:1000},tunable:{mwp:1},comment:"Type/Size restriction applies"}
 {id:150,conversion:"AMM217",name:"Gustclaw S Rifle",size:"M",type:"a",cost:100,main:{pwr:12,shl:550,rng:275,spd:400,itv:340},tunable:{mwp:1},comment:"Type/Size restriction applies"}
 {id:151,conversion:"BDLS116AM",name:"Angel Shooter",cost:115,main:{str:100,pwr:17,shl:750,rng:250,spd:440,itv:200},sub:{str:100,pwr:16,shl:240,rng:250,spd:400,itv:500}}
-{id:152,conversion:"BDAS44AM2 BDAS100AM2",name:"Gewitter Gattling",cost:120,joint:{wp:1},main:{pwr:8,shl:1920,rng:275,spd:520,itv:240},fixedParts:{wp:{name:"Connect Blast II",slot:0,main:{pwr:35,shl:330,rng:350,spd:400,itv:500}}}}
+{id:152,conversion:"BDAS44AM2 BDAS100AM2",name:"Gewitter Gattling",cost:120,joint:{wp:1},main:{pwr:16,shl:1920,rng:275,spd:520,itv:240},fixedParts:{wp:{name:"Connect Blast II",slot:0,main:{pwr:35,shl:330,rng:350,spd:400,itv:500}}}}
 {id:153,conversion:"BDAL56",name:"Apollion BD@",cost:40,slot:0,main:{str:100,pwr:8,shl:200,rng:275,spd:480,itv:500},auraStat:{main:{str:100,pwr:10,shl:200,rng:275,spd:480,itv:500}}}
 {id:154,conversion:"BDCL66 BDCL70",name:"Mururugaru BD@2",cost:160,main:{pwr:46,shl:220,rng:350,spd:440,itv:900}}
 {id:155,conversion:"BDLS51R",name:"Eisen Faust",cost:30,main:{shl:20,spd:10,itv:1000}}
@@ -178,7 +178,7 @@
 {id:187,conversion:"BDAS36AM BDAS95AM",name:"Mega Blood Shooter",cost:160,main:{pwr:34,shl:440,rng:275,spd:440,itv:500}}
 {id:188,conversion:"BDCL47AM BDCL78AM",name:"Zeta Arsenal AMEX3",cost:70,slot:0,main:{pwr:27,shl:200,rng:350,spd:240,itv:900}}
 {id:189,conversion:"BDCL47AM BDCL78AM",name:"Zeta Arsenal AMEX4",cost:70,slot:0,main:{pwr:18,shl:80,rng:350,spd:480,itv:2000}}
-{id:190,conversion:"WPCM59",name:"Labyrinthhammer@",cost:125,slot:0,main:{pwr:20,shl:720,rng:350,spd:400,itv:340},sub:{pwr:34,shl:60,rng:350,spd:320,itv:1000}}
+{id:190,conversion:"WPCM59",name:"Labyrinthhammer@",cost:125,slot:0,main:{pwr:28,shl:720,rng:380,spd:430,itv:340},sub:{pwr:34,shl:60,rng:350,spd:320,itv:1000}}
 
 {group:"Conversion-SWP",prefixID:"CS",commonStat:{tunable:{pwp:1}}}
 {id:1,name:"Gradd Chainsaw",cost:60,sub:{str:100,pwr:32,rng:70,spd:85,itv:500},conversion:"BDLS3AM"}
@@ -312,7 +312,7 @@
 {id:49,conversion:"BDLS72 BDLS138",name:"Fluffy Cape",cost:50,slot:0,joint:{wp:1},main:{str:100,pwr:20,shl:50,rng:200,spd:500,itv:1000}}
 {id:50,conversion:"BDLS72 BDLS138",name:"Warm Cape",cost:50,slot:0,joint:{wp:1},main:{str:100,pwr:20,shl:50,rng:200,spd:500,itv:1000}}
 {id:51,conversion:"BDCL79",name:"Transform_",cost:100,slot:0,sub:{spd:10,itv:1000}}
-{id:52,name:"Donor Musket",cost:30,joint:{wp:1},conversion:"BDAS44AM BDAS100AM",fixedParts:{wp:{name:"Donor Musket@",slot:0,main:{pwr:25,shl:50,rng:275,spd:400,itv:1000}}}}
+{id:52,name:"Donor Musket",cost:30,joint:{wp:1},conversion:"BDAS44AM BDAS100AM",fixedParts:{wp:{name:"Donor Musket@",slot:0,main:{pwr:30,shl:50,rng:275,spd:400,itv:1000}}}}
 {id:53,conversion:"BDAS44AM BDAS100AM",name:"Blitzen Masket",cost:30,joint:{wp:1},fixedParts:{wp:{name:"Blitzen Masket@",slot:0,main:{pwr:36,shl:50,rng:275,spd:350,itv:300}}}}
 {id:998,name:"Memory Slot (1)",conversion:"BDAS89 BDLS117AM AMS80 AMS81 BDCS71 BDLS120 BDLS121 AML232 AML233 BDAS90 BDLS128 BDLS130 BDLS51AMR BDAS36 BDAS36AM BDAS95 BDAS95AM BDCL78AM AMS174 BDLS138"}
 {id:999,name:"Memory Slot ",conversion:"BDLS87LG BDAS61AM BDAS61AM2 BDAS62AM2 BDLL54 BDSS47 BDSS48 BDSS49 BDLS91 BDLS91AM2 BDLS94 AMS131 BDAS72AM2 BDSS53 BDLS95 BDLS95AM BDLS97 AMO10 BDLS98 AMS138 BDLS100 BDCS59AM LGS114 AMS143 AMO13 BSJ6 BDAS77 BDCS60AM BDAS78 BDAS79 BDAS80AM BDAS80AM2 BDAS82 BDLS105 BDLS106 AML199 BDCS62AM BDLS107 BDCS63 BDLS111 BSO23 BDLS113 BDLS113AM BDCS67AM BDLS115 BDCS69"}

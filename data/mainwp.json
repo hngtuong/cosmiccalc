@@ -59,6 +59,7 @@
 {id:51,name:"Crest Rifle",size:"M",type:"l",cost:130,main:{pwr:27,shl:360,rng:225,spd:400,itv:500}}
 {id:52,name:"Astro STG",cost:60,main:{pwr:13,shl:360,rng:275,spd:400,itv:500}}
 {id:53,name:"Wizamel Wand II",size:"S",type:"a",cost:160,main:{pwr:12,shl:720,rng:275,spd:320,itv:900}}
+{id:54,name:"Astro SG",size:"M",type:"a",cost:40,main:{pwr:7,shl:720,rng:275,spd:480,itv:800}}
 
 {group:"Machineguns",prefixID:"MG",commonStat:{tunable:{mwp:1}}}
 {id:1,name:"Nano Machinegun",size:"SS",cost:30,main:{pwr:8,shl:840,rng:160,spd:480,itv:140}}
@@ -108,6 +109,7 @@
 {id:23,name:"Spiral Rifle",size:"M",type:"c",cost:140,main:{pwr:14,shl:600,rng:330,spd:480,itv:600}}
 {id:24,name:"Nonna Rifle",size:"S",type:"c",cost:130,main:{pwr:16,shl:630,rng:330,spd:480,itv:140}}
 {id:25,name:"Hadron Breaker",size:"M",type:"c",cost:160,main:{pwr:15,shl:810,rng:330,spd:570,itv:140}}
+{id:26,name:"Energy Beam Rifle",type:"a",cost:100,main:{pwr:19,shl:405,rng:275,spd:530,itv:200}}
 
 {group:"Shooter",prefixID:"ST",commonStat:{tunable:{mwp:1}}}
 {id:1,name:"Cross Shooter",size:"S",type:"las",cost:60,main:{pwr:14,shl:430,rng:250,spd:440,itv:400}}
